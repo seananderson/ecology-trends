@@ -1,140 +1,111 @@
 journal,subject,continuation_id,start,end,duration,url
-The Dublin Penny Journal,zoology,,1832,1836,4.0,http://www.jstor.org/journal/dublpennj
 Proceedings of the Academy of Natural Sciences of Philadelphia,biologicalsciences,,1841,2011,170.0,http://www.jstor.org/journal/procacadnatuscie
 The American Naturalist,biologicalsciences; ecology,,1867,2015,148.0,http://www.jstor.org/journal/amernatu
-Annals of Botany,biologicalsciences; botany,,1887,2010,123.0,http://www.jstor.org/journal/annabota
-Contributions from the United States National Herbarium,botany,,1890,2011,121.0,http://www.jstor.org/journal/contusnatiherb
-Missouri Botanical Garden Annual Report,biologicalsciences; botany,,1890,1912,22.0,http://www.jstor.org/journal/missbotagardannu
-The Bryologist,biologicalsciences; botany,,1898,2012,114.0,http://www.jstor.org/journal/bryologist
-Rhodora,botany,,1899,2010,111.0,http://www.jstor.org/journal/rhodora
-The New Phytologist,biologicalsciences; botany,,1902,2012,110.0,http://www.jstor.org/journal/newphytologist
-Bartonia,botany,,1908,2015,107.0,http://www.jstor.org/journal/bartonia
-Internationaler phytopathologischer Dienst,botany,,1908,1908,0.0,http://www.jstor.org/journal/intephytdien
-American Fern Journal,biologicalsciences; botany,,1910,2012,102.0,http://www.jstor.org/journal/americanfernj
-Copeia,biologicalsciences; zoology,,1913,2012,99.0,http://www.jstor.org/journal/copeia
+Annals of Botany,biologicalsciences,,1887,2010,123.0,http://www.jstor.org/journal/annabota
+Missouri Botanical Garden Annual Report,biologicalsciences,,1890,1912,22.0,http://www.jstor.org/journal/missbotagardannu
+The Bryologist,biologicalsciences,,1898,2012,114.0,http://www.jstor.org/journal/bryologist
+The New Phytologist,biologicalsciences,,1902,2012,110.0,http://www.jstor.org/journal/newphytologist
+American Fern Journal,biologicalsciences,,1910,2012,102.0,http://www.jstor.org/journal/americanfernj
+Copeia,biologicalsciences,,1913,2012,99.0,http://www.jstor.org/journal/copeia
 Journal of Ecology,biologicalsciences; ecology,,1913,2010,97.0,http://www.jstor.org/journal/jecology
-American Journal of Botany,biologicalsciences; botany,,1914,2010,96.0,http://www.jstor.org/journal/americanjbotany
-Annals of the Missouri Botanical Garden,biologicalsciences; botany,,1914,2012,98.0,http://www.jstor.org/journal/annamissbotagard
-Journal (American Water Works Association),biologicalsciences; environmentalscience,,1914,2012,98.0,http://www.jstor.org/journal/jamewatworass
-The Journal of Parasitology,biologicalsciences; zoology,,1914,2012,98.0,http://www.jstor.org/journal/jparasitology
+American Journal of Botany,biologicalsciences,,1914,2010,96.0,http://www.jstor.org/journal/americanjbotany
+Annals of the Missouri Botanical Garden,biologicalsciences,,1914,2012,98.0,http://www.jstor.org/journal/annamissbotagard
+Journal (American Water Works Association),biologicalsciences,,1914,2012,98.0,http://www.jstor.org/journal/jamewatworass
+The Journal of Parasitology,biologicalsciences,,1914,2012,98.0,http://www.jstor.org/journal/jparasitology
 Proceedings of the National Academy of Sciences of the United States of America,biologicalsciences,,1915,2013,98.0,http://www.jstor.org/journal/procnatiacadscie
-Madroño,botany,,1916,2012,96.0,http://www.jstor.org/journal/madrono
 Bulletin of the Ecological Society of America,biologicalsciences; ecology,,1917,2015,98.0,http://www.jstor.org/journal/bullecosociamer
-Journal of Mammalogy,biologicalsciences; ecology; zoology,,1919,2012,93.0,http://www.jstor.org/journal/jmammalogy
-Darwiniana,botany,,1922,2013,91.0,http://www.jstor.org/journal/darwiniana
-Plant Physiology,biologicalsciences; botany,,1926,2013,87.0,http://www.jstor.org/journal/planphys
+Journal of Mammalogy,biologicalsciences; ecology,,1919,2012,93.0,http://www.jstor.org/journal/jmammalogy
+Plant Physiology,biologicalsciences,,1926,2013,87.0,http://www.jstor.org/journal/planphys
 The Quarterly Review of Biology,biologicalsciences; ecology,,1926,2015,89.0,http://www.jstor.org/journal/quarrevibiol
 Journal of Paleontology,biologicalsciences,,1927,2011,84.0,http://www.jstor.org/journal/jpaleontology
-Journal of the Kansas Entomological Society,biologicalsciences; zoology,,1928,2012,84.0,http://www.jstor.org/journal/jkansentosoci
-Butler University Botanical Studies,botany,,1929,1964,35.0,http://www.jstor.org/journal/butlerubotastud
+Journal of the Kansas Entomological Society,biologicalsciences,,1928,2012,84.0,http://www.jstor.org/journal/jkansentosoci
 Human Biology,biologicalsciences,,1929,2015,86.0,http://www.jstor.org/journal/humanbiology
 Bios,biologicalsciences,,1930,2014,84.0,http://www.jstor.org/journal/bios
-Brittonia,biologicalsciences; botany,,1931,2010,79.0,http://www.jstor.org/journal/brittonia
+Brittonia,biologicalsciences,,1931,2010,79.0,http://www.jstor.org/journal/brittonia
 Ecological Monographs,biologicalsciences; ecology,,1931,2013,82.0,http://www.jstor.org/journal/ecolmono
 Journal of Animal Ecology,biologicalsciences; ecology,,1932,2010,78.0,http://www.jstor.org/journal/janimalecology
-Botanical Review,biologicalsciences; botany,,1935,2010,75.0,http://www.jstor.org/journal/botarevi
-Rodriguésia,botany,,1935,2012,77.0,http://www.jstor.org/journal/rodriguesia
-Herpetologica,biologicalsciences; zoology,,1936,2012,76.0,http://www.jstor.org/journal/herpetologica
+Botanical Review,biologicalsciences,,1935,2010,75.0,http://www.jstor.org/journal/botarevi
+Herpetologica,biologicalsciences,,1936,2012,76.0,http://www.jstor.org/journal/herpetologica
 The American Biology Teacher,biologicalsciences,,1938,2015,77.0,http://www.jstor.org/journal/amerbiolteac
-Caldasia,botany; ecology; zoology,,1943,2012,69.0,http://www.jstor.org/journal/caldasia
+Caldasia,ecology,,1943,2012,69.0,http://www.jstor.org/journal/caldasia
 Behaviour,biologicalsciences; ecology,,1947,2010,63.0,http://www.jstor.org/journal/behaviour
-Economic Botany,biologicalsciences; botany,,1947,2010,63.0,http://www.jstor.org/journal/econbota
+Economic Botany,biologicalsciences,,1947,2010,63.0,http://www.jstor.org/journal/econbota
 Evolution,biologicalsciences; ecology,,1947,2012,65.0,http://www.jstor.org/journal/evolution
-The Coleopterists Bulletin,biologicalsciences; zoology,,1947,2010,63.0,http://www.jstor.org/journal/colebull
-Plant and Soil,botany,,1948,2012,64.0,http://www.jstor.org/journal/plantandsoil
-Oikos,biologicalsciences; ecology; zoology,,1949,2008,59.0,http://www.jstor.org/journal/oikos
+The Coleopterists Bulletin,biologicalsciences,,1947,2010,63.0,http://www.jstor.org/journal/colebull
+Oikos,biologicalsciences; ecology,,1949,2008,59.0,http://www.jstor.org/journal/oikos
 Behaviour. Supplement,biologicalsciences; ecology,,1950,1977,27.0,http://www.jstor.org/journal/behasupp
-Taxon,biologicalsciences; botany,,1951,2012,61.0,http://www.jstor.org/journal/taxon
+Taxon,biologicalsciences,,1951,2012,61.0,http://www.jstor.org/journal/taxon
 Radiation Research,biologicalsciences,,1954,2010,56.0,http://www.jstor.org/journal/radirese
 Limnology and Oceanography,biologicalsciences; ecology,,1956,2008,52.0,http://www.jstor.org/journal/limnocea
 The Southwestern Naturalist,biologicalsciences; ecology,,1956,2012,56.0,http://www.jstor.org/journal/soutnatu
-Avian Diseases,biologicalsciences; zoology,,1957,2012,55.0,http://www.jstor.org/journal/aviandiseases
-Wildlife Monographs,biologicalsciences; zoology,,1958,2013,55.0,http://www.jstor.org/journal/wildmono
+Avian Diseases,biologicalsciences,,1957,2012,55.0,http://www.jstor.org/journal/aviandiseases
+Wildlife Monographs,biologicalsciences,,1958,2013,55.0,http://www.jstor.org/journal/wildmono
 Radiation Research Supplement,biologicalsciences,,1959,1985,26.0,http://www.jstor.org/journal/radiresesupp
-Bonplandia,botany,,1960,2010,50.0,http://www.jstor.org/journal/bonplandia
-Crustaceana,biologicalsciences; zoology,,1960,2010,50.0,http://www.jstor.org/journal/crustaceana
-Kirkia,botany,,1960,2006,46.0,http://www.jstor.org/journal/kirkia
-Phytopathologia Mediterranea,botany,,1960,2012,52.0,http://www.jstor.org/journal/phytmedi
-Annales Botanici Fennici,botany,,1964,2012,48.0,http://www.jstor.org/journal/annabotafenn
-Annales Zoologici Fennici,biologicalsciences; botany,,1964,2012,48.0,http://www.jstor.org/journal/annazoolfenn
+Crustaceana,biologicalsciences,,1960,2010,50.0,http://www.jstor.org/journal/crustaceana
+Annales Zoologici Fennici,biologicalsciences,,1964,2012,48.0,http://www.jstor.org/journal/annazoolfenn
 Journal of Applied Ecology,biologicalsciences; ecology,,1964,2010,46.0,http://www.jstor.org/journal/jappliedecology
-Ornithological Monographs,biologicalsciences; zoology,,1964,2013,49.0,http://www.jstor.org/journal/ornithmono
-Acta Botánica Venezuélica,botany,,1965,2012,47.0,http://www.jstor.org/journal/actabotavene
-Flora Neotropica,biologicalsciences; botany,,1967,2010,43.0,http://www.jstor.org/journal/florneot
-Crustaceana. Supplement,biologicalsciences; zoology,,1968,1990,22.0,http://www.jstor.org/journal/crussupp
+Ornithological Monographs,biologicalsciences,,1964,2013,49.0,http://www.jstor.org/journal/ornithmono
+Flora Neotropica,biologicalsciences,,1967,2010,43.0,http://www.jstor.org/journal/florneot
+Crustaceana. Supplement,biologicalsciences,,1968,1990,22.0,http://www.jstor.org/journal/crussupp
 Memoir (The Paleontological Society),biologicalsciences,,1968,2009,41.0,http://www.jstor.org/journal/memopalesoci
-Mammalian Species,biologicalsciences; ecology; zoology,,1969,2012,43.0,http://www.jstor.org/journal/mammalianspecies
-Lindbergia,biologicalsciences; botany,,1971,2011,40.0,http://www.jstor.org/journal/lindbergia
+Mammalian Species,biologicalsciences; ecology,,1969,2012,43.0,http://www.jstor.org/journal/mammalianspecies
+Lindbergia,biologicalsciences,,1971,2011,40.0,http://www.jstor.org/journal/lindbergia
 Human Ecology,ecology,,1972,2012,40.0,http://www.jstor.org/journal/humanecology
-Cereal Research Communications,botany,,1973,2010,37.0,http://www.jstor.org/journal/cereresecomm
-The Journal of Arachnology,biologicalsciences; zoology,,1973,2014,41.0,http://www.jstor.org/journal/jarachnology
+The Journal of Arachnology,biologicalsciences,,1973,2014,41.0,http://www.jstor.org/journal/jarachnology
 Journal of Biogeography,biologicalsciences; ecology,,1974,2005,31.0,http://www.jstor.org/journal/jbiogeography
 Microbial Ecology,biologicalsciences; ecology,,1974,2012,38.0,http://www.jstor.org/journal/micrecol
-Allertonia,botany,,1975,2012,37.0,http://www.jstor.org/journal/allertonia
 Paleobiology,biologicalsciences; ecology,,1975,2011,36.0,http://www.jstor.org/journal/paleobiology
-Selbyana,botany,,1975,2010,35.0,http://www.jstor.org/journal/selbyana
 Behavioral Ecology and Sociobiology,biologicalsciences; ecology,,1976,2012,36.0,http://www.jstor.org/journal/behaecolsoci
-Journal of the Adelaide Botanic Garden,botany,,1976,2014,38.0,http://www.jstor.org/journal/jadelbotagard
-Systematic Botany,biologicalsciences; botany,,1976,2010,34.0,http://www.jstor.org/journal/systematicbotany
+Systematic Botany,biologicalsciences,,1976,2010,34.0,http://www.jstor.org/journal/systematicbotany
 Paleontological Monograph,biologicalsciences,,1978,1980,2.0,http://www.jstor.org/journal/palemono
 History and Philosophy of the Life Sciences,biologicalsciences,,1979,2012,33.0,http://www.jstor.org/journal/histphillifescie
-Revista del Jardín Botánico Nacional,botany,,1980,2015,35.0,http://www.jstor.org/journal/revijardbotanaci
-Systematic Botany Monographs,biologicalsciences; botany,,1980,2010,30.0,http://www.jstor.org/journal/systbotamono
-Journal of Crustacean Biology,biologicalsciences; zoology,,1981,2010,29.0,http://www.jstor.org/journal/jcrusbiol
+Systematic Botany Monographs,biologicalsciences,,1980,2010,30.0,http://www.jstor.org/journal/systbotamono
+Journal of Crustacean Biology,biologicalsciences,,1981,2010,29.0,http://www.jstor.org/journal/jcrusbiol
 Journal of Vertebrate Paleontology,biologicalsciences,,1981,2012,31.0,http://www.jstor.org/journal/jvertpale
 Mountain Research and Development,biologicalsciences; ecology,,1981,2016,35.0,http://www.jstor.org/journal/mounresedeve
-Herpetological Monographs,biologicalsciences; zoology,,1982,2012,30.0,http://www.jstor.org/journal/herpmono
+Herpetological Monographs,biologicalsciences,,1982,2012,30.0,http://www.jstor.org/journal/herpmono
 Politics and the Life Sciences,biologicalsciences,,1982,2012,30.0,http://www.jstor.org/journal/polilifescie
 Biogeochemistry,biologicalsciences; ecology,,1984,2012,28.0,http://www.jstor.org/journal/biogeochemistry
 Journal of Tropical Ecology,biologicalsciences; ecology,,1985,2010,25.0,http://www.jstor.org/journal/jtropicalecology
 PALAIOS,biologicalsciences,,1986,2010,24.0,http://www.jstor.org/journal/palaios
 Conservation Biology,biologicalsciences; ecology,,1987,2005,18.0,http://www.jstor.org/journal/consbiol
 Functional Ecology,biologicalsciences; ecology,,1987,2010,23.0,http://www.jstor.org/journal/funcecol
-Weed Technology,biologicalsciences; botany,,1987,2012,25.0,http://www.jstor.org/journal/weedtechnology
-Journal of Tropical Forest Science,botany,,1988,2016,28.0,http://www.jstor.org/journal/jtropforescie
-The Plant Cell,biologicalsciences; botany,,1989,2013,24.0,http://www.jstor.org/journal/plantcell
-Journal of Vegetation Science,biologicalsciences; botany,,1990,2010,20.0,http://www.jstor.org/journal/jvegescie
+Weed Technology,biologicalsciences,,1987,2012,25.0,http://www.jstor.org/journal/weedtechnology
+The Plant Cell,biologicalsciences,,1989,2013,24.0,http://www.jstor.org/journal/plantcell
+Journal of Vegetation Science,biologicalsciences,,1990,2010,20.0,http://www.jstor.org/journal/jvegescie
 Ecological Applications,biologicalsciences; ecology,,1991,2013,22.0,http://www.jstor.org/journal/ecolappl
-Great Plains Research,ecology; environmentalscience,,1991,2010,19.0,http://www.jstor.org/journal/greaplairese
+Great Plains Research,ecology,,1991,2010,19.0,http://www.jstor.org/journal/greaplairese
 Memoir (Society of Vertebrate Paleontology),biologicalsciences,,1991,2012,21.0,http://www.jstor.org/journal/memosocivertpale
-Novon,biologicalsciences; botany,,1991,2012,21.0,http://www.jstor.org/journal/novon
+Novon,biologicalsciences,,1991,2012,21.0,http://www.jstor.org/journal/novon
 Ecología Política,ecology,,1992,2013,21.0,http://www.jstor.org/journal/ecolpoli
 Environmental Values,ecology,,1992,2010,18.0,http://www.jstor.org/journal/envivalu
-Journal of Orthoptera Research,biologicalsciences; zoology,,1992,2014,22.0,http://www.jstor.org/journal/jorthrese
-Vegetation History and Archaeobotany,botany,,1992,2012,20.0,http://www.jstor.org/journal/vegehistarch
+Journal of Orthoptera Research,biologicalsciences,,1992,2014,22.0,http://www.jstor.org/journal/jorthrese
 Écoscience,ecology,,1994,2008,14.0,http://www.jstor.org/journal/ecoscience
 Journal of Coastal Conservation,biologicalsciences,,1995,2012,17.0,http://www.jstor.org/journal/jcoascons
 Cell Stress & Chaperones,biologicalsciences,,1996,2014,18.0,http://www.jstor.org/journal/cellstrechap
-Applied Vegetation Science,biologicalsciences; botany,,1998,2010,12.0,http://www.jstor.org/journal/applvegescie
+Applied Vegetation Science,biologicalsciences,,1998,2010,12.0,http://www.jstor.org/journal/applvegescie
 Ecosystems,biologicalsciences; ecology,,1998,2012,14.0,http://www.jstor.org/journal/ecosystems
-Coleopterists Society Monographs. Patricia Vaurie Series,biologicalsciences; zoology,,2002,2010,8.0,http://www.jstor.org/journal/colesocimonopatr
+Coleopterists Society Monographs. Patricia Vaurie Series,biologicalsciences,,2002,2010,8.0,http://www.jstor.org/journal/colesocimonopatr
 Southeastern Naturalist,biologicalsciences; ecology,,2002,2012,10.0,http://www.jstor.org/journal/soutnatu2
-Frontiers in Ecology and the Environment,biologicalsciences; botany; ecology,,2003,2013,10.0,http://www.jstor.org/journal/fronecolenvi
-Journal of the Adelaide Botanic Gardens. Supplement,botany,,2005,2010,5.0,http://www.jstor.org/journal/jadelbotgardsup
-Journal of the Association of Environmental and Resource Economists,environmentalscience,,2014,2015,1.0,http://www.jstor.org/journal/jassoenviresecon
-Resilience: A Journal of the Environmental Humanities,environmentalscience,,2014,2015,1.0,http://www.jstor.org/journal/resilience
+Frontiers in Ecology and the Environment,biologicalsciences; ecology,,2003,2013,10.0,http://www.jstor.org/journal/fronecolenvi
 Ambio,biologicalsciences; ecology,1-biologicalsciences; 1-ecology,1972,2012,40.0,http://www.jstor.org/journal/ambio
 Ambio Special Report,biologicalsciences; ecology,1-biologicalsciences; 1-ecology,1972,1979,7.0,http://www.jstor.org/journal/ambispecrepo
-Proceedings of the Royal Irish Academy (1836-1869),biologicalsciences; botany; environmentalscience,1-environmentalscience; 100-biologicalsciences; 131-biologicalsciences; 16-botany; 22-biologicalsciences; 59-botany; 6-environmentalscience; 7-environmentalscience; 75-botany,1836,1866,30.0,http://www.jstor.org/journal/procria1836
-Proceedings of the Royal Irish Academy. Science,biologicalsciences; botany; environmentalscience,1-environmentalscience; 100-biologicalsciences; 131-biologicalsciences; 16-botany; 22-biologicalsciences; 59-botany; 6-environmentalscience; 7-environmentalscience; 75-botany,1870,1884,14.0,http://www.jstor.org/journal/procriascience
-Proceedings of the Royal Irish Academy. Polite Literature and Antiquities,biologicalsciences; botany; environmentalscience,1-environmentalscience; 100-biologicalsciences; 131-biologicalsciences; 16-botany; 22-biologicalsciences; 59-botany; 6-environmentalscience; 7-environmentalscience; 75-botany,1879,1879,0.0,http://www.jstor.org/journal/procriapolitelit
-Proceedings of the Royal Irish Academy (1889-1901),biologicalsciences; botany; environmentalscience,1-environmentalscience; 100-biologicalsciences; 131-biologicalsciences; 16-botany; 22-biologicalsciences; 59-botany; 6-environmentalscience; 7-environmentalscience; 75-botany,1889,1901,12.0,http://www.jstor.org/journal/procria1889
-"Proceedings of the Royal Irish Academy. Section B: Biological, Geological, and Chemical Science",biologicalsciences; botany; environmentalscience,1-environmentalscience; 16-botany; 22-biologicalsciences,1902,1992,90.0,http://www.jstor.org/journal/procriasectb
-Biology and Environment: Proceedings of the Royal Irish Academy,biologicalsciences; botany; environmentalscience,1-environmentalscience; 16-botany; 22-biologicalsciences,1993,2016,23.0,http://www.jstor.org/journal/biolenviprocria
-Annalen des Naturhistorischen Museums in Wien,biologicalsciences; botany; ecology; zoology,1-zoology; 2-zoology; 4-ecology; 5-ecology; 6-botany; 7-biologicalsciences; 7-botany; 8-biologicalsciences,1886,1979,93.0,http://www.jstor.org/journal/annanatumusewien
-"Annalen des Naturhistorischen Museums in Wien. Serie A für Mineralogie und Petrographie, Geologie und Paläontologie, Anthropologie und Prähistorie",biologicalsciences; botany; ecology; zoology,1-zoology; 4-ecology; 6-botany; 7-biologicalsciences,1980,2012,32.0,http://www.jstor.org/journal/annnatmuswiesera
-Proceedings of the Royal Irish Academy. Section A: Mathematical and Physical Sciences,biologicalsciences; botany; environmentalscience,100-biologicalsciences; 59-botany; 6-environmentalscience,1902,1997,95.0,http://www.jstor.org/journal/procriasectiona
-Mathematical Proceedings of the Royal Irish Academy,biologicalsciences; botany; environmentalscience,100-biologicalsciences; 59-botany; 6-environmentalscience,1998,2016,18.0,http://www.jstor.org/journal/mathprocria
-Memoirs of the Torrey Botanical Club,biologicalsciences; botany,103-biologicalsciences; 60-botany,1889,1993,104.0,http://www.jstor.org/journal/memotorrbotaclub
-Memoirs of the Torrey Botanical Society,biologicalsciences; botany,103-biologicalsciences; 60-botany,2010,2010,0.0,http://www.jstor.org/journal/memotorrbotasoci
+Proceedings of the Royal Irish Academy. Section A: Mathematical and Physical Sciences,biologicalsciences,100-biologicalsciences,1902,1997,95.0,http://www.jstor.org/journal/procriasectiona
+Mathematical Proceedings of the Royal Irish Academy,biologicalsciences,100-biologicalsciences,1998,2016,18.0,http://www.jstor.org/journal/mathprocria
+Proceedings of the Royal Irish Academy (1836-1869),biologicalsciences,100-biologicalsciences; 131-biologicalsciences; 22-biologicalsciences,1836,1866,30.0,http://www.jstor.org/journal/procria1836
+Proceedings of the Royal Irish Academy. Science,biologicalsciences,100-biologicalsciences; 131-biologicalsciences; 22-biologicalsciences,1870,1884,14.0,http://www.jstor.org/journal/procriascience
+Proceedings of the Royal Irish Academy. Polite Literature and Antiquities,biologicalsciences,100-biologicalsciences; 131-biologicalsciences; 22-biologicalsciences,1879,1879,0.0,http://www.jstor.org/journal/procriapolitelit
+Proceedings of the Royal Irish Academy (1889-1901),biologicalsciences,100-biologicalsciences; 131-biologicalsciences; 22-biologicalsciences,1889,1901,12.0,http://www.jstor.org/journal/procria1889
+Memoirs of the Torrey Botanical Club,biologicalsciences,103-biologicalsciences,1889,1993,104.0,http://www.jstor.org/journal/memotorrbotaclub
+Memoirs of the Torrey Botanical Society,biologicalsciences,103-biologicalsciences,2010,2010,0.0,http://www.jstor.org/journal/memotorrbotasoci
 The Micropaleontologist,biologicalsciences,105-biologicalsciences,1947,1954,7.0,http://www.jstor.org/journal/micr2
 Micropaleontology,biologicalsciences,105-biologicalsciences,1955,2012,57.0,http://www.jstor.org/journal/micr
-Great Basin Naturalist Memoirs,biologicalsciences; botany; ecology; zoology,107-biologicalsciences; 35-zoology; 46-ecology; 62-botany,1976,1992,16.0,http://www.jstor.org/journal/grebasnatmem
-Monographs of the Western North American Naturalist,biologicalsciences; botany; ecology; zoology,107-biologicalsciences; 35-zoology; 46-ecology; 62-botany,2002,2011,9.0,http://www.jstor.org/journal/monwesnoramenat
-The Journal of Mycology,biologicalsciences; botany,109-biologicalsciences; 63-botany,1885,1908,23.0,http://www.jstor.org/journal/jmycology
-Ohio Mycological Bulletin,biologicalsciences; botany,109-biologicalsciences; 63-botany,1903,1903,0.0,http://www.jstor.org/journal/ohiomycobull
-Mycological Bulletin,biologicalsciences; botany,109-biologicalsciences; 63-botany,1904,1908,4.0,http://www.jstor.org/journal/mycobull
-Mycologia,biologicalsciences; botany,109-biologicalsciences; 63-botany,1909,2012,103.0,http://www.jstor.org/journal/mycologia
+Great Basin Naturalist Memoirs,biologicalsciences; ecology,107-biologicalsciences; 46-ecology,1976,1992,16.0,http://www.jstor.org/journal/grebasnatmem
+Monographs of the Western North American Naturalist,biologicalsciences; ecology,107-biologicalsciences; 46-ecology,2002,2011,9.0,http://www.jstor.org/journal/monwesnoramenat
+The Journal of Mycology,biologicalsciences,109-biologicalsciences,1885,1908,23.0,http://www.jstor.org/journal/jmycology
+Ohio Mycological Bulletin,biologicalsciences,109-biologicalsciences,1903,1903,0.0,http://www.jstor.org/journal/ohiomycobull
+Mycological Bulletin,biologicalsciences,109-biologicalsciences,1904,1908,4.0,http://www.jstor.org/journal/mycobull
+Mycologia,biologicalsciences,109-biologicalsciences,1909,2012,103.0,http://www.jstor.org/journal/mycologia
 Maine Naturalist,biologicalsciences; ecology,111-biologicalsciences; 48-ecology,1993,1995,2.0,http://www.jstor.org/journal/mainenaturalist
 Northeastern Naturalist,biologicalsciences; ecology,111-biologicalsciences; 48-ecology,1997,2012,15.0,http://www.jstor.org/journal/nortnatu2
 The Murrelet,biologicalsciences; ecology,112-biologicalsciences; 49-ecology,1920,1988,68.0,http://www.jstor.org/journal/murrelet
@@ -159,20 +130,18 @@ Philosophical Transactions of the Royal Society of London. A,biologicalsciences,
 "Philosophical Transactions of the Royal Society of London. Series A, Mathematical and Physical Sciences",biologicalsciences,122-biologicalsciences,1934,1990,56.0,http://www.jstor.org/journal/philtranroyasoci
 Philosophical Transactions: Physical Sciences and Engineering,biologicalsciences,122-biologicalsciences,1990,1995,5.0,http://www.jstor.org/journal/philtranphysscie
 "Philosophical Transactions: Mathematical, Physical and Engineering Sciences",biologicalsciences,122-biologicalsciences,1996,2012,16.0,http://www.jstor.org/journal/philtranmathphys
-Physiological Zoology,biologicalsciences; ecology; zoology,123-biologicalsciences; 38-zoology; 53-ecology,1928,1998,70.0,http://www.jstor.org/journal/physzool
-Physiological and Biochemical Zoology: Ecological and Evolutionary Approaches,biologicalsciences; ecology; zoology,123-biologicalsciences; 38-zoology; 53-ecology,1999,2015,16.0,http://www.jstor.org/journal/physbioczool
-Vegetatio,biologicalsciences; botany; ecology,125-biologicalsciences; 54-ecology; 70-botany,1948,1996,48.0,http://www.jstor.org/journal/vegetatio
-Plant Ecology,biologicalsciences; botany; ecology,125-biologicalsciences; 54-ecology; 70-botany,1997,2012,15.0,http://www.jstor.org/journal/plantecology
-Bulletin de la Société de Botanique de Belgique,biologicalsciences; botany,126-biologicalsciences; 71-botany,1862,1862,0.0,http://www.jstor.org/journal/bullsocibotabelg
-Bulletin de la Société Royale de Botanique de Belgique / Bulletin van de Koninklijke Belgische Botanische Vereniging,biologicalsciences; botany,126-biologicalsciences; 71-botany,1862,1989,127.0,http://www.jstor.org/journal/bullsocroybotbel
-Bulletin du Jardin botanique de l'État a Bruxelles,biologicalsciences; botany,126-biologicalsciences; 71-botany,1902,1966,64.0,http://www.jstor.org/journal/bulldujardbotaet
-Bulletin du Jardin botanique National de Belgique / Bulletin van de Nationale Plantentuin van België,biologicalsciences; botany,126-biologicalsciences; 71-botany,1967,1999,32.0,http://www.jstor.org/journal/bulldujardbotana
-Belgian Journal of Botany,biologicalsciences; botany,126-biologicalsciences; 71-botany,1990,2009,19.0,http://www.jstor.org/journal/belgjbota
-Systematics and Geography of Plants,biologicalsciences; botany,126-biologicalsciences; 71-botany,1999,2009,10.0,http://www.jstor.org/journal/systgeogplan
-Plant Ecology and Evolution,biologicalsciences; botany,126-biologicalsciences; 71-botany,2010,2012,2.0,http://www.jstor.org/journal/planecolevol
-"Bulletin of Popular Information (Arnold Arboretum, Harvard University)",botany,13-botany,1912,1940,28.0,http://www.jstor.org/journal/bulpopinfarnarb
-Arnoldia,botany,13-botany,1941,2014,73.0,http://www.jstor.org/journal/arnoldia
-"Proceedings of the Royal Irish Academy. Section C: Archaeology, Celtic Studies, History, Linguistics, Literature",biologicalsciences; botany; environmentalscience,131-biologicalsciences; 7-environmentalscience; 75-botany,1902,2015,113.0,http://www.jstor.org/journal/procriasectc
+Physiological Zoology,biologicalsciences; ecology,123-biologicalsciences; 53-ecology,1928,1998,70.0,http://www.jstor.org/journal/physzool
+Physiological and Biochemical Zoology: Ecological and Evolutionary Approaches,biologicalsciences; ecology,123-biologicalsciences; 53-ecology,1999,2015,16.0,http://www.jstor.org/journal/physbioczool
+Vegetatio,biologicalsciences; ecology,125-biologicalsciences; 54-ecology,1948,1996,48.0,http://www.jstor.org/journal/vegetatio
+Plant Ecology,biologicalsciences; ecology,125-biologicalsciences; 54-ecology,1997,2012,15.0,http://www.jstor.org/journal/plantecology
+Bulletin de la Société de Botanique de Belgique,biologicalsciences,126-biologicalsciences,1862,1862,0.0,http://www.jstor.org/journal/bullsocibotabelg
+Bulletin de la Société Royale de Botanique de Belgique / Bulletin van de Koninklijke Belgische Botanische Vereniging,biologicalsciences,126-biologicalsciences,1862,1989,127.0,http://www.jstor.org/journal/bullsocroybotbel
+Bulletin du Jardin botanique de l'État a Bruxelles,biologicalsciences,126-biologicalsciences,1902,1966,64.0,http://www.jstor.org/journal/bulldujardbotaet
+Bulletin du Jardin botanique National de Belgique / Bulletin van de Nationale Plantentuin van België,biologicalsciences,126-biologicalsciences,1967,1999,32.0,http://www.jstor.org/journal/bulldujardbotana
+Belgian Journal of Botany,biologicalsciences,126-biologicalsciences,1990,2009,19.0,http://www.jstor.org/journal/belgjbota
+Systematics and Geography of Plants,biologicalsciences,126-biologicalsciences,1999,2009,10.0,http://www.jstor.org/journal/systgeogplan
+Plant Ecology and Evolution,biologicalsciences,126-biologicalsciences,2010,2012,2.0,http://www.jstor.org/journal/planecolevol
+"Proceedings of the Royal Irish Academy. Section C: Archaeology, Celtic Studies, History, Linguistics, Literature",biologicalsciences,131-biologicalsciences,1902,2015,113.0,http://www.jstor.org/journal/procriasectc
 "Proceedings of the Royal Society of London. Series B, Containing Papers of a Biological Character",biologicalsciences,132-biologicalsciences,1905,1934,29.0,http://www.jstor.org/journal/procroyasocilon4
 "Proceedings of the Royal Society of London. Series B, Biological Sciences",biologicalsciences,132-biologicalsciences,1934,1990,56.0,http://www.jstor.org/journal/procroyasocilon2
 Proceedings: Biological Sciences,biologicalsciences,132-biologicalsciences,1990,2012,22.0,http://www.jstor.org/journal/procbiolscie
@@ -191,10 +160,6 @@ Science,biologicalsciences,139-biologicalsciences,1880,2010,130.0,http://www.jst
 The Scientific Monthly,biologicalsciences,139-biologicalsciences,1915,1957,42.0,http://www.jstor.org/journal/sciemont
 Arctic and Alpine Research,biologicalsciences; ecology,14-biologicalsciences; 7-ecology,1969,1998,29.0,http://www.jstor.org/journal/arctalpirese
 "Arctic, Antarctic, and Alpine Research",biologicalsciences; ecology,14-biologicalsciences; 7-ecology,1999,2012,13.0,http://www.jstor.org/journal/arctantaalpirese
-Contributions from the Queensland Herbarium,botany,14-botany,1968,1977,9.0,http://www.jstor.org/journal/contqeuuherb
-Austrobaileya,botany,14-botany,1977,2012,35.0,http://www.jstor.org/journal/aust
-Journal of the New York Entomological Society,biologicalsciences; zoology,14-zoology; 48-biologicalsciences,1893,2006,113.0,http://www.jstor.org/journal/jnewyorkentosoci
-Entomologica Americana,biologicalsciences; zoology,14-zoology; 48-biologicalsciences,2009,2010,1.0,http://www.jstor.org/journal/entoamer
 Systematic Zoology,biologicalsciences; ecology,142-biologicalsciences; 60-ecology,1952,1991,39.0,http://www.jstor.org/journal/systzool
 Systematic Biology,biologicalsciences; ecology,142-biologicalsciences; 60-ecology,1992,2012,20.0,http://www.jstor.org/journal/systbiol
 Transactions of the American Entomological Society (1867-1877),biologicalsciences; ecology,146-biologicalsciences; 61-ecology,1867,1877,10.0,http://www.jstor.org/journal/tranamerentosoci
@@ -203,167 +168,129 @@ Transactions of the American Entomological Society (1890-),biologicalsciences; e
 Transactions of the Kansas Academy of Science (1872-1880),biologicalsciences,147-biologicalsciences,1872,1879,7.0,http://www.jstor.org/journal/trankansacadsci2
 Transactions of the Annual Meetings of the Kansas Academy of Science,biologicalsciences,147-biologicalsciences,1881,1899,18.0,http://www.jstor.org/journal/tranannumeetkans
 Transactions of the Kansas Academy of Science (1903-),biologicalsciences,147-biologicalsciences,1903,2012,109.0,http://www.jstor.org/journal/trankansacadscie
-Proceedings of the Bear Workshop (International Conference on Bear Research and Management),biologicalsciences; zoology,148-biologicalsciences; 39-zoology,1968,1968,0.0,http://www.jstor.org/journal/procbearworkinte
-Bears: Their Biology and Management,biologicalsciences; zoology,148-biologicalsciences; 39-zoology,1972,1997,25.0,http://www.jstor.org/journal/beartheibiolmana
-Ursus,biologicalsciences; zoology,148-biologicalsciences; 39-zoology,1998,2012,14.0,http://www.jstor.org/journal/ursus
-Proceedings of the Colonial Waterbird Group,biologicalsciences; zoology,149-biologicalsciences; 40-zoology,1978,1980,2.0,http://www.jstor.org/journal/proccolowategrou
-Colonial Waterbirds,biologicalsciences; zoology,149-biologicalsciences; 40-zoology,1981,1998,17.0,http://www.jstor.org/journal/colowate
-Waterbirds: The International Journal of Waterbird Biology,biologicalsciences; zoology,149-biologicalsciences; 40-zoology,1999,2010,11.0,http://www.jstor.org/journal/wateintejwatebio
-Bulletin of the Nuttall Ornithological Club,biologicalsciences; zoology,15-biologicalsciences; 3-zoology,1876,1883,7.0,http://www.jstor.org/journal/bullnuttorniclub
-Quarterly Bulletin of the Nuttall Ornithological Club,biologicalsciences; zoology,15-biologicalsciences; 3-zoology,1876,1876,0.0,http://www.jstor.org/journal/quarbullnuttorni
-The Auk,biologicalsciences; zoology,15-biologicalsciences; 3-zoology,1884,2013,129.0,http://www.jstor.org/journal/auk
-Abstracta Botanica,botany; ecology; zoology,15-ecology; 28-botany; 8-zoology,1971,1998,27.0,http://www.jstor.org/journal/abstbota
-Coenoses,botany; ecology; zoology,15-ecology; 28-botany; 8-zoology,1986,1998,12.0,http://www.jstor.org/journal/coenoses
-Community Ecology,botany; ecology; zoology,15-ecology; 28-botany; 8-zoology,2005,2010,5.0,http://www.jstor.org/journal/communityecology
-The Florida Buggist,biologicalsciences; zoology,15-zoology; 52-biologicalsciences,1917,1920,3.0,http://www.jstor.org/journal/floridabuggist
-The Florida Entomologist,biologicalsciences; zoology,15-zoology; 52-biologicalsciences,1920,2014,94.0,http://www.jstor.org/journal/florento
-Weeds,biologicalsciences; botany,150-biologicalsciences; 85-botany,1951,1967,16.0,http://www.jstor.org/journal/weeds
-Weed Science,biologicalsciences; botany,150-biologicalsciences; 85-botany,1968,2012,44.0,http://www.jstor.org/journal/weedscience
-The Great Basin Naturalist,biologicalsciences; botany; ecology; zoology,152-biologicalsciences; 41-zoology; 62-ecology; 87-botany,1939,1999,60.0,http://www.jstor.org/journal/greabasinatu
-Western North American Naturalist,biologicalsciences; botany; ecology; zoology,152-biologicalsciences; 41-zoology; 62-ecology; 87-botany,2000,2012,12.0,http://www.jstor.org/journal/westnortamernatu
-The Journal of Wildlife Management,biologicalsciences; zoology,154-biologicalsciences; 43-zoology,1937,2013,76.0,http://www.jstor.org/journal/jwildmana
-Wildlife Society Bulletin (1973-2006),biologicalsciences; zoology,154-biologicalsciences; 43-zoology,1973,2006,33.0,http://www.jstor.org/journal/wildsocibull
-Wildlife Society Bulletin (2011-),biologicalsciences; zoology,154-biologicalsciences; 43-zoology,2011,2013,2.0,http://www.jstor.org/journal/wildsocibull2011
-Notizblatt des Königl. botanischen Gartens und Museums zu Berlin,biologicalsciences; botany,155-biologicalsciences; 88-botany,1895,1944,49.0,http://www.jstor.org/journal/notikonibotagart
-Mitteilungen aus dem botanischen Garten und Museum Berlin-Dahlem,biologicalsciences; botany,155-biologicalsciences; 88-botany,1953,1953,0.0,http://www.jstor.org/journal/mittausbotagartm
-Willdenowia,biologicalsciences; botany,155-biologicalsciences; 88-botany,1954,2012,58.0,http://www.jstor.org/journal/willdenowia
-The Ornithologists' and Oologists' Semi-Annual,biologicalsciences; zoology,156-biologicalsciences; 44-zoology,1889,1890,1.0,http://www.jstor.org/journal/ornioolosemi
-The Semi-Annual (Agassiz Association. Department of the Wilson Chapter),biologicalsciences; zoology,156-biologicalsciences; 44-zoology,1891,1891,0.0,http://www.jstor.org/journal/semiannuagas
-The Wilson Quarterly (1892),biologicalsciences; zoology,156-biologicalsciences; 44-zoology,1892,1892,0.0,http://www.jstor.org/journal/wilsq
-The Journal of the Wilson Ornithological Chapter of the Agassiz Association,biologicalsciences; zoology,156-biologicalsciences; 44-zoology,1893,1893,0.0,http://www.jstor.org/journal/jwilsornichap
-The Wilson Bulletin,biologicalsciences; zoology,156-biologicalsciences; 44-zoology,1894,2005,111.0,http://www.jstor.org/journal/wilsbull
-The Wilson Journal of Ornithology,biologicalsciences; zoology,156-biologicalsciences; 44-zoology,2006,2012,6.0,http://www.jstor.org/journal/wilsjornit
-"Boletim da Faculdade de Filosofia, Ciências e Letras, Universidade de São Paulo. Botânica",botany,17-botany,1937,1969,32.0,http://www.jstor.org/journal/bolefacufilocien
-Boletim de Botânica da Universidade de São Paulo,botany,17-botany,1973,2005,32.0,http://www.jstor.org/journal/bolbotunisaopau
+Proceedings of the Bear Workshop (International Conference on Bear Research and Management),biologicalsciences,148-biologicalsciences,1968,1968,0.0,http://www.jstor.org/journal/procbearworkinte
+Bears: Their Biology and Management,biologicalsciences,148-biologicalsciences,1972,1997,25.0,http://www.jstor.org/journal/beartheibiolmana
+Ursus,biologicalsciences,148-biologicalsciences,1998,2012,14.0,http://www.jstor.org/journal/ursus
+Proceedings of the Colonial Waterbird Group,biologicalsciences,149-biologicalsciences,1978,1980,2.0,http://www.jstor.org/journal/proccolowategrou
+Colonial Waterbirds,biologicalsciences,149-biologicalsciences,1981,1998,17.0,http://www.jstor.org/journal/colowate
+Waterbirds: The International Journal of Waterbird Biology,biologicalsciences,149-biologicalsciences,1999,2010,11.0,http://www.jstor.org/journal/wateintejwatebio
+Bulletin of the Nuttall Ornithological Club,biologicalsciences,15-biologicalsciences,1876,1883,7.0,http://www.jstor.org/journal/bullnuttorniclub
+Quarterly Bulletin of the Nuttall Ornithological Club,biologicalsciences,15-biologicalsciences,1876,1876,0.0,http://www.jstor.org/journal/quarbullnuttorni
+The Auk,biologicalsciences,15-biologicalsciences,1884,2013,129.0,http://www.jstor.org/journal/auk
+Abstracta Botanica,ecology,15-ecology,1971,1998,27.0,http://www.jstor.org/journal/abstbota
+Coenoses,ecology,15-ecology,1986,1998,12.0,http://www.jstor.org/journal/coenoses
+Community Ecology,ecology,15-ecology,2005,2010,5.0,http://www.jstor.org/journal/communityecology
+Weeds,biologicalsciences,150-biologicalsciences,1951,1967,16.0,http://www.jstor.org/journal/weeds
+Weed Science,biologicalsciences,150-biologicalsciences,1968,2012,44.0,http://www.jstor.org/journal/weedscience
+The Great Basin Naturalist,biologicalsciences; ecology,152-biologicalsciences; 62-ecology,1939,1999,60.0,http://www.jstor.org/journal/greabasinatu
+Western North American Naturalist,biologicalsciences; ecology,152-biologicalsciences; 62-ecology,2000,2012,12.0,http://www.jstor.org/journal/westnortamernatu
+The Journal of Wildlife Management,biologicalsciences,154-biologicalsciences,1937,2013,76.0,http://www.jstor.org/journal/jwildmana
+Wildlife Society Bulletin (1973-2006),biologicalsciences,154-biologicalsciences,1973,2006,33.0,http://www.jstor.org/journal/wildsocibull
+Wildlife Society Bulletin (2011-),biologicalsciences,154-biologicalsciences,2011,2013,2.0,http://www.jstor.org/journal/wildsocibull2011
+Notizblatt des Königl. botanischen Gartens und Museums zu Berlin,biologicalsciences,155-biologicalsciences,1895,1944,49.0,http://www.jstor.org/journal/notikonibotagart
+Mitteilungen aus dem botanischen Garten und Museum Berlin-Dahlem,biologicalsciences,155-biologicalsciences,1953,1953,0.0,http://www.jstor.org/journal/mittausbotagartm
+Willdenowia,biologicalsciences,155-biologicalsciences,1954,2012,58.0,http://www.jstor.org/journal/willdenowia
+The Ornithologists' and Oologists' Semi-Annual,biologicalsciences,156-biologicalsciences,1889,1890,1.0,http://www.jstor.org/journal/ornioolosemi
+The Semi-Annual (Agassiz Association. Department of the Wilson Chapter),biologicalsciences,156-biologicalsciences,1891,1891,0.0,http://www.jstor.org/journal/semiannuagas
+The Wilson Quarterly (1892),biologicalsciences,156-biologicalsciences,1892,1892,0.0,http://www.jstor.org/journal/wilsq
+The Journal of the Wilson Ornithological Chapter of the Agassiz Association,biologicalsciences,156-biologicalsciences,1893,1893,0.0,http://www.jstor.org/journal/jwilsornichap
+The Wilson Bulletin,biologicalsciences,156-biologicalsciences,1894,2005,111.0,http://www.jstor.org/journal/wilsbull
+The Wilson Journal of Ornithology,biologicalsciences,156-biologicalsciences,2006,2012,6.0,http://www.jstor.org/journal/wilsjornit
 Biodiversity Letters,biologicalsciences; ecology,17-ecology; 39-biologicalsciences,1993,1996,3.0,http://www.jstor.org/journal/biodlett
 Diversity and Distributions,biologicalsciences; ecology,17-ecology; 39-biologicalsciences,1998,2005,7.0,http://www.jstor.org/journal/divedist
 Holarctic Ecology,biologicalsciences; ecology,18-ecology; 40-biologicalsciences,1978,1991,13.0,http://www.jstor.org/journal/holarcticecology
 Ecography,biologicalsciences; ecology,18-ecology; 40-biologicalsciences,1992,2008,16.0,http://www.jstor.org/journal/ecography
-In Vitro,biologicalsciences; botany; zoology,18-zoology; 19-zoology; 38-botany; 62-biologicalsciences; 63-biologicalsciences,1965,1984,19.0,http://www.jstor.org/journal/invitro
-In Vitro Cellular & Developmental Biology,biologicalsciences; botany; zoology,18-zoology; 19-zoology; 38-botany; 62-biologicalsciences; 63-biologicalsciences,1985,1993,8.0,http://www.jstor.org/journal/invitrcelldeve
-In Vitro Cellular & Developmental Biology. Animal,biologicalsciences; zoology,18-zoology; 62-biologicalsciences,1993,2012,19.0,http://www.jstor.org/journal/invitrcelldeveanim
-"Botanical Museum Leaflets, Harvard University",botany,19-botany,1932,1986,54.0,http://www.jstor.org/journal/botmusleaharuni
-Harvard Papers in Botany,botany,19-botany; 29-botany; 49-botany; 50-botany; 66-botany,1989,2010,21.0,http://www.jstor.org/journal/harpapbot
-In Vitro Cellular & Developmental Biology. Plant,biologicalsciences; botany; zoology,19-zoology; 38-botany; 63-biologicalsciences,1991,2012,21.0,http://www.jstor.org/journal/invitrcelldeveplan
-Bullettino della R. Società Toscana di Orticultura,botany,2-botany,1901,1938,37.0,http://www.jstor.org/journal/bullsocitoscorti
-Rivista della Società Toscana di Orticultura,botany,2-botany,1939,1947,8.0,http://www.jstor.org/journal/rivisocitoscorti
-Rivista di ortoflorofrutticoltura italiana,botany,2-botany,1948,1986,38.0,http://www.jstor.org/journal/riviortoital
-Advances in Horticultural Science,botany,2-botany,1987,2012,25.0,http://www.jstor.org/journal/advahortscie
 The American Midland Naturalist,biologicalsciences; ecology,2-ecology; 5-biologicalsciences,1909,2012,103.0,http://www.jstor.org/journal/amermidlnatu
 The Midland Naturalist,biologicalsciences; ecology,2-ecology; 5-biologicalsciences,1909,1909,0.0,http://www.jstor.org/journal/midlnatu
-Annalen des Naturhistorischen Museums in Wien. Serie B für Botanik und Zoologie,biologicalsciences; botany; ecology; zoology,2-zoology; 5-ecology; 7-botany; 8-biologicalsciences,1980,2012,32.0,http://www.jstor.org/journal/annnatmuswieserb
-American Zoologist,biologicalsciences; zoology,20-zoology; 64-biologicalsciences,1961,2001,40.0,http://www.jstor.org/journal/amerzool
-Integrative and Comparative Biology,biologicalsciences; zoology,20-zoology; 64-biologicalsciences,2002,2010,8.0,http://www.jstor.org/journal/intecompbiol
 Zoological Bulletin,biologicalsciences,21-biologicalsciences,1897,1899,2.0,http://www.jstor.org/journal/zoolbull
 Biological Bulletin,biologicalsciences,21-biologicalsciences,1899,2014,115.0,http://www.jstor.org/journal/biolbull
 Bulletins from the Ecological Research Committee/NFR,biologicalsciences; ecology,21-ecology; 42-biologicalsciences,1970,1973,3.0,http://www.jstor.org/journal/bullecolrescomm
 Ecological Bulletins,biologicalsciences; ecology,21-ecology; 42-biologicalsciences,1975,2007,32.0,http://www.jstor.org/journal/ecologicalbull
-Proceedings of the American Society of Microscopists,biologicalsciences; zoology,21-zoology; 66-biologicalsciences,1878,1891,13.0,http://www.jstor.org/journal/procamersocimicr
-Proceedings of the American Microscopical Society,biologicalsciences; zoology,21-zoology; 66-biologicalsciences,1892,1895,3.0,http://www.jstor.org/journal/procamermicrsoci
-Transactions of the American Microscopical Society,biologicalsciences; zoology,21-zoology; 66-biologicalsciences,1896,1994,98.0,http://www.jstor.org/journal/tranamermicrsoci
-Invertebrate Biology,biologicalsciences; zoology,21-zoology; 66-biologicalsciences,1995,2010,15.0,http://www.jstor.org/journal/invebiol
-The Irish Naturalist,biologicalsciences; botany; zoology,22-zoology; 43-botany; 69-biologicalsciences,1892,1924,32.0,http://www.jstor.org/journal/irisnatu
-The Irish Naturalists' Journal,biologicalsciences; botany; zoology,22-zoology; 43-botany; 69-biologicalsciences,1925,2012,87.0,http://www.jstor.org/journal/irisnatuj
+"Proceedings of the Royal Irish Academy. Section B: Biological, Geological, and Chemical Science",biologicalsciences,22-biologicalsciences,1902,1992,90.0,http://www.jstor.org/journal/procriasectb
+Biology and Environment: Proceedings of the Royal Irish Academy,biologicalsciences,22-biologicalsciences,1993,2016,23.0,http://www.jstor.org/journal/biolenviprocria
 Bulletin of the Gray Memorial Botanical Chapter of the Agassiz Association,biologicalsciences; ecology,23-ecology; 44-biologicalsciences,1893,1893,0.0,http://www.jstor.org/journal/bullgraymemobota
 The Asa Gray Bulletin,biologicalsciences; ecology,23-ecology; 44-biologicalsciences,1893,1901,8.0,http://www.jstor.org/journal/asagraybull
 The Plant World,biologicalsciences; ecology,23-ecology; 44-biologicalsciences,1898,1919,21.0,http://www.jstor.org/journal/plantworld
 Ecology,biologicalsciences; ecology,23-ecology; 44-biologicalsciences,1920,2013,93.0,http://www.jstor.org/journal/ecology
 AIBS Bulletin,biologicalsciences,24-biologicalsciences,1951,1963,12.0,http://www.jstor.org/journal/aibsbulletin
 BioScience,biologicalsciences,24-biologicalsciences,1964,2013,49.0,http://www.jstor.org/journal/bioscience
-The Cactus Journal,botany,24-botany,1932,1939,7.0,http://www.jstor.org/journal/cactusj
-The Cactus and Succulent Journal of Great Britain,botany,24-botany,1946,1982,36.0,http://www.jstor.org/journal/cactsuccjgrebrit
-The National Cactus and Succulent Journal,botany,24-botany,1946,1982,36.0,http://www.jstor.org/journal/naticactsuccj
-The Yorkshire Cactus Journal,botany,24-botany,1946,1946,0.0,http://www.jstor.org/journal/yorkcactj
-British Cactus & Succulent Journal,botany,24-botany,1983,2005,22.0,http://www.jstor.org/journal/britcactsuccj
-CactusWorld,botany,24-botany,2006,2012,6.0,http://www.jstor.org/journal/cactusworld
-Ornis Scandinavica (Scandinavian Journal of Ornithology),biologicalsciences; zoology,24-zoology; 74-biologicalsciences,1970,1993,23.0,http://www.jstor.org/journal/orniscan
-Journal of Avian Biology,biologicalsciences; zoology,24-zoology; 74-biologicalsciences,1994,2008,14.0,http://www.jstor.org/journal/javianbiology
-A.A.V. Newsletter,biologicalsciences; zoology,25-zoology; 75-biologicalsciences,1980,1986,6.0,http://www.jstor.org/journal/aavnewsletter
-AAV Today,biologicalsciences; zoology,25-zoology; 75-biologicalsciences,1987,1988,1.0,http://www.jstor.org/journal/aavtoday
-Journal of the Association of Avian Veterinarians,biologicalsciences; zoology,25-zoology; 75-biologicalsciences,1989,1994,5.0,http://www.jstor.org/journal/jassoavianvet
-Journal of Avian Medicine and Surgery,biologicalsciences; zoology,25-zoology; 75-biologicalsciences,1995,2012,17.0,http://www.jstor.org/journal/javianmedsurg
-The Journal of the Southern Appalachian Botanical Club,biologicalsciences; botany,26-botany; 30-biologicalsciences,1936,1937,1.0,http://www.jstor.org/journal/jsoutappabotaclu
-Castanea,biologicalsciences; botany,26-botany; 30-biologicalsciences,1937,2012,75.0,http://www.jstor.org/journal/castanea
 Forest History Newsletter,ecology,26-ecology,1957,1974,17.0,http://www.jstor.org/journal/forehistnews
 Journal of Forest History,ecology,26-ecology,1974,1989,15.0,http://www.jstor.org/journal/jforesthistory
 Environmental Review: ER,ecology,26-ecology,1976,1989,13.0,http://www.jstor.org/journal/envirevier
 Environmental History Review,ecology,26-ecology,1990,1995,5.0,http://www.jstor.org/journal/envihistrevi
 Forest & Conservation History,ecology,26-ecology,1990,1995,5.0,http://www.jstor.org/journal/foreconshist
 Environmental History,ecology,26-ecology,1996,2011,15.0,http://www.jstor.org/journal/envihist
-Bulletin of the Northeastern Bird-Banding Association,biologicalsciences; zoology,27-zoology; 83-biologicalsciences,1925,1929,4.0,http://www.jstor.org/journal/bulnorbirbanass
-Bird-Banding,biologicalsciences; zoology,27-zoology; 83-biologicalsciences,1930,1979,49.0,http://www.jstor.org/journal/birdband
-Journal of Field Ornithology,biologicalsciences; zoology,27-zoology; 83-biologicalsciences,1980,2012,32.0,http://www.jstor.org/journal/jfielorni
 Chesapeake Science,biologicalsciences; ecology,28-ecology; 49-biologicalsciences,1960,1977,17.0,http://www.jstor.org/journal/chesscie
 Estuaries,biologicalsciences; ecology,28-ecology; 49-biologicalsciences,1978,2005,27.0,http://www.jstor.org/journal/estuaries
 Estuaries and Coasts,biologicalsciences; ecology,28-ecology; 49-biologicalsciences,2006,2010,4.0,http://www.jstor.org/journal/estuariescoasts
-Trimonthly Report. Ohio Herpetological Society,biologicalsciences; zoology,28-zoology; 84-biologicalsciences,1958,1959,1.0,http://www.jstor.org/journal/trimrepoohioherp
-Journal of the Ohio Herpetological Society,biologicalsciences; zoology,28-zoology; 84-biologicalsciences,1959,1966,7.0,http://www.jstor.org/journal/johioherpsoci
-Journal of Herpetology,biologicalsciences; zoology,28-zoology; 84-biologicalsciences,1968,2012,44.0,http://www.jstor.org/journal/jherpetology
-Contributions from the Gray Herbarium of Harvard University,botany,29-botany,1891,1984,93.0,http://www.jstor.org/journal/congraherharuni
-Botanical Bulletin,biologicalsciences; botany; environmentalscience,3-environmentalscience; 40-botany; 65-biologicalsciences,1875,1876,1.0,http://www.jstor.org/journal/botabull
-Botanical Gazette,biologicalsciences; botany; environmentalscience,3-environmentalscience; 40-botany; 65-biologicalsciences,1876,1991,115.0,http://www.jstor.org/journal/botanicalgazette
-International Journal of Plant Sciences,biologicalsciences; botany; environmentalscience,3-environmentalscience; 40-botany; 65-biologicalsciences,1992,2015,23.0,http://www.jstor.org/journal/intejplanscie
+The Journal of the Southern Appalachian Botanical Club,biologicalsciences,30-biologicalsciences,1936,1937,1.0,http://www.jstor.org/journal/jsoutappabotaclu
+Castanea,biologicalsciences,30-biologicalsciences,1937,2012,75.0,http://www.jstor.org/journal/castanea
 Freshwater Invertebrate Biology,biologicalsciences; ecology,30-ecology; 54-biologicalsciences,1982,1985,3.0,http://www.jstor.org/journal/fresinvebiol
 Journal of the North American Benthological Society,biologicalsciences; ecology,30-ecology; 54-biologicalsciences,1986,2011,25.0,http://www.jstor.org/journal/jnortamerbentsoc
 Freshwater Science,biologicalsciences; ecology,30-ecology; 54-biologicalsciences,2012,2015,3.0,http://www.jstor.org/journal/fresscie
-Willdenowia. Beiheft,biologicalsciences; botany,33-botany; 47-biologicalsciences,1963,1977,14.0,http://www.jstor.org/journal/willbeih
-Englera,biologicalsciences; botany,33-botany; 47-biologicalsciences,1979,2012,33.0,http://www.jstor.org/journal/englera
 Global Ecology and Biogeography Letters,biologicalsciences; ecology,33-ecology; 57-biologicalsciences,1991,1998,7.0,http://www.jstor.org/journal/globecolbioglett
 Global Ecology and Biogeography,biologicalsciences; ecology,33-ecology; 57-biologicalsciences,1999,2005,6.0,http://www.jstor.org/journal/globecolbiog
-The Journal of Zoo Animal Medicine,biologicalsciences; zoology,33-zoology; 95-biologicalsciences,1970,1988,18.0,http://www.jstor.org/journal/jzooanimmedi
-Journal of Zoo and Wildlife Medicine,biologicalsciences; zoology,33-zoology; 95-biologicalsciences,1989,2010,21.0,http://www.jstor.org/journal/jzoowildmedi
-Bulletin of the Cooper Ornithological Club,biologicalsciences; zoology,34-biologicalsciences; 9-zoology,1899,1899,0.0,http://www.jstor.org/journal/bullcooporniclub
-The Condor,biologicalsciences; zoology,34-biologicalsciences; 9-zoology,1900,2013,113.0,http://www.jstor.org/journal/condor
-Die Gartenbauwissenschaft,botany,34-botany,1929,2002,73.0,http://www.jstor.org/journal/gartenbauwissen
-Archiv für Gartenbau,botany,34-botany,1953,1991,38.0,http://www.jstor.org/journal/archivgartenbau
-European Journal of Horticultural Science,botany,34-botany,2003,2013,10.0,http://www.jstor.org/journal/eurojhortscie
-Folia Geobotanica & Phytotaxonomica,biologicalsciences; botany,36-botany; 53-biologicalsciences,1966,1997,31.0,http://www.jstor.org/journal/foligeobphyt
-Folia Geobotanica,biologicalsciences; botany,36-botany; 53-biologicalsciences,1998,2012,14.0,http://www.jstor.org/journal/foligeob
-Empire Forestry Journal,botany,39-botany,1922,1945,23.0,http://www.jstor.org/journal/empiforej
-Empire Forestry Review,botany,39-botany,1946,1962,16.0,http://www.jstor.org/journal/empiforerevi
-The Commonwealth Forestry Review,botany,39-botany,1962,1998,36.0,http://www.jstor.org/journal/commforerevi
-The International Forestry Review,botany,39-botany,1999,2011,12.0,http://www.jstor.org/journal/inteforerevi
+Bulletin of the Cooper Ornithological Club,biologicalsciences,34-biologicalsciences,1899,1899,0.0,http://www.jstor.org/journal/bullcooporniclub
+The Condor,biologicalsciences,34-biologicalsciences,1900,2013,113.0,http://www.jstor.org/journal/condor
 Litoralia,biologicalsciences; ecology,39-ecology; 79-biologicalsciences,1984,1984,0.0,http://www.jstor.org/journal/litoralia
 Journal of Coastal Research,biologicalsciences; ecology,39-ecology; 79-biologicalsciences,1985,2016,31.0,http://www.jstor.org/journal/jcoasrese
-Journal of Earth Sciences,biologicalsciences; botany,42-botany; 68-biologicalsciences,1978,1983,5.0,http://www.jstor.org/journal/jeartscie
-Irish Journal of Earth Sciences,biologicalsciences; botany,42-botany; 68-biologicalsciences,1984,2015,31.0,http://www.jstor.org/journal/irisjeartscie
-Journal of Experimental Botany,biologicalsciences; botany,44-botany; 82-biologicalsciences,1950,2010,60.0,http://www.jstor.org/journal/jexperbota
-Flowering Newsletter,biologicalsciences; botany,44-botany; 82-biologicalsciences,1986,2000,14.0,http://www.jstor.org/journal/flownews
-Zeitschrift für Pflanzenkrankheiten,botany,45-botany,1891,1921,30.0,http://www.jstor.org/journal/zeitpfla
-Zeitschrift für Pflanzenkrankheiten und Gallenkunde,botany,45-botany,1922,1925,3.0,http://www.jstor.org/journal/zeitpflagall
-Zeitschrift für Pflanzenkrankheiten und Pflanzenschutz,botany,45-botany,1926,1928,2.0,http://www.jstor.org/journal/zeitpflapfla2
-Zeitschrift für Pflanzenkrankheiten (Pflanzenpathologie) und Pflanzenschutz,botany,45-botany,1929,1969,40.0,http://www.jstor.org/journal/zeitpflapflapfla
-Zeitschrift für Pflanzenkrankheiten und Pflanzenschutz / Journal of Plant Diseases and Protection,botany,45-botany,1970,2005,35.0,http://www.jstor.org/journal/zeitpflapfla
-Journal of Plant Diseases and Protection,botany,45-botany,2006,2013,7.0,http://www.jstor.org/journal/jplandiseprot
-Rivista di Patologia Vegetale,botany,46-botany,1892,1995,103.0,http://www.jstor.org/journal/rivipatovege
-Journal of Plant Pathology,botany,46-botany,1997,2014,17.0,http://www.jstor.org/journal/jplanpath
-Journal of the Arnold Arboretum,botany,49-botany,1919,1990,71.0,http://www.jstor.org/journal/jarnoarbo
-Journal of the Arnold Arboretum. Supplementary Series,botany,50-botany,1991,1991,0.0,http://www.jstor.org/journal/jarnarbsupser
-"SIDA, Contributions to Botany",botany,51-botany,1962,2006,44.0,http://www.jstor.org/journal/sidacontbota
-Journal of the Botanical Research Institute of Texas,botany,51-botany,2007,2012,5.0,http://www.jstor.org/journal/jbotareseinsttex
-Bulletin of the Torrey Botanical Club,biologicalsciences; botany,52-botany; 91-biologicalsciences,1870,1996,126.0,http://www.jstor.org/journal/bulltorrbotaclub
-Torreya,biologicalsciences; botany,52-botany; 91-biologicalsciences,1901,1945,44.0,http://www.jstor.org/journal/torreya
-The Journal of the Torrey Botanical Society,biologicalsciences; botany,52-botany; 91-biologicalsciences,1997,2012,15.0,http://www.jstor.org/journal/jtorrbotasoci
-Report on the Progress and Condition of the Royal Gardens at Kew,biologicalsciences; botany,55-botany; 96-biologicalsciences,1865,1877,12.0,http://www.jstor.org/journal/repoprogcondroya
-"Bulletin of Miscellaneous Information (Royal Botanic Gardens, Kew)",biologicalsciences; botany,55-botany; 96-biologicalsciences,1887,1941,54.0,http://www.jstor.org/journal/bullmiscinforoya
-Kew Bulletin,biologicalsciences; botany,55-botany; 96-biologicalsciences,1946,2012,66.0,http://www.jstor.org/journal/kewbulletin
+Annalen des Naturhistorischen Museums in Wien,biologicalsciences; ecology,4-ecology; 5-ecology; 7-biologicalsciences; 8-biologicalsciences,1886,1979,93.0,http://www.jstor.org/journal/annanatumusewien
+"Annalen des Naturhistorischen Museums in Wien. Serie A für Mineralogie und Petrographie, Geologie und Paläontologie, Anthropologie und Prähistorie",biologicalsciences; ecology,4-ecology; 7-biologicalsciences,1980,2012,32.0,http://www.jstor.org/journal/annnatmuswiesera
+Willdenowia. Beiheft,biologicalsciences,47-biologicalsciences,1963,1977,14.0,http://www.jstor.org/journal/willbeih
+Englera,biologicalsciences,47-biologicalsciences,1979,2012,33.0,http://www.jstor.org/journal/englera
+Journal of the New York Entomological Society,biologicalsciences,48-biologicalsciences,1893,2006,113.0,http://www.jstor.org/journal/jnewyorkentosoci
+Entomologica Americana,biologicalsciences,48-biologicalsciences,2009,2010,1.0,http://www.jstor.org/journal/entoamer
+Annalen des Naturhistorischen Museums in Wien. Serie B für Botanik und Zoologie,biologicalsciences; ecology,5-ecology; 8-biologicalsciences,1980,2012,32.0,http://www.jstor.org/journal/annnatmuswieserb
+The Florida Buggist,biologicalsciences,52-biologicalsciences,1917,1920,3.0,http://www.jstor.org/journal/floridabuggist
+The Florida Entomologist,biologicalsciences,52-biologicalsciences,1920,2014,94.0,http://www.jstor.org/journal/florento
+Folia Geobotanica & Phytotaxonomica,biologicalsciences,53-biologicalsciences,1966,1997,31.0,http://www.jstor.org/journal/foligeobphyt
+Folia Geobotanica,biologicalsciences,53-biologicalsciences,1998,2012,14.0,http://www.jstor.org/journal/foligeob
 Records of the Auckland Institute and Museum,ecology,57-ecology,1930,1997,67.0,http://www.jstor.org/journal/recaucinsmus
 Records of the Auckland Museum,ecology,57-ecology,1998,2014,16.0,http://www.jstor.org/journal/recoauckmuse
-Occasional Papers of the Farlow Herbarium of Cryptogamic Botany,botany,66-botany,1969,1987,18.0,http://www.jstor.org/journal/occpapfarhecrbo
+In Vitro Cellular & Developmental Biology. Animal,biologicalsciences,62-biologicalsciences,1993,2012,19.0,http://www.jstor.org/journal/invitrcelldeveanim
+In Vitro,biologicalsciences,62-biologicalsciences; 63-biologicalsciences,1965,1984,19.0,http://www.jstor.org/journal/invitro
+In Vitro Cellular & Developmental Biology,biologicalsciences,62-biologicalsciences; 63-biologicalsciences,1985,1993,8.0,http://www.jstor.org/journal/invitrcelldeve
+In Vitro Cellular & Developmental Biology. Plant,biologicalsciences,63-biologicalsciences,1991,2012,21.0,http://www.jstor.org/journal/invitrcelldeveplan
+American Zoologist,biologicalsciences,64-biologicalsciences,1961,2001,40.0,http://www.jstor.org/journal/amerzool
+Integrative and Comparative Biology,biologicalsciences,64-biologicalsciences,2002,2010,8.0,http://www.jstor.org/journal/intecompbiol
+Botanical Bulletin,biologicalsciences,65-biologicalsciences,1875,1876,1.0,http://www.jstor.org/journal/botabull
+Botanical Gazette,biologicalsciences,65-biologicalsciences,1876,1991,115.0,http://www.jstor.org/journal/botanicalgazette
+International Journal of Plant Sciences,biologicalsciences,65-biologicalsciences,1992,2015,23.0,http://www.jstor.org/journal/intejplanscie
+Proceedings of the American Society of Microscopists,biologicalsciences,66-biologicalsciences,1878,1891,13.0,http://www.jstor.org/journal/procamersocimicr
+Proceedings of the American Microscopical Society,biologicalsciences,66-biologicalsciences,1892,1895,3.0,http://www.jstor.org/journal/procamermicrsoci
+Transactions of the American Microscopical Society,biologicalsciences,66-biologicalsciences,1896,1994,98.0,http://www.jstor.org/journal/tranamermicrsoci
+Invertebrate Biology,biologicalsciences,66-biologicalsciences,1995,2010,15.0,http://www.jstor.org/journal/invebiol
 Irish Journal of Agricultural Research,biologicalsciences,67-biologicalsciences,1961,1991,30.0,http://www.jstor.org/journal/irisjagrirese
 Irish Journal of Agricultural Economics and Rural Sociology,biologicalsciences,67-biologicalsciences,1967,1991,24.0,http://www.jstor.org/journal/irisjagrieconrur
 Irish Journal of Food Science and Technology,biologicalsciences,67-biologicalsciences,1977,1991,14.0,http://www.jstor.org/journal/irisjfoodscitech
 Irish Journal of Agricultural and Food Research,biologicalsciences,67-biologicalsciences,1992,2014,22.0,http://www.jstor.org/journal/irisjagrifoodres
-Oesterreichisches Botanisches Wochenblatt,botany,73-botany,1851,1857,6.0,http://www.jstor.org/journal/oestbotawoch
-Österreichische Botanische Zeitschrift,botany,73-botany,1858,1973,115.0,http://www.jstor.org/journal/ostebotazeit
-Plant Systematics and Evolution,botany,73-botany,1976,2012,36.0,http://www.jstor.org/journal/plansystevol
-Zeitschrift für wissenschaftliche Biologie. Abteilung E. Planta,botany,74-botany,1925,1934,9.0,http://www.jstor.org/journal/zewibiabeplanta
-Planta,botany,74-botany,1934,2012,78.0,http://www.jstor.org/journal/planta
+Journal of Earth Sciences,biologicalsciences,68-biologicalsciences,1978,1983,5.0,http://www.jstor.org/journal/jeartscie
+Irish Journal of Earth Sciences,biologicalsciences,68-biologicalsciences,1984,2015,31.0,http://www.jstor.org/journal/irisjeartscie
+The Irish Naturalist,biologicalsciences,69-biologicalsciences,1892,1924,32.0,http://www.jstor.org/journal/irisnatu
+The Irish Naturalists' Journal,biologicalsciences,69-biologicalsciences,1925,2012,87.0,http://www.jstor.org/journal/irisnatuj
+Ornis Scandinavica (Scandinavian Journal of Ornithology),biologicalsciences,74-biologicalsciences,1970,1993,23.0,http://www.jstor.org/journal/orniscan
+Journal of Avian Biology,biologicalsciences,74-biologicalsciences,1994,2008,14.0,http://www.jstor.org/journal/javianbiology
+A.A.V. Newsletter,biologicalsciences,75-biologicalsciences,1980,1986,6.0,http://www.jstor.org/journal/aavnewsletter
+AAV Today,biologicalsciences,75-biologicalsciences,1987,1988,1.0,http://www.jstor.org/journal/aavtoday
+Journal of the Association of Avian Veterinarians,biologicalsciences,75-biologicalsciences,1989,1994,5.0,http://www.jstor.org/journal/jassoavianvet
+Journal of Avian Medicine and Surgery,biologicalsciences,75-biologicalsciences,1995,2012,17.0,http://www.jstor.org/journal/javianmedsurg
 The Journal of Biophysical and Biochemical Cytology,biologicalsciences,77-biologicalsciences,1955,1961,6.0,http://www.jstor.org/journal/jbiopbioccyto
 The Journal of Cell Biology,biologicalsciences,77-biologicalsciences,1962,2010,48.0,http://www.jstor.org/journal/jcellbiology
-Proceedings of the Association of Official Seed Analysts of North America,botany,79-botany,1919,1940,21.0,http://www.jstor.org/journal/prasofseannoam
-Proceedings of the Association of Official Seed Analysts,botany,79-botany,1941,1975,34.0,http://www.jstor.org/journal/proassoffseeana
-Journal of Seed Technology,botany,79-botany,1976,1994,18.0,http://www.jstor.org/journal/jseedtech
-Seed Technology,botany,79-botany,1997,2012,15.0,http://www.jstor.org/journal/seedtechnology
+Journal of Experimental Botany,biologicalsciences,82-biologicalsciences,1950,2010,60.0,http://www.jstor.org/journal/jexperbota
+Flowering Newsletter,biologicalsciences,82-biologicalsciences,1986,2000,14.0,http://www.jstor.org/journal/flownews
+Bulletin of the Northeastern Bird-Banding Association,biologicalsciences,83-biologicalsciences,1925,1929,4.0,http://www.jstor.org/journal/bulnorbirbanass
+Bird-Banding,biologicalsciences,83-biologicalsciences,1930,1979,49.0,http://www.jstor.org/journal/birdband
+Journal of Field Ornithology,biologicalsciences,83-biologicalsciences,1980,2012,32.0,http://www.jstor.org/journal/jfielorni
+Trimonthly Report. Ohio Herpetological Society,biologicalsciences,84-biologicalsciences,1958,1959,1.0,http://www.jstor.org/journal/trimrepoohioherp
+Journal of the Ohio Herpetological Society,biologicalsciences,84-biologicalsciences,1959,1966,7.0,http://www.jstor.org/journal/johioherpsoci
+Journal of Herpetology,biologicalsciences,84-biologicalsciences,1968,2012,44.0,http://www.jstor.org/journal/jherpetology
 Journal of the Arizona Academy of Science,biologicalsciences,89-biologicalsciences,1959,1977,18.0,http://www.jstor.org/journal/jarizacadsci
 Journal of the Arizona-Nevada Academy of Science,biologicalsciences,89-biologicalsciences,1978,2014,36.0,http://www.jstor.org/journal/jariznevaacadsci
+Bulletin of the Torrey Botanical Club,biologicalsciences,91-biologicalsciences,1870,1996,126.0,http://www.jstor.org/journal/bulltorrbotaclub
+Torreya,biologicalsciences,91-biologicalsciences,1901,1945,44.0,http://www.jstor.org/journal/torreya
+The Journal of the Torrey Botanical Society,biologicalsciences,91-biologicalsciences,1997,2012,15.0,http://www.jstor.org/journal/jtorrbotasoci
+The Journal of Zoo Animal Medicine,biologicalsciences,95-biologicalsciences,1970,1988,18.0,http://www.jstor.org/journal/jzooanimmedi
+Journal of Zoo and Wildlife Medicine,biologicalsciences,95-biologicalsciences,1989,2010,21.0,http://www.jstor.org/journal/jzoowildmedi
+Report on the Progress and Condition of the Royal Gardens at Kew,biologicalsciences,96-biologicalsciences,1865,1877,12.0,http://www.jstor.org/journal/repoprogcondroya
+"Bulletin of Miscellaneous Information (Royal Botanic Gardens, Kew)",biologicalsciences,96-biologicalsciences,1887,1941,54.0,http://www.jstor.org/journal/bullmiscinforoya
+Kew Bulletin,biologicalsciences,96-biologicalsciences,1946,2012,66.0,http://www.jstor.org/journal/kewbulletin

@@ -1,8 +1,9 @@
 library(rvest)
 library(tidyverse)
 
-un <- c("ecology", "zoology", "biologicalsciences",
-  "environmentalscience", "botany")
+# un <- c("ecology", "zoology", "biologicalsciences",
+  # "environmentalscience", "botany")
+un <- c("ecology", "biologicalsciences")
 u <- lapply(un, function(x) read_html(paste0("http://www.jstor.org/subject/", x)))
 
 xp <- "//*[contains(concat( ' ', @class, ' ' ), concat( ' ', 'mlxl', ' ' ))]"
@@ -56,6 +57,5 @@ d3 <- group_by(d2, subject) %>%
   ungroup() %>%
   arrange(continuation_id, start) %>%
   select(-continuation)
-d3[1:10,] %>% as.data.frame()
 
 readr::write_csv(d3, "data/generated/jstor-journals.csv")
