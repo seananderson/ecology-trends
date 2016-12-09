@@ -2,13 +2,11 @@
 
 ## 1. Project Description
  
-We are interested in conducting a study evaluating trends in major themes in
-the fields of ecology and conservation biology. 
+We are conducting a study to evaluate trends in major ecological and conservation biology themes throughout the history of these disciplines. The JSTOR Data for Research service would be an ideal data source since it includes the widest range of journals within our fields of interest over the longest time span.
 
-TODO
-
-The JSTOR Data for Research service would be ideal as it includes the widest
-range of journals within our fields of interest over the longest timespan.
+Specifically, we are interested in tracking the prevalence of a list of one-to-four-word terms representing key concepts or themes in ecology and conservation biology. We have begun determining these concepts a priori based on informal surveys of scientists in the academic, nonprofit, and government sectors representing diverse research areas, regions, and career stages. We have three main research questions: (1) What are the emergence dates and overall trends for our themes of interest? (2) How has the half-life of scientific concepts evolved over time? In other words, are scientific concepts more or less likely to "stick" in modern-day research compared to the past? (3) What is the replacement rate of analogous terms (e.g., global warming to climate change) and is this consistent over time? We will use these data to comment on the past, current, and future state of ecological science, and identify areas of growing and waning research interest in ecology and conservation biology.
+ 
+We have systematically considered the JSTOR database listings within the subfields of ecology and biological sciences to determine our search bounds in the JSTOR database. We outline specifics of our request below and would happily provide further details on request. Furthermore, we welcome the involvement of the JSTOR Data for Research team in whatever capacity JSTOR is interested. At the very least, we will follow all terms of the Agreement, acknowledge JSTOR's contributions, and share the results of our research and any publications with the JSTOR team; however, we would also welcome co-authorship on any resulting publications.
 
 ## 2. Source of the grant funding and details about the grant:
 
@@ -42,7 +40,7 @@ All journals listed in the search URL. The following is a complete list of these
 
 *If your query will be limited in some other way, please describe:*
 
-English? Anything else? 
+English journals
 
 ## 6. "Key researchers" and their affiliation:
 
