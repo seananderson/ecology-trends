@@ -11,7 +11,7 @@ include <- filter(decisions, group_vote == "IN", journal != "Ã‰coscience") %>
 # http://www.jstor.org/action/doBasicSearch?Query=jo:%22Journal+of+Animal+Ecology%22+OR+jo:%22Science%22
 
 # If too many search terms search will not complete:
-i <- c(seq(1, nrow(include), 5), nrow(include))
+i <- c(seq(1, nrow(include), 4), nrow(include))
 
 start <- "http://www.jstor.org/action/doBasicSearch?Query=jo:%22"
 end <- "%22"
