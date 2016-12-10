@@ -84,4 +84,3 @@ http://www.jstor.org/action/doBasicSearch?Query=jo:%22Vegetatio%22+OR+jo:%22Wild
 http://www.jstor.org/action/doBasicSearch?Query=jo:%22Wildlife Monographs%22+OR+jo:%22Wildlife Society Bulletin (1973-2006)%22
 http://www.jstor.org/action/doBasicSearch?Query=jo:%22Wildlife Society Bulletin (1973-2006)%22+OR+jo:%22Wildlife Society Bulletin (2011-)%22
 http://www.jstor.org/action/doBasicSearch?Query=jo:%22Wildlife Society Bulletin (2011-)%22+OR+jo:%22Zoological Bulletin%22
-http://www.jstor.org/action/doBasicSearch?Query=jo:%22Zoological Bulletin%22

@@ -12,6 +12,7 @@ include <- filter(decisions, group_vote == "IN", journal != "Ã‰coscience") %>
 
 # If too many search terms search will not complete:
 i <- c(seq(1, nrow(include), 1), nrow(include))
+i <- unique(i)
 
 start <- "http://www.jstor.org/action/doBasicSearch?Query=jo:%22"
 end <- "%22"
