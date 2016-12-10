@@ -1,4 +1,3 @@
-Écoscience
 Abstracta Botanica
 AIBS Bulletin
 Ambio
@@ -31,6 +30,7 @@ Ecography
 Ecological Applications
 Ecological Monographs
 Ecology
+Écoscience
 Ecosystems
 Environmental Values
 Estuaries

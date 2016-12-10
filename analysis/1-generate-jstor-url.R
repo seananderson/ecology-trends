@@ -4,10 +4,11 @@ decisions <- readr::read_csv("data/journal-filtering.csv")
 # if (interactive()) View(d)
 # if (interactive()) View(journals)
 
-include <- filter(decisions, group_vote == "IN") %>%
-  arrange(journal)
+include <- filter(decisions, group_vote == "IN")
 
 include$journal[include$journal == "Ã‰coscience"] <- "Écoscience"
+
+include <- include %>% arrange(journal)
 
 # The format
 # http://www.jstor.org/action/doBasicSearch?Query=jo:%22Journal+of+Animal+Ecology%22+OR+jo:%22Science%22
