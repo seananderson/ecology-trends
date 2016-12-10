@@ -24,3 +24,4 @@ u <- sapply(seq_len(length(i) - 1), function(x) {
 })
 
 writeLines(u, "data/generated/urls.txt")
+writeLines(include$journal, "data/generated/included-journals.txt")
