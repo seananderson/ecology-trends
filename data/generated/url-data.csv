@@ -1,0 +1,400 @@
+journal,subject,slug,url,continuation,start,end
+Ambio,ecology,ambio,http://www.jstor.org/journal/ambio,FALSE,1972,2012
+Ambio Special Report,ecology,ambispecrepo,http://www.jstor.org/journal/ambispecrepo,TRUE,1972,1979
+The American Midland Naturalist,ecology,amermidlnatu,http://www.jstor.org/journal/amermidlnatu,FALSE,1909,2012
+The Midland Naturalist,ecology,midlnatu,http://www.jstor.org/journal/midlnatu,TRUE,1909,1909
+The American Naturalist,ecology,amernatu,http://www.jstor.org/journal/amernatu,FALSE,1867,2015
+"Annalen des Naturhistorischen Museums in Wien. Serie A für Mineralogie und Petrographie, Geologie und Paläontologie, Anthropologie und Prähistorie",ecology,annnatmuswiesera,http://www.jstor.org/journal/annnatmuswiesera,FALSE,1980,2012
+Annalen des Naturhistorischen Museums in Wien,ecology,annanatumusewien,http://www.jstor.org/journal/annanatumusewien,TRUE,1886,1979
+Annalen des Naturhistorischen Museums in Wien. Serie B für Botanik und Zoologie,ecology,annnatmuswieserb,http://www.jstor.org/journal/annnatmuswieserb,FALSE,1980,2012
+Annalen des Naturhistorischen Museums in Wien,ecology,annanatumusewien,http://www.jstor.org/journal/annanatumusewien,TRUE,1886,1979
+"Annual Review of Ecology, Evolution, and Systematics",ecology,annureviecolevol,http://www.jstor.org/journal/annureviecolevol,FALSE,2003,2010
+Annual Review of Ecology and Systematics,ecology,annureviecolsyst,http://www.jstor.org/journal/annureviecolsyst,TRUE,1970,2002
+"Arctic, Antarctic, and Alpine Research",ecology,arctantaalpirese,http://www.jstor.org/journal/arctantaalpirese,FALSE,1999,2012
+Arctic and Alpine Research,ecology,arctalpirese,http://www.jstor.org/journal/arctalpirese,TRUE,1969,1998
+Behavioral Ecology and Sociobiology,ecology,behaecolsoci,http://www.jstor.org/journal/behaecolsoci,FALSE,1976,2012
+Behaviour,ecology,behaviour,http://www.jstor.org/journal/behaviour,FALSE,1947,2010
+Behaviour. Supplement,ecology,behasupp,http://www.jstor.org/journal/behasupp,FALSE,1950,1977
+Biogeochemistry,ecology,biogeochemistry,http://www.jstor.org/journal/biogeochemistry,FALSE,1984,2012
+Biotropica,ecology,biotropica,http://www.jstor.org/journal/biotropica,FALSE,1969,2010
+Bulletin (Association for Tropical Biology),ecology,bullassotropbiol,http://www.jstor.org/journal/bullassotropbiol,TRUE,1964,1967
+Bulletin of the Ecological Society of America,ecology,bullecosociamer,http://www.jstor.org/journal/bullecosociamer,FALSE,1917,2015
+Caldasia,ecology,caldasia,http://www.jstor.org/journal/caldasia,FALSE,1943,2012
+Community Ecology,ecology,communityecology,http://www.jstor.org/journal/communityecology,FALSE,2005,2010
+Abstracta Botanica,ecology,abstbota,http://www.jstor.org/journal/abstbota,TRUE,1971,1998
+Coenoses,ecology,coenoses,http://www.jstor.org/journal/coenoses,TRUE,1986,1998
+Conservation Biology,ecology,consbiol,http://www.jstor.org/journal/consbiol,FALSE,1987,2005
+Diversity and Distributions,ecology,divedist,http://www.jstor.org/journal/divedist,FALSE,1998,2005
+Biodiversity Letters,ecology,biodlett,http://www.jstor.org/journal/biodlett,TRUE,1993,1996
+Ecography,ecology,ecography,http://www.jstor.org/journal/ecography,FALSE,1992,2008
+Holarctic Ecology,ecology,holarcticecology,http://www.jstor.org/journal/holarcticecology,TRUE,1978,1991
+Ecología Política,ecology,ecolpoli,http://www.jstor.org/journal/ecolpoli,FALSE,1992,2013
+Ecological Applications,ecology,ecolappl,http://www.jstor.org/journal/ecolappl,FALSE,1991,2013
+Ecological Bulletins,ecology,ecologicalbull,http://www.jstor.org/journal/ecologicalbull,FALSE,1975,2007
+Bulletins from the Ecological Research Committee/NFR,ecology,bullecolrescomm,http://www.jstor.org/journal/bullecolrescomm,TRUE,1970,1973
+Ecological Monographs,ecology,ecolmono,http://www.jstor.org/journal/ecolmono,FALSE,1931,2013
+Ecology,ecology,ecology,http://www.jstor.org/journal/ecology,FALSE,1920,2013
+The Plant World,ecology,plantworld,http://www.jstor.org/journal/plantworld,TRUE,1898,1919
+The Asa Gray Bulletin,ecology,asagraybull,http://www.jstor.org/journal/asagraybull,TRUE,1893,1901
+Bulletin of the Gray Memorial Botanical Chapter of the Agassiz Association,ecology,bullgraymemobota,http://www.jstor.org/journal/bullgraymemobota,TRUE,1893,1893
+Écoscience,ecology,ecoscience,http://www.jstor.org/journal/ecoscience,FALSE,1994,2008
+Ecosystems,ecology,ecosystems,http://www.jstor.org/journal/ecosystems,FALSE,1998,2012
+Environmental History,ecology,envihist,http://www.jstor.org/journal/envihist,FALSE,1996,2011
+Environmental History Review,ecology,envihistrevi,http://www.jstor.org/journal/envihistrevi,TRUE,1990,1995
+Forest & Conservation History,ecology,foreconshist,http://www.jstor.org/journal/foreconshist,TRUE,1990,1995
+Environmental Review: ER,ecology,envirevier,http://www.jstor.org/journal/envirevier,TRUE,1976,1989
+Journal of Forest History,ecology,jforesthistory,http://www.jstor.org/journal/jforesthistory,TRUE,1974,1989
+Forest History Newsletter,ecology,forehistnews,http://www.jstor.org/journal/forehistnews,TRUE,1957,1974
+Environmental Values,ecology,envivalu,http://www.jstor.org/journal/envivalu,FALSE,1992,2010
+Estuaries and Coasts,ecology,estuariescoasts,http://www.jstor.org/journal/estuariescoasts,FALSE,2006,2010
+Estuaries,ecology,estuaries,http://www.jstor.org/journal/estuaries,TRUE,1978,2005
+Chesapeake Science,ecology,chesscie,http://www.jstor.org/journal/chesscie,TRUE,1960,1977
+Maryland Tidewater News,ecology,marytidenews,http://www.jstor.org/journal/marytidenews,TRUE,1944,1959
+Evolution,ecology,evolution,http://www.jstor.org/journal/evolution,FALSE,1947,2012
+Freshwater Science,ecology,fresscie,http://www.jstor.org/journal/fresscie,FALSE,2012,2015
+Journal of the North American Benthological Society,ecology,jnortamerbentsoc,http://www.jstor.org/journal/jnortamerbentsoc,TRUE,1986,2011
+Freshwater Invertebrate Biology,ecology,fresinvebiol,http://www.jstor.org/journal/fresinvebiol,TRUE,1982,1985
+Frontiers in Ecology and the Environment,ecology,fronecolenvi,http://www.jstor.org/journal/fronecolenvi,FALSE,2003,2013
+Functional Ecology,ecology,funcecol,http://www.jstor.org/journal/funcecol,FALSE,1987,2010
+Global Ecology and Biogeography,ecology,globecolbiog,http://www.jstor.org/journal/globecolbiog,FALSE,1999,2005
+Global Ecology and Biogeography Letters,ecology,globecolbioglett,http://www.jstor.org/journal/globecolbioglett,TRUE,1991,1998
+Great Plains Research,ecology,greaplairese,http://www.jstor.org/journal/greaplairese,FALSE,1991,2010
+Human Ecology,ecology,humanecology,http://www.jstor.org/journal/humanecology,FALSE,1972,2012
+Journal of Animal Ecology,ecology,janimalecology,http://www.jstor.org/journal/janimalecology,FALSE,1932,2010
+Journal of Applied Ecology,ecology,jappliedecology,http://www.jstor.org/journal/jappliedecology,FALSE,1964,2010
+Journal of Biogeography,ecology,jbiogeography,http://www.jstor.org/journal/jbiogeography,FALSE,1974,2005
+Journal of Coastal Research,ecology,jcoasrese,http://www.jstor.org/journal/jcoasrese,FALSE,1985,2016
+Litoralia,ecology,litoralia,http://www.jstor.org/journal/litoralia,TRUE,1984,1984
+Journal of Ecology,ecology,jecology,http://www.jstor.org/journal/jecology,FALSE,1913,2010
+Journal of Mammalogy,ecology,jmammalogy,http://www.jstor.org/journal/jmammalogy,FALSE,1919,2012
+Journal of Tropical Ecology,ecology,jtropicalecology,http://www.jstor.org/journal/jtropicalecology,FALSE,1985,2010
+Limnology and Oceanography,ecology,limnocea,http://www.jstor.org/journal/limnocea,FALSE,1956,2008
+Mammalian Species,ecology,mammalianspecies,http://www.jstor.org/journal/mammalianspecies,FALSE,1969,2012
+Microbial Ecology,ecology,micrecol,http://www.jstor.org/journal/micrecol,FALSE,1974,2012
+Monographs of the Western North American Naturalist,ecology,monwesnoramenat,http://www.jstor.org/journal/monwesnoramenat,FALSE,2002,2011
+Great Basin Naturalist Memoirs,ecology,grebasnatmem,http://www.jstor.org/journal/grebasnatmem,TRUE,1976,1992
+Mountain Research and Development,ecology,mounresedeve,http://www.jstor.org/journal/mounresedeve,FALSE,1981,2016
+New Zealand Journal of Ecology,ecology,newzealjecol,http://www.jstor.org/journal/newzealjecol,FALSE,1978,2014
+Proceedings (New Zealand Ecological Society),ecology,pronewzeaecosoc,http://www.jstor.org/journal/pronewzeaecosoc,TRUE,1953,1977
+Northeastern Naturalist,ecology,nortnatu2,http://www.jstor.org/journal/nortnatu2,FALSE,1997,2012
+Maine Naturalist,ecology,mainenaturalist,http://www.jstor.org/journal/mainenaturalist,TRUE,1993,1995
+Northwestern Naturalist,ecology,nortnatu,http://www.jstor.org/journal/nortnatu,FALSE,1989,2012
+The Murrelet,ecology,murrelet,http://www.jstor.org/journal/murrelet,TRUE,1920,1988
+Oecologia,ecology,oecologia,http://www.jstor.org/journal/oecologia,FALSE,1968,2012
+Zeitschrift für Morphologie und Ökologie der Tiere,ecology,zeitmorpokoltier,http://www.jstor.org/journal/zeitmorpokoltier,TRUE,1924,1967
+Oikos,ecology,oikos,http://www.jstor.org/journal/oikos,FALSE,1949,2008
+Paleobiology,ecology,paleobiology,http://www.jstor.org/journal/paleobiology,FALSE,1975,2011
+Physiological and Biochemical Zoology: Ecological and Evolutionary Approaches,ecology,physbioczool,http://www.jstor.org/journal/physbioczool,FALSE,1999,2015
+Physiological Zoology,ecology,physzool,http://www.jstor.org/journal/physzool,TRUE,1928,1998
+Plant Ecology,ecology,plantecology,http://www.jstor.org/journal/plantecology,FALSE,1997,2012
+Vegetatio,ecology,vegetatio,http://www.jstor.org/journal/vegetatio,TRUE,1948,1996
+The Quarterly Review of Biology,ecology,quarrevibiol,http://www.jstor.org/journal/quarrevibiol,FALSE,1926,2015
+Rangeland Ecology & Management,ecology,rangecolmana,http://www.jstor.org/journal/rangecolmana,FALSE,2005,2012
+Journal of Range Management,ecology,jrangemanagement,http://www.jstor.org/journal/jrangemanagement,TRUE,1948,2004
+Records of the Auckland Museum,ecology,recoauckmuse,http://www.jstor.org/journal/recoauckmuse,FALSE,1998,2014
+Records of the Auckland Institute and Museum,ecology,recaucinsmus,http://www.jstor.org/journal/recaucinsmus,TRUE,1930,1997
+Southeastern Naturalist,ecology,soutnatu2,http://www.jstor.org/journal/soutnatu2,FALSE,2002,2012
+The Southwestern Naturalist,ecology,soutnatu,http://www.jstor.org/journal/soutnatu,FALSE,1956,2012
+Systematic Biology,ecology,systbiol,http://www.jstor.org/journal/systbiol,FALSE,1992,2012
+Systematic Zoology,ecology,systzool,http://www.jstor.org/journal/systzool,TRUE,1952,1991
+Transactions of the American Entomological Society (1890-),ecology,tranamerentosoc3,http://www.jstor.org/journal/tranamerentosoc3,FALSE,1890,2016
+Transactions of the American Entomological Society and Proceedings of the Entomological Section of the Academy of Natural Sciences,ecology,tranamerentosoc2,http://www.jstor.org/journal/tranamerentosoc2,TRUE,1878,1889
+Transactions of the American Entomological Society (1867-1877),ecology,tranamerentosoci,http://www.jstor.org/journal/tranamerentosoci,TRUE,1867,1877
+Western North American Naturalist,ecology,westnortamernatu,http://www.jstor.org/journal/westnortamernatu,FALSE,2000,2012
+The Great Basin Naturalist,ecology,greabasinatu,http://www.jstor.org/journal/greabasinatu,TRUE,1939,1999
+Ambio,biologicalsciences,ambio,http://www.jstor.org/journal/ambio,FALSE,1972,2012
+Ambio Special Report,biologicalsciences,ambispecrepo,http://www.jstor.org/journal/ambispecrepo,TRUE,1972,1979
+The American Biology Teacher,biologicalsciences,amerbiolteac,http://www.jstor.org/journal/amerbiolteac,FALSE,1938,2015
+American Fern Journal,biologicalsciences,americanfernj,http://www.jstor.org/journal/americanfernj,FALSE,1910,2012
+American Journal of Botany,biologicalsciences,americanjbotany,http://www.jstor.org/journal/americanjbotany,FALSE,1914,2010
+The American Midland Naturalist,biologicalsciences,amermidlnatu,http://www.jstor.org/journal/amermidlnatu,FALSE,1909,2012
+The Midland Naturalist,biologicalsciences,midlnatu,http://www.jstor.org/journal/midlnatu,TRUE,1909,1909
+The American Naturalist,biologicalsciences,amernatu,http://www.jstor.org/journal/amernatu,FALSE,1867,2015
+"Annalen des Naturhistorischen Museums in Wien. Serie A für Mineralogie und Petrographie, Geologie und Paläontologie, Anthropologie und Prähistorie",biologicalsciences,annnatmuswiesera,http://www.jstor.org/journal/annnatmuswiesera,FALSE,1980,2012
+Annalen des Naturhistorischen Museums in Wien,biologicalsciences,annanatumusewien,http://www.jstor.org/journal/annanatumusewien,TRUE,1886,1979
+Annalen des Naturhistorischen Museums in Wien. Serie B für Botanik und Zoologie,biologicalsciences,annnatmuswieserb,http://www.jstor.org/journal/annnatmuswieserb,FALSE,1980,2012
+Annalen des Naturhistorischen Museums in Wien,biologicalsciences,annanatumusewien,http://www.jstor.org/journal/annanatumusewien,TRUE,1886,1979
+Annales Zoologici Fennici,biologicalsciences,annazoolfenn,http://www.jstor.org/journal/annazoolfenn,FALSE,1964,2012
+Annals of Botany,biologicalsciences,annabota,http://www.jstor.org/journal/annabota,FALSE,1887,2010
+Annals of the Missouri Botanical Garden,biologicalsciences,annamissbotagard,http://www.jstor.org/journal/annamissbotagard,FALSE,1914,2012
+"Annual Review of Ecology, Evolution, and Systematics",biologicalsciences,annureviecolevol,http://www.jstor.org/journal/annureviecolevol,FALSE,2003,2010
+Annual Review of Ecology and Systematics,biologicalsciences,annureviecolsyst,http://www.jstor.org/journal/annureviecolsyst,TRUE,1970,2002
+Applied Vegetation Science,biologicalsciences,applvegescie,http://www.jstor.org/journal/applvegescie,FALSE,1998,2010
+"Arctic, Antarctic, and Alpine Research",biologicalsciences,arctantaalpirese,http://www.jstor.org/journal/arctantaalpirese,FALSE,1999,2012
+Arctic and Alpine Research,biologicalsciences,arctalpirese,http://www.jstor.org/journal/arctalpirese,TRUE,1969,1998
+The Auk,biologicalsciences,auk,http://www.jstor.org/journal/auk,FALSE,1884,2013
+Bulletin of the Nuttall Ornithological Club,biologicalsciences,bullnuttorniclub,http://www.jstor.org/journal/bullnuttorniclub,TRUE,1876,1883
+Quarterly Bulletin of the Nuttall Ornithological Club,biologicalsciences,quarbullnuttorni,http://www.jstor.org/journal/quarbullnuttorni,TRUE,1876,1876
+Avian Diseases,biologicalsciences,aviandiseases,http://www.jstor.org/journal/aviandiseases,FALSE,1957,2012
+Behavioral Ecology and Sociobiology,biologicalsciences,behaecolsoci,http://www.jstor.org/journal/behaecolsoci,FALSE,1976,2012
+Behaviour,biologicalsciences,behaviour,http://www.jstor.org/journal/behaviour,FALSE,1947,2010
+Behaviour. Supplement,biologicalsciences,behasupp,http://www.jstor.org/journal/behasupp,FALSE,1950,1977
+Biogeochemistry,biologicalsciences,biogeochemistry,http://www.jstor.org/journal/biogeochemistry,FALSE,1984,2012
+Biological Bulletin,biologicalsciences,biolbull,http://www.jstor.org/journal/biolbull,FALSE,1899,2014
+Zoological Bulletin,biologicalsciences,zoolbull,http://www.jstor.org/journal/zoolbull,TRUE,1897,1899
+Biology and Environment: Proceedings of the Royal Irish Academy,biologicalsciences,biolenviprocria,http://www.jstor.org/journal/biolenviprocria,FALSE,1993,2015
+"Proceedings of the Royal Irish Academy. Section B: Biological, Geological, and Chemical Science",biologicalsciences,procriasectb,http://www.jstor.org/journal/procriasectb,TRUE,1902,1992
+Proceedings of the Royal Irish Academy (1889-1901),biologicalsciences,procria1889,http://www.jstor.org/journal/procria1889,TRUE,1889,1901
+Proceedings of the Royal Irish Academy. Science,biologicalsciences,procriascience,http://www.jstor.org/journal/procriascience,TRUE,1870,1884
+Proceedings of the Royal Irish Academy. Polite Literature and Antiquities,biologicalsciences,procriapolitelit,http://www.jstor.org/journal/procriapolitelit,TRUE,1879,1879
+Proceedings of the Royal Irish Academy (1836-1869),biologicalsciences,procria1836,http://www.jstor.org/journal/procria1836,TRUE,1836,1866
+Bios,biologicalsciences,bios,http://www.jstor.org/journal/bios,FALSE,1930,2014
+BioScience,biologicalsciences,bioscience,http://www.jstor.org/journal/bioscience,FALSE,1964,2013
+AIBS Bulletin,biologicalsciences,aibsbulletin,http://www.jstor.org/journal/aibsbulletin,TRUE,1951,1963
+Biotropica,biologicalsciences,biotropica,http://www.jstor.org/journal/biotropica,FALSE,1969,2010
+Bulletin (Association for Tropical Biology),biologicalsciences,bullassotropbiol,http://www.jstor.org/journal/bullassotropbiol,TRUE,1964,1967
+Botanical Review,biologicalsciences,botarevi,http://www.jstor.org/journal/botarevi,FALSE,1935,2010
+Brittonia,biologicalsciences,brittonia,http://www.jstor.org/journal/brittonia,FALSE,1931,2010
+The Bryologist,biologicalsciences,bryologist,http://www.jstor.org/journal/bryologist,FALSE,1898,2012
+Bulletin of the Ecological Society of America,biologicalsciences,bullecosociamer,http://www.jstor.org/journal/bullecosociamer,FALSE,1917,2015
+Castanea,biologicalsciences,castanea,http://www.jstor.org/journal/castanea,FALSE,1937,2012
+The Journal of the Southern Appalachian Botanical Club,biologicalsciences,jsoutappabotaclu,http://www.jstor.org/journal/jsoutappabotaclu,TRUE,1936,1937
+Cell Stress & Chaperones,biologicalsciences,cellstrechap,http://www.jstor.org/journal/cellstrechap,FALSE,1996,2014
+The Coleopterists Bulletin,biologicalsciences,colebull,http://www.jstor.org/journal/colebull,FALSE,1947,2010
+Coleopterists Society Monographs. Patricia Vaurie Series,biologicalsciences,colesocimonopatr,http://www.jstor.org/journal/colesocimonopatr,FALSE,2002,2010
+The Condor,biologicalsciences,condor,http://www.jstor.org/journal/condor,FALSE,1900,2013
+Bulletin of the Cooper Ornithological Club,biologicalsciences,bullcooporniclub,http://www.jstor.org/journal/bullcooporniclub,TRUE,1899,1899
+Conservation Biology,biologicalsciences,consbiol,http://www.jstor.org/journal/consbiol,FALSE,1987,2005
+Copeia,biologicalsciences,copeia,http://www.jstor.org/journal/copeia,FALSE,1913,2012
+Crustaceana,biologicalsciences,crustaceana,http://www.jstor.org/journal/crustaceana,FALSE,1960,2010
+Crustaceana. Supplement,biologicalsciences,crussupp,http://www.jstor.org/journal/crussupp,FALSE,1968,1990
+Diversity and Distributions,biologicalsciences,divedist,http://www.jstor.org/journal/divedist,FALSE,1998,2005
+Biodiversity Letters,biologicalsciences,biodlett,http://www.jstor.org/journal/biodlett,TRUE,1993,1996
+Ecography,biologicalsciences,ecography,http://www.jstor.org/journal/ecography,FALSE,1992,2008
+Holarctic Ecology,biologicalsciences,holarcticecology,http://www.jstor.org/journal/holarcticecology,TRUE,1978,1991
+Ecological Applications,biologicalsciences,ecolappl,http://www.jstor.org/journal/ecolappl,FALSE,1991,2013
+Ecological Bulletins,biologicalsciences,ecologicalbull,http://www.jstor.org/journal/ecologicalbull,FALSE,1975,2007
+Bulletins from the Ecological Research Committee/NFR,biologicalsciences,bullecolrescomm,http://www.jstor.org/journal/bullecolrescomm,TRUE,1970,1973
+Ecological Monographs,biologicalsciences,ecolmono,http://www.jstor.org/journal/ecolmono,FALSE,1931,2013
+Ecology,biologicalsciences,ecology,http://www.jstor.org/journal/ecology,FALSE,1920,2013
+The Plant World,biologicalsciences,plantworld,http://www.jstor.org/journal/plantworld,TRUE,1898,1919
+The Asa Gray Bulletin,biologicalsciences,asagraybull,http://www.jstor.org/journal/asagraybull,TRUE,1893,1901
+Bulletin of the Gray Memorial Botanical Chapter of the Agassiz Association,biologicalsciences,bullgraymemobota,http://www.jstor.org/journal/bullgraymemobota,TRUE,1893,1893
+Economic Botany,biologicalsciences,econbota,http://www.jstor.org/journal/econbota,FALSE,1947,2010
+Ecosystems,biologicalsciences,ecosystems,http://www.jstor.org/journal/ecosystems,FALSE,1998,2012
+Englera,biologicalsciences,englera,http://www.jstor.org/journal/englera,FALSE,1979,2012
+Willdenowia. Beiheft,biologicalsciences,willbeih,http://www.jstor.org/journal/willbeih,TRUE,1963,1977
+Entomologica Americana,biologicalsciences,entoamer,http://www.jstor.org/journal/entoamer,FALSE,2009,2010
+Journal of the New York Entomological Society,biologicalsciences,jnewyorkentosoci,http://www.jstor.org/journal/jnewyorkentosoci,TRUE,1893,2006
+Estuaries and Coasts,biologicalsciences,estuariescoasts,http://www.jstor.org/journal/estuariescoasts,FALSE,2006,2010
+Estuaries,biologicalsciences,estuaries,http://www.jstor.org/journal/estuaries,TRUE,1978,2005
+Chesapeake Science,biologicalsciences,chesscie,http://www.jstor.org/journal/chesscie,TRUE,1960,1977
+Maryland Tidewater News,biologicalsciences,marytidenews,http://www.jstor.org/journal/marytidenews,TRUE,1944,1959
+Evolution,biologicalsciences,evolution,http://www.jstor.org/journal/evolution,FALSE,1947,2012
+Flora Neotropica,biologicalsciences,florneot,http://www.jstor.org/journal/florneot,FALSE,1967,2010
+The Florida Entomologist,biologicalsciences,florento,http://www.jstor.org/journal/florento,FALSE,1920,2014
+The Florida Buggist,biologicalsciences,floridabuggist,http://www.jstor.org/journal/floridabuggist,TRUE,1917,1920
+Folia Geobotanica,biologicalsciences,foligeob,http://www.jstor.org/journal/foligeob,FALSE,1998,2012
+Folia Geobotanica & Phytotaxonomica,biologicalsciences,foligeobphyt,http://www.jstor.org/journal/foligeobphyt,TRUE,1966,1997
+Freshwater Science,biologicalsciences,fresscie,http://www.jstor.org/journal/fresscie,FALSE,2012,2015
+Journal of the North American Benthological Society,biologicalsciences,jnortamerbentsoc,http://www.jstor.org/journal/jnortamerbentsoc,TRUE,1986,2011
+Freshwater Invertebrate Biology,biologicalsciences,fresinvebiol,http://www.jstor.org/journal/fresinvebiol,TRUE,1982,1985
+Frontiers in Ecology and the Environment,biologicalsciences,fronecolenvi,http://www.jstor.org/journal/fronecolenvi,FALSE,2003,2013
+Functional Ecology,biologicalsciences,funcecol,http://www.jstor.org/journal/funcecol,FALSE,1987,2010
+Global Ecology and Biogeography,biologicalsciences,globecolbiog,http://www.jstor.org/journal/globecolbiog,FALSE,1999,2005
+Global Ecology and Biogeography Letters,biologicalsciences,globecolbioglett,http://www.jstor.org/journal/globecolbioglett,TRUE,1991,1998
+Herpetologica,biologicalsciences,herpetologica,http://www.jstor.org/journal/herpetologica,FALSE,1936,2012
+Herpetological Monographs,biologicalsciences,herpmono,http://www.jstor.org/journal/herpmono,FALSE,1982,2012
+History and Philosophy of the Life Sciences,biologicalsciences,histphillifescie,http://www.jstor.org/journal/histphillifescie,FALSE,1979,2012
+Human Biology,biologicalsciences,humanbiology,http://www.jstor.org/journal/humanbiology,FALSE,1929,2016
+In Vitro Cellular & Developmental Biology. Animal,biologicalsciences,invitrcelldeveanim,http://www.jstor.org/journal/invitrcelldeveanim,FALSE,1993,2012
+In Vitro Cellular & Developmental Biology,biologicalsciences,invitrcelldeve,http://www.jstor.org/journal/invitrcelldeve,TRUE,1985,1993
+In Vitro,biologicalsciences,invitro,http://www.jstor.org/journal/invitro,TRUE,1965,1984
+In Vitro Cellular & Developmental Biology. Plant,biologicalsciences,invitrcelldeveplan,http://www.jstor.org/journal/invitrcelldeveplan,FALSE,1991,2012
+In Vitro Cellular & Developmental Biology,biologicalsciences,invitrcelldeve,http://www.jstor.org/journal/invitrcelldeve,TRUE,1985,1993
+In Vitro,biologicalsciences,invitro,http://www.jstor.org/journal/invitro,TRUE,1965,1984
+Integrative and Comparative Biology,biologicalsciences,intecompbiol,http://www.jstor.org/journal/intecompbiol,FALSE,2002,2010
+American Zoologist,biologicalsciences,amerzool,http://www.jstor.org/journal/amerzool,TRUE,1961,2001
+International Journal of Plant Sciences,biologicalsciences,intejplanscie,http://www.jstor.org/journal/intejplanscie,FALSE,1992,2015
+Botanical Gazette,biologicalsciences,botanicalgazette,http://www.jstor.org/journal/botanicalgazette,TRUE,1876,1991
+Botanical Bulletin,biologicalsciences,botabull,http://www.jstor.org/journal/botabull,TRUE,1875,1876
+Invertebrate Biology,biologicalsciences,invebiol,http://www.jstor.org/journal/invebiol,FALSE,1995,2010
+Transactions of the American Microscopical Society,biologicalsciences,tranamermicrsoci,http://www.jstor.org/journal/tranamermicrsoci,TRUE,1896,1994
+Proceedings of the American Microscopical Society,biologicalsciences,procamermicrsoci,http://www.jstor.org/journal/procamermicrsoci,TRUE,1892,1895
+Proceedings of the American Society of Microscopists,biologicalsciences,procamersocimicr,http://www.jstor.org/journal/procamersocimicr,TRUE,1878,1891
+Irish Journal of Agricultural and Food Research,biologicalsciences,irisjagrifoodres,http://www.jstor.org/journal/irisjagrifoodres,FALSE,1992,2014
+Irish Journal of Agricultural Economics and Rural Sociology,biologicalsciences,irisjagrieconrur,http://www.jstor.org/journal/irisjagrieconrur,TRUE,1967,1991
+Irish Journal of Food Science and Technology,biologicalsciences,irisjfoodscitech,http://www.jstor.org/journal/irisjfoodscitech,TRUE,1977,1991
+Irish Journal of Agricultural Research,biologicalsciences,irisjagrirese,http://www.jstor.org/journal/irisjagrirese,TRUE,1961,1991
+Irish Journal of Earth Sciences,biologicalsciences,irisjeartscie,http://www.jstor.org/journal/irisjeartscie,FALSE,1984,2015
+Journal of Earth Sciences,biologicalsciences,jeartscie,http://www.jstor.org/journal/jeartscie,TRUE,1978,1983
+The Irish Naturalists' Journal,biologicalsciences,irisnatuj,http://www.jstor.org/journal/irisnatuj,FALSE,1925,2012
+The Irish Naturalist,biologicalsciences,irisnatu,http://www.jstor.org/journal/irisnatu,TRUE,1892,1924
+Journal (American Water Works Association),biologicalsciences,jamewatworass,http://www.jstor.org/journal/jamewatworass,FALSE,1914,2012
+Journal of Animal Ecology,biologicalsciences,janimalecology,http://www.jstor.org/journal/janimalecology,FALSE,1932,2010
+Journal of Applied Ecology,biologicalsciences,jappliedecology,http://www.jstor.org/journal/jappliedecology,FALSE,1964,2010
+The Journal of Arachnology,biologicalsciences,jarachnology,http://www.jstor.org/journal/jarachnology,FALSE,1973,2014
+Journal of Avian Biology,biologicalsciences,javianbiology,http://www.jstor.org/journal/javianbiology,FALSE,1994,2008
+Ornis Scandinavica (Scandinavian Journal of Ornithology),biologicalsciences,orniscan,http://www.jstor.org/journal/orniscan,TRUE,1970,1993
+Journal of Avian Medicine and Surgery,biologicalsciences,javianmedsurg,http://www.jstor.org/journal/javianmedsurg,FALSE,1995,2012
+Journal of the Association of Avian Veterinarians,biologicalsciences,jassoavianvet,http://www.jstor.org/journal/jassoavianvet,TRUE,1989,1994
+AAV Today,biologicalsciences,aavtoday,http://www.jstor.org/journal/aavtoday,TRUE,1987,1988
+A.A.V. Newsletter,biologicalsciences,aavnewsletter,http://www.jstor.org/journal/aavnewsletter,TRUE,1980,1986
+Journal of Biogeography,biologicalsciences,jbiogeography,http://www.jstor.org/journal/jbiogeography,FALSE,1974,2005
+The Journal of Cell Biology,biologicalsciences,jcellbiology,http://www.jstor.org/journal/jcellbiology,FALSE,1962,2010
+The Journal of Biophysical and Biochemical Cytology,biologicalsciences,jbiopbioccyto,http://www.jstor.org/journal/jbiopbioccyto,TRUE,1955,1961
+Journal of Coastal Conservation,biologicalsciences,jcoascons,http://www.jstor.org/journal/jcoascons,FALSE,1995,2012
+Journal of Coastal Research,biologicalsciences,jcoasrese,http://www.jstor.org/journal/jcoasrese,FALSE,1985,2016
+Litoralia,biologicalsciences,litoralia,http://www.jstor.org/journal/litoralia,TRUE,1984,1984
+Journal of Crustacean Biology,biologicalsciences,jcrusbiol,http://www.jstor.org/journal/jcrusbiol,FALSE,1981,2010
+Journal of Ecology,biologicalsciences,jecology,http://www.jstor.org/journal/jecology,FALSE,1913,2010
+Journal of Experimental Botany,biologicalsciences,jexperbota,http://www.jstor.org/journal/jexperbota,FALSE,1950,2010
+Flowering Newsletter,biologicalsciences,flownews,http://www.jstor.org/journal/flownews,TRUE,1986,2000
+Journal of Field Ornithology,biologicalsciences,jfielorni,http://www.jstor.org/journal/jfielorni,FALSE,1980,2012
+Bird-Banding,biologicalsciences,birdband,http://www.jstor.org/journal/birdband,TRUE,1930,1979
+Bulletin of the Northeastern Bird-Banding Association,biologicalsciences,bulnorbirbanass,http://www.jstor.org/journal/bulnorbirbanass,TRUE,1925,1929
+Journal of Herpetology,biologicalsciences,jherpetology,http://www.jstor.org/journal/jherpetology,FALSE,1968,2012
+Journal of the Ohio Herpetological Society,biologicalsciences,johioherpsoci,http://www.jstor.org/journal/johioherpsoci,TRUE,1959,1966
+Trimonthly Report. Ohio Herpetological Society,biologicalsciences,trimrepoohioherp,http://www.jstor.org/journal/trimrepoohioherp,TRUE,1958,1959
+Journal of Mammalogy,biologicalsciences,jmammalogy,http://www.jstor.org/journal/jmammalogy,FALSE,1919,2012
+Journal of Orthoptera Research,biologicalsciences,jorthrese,http://www.jstor.org/journal/jorthrese,FALSE,1992,2014
+Journal of Paleontology,biologicalsciences,jpaleontology,http://www.jstor.org/journal/jpaleontology,FALSE,1927,2011
+The Journal of Parasitology,biologicalsciences,jparasitology,http://www.jstor.org/journal/jparasitology,FALSE,1914,2012
+Journal of the Arizona-Nevada Academy of Science,biologicalsciences,jariznevaacadsci,http://www.jstor.org/journal/jariznevaacadsci,FALSE,1978,2014
+Journal of the Arizona Academy of Science,biologicalsciences,jarizacadsci,http://www.jstor.org/journal/jarizacadsci,TRUE,1959,1977
+Journal of the Kansas Entomological Society,biologicalsciences,jkansentosoci,http://www.jstor.org/journal/jkansentosoci,FALSE,1928,2012
+The Journal of the Torrey Botanical Society,biologicalsciences,jtorrbotasoci,http://www.jstor.org/journal/jtorrbotasoci,FALSE,1997,2012
+Bulletin of the Torrey Botanical Club,biologicalsciences,bulltorrbotaclub,http://www.jstor.org/journal/bulltorrbotaclub,TRUE,1870,1996
+Torreya,biologicalsciences,torreya,http://www.jstor.org/journal/torreya,TRUE,1901,1945
+Journal of Tropical Ecology,biologicalsciences,jtropicalecology,http://www.jstor.org/journal/jtropicalecology,FALSE,1985,2010
+Journal of Vegetation Science,biologicalsciences,jvegescie,http://www.jstor.org/journal/jvegescie,FALSE,1990,2010
+Journal of Vertebrate Paleontology,biologicalsciences,jvertpale,http://www.jstor.org/journal/jvertpale,FALSE,1981,2012
+Journal of Zoo and Wildlife Medicine,biologicalsciences,jzoowildmedi,http://www.jstor.org/journal/jzoowildmedi,FALSE,1989,2010
+The Journal of Zoo Animal Medicine,biologicalsciences,jzooanimmedi,http://www.jstor.org/journal/jzooanimmedi,TRUE,1970,1988
+Kew Bulletin,biologicalsciences,kewbulletin,http://www.jstor.org/journal/kewbulletin,FALSE,1946,2012
+"Bulletin of Miscellaneous Information (Royal Botanic Gardens, Kew)",biologicalsciences,bullmiscinforoya,http://www.jstor.org/journal/bullmiscinforoya,TRUE,1887,1941
+Report on the Progress and Condition of the Royal Gardens at Kew,biologicalsciences,repoprogcondroya,http://www.jstor.org/journal/repoprogcondroya,TRUE,1861,1882
+Limnology and Oceanography,biologicalsciences,limnocea,http://www.jstor.org/journal/limnocea,FALSE,1956,2008
+Lindbergia,biologicalsciences,lindbergia,http://www.jstor.org/journal/lindbergia,FALSE,1971,2011
+Mammalian Species,biologicalsciences,mammalianspecies,http://www.jstor.org/journal/mammalianspecies,FALSE,1969,2012
+Mathematical Proceedings of the Royal Irish Academy,biologicalsciences,mathprocria,http://www.jstor.org/journal/mathprocria,FALSE,1998,2016
+Proceedings of the Royal Irish Academy. Section A: Mathematical and Physical Sciences,biologicalsciences,procriasectiona,http://www.jstor.org/journal/procriasectiona,TRUE,1902,1997
+Proceedings of the Royal Irish Academy (1889-1901),biologicalsciences,procria1889,http://www.jstor.org/journal/procria1889,TRUE,1889,1901
+Proceedings of the Royal Irish Academy. Science,biologicalsciences,procriascience,http://www.jstor.org/journal/procriascience,TRUE,1870,1884
+Proceedings of the Royal Irish Academy. Polite Literature and Antiquities,biologicalsciences,procriapolitelit,http://www.jstor.org/journal/procriapolitelit,TRUE,1879,1879
+Proceedings of the Royal Irish Academy (1836-1869),biologicalsciences,procria1836,http://www.jstor.org/journal/procria1836,TRUE,1836,1866
+Memoir (Society of Vertebrate Paleontology),biologicalsciences,memosocivertpale,http://www.jstor.org/journal/memosocivertpale,FALSE,1991,2012
+Memoir (The Paleontological Society),biologicalsciences,memopalesoci,http://www.jstor.org/journal/memopalesoci,FALSE,1968,2009
+Memoirs of the Torrey Botanical Society,biologicalsciences,memotorrbotasoci,http://www.jstor.org/journal/memotorrbotasoci,FALSE,2010,2010
+Memoirs of the Torrey Botanical Club,biologicalsciences,memotorrbotaclub,http://www.jstor.org/journal/memotorrbotaclub,TRUE,1889,1993
+Microbial Ecology,biologicalsciences,micrecol,http://www.jstor.org/journal/micrecol,FALSE,1974,2012
+Micropaleontology,biologicalsciences,micr,http://www.jstor.org/journal/micr,FALSE,1955,2012
+The Micropaleontologist,biologicalsciences,micr2,http://www.jstor.org/journal/micr2,TRUE,1947,1954
+Missouri Botanical Garden Annual Report,biologicalsciences,missbotagardannu,http://www.jstor.org/journal/missbotagardannu,FALSE,1890,1912
+Monographs of the Western North American Naturalist,biologicalsciences,monwesnoramenat,http://www.jstor.org/journal/monwesnoramenat,FALSE,2002,2011
+Great Basin Naturalist Memoirs,biologicalsciences,grebasnatmem,http://www.jstor.org/journal/grebasnatmem,TRUE,1976,1992
+Mountain Research and Development,biologicalsciences,mounresedeve,http://www.jstor.org/journal/mounresedeve,FALSE,1981,2016
+Mycologia,biologicalsciences,mycologia,http://www.jstor.org/journal/mycologia,FALSE,1909,2012
+Mycological Bulletin,biologicalsciences,mycobull,http://www.jstor.org/journal/mycobull,TRUE,1904,1908
+The Journal of Mycology,biologicalsciences,jmycology,http://www.jstor.org/journal/jmycology,TRUE,1885,1908
+Ohio Mycological Bulletin,biologicalsciences,ohiomycobull,http://www.jstor.org/journal/ohiomycobull,TRUE,1903,1903
+The New Phytologist,biologicalsciences,newphytologist,http://www.jstor.org/journal/newphytologist,FALSE,1902,2012
+Northeastern Naturalist,biologicalsciences,nortnatu2,http://www.jstor.org/journal/nortnatu2,FALSE,1997,2012
+Maine Naturalist,biologicalsciences,mainenaturalist,http://www.jstor.org/journal/mainenaturalist,TRUE,1993,1995
+Northwestern Naturalist,biologicalsciences,nortnatu,http://www.jstor.org/journal/nortnatu,FALSE,1989,2012
+The Murrelet,biologicalsciences,murrelet,http://www.jstor.org/journal/murrelet,TRUE,1920,1988
+Novon,biologicalsciences,novon,http://www.jstor.org/journal/novon,FALSE,1991,2012
+Oecologia,biologicalsciences,oecologia,http://www.jstor.org/journal/oecologia,FALSE,1968,2012
+Zeitschrift für Morphologie und Ökologie der Tiere,biologicalsciences,zeitmorpokoltier,http://www.jstor.org/journal/zeitmorpokoltier,TRUE,1924,1967
+Oikos,biologicalsciences,oikos,http://www.jstor.org/journal/oikos,FALSE,1949,2008
+Ornithological Monographs,biologicalsciences,ornithmono,http://www.jstor.org/journal/ornithmono,FALSE,1964,2013
+PALAIOS,biologicalsciences,palaios,http://www.jstor.org/journal/palaios,FALSE,1986,2010
+Paleobiology,biologicalsciences,paleobiology,http://www.jstor.org/journal/paleobiology,FALSE,1975,2011
+Paleontological Monograph,biologicalsciences,palemono,http://www.jstor.org/journal/palemono,FALSE,1978,1980
+Palynology,biologicalsciences,palynology,http://www.jstor.org/journal/palynology,FALSE,1977,2010
+Proceedings of the Annual Meeting. American Association of Stratigraphic Palynologists,biologicalsciences,procannumeetamer,http://www.jstor.org/journal/procannumeetamer,TRUE,1970,1976
+Philosophical Transactions: Biological Sciences,biologicalsciences,philtranbiolscie,http://www.jstor.org/journal/philtranbiolscie,FALSE,1990,2012
+"Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences",biologicalsciences,philtranroyasoc2,http://www.jstor.org/journal/philtranroyasoc2,TRUE,1934,1990
+"Philosophical Transactions of the Royal Society of London. Series B, Containing Papers of a Biological Character",biologicalsciences,philtranroyasoc7,http://www.jstor.org/journal/philtranroyasoc7,TRUE,1896,1934
+Philosophical Transactions of the Royal Society of London. B,biologicalsciences,philtranroyasoc5,http://www.jstor.org/journal/philtranroyasoc5,TRUE,1887,1895
+Philosophical Transactions of the Royal Society of London,biologicalsciences,philtranroyasoc3,http://www.jstor.org/journal/philtranroyasoc3,TRUE,1776,1886
+Philosophical Transactions (1683-1775),biologicalsciences,philtran1683177,http://www.jstor.org/journal/philtran1683177,TRUE,1683,1775
+Philosophical Transactions (1665-1678),biologicalsciences,philtran1665167,http://www.jstor.org/journal/philtran1665167,TRUE,1665,1677
+"Philosophical Transactions: Mathematical, Physical and Engineering Sciences",biologicalsciences,philtranmathphys,http://www.jstor.org/journal/philtranmathphys,FALSE,1996,2012
+Philosophical Transactions: Physical Sciences and Engineering,biologicalsciences,philtranphysscie,http://www.jstor.org/journal/philtranphysscie,TRUE,1990,1995
+"Philosophical Transactions of the Royal Society of London. Series A, Mathematical and Physical Sciences",biologicalsciences,philtranroyasoci,http://www.jstor.org/journal/philtranroyasoci,TRUE,1934,1990
+"Philosophical Transactions of the Royal Society of London. Series A, Containing Papers of a Mathematical or Physical Character",biologicalsciences,philtranroyasoc6,http://www.jstor.org/journal/philtranroyasoc6,TRUE,1896,1934
+Philosophical Transactions of the Royal Society of London. A,biologicalsciences,philtranroyasoc4,http://www.jstor.org/journal/philtranroyasoc4,TRUE,1887,1895
+Philosophical Transactions of the Royal Society of London,biologicalsciences,philtranroyasoc3,http://www.jstor.org/journal/philtranroyasoc3,TRUE,1776,1886
+Philosophical Transactions (1683-1775),biologicalsciences,philtran1683177,http://www.jstor.org/journal/philtran1683177,TRUE,1683,1775
+Philosophical Transactions (1665-1678),biologicalsciences,philtran1665167,http://www.jstor.org/journal/philtran1665167,TRUE,1665,1677
+Physiological and Biochemical Zoology: Ecological and Evolutionary Approaches,biologicalsciences,physbioczool,http://www.jstor.org/journal/physbioczool,FALSE,1999,2015
+Physiological Zoology,biologicalsciences,physzool,http://www.jstor.org/journal/physzool,TRUE,1928,1998
+The Plant Cell,biologicalsciences,plantcell,http://www.jstor.org/journal/plantcell,FALSE,1989,2013
+Plant Ecology,biologicalsciences,plantecology,http://www.jstor.org/journal/plantecology,FALSE,1997,2012
+Vegetatio,biologicalsciences,vegetatio,http://www.jstor.org/journal/vegetatio,TRUE,1948,1996
+Plant Ecology and Evolution,biologicalsciences,planecolevol,http://www.jstor.org/journal/planecolevol,FALSE,2010,2012
+Belgian Journal of Botany,biologicalsciences,belgjbota,http://www.jstor.org/journal/belgjbota,TRUE,1990,2009
+Systematics and Geography of Plants,biologicalsciences,systgeogplan,http://www.jstor.org/journal/systgeogplan,TRUE,1999,2009
+Bulletin du Jardin botanique National de Belgique / Bulletin van de Nationale Plantentuin van België,biologicalsciences,bulldujardbotana,http://www.jstor.org/journal/bulldujardbotana,TRUE,1967,1999
+Bulletin de la Société Royale de Botanique de Belgique / Bulletin van de Koninklijke Belgische Botanische Vereniging,biologicalsciences,bullsocroybotbel,http://www.jstor.org/journal/bullsocroybotbel,TRUE,1862,1989
+Bulletin de la Société de Botanique de Belgique,biologicalsciences,bullsocibotabelg,http://www.jstor.org/journal/bullsocibotabelg,TRUE,1862,1862
+Bulletin du Jardin botanique de l'État a Bruxelles,biologicalsciences,bulldujardbotaet,http://www.jstor.org/journal/bulldujardbotaet,TRUE,1902,1966
+Plant Physiology,biologicalsciences,planphys,http://www.jstor.org/journal/planphys,FALSE,1926,2013
+Politics and the Life Sciences,biologicalsciences,polilifescie,http://www.jstor.org/journal/polilifescie,FALSE,1982,2012
+Proceedings of the Academy of Natural Sciences of Philadelphia,biologicalsciences,procacadnatuscie,http://www.jstor.org/journal/procacadnatuscie,FALSE,1841,2011
+Proceedings of the National Academy of Sciences of the United States of America,biologicalsciences,procnatiacadscie,http://www.jstor.org/journal/procnatiacadscie,FALSE,1915,2013
+"Proceedings of the Royal Irish Academy. Section C: Archaeology, Celtic Studies, History, Linguistics, Literature",biologicalsciences,procriasectc,http://www.jstor.org/journal/procriasectc,FALSE,1902,2015
+Proceedings of the Royal Irish Academy (1889-1901),biologicalsciences,procria1889,http://www.jstor.org/journal/procria1889,TRUE,1889,1901
+Proceedings of the Royal Irish Academy. Science,biologicalsciences,procriascience,http://www.jstor.org/journal/procriascience,TRUE,1870,1884
+Proceedings of the Royal Irish Academy. Polite Literature and Antiquities,biologicalsciences,procriapolitelit,http://www.jstor.org/journal/procriapolitelit,TRUE,1879,1879
+Proceedings of the Royal Irish Academy (1836-1869),biologicalsciences,procria1836,http://www.jstor.org/journal/procria1836,TRUE,1836,1866
+Proceedings: Biological Sciences,biologicalsciences,procbiolscie,http://www.jstor.org/journal/procbiolscie,FALSE,1990,2012
+"Proceedings of the Royal Society of London. Series B, Biological Sciences",biologicalsciences,procroyasocilon2,http://www.jstor.org/journal/procroyasocilon2,TRUE,1934,1990
+"Proceedings of the Royal Society of London. Series B, Containing Papers of a Biological Character",biologicalsciences,procroyasocilon4,http://www.jstor.org/journal/procroyasocilon4,TRUE,1905,1934
+Proceedings of the Royal Society of London,biologicalsciences,procroyasocilon3,http://www.jstor.org/journal/procroyasocilon3,TRUE,1854,1904
+Abstracts of the Papers Communicated to the Royal Society of London,biologicalsciences,abstpapecommroya,http://www.jstor.org/journal/abstpapecommroya,TRUE,1843,1850
+Abstracts of the Papers Printed in the Philosophical Transactions of the Royal Society of London,biologicalsciences,abstpapeprinphil,http://www.jstor.org/journal/abstpapeprinphil,TRUE,1800,1837
+"Proceedings: Mathematical, Physical and Engineering Sciences",biologicalsciences,procmathphysengi,http://www.jstor.org/journal/procmathphysengi,FALSE,1996,2012
+Proceedings: Mathematical and Physical Sciences,biologicalsciences,procmathphysscie,http://www.jstor.org/journal/procmathphysscie,TRUE,1990,1995
+"Proceedings of the Royal Society of London. Series A, Mathematical and Physical Sciences",biologicalsciences,procroyasocilond,http://www.jstor.org/journal/procroyasocilond,TRUE,1934,1990
+"Proceedings of the Royal Society of London. Series A, Containing Papers of a Mathematical and Physical Character",biologicalsciences,procroyasocilon5,http://www.jstor.org/journal/procroyasocilon5,TRUE,1905,1934
+Proceedings of the Royal Society of London,biologicalsciences,procroyasocilon3,http://www.jstor.org/journal/procroyasocilon3,TRUE,1854,1904
+Abstracts of the Papers Communicated to the Royal Society of London,biologicalsciences,abstpapecommroya,http://www.jstor.org/journal/abstpapecommroya,TRUE,1843,1850
+Abstracts of the Papers Printed in the Philosophical Transactions of the Royal Society of London,biologicalsciences,abstpapeprinphil,http://www.jstor.org/journal/abstpapeprinphil,TRUE,1800,1837
+The Quarterly Review of Biology,biologicalsciences,quarrevibiol,http://www.jstor.org/journal/quarrevibiol,FALSE,1926,2015
+Radiation Research,biologicalsciences,radirese,http://www.jstor.org/journal/radirese,FALSE,1954,2010
+Radiation Research Supplement,biologicalsciences,radiresesupp,http://www.jstor.org/journal/radiresesupp,FALSE,1959,1985
+Rangeland Ecology & Management,biologicalsciences,rangecolmana,http://www.jstor.org/journal/rangecolmana,FALSE,2005,2012
+Journal of Range Management,biologicalsciences,jrangemanagement,http://www.jstor.org/journal/jrangemanagement,TRUE,1948,2004
+Rangelands,biologicalsciences,rangelands,http://www.jstor.org/journal/rangelands,FALSE,1979,2012
+Rangeman's Journal,biologicalsciences,rangemansj,http://www.jstor.org/journal/rangemansj,TRUE,1974,1978
+Science,biologicalsciences,science,http://www.jstor.org/journal/science,FALSE,1880,2010
+The Scientific Monthly,biologicalsciences,sciemont,http://www.jstor.org/journal/sciemont,TRUE,1915,1957
+Southeastern Naturalist,biologicalsciences,soutnatu2,http://www.jstor.org/journal/soutnatu2,FALSE,2002,2012
+The Southwestern Naturalist,biologicalsciences,soutnatu,http://www.jstor.org/journal/soutnatu,FALSE,1956,2012
+Systematic Biology,biologicalsciences,systbiol,http://www.jstor.org/journal/systbiol,FALSE,1992,2012
+Systematic Zoology,biologicalsciences,systzool,http://www.jstor.org/journal/systzool,TRUE,1952,1991
+Systematic Botany,biologicalsciences,systematicbotany,http://www.jstor.org/journal/systematicbotany,FALSE,1976,2010
+Systematic Botany Monographs,biologicalsciences,systbotamono,http://www.jstor.org/journal/systbotamono,FALSE,1980,2010
+Taxon,biologicalsciences,taxon,http://www.jstor.org/journal/taxon,FALSE,1951,2012
+Transactions of the American Entomological Society (1890-),biologicalsciences,tranamerentosoc3,http://www.jstor.org/journal/tranamerentosoc3,FALSE,1890,2016
+Transactions of the American Entomological Society and Proceedings of the Entomological Section of the Academy of Natural Sciences,biologicalsciences,tranamerentosoc2,http://www.jstor.org/journal/tranamerentosoc2,TRUE,1878,1889
+Transactions of the American Entomological Society (1867-1877),biologicalsciences,tranamerentosoci,http://www.jstor.org/journal/tranamerentosoci,TRUE,1867,1877
+Transactions of the Kansas Academy of Science (1903-),biologicalsciences,trankansacadscie,http://www.jstor.org/journal/trankansacadscie,FALSE,1903,2012
+Transactions of the Annual Meetings of the Kansas Academy of Science,biologicalsciences,tranannumeetkans,http://www.jstor.org/journal/tranannumeetkans,TRUE,1881,1899
+Transactions of the Kansas Academy of Science (1872-1880),biologicalsciences,trankansacadsci2,http://www.jstor.org/journal/trankansacadsci2,TRUE,1872,1879
+Ursus,biologicalsciences,ursus,http://www.jstor.org/journal/ursus,FALSE,1998,2012
+Bears: Their Biology and Management,biologicalsciences,beartheibiolmana,http://www.jstor.org/journal/beartheibiolmana,TRUE,1972,1997
+Proceedings of the Bear Workshop (International Conference on Bear Research and Management),biologicalsciences,procbearworkinte,http://www.jstor.org/journal/procbearworkinte,TRUE,1968,1968
+Waterbirds: The International Journal of Waterbird Biology,biologicalsciences,wateintejwatebio,http://www.jstor.org/journal/wateintejwatebio,FALSE,1999,2010
+Colonial Waterbirds,biologicalsciences,colowate,http://www.jstor.org/journal/colowate,TRUE,1981,1998
+Proceedings of the Colonial Waterbird Group,biologicalsciences,proccolowategrou,http://www.jstor.org/journal/proccolowategrou,TRUE,1978,1980
+Weed Science,biologicalsciences,weedscience,http://www.jstor.org/journal/weedscience,FALSE,1968,2012
+Weeds,biologicalsciences,weeds,http://www.jstor.org/journal/weeds,TRUE,1951,1967
+Weed Technology,biologicalsciences,weedtechnology,http://www.jstor.org/journal/weedtechnology,FALSE,1987,2012
+Western North American Naturalist,biologicalsciences,westnortamernatu,http://www.jstor.org/journal/westnortamernatu,FALSE,2000,2012
+The Great Basin Naturalist,biologicalsciences,greabasinatu,http://www.jstor.org/journal/greabasinatu,TRUE,1939,1999
+Wildlife Monographs,biologicalsciences,wildmono,http://www.jstor.org/journal/wildmono,FALSE,1958,2013
+Wildlife Society Bulletin (2011-),biologicalsciences,wildsocibull2011,http://www.jstor.org/journal/wildsocibull2011,FALSE,2011,2013
+The Journal of Wildlife Management,biologicalsciences,jwildmana,http://www.jstor.org/journal/jwildmana,TRUE,1937,2013
+Wildlife Society Bulletin (1973-2006),biologicalsciences,wildsocibull,http://www.jstor.org/journal/wildsocibull,TRUE,1973,2006
+Willdenowia,biologicalsciences,willdenowia,http://www.jstor.org/journal/willdenowia,FALSE,1954,2012
+Mitteilungen aus dem botanischen Garten und Museum Berlin-Dahlem,biologicalsciences,mittausbotagartm,http://www.jstor.org/journal/mittausbotagartm,TRUE,1953,1953
+Notizblatt des Königl. botanischen Gartens und Museums zu Berlin,biologicalsciences,notikonibotagart,http://www.jstor.org/journal/notikonibotagart,TRUE,1895,1944
+The Wilson Journal of Ornithology,biologicalsciences,wilsjornit,http://www.jstor.org/journal/wilsjornit,FALSE,2006,2012
+The Wilson Bulletin,biologicalsciences,wilsbull,http://www.jstor.org/journal/wilsbull,TRUE,1894,2005
+The Journal of the Wilson Ornithological Chapter of the Agassiz Association,biologicalsciences,jwilsornichap,http://www.jstor.org/journal/jwilsornichap,TRUE,1893,1893
+The Wilson Quarterly (1892),biologicalsciences,wilsq,http://www.jstor.org/journal/wilsq,TRUE,1892,1892
+The Semi-Annual (Agassiz Association. Department of the Wilson Chapter),biologicalsciences,semiannuagas,http://www.jstor.org/journal/semiannuagas,TRUE,1891,1891
+The Ornithologists' and Oologists' Semi-Annual,biologicalsciences,ornioolosemi,http://www.jstor.org/journal/ornioolosemi,TRUE,1889,1890

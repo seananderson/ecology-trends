@@ -24,6 +24,7 @@ y <- lapply(u, function(x) {
   url <- html_nodes(x, xpath = "//td") %>%
     html_nodes("a") %>% html_attr("href")
   url <- url[grepl("journal", url)]
+  q$slug <- sub("/journal/", "", url)
   url <- paste0("http://www.jstor.org", url)
 
   q$url <- url
@@ -37,6 +38,9 @@ d <- bind_rows(y)
 d2 <- mutate(d, start = sub("([0-9]+) - [0-9]*", "\\1", date_range),
   end = sub("([0-9]+) - ([0-9]*)", "\\2", date_range)) %>%
   select(-date_range, -access)
+
+
+write_csv(d2, "data/generated/url-data.csv")
 
 d3 <- group_by(d2, subject) %>%
   mutate(continuation_id = paste(cumsum(!continuation), subject, sep = "-")) %>%
