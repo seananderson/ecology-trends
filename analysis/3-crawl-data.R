@@ -41,12 +41,12 @@ insert_data <- function(path, db, ngram = 1, max_n = 5000L) {
   }
 }
 
-if (file.exists("data/jstor1.sqlite3"))
-  file.remove("data/jstor1.sqlite3")
+# if (file.exists("data/jstor1.sqlite3"))
+#   file.remove("data/jstor1.sqlite3")
 db1 <- src_sqlite("data/jstor1.sqlite3", create = TRUE)
-copy_to(db1, data.frame(journal = "a", year = 999L, gram = "a", count = 0L,
-  stringsAsFactors = FALSE), "ngrams", temporary = FALSE)
-
+# copy_to(db1, data.frame(journal = "a", year = 999L, gram = "a", count = 0L,
+#   stringsAsFactors = FALSE), "ngrams", temporary = FALSE)
+#
 # if (file.exists("data/jstor2.sqlite3"))
 #   file.remove("data/jstor2.sqlite3")
 # db2 <- src_sqlite("data/jstor2.sqlite3", create = TRUE)
@@ -62,3 +62,5 @@ copy_to(db1, data.frame(journal = "a", year = 999L, gram = "a", count = 0L,
 insert_data("~/Downloads/receipt-id-334441-jcodes-abcde-part-001", db1, ngram = 1)
 insert_data("~/Downloads/receipt-id-334441-jcodes-abcde-part-002", db1, ngram = 1)
 insert_data("~/Downloads/receipt-id-334441-jcodes-fghijlmnop-part-001", db1, ngram = 1)
+insert_data("~/Downloads/receipt-id-334441-jcodes-fghijlmnop-part-002", db1, ngram = 1)
+insert_data("~/Downloads/receipt-id-334441-jcodes-fghijlmnop-part-003", db1, ngram = 1)
