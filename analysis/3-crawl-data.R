@@ -34,9 +34,7 @@ insert_data <- function(path, db, ngram = 1, max_n = 5000L) {
       tryCatch(read_tsv(a, progress = FALSE, col_names = c("gram", "count"),
         col_types = cols(gram = col_character(), count = col_integer())),
         error = function(e) data.frame(gram = NA, count = NA))})
-    dat <- unnest(d, data)
-    db_insert_into(con = db$con, table = "ngrams", values = dat)
-    rm(dat)
+    db_insert_into(con = db$con, table = "ngrams", values = unnest(d, data))
     rm(d)
   }
 }
