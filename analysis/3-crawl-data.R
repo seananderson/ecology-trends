@@ -5,7 +5,7 @@ rm(list = ls()) # need all memory possible
 
 #' Insert JSTOR data into a database
 #'
-#' @param Path to the JSTOR files
+#' @param path to the JSTOR files
 #' @param db A database connection of class src_sqlite
 #' @param ngram 1, 2, or 3 for number of words
 #' @param max_n Maximum number of papers to read in at once. This should be as
@@ -53,18 +53,27 @@ db2 <- src_sqlite("data/jstor2.sqlite3", create = TRUE)
 #
 # if (file.exists("data/jstor3.sqlite3"))
 #   file.remove("data/jstor3.sqlite3")
-# db3 <- src_sqlite("data/jstor3.sqlite3", create = TRUE)
+db3 <- src_sqlite("data/jstor3.sqlite3", create = TRUE)
 # copy_to(db3, data.frame(journal = "a", year = 999L, gram = "a", count = 0L,
 #   stringsAsFactors = FALSE), "ngrams", temporary = FALSE)
 
-insert_data("~/Downloads/receipt-id-334441-jcodes-abcde-part-001", db1, ngram = 1)
-insert_data("~/Downloads/receipt-id-334441-jcodes-abcde-part-002", db1, ngram = 1)
-insert_data("~/Downloads/receipt-id-334441-jcodes-fghijlmnop-part-001", db1, ngram = 1)
-insert_data("~/Downloads/receipt-id-334441-jcodes-fghijlmnop-part-002", db1, ngram = 1)
-insert_data("~/Downloads/receipt-id-334441-jcodes-fghijlmnop-part-003", db1, ngram = 1)
+f <- list.files("data/raw", full.names = TRUE)
+# Already done:
+# f <- f[!f %in% "data/raw/receipt-id-334441-jcodes-abcde-part-001"]
+# f <- f[!f %in% "data/raw/receipt-id-334441-jcodes-abcde-part-002"]
+# f <- f[!f %in% "data/raw/receipt-id-334441-jcodes-abcde-part-003"]
+# f <- f[!f %in% "data/raw/receipt-id-334441-jcodes-fghijlmnop-part-001"]
+# f <- f[!f %in% "data/raw/receipt-id-334441-jcodes-fghijlmnop-part-002"]
+# f <- f[!f %in% "data/raw/receipt-id-334441-jcodes-fghijlmnop-part-003"]
 
-insert_data("~/Downloads/receipt-id-334441-jcodes-abcde-part-001", db2, ngram = 2)
-insert_data("~/Downloads/receipt-id-334441-jcodes-abcde-part-002", db2, ngram = 2)
-insert_data("~/Downloads/receipt-id-334441-jcodes-fghijlmnop-part-001", db2, ngram = 2)
-insert_data("~/Downloads/receipt-id-334441-jcodes-fghijlmnop-part-002", db2, ngram = 2)
-insert_data("~/Downloads/receipt-id-334441-jcodes-fghijlmnop-part-003", db2, ngram = 2)
+# f <- f[f %in% c("data/raw/receipt-id-334441-jcodes-abcde-part-004", "data/raw/receipt-id-334441-jcodes-abcde-part-005", "data/raw/receipt-id-334441-jcodes-fghijlmnop-part-008", "data/raw/receipt-id-334441-jcodes-fghijlmnop-part-009")]
+
+lapply(f, function(x) insert_data(x, db1, ngram = 1))
+lapply(f, function(x) insert_data(x, db2, ngram = 2))
+
+# --------------
+
+f <- list.files("data/raw", full.names = TRUE)
+# Already done:
+# f <- f[!f %in% "data/raw/receipt-id-334441-jcodes-abcde-part-001"]
+lapply(f, function(x) insert_data(x, db3, ngram = 3))
