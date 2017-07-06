@@ -39,41 +39,28 @@ insert_data <- function(path, db, ngram = 1, max_n = 5000L) {
   }
 }
 
-# if (file.exists("data/jstor1.sqlite3"))
-#   file.remove("data/jstor1.sqlite3")
 db1 <- src_sqlite("data/jstor1.sqlite3", create = TRUE)
-# copy_to(db1, data.frame(journal = "a", year = 999L, gram = "a", count = 0L,
-#   stringsAsFactors = FALSE), "ngrams", temporary = FALSE)
-#
-# if (file.exists("data/jstor2.sqlite3"))
-#   file.remove("data/jstor2.sqlite3")
+copy_to(db1, data.frame(journal = "a", year = 999L, gram = "a", count = 0L,
+  stringsAsFactors = FALSE), "ngrams", temporary = FALSE)
+
 db2 <- src_sqlite("data/jstor2.sqlite3", create = TRUE)
-# copy_to(db2, data.frame(journal = "a", year = 999L, gram = "a", count = 0L,
-#   stringsAsFactors = FALSE), "ngrams", temporary = FALSE)
-#
-# if (file.exists("data/jstor3.sqlite3"))
-#   file.remove("data/jstor3.sqlite3")
+copy_to(db2, data.frame(journal = "a", year = 999L, gram = "a", count = 0L,
+  stringsAsFactors = FALSE), "ngrams", temporary = FALSE)
+
 db3 <- src_sqlite("data/jstor3.sqlite3", create = TRUE)
-# copy_to(db3, data.frame(journal = "a", year = 999L, gram = "a", count = 0L,
-#   stringsAsFactors = FALSE), "ngrams", temporary = FALSE)
+copy_to(db3, data.frame(journal = "a", year = 999L, gram = "a", count = 0L,
+  stringsAsFactors = FALSE), "ngrams", temporary = FALSE)
 
 f <- list.files("data/raw", full.names = TRUE)
 # Already done:
-# f <- f[!f %in% "data/raw/receipt-id-334441-jcodes-abcde-part-001"]
-# f <- f[!f %in% "data/raw/receipt-id-334441-jcodes-abcde-part-002"]
-# f <- f[!f %in% "data/raw/receipt-id-334441-jcodes-abcde-part-003"]
-# f <- f[!f %in% "data/raw/receipt-id-334441-jcodes-fghijlmnop-part-001"]
-# f <- f[!f %in% "data/raw/receipt-id-334441-jcodes-fghijlmnop-part-002"]
-# f <- f[!f %in% "data/raw/receipt-id-334441-jcodes-fghijlmnop-part-003"]
+f <- f[!f %in% "data/raw/entered"]
 
-# f <- f[f %in% c("data/raw/receipt-id-334441-jcodes-abcde-part-004", "data/raw/receipt-id-334441-jcodes-abcde-part-005", "data/raw/receipt-id-334441-jcodes-fghijlmnop-part-008", "data/raw/receipt-id-334441-jcodes-fghijlmnop-part-009")]
-
-lapply(f, function(x) insert_data(x, db1, ngram = 1))
-lapply(f, function(x) insert_data(x, db2, ngram = 2))
-
-# --------------
-
-f <- list.files("data/raw", full.names = TRUE)
-# Already done:
-# f <- f[!f %in% "data/raw/receipt-id-334441-jcodes-abcde-part-001"]
-lapply(f, function(x) insert_data(x, db3, ngram = 3))
+system.time({
+  lapply(f, function(x) insert_data(x, db1, ngram = 1))
+})
+system.time({
+  lapply(f, function(x) insert_data(x, db2, ngram = 2))
+})
+system.time({
+  lapply(f, function(x) insert_data(x, db3, ngram = 3))
+})
