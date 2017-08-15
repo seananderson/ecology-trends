@@ -18,7 +18,7 @@ insert_data <- function(path, db, ngram = 1, max_n = 5000L) {
   assert_that(ngram <= 3)
   assert_that(is.numeric(max_n))
   assert_that(max_n >= 2)
-  assert_that(identical(class(db)[[1]], "src_sqlite"))
+  assert_that(identical(class(db)[[1]], "src_dbi"))
 
   x <- dir(path, recursive = TRUE, pattern = "*.txt")
   x <- x[grepl(paste0("NGRAMS", ngram, ".txt"), x)]
