@@ -10,7 +10,8 @@ rm(list = ls()) # need all memory possible
 #' @param ngram 1, 2, or 3 for number of words
 #' @param max_n Maximum number of papers to read in at once. This should be as
 #'   big as possible without running out of memory.
-insert_data <- function(path, db, ngram = 1, max_n = 5000L) {
+insert_data <- function(path, db, ngram = 1, max_n = 5000L,
+  journal_filter = NULL, save_pub_id = FALSE) {
 
   assert_that(dir.exists(path))
   assert_that(is.character(path))
@@ -22,13 +23,22 @@ insert_data <- function(path, db, ngram = 1, max_n = 5000L) {
 
   x <- dir(path, recursive = TRUE, pattern = "*.txt")
   x <- x[grepl(paste0("NGRAMS", ngram, ".txt"), x)]
+
+  if (!is.null(journal_filter))
+    x <- x[grepl(paste0("^", journal_filter, "\\/"), x)]
   divs <- seq(1, length(x), max_n)
+
   if (max(divs) < length(x)) divs <- c(divs, length(x))
   for (i in seq(1, length(divs) - 1)) {
     message(paste("Extracting", divs[i], "-", divs[i+1], "of", max(divs)))
     x_temp <- x[divs[i]:divs[i+1]]
-    d <- data.frame(journal = purrr::map_chr(x_temp,
-      function(a) strsplit(a, "/")[[1]][[1]]), stringsAsFactors = FALSE)
+    d <- data.frame(
+      journal = purrr::map_chr(x_temp, function(a) strsplit(a, "/")[[1]][[1]]),
+      stringsAsFactors = FALSE)
+
+    if (save_pub_id) d$pub_id <-
+      purrr::map_chr(x_temp, function(a) strsplit(a, "/")[[1]][[5]])
+
     d$year <- map_chr(x_temp, function(a) strsplit(a, "/")[[1]][[2]])
     d$data <- map(file.path(path, x_temp), function(a) {
       tryCatch(read_tsv(a, progress = FALSE, col_names = c("gram", "count"),
@@ -56,7 +66,8 @@ f <- list.files("data/raw", full.names = TRUE)
 f <- f[!f %in% "data/raw/entered"]
 
 system.time({
-  lapply(f, function(x) insert_data(x, db1, ngram = 1))
+  lapply(f, function(x) insert_data(x, db1, ngram = 1))#,
+  # journal_filter = "procnatiacadscie"))
 })
 system.time({
   lapply(f, function(x) insert_data(x, db2, ngram = 2))
