@@ -39,7 +39,10 @@ insert_data <- function(path, db, ngram = 1, max_n = 5000L,
       stringsAsFactors = FALSE)
 
     if (save_pub_id) d$pub_id <-
-      purrr::map_chr(x_temp, function(a) strsplit(a, "/")[[1]][[5]])
+      purrr::map_chr(x_temp, function(a) {
+        sp <- strsplit(a, "/")[[1]]
+        sp <- sp[[length(sp)]]
+        as.numeric(gsub("-NGRAM[S0-9]+\\.txt", "", sp))})
 
     d$year <- map_chr(x_temp, function(a) strsplit(a, "/")[[1]][[2]])
     d$data <- map(file.path(path, x_temp), function(a) {
@@ -93,11 +96,11 @@ copy_to(db3_pnas, data.frame(journal = "a", pub_id = 999L, year = 999L, gram = "
 f <- list.files("data/raw", full.names = TRUE)
 
 system.time({
-  lapply(f, function(x) insert_data(x, db1_pnas, ngram = 1, journal_filter = "procnatiacadscie"))
+  lapply(f[1:3], function(x) insert_data(x, db1_pnas, ngram = 1, journal_filter = "procnatiacadscie", save_pub_id = TRUE))
 })
 system.time({
-  lapply(f, function(x) insert_data(x, db2_pnas, ngram = 2, journal_filter = "procnatiacadscie"))
+  lapply(f, function(x) insert_data(x, db2_pnas, ngram = 2, journal_filter = "procnatiacadscie", save_pub_id = TRUE))
 })
 system.time({
-  lapply(f, function(x) insert_data(x, db3_pnas, ngram = 3, journal_filter = "procnatiacadscie"))
+  lapply(f, function(x) insert_data(x, db3_pnas, ngram = 3, journal_filter = "procnatiacadscie", save_pub_id = TRUE))
 })
