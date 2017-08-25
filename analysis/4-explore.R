@@ -6,6 +6,37 @@ library(directlabels)
 dd <- dplyr::src_sqlite("data/jstor1.sqlite3")
 temp <- dplyr::tbl(dd, "ngrams") %>% filter(year != 999)
 
+# dd_pnas <- dplyr::src_sqlite("data/jstor1_pnas.sqlite3")
+# temp_pnas <- dplyr::tbl(dd_pnas, "ngrams") %>% filter(year != 999)
+pnas_ecology <- temp %>% filter(journal %in% "procnatiacadscie") %>%
+  filter(gram %in% c("ecology", "ecological")) %>% collect()
+
+pe <- temp %>% filter(journal %in% "procnatiacadscie") %>%
+  filter(gram %in% "ecology") %>% collect()
+
+set.seed(1)
+N <- 4
+x1 <- filter(pnas_ecology, year == 1960) %>%
+  sample_n(N)
+x2 <- filter(pnas_ecology, year == 1970) %>%
+  sample_n(N)
+x3 <- filter(pnas_ecology, year == 1980) %>%
+  sample_n(N)
+x4 <- filter(pnas_ecology, year == 1990) %>%
+  sample_n(N)
+x5 <- filter(pnas_ecology, year == 2000) %>%
+  sample_n(N)
+x6 <- filter(pnas_ecology, year == 2010) %>%
+  sample_n(N)
+b <- bind_rows(x1, x2, x3, x4, x5, x6) %>%
+  sample_frac(1L) %>%
+  select(-count) %>%
+  as.data.frame() %>%
+  mutate(person = rep(c("BH", "RT", "PE", "SA"), each = 6)[1:n()])
+
+
+
+
 d2 <- dplyr::src_sqlite("data/jstor2.sqlite3")
 temp2 <- dplyr::tbl(d2, "ngrams") %>% filter(year != 999)
 
