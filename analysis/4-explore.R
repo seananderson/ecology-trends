@@ -34,25 +34,48 @@ b <- bind_rows(x1, x2, x3, x4, x5, x6) %>%
   as.data.frame() %>%
   mutate(person = rep(c("BH", "RT", "PE", "SA"), each = 6)[1:n()])
 
+d <- dplyr::src_sqlite("data/jstor1.sqlite3")
+d <- dplyr::tbl(d, "ngrams") %>% filter(year != 999)
 
+pnas_ecology <- d %>% filter(journal %in% "procnatiacadscie") %>%
+  filter(gram %in% c("ecology", "ecological")) %>% collect()
+saveRDS(pnas_ecology, "data/generated/pnas_ecology.rds")
 
+pnas_exludes <- d %>% filter(journal %in% "procnatiacadscie") %>%
+  filter(!pub_id %in% pnas_ecology$pub_id) %>%
+  select(pub_id) %>%
+  collect(n = Inf)
+pnas_exluded_pub_ids <- unique(pnas_exludes$pub_id)
+saveRDS(pnas_exluded_pub_ids, "data/generated/pnas_exluded_pub_ids.rds")
+
+# annual_journal_counts <- d %>%
+  # filter(!pub_id %in% pnas_exluded_pub_ids) %>%
+
+d1 <- dplyr::src_sqlite("data/jstor1.sqlite3")
+temp1 <- dplyr::tbl(d1, "ngrams") %>% filter(year != 999) %>%
+  filter(!pub_id %in% pnas_exluded_pub_ids)
 
 d2 <- dplyr::src_sqlite("data/jstor2.sqlite3")
-temp2 <- dplyr::tbl(d2, "ngrams") %>% filter(year != 999)
+temp2 <- dplyr::tbl(d2, "ngrams") %>% filter(year != 999) %>%
+  filter(!pub_id %in% pnas_exluded_pub_ids)
 
-total1 <- filter(temp, gram == "ecology") %>%
+d3 <- dplyr::src_sqlite("data/jstor3.sqlite3")
+temp3 <- dplyr::tbl(d3, "ngrams") %>% filter(year != 999) %>%
+  filter(!pub_id %in% pnas_exluded_pub_ids)
+
+total1 <- temp1 %>%
   group_by(year) %>%
   summarise(total_words = sum(count)) %>%
-  collect()
+  collect(n = Inf)
 ggplot(total1, aes(year, total_words)) + geom_point()
 
 # ---------
 
 terms <- read_csv("data/Grouped-terms-Sheet1.csv")
 terms <- terms[unlist(lapply(strsplit(terms$Term, " "), length)) == 1, ]
-terms <- terms$Term
+terms <- unique(terms$Term)
 
-ecology <- temp %>% filter(gram %in% terms) %>%
+ecology1 <- temp1 %>% filter(gram %in% terms) %>%
   group_by(year, gram) %>%
   summarise(total = sum(count)) %>%
   collect(n = Inf) %>%
@@ -61,7 +84,7 @@ ecology <- temp %>% filter(gram %in% terms) %>%
 # ---------
 terms <- read_csv("data/Grouped-terms-Sheet1.csv")
 terms <- terms[unlist(lapply(strsplit(terms$Term, " "), length)) == 2, ]
-terms <- terms$Term
+terms <- unique(terms$Term)
 
 ecology2 <- temp2 %>% filter(gram %in% terms) %>%
   group_by(year, gram) %>%
@@ -70,7 +93,21 @@ ecology2 <- temp2 %>% filter(gram %in% terms) %>%
   inner_join(total1)
 
 # ---------
-g <- filter(ecology, year <= 2011, year >= 1935) %>%
+terms <- read_csv("data/Grouped-terms-Sheet1.csv")
+terms <- terms[unlist(lapply(strsplit(terms$Term, " "), length)) == 3, ]
+terms <- unique(terms$Term)
+
+ecology3 <- temp3 %>% filter(gram %in% terms) %>%
+  group_by(year, gram) %>%
+  summarise(total = sum(count)) %>%
+  collect(n = Inf) %>%
+  inner_join(total1)
+
+save(ecology1, ecology2, ecology3, file = "data/generated/ecology-terms.rda")
+load("data/generated/ecology-terms.rda")
+
+# ---------
+g <- filter(ecology1, year <= 2011, year >= 1935) %>%
   ungroup() %>%
   group_by(gram) %>%
   mutate(max_count = max(total/total_words)) %>%
@@ -83,7 +120,7 @@ g <- filter(ecology, year <= 2011, year >= 1935) %>%
   facet_wrap(~fct_reorder(gram, -max_count), scales = "free_y") +
   ylab("Instances per 'ecology'")
 
-ggsave("figs/trends-example-ecology.pdf", width = 22, height = 17)
+ggsave("figs/trends-ecology1.pdf", width = 22, height = 17)
 
 # ---------
 
@@ -100,7 +137,22 @@ g <- filter(ecology2, year <= 2011, year >= 1935) %>%
   facet_wrap(~fct_reorder(gram, -max_count), scales = "free_y") +
   ylab("Instances per 'ecology'")
 
-ggsave("figs/trends2-example-ecology.pdf", width = 22, height = 17)
+ggsave("figs/trends-ecology2.pdf", width = 22, height = 17)
+
+g <- filter(ecology3, year <= 2011, year >= 1935) %>%
+  ungroup() %>%
+  group_by(gram) %>%
+  mutate(max_count = max(total/total_words)) %>%
+  ggplot(aes(year, (total/total_words)*1)) +
+  geom_point(alpha = 0.7, colour = "grey40") +
+  geom_smooth(colour = "red", method = "gam",
+    method.args = list(family = Gamma(link = "log")),
+    formula = y ~ s(x), se = FALSE) +
+  theme_sleek() +
+  facet_wrap(~fct_reorder(gram, -max_count), scales = "free_y") +
+  ylab("Instances per 'ecology'")
+
+ggsave("figs/trends-ecology3.pdf", width = 22, height = 17)
 
 # ----------------
 
