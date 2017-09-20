@@ -67,6 +67,7 @@ total1 <- temp1 %>%
   group_by(year) %>%
   summarise(total_words = sum(count)) %>%
   collect(n = Inf)
+saveRDS(total1, file = "data/generated/total1.rds")
 ggplot(total1, aes(year, total_words)) + geom_point()
 
 # ---------
