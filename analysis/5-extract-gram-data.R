@@ -65,6 +65,8 @@ get_ngram_dat <- function(terms) {
 
 plot_ngram_all <- function(data, filename = "figs/x.pdf", width = 33, height = 22) {
   g <- filter(data, year <= 2011, year >= 1920) %>%
+    ungroup() %>%
+    group_by(gram) %>%
     mutate(max_count = max(total/total_words)) %>%
     ggplot(aes(year, (total/total_words)*1e6)) +
     geom_point(alpha = 0.7, colour = "grey40") +
@@ -81,6 +83,7 @@ plot_ngram_all <- function(data, filename = "figs/x.pdf", width = 33, height = 2
 terms <- read_csv("data/Group2_TermRequest1.csv")
 dat <- get_ngram_dat(terms$terms)
 saveRDS(dat, file = "data/generated/group2-request1.rds")
+dat <- readRDS("data/generated/group2-request1.rds")
 plot_ngram_all(dat, "figs/group2-request1.pdf")
 
 terms_temp <- read_csv("data/Group1_term_request_09_20_17.csv")
@@ -89,6 +92,7 @@ terms <- data.frame(terms = as.character(c(terms_temp$ecologies, terms_temp$olog
 terms <- terms[!is.na(terms$terms), ]
 dat <- get_ngram_dat(terms)
 saveRDS(dat, file = "data/generated/group1-request1.rds")
+dat <- readRDS("data/generated/group1-request1.rds")
 plot_ngram_all(dat, "figs/group1-request1.pdf")
 
 
