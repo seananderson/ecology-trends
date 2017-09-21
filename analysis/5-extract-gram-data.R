@@ -63,19 +63,34 @@ get_ngram_dat <- function(terms) {
   filter(dat, !is.na(gram))
 }
 
-plot_ngram_all <- function(data, filename = "figs/x.pdf", width = 33, height = 22) {
-  g <- filter(data, year <= 2011, year >= 1920) %>%
-    ungroup() %>%
-    group_by(gram) %>%
-    mutate(max_count = max(total/total_words)) %>%
+plot_ngram_all <- function(data, filename = "figs/x.pdf", width = 33, height = 22,
+  order_by = "max", slope_years = c(1500:2050), scales = "free_y", log_y = FALSE) {
+
+  data <- filter(data, year <= 2011, year >= 1920)
+
+  if (order_by == "max") {
+    data <- data %>%
+      ungroup() %>% group_by(gram) %>%
+      mutate(order_column = max(total/total_words))
+  }
+  if (order_by == "slope") {
+    data_sum <- data %>% filter(year %in% slope_years) %>%
+      ungroup() %>% group_by(gram) %>%
+      summarise(order_column = coef(lm(log(.data$total/.data$total_words) ~ .data$year))[[2]])
+    data <- left_join(data, data_sum, by = "gram")
+  }
+
+  g <- data %>%
     ggplot(aes(year, (total/total_words)*1e6)) +
     geom_point(alpha = 0.7, colour = "grey40") +
     geom_smooth(colour = "red", method = "gam",
       method.args = list(family = Gamma(link = "log")),
       formula = y ~ s(x), se = FALSE) +
     theme_sleek() +
-    facet_wrap(~fct_reorder(gram, -max_count), scales = "free_y") +
+    facet_wrap(~fct_reorder(gram, -order_column), scales = scales) +
     ylab("Instances per million words")
+
+  if (log_y) g <- g + scale_y_log10()
 
   ggsave(filename, width = width, height = height)
 }
@@ -93,6 +108,8 @@ terms <- terms[!is.na(terms$terms), ]
 dat <- get_ngram_dat(terms)
 saveRDS(dat, file = "data/generated/group1-request1.rds")
 dat <- readRDS("data/generated/group1-request1.rds")
-plot_ngram_all(dat, "figs/group1-request1.pdf")
-
+plot_ngram_all(dat, "figs/group1-request1.pdf", order_by = "max")
+plot_ngram_all(dat, "figs/group1-request1-slope.pdf", order_by = "slope")
+plot_ngram_all(dat, "figs/group1-request1-slope-1980-onwards.pdf", order_by = "slope",
+  slope_years = 1980:2050)
 
