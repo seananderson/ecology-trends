@@ -29,9 +29,11 @@ get_ngram_dat <- function(terms) {
     terms = sub("[ ]+$", "", terms))
   terms <- terms[!duplicated(terms), ]
 
+
   if (nrow(filter(terms, n > 3)) > 1) warning("Some > 3 grams")
 
-  ecology1 <- ecology2 <- ecology3 <- data.frame(year = NA, gram = NA, total = NA, total_words = NA)
+  ecology1 <- ecology2 <- ecology3 <- data.frame(year = NA, gram = NA,
+    total = NA, total_words = NA)
 
   dd <- filter(terms, n == 1)
   if (nrow(dd) > 0) {
@@ -64,9 +66,10 @@ get_ngram_dat <- function(terms) {
 }
 
 plot_ngram_all <- function(data, filename = "figs/x.pdf", width = 33, height = 22,
-  order_by = "max", slope_years = c(1500:2050), scales = "free_y", log_y = FALSE) {
+  order_by = "max", slope_years = c(1500:2050), scales = "free_y",
+  log_y = FALSE, year_range = c(1920, 2011)) {
 
-  data <- filter(data, year <= 2011, year >= 1920)
+  data <- filter(data, year <= year_range[2], year >= year_range[1])
 
   if (order_by == "max") {
     data <- data %>%
@@ -113,3 +116,11 @@ plot_ngram_all(dat, "figs/group1-request1-slope.pdf", order_by = "slope")
 plot_ngram_all(dat, "figs/group1-request1-slope-1980-onwards.pdf", order_by = "slope",
   slope_years = 1980:2050)
 
+# --------------------
+
+terms_temp <- read_table("data/zombie-request1.txt")
+dat <- get_ngram_dat(terms_temp$terms)
+saveRDS(dat, file = "data/generated/zombie-request1.rds")
+dat <- readRDS("data/generated/zombie-request1.rds")
+plot_ngram_all(dat, "figs/zombie-request1.pdf", order_by = "max",
+  year_range = c(1900, 2015))
