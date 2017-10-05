@@ -121,6 +121,7 @@ plot_ngram_all(dat, "figs/group1-request1-slope-1980-onwards.pdf", order_by = "s
 terms_temp <- read_table("data/zombie-request1.txt")
 dat <- get_ngram_dat(terms_temp$terms)
 saveRDS(dat, file = "data/generated/zombie-request1.rds")
-dat <- readRDS("data/generated/zombie-request1.rds")
+dat <- readRDS("data/generated/zombie-request1.rds") %>%
+  filter(!gram %in% "rk selection")
 plot_ngram_all(dat, "figs/zombie-request1.pdf", order_by = "max",
-  year_range = c(1900, 2015))
+  year_range = c(1900, 2014), width = 16, height = 12)
