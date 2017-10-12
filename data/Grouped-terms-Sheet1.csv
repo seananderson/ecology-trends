@@ -106,10 +106,10 @@ game theory,economic,
 ecosystem services,economic,
 valuation,economic,
 ecosystem function,economic,
-new conservation,OTHER,reassign to relevant group
-old conservation,OTHER,reassign to relevant group
-shifting baselines,OTHER,reassign to relevant group
-historical baselines,OTHER,reassign to relevant group
+new conservation,conservation,reassign to relevant group
+old conservation,conservation,reassign to relevant group
+shifting baselines,conservation,reassign to relevant group
+historical baselines,conservation,reassign to relevant group
 countryside biogeography,urban_rural,
 human-wildlife conflict,urban_rural,
 rural,urban_rural,
@@ -251,8 +251,8 @@ range,population_biology,
 zonation,community_ecology,
 species are relaationship,community_ecology,
 land cover change,human_impacts,
-carbon sequestration,ecosystem_services,
-carbon stocks,ecosystem_services,
+carbon sequestration,climate_change,
+carbon stocks,climate_change,
 land-use change,human_impacts,
 fragmentation,human_impacts,
 degredation,human_impacts,
