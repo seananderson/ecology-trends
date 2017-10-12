@@ -148,3 +148,76 @@ gt <- readr::read_csv("data/Grouped-terms-Sheet1.csv") %>% select(-Notes) %>%
   rename(terms = Term, group = Group) %>%
   transform(terms = tolower(terms), group = tolower(group))
 dat_gt <- get_ngram_dat(gt$terms)
+saveRDS(dat_gt, file = "data/generated/grouped-terms-dat.rds")
+dat_gt <- readRDS("data/generated/grouped-terms-dat.rds")
+
+dat_gt <- left_join(dat_gt, rename(gt, gram = terms))
+
+# -------------
+# plot grouped terms
+
+plot_group_clown_vomit <- function(group_name) {
+  dd <- filter(dat_gt, group %in% group_name, year <= 2012, year >= 1935) %>%
+    ungroup() %>%
+    group_by(gram) %>%
+    mutate(max_count = max(total/total_words))
+
+  dd <- group_by(dd, gram) %>%
+    filter(total > 10) %>%
+    mutate(n_year = n()) %>%
+    ungroup() %>%
+    filter(n_year >= 5)
+
+  library(mgcv)
+
+  dd2 <- plyr::ddply(dd, "gram", function(x) {
+    m <- gam(I(log10(total/total_words*10000)) ~ s(year, k = 3), data = x)
+    mlm <- lm(I(log10(total/total_words*10000)) ~ year, data = x)
+    y <- seq(min(x$year), max(x$year), 0.5)
+    data.frame(year = y, pred = predict(m, newdata = data.frame(year = y)),
+      slope = coef(mlm)[[2]])
+  })
+
+  labs_min <- group_by(dd2, gram) %>%
+    summarise(pred = pred[year == min(year)],
+      slope = slope[year == min(year)], year = min(year))
+  labs_max <- group_by(dd2, gram) %>%
+    summarise(pred = pred[year == max(year)],
+      slope = slope[year == max(year)], year = max(year))
+
+  g <- ggplot(dd2, aes(year, pred, group = gram, colour = gram)) +
+    theme_sleek() +
+    geom_line(lwd = 0.8) +
+    ggrepel::geom_text_repel(
+      data = labs_min,
+      aes(label = gram),
+      size = 3,
+      nudge_x = -5,
+      segment.size = 0.2,
+      segment.color = "#00000030"
+    ) +
+    ggrepel::geom_text_repel(
+      data = labs_max,
+      aes(label = gram),
+      size = 3,
+      nudge_x = 10,
+      segment.size = 0.2,
+      segment.color = "#00000030"
+    ) +
+    ylab("log10(Instances per 10000 words)") +
+    ggtitle(group_name) +
+    xlim(1925, 2025) +
+    scale_colour_discrete(guide = 'none') +
+    # scale_color_gradient2(
+    # low = scales::muted("blue"),
+    # mid = "grey60",
+    # high = scales::muted("red"), guide = "none") +
+    scale_alpha_continuous(limits = c(-20, -2))
+  # viridis::scale_colour_viridis(discrete = TRUE)
+  ggsave(paste0("figs/grouped-", group_name, ".pdf"), width = 15, height = 12)
+}
+
+lapply(unique(gt$group), plot_group_clown_vomit)
+
+
+
