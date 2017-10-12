@@ -5,19 +5,31 @@ library(directlabels)
 
 pnas_exluded_pub_ids <- readRDS("data/generated/pnas_exluded_pub_ids.rds")
 
+filtered_journals <- readr::read_csv("data/taxa-specific-journal-classifications.csv") %>%
+  filter(TaxonSpecific == "N") %>%
+  select(Slug) %>% rename(journal = Slug)
+
 d1 <- dplyr::src_sqlite("data/jstor1.sqlite3")
 temp1 <- dplyr::tbl(d1, "ngrams") %>% filter(year != 999) %>%
-  filter(!pub_id %in% pnas_exluded_pub_ids)
+  filter(!pub_id %in% pnas_exluded_pub_ids, journal %in% filtered_journals$journal)
 
 d2 <- dplyr::src_sqlite("data/jstor2.sqlite3")
 temp2 <- dplyr::tbl(d2, "ngrams") %>% filter(year != 999) %>%
-  filter(!pub_id %in% pnas_exluded_pub_ids)
+  filter(!pub_id %in% pnas_exluded_pub_ids, journal %in% filtered_journals$journal)
 
 d3 <- dplyr::src_sqlite("data/jstor3.sqlite3")
 temp3 <- dplyr::tbl(d3, "ngrams") %>% filter(year != 999) %>%
-  filter(!pub_id %in% pnas_exluded_pub_ids)
+  filter(!pub_id %in% pnas_exluded_pub_ids, journal %in% filtered_journals$journal)
 
-total1 <- readRDS("data/generated/total1.rds")
+if (!file.exists("data/generated/total1.rds")) {
+  total1 <- temp1 %>%
+    group_by(year) %>%
+    summarise(total_words = sum(count)) %>%
+    collect(n = Inf)
+  saveRDS(total1, file = "data/generated/total1.rds")
+} else {
+  total1 <- readRDS("data/generated/total1.rds")
+}
 
 get_ngram_dat <- function(terms) {
 
@@ -35,6 +47,7 @@ get_ngram_dat <- function(terms) {
   ecology1 <- ecology2 <- ecology3 <- data.frame(year = NA, gram = NA,
     total = NA, total_words = NA)
 
+  message("Extracting 1 grams")
   dd <- filter(terms, n == 1)
   if (nrow(dd) > 0) {
     ecology1 <- temp1 %>% filter(gram %in% dd$terms) %>%
@@ -44,6 +57,7 @@ get_ngram_dat <- function(terms) {
       left_join(total1)
   }
 
+  message("Extracting 2 grams")
   dd <- filter(terms, n == 2)
   if (nrow(dd) > 0) {
     ecology2 <- temp2 %>% filter(gram %in% dd$terms) %>%
@@ -53,6 +67,7 @@ get_ngram_dat <- function(terms) {
       left_join(total1)
   }
 
+  message("Extracting 3 grams")
   dd <- filter(terms, n == 3)
   if (nrow(dd) > 0) {
     ecology3 <- temp3 %>% filter(gram %in% dd$terms) %>%
@@ -125,3 +140,11 @@ dat <- readRDS("data/generated/zombie-request1.rds") %>%
   filter(!gram %in% "rk selection")
 plot_ngram_all(dat, "figs/zombie-request1.pdf", order_by = "max",
   year_range = c(1900, 2014), width = 16, height = 12)
+
+# --------------------
+# grouped terms
+
+gt <- readr::read_csv("data/Grouped-terms-Sheet1.csv") %>% select(-Notes) %>%
+  rename(terms = Term, group = Group) %>%
+  transform(terms = tolower(terms), group = tolower(group))
+dat_gt <- get_ngram_dat(gt$terms)
