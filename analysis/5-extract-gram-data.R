@@ -10,19 +10,22 @@ filtered_journals <- readr::read_csv("data/taxa-specific-journal-classifications
   select(Slug) %>% rename(journal = Slug)
 
 d1 <- dplyr::src_sqlite("data/jstor1.sqlite3")
-temp1 <- dplyr::tbl(d1, "ngrams") %>% filter(year != 999) %>%
-  filter(!pub_id %in% pnas_exluded_pub_ids, journal %in% filtered_journals$journal)
+ngrams1 <- dplyr::tbl(d1, "ngrams") %>% filter(year != 999) %>%
+  filter(!pub_id %in% pnas_exluded_pub_ids,
+    journal %in% filtered_journals$journal)
 
 d2 <- dplyr::src_sqlite("data/jstor2.sqlite3")
-temp2 <- dplyr::tbl(d2, "ngrams") %>% filter(year != 999) %>%
-  filter(!pub_id %in% pnas_exluded_pub_ids, journal %in% filtered_journals$journal)
+ngrams2 <- dplyr::tbl(d2, "ngrams") %>% filter(year != 999) %>%
+  filter(!pub_id %in% pnas_exluded_pub_ids,
+    journal %in% filtered_journals$journal)
 
 d3 <- dplyr::src_sqlite("data/jstor3.sqlite3")
-temp3 <- dplyr::tbl(d3, "ngrams") %>% filter(year != 999) %>%
-  filter(!pub_id %in% pnas_exluded_pub_ids, journal %in% filtered_journals$journal)
+ngrams3 <- dplyr::tbl(d3, "ngrams") %>% filter(year != 999) %>%
+  filter(!pub_id %in% pnas_exluded_pub_ids,
+    journal %in% filtered_journals$journal)
 
 if (!file.exists("data/generated/total1.rds")) {
-  total1 <- temp1 %>%
+  total1 <- ngrams1 %>%
     group_by(year) %>%
     summarise(total_words = sum(count)) %>%
     collect(n = Inf)
@@ -41,36 +44,35 @@ get_ngram_dat <- function(terms) {
     terms = sub("[ ]+$", "", terms))
   terms <- terms[!duplicated(terms), ]
 
-
   if (nrow(filter(terms, n > 3)) > 1) warning("Some > 3 grams")
 
   ecology1 <- ecology2 <- ecology3 <- data.frame(year = NA, gram = NA,
     total = NA, total_words = NA)
 
-  message("Extracting 1 grams")
   dd <- filter(terms, n == 1)
   if (nrow(dd) > 0) {
-    ecology1 <- temp1 %>% filter(gram %in% dd$terms) %>%
+    message("Extracting 1 grams")
+    ecology1 <- ngrams1 %>% filter(gram %in% dd$terms) %>%
       group_by(year, gram) %>%
       summarise(total = sum(count)) %>%
       collect(n = Inf) %>%
       left_join(total1)
   }
 
-  message("Extracting 2 grams")
   dd <- filter(terms, n == 2)
   if (nrow(dd) > 0) {
-    ecology2 <- temp2 %>% filter(gram %in% dd$terms) %>%
+    message("Extracting 2 grams")
+    ecology2 <- ngrams2 %>% filter(gram %in% dd$terms) %>%
       group_by(year, gram) %>%
       summarise(total = sum(count)) %>%
       collect(n = Inf) %>%
       left_join(total1)
   }
 
-  message("Extracting 3 grams")
   dd <- filter(terms, n == 3)
   if (nrow(dd) > 0) {
-    ecology3 <- temp3 %>% filter(gram %in% dd$terms) %>%
+    message("Extracting 3 grams")
+    ecology3 <- ngrams3 %>% filter(gram %in% dd$terms) %>%
       group_by(year, gram) %>%
       summarise(total = sum(count)) %>%
       collect(n = Inf) %>%
@@ -80,9 +82,9 @@ get_ngram_dat <- function(terms) {
   filter(dat, !is.na(gram))
 }
 
-plot_ngram_all <- function(data, filename = "figs/x.pdf", width = 33, height = 22,
-  order_by = "max", slope_years = c(1500:2050), scales = "free_y",
-  log_y = FALSE, year_range = c(1920, 2011)) {
+plot_ngram_all <- function(data, filename = "figs/x.pdf", width = 33,
+  height = 22, order_by = "max", slope_years = c(1500:2050),
+  scales = "free_y", log_y = FALSE, year_range = c(1920, 2011)) {
 
   data <- filter(data, year <= year_range[2], year >= year_range[1])
 
@@ -94,7 +96,8 @@ plot_ngram_all <- function(data, filename = "figs/x.pdf", width = 33, height = 2
   if (order_by == "slope") {
     data_sum <- data %>% filter(year %in% slope_years) %>%
       ungroup() %>% group_by(gram) %>%
-      summarise(order_column = coef(lm(log(.data$total/.data$total_words) ~ .data$year))[[2]])
+      summarise(order_column =
+          coef(lm(log(.data$total/.data$total_words) ~ .data$year))[[2]])
     data <- left_join(data, data_sum, by = "gram")
   }
 
@@ -113,51 +116,9 @@ plot_ngram_all <- function(data, filename = "figs/x.pdf", width = 33, height = 2
   ggsave(filename, width = width, height = height)
 }
 
-terms <- read_csv("data/Group2_TermRequest1.csv")
-dat <- get_ngram_dat(terms$terms)
-saveRDS(dat, file = "data/generated/group2-request1.rds")
-dat <- readRDS("data/generated/group2-request1.rds")
-plot_ngram_all(dat, "figs/group2-request1.pdf")
-
-terms_temp <- read_csv("data/Group1_term_request_09_20_17.csv")
-terms <- data.frame(terms = as.character(c(terms_temp$ecologies, terms_temp$ologies)),
-  stringsAsFactors = FALSE)
-terms <- terms[!is.na(terms$terms), ]
-dat <- get_ngram_dat(terms)
-saveRDS(dat, file = "data/generated/group1-request1.rds")
-dat <- readRDS("data/generated/group1-request1.rds")
-plot_ngram_all(dat, "figs/group1-request1.pdf", order_by = "max")
-plot_ngram_all(dat, "figs/group1-request1-slope.pdf", order_by = "slope")
-plot_ngram_all(dat, "figs/group1-request1-slope-1980-onwards.pdf", order_by = "slope",
-  slope_years = 1980:2050)
-
-# --------------------
-
-terms_temp <- read_table("data/zombie-request1.txt")
-dat <- get_ngram_dat(terms_temp$terms)
-saveRDS(dat, file = "data/generated/zombie-request1.rds")
-dat <- readRDS("data/generated/zombie-request1.rds") %>%
-  filter(!gram %in% "rk selection")
-plot_ngram_all(dat, "figs/zombie-request1.pdf", order_by = "max",
-  year_range = c(1900, 2014), width = 16, height = 12)
-
-# --------------------
-# grouped terms
-
-gt <- readr::read_csv("data/Grouped-terms-Sheet1.csv") %>% select(-Notes) %>%
-  rename(terms = Term, group = Group) %>%
-  transform(terms = tolower(terms), group = tolower(group))
-dat_gt <- get_ngram_dat(gt$terms)
-saveRDS(dat_gt, file = "data/generated/grouped-terms-dat.rds")
-dat_gt <- readRDS("data/generated/grouped-terms-dat.rds")
-
-dat_gt <- left_join(dat_gt, rename(gt, gram = terms))
-
-# -------------
-# plot grouped terms
-
-plot_group_clown_vomit <- function(group_name) {
-  dd <- filter(dat_gt, group %in% group_name, year <= 2012, year >= 1935) %>%
+plot_group_clown_vomit <- function(dat, group_name, width = 30, height = 25,
+  save = FALSE) {
+  dd <- filter(dat, group %in% group_name, year <= 2012, year >= 1935) %>%
     ungroup() %>%
     group_by(gram) %>%
     mutate(max_count = max(total/total_words))
@@ -171,7 +132,10 @@ plot_group_clown_vomit <- function(group_name) {
   library(mgcv)
 
   dd2 <- plyr::ddply(dd, "gram", function(x) {
-    m <- gam(I(log10(total/total_words*10000)) ~ s(year, k = 3), data = x)
+    m <- tryCatch({gam(I(log10(total/total_words*10000)) ~ s(year), data = x)},
+      error = function(ignore)
+        gam(I(log10(total/total_words*10000)) ~ s(year, k = 3), data = x)
+    )
     mlm <- lm(I(log10(total/total_words*10000)) ~ year, data = x)
     y <- seq(min(x$year), max(x$year), 0.5)
     data.frame(year = y, pred = predict(m, newdata = data.frame(year = y)),
@@ -214,10 +178,130 @@ plot_group_clown_vomit <- function(group_name) {
     # high = scales::muted("red"), guide = "none") +
     scale_alpha_continuous(limits = c(-20, -2))
   # viridis::scale_colour_viridis(discrete = TRUE)
-  ggsave(paste0("figs/grouped-", group_name, ".pdf"), width = 15, height = 12)
+
+  if (save)
+    ggsave(paste0("figs/grouped-", group_name, ".pdf"), width = width,
+      height = height)
 }
 
-lapply(unique(gt$group), plot_group_clown_vomit)
+##############
 
+terms <- read_csv("data/Group2_TermRequest1.csv")
+dat1 <- get_ngram_dat(terms$terms)
+saveRDS(dat1, file = "data/generated/group2-request1.rds")
+dat1 <- readRDS("data/generated/group2-request1.rds")
+plot_ngram_all(dat1, "figs/group2-request1.pdf")
+plot_group_clown_vomit(data.frame(dat1, group = "Group2"), "Group2",
+  width = 30, height = 25, save = TRUE)
 
+terms_temp <- read_csv("data/Group1_term_request_09_20_17.csv")
+terms <- data.frame(terms = as.character(c(terms_temp$ecologies, terms_temp$ologies)),
+  stringsAsFactors = FALSE)
+terms <- terms[!is.na(terms$terms), ]
+dat2 <- get_ngram_dat(terms)
+saveRDS(dat2, file = "data/generated/group1-request1.rds")
+dat2 <- readRDS("data/generated/group1-request1.rds")
+plot_ngram_all(dat2, "figs/group1-request1.pdf", order_by = "max")
+plot_ngram_all(dat2, "figs/group1-request1-slope.pdf", order_by = "slope")
+plot_ngram_all(dat2, "figs/group1-request1-slope-1980-onwards.pdf", order_by = "slope",
+  slope_years = 1980:2050)
+plot_group_clown_vomit(data.frame(dat, group = "Group1_"), "Group1_",
+  width = 13, height = 10, save = TRUE)
+# --------------------
 
+terms_temp <- read_table("data/zombie-request1.txt")
+dat3 <- get_ngram_dat(terms_temp$terms)
+saveRDS(dat3, file = "data/generated/zombie-request1.rds")
+dat3 <- readRDS("data/generated/zombie-request1.rds") %>%
+  filter(!gram %in% "rk selection")
+plot_ngram_all(dat3, "figs/zombie-request1.pdf", order_by = "max",
+  year_range = c(1900, 2014), width = 16, height = 12)
+plot_group_clown_vomit(data.frame(dat, group = "GroupZ"), "GroupZ", width = 10,
+  height = 8, save = TRUE)
+
+# --------------------
+# grouped terms
+
+gt <- readr::read_csv("data/Grouped-terms-Sheet1.csv") %>% select(-Notes) %>%
+  rename(terms = Term, group = Group) %>%
+  transform(terms = tolower(terms), group = tolower(group))
+dat_gt <- get_ngram_dat(gt$terms)
+saveRDS(dat_gt, file = "data/generated/grouped-terms-dat.rds")
+dat_gt <- readRDS("data/generated/grouped-terms-dat.rds")
+
+# dat_gt <- left_join(dat_gt, rename(gt, gram = terms))
+
+# -------------
+# plot grouped terms
+
+lapply(unique(gt$group), function(x) plot_group_clown_vomit(dat_gt, x))
+
+# 2017-12-08
+# join together and read in new:
+
+d <- bind_rows(list(dat1, dat2, dat3, dat_gt))
+d <- d[!duplicated(d),]
+tabs <- c("tools", "fields", "scale", "human-impacts", "conservation",
+  "social-economic-ecological", "no-home")
+d_themes <- list()
+for (i in seq_along(tabs)) {
+  d_themes[[i]] <- readxl::read_xlsx("data/themes-2017-12-08.xlsx",
+    sheet = tabs[[i]])
+  d_themes[[i]]$theme <- tabs[[i]]
+  d_themes[[i]]$mainpaper <- NULL
+  d_themes[[i]] <- filter(d_themes[[i]], !is.na(term))
+}
+d_themes <- bind_rows(d_themes)
+d_themes <- d_themes %>% mutate(term = tolower(term),
+  subpanel = tolower(subpanel))
+
+d_themes <- d_themes %>%
+  mutate(already_extracted = ifelse(term %in% d$gram, TRUE, FALSE))
+
+d_themes_grams <- filter(d_themes, !already_extracted)$term %>%
+  get_ngram_dat()
+saveRDS(d_themes_grams, file = "data/generated/d_themes_grams.rds")
+
+aleady_exist <- d[d$gram %in% filter(d_themes, already_extracted)$term, ]
+all <- bind_rows(aleady_exist, d_themes_grams)
+d_grams <- left_join(all, rename(d_themes, gram = term), by = "gram") %>%
+  arrange(theme, subpanel, gram, year) %>%
+  select(-already_extracted)
+
+saveRDS(d_grams, file = "data/generated/d_grams.rds")
+
+# -----------
+source("analysis/explore_grams.R")
+
+filter(d_grams, subpanel == "conservation") %>%
+  explore_grams()
+
+filter(d_grams, subpanel == "conservation") %>%
+  mutate(highlight = gram %in% c(
+    "conservation",
+    "natural history"
+    )) %>%
+  explore_grams(colour = "highlight")
+
+filter(d_grams, subpanel == "conservation") %>%
+  mutate(highlight = gram %in% c(
+    "allee effect",
+    "diversity"
+  )) %>%
+  explore_grams(colour = "highlight",
+    colour_scale =
+      scale_colour_manual(values = c("TRUE" = "red", "FALSE" = "grey60")))
+
+filter(d_grams, subpanel == "conservation") %>%
+  mutate(highlight = case_when(
+    gram %in% c(
+      "conservation",
+      "natural history") ~ "a",
+    gram %in% c("diversity") ~ "b",
+    TRUE ~ "c")) %>%
+  explore_grams(colour = "highlight",
+    colour_scale = scale_colour_manual(values =
+        c(
+          "a" = "red",
+          "b" = "blue",
+          "c" = "grey70")))
