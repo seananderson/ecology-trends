@@ -3,8 +3,9 @@ d_grams <- readRDS("data/generated/d_grams.rds")
 ecology <- readRDS("data/generated/ecology.rds")
 d_grams <- inner_join(d_grams, ecology, by = "year")
 
-brent <- readr::read_csv("data/brent.csv") %>%
+brent <- readr::read_csv("data/brent.csv", trim_ws = TRUE) %>%
   select(term, panel) %>%
+  mutate(term = tolower(term)) %>%
   rename(gram = term) %>%
   inner_join(d_grams, by = "gram") %>%
   filter(year > 1935, year <= 2011)
