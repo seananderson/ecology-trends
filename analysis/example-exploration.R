@@ -21,7 +21,7 @@ g <- d %>%
   theme_light() +
   ggrepel::geom_text_repel(data = filter(d, year == 2011),
     aes_string(label = "gram"),
-    size = 6,
+    size = 4,
     nudge_x = 10,
     segment.size = 0.2,
     segment.color = "#00000030"
