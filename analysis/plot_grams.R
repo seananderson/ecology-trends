@@ -58,17 +58,17 @@ plot_grams <- function(dat, colour = "gram",
     by = "gram")
 
   g <- ggplot(dd2,
-    aes_string("year", "pred", group = "gram", colour = colour)) +
+    aes_string("year", "exp(pred)", group = "gram", colour = colour)) +
     theme_light() +
     geom_line(lwd = 0.8) +
-    ggrepel::geom_text_repel(
-      data = labs_min,
-      aes_string(label = "gram"),
-      size = 3,
-      nudge_x = -5,
-      segment.size = 0.2,
-      segment.color = "#00000030"
-    ) +
+    # ggrepel::geom_text_repel(
+    #   data = labs_min,
+    #   aes_string(label = "gram"),
+    #   size = 3,
+    #   nudge_x = -5,
+    #   segment.size = 0.2,
+      # segment.color = "#00000030"
+    # ) +
     ggrepel::geom_text_repel(
       data = labs_max,
       aes_string(label = "gram"),
@@ -77,7 +77,7 @@ plot_grams <- function(dat, colour = "gram",
       segment.size = 0.2,
       segment.color = "#00000030"
     ) +
-    ylab("log10(Instances per 10000 words)") +
+    # ylab("log10(Instances per 10000 words)") +
     xlim(1925, 2025) +
     colour_scale +
     # scale_color_gradient2(

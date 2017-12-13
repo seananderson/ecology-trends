@@ -28,3 +28,4 @@ g <- d %>%
   ) +
   scale_x_continuous(breaks = seq(1935, 2012, 10), limits = c(1935, 2018))
 print(g)
+
