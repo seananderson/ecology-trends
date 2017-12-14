@@ -2,8 +2,6 @@ library(tidyverse)
 source("analysis/plot_grams.R")
 d_grams <- readRDS("data/generated/d_grams.rds")
 
-
-
 filter(d_grams, subpanel == "conservation") %>%
   # filter(gram %in% unique(gram)[1:15]) %>%
   plot_grams()
