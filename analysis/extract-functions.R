@@ -56,7 +56,7 @@ get_ngram_dat <- function(terms) {
       group_by(year, gram) %>%
       summarise(total = sum(count)) %>%
       collect(n = Inf) %>%
-      left_join(total1)
+      left_join(total1, by = "year")
   }
 
   dd <- filter(terms, n == 2)
@@ -66,7 +66,7 @@ get_ngram_dat <- function(terms) {
       group_by(year, gram) %>%
       summarise(total = sum(count)) %>%
       collect(n = Inf) %>%
-      left_join(total1)
+      left_join(total1, by = "year")
   }
 
   dd <- filter(terms, n == 3)
@@ -76,9 +76,10 @@ get_ngram_dat <- function(terms) {
       group_by(year, gram) %>%
       summarise(total = sum(count)) %>%
       collect(n = Inf) %>%
-      left_join(total1)
+      left_join(total1, by = "year")
   }
-  dat <- bind_rows(list(ecology1, ecology2, ecology3))
+  dat <- bind_rows(list(ecology1, ecology2, ecology3)) %>%
+    ungroup()
   filter(dat, !is.na(gram))
 }
 
