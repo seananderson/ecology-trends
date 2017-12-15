@@ -1,4 +1,5 @@
 library(tidyverse)
+dir.create("figs", showWarnings = FALSE)
 grams <- readRDS("data/generated/becky-2017-12-14.rds")
 d <- readr::read_csv("data/scale_panels_1_nohyphens.csv")
 d <- left_join(d, grams)
