@@ -50,5 +50,7 @@ d <- d[!duplicated(d), ]
 out3 <- bind_rows(out, out2)
 out3 <- out3[!duplicated(out3), ]
 
+readr::write_csv(d, path = "data/scale_panels_1_nohyphens.csv")
+
 d <- left_join(d, out3)
 saveRDS(d, file = "data/generated/becky-2017-12-14.rds")
