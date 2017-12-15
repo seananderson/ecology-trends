@@ -11,16 +11,19 @@ filtered_journals <- readr::read_csv("data/taxa-specific-journal-classifications
 
 d1 <- dplyr::src_sqlite("data/jstor1.sqlite3")
 ngrams1 <- dplyr::tbl(d1, "ngrams") %>% filter(year != 999) %>%
+  filter(year >= 1920, year <= 2014) %>%
   filter(!pub_id %in% pnas_exluded_pub_ids,
     journal %in% filtered_journals$journal)
 
 d2 <- dplyr::src_sqlite("data/jstor2.sqlite3")
 ngrams2 <- dplyr::tbl(d2, "ngrams") %>% filter(year != 999) %>%
+  filter(year >= 1920, year <= 2014) %>%
   filter(!pub_id %in% pnas_exluded_pub_ids,
     journal %in% filtered_journals$journal)
 
 d3 <- dplyr::src_sqlite("data/jstor3.sqlite3")
 ngrams3 <- dplyr::tbl(d3, "ngrams") %>% filter(year != 999) %>%
+  filter(year >= 1920, year <= 2014) %>%
   filter(!pub_id %in% pnas_exluded_pub_ids,
     journal %in% filtered_journals$journal)
 

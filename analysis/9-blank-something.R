@@ -1,18 +1,21 @@
 source("analysis/extract-functions.R")
 
-blank_grams_2000 <- ngrams2 %>%
-  filter(year %in% 2000:2010) %>%
+blank_grams <- ngrams2 %>%
+  filter(year %in% c(1940:1949, 2000:2009)) %>%
   filter(gram %like% "% ecology" |
       gram %like% "% experiment" |
       gram %like% "% data" |
-      gram %like% "% model") %>%
+      gram %like% "% model" |
+      gram %like% "ecological") %>%
   group_by(year, gram) %>%
   summarise(total = sum(count)) %>%
   collect(n = Inf) %>%
   left_join(total1, by = "year") %>%
   ungroup()
 
-save(blank_grams_2000, file = "data/generated/blank_grams_2000.rda")
+save(blank_grams, file = "data/generated/blank_grams.rda")
+
+## fix below 2000 - no 2000 + 1940:
 
 library("koRpus")
 set.kRp.env(TT.cmd =

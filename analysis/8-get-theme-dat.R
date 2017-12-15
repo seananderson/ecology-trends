@@ -33,3 +33,22 @@ dat <- bind_rows(list(out1, out2, out3)) %>%
 dat <- left_join(dat, rename(d, gram = term, grouped_terms = `grouped terms`)) %>%
   arrange(gram, year)
 saveRDS(dat, file = "data/generated/paul-2017-12-13.rds")
+
+# scale
+
+d <- readr::read_csv("data/scale_panels_1.csv", trim_ws = TRUE)
+source("analysis/extract-functions.R")
+out <- get_ngram_dat(d$gram)
+
+missing <- d$gram[!d$gram %in% out$gram]
+missing <- gsub("-", " ", missing)
+out2 <- get_ngram_dat(missing)
+
+d$gram <- gsub("-", " ", d$gram)
+d <- d[!duplicated(d), ]
+
+out3 <- bind_rows(out, out2)
+out3 <- out3[!duplicated(out3), ]
+
+d <- left_join(d, out3)
+saveRDS(d, file = "data/generated/becky-2017-12-14.rds")
