@@ -9,9 +9,12 @@ filtered_journals <- readr::read_csv("data/taxa-specific-journal-classifications
   filter(TaxonSpecific == "N") %>%
   select(Slug) %>% rename(journal = Slug)
 
+bad_amnat <- readr::read_lines("data/bad-amnat.txt") # latex code
+
 d1 <- dplyr::src_sqlite("data/jstor1.sqlite3")
 ngrams1 <- dplyr::tbl(d1, "ngrams") %>% filter(year != 999) %>%
   filter(year >= 1920, year <= 2014) %>%
+  filter(!(gram %in% bad_amnat & journal == "amernatu")) %>%
   filter(!pub_id %in% pnas_exluded_pub_ids,
     journal %in% filtered_journals$journal)
 

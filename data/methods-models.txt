@@ -31,6 +31,7 @@ models, robust regression, robust regression
 models, t test, t-test
 models, t-test, t-test
 correlation-causation, correlation, correlation
+correlation-causation, correlations, correlation
 correlation-causation, causation, causation
 religions, bayesian, bayesian
 religions, frequentist, frequentist
@@ -54,8 +55,6 @@ model selection, model averaging, model averaging
 model selection, model selection, model selection
 model selection, model-averaging, model averaging
 model selection, model-selection, model selection
-# BLANK data
-# BLANK experiment
 tech, GIS, GIS
 tech, GPS tags, GPS tags
 tech, camera trap, camera trap
@@ -68,5 +67,57 @@ tech, microscope, microscope
 tech, microscopes, microscope
 tech, photograph, photograph
 tech, photographs, photograph
-tech, quantitative PCR, quantitative PCR
+tech, PCR, PCR
 tech, remote sensing, remote sensing
+other, data
+other, evidence
+other, inches
+other, cm
+differences
+similarities
+laboratory
+observation
+information
+extreme,
+
+alcohol
+measurement
+quadrats
+fluctuations
+variance
+probability
+variables
+interactions
+mechanisms
+mechanism
+strategies
+equilibrium
+implications
+coefficients
+software
+connectivity
+technology
+autocorrelation
+diversification
+ecologists
+ecologist
+bootstrap
+significant difference
+density dependent
+supplementary material
+logistic regression
+statistical analyses
+BLANK scale
+BLANK variation
+meta analysis
+metaanalysis
+BLANK autocorrelation
+BLANK pattern
+ecological BLANK
+BLANK ecosystems
+BLANK diversity
+principal components
+principal component
+statistical significance
+BLANK population
+BLANK management

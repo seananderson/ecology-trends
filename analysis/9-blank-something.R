@@ -1,85 +1,160 @@
 source("analysis/extract-functions.R")
 
 blank_grams <- ngrams2 %>%
-  filter(year %in% c(1940:1949, 2000:2009)) %>%
-  filter(gram %like% "% ecology" |
+  # filter(year %in% c(1930:2014)) %>%
+  filter(
+    gram %like% "% ecology" |
       gram %like% "% experiment" |
+      gram %like% "% experiments" |
       gram %like% "% data" |
       gram %like% "% model" |
-      gram %like% "ecological") %>%
+      gram %like% "% models" |
+      gram %like% "% analysis" |
+      gram %like% "% variation" |
+      gram %like% "% variability" |
+      gram %like% "% rate" |
+      gram %like% "% rates" |
+      gram %like% "% scale" |
+      gram %like% "% autocorrelation" |
+      gram %like% "% pattern" |
+      gram %like% "% patterns" |
+      gram %like% "% ecosystem" |
+      gram %like% "% ecosystems" |
+      gram %like% "% diversity" |
+      gram %like% "% population" |
+      gram %like% "% populations" |
+      gram %like% "% distribution" |
+      gram %like% "% management" |
+      gram %like% "% conservation" |
+      gram %like% "ecological %" |
+      gram %like% "%ical"
+  ) %>%
   group_by(year, gram) %>%
   summarise(total = sum(count)) %>%
   collect(n = Inf) %>%
-  left_join(total1, by = "year") %>%
   ungroup()
 
 save(blank_grams, file = "data/generated/blank_grams.rda")
+load("data/generated/blank_grams.rda")
+blank_grams <- left_join(blank_grams, total1, by = "year")
 
 ## fix below 2000 - no 2000 + 1940:
 
 library("koRpus")
 set.kRp.env(TT.cmd =
     "~/Dropbox/bin/treetagger/cmd/tree-tagger-english", lang = "en")
-tt <- treetag(terms, format = "obj")
+# tt <- treetag(terms, format = "obj")
 
-x <- blank_grams_2000 %>%
-  mutate(panel = stringr::str_split(gram, " ", simplify = TRUE)[,2]) %>%
-  mutate(first_word = stringr::str_split(gram, " ", simplify = TRUE)[,1]) %>%
-  group_by(panel, gram, first_word) %>%
+ical <- filter(blank_grams, grepl("ical$", gram))
+blank_grams <- filter(blank_grams, !gram %in% ical$gram)
+
+x <- blank_grams %>%
+  mutate(second_word = stringr::str_split(gram, " ", simplify = TRUE)[,2]) %>%
+  mutate(first_word = stringr::str_split(gram, " ", simplify = TRUE)[,1])
+
+eco <- filter(x, first_word == "ecological")
+eco <- rename(eco, x_word = second_word) %>%
+  rename(second_word = first_word) %>%
+  rename(first_word = x_word)
+
+x <- x %>% filter(second_word %in%
+    c("ecology",
+      "experiment",
+      "experiments",
+      "data",
+      "model",
+      "models",
+      "analysis",
+      "variation",
+      "variability",
+      "rate",
+      "rates",
+      "scale",
+      "autocorrelation",
+      "pattern",
+      "patterns",
+      "ecosystem",
+      "ecosystems",
+      "diversity",
+      "population",
+      "populations",
+      "distribution",
+      "management",
+      "conservation"))
+
+x <- bind_rows(x, eco)
+x <- rename(x, panel = second_word)
+nrow(x)
+x <- filter(x, nchar(first_word) >= 3, !grepl("[0-9]+", first_word))
+nrow(x)
+
+x$first_word <- gsub("'", "", x$first_word)
+x$gram <- gsub("'", "", x$gram)
+
+x_top <- x %>% group_by(panel, gram, first_word) %>%
   summarise(total = sum(total)) %>%
   arrange(panel, -total) %>%
   ungroup() %>%
   group_by(panel) %>%
-  top_n(n = 120, wt = total) %>%
+  top_n(n = 150, wt = total)
+
+x_top2 <- x_top %>%
   mutate(first_word_type = treetag(first_word, format = "obj")@TT.res$wclass) %>%
-  mutate(lemma = treetag(first_word, format = "obj")@TT.res$lemma) %>%
   filter(first_word_type %in% c("adjective", "noun")) %>%
+  mutate(lemma = treetag(first_word, format = "obj")@TT.res$lemma) %>%
   group_by(panel) %>%
   top_n(n = 40, wt = total)
 
-filter(x, lemma == "<unknown>")
-x <- filter(x, !first_word %in% c("ecol"))
-x$lemma[x$first_word == "unpubl"] <- "unpublished"
-x$lemma[x$lemma == "<unknown>"] <- x$first_word[x$lemma == "<unknown>"]
+filter(x_top2, lemma == "<unknown>") %>% as.data.frame()
+x_top2 <- filter(x_top2, !first_word %in% c("ecol",
+  "tial", "i.e", "ltd", "poral", "tial", "authors", "way",
+  "these", "great", "other", "term",
+  "affect", "editors", "same", "such"))
+x_top2$lemma[x_top2$first_word == "unpubl"] <- "unpublished"
+x_top2$lemma[x_top2$lemma == "<unknown>"] <- x_top2$first_word[x_top2$lemma == "<unknown>"]
 
-top_lemmas <- group_by(x, panel, lemma) %>%
+x_top2 <- mutate(x_top2,
+  panel_lemma = treetag(panel, format = "obj")@TT.res$lemma)
+
+top_lemmas <- group_by(x_top2, panel_lemma, lemma) %>%
   summarise(total = sum(total)) %>%
-  group_by(panel) %>%
+  group_by(panel_lemma) %>%
   top_n(n = 20, wt = total)
 
-terms <- filter(x, lemma %in% top_lemmas$lemma)
+terms <- filter(x_top2, lemma %in% top_lemmas$lemma)
 
 gram_dat <- get_ngram_dat(terms$gram)
 save(gram_dat, file = "data/generated/top-blank.rda")
 
 gd <- inner_join(gram_dat, rename(terms, total_2000s = total),
   by = "gram")
-gd <- group_by(gd, year, panel, lemma, total_words) %>%
+gd <- group_by(gd, year, panel_lemma, lemma, total_words) %>%
   summarise(total = sum(total), total_2000s = sum(total_2000s)) %>%
   ungroup()
 
-top_lemmas_second_cut <- group_by(top_lemmas, panel, lemma) %>%
+top_lemmas_second_cut <- group_by(top_lemmas, panel_lemma, lemma) %>%
   summarise(total = sum(total)) %>%
   filter(!lemma %in% c("first", "second")) %>%
-  group_by(panel) %>%
+  ungroup() %>%
+  group_by(panel_lemma) %>%
   top_n(n = 8, wt = total)
 
-gd <- filter(gd, lemma %in% top_lemmas_second_cut$lemma)
-
-
+gd <- inner_join(gd, select(top_lemmas_second_cut, -total),
+  by = c("panel_lemma", "lemma"))
 
 make_panel <- function(dat, lab_dat, title) {
   g <- dat %>%
     filter(year <= 2011, year > 1930) %>%
     ggplot(aes(year, total/total_words*1000, group = lemma)) +
-    geom_line(colour = "grey30", alpha = 0.3) +
+    geom_line(colour = "grey30", alpha = 0.2) +
     geom_col(colour = NA, fill = NA, position = position_dodge()) +
     # facet_wrap(~panel, scales = "free_y") +
     geom_smooth(method = "gam",
       method.args = list(family = gaussian(link = "identity")),
       formula = y ~ s(x), se = FALSE,
-      aes(colour = lemma)) +
+      aes(colour = lemma), lwd = 1.25) +
     ggsidekick::theme_sleek() +
+    scale_color_brewer(palette = "Set2") +
     ggrepel::geom_text_repel(data = lab_dat,
       aes_string(y = "y", label = "lemma", colour = "as.factor(lemma)"),
       size = 4,
@@ -93,19 +168,34 @@ make_panel <- function(dat, lab_dat, title) {
     ggtitle(title)
 }
 
-out <- plyr::dlply(gd, "panel", function(xx) {
-  lab <- plyr::ddply(xx, c("panel", "lemma"), function(x) {
+out <- plyr::dlply(gd, "panel_lemma", function(xx) {
+  lab <- plyr::ddply(xx, c("panel_lemma", "lemma"), function(x) {
     xx <- filter(x, year <= 2011, year > 1930)
-    m <- mgcv::gam(total/total_words*1000 ~ s(year), data = xx)
-    data.frame(year = 2011, y = predict(m, newdata = data.frame(year = 2011))[[1]])
+    m <- tryCatch({mgcv::gam(total/total_words*1000 ~ s(year), data = xx)},
+      error = function(e) NA)
+    y <- ifelse(!is.na(m)[[1]], predict(m, newdata = data.frame(year = 2011))[[1]], NA)
+    data.frame(year = 2011, y = y)
   })
 
   make_panel(xx, lab, unique(xx$panel))
 })
 
-pdf("figs/blank-panels1.pdf", width = 12, height = 9)
-gridExtra::grid.arrange(out[[1]], out[[2]], out[[3]], out[[4]])
+pdf("figs/blank-panels2.pdf", width = 6, height = 9)
+for (i in seq_along(out)) {
+  print(out[[i]])
+}
 dev.off()
+
+library(gridExtra)
+pdf("figs/blank-panels3.pdf", width = 20, height = 23)
+n <- length(out)
+nCol <- floor(sqrt(n))
+do.call("grid.arrange", c(out, ncol=nCol))
+dev.off()
+
+# pdf("figs/blank-panels1.pdf", width = 12, height = 9)
+# gridExtra::grid.arrange(out[[1]], out[[2]], out[[3]], out[[4]])
+# dev.off()
 
 # This is the top 8 *blank* data/ecology/experiment/model lemmas/standardized
 # ngrams from

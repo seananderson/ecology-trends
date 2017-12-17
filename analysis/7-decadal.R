@@ -4,7 +4,7 @@ set.kRp.env(TT.cmd =
     "~/Dropbox/bin/treetagger/cmd/tree-tagger-english", lang = "en")
 
 pop <- list()
-decades <- list(1940:1950, 2000:2010)
+decades <- list(1940:1949, 2000:2009)
 for (i in seq_along(decades)) {
   pop[[i]] <- ngrams1 %>% filter(year %in% decades[[i]]) %>%
     ungroup() %>%
@@ -20,10 +20,65 @@ save(pop, file = "data/generated/pop.rda")
 load("data/generated/pop.rda")
 pop2 <- bind_rows(pop)
 
+decades <- list(1940:1949, 1970:1979, 2000:2009)
+pop_2grams <- list()
+for (i in seq_along(decades)) {
+  pop_2grams[[i]] <- ngrams2 %>% filter(year %in% decades[[i]]) %>%
+    ungroup() %>%
+    group_by(gram) %>%
+    summarise(total = sum(count)) %>%
+    arrange(-total) %>%
+    collect(n = 10000) %>%
+    filter(!grepl("[0-9]+", gram)) %>%
+    filter(nchar(gram) >= 3)
+  pop_2grams[[i]]$decade <- min(decades[[i]])
+}
+save(pop_2grams, file = "data/generated/pop_2grams.rda")
+load("data/generated/pop_2grams.rda")
+pop_2grams <- bind_rows(pop_2grams)
+
 tt <- koRpus::treetag(sort(unique(pop2$gram)), lang = "en", format = "obj")
 tt <- select(tt@TT.res, -desc, -stop, -stem) %>%
   rename(gram = token)
+tt <- tt[!duplicated(tt), ]
 pop2 <- left_join(pop2, tt)
+
+pop_2grams <- pop_2grams %>%
+  mutate(first_word = stringr::str_split(gram, " ", simplify = TRUE)[,1]) %>%
+  mutate(second_word = stringr::str_split(gram, " ", simplify = TRUE)[,2]) %>%
+  filter(nchar(first_word) >= 3, nchar(second_word) >= 3) %>%
+  filter(!first_word %in% c("the", "and", "for"),
+    !second_word %in% c("the", "and", "for"))
+
+tt_1 <- koRpus::treetag(sort(unique(pop_2grams$first_word)), lang = "en", format = "obj")
+tt_1 <- select(tt_1@TT.res, token, wclass, lemma) %>%
+  rename(first_word = token, wclass_1 = wclass, lemma_1 = lemma) %>%
+  filter(wclass_1 %in% c("adjective", "noun"))
+tt_1 <- tt_1[!duplicated(tt_1), ]
+
+tt_2 <- koRpus::treetag(sort(unique(pop_2grams$second_word)), lang = "en", format = "obj")
+tt_2 <- select(tt_2@TT.res, token, wclass, lemma) %>%
+  rename(second_word = token, wclass_2 = wclass, lemma_2 = lemma) %>%
+  filter(wclass_2 %in% c("adjective", "noun"))
+tt_2 <- tt_2[!duplicated(tt_2), ]
+
+pop_2grams <- inner_join(pop_2grams, tt_1, by = "first_word") %>%
+  inner_join(tt_2, by = "second_word")
+pop_2grams <- pop_2grams %>% arrange(decade, total)
+exclude <- c("fig", "table", "figure", "vol", "tion")
+pop_2grams <- pop_2grams %>% filter(!first_word %in% exclude,
+  !second_word %in% exclude)
+readr::write_csv(pop_2grams, "data/decade-top-2grams.csv")
+
+pop_write <- group_by(pop2, decade) %>%
+  filter(tag %in% c("NN", "NNS")) %>%
+  filter(lemma != "<unknown>") %>%
+  top_n(n = 2000, wt = total) %>%
+  ungroup()
+pop_write <- pop_write[!duplicated(pop_write), ]
+readr::write_csv(pop_write, "data/decade-top-2000.csv")
+
+
 pop3 <- group_by(pop2, decade) %>%
   filter(tag %in% c("NN", "NNS")) %>%
   filter(lemma != "<unknown>") %>%
