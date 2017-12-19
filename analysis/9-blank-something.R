@@ -91,14 +91,22 @@ nrow(x)
 x$first_word <- gsub("'", "", x$first_word)
 x$gram <- gsub("'", "", x$gram)
 
-x_top <- x %>% group_by(panel, gram, first_word) %>%
+yrs <- diff(range(x$year))
+x_top <- x %>%
+  filter(year >= 1935, year <= 2011) %>%
+  # filter(year >= 1940, year <= 1949) %>%
+  group_by(panel, gram, first_word) %>%
   summarise(total = sum(total)) %>%
+  # summarise(total = sum(total/total_words)/yrs) %>%
+  # summarise(total = mean(total/total_words), nyears = length(unique(year))) %>%
   arrange(panel, -total) %>%
   ungroup() %>%
+  # filter(nyears >= 5) %>% # Check
   group_by(panel) %>%
   top_n(n = 150, wt = total)
 
 x_top2 <- x_top %>%
+  filter(nchar(first_word) >= 4) %>%
   mutate(first_word_type = treetag(first_word, format = "obj")@TT.res$wclass) %>%
   filter(first_word_type %in% c("adjective", "noun")) %>%
   mutate(lemma = treetag(first_word, format = "obj")@TT.res$lemma) %>%
@@ -108,8 +116,8 @@ x_top2 <- x_top %>%
 filter(x_top2, lemma == "<unknown>") %>% as.data.frame()
 x_top2 <- filter(x_top2, !first_word %in% c("ecol",
   "tial", "i.e", "ltd", "poral", "tial", "authors", "way",
-  "these", "great", "other", "term",
-  "affect", "editors", "same", "such"))
+  "these", "great", "other", "term", "cine", "tbe",
+  "affect", "editors", "same", "such", "cer", "esw", "l.f", "r.f"))
 x_top2$lemma[x_top2$first_word == "unpubl"] <- "unpublished"
 x_top2$lemma[x_top2$lemma == "<unknown>"] <- x_top2$first_word[x_top2$lemma == "<unknown>"]
 
@@ -126,7 +134,11 @@ terms <- filter(x_top2, lemma %in% top_lemmas$lemma)
 gram_dat <- get_ngram_dat(terms$gram)
 save(gram_dat, file = "data/generated/top-blank.rda")
 
-gd <- inner_join(gram_dat, rename(terms, total_2000s = total),
+# gram_dat_old <- get_ngram_dat(terms$gram)
+# save(gram_dat_old, file = "data/generated/top-blank-old.rda")
+
+# gd <- inner_join(gram_dat, rename(terms, total_2000s = total),
+gd <- inner_join(gram_dat_old, rename(terms, total_2000s = total),
   by = "gram")
 gd <- group_by(gd, year, panel_lemma, lemma, total_words) %>%
   summarise(total = sum(total), total_2000s = sum(total_2000s)) %>%
@@ -145,7 +157,7 @@ gd <- inner_join(gd, select(top_lemmas_second_cut, -total),
 make_panel <- function(dat, lab_dat, title) {
   g <- dat %>%
     filter(year <= 2011, year > 1930) %>%
-    ggplot(aes(year, total/total_words*1000, group = lemma)) +
+    ggplot(aes(year, total/total_words*10000, group = lemma)) +
     geom_line(colour = "grey30", alpha = 0.2) +
     geom_col(colour = NA, fill = NA, position = position_dodge()) +
     # facet_wrap(~panel, scales = "free_y") +
@@ -164,14 +176,14 @@ make_panel <- function(dat, lab_dat, title) {
     ) +
     scale_x_continuous(breaks = seq(1920, 2012, 20), limits = c(1935, 2038)) +
     guides(colour = FALSE, lty = FALSE) +
-    ylab("Instances per 1000 words") + xlab("") +
+    ylab("Instances per 10,000 words") + xlab("") +
     ggtitle(title)
 }
 
 out <- plyr::dlply(gd, "panel_lemma", function(xx) {
   lab <- plyr::ddply(xx, c("panel_lemma", "lemma"), function(x) {
     xx <- filter(x, year <= 2011, year > 1930)
-    m <- tryCatch({mgcv::gam(total/total_words*1000 ~ s(year), data = xx)},
+    m <- tryCatch({mgcv::gam(total/total_words*10000 ~ s(year), data = xx)},
       error = function(e) NA)
     y <- ifelse(!is.na(m)[[1]], predict(m, newdata = data.frame(year = 2011))[[1]], NA)
     data.frame(year = 2011, y = y)
@@ -180,14 +192,14 @@ out <- plyr::dlply(gd, "panel_lemma", function(xx) {
   make_panel(xx, lab, unique(xx$panel))
 })
 
-pdf("figs/blank-panels2.pdf", width = 6, height = 9)
-for (i in seq_along(out)) {
-  print(out[[i]])
-}
-dev.off()
+# pdf("figs/blank-panels2.pdf", width = 6, height = 9)
+# for (i in seq_along(out)) {
+#   print(out[[i]])
+# }
+# dev.off()
 
 library(gridExtra)
-pdf("figs/blank-panels3.pdf", width = 20, height = 23)
+pdf("figs/blank-panels-mean.pdf", width = 20, height = 23)
 n <- length(out)
 nCol <- floor(sqrt(n))
 do.call("grid.arrange", c(out, ncol=nCol))

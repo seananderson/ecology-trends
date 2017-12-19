@@ -5,7 +5,17 @@ library(directlabels)
 
 pnas_exluded_pub_ids <- readRDS("data/generated/pnas_exluded_pub_ids.rds")
 
-filtered_journals <- readr::read_csv("data/taxa-specific-journal-classifications.csv") %>%
+filtered_journals <-
+  readr::read_csv(
+    "data/taxa-specific-journal-classifications.csv",
+    col_types = cols(
+      Journal = col_character(),
+      Slug = col_character(),
+      TaxonSpecific = col_character(),
+      Taxon = col_character(),
+      Notes = col_character()
+    )
+  ) %>%
   filter(TaxonSpecific == "N") %>%
   select(Slug) %>% rename(journal = Slug)
 
