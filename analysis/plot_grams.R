@@ -85,7 +85,8 @@ plot_grams <- function(dat, colour = "gram",
     # mid = "grey60",
     # high = scales::muted("red"), guide = "none") +
     scale_alpha_continuous(limits = c(-20, -2)) +
-    guides(colour = FALSE)
+    guides(colour = FALSE) +
+    scale_y_log10()
 
   g
 }

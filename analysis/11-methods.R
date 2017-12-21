@@ -13,9 +13,10 @@ out_sean <- readRDS("data/generated/method-grams.rds")
 d <- full_join(d, out, by = "gram") %>%
   filter(!is.na(total))
 
-plot_panels(d, "figs/methods-panels-1.pdf", palette = "Dark2")
+plot_panels(d, "figs/methods-panels-2.pdf", palette = "Dark2")
 
 # --------
+
 # Brent:
 d <- read.csv("data/conservation-terms.csv", strip.white = TRUE, stringsAsFactors = FALSE)
 terms <- unique(d$gram)
@@ -25,11 +26,11 @@ d$gram <- tolower(d$gram)
 out <- readRDS("data/generated/conservation-grams.rds")
 d <- full_join(d, out, by = "gram") %>%
   filter(!is.na(total))
-plot_panels(d, "figs/conservation-panels-1.pdf", width = 10, height = 8)
+plot_panels(d, "figs/conservation-panels-2.pdf", width = 10, height = 8)
 
 # --------
 # Paul:
-d <- read.csv("data/paul_human_impacts.csv", strip.white = TRUE, stringsAsFactors = FALSE)
+d <- read.csv("data/paul_human_impacts3.csv", strip.white = TRUE, stringsAsFactors = FALSE)
 terms <- unique(d$gram)
 d$gram <- tolower(d$gram)
 d$show <- "yes"
@@ -39,7 +40,7 @@ out <- readRDS("data/generated/human-impacts-grams.rds")
 out <- filter(out, gram %in% d$gram)
 d <- full_join(d, out, by = "gram") %>%
   filter(!is.na(total))
-plot_panels(d, "figs/human-impacts-panels-1.pdf", width = 10, height = 8)
+plot_panels(d, "figs/human-impacts-panels-2.pdf", width = 10, height = 8)
 
 # --------
 # Becky:
