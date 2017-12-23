@@ -69,6 +69,7 @@ exclude <- c("fig", "table", "figure", "vol", "tion")
 pop_2grams <- pop_2grams %>% filter(!first_word %in% exclude,
   !second_word %in% exclude)
 readr::write_csv(pop_2grams, "data/decade-top-2grams.csv")
+pop_2grams <- read_csv("data/decade-top-2grams.csv")
 
 pop_write <- group_by(pop2, decade) %>%
   filter(tag %in% c("NN", "NNS")) %>%
