@@ -1,0 +1,173 @@
+show, panel, gram, gram_canonical
+no,  models, GAM, GAM
+no,  models, generalized additive model, GAM
+no,  models, GLM, GLM
+no,  models, generalized linear model, GLM
+no,  models, GLMM, GLMM
+no,  models, anova, anova
+no,  models, correlation coefficient, correlation
+no,  models, hierarchical model, hierarchical model
+no,  models, least squares, least-squares
+no,  models, linear model, linear model
+no,  models, linear regression, linear regression
+no,  models, loess, loess
+no,  models, lowess, loess
+no,  models, mixed effect model, mixed-effect model
+no,  models, mixed effects model, mixed-effect model
+no,  models, repeated measures, repeated measures
+no,  models, multi level model, multilevel model
+no,  models, multilevel model, multilevel model
+no,  models, multiple linear regression, multiple linear regression
+no,  models, multiple regression, multiple regression
+no,  models, non parametric, non-parametric
+no,  models, nonparametric, non-parametric
+no,  models, regression, regression
+no,  models, robust regression, robust regression
+no,  models, t test, t-test
+no,  models, ttest, t-test
+no,  models, bootstrap, bootstrap
+no,  models, jackknife, jackknife
+no,  models, jack knife, jackknife
+no,  models, jacknife, jackknife
+no,  models, logistic regression, logistic regression
+no,  models, meta analysis, meta analysis
+no,  models, metaanalysis, meta analysis
+no,  correlation-causation, correlation, correlation
+no,  correlation-causation, causation, causation
+no,  religions_test, frequentist, frequentist
+no,  religions_test, machine learning, machine learning
+no,  religions_test, machinelearning, machine learning
+no,  religions_test, bayesian, bayesian
+no,  religions_test, maximum likelihood, maximum likelihood
+no,  religions_test, maximumlikelihood, maximum likelihood
+no,  model selection, AIC, AIC
+no,  model selection, BIC, BIC
+no,  model selection, DIC, DIC
+no,  model selection, information theoretic, information theoretic
+no,  model selection, informationtheoretic, information theoretic
+no,  model selection, model averaging, model averaging
+no,  model selection, model selection, model selection
+no,  model selection, modelaveraging, model averaging
+no,  model selection, modelselection, model selection
+no,  tech, GIS, GIS
+no,  tech, GPS tags, GPS tags
+no,  tech, camera trap, camera trap
+no,  tech, camera traps, camera trap
+no,  tech, drone, drone
+no,  tech, drones, drone
+no,  tech, environmental logger, environmental logger
+no,  tech, environmental loggers, environmental logger
+no,  tech, microscope, microscope
+no,  tech, microscopes, microscope
+no,  tech, photograph, photograph
+no,  tech, photographs, photograph
+no,  tech, quadrats, quadrats
+no,  tech, PCR, PCR
+no,  tech, remote sensing, remote sensing
+no,  other, data, data
+no,  other, evidence, evidence
+no,  other, inches, inches
+no,  other, cm, centimeters
+no,  other, centimeters, centimeters
+no,  other, centimetres, centimeters
+no,  other, lb, pounds
+no,  other, lbs, pounds
+no,  other, pounds, pounds
+no,  other, kg, kilograms
+no,  other, kgs, kilograms
+no,  other, kilograms, kilograms
+no,  other, differences, differences
+no,  other, similarities, similarities
+no,  other, laboratory, laboratory
+no,  other, observation, observation
+no,  other, information, information
+no,  other, extreme, extreme,
+no,  other, measurement, measurement
+no,  other, fluctuations, fluctuations
+no,  other, variance, variance
+no,  other, probability, probability
+no,  other, variables, variables
+no,  other, interactions, interactions
+no,  other, mechanisms, mechanisms
+no,  other, mechanism, mechanism
+no,  other, strategies, strategies
+no,  other, equilibrium, equilibrium
+no,  other, implications, implication
+no,  other, implication, implication
+no,  other, coefficients, coefficients
+no,  other, software, software
+no,  other, connectivity, connectivity
+no,  other, technology, technology
+no,  other, autocorrelation, autocorrelation
+no,  other, diversification, diversification
+no,  other, ecologists, ecologist
+no,  other, ecologist, ecologist
+no,  other, significant difference, significant difference
+no,  other, significant differences, significant difference
+no,  other, density dependent, density dependent
+no,  other, supplementary material, supplementary material
+no,  other, principal components, principal component
+no,  other, principal component, principal component
+no,  other, statistical significance, statistical significance
+no,  other, multivariate, multivariate
+no,  other, red list, red list
+no,  other, redlist, red list
+yes,  regression, correlation, correlation
+yes,  regression, regression, regression
+yes,  regression, anova, anova
+yes,  regression, multiple regression, multiple regression
+yes,  regression, t test, t-test
+yes,  regression, ttest, t-test
+no,  fit by, bayesian, bayesian
+yes,  fit by, maximum likelihood, maximum likelihood
+yes,  fit by, maximumlikelihood, maximum likelihood
+yes,  fit by, least squares, least-squares
+yes,  fit by, MCMC, MCMC
+yes,  p-hack, confidence interval, confidence interval
+yes,  p-hack, credible interval, credible interval
+yes,  p-hack, null hypothesis, null hypothesis
+yes,  p-hack, alternative hypothesis, alternative hypothesis
+yes,  p-hack, power analysis, power analysis
+yes,  p-hack, p value, p value
+yes,  p-hack, pvalue, p value
+no,  p-hack, significant, significant
+yes,  p-hack, significant difference, significant difference
+yes,  p-hack, significant differences, significant difference
+yes,  hypotheses, null hypothesis, null hypothesis
+yes,  hypotheses, alternative hypothesis, alternative hypothesis
+yes,  hypotheses, alternative hypothesis, alternative hypothesis
+yes,  multilevel, hierarchical model, hierarchical model
+yes,  multilevel, mixed effect model, mixed-effects model
+yes,  multilevel, mixed effects model, mixed-effects model
+yes,  multilevel, multi level model, multilevel model
+yes,  multilevel, multilevel model, multilevel model
+yes,  multilevel, random effects model, random-effects model
+yes,  multilevel, random effect model, random-effects model
+yes,  effects, fixed effects, fixed effects
+yes,  effects, random effects, random effects
+yes,  models, linear regression, linear regression
+yes,  models, GAM, GAM
+yes,  models, generalized additive model, GAM
+yes,  models, GLM, GLM
+yes,  models, generalized linear model, GLM
+yes,  alphabet soup, AIC, AIC
+yes,  alphabet soup, BIC, BIC
+yes,  alphabet soup, DIC, DIC
+yes,  model selection, information theoretic, information theoretic
+yes,  model selection, model averaging, model averaging
+yes,  model selection, model selection, model selection
+no,  model selection, multiple models, multiple models
+yes,  model selection, model comparison, model comparison
+yes,  quantifying uncertainty, maximum likelihood, maximum likelihood
+yes,  quantifying uncertainty, bootstrap, bootstrap
+yes,  quantifying uncertainty, jackknife, jackknife
+yes,  quantifying uncertainty, jack knife, jackknife
+yes,  quantifying uncertainty, jacknife, jackknife
+yes,  quantifying uncertainty, bayesian, bayesian
+yes,  jackknife spelling, jackknife, jackknife
+yes,  jackknife spelling, jack knife, jackknife
+yes,  jackknife spelling, jacknife, jacknife
+yes,  correlation-causation, correlation, correlation/correlated
+yes,  correlation-causation, correlated, correlation/correlated
+yes,  correlation-causation, causation, causation/causal
+yes,  correlation-causation, causal, causation/causal
