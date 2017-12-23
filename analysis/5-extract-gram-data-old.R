@@ -113,51 +113,8 @@ plot_ngram_all <- function(data, filename = "figs/x.pdf", width = 33, height = 2
   ggsave(filename, width = width, height = height)
 }
 
-terms <- read_csv("data/Group2_TermRequest1.csv")
-dat <- get_ngram_dat(terms$terms)
-saveRDS(dat, file = "data/generated/group2-request1.rds")
-dat <- readRDS("data/generated/group2-request1.rds")
-plot_ngram_all(dat, "figs/group2-request1.pdf")
-
-terms_temp <- read_csv("data/Group1_term_request_09_20_17.csv")
-terms <- data.frame(terms = as.character(c(terms_temp$ecologies, terms_temp$ologies)),
-  stringsAsFactors = FALSE)
-terms <- terms[!is.na(terms$terms), ]
-dat <- get_ngram_dat(terms)
-saveRDS(dat, file = "data/generated/group1-request1.rds")
-dat <- readRDS("data/generated/group1-request1.rds")
-plot_ngram_all(dat, "figs/group1-request1.pdf", order_by = "max")
-plot_ngram_all(dat, "figs/group1-request1-slope.pdf", order_by = "slope")
-plot_ngram_all(dat, "figs/group1-request1-slope-1980-onwards.pdf", order_by = "slope",
-  slope_years = 1980:2050)
-
-# --------------------
-
-terms_temp <- read_table("data/zombie-request1.txt")
-dat <- get_ngram_dat(terms_temp$terms)
-saveRDS(dat, file = "data/generated/zombie-request1.rds")
-dat <- readRDS("data/generated/zombie-request1.rds") %>%
-  filter(!gram %in% "rk selection")
-plot_ngram_all(dat, "figs/zombie-request1.pdf", order_by = "max",
-  year_range = c(1900, 2014), width = 16, height = 12)
-
-# --------------------
-# grouped terms
-
-gt <- readr::read_csv("data/Grouped-terms-Sheet1.csv") %>% select(-Notes) %>%
-  rename(terms = Term, group = Group) %>%
-  transform(terms = tolower(terms), group = tolower(group))
-dat_gt <- get_ngram_dat(gt$terms)
-saveRDS(dat_gt, file = "data/generated/grouped-terms-dat.rds")
-dat_gt <- readRDS("data/generated/grouped-terms-dat.rds")
-
-dat_gt <- left_join(dat_gt, rename(gt, gram = terms))
-
-# -------------
-# plot grouped terms
-
-plot_group_clown_vomit <- function(group_name) {
-  dd <- filter(dat_gt, group %in% group_name, year <= 2012, year >= 1935) %>%
+plot_group_clown_vomit <- function(dat, group_name, width = 30, height = 25) {
+  dd <- filter(dat, group %in% group_name, year <= 2012, year >= 1935) %>%
     ungroup() %>%
     group_by(gram) %>%
     mutate(max_count = max(total/total_words))
@@ -171,7 +128,9 @@ plot_group_clown_vomit <- function(group_name) {
   library(mgcv)
 
   dd2 <- plyr::ddply(dd, "gram", function(x) {
-    m <- gam(I(log10(total/total_words*10000)) ~ s(year, k = 3), data = x)
+    m <- tryCatch({gam(I(log10(total/total_words*10000)) ~ s(year), data = x)},
+      error = function(ignore) gam(I(log10(total/total_words*10000)) ~ s(year, k = 3), data = x)
+    )
     mlm <- lm(I(log10(total/total_words*10000)) ~ year, data = x)
     y <- seq(min(x$year), max(x$year), 0.5)
     data.frame(year = y, pred = predict(m, newdata = data.frame(year = y)),
@@ -214,10 +173,57 @@ plot_group_clown_vomit <- function(group_name) {
     # high = scales::muted("red"), guide = "none") +
     scale_alpha_continuous(limits = c(-20, -2))
   # viridis::scale_colour_viridis(discrete = TRUE)
-  ggsave(paste0("figs/grouped-", group_name, ".pdf"), width = 15, height = 12)
+  ggsave(paste0("figs/grouped-", group_name, ".pdf"), width = width, height = height)
 }
 
-lapply(unique(gt$group), plot_group_clown_vomit)
+##############
+
+terms <- read_csv("data/Group2_TermRequest1.csv")
+dat <- get_ngram_dat(terms$terms)
+saveRDS(dat, file = "data/generated/group2-request1.rds")
+dat <- readRDS("data/generated/group2-request1.rds")
+plot_ngram_all(dat, "figs/group2-request1.pdf")
+plot_group_clown_vomit(data.frame(dat, group = "Group2"), "Group2", width = 30, height = 25)
+
+terms_temp <- read_csv("data/Group1_term_request_09_20_17.csv")
+terms <- data.frame(terms = as.character(c(terms_temp$ecologies, terms_temp$ologies)),
+  stringsAsFactors = FALSE)
+terms <- terms[!is.na(terms$terms), ]
+dat <- get_ngram_dat(terms)
+saveRDS(dat, file = "data/generated/group1-request1.rds")
+dat <- readRDS("data/generated/group1-request1.rds")
+plot_ngram_all(dat, "figs/group1-request1.pdf", order_by = "max")
+plot_ngram_all(dat, "figs/group1-request1-slope.pdf", order_by = "slope")
+plot_ngram_all(dat, "figs/group1-request1-slope-1980-onwards.pdf", order_by = "slope",
+  slope_years = 1980:2050)
+plot_group_clown_vomit(data.frame(dat, group = "Group1_"), "Group1_", width = 13, height = 10)
+# --------------------
+
+terms_temp <- read_table("data/zombie-request1.txt")
+dat <- get_ngram_dat(terms_temp$terms)
+saveRDS(dat, file = "data/generated/zombie-request1.rds")
+dat <- readRDS("data/generated/zombie-request1.rds") %>%
+  filter(!gram %in% "rk selection")
+plot_ngram_all(dat, "figs/zombie-request1.pdf", order_by = "max",
+  year_range = c(1900, 2014), width = 16, height = 12)
+plot_group_clown_vomit(data.frame(dat, group = "GroupZ"), "GroupZ", width = 10, height = 8)
+
+# --------------------
+# grouped terms
+
+gt <- readr::read_csv("data/Grouped-terms-Sheet1.csv") %>% select(-Notes) %>%
+  rename(terms = Term, group = Group) %>%
+  transform(terms = tolower(terms), group = tolower(group))
+dat_gt <- get_ngram_dat(gt$terms)
+saveRDS(dat_gt, file = "data/generated/grouped-terms-dat.rds")
+dat_gt <- readRDS("data/generated/grouped-terms-dat.rds")
+
+dat_gt <- left_join(dat_gt, rename(gt, gram = terms))
+
+# -------------
+# plot grouped terms
+
+lapply(unique(gt$group), function(x) plot_group_clown_vomit(dat_gt, x))
 
 
 
