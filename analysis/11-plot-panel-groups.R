@@ -1,7 +1,7 @@
 library(tidyverse)
 source("analysis/plot-panels.R")
 # source("analysis/extract-functions.R")
-source("12-pretty.R")
+source("analysis/pretty-panels.R")
 
 pal_func <- function(n) {
   pal <- viridisLite::plasma(n, begin = 0.01, end = 0.84, direction = 1)
