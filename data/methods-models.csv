@@ -112,30 +112,34 @@ no,  other, statistical significance, statistical significance
 no,  other, multivariate, multivariate
 no,  other, red list, red list
 no,  other, redlist, red list
-yes,  regression, correlation, correlation
-yes,  regression, regression, regression
-yes,  regression, anova, anova
-yes,  regression, multiple regression, multiple regression
+yes,  regression2, correlation, correlation
+yes,  regression2, regression, regression
+yes,  regression, anova, ANOVA
+no,  regression, multiple regression, multiple regression
 yes,  regression, t test, t-test
 yes,  regression, ttest, t-test
+yes,  regression, GLM, GLM
+yes,  regression, linear regression, linear regression
+yes,  regression, generalized linear model, GLM
 no,  fit by, bayesian, bayesian
 yes,  fit by, maximum likelihood, maximum likelihood
 yes,  fit by, maximumlikelihood, maximum likelihood
 yes,  fit by, least squares, least-squares
 yes,  fit by, MCMC, MCMC
+yes,  fit by, bayesian, bayesian
 yes,  p-hack, confidence interval, confidence interval
-yes,  p-hack, credible interval, credible interval
+no,  p-hack, credible interval, credible interval
 yes,  p-hack, null hypothesis, null hypothesis
-yes,  p-hack, alternative hypothesis, alternative hypothesis
+no,  p-hack, alternative hypothesis, alternative hypothesis
 yes,  p-hack, power analysis, power analysis
 yes,  p-hack, p value, p value
 yes,  p-hack, pvalue, p value
 no,  p-hack, significant, significant
 yes,  p-hack, significant difference, significant difference
 yes,  p-hack, significant differences, significant difference
-yes,  hypotheses, null hypothesis, null hypothesis
-yes,  hypotheses, alternative hypothesis, alternative hypothesis
-yes,  hypotheses, alternative hypothesis, alternative hypothesis
+no,  hypotheses, null hypothesis, null hypothesis
+no,  hypotheses, alternative hypothesis, alternative hypothesis
+no,  hypotheses, alternative hypothesis, alternative hypothesis
 yes,  multilevel, hierarchical model, hierarchical model
 yes,  multilevel, mixed effect model, mixed-effects model
 yes,  multilevel, mixed effects model, mixed-effects model
@@ -143,31 +147,30 @@ yes,  multilevel, multi level model, multilevel model
 yes,  multilevel, multilevel model, multilevel model
 yes,  multilevel, random effects model, random-effects model
 yes,  multilevel, random effect model, random-effects model
-yes,  effects, fixed effects, fixed effects
-yes,  effects, random effects, random effects
-yes,  models, linear regression, linear regression
-yes,  models, GAM, GAM
-yes,  models, generalized additive model, GAM
-yes,  models, GLM, GLM
-yes,  models, generalized linear model, GLM
-yes,  alphabet soup, AIC, AIC
-yes,  alphabet soup, BIC, BIC
-yes,  alphabet soup, DIC, DIC
+no,  effects, fixed effects, fixed effects
+no,  effects, random effects, random effects
+no,  models, linear regression, linear regression
+no,  models, GAM, GAM
+no,  models, generalized additive model, GAM
+no,  models, GLM, GLM
+no,  models, generalized linear model, GLM
+no,  alphabet soup, BIC, BIC
 yes,  model selection, information theoretic, information theoretic
+yes,  model selection, AIC, AIC
 yes,  model selection, model averaging, model averaging
 yes,  model selection, model selection, model selection
 no,  model selection, multiple models, multiple models
-yes,  model selection, model comparison, model comparison
-yes,  quantifying uncertainty, maximum likelihood, maximum likelihood
-yes,  quantifying uncertainty, bootstrap, bootstrap
-yes,  quantifying uncertainty, jackknife, jackknife
-yes,  quantifying uncertainty, jack knife, jackknife
-yes,  quantifying uncertainty, jacknife, jackknife
-yes,  quantifying uncertainty, bayesian, bayesian
-yes,  jackknife spelling, jackknife, jackknife
-yes,  jackknife spelling, jack knife, jackknife
-yes,  jackknife spelling, jacknife, jacknife
-yes,  correlation-causation, correlation, correlation/correlated
-yes,  correlation-causation, correlated, correlation/correlated
-yes,  correlation-causation, causation, causation/causal
-yes,  correlation-causation, causal, causation/causal
+no,  model selection, model comparison, model comparison
+no,  quantifying uncertainty, maximum likelihood, maximum likelihood
+no,  quantifying uncertainty, bootstrap, bootstrap
+no,  quantifying uncertainty, jackknife, jackknife
+no,  quantifying uncertainty, jack knife, jackknife
+no,  quantifying uncertainty, jacknife, jackknife
+no,  quantifying uncertainty, bayesian, bayesian
+no,  jackknife spelling, jackknife, jackknife
+no,  jackknife spelling, jack knife, jackknife
+no,  jackknife spelling, jacknife, jacknife
+no,  correlation-causation, correlation, correlation/correlated
+no,  correlation-causation, correlated, correlation/correlated
+no,  correlation-causation, causation, causation/causal
+no,  correlation-causation, causal, causation/causal
