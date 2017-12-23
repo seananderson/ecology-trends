@@ -1,19 +1,35 @@
 library(tidyverse)
 source("analysis/plot-panels.R")
 # source("analysis/extract-functions.R")
+source("12-pretty.R")
+
+pal_func <- function(n) {
+  pal <- viridisLite::plasma(n, begin = 0.01, end = 0.84, direction = 1)
+  gsub("FF$", "", pal)
+  # RColorBrewer::brewer.pal(n, "Dark2")
+  # rev(RColorBrewer::brewer.pal(n, "Spectral")
+}
 
 # --------
 # Sean:
-d <- read.csv("data/methods-models.csv", strip.white = TRUE, stringsAsFactors = FALSE)
+library(dplyr)
+d <- read.csv("data/methods-models.csv", strip.white = TRUE,
+  stringsAsFactors = FALSE)
 terms <- unique(d$gram)
 d$gram <- tolower(d$gram)
 # out <- get_ngram_dat(terms)
 # saveRDS(out, file = "data/generated/method-grams.rds")
-out_sean <- readRDS("data/generated/method-grams.rds")
+out <- readRDS("data/generated/method-grams.rds")
 d <- full_join(d, out, by = "gram") %>%
-  filter(!is.na(total))
+  filter(!is.na(total)) %>%
+  dplyr::filter(show == "yes")
+pdf("figs/stats.pdf", width = 6, height = 5)
+ecogram_panels(d, right_gap = 50, ncols = 2)
+dev.off()
 
-plot_panels(d, "figs/methods-panels-2.pdf", palette = "Dark2")
+pdf("figs/stats1.pdf", width = 6, height = 5)
+ecogram_panels(d, right_gap = 50, pal = pal_func)
+dev.off()
 
 # --------
 
@@ -25,8 +41,12 @@ d$gram <- tolower(d$gram)
 # saveRDS(out, file = "data/generated/conservation-grams.rds")
 out <- readRDS("data/generated/conservation-grams.rds")
 d <- full_join(d, out, by = "gram") %>%
-  filter(!is.na(total))
-plot_panels(d, "figs/conservation-panels-2.pdf", width = 10, height = 8)
+  filter(!is.na(total)) %>%
+  dplyr::filter(show == "yes")
+pdf("figs/conservation-panels-3.pdf", width = 6, height = 3.9)
+ecogram_panels(d, right_gap = 38, ncols = 2)
+dev.off()
+
 
 # --------
 # Paul:
@@ -40,7 +60,14 @@ out <- readRDS("data/generated/human-impacts-grams.rds")
 out <- filter(out, gram %in% d$gram)
 d <- full_join(d, out, by = "gram") %>%
   filter(!is.na(total))
-plot_panels(d, "figs/human-impacts-panels-2.pdf", width = 10, height = 8)
+
+pdf("figs/human-impacts-panels-4.pdf", width = 6, height = 3.9)
+ecogram_panels(d, right_gap = 38, ncols = 2, pal = pal_func)
+dev.off()
+
+pdf("figs/human-impacts-panels-5.pdf", width = 6, height = 3.9)
+ecogram_panels(d, right_gap = 38, ncols = 2)
+dev.off()
 
 # --------
 # Becky:
@@ -52,5 +79,8 @@ d$gram <- tolower(d$gram)
 # saveRDS(out, file = "data/generated/becky-2017-12-14.rds")
 out <- readRDS("data/generated/becky-2017-12-14.rds")
 d <- full_join(d, out, by = "gram") %>%
-  filter(!is.na(total))
-plot_panels(d, "figs/scale-panels-1.pdf", width = 10, height = 12)
+  filter(!is.na(total)) %>%
+  dplyr::filter(show == "yes")
+pdf("figs/scale-panels-2.pdf", width = 6, height = 5)
+ecogram_panels(d, right_gap = 50, ncols = 2)
+dev.off()

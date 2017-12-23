@@ -112,8 +112,10 @@ no,  other, statistical significance, statistical significance
 no,  other, multivariate, multivariate
 no,  other, red list, red list
 no,  other, redlist, red list
-yes,  regression2, correlation, correlation
-yes,  regression2, regression, regression
+yes,  regression, correlation, correlation
+yes,  regression, regression, regression
+no,  regression2, significant difference, significant difference
+no,  regression2, significant differences, significant difference
 yes,  regression, anova, ANOVA
 no,  regression, multiple regression, multiple regression
 yes,  regression, t test, t-test
@@ -121,19 +123,19 @@ yes,  regression, ttest, t-test
 yes,  regression, GLM, GLM
 yes,  regression, linear regression, linear regression
 yes,  regression, generalized linear model, GLM
-no,  fit by, bayesian, bayesian
+no,  fit by, bayesian, Bayesian
 yes,  fit by, maximum likelihood, maximum likelihood
 yes,  fit by, maximumlikelihood, maximum likelihood
 yes,  fit by, least squares, least-squares
 yes,  fit by, MCMC, MCMC
-yes,  fit by, bayesian, bayesian
+yes,  fit by, bayesian, Bayesian
 yes,  p-hack, confidence interval, confidence interval
 no,  p-hack, credible interval, credible interval
 yes,  p-hack, null hypothesis, null hypothesis
 no,  p-hack, alternative hypothesis, alternative hypothesis
 yes,  p-hack, power analysis, power analysis
-yes,  p-hack, p value, p value
-yes,  p-hack, pvalue, p value
+yes,  p-hack, p value, p-value
+yes,  p-hack, pvalue, p-value
 no,  p-hack, significant, significant
 yes,  p-hack, significant difference, significant difference
 yes,  p-hack, significant differences, significant difference
