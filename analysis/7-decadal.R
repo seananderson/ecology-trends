@@ -69,7 +69,12 @@ exclude <- c("fig", "table", "figure", "vol", "tion")
 pop_2grams <- pop_2grams %>% filter(!first_word %in% exclude,
   !second_word %in% exclude)
 readr::write_csv(pop_2grams, "data/decade-top-2grams.csv")
-pop_2grams <- read_csv("data/decade-top-2grams.csv")
+# pop_2grams <- read_csv("data/decade-top-2grams.csv")
+
+# d2 <- feather::read_feather("data/generated/condensed-ngrams2.feather")
+# qq <- filter(d2, gram %in% unique(pop_2grams$gram))
+
+#######################
 
 pop_write <- group_by(pop2, decade) %>%
   filter(tag %in% c("NN", "NNS")) %>%
@@ -80,6 +85,7 @@ pop_write <- pop_write[!duplicated(pop_write), ]
 readr::write_csv(pop_write, "data/decade-top-2000.csv")
 
 
+# -------------------------------------------
 pop3 <- group_by(pop2, decade) %>%
   filter(tag %in% c("NN", "NNS")) %>%
   filter(lemma != "<unknown>") %>%
@@ -132,31 +138,6 @@ condensed_across_lemmas <- ungroup(dat4) %>%
 dat4 <- full_join(condensed_across_lemmas,
   unique(select(pop3_keep, lemma, decade)), by = "lemma")
 
-# # condense if popular in both decades:
-# dat4 <- dat4 %>% group_by(year, lemma, grams) %>%
-#   summarise(total_words = total_words[1], total = total[1],
-#     decade = paste(unique(decade), collapse = " / "))
-#
-# # make facet label:
-# dat4$wrap <- forcats::fct_reorder(paste(dat4$decade, dat4$grams),
-#   as.numeric(factor(dat4$decade, levels = c("1940", "1940 / 2010", "2010"))))
-#
-# g <- dat4 %>% filter(grams != "university") %>%
-#   filter(year <= 2011, year > 1930) %>%
-#   ggplot(aes(year, total/total_words*10000, group = grams)) +
-#   geom_line(colour = "grey50") +
-#   geom_col(colour = NA, fill = NA) +
-#   facet_wrap(~wrap, scales = "free_y") +
-#   geom_smooth(method = "gam",
-#     method.args = list(family = gaussian(link = "identity")),
-#     formula = y ~ s(x), se = FALSE,
-#     aes(colour = as.factor(decade))) +
-#   scale_color_manual(values =
-#       c("1940 / 2010" = "purple", "1940" = "blue", "2010" = "red")) +
-#   ggsidekick::theme_sleek()
-#
-# ggsave("figs/decades-trial3-bar.pdf", width = 15, height = 12)
-
 dat5 <- dat4 %>% ungroup() %>% mutate(lemma = gsub("specie", "species", lemma))
 dat5 <- dat5 %>% ungroup() %>% mutate(lemma = gsub("datum", "data", lemma))
 dat5 <- group_by(ungroup(dat5), lemma) %>%
@@ -165,6 +146,8 @@ dat5 <- group_by(ungroup(dat5), lemma) %>%
   mutate(list_type2 = grepl(pattern = " / ", list_type)) %>%
   mutate(decade = paste0(decade, "s"))
 
+# plot
+# ---------------------
 lab <- plyr::ddply(dat5, c("decade", "lemma", "list_type"), function(x) {
   xx <- filter(x, year <= 2011, year > 1930)
   m <- mgcv::gam(total/total_words*1000 ~ s(year), data = xx)
