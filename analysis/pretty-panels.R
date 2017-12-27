@@ -6,7 +6,6 @@
 #' @param pos Position to pass to text()
 #' @param col Colour of text
 #' @param ... Anything extra to pass to text(), e.g. cex, col.
-
 add_label <- function(xfrac, yfrac, label, pos = 4, col = "grey35", ...) {
   u <- par("usr")
   x <- u[1] + xfrac * (u[2] - u[1])
@@ -24,14 +23,15 @@ darken <- function(color, factor=1.4){
 ecogram_panel <- function(x,
   pal = function(n) RColorBrewer::brewer.pal(n, "Set2"),
   year_limits = c(1930, 2010),
-  right_gap = 30, xaxes = NULL, stop_lab = 0.7) {
+  right_gap = 30, xaxes = NULL, stop_lab = 0.7, darken_factor = 1.0,
+  label_gap = -1.9, label_cex = 0.85) {
 
   x <- dplyr::filter(x, year >= year_limits[1], year <= year_limits[2])
 
   col <- suppressWarnings(pal(length(unique(x$gram_canonical))))
   col <- rep(col, 99)
   col <- col[seq_len(length(unique(x$gram_canonical)))]
-  # col <- darken(col, factor = 1.03)
+  col <- darken(col, factor = darken_factor)
 
   pred <- data.frame(select(x, year, total_words))
   pred <- pred[!duplicated(pred), ] %>%
@@ -43,6 +43,7 @@ ecogram_panel <- function(x,
     this_pred <- dplyr::filter(pred,
       year >= min(xx$year),
       year <= max(xx$year))
+
     m <- tryCatch({
       mgcv::gam(total ~ s(year), offset = log(total_words), data = xx,
         family = quasipoisson(link = "log"))
@@ -54,8 +55,8 @@ ecogram_panel <- function(x,
         y = exp(p$fit),
         ymin = exp(p$fit - 1 * p$se.fit),
         ymax = exp(p$fit + 1 * p$se.fit))
-      out$ymin[1:3] <- NA
-      out$ymax[1:3] <- NA
+      out$ymin[1:1] <- NA
+      out$ymax[1:1] <- NA
     } else {
       warning(paste0("GAM failed to fit for '", unique(xx$gram_canonical),
         "'. Plotting the raw data."))
@@ -131,8 +132,8 @@ ecogram_panel <- function(x,
 
   for (i in seq_along(uniq)) {
     this_lab <- dplyr::filter(lab, gram_canonical == uniq[i])
-    text(year_limits[2]-1.9, this_lab$ynew, this_lab$gram_canonical, pos = 4,
-      col = this_lab$this_col, cex = 0.85)
+    text(year_limits[2]+label_gap, this_lab$ynew, this_lab$gram_canonical, pos = 4,
+      col = this_lab$this_col, cex = label_cex)
   }
   # segments(x0 = year_limits[2], x1 = year_limits[2]+1.5, y0 = lab$y, y1 = lab$ynew,
   # col = "#00000040", lwd = 0.5)
@@ -141,11 +142,6 @@ ecogram_panel <- function(x,
 
   ii <<- ii + 1
 }
-
-# d <- mutate(d, gram_canonical =
-# sub("significant difference", "significant\\\ndifference", gram_canonical))
-# d <- mutate(d, gram_canonical =
-# sub("random-effects model", "random-effects\\\nmodel", gram_canonical))
 
 ecogram_panels <- function(dat, right_gap = 50, ncols = 2, ...) {
   npanels <- length(unique(dat$panel))
