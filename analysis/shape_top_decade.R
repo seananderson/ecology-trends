@@ -1,0 +1,47 @@
+shape_top_decade <- function(data, gram_db, total1, top = 9) {
+
+  # hack:
+  # data <- data %>% group_by(decade) %>%
+  #   top_n(n = top, wt = total) %>%
+  #   ungroup()
+
+  keep <- group_by(data, decade, lemma) %>%
+    # top_n(n = 1, wt = total) %>%
+    summarise(total = sum(total)) %>%
+    group_by(decade) %>%
+    top_n(n = top, wt = total) %>%
+    ungroup() %>%
+    select(decade, lemma)
+
+  pop3_keep <- inner_join(data, keep, by = c("decade", "lemma"))
+
+  # extract:
+  dat3 <- gram_db %>% filter(gram %in% pop3_keep$gram) %>%
+    collect(n = Inf) %>%
+    left_join(total1, by = "year") %>% # from extract-functions.R
+    ungroup()
+  # saveRDS(dat3, file = "data/generated/decade-evolution-dat.rds")
+  # dat3 <- readRDS("data/generated/decade-evolution-dat.rds")
+
+  # add back lemma column:
+  dat4 <- inner_join(dat3, select(pop3_keep, lemma, gram), by = "gram")
+
+  # condense across lemmas:
+  condensed_across_lemmas <- dat4 %>%
+    group_by(year, total_words, lemma) %>%
+    summarize(total = sum(total),
+      grams = paste(sort(unique(gram)), collapse = ", "))
+
+  # add decade back:
+  dat4 <- full_join(condensed_across_lemmas,
+    unique(select(pop3_keep, lemma, decade)), by = "lemma")
+
+  dat5 <- dat4 %>% mutate(lemma = gsub("specie", "species", lemma))
+  dat5 <- dat5 %>% mutate(lemma = gsub("datum", "data", lemma))
+  dat5 <- dat5 %>% mutate(lemma = gsub("speciess", "species", lemma))
+  dat5 <- group_by(dat5, lemma) %>%
+    mutate(list_type = paste(sort(unique(decade)), collapse = " / ")) %>%
+    ungroup() %>%
+    mutate(list_type2 = grepl(pattern = " / ", list_type)) %>%
+    mutate(decade = paste0(decade, "s"))
+}

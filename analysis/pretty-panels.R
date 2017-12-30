@@ -21,10 +21,12 @@ darken <- function(color, factor=1.4){
 }
 
 ecogram_panel <- function(x,
-  pal = function(n) RColorBrewer::brewer.pal(n, "Set2"),
+  pal = function(n) RColorBrewer::brewer.pal(n, "Dark2"),
   year_limits = c(1930, 2010),
   right_gap = 30, xaxes = NULL, stop_lab = 0.7, darken_factor = 1.0,
-  label_gap = -1.9, label_cex = 0.85) {
+  label_gap = -1.9, label_cex = 0.85, bottom_frac_up = 0.025, log_y = FALSE,
+  show_seg = FALSE, yfrac_let = 0.08, ymax = max(x$total/x$total_words),
+  lab_text = "") {
 
   x <- dplyr::filter(x, year >= year_limits[1], year <= year_limits[2])
 
@@ -37,7 +39,7 @@ ecogram_panel <- function(x,
   pred <- pred[!duplicated(pred), ] %>%
     arrange(year)
 
-  library(mgcv)
+  suppressMessages(library(mgcv))
   sm <- plyr::ddply(x, "gram_canonical", function(xx) {
 
     this_pred <- dplyr::filter(pred,
@@ -81,11 +83,16 @@ ecogram_panel <- function(x,
   lab <- inner_join(lab, cols, by = "gram_canonical")
 
   # current_max <- max(c(x$total/x$total_words, sm$y))
-  current_max <- max(sm$y)
-  ylim <- c(0, current_max * 1.06)
+  # current_max <- max(sm$y)
+  current_max <- ymax
+  lower <- 0
+  if (log_y) lower <- 0.1
+  ylim <- c(lower, current_max * 1.06)
 
+  log_arg <- ifelse(log_y, "y", "")
   plot(1, 1, type = "n", xlim = year_limits + c(0, right_gap), ylim = ylim,
-    axes = FALSE, ann = FALSE, yaxs = "i", xaxs = "i")
+    axes = FALSE, ann = FALSE, yaxs = "i", xaxs = "i",
+    log = log_arg)
 
   abline(v = seq(1950, 2010, 20), col = "grey95", lwd = 0.8)
 
@@ -124,10 +131,10 @@ ecogram_panel <- function(x,
   #   border = NA)
 
   lab$y_temp <- lab$y
-  lab$y_temp[lab$y_temp < current_max * 0.04] <- current_max * 0.04
+  lab$y_temp[lab$y_temp < current_max * bottom_frac_up] <- current_max * bottom_frac_up
   lab$ynew <- suppressWarnings(TeachingDemos::spread.labs(lab$y_temp,
     mindiff = 1.2 * strheight('A'),
-    maxiter = 5000, stepsize = 1/500, min = current_max * 0.04,
+    maxiter = 5000, stepsize = 1/500, min = current_max * bottom_frac_up,
     max = current_max * 1.05))
 
   for (i in seq_along(uniq)) {
@@ -135,11 +142,16 @@ ecogram_panel <- function(x,
     text(year_limits[2]+label_gap, this_lab$ynew, this_lab$gram_canonical, pos = 4,
       col = this_lab$this_col, cex = label_cex)
   }
-  # segments(x0 = year_limits[2], x1 = year_limits[2]+1.5, y0 = lab$y, y1 = lab$ynew,
-  # col = "#00000040", lwd = 0.5)
+  if (show_seg)
+    segments(x0 = year_limits[2], x1 = year_limits[2]+1.2, y0 = lab$y, y1 = lab$ynew,
+      col = "grey75", lwd = 0.65)
   # mtext(unique(x$panel), side = 3, line = -2, cex = 0.8, adj = 0)
-  add_label(xfrac = 0.0, yfrac = 0.08, label = LETTERS[[ii]], cex = 1.2)
+  add_label(xfrac = 0.0, yfrac = yfrac_let, label = LETTERS[[ii]], cex = 1.2)
 
+  u <- par("usr")
+  x <- u[1] + 0.0 * (u[2] - u[1]) + strwidth(LETTERS[[ii]]) + strwidth("  ")
+  y <- u[4] - yfrac_let * (u[4] - u[3])
+  text(x, y, labels = lab_text, pos = 4, col = "grey50", cex = 1.2)
   ii <<- ii + 1
 }
 
