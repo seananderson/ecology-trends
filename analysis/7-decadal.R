@@ -1,12 +1,4 @@
 source("analysis/extract-functions.R")
-library("koRpus")
-set.kRp.env(TT.cmd =
-    "~/Dropbox/bin/treetagger/cmd/tree-tagger-english", lang = "en")
-
-gram_db1 <- dplyr::src_sqlite("data/generated/jstor1-condensed.sqlite3") %>%
-  dplyr::tbl("ngrams")
-gram_db2 <- dplyr::src_sqlite("data/generated/jstor2-condensed.sqlite3") %>%
-  dplyr::tbl("ngrams")
 
 bad_latex <- read_csv("data/bad-latex.csv", col_types = cols(gram = col_character()))
 excludes <- c("of", "in", "to", "and", "the", "from",
@@ -55,9 +47,10 @@ pop1 <- left_join(pop1, tt, by = "gram")
 
 pop1 <- group_by(pop1, decade) %>%
   filter(tag %in% c("NN", "NNS")) %>%
-  filter(lemma != "<unknown>") %>%
+  # filter(lemma != "<unknown>") %>%
   top_n(n = 500, wt = total) %>%
   ungroup()
+pop1$lemma[pop1$lemma == "<unknown>"] <- pop1$gram[pop1$lemma == "<unknown>"]
 
 pop2 <- pop2 %>% filter(!(first_word %in% excludes | second_word %in% excludes)) %>%
   mutate(nchar1 = nchar(first_word), nchar2 = nchar(second_word)) %>%
@@ -78,12 +71,6 @@ tt_2 <- tt_2[!duplicated(tt_2), ]
 pop2 <- inner_join(pop2, tt_1, by = "first_word") %>%
   inner_join(tt_2, by = "second_word")
 
-pop2 <- pop2 %>%
-  group_by(decade) %>%
-  top_n(n = 500, wt = total) %>%
-  ungroup() %>%
-  arrange(decade, -total)
-
 # ----------
 # Clean out words we aren't interested in
 
@@ -98,25 +85,39 @@ exclude <- c("american naturalist", "ecological monographs",
   "authors journal", "canadian journal",
   "royal society", "ecol evol", "state university",
   "springer verlag", "phil trans", "much more", "same time",
-  "united states", "other hand") %>%
+  "united states", "other hand", "philosophical transactions",
+  "corresponding editor", "ecol monogr", "conserv biol",
+  "ecol lett", "popu lations", "ecology letters",
+  "research institute", "press chicago", "ecol syst",
+  "funct ecol", "change biology", "author contributions",
+  "phil wrans", "portugal issn", "nati acad", "proc nati",
+  "corresponding author") %>%
   tolower()
 pop2 <- pop2 %>% filter(!first_word %in% exclude,
   !second_word %in% exclude, !gram %in% exclude)
+
+pop2$lemma_1[pop2$lemma_1 == "<unknown>"] <- pop2$first_word[pop2$lemma_1 == "<unknown>"]
+pop2$lemma_2[pop2$lemma_2 == "<unknown>"] <- pop2$second_word[pop2$lemma_2 == "<unknown>"]
+pop2 <- mutate(pop2, lemma = paste(lemma_1, lemma_2))
+
+pop2 <- pop2 %>%
+  group_by(decade) %>%
+  top_n(n = 500, wt = total) %>%
+  ungroup() %>%
+  arrange(decade, -total)
+
+# pop1 %>% as.data.frame()
+pop1 <- pop1 %>% filter(!gram %in% c("fig", "use", "doi", "case"))
+pop1 <- pop1 %>% filter(!gram %in% c("tion", "cent", "while", "results"))
+pop1 <- pop1 %>% filter(!gram %in% c("table", "figure", "journal"))
+pop1 <- pop1 %>% filter(!gram %in% c("university", "author", "eve"))
+
+saveRDS(pop2, file = "data/generated/pop2-cleaned.rds")
+saveRDS(pop1, file = "data/generated/pop1-cleaned.rds")
+
 pop2 %>% group_by(decade) %>%
   top_n(n = 10, wt = total) %>%
   select(gram, total, decade) %>% as.data.frame()
-
-pop2 <- mutate(pop2, lemma = paste(lemma_1, lemma_2))
-
-# filter(pop1, lttr == 3)
-pop1 <- pop1 %>% filter(!gram %in% c("fig", "use"))
-# filter(pop1, lttr == 4) %>% as.data.frame()
-pop1 <- pop1 %>% filter(!gram %in% c("tion", "cent", "while", "results"))
-# filter(pop1, lttr == 5) %>% as.data.frame()
-# filter(pop1, lttr == 6) %>% as.data.frame()
-# filter(pop1, lttr > 6) %>% as.data.frame()
-pop1 <- pop1 %>% filter(!gram %in% c("table", "figure", "journal"))
-pop1 <- pop1 %>% filter(!gram %in% c("university"))
 
 # pop1 %>% group_by(decade) %>%
 #   top_n(n = 10, wt = total) %>%
@@ -128,20 +129,6 @@ source("analysis/shape_top_decade.R")
 pop1_plot <- shape_top_decade(pop1, gram_db = gram_db1, total1 = total1, top = 9)
 pop2_plot <- shape_top_decade(pop2, gram_db = gram_db2, total1 = total1, top = 9)
 
-add_zeros <- function(data) {
-  plyr::ddply(data, c("decade", "lemma"), function(x) {
-    x <- left_join(filter(total1, year >= min(x$year), year <= max(x$year)), x,
-      by = c("year", "total_words"))
-    missing <- is.na(x$total)
-    x$lemma[missing] <- x$lemma[!missing][1]
-    x$grams[missing] <- x$grams[!missing][1]
-    x$decade[missing] <- x$decade[!missing][1]
-    x$total[missing] <- 0
-    x
-  })
-}
-pop1_plot <- add_zeros(pop1_plot)
-pop2_plot <- add_zeros(pop2_plot)
 
 # ----------
 # Plot

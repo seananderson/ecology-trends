@@ -99,105 +99,17 @@ get_ngram_dat <- function(terms) {
   filter(dat, !is.na(gram))
 }
 
-plot_ngram_all <- function(data, filename = "figs/x.pdf", width = 33,
-  height = 22, order_by = "max", slope_years = c(1935:2011),
-  scales = "free_y", log_y = FALSE, year_range = c(1935, 2011)) {
-
-  data <- filter(data, year <= year_range[2], year >= year_range[1])
-
-  if (order_by == "max") {
-    data <- data %>%
-      ungroup() %>% group_by(gram) %>%
-      mutate(order_column = max(total/total_words))
-  }
-  if (order_by == "slope") {
-    data_sum <- data %>% filter(year %in% slope_years) %>%
-      ungroup() %>% group_by(gram) %>%
-      summarise(order_column =
-          coef(lm(log(.data$total/.data$total_words) ~ .data$year))[[2]])
-    data <- left_join(data, data_sum, by = "gram")
-  }
-
-  g <- data %>%
-    ggplot(aes(year, (total/ecology)*1e6)) +
-    geom_point(alpha = 0.7, colour = "grey40") +
-    geom_line(alpha = 0.5) +
-    geom_smooth(colour = "red", method = "gam",
-      method.args = list(family = gaussian(link = "identity")),
-      formula = y ~ s(x), se = FALSE) +
-    theme_sleek() +
-    facet_wrap(~fct_reorder(gram, -order_column), scales = scales) +
-    ylab("Instances per million words")
-
-  if (log_y) g <- g + scale_y_log10()
-
-  ggsave(filename, width = width, height = height)
+simple_cap <- function(x) {
+  s <- strsplit(x, " ")[[1]]
+  paste(toupper(substring(s, 1, 1)), substring(s, 2),
+    sep = "", collapse = " ")
 }
 
-plot_group_clown_vomit <- function(dat, group_name, width = 30, height = 25,
-  save = FALSE) {
-  dd <- filter(dat, group %in% group_name, year <= 2012, year >= 1935) %>%
-    ungroup() %>%
-    group_by(gram) %>%
-    mutate(max_count = max(total/total_words))
+library("koRpus")
+set.kRp.env(TT.cmd =
+    "~/Dropbox/bin/treetagger/cmd/tree-tagger-english", lang = "en")
 
-  dd <- group_by(dd, gram) %>%
-    filter(total > 10) %>%
-    mutate(n_year = n()) %>%
-    ungroup() %>%
-    filter(n_year >= 5)
-
-  library(mgcv)
-
-  dd2 <- plyr::ddply(dd, "gram", function(x) {
-    m <- tryCatch({gam(I(log10(total/total_words*10000)) ~ s(year), data = x)},
-      error = function(ignore)
-        gam(I(log10(total/total_words*10000)) ~ s(year, k = 3), data = x)
-    )
-    mlm <- lm(I(log10(total/total_words*10000)) ~ year, data = x)
-    y <- seq(min(x$year), max(x$year), 0.5)
-    data.frame(year = y, pred = predict(m, newdata = data.frame(year = y)),
-      slope = coef(mlm)[[2]])
-  })
-
-  labs_min <- group_by(dd2, gram) %>%
-    summarise(pred = pred[year == min(year)],
-      slope = slope[year == min(year)], year = min(year))
-  labs_max <- group_by(dd2, gram) %>%
-    summarise(pred = pred[year == max(year)],
-      slope = slope[year == max(year)], year = max(year))
-
-  g <- ggplot(dd2, aes(year, pred, group = gram, colour = gram)) +
-    theme_sleek() +
-    geom_line(lwd = 0.8) +
-    ggrepel::geom_text_repel(
-      data = labs_min,
-      aes(label = gram),
-      size = 3,
-      nudge_x = -5,
-      segment.size = 0.2,
-      segment.color = "#00000030"
-    ) +
-    ggrepel::geom_text_repel(
-      data = labs_max,
-      aes(label = gram),
-      size = 3,
-      nudge_x = 10,
-      segment.size = 0.2,
-      segment.color = "#00000030"
-    ) +
-    ylab("log10(Instances per 10000 words)") +
-    ggtitle(group_name) +
-    xlim(1925, 2025) +
-    scale_colour_discrete(guide = 'none') +
-    # scale_color_gradient2(
-    # low = scales::muted("blue"),
-    # mid = "grey60",
-    # high = scales::muted("red"), guide = "none") +
-    scale_alpha_continuous(limits = c(-20, -2))
-  # viridis::scale_colour_viridis(discrete = TRUE)
-
-  if (save)
-    ggsave(paste0("figs/grouped-", group_name, ".pdf"), width = width,
-      height = height)
-}
+gram_db1 <- dplyr::src_sqlite("data/generated/jstor1-condensed.sqlite3") %>%
+  dplyr::tbl("ngrams")
+gram_db2 <- dplyr::src_sqlite("data/generated/jstor2-condensed.sqlite3") %>%
+  dplyr::tbl("ngrams")

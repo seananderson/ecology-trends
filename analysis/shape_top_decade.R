@@ -36,6 +36,21 @@ shape_top_decade <- function(data, gram_db, total1, top = 9) {
   dat4 <- full_join(condensed_across_lemmas,
     unique(select(pop3_keep, lemma, decade)), by = "lemma")
 
+
+  add_zeros <- function(data) {
+    plyr::ddply(data, c("decade", "lemma"), function(x) {
+      x <- left_join(filter(total1, year >= min(x$year), year <= max(x$year)), x,
+        by = c("year", "total_words"))
+      missing <- is.na(x$total)
+      x$lemma[missing] <- x$lemma[!missing][1]
+      x$grams[missing] <- x$grams[!missing][1]
+      x$decade[missing] <- x$decade[!missing][1]
+      x$total[missing] <- 0
+      x
+    })
+  }
+  dat4 <- add_zeros(dat4)
+
   dat5 <- dat4 %>% mutate(lemma = gsub("specie", "species", lemma))
   dat5 <- dat5 %>% mutate(lemma = gsub("datum", "data", lemma))
   dat5 <- dat5 %>% mutate(lemma = gsub("speciess", "species", lemma))
@@ -44,4 +59,6 @@ shape_top_decade <- function(data, gram_db, total1, top = 9) {
     ungroup() %>%
     mutate(list_type2 = grepl(pattern = " / ", list_type)) %>%
     mutate(decade = paste0(decade, "s"))
+
+
 }

@@ -25,8 +25,8 @@ ecogram_panel <- function(x,
   year_limits = c(1930, 2010),
   right_gap = 30, xaxes = NULL, stop_lab = 0.7, darken_factor = 1.0,
   label_gap = -1.9, label_cex = 0.85, bottom_frac_up = 0.025, log_y = FALSE,
-  show_seg = FALSE, yfrac_let = 0.08, ymax = max(x$total/x$total_words),
-  lab_text = "") {
+  show_seg = FALSE, yfrac_let = 0.08, ymax = NULL,
+  lab_text = "", label_side = c("right", "left")) {
 
   x <- dplyr::filter(x, year >= year_limits[1], year <= year_limits[2])
 
@@ -57,6 +57,8 @@ ecogram_panel <- function(x,
         y = exp(p$fit),
         ymin = exp(p$fit - 1 * p$se.fit),
         ymax = exp(p$fit + 1 * p$se.fit))
+      out$ymin[out$ymax > 10 * out$y] <- out$y[out$ymax > 10 * out$y]
+      out$ymax[out$ymax > 10 * out$y] <- out$y[out$ymax > 10 * out$y]
       out$ymin[1:1] <- NA
       out$ymax[1:1] <- NA
     } else {
@@ -84,13 +86,23 @@ ecogram_panel <- function(x,
 
   # current_max <- max(c(x$total/x$total_words, sm$y))
   # current_max <- max(sm$y)
-  current_max <- ymax
+  if (is.null(ymax))
+    current_max <- max(sm$y)
+  else
+    current_max <- max(sm$y, ymax)
+
   lower <- 0
   if (log_y) lower <- 0.1
   ylim <- c(lower, current_max * 1.06)
 
   log_arg <- ifelse(log_y, "y", "")
-  plot(1, 1, type = "n", xlim = year_limits + c(0, right_gap), ylim = ylim,
+
+  if (label_side[[1]] == "right")
+    xlim <- year_limits + c(0, right_gap)
+  else
+    xlim <- year_limits + c(-right_gap, 0)
+
+  plot(1, 1, type = "n", xlim = xlim, ylim = ylim,
     axes = FALSE, ann = FALSE, yaxs = "i", xaxs = "i",
     log = log_arg)
 
