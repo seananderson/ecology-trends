@@ -46,9 +46,9 @@ plot_boom <- function(dat, right_gap = 15,
       ecogram_panel(x, xaxes = xaxes,
         right_gap = right_gap, label_cex = label_cex, yfrac_let = 0.06,
         lab_text = paste(simple_cap(unique(x$panel)), collapse = ""),
-        bottom_frac_up = 0.01, label_gap = -1.0,
+        bottom_frac_up = 0.02, label_gap = -1.0,
         show_seg = TRUE,
-        label_side = if(ii %in% 2:3) "left" else "right", ...)
+        label_side = if(ii %in% 2:3) "right" else "right", ...)
       rect(
         xleft = if(ii %in% 2:3) 1930 else 1980,
         xright = if(ii %in% 2:3) 1960 else 2010,
@@ -62,6 +62,10 @@ plot_boom <- function(dat, right_gap = 15,
 
 pop1 <- readRDS("data/generated/pop1-cleaned.rds")
 pop2 <- readRDS("data/generated/pop2-cleaned.rds")
+
+pop2 <- filter(pop2, !gram %in% c("ecol appl"))
+pop1 <- filter(pop1, !gram %in% c("author"))
+pop1 <- filter(pop1, !gram %in% c("authors"))
 
 p1 <- shape_top_decade(pop1, gram_db = gram_db1, total1 = total1, top = 300)
 p2 <- shape_top_decade(pop2, gram_db = gram_db2, total1 = total1, top = 300)
