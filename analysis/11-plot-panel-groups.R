@@ -1,6 +1,6 @@
 library(tidyverse)
 source("analysis/plot-panels.R")
-# source("analysis/extract-functions.R")
+source("analysis/extract-functions.R")
 source("analysis/pretty-panels.R")
 
 pal_func <- function(n) {
@@ -14,15 +14,21 @@ pal_func <- function(n) {
 # Sean:
 library(dplyr)
 d <- read.csv("data/methods-models.csv", strip.white = TRUE,
-  stringsAsFactors = FALSE)
+  stringsAsFactors = FALSE) %>% dplyr::filter(show == "yes")
 terms <- unique(d$gram)
 d$gram <- tolower(d$gram)
-# out <- get_ngram_dat(terms)
-# saveRDS(out, file = "data/generated/method-grams.rds")
+
+N <- unlist(lapply(strsplit(terms, " "), length))
+terms3 <- terms[N==3]
+out1 <- gram_db1 %>% filter(gram %in% terms) %>% collect(n = Inf) %>% inner_join(total1)
+out2 <- gram_db2 %>% filter(gram %in% terms) %>% collect(n = Inf) %>% inner_join(total1)
+out3 <- get_ngram_dat(terms3)
+
+saveRDS(out, file = "data/generated/method-grams.rds")
 out <- readRDS("data/generated/method-grams.rds")
 d <- full_join(d, out, by = "gram") %>%
   filter(!is.na(total)) %>%
-  dplyr::filter(show == "yes")
+  filter(!is.na(show))
 pdf("figs/stats.pdf", width = 6, height = 5)
 ecogram_panels(d, right_gap = 50, ncols = 2)
 dev.off()
@@ -38,13 +44,21 @@ d <- read.csv("data/conservation-terms.csv", strip.white = TRUE, stringsAsFactor
 terms <- unique(d$gram)
 d$gram <- tolower(d$gram)
 # out <- get_ngram_dat(terms)
+unlist(lapply(strsplit(terms, " "), length))
+# out <- readRDS("data/generated/conservation-grams.rds")
 # saveRDS(out, file = "data/generated/conservation-grams.rds")
+# d$gram[!d$gram %in% out$gram]
+out1 <- gram_db1 %>% filter(gram %in% terms) %>% collect(n = Inf) %>% inner_join(total1)
+out2 <- gram_db2 %>% filter(gram %in% terms) %>% collect(n = Inf) %>% inner_join(total1)
+out <- bind_rows(out1, out2) %>% unique()
+saveRDS(out, file = "data/generated/conservation-grams.rds")
 out <- readRDS("data/generated/conservation-grams.rds")
+
 d <- full_join(d, out, by = "gram") %>%
   filter(!is.na(total)) %>%
   dplyr::filter(show == "yes")
 pdf("figs/conservation-panels-3.pdf", width = 6, height = 3.9)
-ecogram_panels(d, right_gap = 38, ncols = 2)
+ecogram_panels(d, right_gap = 38, ncols = 2, pal = pal_func)
 dev.off()
 
 
@@ -56,7 +70,17 @@ d$gram <- tolower(d$gram)
 d$show <- "yes"
 # out <- get_ngram_dat(terms)
 # saveRDS(out, file = "data/generated/human-impacts-grams.rds")
-out <- readRDS("data/generated/human-impacts-grams.rds")
+# out <- readRDS("data/generated/human-impacts-grams.rds")
+d$gram[!d$gram %in% out$gram]
+N <- unlist(lapply(strsplit(terms, " "), length))
+terms3 <- terms[N==3]
+
+out1 <- gram_db1 %>% filter(gram %in% terms) %>% collect(n = Inf) %>% inner_join(total1)
+out2 <- gram_db2 %>% filter(gram %in% terms) %>% collect(n = Inf) %>% inner_join(total1)
+out3 <- get_ngram_dat(terms3)
+out <- bind_rows(out1, out2) %>% bind_rows(out3) %>% unique()
+saveRDS(out, file = "data/generated/conservation-grams.rds")
+out <- readRDS("data/generated/conservation-grams.rds")
 out <- filter(out, gram %in% d$gram)
 d <- full_join(d, out, by = "gram") %>%
   filter(!is.na(total))

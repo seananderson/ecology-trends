@@ -160,7 +160,8 @@ no,  alphabet soup, BIC, BIC
 yes,  model selection, information theoretic, information theoretic
 yes,  model selection, AIC, AIC
 yes,  model selection, model averaging, model averaging
-yes,  model selection, model selection, model selection
+yes,  supplementary, unpublished data, unpublished data
+yes,  supplementary, supplementary material, supplementary material
 no,  model selection, multiple models, multiple models
 no,  model selection, model comparison, model comparison
 no,  quantifying uncertainty, maximum likelihood, maximum likelihood

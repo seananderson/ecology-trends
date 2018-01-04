@@ -138,10 +138,12 @@ source("analysis/pretty-panels.R")
 plot_decades <- function(dat, right_gap = 30,
   label_cex = 0.85, ...) {
   dat <- dat %>%
-    mutate(gram_canonical = lemma, panel = decade) %>%
-    arrange(panel, gram_canonical, year)
+    mutate(gram_canonical = lemma, panel = paste(decade, gram_num)) %>%
+    arrange(panel, gram_canonical, year) %>%
+    mutate(panel = forcats::fct_relevel(panel,
+      "1940s 1-grams", "2000s 1-grams", "1940s 2-grams", "2000s 2-grams"))
   npanels <- length(unique(dat$panel))
-  nrows <- 1
+  nrows <- 2
   ncols <- 2
   par(mfrow = c(nrows, ncols))
   par(mgp = c(2, 0.3, 0), tcl = -0.15, las = 1, cex = 0.7,
@@ -151,23 +153,21 @@ plot_decades <- function(dat, right_gap = 30,
   mutate(dat, total_words = total_words/1e5, total = total) %>%
     plyr::d_ply("panel", function(x) {
       ecogram_panel(x, xaxes = xaxes,
-      right_gap = right_gap, label_cex = label_cex, yfrac_let = 0.03,
-      lab_text = unique(x$decade), ...)})
+      right_gap = right_gap, label_cex = label_cex, yfrac_let = 0.04,
+      lab_text = unique(x$panel), ymax = unique(x$ymax), ...)})
   mtext("Frequency per 100,000 words", side = 2, outer = TRUE, line = -0.05,
     col = "grey45", cex = 0.85, las = 0)
 }
 
+df <- tibble(decade = c("1940s", "1940s", "2000s", "2000s"),
+  gram_num = c("1-grams", "2-grams", "1-grams", "2-grams"),
+  ymax = c(1200, 50, 1200, 50))
 
-pdf("figs/decades-1grams.pdf", width = 7, height = 4.5)
-pop1_plot %>%
-  plot_decades(right_gap = 17, log_y = FALSE,
-    bottom_frac_up = 0.01, label_gap = -1.0,
-    show_seg = TRUE, ymax = 1200)
-dev.off()
-
-pdf("figs/decades-2grams.pdf", width = 7, height = 4.5)
-pop2_plot %>%
+pdf("figs/decades.pdf", width = 7, height = 5.9)
+pop1_plot %>% mutate(gram_num = "1-grams") %>%
+  bind_rows(mutate(pop2_plot, gram_num = "2-grams")) %>%
+  inner_join(df, by = c("decade", "gram_num")) %>%
   plot_decades(right_gap = 36, log_y = FALSE,
-    bottom_frac_up = 0.01, label_gap = -1.0,
-    show_seg = TRUE, ymax = 45)
+    bottom_frac_up = 0.015, label_gap = -1.0,
+    show_seg = TRUE)
 dev.off()

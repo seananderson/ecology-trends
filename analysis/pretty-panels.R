@@ -25,7 +25,7 @@ ecogram_panel <- function(x,
   year_limits = c(1930, 2010),
   right_gap = 30, xaxes = NULL, stop_lab = 0.7, darken_factor = 1.0,
   label_gap = -1.9, label_cex = 0.85, bottom_frac_up = 0.025, log_y = FALSE,
-  show_seg = FALSE, yfrac_let = 0.08, ymax = NULL,
+  show_seg = TRUE, yfrac_let = 0.08, ymax = NULL,
   lab_text = "", label_side = c("right", "left")) {
 
   x <- dplyr::filter(x, year >= year_limits[1], year <= year_limits[2])
