@@ -10,10 +10,8 @@ make_handpicked_panel <- function(terms_file, cache_file, fig_file,
 
   N <- unlist(lapply(strsplit(terms, " "), length))
   if (max(N) > 3) {
-    warning(
-      "More than 3 words: ", paste(terms[N > 3], collapse = ", "), ". ",
-      "Removing them."
-    )
+    warning("More than 3 words: ", paste(terms[N > 3], collapse = ", "), ". ",
+      "Removing them.", call. = FALSE)
   }
 
   if (!file.exists(cache_file) || overwrite_cache) {
@@ -44,6 +42,8 @@ make_handpicked_panel <- function(terms_file, cache_file, fig_file,
 
   if (!"show" %in% names(d)) {
     d <- d %>% mutate(show = "yes")
+  } else {
+    d <- dplyr::filter(d, show == "yes")
   }
 
   pdf(fig_file, width = fig_width, height = fig_height)

@@ -62,8 +62,8 @@ ecogram_panel <- function(x,
       out$ymin[1:1] <- NA
       out$ymax[1:1] <- NA
     } else {
-      warning(paste0("GAM failed to fit for '", unique(xx$gram_canonical),
-        "'. Plotting the raw data."))
+      warning("GAM failed to fit for '", unique(xx$gram_canonical),
+        "'. Reverting to plotting the raw data.", call. = FALSE)
       out <- data.frame(year = xx$year,
         y = xx$total/xx$total_words,
         ymin = NA, ymax = NA)

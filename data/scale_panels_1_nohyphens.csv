@@ -1,45 +1,45 @@
-panel,gram,gram_canonical
-scale,gene,gene
-scale,cell,cell
-scale,individual,individual
-scale,organism,organism
-scale,species,species
-scale,population,population
-scale,meta population,meta-population
-scale,metapopulation,meta-population
-scale,community,community
-scale,meta community,meta-community
-scale,metacommunity,meta-community
-scale,ecosystem,ecosystem
-scale,landscape,landscape
-scale,biome,biome
-scale,biosphere,biosphere
-metrics,species richness,species richness
-metrics,richness,richness
-metrics,species diversity,species diversity
-metrics,diversity,diversity
-metrics,functional diversity,functional diversity
-metrics,species evenness,species evenness
-metrics,evenness,evenness
-metrics,phylogenetic diversity,phylogenetic diversity
-structure,niche,niche
-structure,neutral theory,neutral theory
-structure,community structure,community structure
-structure,community assembly,community assembly
-structure,environmental filtering,environmental filtering
-connection,corridors,corridors
-connection,biological corridors,biological corridors
-connection,range expansion,range expansion
-connection,dispersal limitation,dispersal limitation
-connection,connectivity,connectivity
-pop_dynamics,equilibrium,equilibrium
-pop_dynamics,population dynamics,population dynamics
-pop_dynamics,carrying capacity,carrying capacity
-pop_dynamics,density dependence,density dependence
-pop_dynamics,density independence,density independence
-pop_dynamics,r selected,r-selected
-pop_dynamics,k selected,k-selected
-pop_dynamics,logistic population growth,logistic population growth
-pop_dynamics,logistic growth,logistic growth
-pop_dynamics,exponential population growth,exponential population growth
-pop_dynamics,exponential growth,exponential growth
+show, panel,gram,gram_canonical
+yes, scale,gene,gene
+yes, scale,cell,cell
+yes, scale,individual,individual
+yes, scale,organism,organism
+yes, scale,species,species
+yes, scale,population,population
+yes, scale,meta population,meta-population
+yes, scale,metapopulation,meta-population
+yes, scale,community,community
+yes, scale,meta community,meta-community
+yes, scale,metacommunity,meta-community
+yes, scale,ecosystem,ecosystem
+yes, scale,landscape,landscape
+yes, scale,biome,biome
+yes, scale,biosphere,biosphere
+yes, metrics,species richness,species richness
+yes, metrics,richness,richness
+yes, metrics,species diversity,species diversity
+yes, metrics,diversity,diversity
+yes, metrics,functional diversity,functional diversity
+yes, metrics,species evenness,species evenness
+yes, metrics,evenness,evenness
+yes, metrics,phylogenetic diversity,phylogenetic diversity
+yes, structure,niche,niche
+yes, structure,neutral theory,neutral theory
+yes, structure,community structure,community structure
+yes, structure,community assembly,community assembly
+yes, structure,environmental filtering,environmental filtering
+yes, connection,corridors,corridors
+yes, connection,biological corridors,biological corridors
+yes, connection,range expansion,range expansion
+yes, connection,dispersal limitation,dispersal limitation
+yes, connection,connectivity,connectivity
+yes, pop_dynamics,equilibrium,equilibrium
+yes, pop_dynamics,population dynamics,population dynamics
+yes, pop_dynamics,carrying capacity,carrying capacity
+yes, pop_dynamics,density dependence,density dependence
+yes, pop_dynamics,density independence,density independence
+yes, pop_dynamics,r selected,r-selected
+yes, pop_dynamics,k selected,k-selected
+yes, pop_dynamics,logistic population growth,logistic population growth
+yes, pop_dynamics,logistic growth,logistic growth
+yes, pop_dynamics,exponential population growth,exponential population growth
+yes, pop_dynamics,exponential growth,exponential growth
