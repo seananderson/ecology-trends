@@ -1,0 +1,35 @@
+﻿panel,gram,gram_canonical
+Genetic tools,microsatellites,microsatellites
+Genetic tools,sequencing,sequencing
+Genetic tools,metagenomics ,metagenomics 
+Genetic tools,transcriptomics,transcriptomics
+Genetic tools,proteomics,proteomics
+Other,ecological genomics,ecological genomics
+Genetic tools,gene expression,gene expression
+Genetic tools,single nucleotide polymorphisms,single nucleotide polymorphisms
+Genetic tools,genome sequencing,sequencing
+Genetic tools,microarray,microarray
+Other,molecular ecology,molecular ecology
+Genetic tools,epigenetics,epigenetics
+Sequencing,illumina,sequencing
+Sequencing,restriction site associated ,RADseq
+Sequencing,RADseq,RADseq
+Sequencing,RAD seq,RADseq
+Genetic tools,eDNA,eDNA
+Genetic tools,environmental DNA,eDNA
+Sequencing,next gen sequencing,next generation sequencing
+Sequencing,sanger sequencing,sanger sequencing
+Sequencing,pyrosequencing,pyrosequencing
+Sequencing,illumina sequencing,illumina sequencing
+Sequencing,PacBio,PacBio
+Sequencing,next generation sequencing,next generation sequencing
+Sequencing,whole genome sequencing,whole genome sequencing
+Sequencing,high throughput sequencing,next generation sequencing
+Sequencing,ion torrent,ion torrent
+Other,genetic diversity,genetic diversity
+Sequencing,shot gun sequencing,shot-gun sequencing
+Sequencing,shotgun sequencing,shot-gun sequencing
+Genetic tools,mtDNA,mtDNA
+Genetic tools,mitochondrial DNA,mtDNA
+Sequencing,whole genome resequencing,whole genome sequencing
+Genetic tools,phylogenetic,phylogenetic
