@@ -20,6 +20,10 @@ darken <- function(color, factor=1.4){
   col
 }
 
+pal_func <- function(n) {
+  pal <- viridisLite::plasma(n, begin = 0.01, end = 0.84, direction = -1)
+}
+
 ecogram_panel <- function(x,
   pal = function(n) RColorBrewer::brewer.pal(n, "Dark2"),
   year_limits = c(1930, 2010),
@@ -176,6 +180,7 @@ ecogram_panels <- function(dat, right_gap = 50, ncols = 2, ...) {
     summarise(total = sum(total)) %>%
     ungroup() %>%
     arrange(panel, gram_canonical, year)
+
   par(mfrow = c(nrows, ncols))
   par(mgp = c(2, 0.3, 0), tcl = -0.15, las = 1, cex = 0.7,
     col.axis = "grey55", mar = c(0.025, 1.9, 0, 0), oma = c(1.7, 1.1, .5, .5))
