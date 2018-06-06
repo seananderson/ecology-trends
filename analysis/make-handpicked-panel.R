@@ -4,6 +4,7 @@ make_handpicked_panel <- function(terms_file, cache_file, fig_file,
                                   overwrite_cache = FALSE, ...) {
 
   d <- read.csv(terms_file, strip.white = TRUE, stringsAsFactors = FALSE)
+  d$show <- "yes"
   d$gram <- tolower(d$gram)
   d$gram <- gsub("-", " ", d$gram)
   terms <- unique(d$gram)
@@ -52,4 +53,3 @@ make_handpicked_panel <- function(terms_file, cache_file, fig_file,
 
   invisible(d)
 }
-

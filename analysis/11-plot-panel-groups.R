@@ -10,18 +10,29 @@ pal_func <- function(n) {
   # RColorBrewer::brewer.pal(n, "Dark2")
 }
 
-# --------
-# Sean:
+gold <- 0.618
+
+# Methods: -------------------------------------------------------------------
 make_handpicked_panel(
   terms_file = "data/methods-models.csv",
   cache_file = "data/generated/method-grams.rds",
   fig_file   = "figs/stats.pdf",
-  fig_height = 5,
+  fig_height = 6 * gold,
+  fig_width  = 6,
   right_gap  = 54
 )
 
-# --------
-# Brent:
+make_handpicked_panel(
+  terms_file = "data/methods-models-supp.csv",
+  cache_file = "data/generated/method-grams.rds",
+  fig_file   = "figs/stats-supp.pdf",
+  fig_height = 3 * gold,
+  fig_width  = 3,
+  right_gap  = 54
+)
+
+
+# Brent: ---------------------------------------------------------------------
 make_handpicked_panel(
   terms_file = "data/conservation-terms.csv",
   cache_file = "data/generated/conservation-grams.rds",
@@ -30,8 +41,7 @@ make_handpicked_panel(
   right_gap  = 38
 )
 
-# --------
-# Paul:
+# Paul: ----------------------------------------------------------------------
 make_handpicked_panel(
   terms_file = "data/paul_human_impacts3.csv",
   cache_file = "data/generated/human-impacts-grams.rds",
@@ -40,8 +50,7 @@ make_handpicked_panel(
   right_gap  = 38
 )
 
-# --------
-# Becky:
+# Becky: ---------------------------------------------------------------------
 make_handpicked_panel(
   terms_file = "data/scale_panels_2.csv",
   cache_file = "data/generated/becky-2017-12-14.rds",
@@ -50,22 +59,22 @@ make_handpicked_panel(
   right_gap  = 64
 )
 
-# --------
-# Genetics:
+# Genetics: ------------------------------------------------------------------
 make_handpicked_panel(
   terms_file = "data/genetics-terms.csv",
   cache_file = "data/generated/genetic-ngrams.rds",
   fig_file   = "figs/genetic-panels.pdf",
-  fig_height = 6,
-  right_gap  = 64
+  fig_height = 5,
+  fig_width  = 7,
+  right_gap  = 74
 )
 
-# --------
-# Social Science:
+# Social Science: ------------------------------------------------------------
 make_handpicked_panel(
   terms_file = "data/social-science-terms.csv",
   cache_file = "data/generated/social-science-ngrams.rds",
   fig_file   = "figs/social-science-panels.pdf",
-  fig_height = 8,
-  right_gap  = 64
+  fig_height = 7,
+  fig_width  = 7,
+  right_gap  = 74
 )
