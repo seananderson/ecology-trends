@@ -1,4 +1,5 @@
 source("analysis/extract-functions.R")
+source("analysis/booming.R")
 
 bad_latex <- read_csv("data/bad-latex.csv", col_types = cols(gram = col_character()))
 excludes <- c("of", "in", "to", "and", "the", "from",
@@ -114,21 +115,20 @@ pop1 <- pop1 %>% filter(!gram %in% c("university", "author", "eve"))
 
 saveRDS(pop2, file = "data/generated/pop2-cleaned.rds")
 saveRDS(pop1, file = "data/generated/pop1-cleaned.rds")
+pop1 <- readRDS("data/generated/pop1-cleaned.rds")
+pop2 <- readRDS("data/generated/pop2-cleaned.rds")
 
 pop2 %>% group_by(decade) %>%
   top_n(n = 10, wt = total) %>%
   select(gram, total, decade) %>% as.data.frame()
 
-# pop1 %>% group_by(decade) %>%
-#   top_n(n = 10, wt = total) %>%
-#   select(gram, total, decade) %>% as.data.frame()
-
 # ---------
 # Extract the relevant time series data and format for plotting
 source("analysis/shape_top_decade.R")
-pop1_plot <- shape_top_decade(pop1, gram_db = gram_db1, total1 = total1, top = 9)
-pop2_plot <- shape_top_decade(pop2, gram_db = gram_db2, total1 = total1, top = 9)
-
+pop1_plot <- shape_top_decade(pop1, gram_db = gram_db1, total1 = total1,
+  top = 9)
+pop2_plot <- shape_top_decade(pop2, gram_db = gram_db2, total1 = total1,
+  top = 9)
 
 # ----------
 # Plot
@@ -136,15 +136,13 @@ pop2_plot <- shape_top_decade(pop2, gram_db = gram_db2, total1 = total1, top = 9
 source("analysis/pretty-panels.R")
 
 plot_decades <- function(dat, right_gap = 30,
-  label_cex = 0.85, ...) {
+  label_cex = 0.85, nrows = 2, ncols = 2, ...) {
   dat <- dat %>%
     mutate(gram_canonical = lemma, panel = paste(decade, gram_num)) %>%
     arrange(panel, gram_canonical, year) %>%
     mutate(panel = forcats::fct_relevel(panel,
       "1940s 1-grams", "2000s 1-grams", "1940s 2-grams", "2000s 2-grams"))
   npanels <- length(unique(dat$panel))
-  nrows <- 2
-  ncols <- 2
   par(mfrow = c(nrows, ncols))
   par(mgp = c(2, 0.3, 0), tcl = -0.15, las = 1, cex = 0.7,
     col.axis = "grey55", mar = c(0.025, 2.1, 0, 0), oma = c(1.7, 1.1, .5, .5))
@@ -171,3 +169,65 @@ pop1_plot %>% mutate(gram_num = "1-grams") %>%
     bottom_frac_up = 0.015, label_gap = -1.0,
     show_seg = TRUE)
 dev.off()
+
+# booming -----------------------------------------------------------
+pop1 <- readRDS("data/generated/pop1-cleaned.rds")
+pop2 <- readRDS("data/generated/pop2-cleaned.rds")
+pop2 <- filter(pop2, !gram %in% c("ecol appl"))
+pop1 <- filter(pop1, !gram %in% c("author"))
+pop1 <- filter(pop1, !gram %in% c("authors"))
+p1 <- shape_top_decade(pop1, gram_db = gram_db1, total1 = total1, top = 300)
+p2 <- shape_top_decade(pop2, gram_db = gram_db2, total1 = total1, top = 300)
+b1 <- process_slopes(p1)
+b2 <- process_slopes(p2)
+bb <- bind_rows(
+  mutate(b1, decade = paste(decade, "1-grams")),
+  mutate(b2, decade = paste(decade, "2-grams")))
+
+gold <- 0.618
+dec_dat <- pop1_plot %>% mutate(gram_num = "1-grams") %>%
+  bind_rows(mutate(pop2_plot, gram_num = "2-grams")) %>%
+  inner_join(df, by = c("decade", "gram_num")) %>%
+  mutate(decade = paste(decade, gram_num))
+
+boom_dat <- filter(bb, lemma != "") %>%
+  filter(decade %in% c("2000s 1-grams", "2000s 2-grams")) %>%
+  mutate(decade = paste(decade, "increase"))
+
+both_dat <- bind_rows(dec_dat, boom_dat) %>%
+  mutate(decade = factor(decade,
+    levels = c(
+      "1940s 1-grams",
+      "1940s 2-grams",
+      "2000s 1-grams",
+      "2000s 2-grams",
+      "2000s 1-grams increase",
+      "2000s 2-grams increase"
+    )))
+
+pdf("figs/decades-and-booms.pdf", width = 6.5,
+  height = 6.5 * gold * 3/2 * 1.05)
+plot_decades_and_boom(both_dat, right_gap = 50, nrows = 3, ncols = 2)
+dev.off()
+
+pdf("figs/decades-and-booms-viridis.pdf", width = 6.5,
+  height = 6.5 * gold * 3/2 * 1.05)
+plot_decades_and_boom(both_dat, right_gap = 50, nrows = 3, ncols = 2,
+  pal = pal_func)
+dev.off()
+
+boom_only_dat <- filter(bb, lemma != "")
+  # filter(decade %in% c("1940s 1-grams", "1940s 2-grams")) %>%
+  # mutate(decade = paste(decade, "decrease"))
+
+pdf("figs/booms-viridis.pdf", width = 7,
+  height = 7 * gold * 1 * 1.3)
+plot_boom(boom_only_dat, right_gap = 50, nrows = 2, ncols = 2,
+  pal = pal_func)
+dev.off()
+
+pdf("figs/booms.pdf", width = 7,
+  height = 7 * gold * 1 * 1.3)
+plot_boom(boom_only_dat, right_gap = 50, nrows = 2, ncols = 2)
+dev.off()
+

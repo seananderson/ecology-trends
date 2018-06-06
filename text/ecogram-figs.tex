@@ -42,33 +42,51 @@
 
 \begin{figure}[htbp]
 \centering
-\includegraphics[width=0.9\textwidth]{../figs/decades.pdf}
-\caption{Top 9 1-gram nouns and 2-gram nouns/adjectives from the 1940s and 2000s (i.e.\ in that whole decade). Note that here and
-  for the next 2 figures, the labels refer to ``lemmas'' or root words. For example, plant
-  and plants as n-grams are both combined and labeled as ``plant''.}
-\end{figure}
-
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=\textwidth]{../figs/blanks-viridis.pdf}
-\caption{Top 8 $<$fill in the blank$>$ followed by the term in the top left
-  corner where the words are either nouns or adjectives. For this figure, the top n-grams are defined based on summing the occurrences throughout the entire time period. This weights recent years more heavily. A few of these panels also look interesting when compared with what was most popular in the 1930s/1940s. The panel terms (e.g.\ ``Model'') often include the singular and plural version combined. This would all be documented.}
-\end{figure}
-
-\clearpage
-
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=\textwidth]{../figs/blanks.pdf}
+\includegraphics[width=6in]{../figs/decades-and-booms-viridis.pdf}
 \caption{
-Same but with a categorical color scheme. Feedback on this is welcome. One option would be to use a continuous color scheme for the plots that represent top ranked n-grams and a categorical color scheme for the handpicked figures at the end of this document.
- }
+(A--D) Top 9 1-gram nouns and 2-gram nouns/adjectives from the 1940s and 2000s.
+Labels refer to ``lemmas'' or root words. For example, plant and plants as
+n-grams are both combined and labelled as ``plant''. (E, F) Most rapidly
+increasing 1-gram nouns and 2-gram nouns/adjectives from 1980--2010.}
+\label{fig:decades}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=6in]{../figs/blanks-viridis2.pdf}
+\caption{Top 8 $<$fill in the blank$>$ followed by the term in the top left
+corner where the terms are either nouns or adjectives. The top n-grams are
+defined based on summing the occurrences throughout the entire time period
+thereby weighting recent years more heavily.}
+\label{fig:top}
 \end{figure}
 
 \clearpage
 
+\section{Supporting Information}
 
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\thetable}{S\arabic{table}}
+\setcounter{figure}{0}
+\setcounter{table}{0}
 
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.9\textwidth]{../figs/decades-and-booms.pdf}
+\caption{
+Same as Fig.~\ref{fig:decades} but with a categorical color scheme. Which do you
+prefer?}
+\label{fig:decades-categorical}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.9\textwidth]{../figs/blanks2.pdf}
+\caption{
+Same as Fig.~\ref{fig:top} but with a categorical color scheme. Which do you
+prefer?}
+\label{fig:top-categorical}
+\end{figure}
 
 
 \begin{figure}[htbp]
@@ -78,52 +96,51 @@ Same but with a categorical color scheme. Feedback on this is welcome. One optio
   2-gram nouns/adjectives. The grey shaded region indicates the time period
   during which the average rate of change is calculated. The terms had to be
   within the top 300 terms in the 1940s or the 2000s and have at least one
-  occurrence in 20 of the 30 years considered for the rate of change (1930--1960 or 1980--2010). I need
-  to tweak the plotting code to label some panels on the left. ``Carbon
-  dioxide'' is making it hard to see patterns for the 1940s 2-grams.}
+occurrence in 20 of the 30 years considered for the rate of change (1930--1960 or 1980--2010). Panels A and B are duplicated from Fig.~\ref{fig:decades}}
+\label{fig:booms}
 \end{figure}
 
-\clearpage
-
-\section*{Drafts of hand-picked examples on various themes}
-
-The following are some draft panels on various themes. They are by no means
-complete or final. There are a number of themes that we have not worked on yet and much to still explore within these themes. 
-This is the major area where we could use your help! I have an R Shiny app that
-I will pass on so you can interactively play with the data to develop panels.
-The final figures will just include the most interesting panels with the rest in the supplementary material. That's all the rage these days (Figure~\ref{fig:methods}F).
-
-Some of these labels represent a number of underlying n-grams based on alternative acronyms or singular/plural versions. That's not documented yet.
-
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=\textwidth]{../figs/stats1.pdf}
-\caption{Methods \ldots (so far just statistical)}
-\label{fig:methods}
-\end{figure}
-
-\clearpage
-
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=0.79\textwidth]{../figs/scale-panels-2-cont.pdf}
-\caption{Scale and all sorts of other ecological concepts  \ldots}
-\end{figure}
-
-\clearpage
-
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=\textwidth]{../figs/conservation-panels-3.pdf}
-\caption{Conservation \ldots}
-\end{figure}
-
-\clearpage
-
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=\textwidth]{../figs/human-impacts-panels-4.pdf}
-\caption{Human impacts \ldots}
-\end{figure}
-
+% \clearpage
+%
+% \section*{Drafts of hand-picked examples on various themes}
+%
+% The following are some draft panels on various themes. They are by no means
+% complete or final. There are a number of themes that we have not worked on yet and much to still explore within these themes.
+% This is the major area where we could use your help! I have an R Shiny app that
+% I will pass on so you can interactively play with the data to develop panels.
+% The final figures will just include the most interesting panels with the rest in the supplementary material. That's all the rage these days (Figure~\ref{fig:methods}F).
+%
+% Some of these labels represent a number of underlying n-grams based on alternative acronyms or singular/plural versions. That's not documented yet.
+%
+% \begin{figure}[htbp]
+% \centering
+% \includegraphics[width=\textwidth]{../figs/stats1.pdf}
+% \caption{Methods \ldots (so far just statistical)}
+% \label{fig:methods}
+% \end{figure}
+%
+% \clearpage
+%
+% \begin{figure}[htbp]
+% \centering
+% \includegraphics[width=0.79\textwidth]{../figs/scale-panels-2-cont.pdf}
+% \caption{Scale and all sorts of other ecological concepts  \ldots}
+% \end{figure}
+%
+% \clearpage
+%
+% \begin{figure}[htbp]
+% \centering
+% \includegraphics[width=\textwidth]{../figs/conservation-panels-3.pdf}
+% \caption{Conservation \ldots}
+% \end{figure}
+%
+% \clearpage
+%
+% \begin{figure}[htbp]
+% \centering
+% \includegraphics[width=\textwidth]{../figs/human-impacts-panels-4.pdf}
+% \caption{Human impacts \ldots}
+% \end{figure}
+%
 \end{document}

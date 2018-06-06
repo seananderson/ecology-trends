@@ -36,7 +36,6 @@ shape_top_decade <- function(data, gram_db, total1, top = 9) {
   dat4 <- full_join(condensed_across_lemmas,
     unique(select(pop3_keep, lemma, decade)), by = "lemma")
 
-
   add_zeros <- function(data) {
     plyr::ddply(data, c("decade", "lemma"), function(x) {
       x <- left_join(filter(total1, year >= min(x$year), year <= max(x$year)), x,
@@ -59,6 +58,4 @@ shape_top_decade <- function(data, gram_db, total1, top = 9) {
     ungroup() %>%
     mutate(list_type2 = grepl(pattern = " / ", list_type)) %>%
     mutate(decade = paste0(decade, "s"))
-
-
 }
