@@ -1,4 +1,5 @@
 source("analysis/extract-functions.R")
+source("analysis/pretty-panels.R")
 
 gram_db2 <- dplyr::src_sqlite("data/generated/jstor2-condensed.sqlite3") %>%
   dplyr::tbl("ngrams")
@@ -8,13 +9,13 @@ blank_grams <- gram_db2 %>%
   filter(
       gram %like% "% experiment" |
       gram %like% "% experiments" |
-      gram %like% "% data" |
-      gram %like% "% model" |
-      gram %like% "% models" |
+      # gram %like% "% data" |
+      # gram %like% "% model" |
+      # gram %like% "% models" |
       gram %like% "% analysis" |
-      gram %like% "% variation" |
+      # gram %like% "% variation" |
       gram %like% "% variability" |
-      gram %like% "% scale" |
+      # gram %like% "% scale" |
       gram %like% "% ecosystem" |
       gram %like% "% ecosystems" |
       gram %like% "% diversity" |
@@ -27,14 +28,22 @@ blank_grams <- gram_db2 %>%
   # summarise(total = sum(count)) %>%
   collect(n = Inf)
 
+second_words <- c("experiment", "experiments", "analysis", "variability",
+  "ecosystem", "ecosystems", "diversity", "population", "populations",
+  "distribution", "conservation")
+
 save(blank_grams, file = "data/generated/blank_grams.rda")
 load("data/generated/blank_grams.rda")
+
 blank_grams <- left_join(blank_grams, total1, by = "year")
 
 x <- blank_grams %>%
   mutate(second_word = stringr::str_split(gram, " ", simplify = TRUE)[,2]) %>%
   mutate(first_word = stringr::str_split(gram, " ", simplify = TRUE)[,1]) %>%
   mutate(panel = second_word)
+
+# in case the cached data includes words that are no longer used:
+x <- filter(x, second_word %in% second_words)
 
 x <- filter(x, nchar(first_word) >= 4, !grepl("[0-9]+", first_word))
 
@@ -67,14 +76,16 @@ x_top2 <- mutate(x_top2,
   panel_lemma = treetag(panel, format = "obj")@TT.res$lemma)
 
 top_lemmas <- group_by(x_top2, panel_lemma, lemma) %>%
+  filter(!(panel_lemma == "conservation" & lemma == "biological")) %>%
+  filter(!(panel_lemma == "experiment" & lemma == "present")) %>%
+  filter(!(panel_lemma == "experiment" & lemma == "previous")) %>%
   summarise(total = sum(total)) %>%
   group_by(panel_lemma) %>%
-  top_n(n = 20, wt = total)
+  top_n(n = 30, wt = total)
 
 terms <- filter(x_top2, lemma %in% top_lemmas$lemma)
 grams <- unique(terms$gram)
 
-# gram_dat <- get_ngram_dat(terms$gram)
 gram_dat <- gram_db2 %>%
   filter(year %in% c(1930:2010)) %>%
   filter(gram %in% grams) %>%
@@ -92,7 +103,6 @@ gd <- group_by(gd, year, panel_lemma, lemma, total_words) %>%
 top_lemmas_second_cut <- group_by(top_lemmas, panel_lemma, lemma) %>%
   summarise(total = sum(total)) %>%
   filter(!lemma %in% c("first", "second")) %>%
-  filter(!(panel_lemma == "conservation" & lemma == "biological")) %>%
   ungroup() %>%
   group_by(panel_lemma) %>%
   top_n(n = 8, wt = total)
@@ -110,65 +120,44 @@ plot_blanks <- function(dat, right_gap = 40,
   dat <- dat %>%
     mutate(gram_canonical = lemma, panel = panel_lemma) %>%
     arrange(panel, gram_canonical, year)
-  npanels <- length(unique(dat$panel))
   n <- length(unique(dat$panel))
   ncols <- floor(sqrt(n))
-  nrows <- ceiling(sqrt(n))
+  nrows <- ceiling(n/ncols)
   par(mfrow = c(nrows, ncols))
   par(mgp = c(2, 0.3, 0), tcl = -0.15, las = 1, cex = 0.7,
     col.axis = "grey55", mar = c(0.025, 2.1, 0, 0), oma = c(1.7, 1.1, .5, .5))
   ii <<- 1
-  xaxes <- seq(npanels - (ncols - 1), npanels)
+  xaxes <- seq(n - (ncols - 1), n)
   mutate(dat, total_words = total_words/1e5, total = total) %>%
     plyr::d_ply("panel", function(x) {
       ecogram_panel(x, xaxes = xaxes,
         right_gap = right_gap, label_cex = label_cex, yfrac_let = 0.06,
-        lab_text = paste(simple_cap(unique(x$panel)), collapse = ""), ...)})
+        lab_text = paste(simple_cap(as.character(unique(x$panel))),
+          collapse = ""), ...)})
   mtext("Frequency per 100,000 words", side = 2, outer = TRUE, line = -.4,
     col = "grey45", cex = 0.85, las = 0)
 }
 
-pdf("figs/blanks.pdf", width = 9, height = 9)
-gd %>%
-  plot_blanks(right_gap = 34, log_y = FALSE,
-    bottom_frac_up = 0.02, label_gap = -1.0,
-    show_seg = TRUE)
-dev.off()
+gd$panel_lemma <- factor(gd$panel_lemma, levels = c(
+  "conservation",
+  "ecosystem",
+  "population",
+  "diversity",
+  "variability",
+  "distribution",
+  "experiment",
+  "analysis"))
 
 pal_func <- function(n) {
   pal <- viridisLite::plasma(n, begin = 0.01, end = 0.84, direction = -1)
 }
 
-pdf("figs/blanks-viridis.pdf", width = 9, height = 9)
+pdf("figs/blanks-viridis2.pdf", width = 6, height = 8)
 gd %>%
   plot_blanks(right_gap = 34, log_y = FALSE,
     bottom_frac_up = 0.02, label_gap = -1.0,
     show_seg = TRUE, pal = pal_func)
 dev.off()
-
-pal_func <- function(n) {
-  RColorBrewer::brewer.pal(n, "Set2")
-}
-
-pdf("figs/blanks-set2.pdf", width = 9, height = 9)
-gd %>%
-  plot_blanks(right_gap = 34, log_y = FALSE,
-    bottom_frac_up = 0.02, label_gap = -1.0,
-    show_seg = TRUE, pal = pal_func, darken_factor = 1.1)
-dev.off()
-
-pal_func <- function(n) {
-  # as.character(wesanderson::wes_palette("Darjeeling1"))
-  RColorBrewer::brewer.pal(n, "Set1")
-}
-
-pdf("figs/blanks-set1.pdf", width = 9, height = 9)
-gd %>%
-  plot_blanks(right_gap = 34, log_y = FALSE,
-    bottom_frac_up = 0.02, label_gap = -1.0,
-    show_seg = TRUE, pal = pal_func, darken_factor = 1.1)
-dev.off()
-
 
 # This is the top 8 *blank* data/ecology/experiment/model lemmas/standardized
 # ngrams from
