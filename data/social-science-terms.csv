@@ -1,16 +1,9 @@
 panel,gram,gram_canonical
-interventions,protected area,protected areas
-interventions,park,protected areas
-interventions,reserve,protected areas
-interventions,preserve,protected areas
-interventions,sanctuary,protected areas
-interventions,sanctuaries,protected areas
 interventions,community based management,community-based management
 interventions,community based conservation,community-based management
 interventions,CBNRM,community-based management
 interventions,community-based natural,community-based management
 interventions,ecotourism,ecotourism
-interventions,payment for ecosystem services,payment for ecosystem services
 interventions,certification,certification
 interventions,ecolabel,certification
 interventions,eco label,certification
@@ -37,40 +30,28 @@ Human wellbeing ,womens health,human health
 Human wellbeing ,poverty,poverty
 Human wellbeing ,poor people,poverty
 Human wellbeing ,food security,food security
-Human wellbeing ,militarisation,militarisation
-Human wellbeing ,militarization,militarisation
 Human wellbeing ,human rights,human rights
-Human wellbeing ,equity,equity
-Human wellbeing ,inequity,equity
-Human wellbeing ,inequality,equity
-social science methods,economic valuation,economic valuation
-social science methods,valuation,economic valuation
 social science methods,questionnaire,questionnaire
 social science methods,participant observation,participant observation
 social science methods,ethnography,etnography
 social science methods,interview,interview
 social science methods,focus group,focus group
-social science methods,attitudes,attitudes
-social science methods,perceptions,perceptions
 stakeholders,local community,local community
 stakeholders,local people,local community
 stakeholders,indigenous people,indigenous people
 stakeholders,indigenous groups,indigenous people
 stakeholders,stakeholder,stakeholder
-stakeholders,tragedy of the commons,tragedy of the commons
 stakeholders,property rights,property rights
 stakeholders,customary rights,property rights
 stakeholders,indigenous rights,property rights
 stakeholders,traditional rights,property rights
 stakeholders,tenure,tenure
 stakeholders,participatory ,participatory
-Socio-Ecological Integration,coupled human natural,coupled human natural
-Socio-Ecological Integration,human natural system,human natural system
-Socio-Ecological Integration,traditional knowledge,local ecological knowledge
-Socio-Ecological Integration,local ecological knowledge,local ecological knowledge
-Socio-Ecological Integration,traditional ecological knowledge,local ecological knowledge
-Socio-Ecological Integration,local knowledge,local ecological knowledge
-Socio-Ecological Integration,social ecological systems,social ecological systems
-Socio-Ecological Integration,socioecological systems,social ecological systems
-Socio-Ecological Integration,social environmental,socio-environmental
-Socio-Ecological Integration,socio environmental,socio-environmental
+Human Behaviour,attitudes,attitudes
+Human Behaviour,perceptions,perceptions
+Human Behaviour,knowledge,knowledge
+Human Behaviour,behavior,behavior
+Human Behaviour,behaviour,behavior
+Human Behaviour,social norms,social norms
+Human Behaviour,Behavioral intention,Behavioral intention
+Human Behaviour,Behavioural intention,Behavioral intention

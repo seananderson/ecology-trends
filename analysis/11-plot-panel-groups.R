@@ -14,12 +14,12 @@ gold <- 0.618
 
 # Methods: -------------------------------------------------------------------
 make_handpicked_panel(
-  terms_file = "data/methods-models.csv",
-  cache_file = "data/generated/method-grams.rds",
-  fig_file   = "figs/stats.pdf",
-  fig_height = 6 * gold,
-  fig_width  = 6,
-  right_gap  = 54
+  terms_file = "data/methods-models-genetics.csv",
+  cache_file = "data/generated/method-models-genetics-grams.rds",
+  fig_file   = "figs/methods-models-genetics-big.pdf",
+  fig_height = 18 * 3/2 * gold,
+  fig_width  = 10,
+  right_gap  = 58
 )
 
 make_handpicked_panel(
@@ -71,9 +71,9 @@ make_handpicked_panel(
 
 # Social Science: ------------------------------------------------------------
 make_handpicked_panel(
-  terms_file = "data/social-science-terms.csv",
-  cache_file = "data/generated/social-science-ngrams.rds",
-  fig_file   = "figs/social-science-panels.pdf",
+  terms_file = "data/social-ngram.csv",
+  cache_file = "data/generated/social-science-ngrams2.rds",
+  fig_file   = "figs/social-science-panels2.pdf",
   fig_height = 7,
   fig_width  = 7,
   right_gap  = 74

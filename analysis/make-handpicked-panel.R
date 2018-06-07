@@ -4,7 +4,13 @@ make_handpicked_panel <- function(terms_file, cache_file, fig_file,
                                   overwrite_cache = FALSE, ...) {
 
   d <- read.csv(terms_file, strip.white = TRUE, stringsAsFactors = FALSE)
-  d$show <- "yes"
+
+  d <- d %>% group_by(panel) %>%
+    mutate(order = unique(order[!is.na(order)])) %>%
+    ungroup() %>%
+    mutate(panel = paste(order, panel, sep = ": ")) %>%
+    select(-order)
+
   d$gram <- tolower(d$gram)
   d$gram <- gsub("-", " ", d$gram)
   terms <- unique(d$gram)
@@ -40,12 +46,6 @@ make_handpicked_panel <- function(terms_file, cache_file, fig_file,
   d <- full_join(d, out, by = "gram") %>%
     dplyr::filter(!is.na(total)) %>%
     unique()
-
-  if (!"show" %in% names(d)) {
-    d <- d %>% mutate(show = "yes")
-  } else {
-    d <- dplyr::filter(d, show == "yes")
-  }
 
   pdf(fig_file, width = fig_width, height = fig_height)
   ecogram_panels(d, right_gap = right_gap, ncols = ncols, ...)

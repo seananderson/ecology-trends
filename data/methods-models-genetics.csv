@@ -1,0 +1,85 @@
+order,panel,gram,gram_canonical
+1,regression,correlation,correlation
+1,regression,correlations,correlation
+,regression,regression,regression
+,regression,regressions,regression
+,regression,anova,ANOVA
+,regression,t test,t-test
+,regression,ttest,t-test
+,regression,GLM,GLM
+,regression,GLMs,GLM
+,regression,generalized linear model,GLM
+,regression,generalized linear models,GLM
+2,fit by,maximum likelihood,maximum likelihood
+,fit by,least squares,least-squares
+,fit by,least square,least-squares
+,fit by,mcmc,MCMC
+,fit by,bayesian,Bayesian
+,fit by,bayes,Bayesian
+,fit by,aic,AIC
+3,p-hack,confidence interval,confidence interval
+3,p-hack,confidence intervals,confidence interval
+,p-hack,null hypothesis,null hypothesis
+,p-hack,power analysis,power analysis
+,p-hack,power analyses,power analysis
+,p-hack,p value,p-value
+,p-hack,p values,p-value
+,p-hack,pvalue,p-value
+,p-hack,pvalues,p-value
+,p-hack,significant difference,significant difference
+,p-hack,significant differences,significant difference
+4,supplementary,unpublished data,unpublished data
+,supplementary,supplementary material,supplementary material
+,supplementary,supplementary materials,supplementary material
+,supplementary,supporting information,supplementary material
+,supplementary,supporting online material,supplementary material
+,supplementary,supporting online materials,supplementary material
+,supplementary,som,supplementary material
+5,Genetic Fields,ecological genomics,ecological genomics
+,Genetic Fields,epigenetics,epigenetics
+,Genetic Fields,genetic diversity,genetic diversity
+,Genetic Fields,metagenomics,metagenomics
+,Genetic Fields,molecular ecology,molecular ecology
+,Genetic Fields,phylogenetic,phylogenetics
+,Genetic Fields,proteomics,proteomics
+,Genetic Fields,transcriptomics,transcriptomics
+,Genetic Fields,genetic engineering,genetic engineering
+,Genetic Fields,conservation genetics,conservation genetics
+6,Genetic tools,amplified fragment length polymorphism,AFLP
+,Genetic tools,AFLP,AFLP
+,Genetic tools,eDNA,eDNA
+,Genetic tools,environmental DNA,eDNA
+,Genetic tools,gene expression,gene expression
+,Genetic tools,CRISPR-CAS,CRISPR-CAS
+,Genetic tools,gene drive,gene drive
+,Genetic tools,microarray,microarray
+,Genetic tools,microsatellites,microsatellites
+,Genetic tools,minisatellites,minisatellites
+,Genetic tools,mitochondrial DNA,mtDNA
+,Genetic tools,mtDNA,mtDNA
+,Genetic tools,qPCR,q/RT-PCR
+,Genetic tools,RT-PCR,q/RT-PCR
+,Genetic tools,genome sequencing,whole genome sequencing
+,Genetic tools,single nucleotide polymorphisms,single nucleotide polymorphisms
+,Genetic tools,RNA-seq,RNA-seq
+,Genetic tools,high throughput sequencing,next generation sequencing
+,Genetic tools,illumina,next generation sequencing
+,Genetic tools,illumina sequencing,next generation sequencing
+,Genetic tools,ion torrent,next generation sequencing
+,Genetic tools,next gen sequencing,next generation sequencing
+,Genetic tools,next generation sequencing,next generation sequencing
+,Genetic tools,PacBio,next generation sequencing
+,Genetic tools,pyrosequencing,next generation sequencing
+,Genetic tools,shot gun sequencing,next generation sequencing
+,Genetic tools,shotgun sequencing,next generation sequencing
+,Genetic tools,RAD seq,RADseq
+,Genetic tools,RADseq,RADseq
+,Genetic tools,restriction site associated,RADseq
+,Genetic tools,sanger sequencing,sanger sequencing
+,Genetic tools,whole genome resequencing,whole genome sequencing
+,Genetic tools,whole genome sequencing,whole genome sequencing
+,Genetic tools,SOLiD system,next generation sequencing
+,Genetic tools,nuclear DNA,nuDNA
+,Genetic tools,nuDNA,nuDNA
+,Genetic tools,RNA,RNA
+,Genetic tools,SNPs,single nucleotide polymorphisms

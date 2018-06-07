@@ -1,0 +1,70 @@
+order,panel,gram,gram_canonical
+1,interventions,community based management,community-based management
+,interventions,community based conservation,community-based management
+,interventions,CBNRM,community-based management
+,interventions,community-based natural,community-based management
+,interventions,ecotourism,ecotourism
+,interventions,certification,certification
+,interventions,ecolabel,certification
+,interventions,eco label,certification
+,interventions,ecolabelling,certification
+,interventions,eco labelling,certification
+,interventions,MSC,certification
+,interventions,FSC,certification
+,interventions,carbon offsetting,offsetting
+,interventions,biodiversity offsetting,offsetting
+,interventions,REDD,REDD
+,interventions,REDD+,REDD
+,interventions,Alternative livelihood,Alternative livelihoods
+,interventions,Alternative livelihoods,Alternative livelihoods
+,interventions,Alternative income,Alternative livelihoods
+2,Human wellbeing,human wellbeing,human well-being
+,Human wellbeing,human well being,human well-being
+,Human wellbeing,Human wildlife conflict,Human-wildlife conflict
+,Human wellbeing,Human wildlife conflicts,Human-wildlife conflict
+,Human wellbeing,Human wildlife coexistence,Human-wildlife conflict
+,Human wellbeing,human health,human health
+,Human wellbeing,child health,human health
+,Human wellbeing,childrens health,human health
+,Human wellbeing,womens health,human health
+,Human wellbeing,poverty,poverty
+,Human wellbeing,poor people,poverty
+,Human wellbeing,food security,food security
+,Human wellbeing,human rights,human rights
+,Human wellbeing,human right,human rights
+3,social science methods,questionnaire,questionnaire
+,social science methods,questionnaires,questionnaire
+,social science methods,participant observation,participant observation
+,social science methods,participant observations,participant observation
+,social science methods,ethnography,etnography
+,social science methods,interview,interview
+,social science methods,interviews,interview
+,social science methods,focus group,focus group
+,social science methods,focus groups,focus group
+4,stakeholders,local community,local community
+,stakeholders,local communities,local community
+,stakeholders,local people,local community
+,stakeholders,indigenous people,indigenous people
+,stakeholders,indigenous groups,indigenous people
+,stakeholders,indigenous group,indigenous people
+,stakeholders,stakeholder,stakeholder
+,stakeholders,stakeholders,stakeholder
+,stakeholders,property rights,property rights
+,stakeholders,customary rights,property rights
+,stakeholders,indigenous rights,property rights
+,stakeholders,traditional rights,property rights
+,stakeholders,tenure,tenure
+,stakeholders,participatory ,participatory
+5,Human Behaviour,attitudes,attitudes
+,Human Behaviour,attitude,attitudes
+,Human Behaviour,perceptions,perceptions
+,Human Behaviour,knowledge,knowledge
+,Human Behaviour,behavior,behavior
+,Human Behaviour,behaviors,behavior
+,Human Behaviour,behaviour,behavior
+,Human Behaviour,behaviours,behavior
+,Human Behaviour,social norms,social norms
+,Human Behaviour,behavioral intention,Behavioral intention
+,Human Behaviour,behavioral intentions,Behavioral intention
+,Human Behaviour,behavioural intention,Behavioral intention
+,Human Behaviour,behavioural intentions,Behavioral intention
