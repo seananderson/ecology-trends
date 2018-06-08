@@ -1,0 +1,52 @@
+---
+title: Trends in ecology and conservation
+author: >
+  Sean C. Anderson^1^,
+  Other others here^2^
+date: >
+  ^1^here
+  ^2^there
+output: 
+  bookdown::pdf_document2:
+    keep_tex: no
+    number_sections: no
+    toc: no
+bibliography: refs.bib
+csl: nature.csl
+link-citations: yes
+abstract: The abstract TODO.
+---
+
+```{r, echo=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Fig. \@ref(fig:booms)
+
+Fig. \@ref(fig:blanks)
+
+Fig. \@ref(fig:conserve)
+
+Citation [@michel2010].
+
+\clearpage
+
+```{r booms, fig.cap = "testing"}
+knitr::include_graphics(rep("../figs/decades-and-booms-viridis.pdf"))
+```
+
+\clearpage
+
+```{r blanks, fig.cap = "testing"}
+knitr::include_graphics(rep("../figs/blanks-viridis2.pdf"))
+```
+
+\clearpage
+
+```{r conserve, fig.cap = "testing"}
+knitr::include_graphics(rep("../figs/conservation-human-impacts.pdf"))
+```
+
+\clearpage
+
+# References
