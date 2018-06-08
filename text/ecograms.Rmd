@@ -1,50 +1,107 @@
 ---
-title: Trends in ecology and conservation
-author: >
-  Sean C. Anderson^1^,
-  Other others here^2^
-date: >
-  ^1^here
-  ^2^there
+title: "Trends in ecology and conservation"
+author:
+- Sean C. Anderson^1^
+- Paul R. Elsen^2^
+- Brent B. Hughes^3^
+- Rebecca K. Tonietto^4^
+- Add Your Name Here in Alphabetical Order^X^
+date: |
+  ^1^Pacific Biological Station, Fisheries and Oceans Canada 
+     Nanaimo, BC, V6T 6N7, Canada; sean.anderson@dfo-mpo.gc.ca\
+  ^2^here\
+  ^3^here\
+  ^4^here\
+  ^X^Add Your Address Here
 output: 
   bookdown::pdf_document2:
     keep_tex: no
     number_sections: no
     toc: no
+    template: default.tex
 bibliography: refs.bib
 csl: nature.csl
 link-citations: yes
-abstract: The abstract TODO.
+linkcolor: blue
+urlcolor: blue
+abstract: >
+  The abstract will go here.
 ---
 
-```{r, echo=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+\clearpage
+
+```{r, echo = FALSE, message = FALSE}
+library(knitr)
+library(here)
+opts_chunk$set(echo = FALSE, message = FALSE, warnings = FALSE)
 ```
 
-Fig. \@ref(fig:booms)
+Fig. \@ref(fig:decades)
+
+Fig. \@ref(fig:S-booms)
 
 Fig. \@ref(fig:blanks)
 
-Fig. \@ref(fig:conserve)
+Fig. \@ref(fig:ecology)
 
-Citation [@michel2010].
+Fig. \@ref(fig:methods)
+
+Fig. \@ref(fig:conservation)
+
+Fig. \@ref(fig:social)
+
+
+Citation [@michel2011].
 
 \clearpage
 
-```{r booms, fig.cap = "testing"}
-knitr::include_graphics(rep("../figs/decades-and-booms-viridis.pdf"))
+```{r decades, fig.cap = "(A--D) Top 9 1-gram nouns and 2-gram nouns/adjectives from the 1940s and 2000s. Labels refer to 'lemmas' or root words. For example, plant and plants as n-grams are both combined and labelled as 'plant'. (E, F) Most rapidly increasing 1-gram nouns and 2-gram nouns/adjectives from 1980--2010."}
+include_graphics(here("figs/decades-and-booms-viridis.pdf"))
 ```
 
 \clearpage
 
-```{r blanks, fig.cap = "testing"}
-knitr::include_graphics(rep("../figs/blanks-viridis2.pdf"))
+```{r blanks, fig.cap = "Top 8 terms followed by the term in the top left corner where the terms are either nouns or adjectives. The top n-grams are defined based on summing the occurrences throughout the entire time period thereby weighting recent years more heavily."}
+include_graphics(here("figs/blanks-viridis2.pdf"))
 ```
 
 \clearpage
 
-```{r conserve, fig.cap = "testing"}
-knitr::include_graphics(rep("../figs/conservation-human-impacts.pdf"))
+```{r ecology, fig.cap = "General ecology... TO BE FIXED"}
+include_graphics(here("figs/scale-panels-2.pdf"))
+```
+
+\clearpage
+
+```{r methods, fig.cap = "Methods..."}
+include_graphics(here("figs/methods-models-genetics.pdf"))
+```
+
+\clearpage
+
+```{r conservation, fig.cap = "Methods..."}
+include_graphics(here("figs/conservation-human-impacts.pdf"))
+```
+
+\clearpage
+
+```{r social, fig.cap = "Social science and ecology..."}
+include_graphics(here("figs/social-science-panels2.pdf"))
+```
+
+\clearpage
+
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\thetable}{S\arabic{table}}
+\setcounter{figure}{0}
+\setcounter{table}{0}
+
+# Supporting Information
+
+\clearpage
+
+```{r S-booms, fig.cap = "test"}
+include_graphics(here("figs/booms.pdf"))
 ```
 
 \clearpage
