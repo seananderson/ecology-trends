@@ -21,7 +21,6 @@ make_handpicked_panel(
   fig_width  = 10,
   right_gap  = 58
 )
-
 make_handpicked_panel(
   terms_file = "data/methods-models-supp.csv",
   cache_file = "data/generated/method-grams.rds",
@@ -31,22 +30,13 @@ make_handpicked_panel(
   right_gap  = 54
 )
 
-
-# Brent: ---------------------------------------------------------------------
+# Conservation and human impacts: --------------------------------------------
 make_handpicked_panel(
-  terms_file = "data/conservation-terms.csv",
-  cache_file = "data/generated/conservation-grams.rds",
-  fig_file   = "figs/conservation-panels-3.pdf",
-  fig_height = 3.9,
-  right_gap  = 38
-)
-
-# Paul: ----------------------------------------------------------------------
-make_handpicked_panel(
-  terms_file = "data/paul_human_impacts3.csv",
-  cache_file = "data/generated/human-impacts-grams.rds",
-  fig_file   = "figs/human-impacts-panels-4.pdf",
-  fig_height = 3.6,
+  terms_file = "data/conservation-human-impacts.csv",
+  cache_file = "data/generated/conservation-human-impacts.rds",
+  fig_file   = "figs/conservation-human-impacts.pdf",
+  fig_height = 6.5*3/2*gold,
+  fig_width  = 6.5,
   right_gap  = 38
 )
 
@@ -59,22 +49,12 @@ make_handpicked_panel(
   right_gap  = 64
 )
 
-# Genetics: ------------------------------------------------------------------
-make_handpicked_panel(
-  terms_file = "data/genetics-terms.csv",
-  cache_file = "data/generated/genetic-ngrams.rds",
-  fig_file   = "figs/genetic-panels.pdf",
-  fig_height = 5,
-  fig_width  = 7,
-  right_gap  = 74
-)
-
 # Social Science: ------------------------------------------------------------
 make_handpicked_panel(
   terms_file = "data/social-ngram.csv",
   cache_file = "data/generated/social-science-ngrams2.rds",
   fig_file   = "figs/social-science-panels2.pdf",
-  fig_height = 7,
-  fig_width  = 7,
-  right_gap  = 74
+  fig_height = 6.5*3/2*gold,
+  fig_width  = 6.5,
+  right_gap  = 81
 )
