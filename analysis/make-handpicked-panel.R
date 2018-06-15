@@ -13,20 +13,23 @@ make_handpicked_panel <- function(terms_file, cache_file, fig_file,
 
   d$gram <- tolower(d$gram)
   d$gram <- gsub("-", " ", d$gram)
-  terms <- unique(d$gram)
+  terms  <- unique(d$gram)
 
   N <- unlist(lapply(strsplit(terms, " "), length))
   if (max(N) > 3) {
-    warning("More than 3 words: ", paste(terms[N > 3], collapse = ", "), ". ",
+    warning("More than 3 words: ", 
+      paste(terms[N > 3], collapse = ", "), ". ",
       "Removing them.", call. = FALSE)
   }
 
   if (!file.exists(cache_file) || overwrite_cache) {
+    message("Extracting 1 grams")
     out1 <- gram_db1 %>%
       dplyr::filter(gram %in% terms[N == 1L]) %>%
       dplyr::collect(n = Inf) %>%
       dplyr::inner_join(total1, by = "year")
 
+    message("Extracting 2 grams")
     out2 <- gram_db2 %>%
       dplyr::filter(gram %in% terms[N == 2L]) %>%
       dplyr::collect(n = Inf) %>%
@@ -38,18 +41,18 @@ make_handpicked_panel <- function(terms_file, cache_file, fig_file,
       dplyr::bind_rows(out3) %>%
       unique()
 
-    saveRDS(out, file = cache_file)
+    readr::write_rds(out, cache_file)
   } else {
-    out <- readRDS(cache_file)
+    out <- readr::read_rds(cache_file)
   }
 
   d <- dplyr::full_join(d, out, by = "gram") %>%
     dplyr::filter(!is.na(total)) %>%
     unique()
 
-  pdf(fig_file, width = fig_width, height = fig_height)
+  grDevices::pdf(fig_file, width = fig_width, height = fig_height)
   ecogram_panels(d, right_gap = right_gap, ncols = ncols, ...)
-  dev.off()
+  grDevices::dev.off()
 
   invisible(d)
 }
