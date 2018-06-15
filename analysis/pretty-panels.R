@@ -20,6 +20,8 @@ darken <- function(color, factor=1.4){
   col
 }
 
+gold <- function() (1 + sqrt(5))/2
+
 pal_func <- function(n) {
   pal <- viridisLite::plasma(n, begin = 0.01, end = 0.84, direction = -1)
 }
@@ -40,7 +42,7 @@ ecogram_panel <- function(x,
   col <- darken(col, factor = darken_factor)
 
   pred <- data.frame(select(x, year, total_words))
-  pred <- pred[!duplicated(pred), ] %>%
+  pred <- pred[!duplicated(pred), , drop = FALSE] %>%
     arrange(year)
 
   suppressMessages(library(mgcv))
@@ -88,8 +90,6 @@ ecogram_panel <- function(x,
   x <- inner_join(x, cols, by = "gram_canonical")
   lab <- inner_join(lab, cols, by = "gram_canonical")
 
-  # current_max <- max(c(x$total/x$total_words, sm$y))
-  # current_max <- max(sm$y)
   if (is.null(ymax))
     current_max <- max(sm$y)
   else
@@ -141,13 +141,9 @@ ecogram_panel <- function(x,
     lines(smo$year, smo$y, col = smo$this_col, lwd = 2.75)
   }
 
-  # abline(v = year_limits[2]+0, col = "grey70", lwd = 1)
-  # rect(xleft = year_limits[2]+0, ybottom = -1,
-  #   ytop = current_max * 1.3, xright = 2100, col = "white",
-  #   border = NA)
-
   lab$y_temp <- lab$y
-  lab$y_temp[lab$y_temp < current_max * bottom_frac_up] <- current_max * bottom_frac_up
+  lab$y_temp[lab$y_temp < current_max * bottom_frac_up] <-
+    current_max * bottom_frac_up
   lab$ynew <- suppressWarnings(TeachingDemos::spread.labs(lab$y_temp,
     mindiff = 1.2 * strheight('A'),
     maxiter = 5000, stepsize = 1/500, min = current_max * bottom_frac_up,
@@ -155,13 +151,14 @@ ecogram_panel <- function(x,
 
   for (i in seq_along(uniq)) {
     this_lab <- dplyr::filter(lab, gram_canonical == uniq[i])
-    text(year_limits[2]+label_gap, this_lab$ynew, this_lab$gram_canonical, pos = 4,
+    text(year_limits[2]+label_gap, this_lab$ynew,
+      this_lab$gram_canonical, pos = 4,
       col = this_lab$this_col, cex = label_cex)
   }
   if (show_seg)
-    segments(x0 = year_limits[2], x1 = year_limits[2]+1.2, y0 = lab$y, y1 = lab$ynew,
+    segments(x0 = year_limits[2], x1 = year_limits[2]+1.2,
+      y0 = lab$y, y1 = lab$ynew,
       col = "grey75", lwd = 0.65)
-  # mtext(unique(x$panel), side = 3, line = -2, cex = 0.8, adj = 0)
   add_label(xfrac = 0.0, yfrac = yfrac_let, label = LETTERS[[ii]], cex = 1.2)
 
   u <- par("usr")

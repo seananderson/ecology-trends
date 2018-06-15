@@ -7,13 +7,13 @@ author:
 - "Rebecca K. Tonietto^4^"
 - "Add Your Name Here in Alphabetical Order^X^"
 date: |
-  ^1^Pacific Biological Station, Fisheries and Oceans Canada 
+  ^1^Pacific Biological Station, Fisheries and Oceans Canada
      Nanaimo, BC, V6T 6N7, Canada; sean.anderson@dfo-mpo.gc.ca\
   ^2^Here\
   ^3^Here\
   ^4^Here\
   ^X^Add Your Address Here
-output: 
+output:
   bookdown::pdf_document2:
     number_sections: no
     toc: no
@@ -55,6 +55,9 @@ Fig. \@ref(fig:social)
 
 Citation [@michel2011].
 
+*This version was rendered on `r Sys.Date()` with 
+`r devtools::session_info()$platform$version`.*
+
 \clearpage
 
 ```{r decades, fig.cap = "(A--D) Top 9 1-gram nouns and 2-gram nouns/adjectives from the 1940s and 2000s. Labels refer to 'lemmas' or root words. For example, plant and plants as n-grams are both combined and labelled as 'plant'. (E, F) Most rapidly increasing 1-gram nouns and 2-gram nouns/adjectives from 1980--2010."}
@@ -75,8 +78,8 @@ include_graphics(here("figs/scale-panels-2.pdf"))
 
 \clearpage
 
-```{r methods, fig.cap = "Methods..."}
-include_graphics(here("figs/methods-models-genetics.pdf"))
+```{r methods, fig.cap = "Methods and genetics..."}
+include_graphics(here("figs/methods-models-genetics2.pdf"))
 ```
 
 \clearpage
@@ -112,8 +115,10 @@ include_graphics(here("figs/booms.pdf"))
 include_graphics(here("figs/stats-supp.pdf"))
 ```
 
-```{r genetics-supp}
-# include_graphics(here("figs/genetics-supp.pdf"))
+\clearpage
+
+```{r genetics-supp, fig.cap = "TODO"}
+include_graphics(here("figs/genetics-supp.pdf"))
 ```
 
 \clearpage

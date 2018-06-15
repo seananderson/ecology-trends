@@ -148,15 +148,14 @@ gd$panel_lemma <- factor(gd$panel_lemma, levels = c(
   "experiment",
   "analysis"))
 
-gold <- 0.618
-pdf("figs/blanks-viridis2.pdf", width = 6.5, height = 6.5 * 2 * gold)
+pdf("figs/blanks-viridis2.pdf", width = 6.5, height = 6.5 * 2 * gold())
 gd %>%
   plot_blanks(right_gap = 34, log_y = FALSE,
     bottom_frac_up = 0.02, label_gap = -1.0,
     show_seg = TRUE, pal = pal_func)
 dev.off()
 
-pdf("figs/blanks2.pdf", width = 6.5, height = 6.5 * 2 * gold)
+pdf("figs/blanks2.pdf", width = 6.5, height = 6.5 * 2 * gold())
 gd %>%
   plot_blanks(right_gap = 34, log_y = FALSE,
     bottom_frac_up = 0.02, label_gap = -1.0,

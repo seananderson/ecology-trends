@@ -10,41 +10,39 @@ pal_func <- function(n) {
   # RColorBrewer::brewer.pal(n, "Dark2")
 }
 
-gold <- 0.618
-
 # Methods/Genetics: ----------------------------------------------------------
 make_handpicked_panel(
   terms_file = "data/methods-models-genetics2.csv",
   cache_file = "data/generated/method-models-genetics-grams2.rds",
   fig_file   = "figs/methods-models-genetics2.pdf",
-  fig_height = 3.5 * 3/2 * gold,
-  fig_width  = 3.5,
-  right_gap  = 58
+  fig_height = 6.5 * 3/2 * gold(),
+  fig_width  = 6.5,
+  right_gap  = 63
 )
 make_handpicked_panel(
   terms_file = "data/stats-supp.csv",
   cache_file = "data/generated/stats-supp.rds",
   fig_file   = "figs/stats-supp.pdf",
-  fig_height = 3.5 * gold,
+  fig_height = 3.5 * gold(),
   fig_width  = 3.5,
   right_gap  = 45,
   ncols      = 1
 )
-# make_handpicked_panel(
-#   terms_file = "data/genetics-supp.csv",
-#   cache_file = "data/generated/genetics-supp.rds",
-#   fig_file   = "figs/genetics-supp.pdf",
-#   fig_height = 3 * gold,
-#   fig_width  = 3,
-#   right_gap  = 54
-# )
+make_handpicked_panel(
+  terms_file = "data/genetics-supp.csv",
+  cache_file = "data/generated/genetics-supp.rds",
+  fig_file   = "figs/genetics-supp.pdf",
+  fig_height = 6.5 / gold() / 1.7,
+  fig_width  = 6.5,
+  right_gap  = 82
+)
 
 # Conservation and human impacts: --------------------------------------------
 make_handpicked_panel(
   terms_file = "data/conservation-human-impacts.csv",
   cache_file = "data/generated/conservation-human-impacts.rds",
   fig_file   = "figs/conservation-human-impacts.pdf",
-  fig_height = 6.5*3/2*gold,
+  fig_height = 6.5 * 3 / 2 * gold(),
   fig_width  = 6.5,
   right_gap  = 38
 )
@@ -63,7 +61,7 @@ make_handpicked_panel(
   terms_file = "data/social-ngram.csv",
   cache_file = "data/generated/social-science-ngrams2.rds",
   fig_file   = "figs/social-science-panels2.pdf",
-  fig_height = 6.5*3/2*gold,
+  fig_height = 6.5 * 3 / 2 * gold(),
   fig_width  = 6.5,
   right_gap  = 81
 )

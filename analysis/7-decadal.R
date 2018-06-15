@@ -1,5 +1,6 @@
 source("analysis/extract-functions.R")
 source("analysis/booming.R")
+source("analysis/pretty-panels.R")
 
 bad_latex <- read_csv("data/bad-latex.csv", col_types = cols(gram = col_character()))
 excludes <- c("of", "in", "to", "and", "the", "from",
@@ -133,8 +134,6 @@ pop2_plot <- shape_top_decade(pop2, gram_db = gram_db2, total1 = total1,
 # ----------
 # Plot
 
-source("analysis/pretty-panels.R")
-
 plot_decades <- function(dat, right_gap = 30,
   label_cex = 0.85, nrows = 2, ncols = 2, ...) {
   dat <- dat %>%
@@ -184,7 +183,6 @@ bb <- bind_rows(
   mutate(b1, decade = paste(decade, "1-grams")),
   mutate(b2, decade = paste(decade, "2-grams")))
 
-gold <- 0.618
 dec_dat <- pop1_plot %>% mutate(gram_num = "1-grams") %>%
   bind_rows(mutate(pop2_plot, gram_num = "2-grams")) %>%
   inner_join(df, by = c("decade", "gram_num")) %>%
@@ -206,12 +204,12 @@ both_dat <- bind_rows(dec_dat, boom_dat) %>%
     )))
 
 pdf("figs/decades-and-booms.pdf", width = 6.5,
-  height = 6.5 * gold * 3/2 * 1.05)
+  height = 6.5 * gold() * 3/2 * 1.05)
 plot_decades_and_boom(both_dat, right_gap = 50, nrows = 3, ncols = 2)
 dev.off()
 
 pdf("figs/decades-and-booms-viridis.pdf", width = 6.5,
-  height = 6.5 * gold * 3/2 * 1.05)
+  height = 6.5 * gold() * 3/2 * 1.05)
 plot_decades_and_boom(both_dat, right_gap = 50, nrows = 3, ncols = 2,
   pal = pal_func)
 dev.off()
@@ -221,13 +219,13 @@ boom_only_dat <- filter(bb, lemma != "")
   # mutate(decade = paste(decade, "decrease"))
 
 pdf("figs/booms-viridis.pdf", width = 7,
-  height = 7 * gold * 1 * 1.3)
+  height = 7 * gold() * 1 * 1.3)
 plot_boom(boom_only_dat, right_gap = 50, nrows = 2, ncols = 2,
   pal = pal_func)
 dev.off()
 
 pdf("figs/booms.pdf", width = 7,
-  height = 7 * gold * 1 * 1.3)
+  height = 7 * gold() * 1 * 1.3)
 plot_boom(boom_only_dat, right_gap = 50, nrows = 2, ncols = 2)
 dev.off()
 

@@ -17,7 +17,7 @@ make_handpicked_panel <- function(terms_file, cache_file, fig_file,
 
   N <- unlist(lapply(strsplit(terms, " "), length))
   if (max(N) > 3) {
-    warning("More than 3 words: ", 
+    warning("More than 3 words: ",
       paste(terms[N > 3], collapse = ", "), ". ",
       "Removing them.", call. = FALSE)
   }
@@ -49,6 +49,9 @@ make_handpicked_panel <- function(terms_file, cache_file, fig_file,
   d <- dplyr::full_join(d, out, by = "gram") %>%
     dplyr::filter(!is.na(total)) %>%
     unique()
+
+  d$gram_canonical <- gsub("single nucleotide polymorphisms",
+    "\\\nsingle nucleotide\\\npolymorphisms", d$gram_canonical)
 
   grDevices::pdf(fig_file, width = fig_width, height = fig_height)
   ecogram_panels(d, right_gap = right_gap, ncols = ncols, ...)
