@@ -1,29 +1,28 @@
 ---
-title: "Trends in ecology and conservation"
+title: "Trends in ecology and conservation over eight decades"
 author:
-- Sean C. Anderson^1^
-- Paul R. Elsen^2^
-- Brent B. Hughes^3^
-- Rebecca K. Tonietto^4^
-- Add Your Name Here in Alphabetical Order^X^
+- "Sean C. Anderson^1^"
+- "Paul R. Elsen^2^"
+- "Brent B. Hughes^3^"
+- "Rebecca K. Tonietto^4^"
+- "Add Your Name Here in Alphabetical Order^X^"
 date: |
   ^1^Pacific Biological Station, Fisheries and Oceans Canada 
      Nanaimo, BC, V6T 6N7, Canada; sean.anderson@dfo-mpo.gc.ca\
-  ^2^here\
-  ^3^here\
-  ^4^here\
+  ^2^Here\
+  ^3^Here\
+  ^4^Here\
   ^X^Add Your Address Here
 output: 
   bookdown::pdf_document2:
-    keep_tex: no
     number_sections: no
     toc: no
-    template: default.tex
-bibliography: refs.bib
-csl: nature.csl
+    template: "article.tex"
+bibliography: "refs.bib"
+csl: "nature.csl"
 link-citations: yes
-linkcolor: blue
-urlcolor: blue
+linkcolor: "blue"
+urlcolor: "blue"
 abstract: >
   The abstract will go here.
 ---
@@ -46,10 +45,13 @@ Fig. \@ref(fig:ecology)
 
 Fig. \@ref(fig:methods)
 
+Fig. \@ref(fig:stats-supp)
+
+Fig. \@ref(fig:genetics-supp)
+
 Fig. \@ref(fig:conservation)
 
 Fig. \@ref(fig:social)
-
 
 Citation [@michel2011].
 
@@ -79,7 +81,7 @@ include_graphics(here("figs/methods-models-genetics.pdf"))
 
 \clearpage
 
-```{r conservation, fig.cap = "Methods..."}
+```{r conservation, fig.cap = "Conservation..."}
 include_graphics(here("figs/conservation-human-impacts.pdf"))
 ```
 
@@ -100,8 +102,18 @@ include_graphics(here("figs/social-science-panels2.pdf"))
 
 \clearpage
 
-```{r S-booms, fig.cap = "test"}
+```{r S-booms, fig.cap = "TODO"}
 include_graphics(here("figs/booms.pdf"))
+```
+
+\clearpage
+
+```{r stats-supp, fig.cap = "TODO"}
+include_graphics(here("figs/stats-supp.pdf"))
+```
+
+```{r genetics-supp}
+# include_graphics(here("figs/genetics-supp.pdf"))
 ```
 
 \clearpage
