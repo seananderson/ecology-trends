@@ -12,23 +12,32 @@ pal_func <- function(n) {
 
 gold <- 0.618
 
-# Methods: -------------------------------------------------------------------
+# Methods/Genetics: ----------------------------------------------------------
 make_handpicked_panel(
-  terms_file = "data/methods-models-genetics.csv",
-  cache_file = "data/generated/method-models-genetics-grams.rds",
-  fig_file   = "figs/methods-models-genetics-big.pdf",
-  fig_height = 18 * 3/2 * gold,
-  fig_width  = 10,
+  terms_file = "data/methods-models-genetics2.csv",
+  cache_file = "data/generated/method-models-genetics-grams2.rds",
+  fig_file   = "figs/methods-models-genetics2.pdf",
+  fig_height = 3.5 * 3/2 * gold,
+  fig_width  = 3.5,
   right_gap  = 58
 )
 make_handpicked_panel(
-  terms_file = "data/methods-models-supp.csv",
-  cache_file = "data/generated/method-grams.rds",
+  terms_file = "data/stats-supp.csv",
+  cache_file = "data/generated/stats-supp.rds",
   fig_file   = "figs/stats-supp.pdf",
-  fig_height = 3 * gold,
-  fig_width  = 3,
-  right_gap  = 54
+  fig_height = 3.5 * gold,
+  fig_width  = 3.5,
+  right_gap  = 45,
+  ncols      = 1
 )
+# make_handpicked_panel(
+#   terms_file = "data/genetics-supp.csv",
+#   cache_file = "data/generated/genetics-supp.rds",
+#   fig_file   = "figs/genetics-supp.pdf",
+#   fig_height = 3 * gold,
+#   fig_width  = 3,
+#   right_gap  = 54
+# )
 
 # Conservation and human impacts: --------------------------------------------
 make_handpicked_panel(
@@ -40,7 +49,7 @@ make_handpicked_panel(
   right_gap  = 38
 )
 
-# Becky: ---------------------------------------------------------------------
+# General ecology: -----------------------------------------------------------
 make_handpicked_panel(
   terms_file = "data/scale_panels_2.csv",
   cache_file = "data/generated/becky-2017-12-14.rds",

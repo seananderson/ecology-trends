@@ -15,14 +15,14 @@ order,panel,gram,gram_canonical
 ,interventions,biodiversity offsetting,offsetting
 ,interventions,REDD,REDD
 ,interventions,REDD+,REDD
-,interventions,Alternative livelihood,Alternative livelihoods
-,interventions,Alternative livelihoods,Alternative livelihoods
-,interventions,Alternative income,Alternative livelihoods
+,interventions,Alternative livelihood,alternative livelihoods
+,interventions,Alternative livelihoods,alternative livelihoods
+,interventions,Alternative income,alternative livelihoods
 2,Human wellbeing,human wellbeing,human well-being
 ,Human wellbeing,human well being,human well-being
-,Human wellbeing,Human wildlife conflict,Human-wildlife conflict
-,Human wellbeing,Human wildlife conflicts,Human-wildlife conflict
-,Human wellbeing,Human wildlife coexistence,Human-wildlife conflict
+,Human wellbeing,Human wildlife conflict,human-wildlife conflict
+,Human wellbeing,Human wildlife conflicts,human-wildlife conflict
+,Human wellbeing,Human wildlife coexistence,human-wildlife conflict
 ,Human wellbeing,human health,human health
 ,Human wellbeing,child health,human health
 ,Human wellbeing,childrens health,human health
@@ -53,18 +53,12 @@ order,panel,gram,gram_canonical
 ,stakeholders,customary rights,property rights
 ,stakeholders,indigenous rights,property rights
 ,stakeholders,traditional rights,property rights
-,stakeholders,tenure,tenure
-,stakeholders,participatory ,participatory
+,stakeholders,participatory,participatory
 5,Human Behaviour,attitudes,attitudes
 ,Human Behaviour,attitude,attitudes
 ,Human Behaviour,perceptions,perceptions
-,Human Behaviour,knowledge,knowledge
-,Human Behaviour,behavior,behavior
-,Human Behaviour,behaviors,behavior
-,Human Behaviour,behaviour,behavior
-,Human Behaviour,behaviours,behavior
 ,Human Behaviour,social norms,social norms
-,Human Behaviour,behavioral intention,Behavioral intention
-,Human Behaviour,behavioral intentions,Behavioral intention
-,Human Behaviour,behavioural intention,Behavioral intention
-,Human Behaviour,behavioural intentions,Behavioral intention
+,Human Behaviour,behavioral intention,behavioral intention
+,Human Behaviour,behavioral intentions,behavioral intention
+,Human Behaviour,behavioural intention,behavioral intention
+,Human Behaviour,behavioural intentions,behavioral intention

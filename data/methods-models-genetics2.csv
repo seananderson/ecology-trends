@@ -38,25 +38,16 @@ order,panel,gram,gram_canonical
 5,Genetic Fields,ecological genomics,ecological genomics
 ,Genetic Fields,epigenetics,epigenetics
 ,Genetic Fields,genetic diversity,genetic diversity
-,Genetic Fields,metagenomics,metagenomics
+,Genetic Fields,metagenomics,Omics techniques
 ,Genetic Fields,molecular ecology,molecular ecology
 ,Genetic Fields,phylogenetic,phylogenetics
-,Genetic Fields,proteomics,proteomics
-,Genetic Fields,transcriptomics,transcriptomics
+,Genetic Fields,proteomics,Omics techniques
+,Genetic Fields,transcriptomics,Omics techniques
 ,Genetic Fields,genetic engineering,genetic engineering
 ,Genetic Fields,conservation genetics,conservation genetics
-6,Genetic tools,amplified fragment length polymorphism,AFLP
-,Genetic tools,AFLP,AFLP
-,Genetic tools,eDNA,eDNA
+6,Genetic tools,eDNA,eDNA
 ,Genetic tools,environmental DNA,eDNA
-,Genetic tools,gene expression,gene expression
-,Genetic tools,CRISPR-CAS,CRISPR-CAS
 ,Genetic tools,gene drive,gene drive
-,Genetic tools,microarray,microarray
-,Genetic tools,microsatellites,microsatellites
-,Genetic tools,minisatellites,minisatellites
-,Genetic tools,mitochondrial DNA,mtDNA
-,Genetic tools,mtDNA,mtDNA
 ,Genetic tools,qPCR,q/RT-PCR
 ,Genetic tools,RT-PCR,q/RT-PCR
 ,Genetic tools,genome sequencing,whole genome sequencing
@@ -72,14 +63,8 @@ order,panel,gram,gram_canonical
 ,Genetic tools,pyrosequencing,next generation sequencing
 ,Genetic tools,shot gun sequencing,next generation sequencing
 ,Genetic tools,shotgun sequencing,next generation sequencing
-,Genetic tools,RAD seq,RADseq
-,Genetic tools,RADseq,RADseq
-,Genetic tools,restriction site associated,RADseq
 ,Genetic tools,sanger sequencing,sanger sequencing
 ,Genetic tools,whole genome resequencing,whole genome sequencing
 ,Genetic tools,whole genome sequencing,whole genome sequencing
 ,Genetic tools,SOLiD system,next generation sequencing
-,Genetic tools,nuclear DNA,nuDNA
-,Genetic tools,nuDNA,nuDNA
-,Genetic tools,RNA,RNA
 ,Genetic tools,SNPs,single nucleotide polymorphisms

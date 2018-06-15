@@ -5,11 +5,11 @@ make_handpicked_panel <- function(terms_file, cache_file, fig_file,
 
   d <- read.csv(terms_file, strip.white = TRUE, stringsAsFactors = FALSE)
 
-  d <- d %>% group_by(panel) %>%
-    mutate(order = unique(order[!is.na(order)])) %>%
-    ungroup() %>%
-    mutate(panel = paste(order, panel, sep = ": ")) %>%
-    select(-order)
+  d <- d %>% dplyr::group_by(panel) %>%
+    dplyr::mutate(order = unique(order[!is.na(order)])) %>%
+    dplyr::ungroup() %>%
+    dplyr::mutate(panel = paste(order, panel, sep = ": ")) %>%
+    dplyr::select(-order)
 
   d$gram <- tolower(d$gram)
   d$gram <- gsub("-", " ", d$gram)
@@ -23,19 +23,19 @@ make_handpicked_panel <- function(terms_file, cache_file, fig_file,
 
   if (!file.exists(cache_file) || overwrite_cache) {
     out1 <- gram_db1 %>%
-      filter(gram %in% terms[N == 1L]) %>%
-      collect(n = Inf) %>%
-      inner_join(total1)
+      dplyr::filter(gram %in% terms[N == 1L]) %>%
+      dplyr::collect(n = Inf) %>%
+      dplyr::inner_join(total1, by = "year")
 
     out2 <- gram_db2 %>%
-      filter(gram %in% terms[N == 2L]) %>%
-      collect(n = Inf) %>%
-      inner_join(total1)
+      dplyr::filter(gram %in% terms[N == 2L]) %>%
+      dplyr::collect(n = Inf) %>%
+      dplyr::inner_join(total1, by = "year")
 
     out3 <- get_ngram_dat(terms[N == 3L])
 
-    out <- bind_rows(out1, out2) %>%
-      bind_rows(out3) %>%
+    out <- dplyr::bind_rows(out1, out2) %>%
+      dplyr::bind_rows(out3) %>%
       unique()
 
     saveRDS(out, file = cache_file)
@@ -43,7 +43,7 @@ make_handpicked_panel <- function(terms_file, cache_file, fig_file,
     out <- readRDS(cache_file)
   }
 
-  d <- full_join(d, out, by = "gram") %>%
+  d <- dplyr::full_join(d, out, by = "gram") %>%
     dplyr::filter(!is.na(total)) %>%
     unique()
 
