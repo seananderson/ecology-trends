@@ -9,3 +9,17 @@ sql.txt
 urls.txt
 figs
 data/raw/
+*.pdf
+*.rds
+*.html
+*.docx
+*.rda
+shiny/*
+data/decade-top-2000.csv
+data/decade-top-2grams.csv
+data/generated/pop.csv
+data/generated/pop1940.csv
+data/pop.csv
+included.csv
+included_ecology_ecological.csv
+words.csv
