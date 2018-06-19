@@ -20,7 +20,7 @@ darken <- function(color, factor=1.4){
   col
 }
 
-gold <- function() (1 + sqrt(5))/2
+gold <- function() 1 / ((1 + sqrt(5))/2)
 
 pal_func <- function(n) {
   pal <- viridisLite::plasma(n, begin = 0.01, end = 0.84, direction = -1)
