@@ -1,7 +1,7 @@
 make_handpicked_panel <- function(terms_file, cache_file, fig_file,
-                                  fig_width = 6, fig_height = 10,
-                                  right_gap = 64, ncols = 2,
-                                  overwrite_cache = FALSE, ...) {
+  fig_width = 6, fig_height = 10,
+  right_gap = 64, ncols = 2,
+  overwrite_cache = FALSE, ...) {
 
   d <- read.csv(terms_file, strip.white = TRUE, stringsAsFactors = FALSE)
 
@@ -35,18 +35,22 @@ make_handpicked_panel <- function(terms_file, cache_file, fig_file,
       dplyr::collect(n = Inf) %>%
       dplyr::inner_join(total1, by = "year")
 
-    out3 <- get_ngram_dat(terms[N == 3L])
-
-    out <- dplyr::bind_rows(out1, out2) %>%
-      dplyr::bind_rows(out3) %>%
-      unique()
+    if (max(N) == 3) {
+      out3 <- get_ngram_dat(terms[N == 3L])
+      out <- dplyr::bind_rows(out1, out2) %>%
+        dplyr::bind_rows(out3) %>%
+        unique()
+    } else {
+      out <- dplyr::bind_rows(out1, out2) %>%
+        unique()
+    }
 
     readr::write_rds(out, cache_file)
   } else {
     out <- readr::read_rds(cache_file)
   }
 
-  d <- dplyr::full_join(d, out, by = "gram") %>%
+  d <- dplyr::left_join(d, out, by = "gram") %>%
     dplyr::filter(!is.na(total)) %>%
     unique()
 
