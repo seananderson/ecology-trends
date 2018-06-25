@@ -32,7 +32,7 @@ make_handpicked_panel(
   terms_file = "data/genetics-supp.csv",
   cache_file = "data/generated/genetics-supp.rds",
   fig_file   = "figs/genetics-supp.pdf",
-  fig_height = 6.5 / gold() / 1.7,
+  fig_height = 6.5 * gold() * 1 / 2,
   fig_width  = 6.5,
   right_gap  = 82
 )
@@ -49,19 +49,29 @@ make_handpicked_panel(
 
 # General ecology: -----------------------------------------------------------
 make_handpicked_panel(
-  terms_file = "data/scale_panels_2.csv",
-  cache_file = "data/generated/becky-2017-12-14.rds",
-  fig_file   = "figs/scale-panels-2.pdf",
-  fig_height = 10,
-  right_gap  = 64
+  terms_file = "data/ecology_panels_06_19.csv",
+  cache_file = "data/generated/ecology-panels1.rds",
+  fig_file   = "figs/ecology-panels.pdf",
+  fig_height = 6.5 * gold() * 3 / 2,
+  fig_width  = 6.5,
+  right_gap  = 55
+)
+make_handpicked_panel(
+  terms_file = "data/ecology_supp_panels_06_19.csv",
+  cache_file = "data/generated/ecology_supp_panels_06_19.rds",
+  fig_file   = "figs/ecology_supp_panels_06_19.pdf",
+  fig_height = 6.5 * 3 / 2 * gold(),
+  fig_width  = 6.5,
+  right_gap  = 60,
+  ncols =    2
 )
 
 # Social Science: ------------------------------------------------------------
 make_handpicked_panel(
   terms_file = "data/social-ngram.csv",
-  cache_file = "data/generated/social-science-ngrams2.rds",
-  fig_file   = "figs/social-science-panels2.pdf",
-  fig_height = 6.5 * 3 / 2 * gold(),
+  cache_file = "data/generated/social-science-ngrams3.rds",
+  fig_file   = "figs/social-science-panels3.pdf",
+  fig_height = 6.5 * 2 / 2 * gold(),
   fig_width  = 6.5,
   right_gap  = 81
 )
