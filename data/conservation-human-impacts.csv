@@ -1,61 +1,1 @@
-﻿order,panel,gram,gram_canonical
-1,conservation_human_impacts A,conservation,conservation
-,conservation_human_impacts A,biodiversity,biodiversity
-,conservation_human_impacts A,connectivity,connectivity
-,conservation_human_impacts A,restoration,restoration
-,conservation_human_impacts A,preservation,preservation
-4,conservation_human_impacts D,reserve,reserve
-,conservation_human_impacts D,preserve,preserve
-,conservation_human_impacts D,park,park
-,conservation_human_impacts D,protected area,protected area
-,conservation_human_impacts D,PA,protected area
-,conservation_human_impacts D,PAs,protected area
-,conservation_human_impacts D,MPA,marine protected area
-,conservation_human_impacts D,MPAs,marine protected area
-3,conservation_human_impacts C,climate extremes,climate extremes
-,conservation_human_impacts C,weather extremes,climate extremes
-,conservation_human_impacts C,extreme climatic events,climate extremes
-,conservation_human_impacts C,extreme weather events,climate extremes
-,conservation_human_impacts C,emissions,emissions
-,conservation_human_impacts C,greenhouse gas,emissions
-,conservation_human_impacts C,greenhouse gases,emissions
-,conservation_human_impacts C,phenological shifts,range shifts
-,conservation_human_impacts C,range shifts,range shifts
-,conservation_human_impacts C,bleaching,bleaching
-,conservation_human_impacts C,ozone,ozone
-,conservation_human_impacts C,ocean acidification,ocean acidification
-,conservation_human_impacts C,sea level rise,sea level rise
-,conservation_human_impacts C,sealevel rise,sea level rise
-,conservation_human_impacts C,sea level rise,sea level rise
-,conservation_human_impacts C,regime shift,regime shift
-2,conservation_human_impacts B,climate change,climate change
-,conservation_human_impacts B,climatic change,climate change
-,conservation_human_impacts B,global warming,climate change
-,conservation_human_impacts B,extinction,extinction
-,conservation_human_impacts B,overexploitation,overexploitation
-,conservation_human_impacts B,invasive,invasive species
-,conservation_human_impacts B,invasive species,invasive species
-,conservation_human_impacts B,land use change,habitat loss
-,conservation_human_impacts B,landuse change,habitat loss
-,conservation_human_impacts B,land cover change,habitat loss
-,conservation_human_impacts B,habitat loss,habitat loss
-,conservation_human_impacts B,pollution,pollution
-5,conservation_human_impacts E,disturbance,disturbance
-,conservation_human_impacts E,habitat fragmentation,fragmentation
-,conservation_human_impacts E,fragmentation,fragmentation
-,conservation_human_impacts E,deforestation,deforestation
-,conservation_human_impacts E,reforestation,reforestation
-,conservation_human_impacts E,restoration,restoration
-,conservation_human_impacts E,urbanization,urbanization
-6,conservation_human_impacts F,fishing,fishing
-,conservation_human_impacts F,overfishing,fishing
-,conservation_human_impacts F,over fishing,fishing
-,conservation_human_impacts F,harvesting,harvesting
-,conservation_human_impacts F,overharvesting,harvesting
-,conservation_human_impacts F,over harvesting,harvesting
-,conservation_human_impacts F,hunting,hunting
-,conservation_human_impacts F,over hunting,hunting
-,conservation_human_impacts F,overhunting,hunting
-,conservation_human_impacts F,poaching,poaching
-,conservation_human_impacts F,logging,logging
-,conservation_human_impacts F,mining,mining
+﻿order,panel,gram,gram_canonical1,Birth of conservation A,conservation,conservation,Birth of conservation A,restoration,restoration,Birth of conservation A,preservation,preservation2,Threats to biodiversity B,climate change,climate change,Threats to biodiversity B,climatic change,climate change,Threats to biodiversity B,overexploitation,overexploitation,Threats to biodiversity B,invasive,invasive species,Threats to biodiversity B,invasive species,invasive species,Threats to biodiversity B,land use change,habitat loss,Threats to biodiversity B,landuse change,habitat loss,Threats to biodiversity B,land cover change,habitat loss,Threats to biodiversity B,habitat loss,habitat loss,Threats to biodiversity B,pollution,pollution,Threats to biodiversity B,overpopulation,overpopulation,Threats to biodiversity B,human population growth,overpopulation3,Climate change impacts C,climate extremes,climate extremes,Climate change impacts C,climate extreme,climate extremes,Climate change impacts C,weather extremes,climate extremes,Climate change impacts C,weather extreme,climate extremes,Climate change impacts C,extreme climatic events,climate extremes,Climate change impacts C,extreme climatic event,climate extremes,Climate change impacts C,extreme weather events,climate extremes,Climate change impacts C,extreme weather event,climate extremes,Climate change impacts C,phenological shifts,range shifts,Climate change impacts C,phenological shift,range shifts,Climate change impacts C,range shifts,range shifts,Climate change impacts C,range shift,range shifts,Climate change impacts C,bleaching,bleaching,Climate change impacts C,ozone,ozone,Climate change impacts C,ocean acidification,ocean acidification,Climate change impacts C,sea level rise,sea level rise,Climate change impacts C,sealevel rise,sea level rise,Climate change impacts C,sea level rise,sea level rise,Climate change impacts C,regime shift,regime shift,Climate change impacts C,regime shifts,regime shift,Climate change impacts C,global warming,global warming4,Consequences to species/landscapes D,disturbance,disturbance,Consequences to species/landscapes D,disturbances,disturbance,Consequences to species/landscapes D,habitat fragmentation,fragmentation,Consequences to species/landscapes D,fragmentation,fragmentation,Consequences to species/landscapes D,deforestation,deforestation,Consequences to species/landscapes D,restoration,restoration,Consequences to species/landscapes D,urbanization,urbanization,Consequences to species/landscapes D,extinction,extinction,Consequences to species/landscapes D,extinctions,extinction5,Species/resource exploitation E,fishing,fishing,Species/resource exploitation E,overfishing,fishing,Species/resource exploitation E,over fishing,fishing,Species/resource exploitation E,harvesting,harvesting,Species/resource exploitation E,overharvesting,harvesting,Species/resource exploitation E,over harvesting,harvesting,Species/resource exploitation E,hunting,hunting,Species/resource exploitation E,over hunting,hunting,Species/resource exploitation E,overhunting,hunting,Species/resource exploitation E,poaching,poaching,Species/resource exploitation E,logging,logging,Species/resource exploitation E,mining,mining6,Geographic protection F,reserve,reserve,Geographic protection F,reserves,reserve,Geographic protection F,preserve,preserve,Geographic protection F,preserves,preserve,Geographic protection F,park,park,Geographic protection F,parks,park,Geographic protection F,protected area,protected area,Geographic protection F,protected areas,protected area,Geographic protection F,PA,protected area,Geographic protection F,PAs,protected area,Geographic protection F,MPA,marine protected area,Geographic protection F,MPAs,marine protected area,Geographic protection F,marine protected area,marine protected area,Geographic protection F,marine protected areas,marine protected area

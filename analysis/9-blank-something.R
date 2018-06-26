@@ -7,6 +7,16 @@ gram_db2 <- dplyr::src_sqlite("data/generated/jstor2-condensed.sqlite3") %>%
 blank_grams <- gram_db2 %>%
   filter(year %in% c(1930:2010)) %>%
   filter(
+      gram %like% "% community" |
+      gram %like% "% ecosystem" |
+      gram %like% "% niche" |
+      gram %like% "% species" |
+
+      gram %like% "ecosystem %" |
+      gram %like% "community %" |
+      gram %like% "species %" |
+      gram %like% "population %" |
+
       gram %like% "% experiment" |
       gram %like% "% experiments" |
       # gram %like% "% data" |
@@ -28,9 +38,9 @@ blank_grams <- gram_db2 %>%
   # summarise(total = sum(count)) %>%
   collect(n = Inf)
 
-second_words <- c("experiment", "experiments", "analysis", "variability",
-  "ecosystem", "ecosystems", "diversity", "population", "populations",
-  "distribution", "conservation")
+# second_words <- c("experiment", "experiments", "analysis", "variability",
+#   "ecosystem", "ecosystems", "diversity", "population", "populations",
+#   "distribution", "conservation")
 
 save(blank_grams, file = "data/generated/blank_grams.rda")
 load("data/generated/blank_grams.rda")
@@ -42,8 +52,24 @@ x <- blank_grams %>%
   mutate(first_word = stringr::str_split(gram, " ", simplify = TRUE)[,1]) %>%
   mutate(panel = second_word)
 
+# swap some first and second words so second word is always panel:
+orig_x <- x
+x <- filter(x, !first_word %in% c("ecosystem", "community", "species", "population"))
+swap <- filter(orig_x, first_word %in% c("ecosystem", "community", "species", "population"))
+swap <- mutate(swap,
+  temp_word = first_word,
+  first_word = second_word,
+  second_word = paste(temp_word, "as first"),
+  panel = second_word
+) %>% select(-temp_word)
+x <- bind_rows(x, swap)
+x <- unique(x)
+rm(orig_x, swap)
+assertthat::assert_that(length(unique(x$panel)) < 40)
+assertthat::assert_that(length(unique(x$second_word)) < 40)
+
 # in case the cached data includes words that are no longer used:
-x <- filter(x, second_word %in% second_words)
+# x <- filter(x, second_word %in% second_words)
 
 x <- filter(x, nchar(first_word) >= 4, !grepl("[0-9]+", first_word))
 
@@ -60,9 +86,11 @@ x_top <- x %>%
   top_n(n = 60, wt = total)
 
 x_top2 <- mutate(x_top,
-  first_word_type = treetag(first_word, format = "obj")@TT.res$wclass) %>%
+  first_word_type = get_speech_part(first_word)) %>%
   filter(first_word_type %in% c("adjective", "noun")) %>%
-  mutate(lemma = treetag(first_word, format = "obj")@TT.res$lemma)
+  mutate(lemma = get_lemma(first_word))
+
+x_top2 <- mutate(x_top2, lemma = ifelse(lemma == "functioning", "function", lemma))
 
 filter(x_top2, lemma == "<unknown>") %>% as.data.frame()
 x_top2 <- filter(x_top2, !first_word %in% c("ecol",
@@ -73,10 +101,18 @@ x_top2$lemma[x_top2$first_word == "unpubl"] <- "unpublished"
 x_top2$lemma[x_top2$lemma == "<unknown>"] <- x_top2$first_word[x_top2$lemma == "<unknown>"]
 
 x_top2 <- mutate(x_top2,
-  panel_lemma = treetag(panel, format = "obj")@TT.res$lemma)
+  panel_lemma =
+    treetag(gsub(" as first", "", panel), format = "obj")@TT.res$lemma)
+x_top2 <- x_top2 %>% mutate(panel_lemma =
+    ifelse(grepl(" as first", panel), paste(panel_lemma, "as first"), panel_lemma))
+x_top2 <- x_top2 %>% mutate(panel_lemma = gsub("^specie$", "species", panel_lemma))
+x_top2 <- x_top2 %>% mutate(panel_lemma = gsub("^specie as first$",
+  "species as first", panel_lemma))
 
 top_lemmas <- group_by(x_top2, panel_lemma, lemma) %>%
   filter(!(panel_lemma == "conservation" & lemma == "biological")) %>%
+  filter(!(panel_lemma == "species" & lemma == "many")) %>%
+  filter(!(panel_lemma == "species" & lemma == "different")) %>%
   filter(!(panel_lemma == "experiment" & lemma == "present")) %>%
   filter(!(panel_lemma == "experiment" & lemma == "previous")) %>%
   summarise(total = sum(total)) %>%
@@ -110,7 +146,7 @@ top_lemmas_second_cut <- group_by(top_lemmas, panel_lemma, lemma) %>%
 gd <- inner_join(gd, select(top_lemmas_second_cut, -total),
   by = c("panel_lemma", "lemma"))
 
-gd <- gd %>% mutate(lemma = gsub("specie", "species", lemma))
+gd <- gd %>% mutate(lemma = gsub("specie$", "species", lemma))
 gd <- gd %>% mutate(lemma = gsub("datum", "data", lemma))
 gd <- gd %>% mutate(panel_lemma = gsub("datum", "data", panel_lemma))
 gd <- gd %>% filter(panel_lemma != "scale")
@@ -138,29 +174,114 @@ plot_blanks <- function(dat, right_gap = 40,
     col = "grey45", cex = 0.85, las = 0)
 }
 
-gd$panel_lemma <- factor(gd$panel_lemma, levels = c(
+# gd$panel_lemma <- factor(gd$panel_lemma, levels = c(
+#   "conservation",
+#   "ecosystem",
+#   "population",
+#   "diversity",
+#   "variability",
+#   "distribution",
+#   "experiment",
+#   "analysis"))
+
+
+
+panels_ <- c(
+
+  "species as first",
+  "species",
   "conservation",
-  "ecosystem",
+
+  "population as first",
   "population",
   "diversity",
-  "variability",
-  "distribution",
-  "experiment",
-  "analysis"))
 
-pdf("figs/blanks-viridis2.pdf", width = 6.5, height = 6.5 * 2 * gold())
-gd %>%
+  "community as first",
+  "community",
+  "experiment",
+
+  "ecosystem as first" ,
+  "ecosystem",
+  "analysis"
+
+  # "variability",
+  # "niche",
+  # "distribution",
+
+)
+
+gd_ <- filter(gd, panel_lemma %in% panels_)
+gd_$panel_lemma <- factor(gd_$panel_lemma, levels = panels_)
+
+gd_$panel_lemma <- forcats::fct_recode(gd_$panel_lemma,
+  `species ____` = "species as first",
+  `population ____` = "population as first",
+  `community ____` = "community as first",
+  `ecosystem ____` = "ecosystem as first",
+  `____ species` = "species",
+  `____ ecosystem` = "ecosystem",
+  `____ population` = "population",
+  `____ community` = "community",
+
+  `____ conservation` = "conservation",
+  `____ diversity` = "diversity",
+  `____ experiment` = "experiment",
+  `____ analysis` = "analysis"
+)
+
+# pdf("figs/blanks-viridis2.pdf", width = 6.5, height = 6.5 * 2 * gold())
+pdf("figs/blanks-viridis4.pdf", width = 9, height = 9 * 4/3  * gold()*1.07)
+gd_ %>%
   plot_blanks(right_gap = 34, log_y = FALSE,
-    bottom_frac_up = 0.02, label_gap = -1.0,
+    bottom_frac_up = 0.04, label_gap = -1.0,
     show_seg = TRUE, pal = pal_func)
 dev.off()
 
-pdf("figs/blanks2.pdf", width = 6.5, height = 6.5 * 2 * gold())
-gd %>%
-  plot_blanks(right_gap = 34, log_y = FALSE,
-    bottom_frac_up = 0.02, label_gap = -1.0,
-    show_seg = TRUE)
+pairs <- c(
+  "species as first",
+  "species",
+  "population as first",
+  "population",
+  "community as first",
+  "community",
+  "ecosystem as first" ,
+  "ecosystem"
+)
+
+gd2 <- filter(gd, panel_lemma %in% pairs)
+gd2$panel_lemma <- factor(gd2$panel_lemma, levels = pairs)
+
+gd2$panel_lemma <- forcats::fct_recode(gd2$panel_lemma,
+  `species ____` = "species as first",
+  `population ____` = "population as first",
+  `community ____` = "community as first",
+  `ecosystem ____` = "ecosystem as first",
+  `____ species` = "species",
+  `____ ecosystem` = "ecosystem",
+  `____ population` = "population",
+  `____ community` = "community"
+)
+
+pal_func <- function(n) {
+  viridisLite::plasma(n, begin = 0.0, end = 0.86, direction = -1)
+  # viridisLite::magma(n, begin = 0.01, end = 0.85, direction = -1)
+  # RColorBrewer::brewer.pal(n, "Dark2")
+}
+
+pdf("figs/blanks-paired.pdf", width = 6.5, height = 6.5 * 4/2  * gold())
+gd2 %>%
+  plot_blanks(right_gap = 23, log_y = FALSE,
+    bottom_frac_up = 0.03, label_gap = -1.0,
+    show_seg = TRUE, pal = pal_func)
 dev.off()
+
+
+# pdf("figs/blanks2.pdf", width = 6.5, height = 6.5 * 2 * gold())
+# gd %>%
+#   plot_blanks(right_gap = 34, log_y = FALSE,
+#     bottom_frac_up = 0.02, label_gap = -1.0,
+#     show_seg = TRUE)
+# dev.off()
 
 # This is the top 8 *blank* data/ecology/experiment/model lemmas/standardized
 # ngrams from

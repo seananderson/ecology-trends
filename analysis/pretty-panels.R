@@ -29,8 +29,8 @@ pal_func <- function(n) {
 ecogram_panel <- function(x,
   pal = function(n) RColorBrewer::brewer.pal(n, "Dark2"),
   year_limits = c(1930, 2010),
-  right_gap = 30, xaxes = NULL, stop_lab = 0.7, darken_factor = 1.0,
-  label_gap = -1.9, label_cex = 0.85, bottom_frac_up = 0.025, log_y = FALSE,
+  right_gap = 30, xaxes = NULL, stop_lab = 0.77, darken_factor = 1.0,
+  label_gap = -1.9, label_cex = 0.85, bottom_frac_up = 0.025, log_y = FALSE, ncols = 2,
   show_seg = TRUE, yfrac_let = 0.08, ymax = NULL,
   lab_text = "", label_side = c("right", "left")) {
 
@@ -97,7 +97,7 @@ ecogram_panel <- function(x,
 
   lower <- 0
   if (log_y) lower <- 0.1
-  ylim <- c(lower, current_max * 1.06)
+  ylim <- c(lower, current_max * 1.10)
 
   log_arg <- ifelse(log_y, "y", "")
 
@@ -117,7 +117,8 @@ ecogram_panel <- function(x,
     arrange(first_year) %>%
     pull(gram_canonical)
 
-  max_axis2 <- ifelse(ii %in% c(1, 2), current_max, current_max*stop_lab)
+  max_axis2 <- ifelse(ii %in% seq_len(ncols),
+    current_max, current_max*stop_lab)
   axis(2, col.ticks = "grey80", col = NA,
     at = pretty(seq(0, max_axis2, length.out = 200), n = 3))
 
@@ -184,7 +185,7 @@ ecogram_panels <- function(dat, right_gap = 50, ncols = 2, ...) {
   ii <<- 1
   xaxes <- seq(npanels - (ncols - 1), npanels)
   mutate(dat, total_words = total_words/1e5, total = total) %>%
-    plyr::d_ply("panel", ecogram_panel, right_gap = right_gap, xaxes = xaxes,
+    plyr::d_ply("panel", ecogram_panel, right_gap = right_gap, xaxes = xaxes, ncols = ncols,
       ...)
   mtext("Frequency per 100,000 words", side = 2, outer = TRUE, line = -0.05,
     col = "grey45", cex = 0.85, las = 0)

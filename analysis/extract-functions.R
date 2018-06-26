@@ -113,3 +113,21 @@ gram_db1 <- dplyr::src_sqlite("data/generated/jstor1-condensed.sqlite3") %>%
   dplyr::tbl("ngrams")
 gram_db2 <- dplyr::src_sqlite("data/generated/jstor2-condensed.sqlite3") %>%
   dplyr::tbl("ngrams")
+
+get_speech_part <- function(.x) {
+  # as.character(vapply(.x,
+    # function(xx)
+      # as.character(koRpus::treetag(xx, format = "obj")@TT.res$wclass), character(1)))
+
+  koRpus::treetag(paste0(.x, "."), format = "obj")@TT.res %>% filter(lemma != ".") %>%
+    pull(wclass)
+}
+
+get_lemma <- function(.x) {
+  # as.character(vapply(.x,
+  #   function(xx)
+  #     as.character(koRpus::treetag(xx, format = "obj")@TT.res$lemma), character(1)))
+
+  koRpus::treetag(paste0(.x, "."), format = "obj")@TT.res %>% filter(lemma != ".") %>%
+    pull(lemma)
+}
