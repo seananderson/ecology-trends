@@ -23,7 +23,11 @@ darken <- function(color, factor=1.4){
 gold <- function() 1 / ((1 + sqrt(5))/2)
 
 pal_func <- function(n) {
-  pal <- viridisLite::plasma(n, begin = 0.01, end = 0.84, direction = -1)
+  viridisLite::plasma(n, begin = 0.00, end = 0.85, direction = -1)
+}
+
+pal_func2 <- function(n) {
+  viridisLite::viridis(n, begin = 0.0, end = 0.87, direction = -1)
 }
 
 ecogram_panel <- function(x,
@@ -185,8 +189,10 @@ ecogram_panels <- function(dat, right_gap = 50, ncols = 2, ...) {
   ii <<- 1
   xaxes <- seq(npanels - (ncols - 1), npanels)
   mutate(dat, total_words = total_words/1e5, total = total) %>%
-    plyr::d_ply("panel", ecogram_panel, right_gap = right_gap, xaxes = xaxes, ncols = ncols,
-      ...)
+    plyr::d_ply("panel", function(x) {
+      ecogram_panel(x, right_gap = right_gap, xaxes = xaxes, ncols = ncols,
+      lab_text = as.character(unique(gsub("[0-9]+: ", "", x$panel))),
+      ...)})
   mtext("Frequency per 100,000 words", side = 2, outer = TRUE, line = -0.05,
     col = "grey45", cex = 0.85, las = 0)
 }

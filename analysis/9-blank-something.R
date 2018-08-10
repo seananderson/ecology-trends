@@ -17,6 +17,11 @@ blank_grams <- gram_db2 %>%
       gram %like% "species %" |
       gram %like% "population %" |
 
+      gram %like% "niche %" |
+      gram %like% "% niche" |
+
+      gram %like% "% theory" |
+
       gram %like% "% experiment" |
       gram %like% "% experiments" |
       # gram %like% "% data" |
@@ -38,12 +43,24 @@ blank_grams <- gram_db2 %>%
   # summarise(total = sum(count)) %>%
   collect(n = Inf)
 
-# second_words <- c("experiment", "experiments", "analysis", "variability",
-#   "ecosystem", "ecosystems", "diversity", "population", "populations",
-#   "distribution", "conservation")
-
 save(blank_grams, file = "data/generated/blank_grams.rda")
 load("data/generated/blank_grams.rda")
+
+blank_grams3 <- ngrams3 %>%
+  filter(year %in% c(1930:2010)) %>%
+  filter(
+    gram %like% "theory of %"
+  ) %>%
+  group_by(year, gram) %>%
+  summarise(total = sum(count)) %>%
+  collect(n = Inf)
+
+save(blank_grams3, file = "data/generated/blank_grams3.rda")
+load("data/generated/blank_grams3.rda")
+
+blank_grams3 <- blank_grams3 %>%
+  mutate(gram = gsub("theory of", "theory-of", gram))
+blank_grams <- bind_rows(blank_grams, blank_grams3)
 
 blank_grams <- left_join(blank_grams, total1, by = "year")
 
@@ -54,8 +71,10 @@ x <- blank_grams %>%
 
 # swap some first and second words so second word is always panel:
 orig_x <- x
-x <- filter(x, !first_word %in% c("ecosystem", "community", "species", "population"))
-swap <- filter(orig_x, first_word %in% c("ecosystem", "community", "species", "population"))
+x <- filter(x, !first_word %in%
+    c("ecosystem", "community", "species", "population", "theory-of", "niche"))
+swap <- filter(orig_x, first_word %in%
+    c("ecosystem", "community", "species", "population", "theory-of", "niche"))
 swap <- mutate(swap,
   temp_word = first_word,
   first_word = second_word,
@@ -122,14 +141,31 @@ top_lemmas <- group_by(x_top2, panel_lemma, lemma) %>%
 terms <- filter(x_top2, lemma %in% top_lemmas$lemma)
 grams <- unique(terms$gram)
 
+grams2 <- grams[!grepl("theory-of", grams)]
+grams3 <- gsub("-", " ", grams[grepl("theory-of", grams)])
+
 gram_dat <- gram_db2 %>%
   filter(year %in% c(1930:2010)) %>%
-  filter(gram %in% grams) %>%
+  filter(gram %in% grams2) %>%
   collect(n = Inf) %>%
   left_join(total1, by = "year")
 
 save(gram_dat, file = "data/generated/top-blank.rda")
 load("data/generated/top-blank.rda")
+
+gram_dat3 <- ngrams3 %>%
+  filter(year %in% c(1930:2010)) %>%
+  filter(gram %in% grams3) %>%
+  group_by(year, gram) %>%
+  summarise(total = sum(count)) %>%
+  collect(n = Inf)
+
+save(gram_dat3, file = "data/generated/top-blank3.rda")
+load("data/generated/top-blank3.rda")
+
+gram_dat3 <- left_join(gram_dat3, total1, by = "year")
+gram_dat3 <- gram_dat3 %>% mutate(gram = gsub("theory of", "theory-of", gram))
+gram_dat <- bind_rows(gram_dat, gram_dat3)
 
 gd <- inner_join(gram_dat, rename(terms, total_over_time = total), by = "gram")
 gd <- group_by(gd, year, panel_lemma, lemma, total_words) %>%
@@ -149,10 +185,11 @@ gd <- inner_join(gd, select(top_lemmas_second_cut, -total),
 gd <- gd %>% mutate(lemma = gsub("specie$", "species", lemma))
 gd <- gd %>% mutate(lemma = gsub("datum", "data", lemma))
 gd <- gd %>% mutate(panel_lemma = gsub("datum", "data", panel_lemma))
+gd <- gd %>% mutate(panel_lemma = gsub("<unknown> as first", "theory-of as first", panel_lemma))
 gd <- gd %>% filter(panel_lemma != "scale")
 
 plot_blanks <- function(dat, right_gap = 40,
-  label_cex = 0.85, ...) {
+  label_cex = 0.85, one_pal = FALSE, ...) {
   dat <- dat %>%
     mutate(gram_canonical = lemma, panel = panel_lemma) %>%
     arrange(panel, gram_canonical, year)
@@ -166,8 +203,13 @@ plot_blanks <- function(dat, right_gap = 40,
   xaxes <- seq(n - (ncols - 1), n)
   mutate(dat, total_words = total_words/1e5, total = total) %>%
     plyr::d_ply("panel", function(x) {
+      if (!one_pal)
+        pal <- if (ii %in% c(1, 2, 4, 5, 7, 8, 10, 11)) pal_func else pal_func2
+      else
+        pal <- pal_func
       ecogram_panel(x, xaxes = xaxes,
-        right_gap = right_gap, label_cex = label_cex, yfrac_let = 0.06,
+        right_gap = right_gap, label_cex = label_cex, yfrac_let = 0.06, ncols = ncols,
+        pal  = pal,
         lab_text = paste(simple_cap(as.character(unique(x$panel))),
           collapse = ""), ...)})
   mtext("Frequency per 100,000 words", side = 2, outer = TRUE, line = -.4,
@@ -183,8 +225,6 @@ plot_blanks <- function(dat, right_gap = 40,
 #   "distribution",
 #   "experiment",
 #   "analysis"))
-
-
 
 panels_ <- c(
 
@@ -230,11 +270,11 @@ gd_$panel_lemma <- forcats::fct_recode(gd_$panel_lemma,
 )
 
 # pdf("figs/blanks-viridis2.pdf", width = 6.5, height = 6.5 * 2 * gold())
-pdf("figs/blanks-viridis4.pdf", width = 9, height = 9 * 4/3  * gold()*1.07)
+pdf("figs/blanks-viridis5.pdf", width = 9, height = 9 * 4/3  * gold()*1.07)
 gd_ %>%
   plot_blanks(right_gap = 34, log_y = FALSE,
     bottom_frac_up = 0.04, label_gap = -1.0,
-    show_seg = TRUE, pal = pal_func)
+    show_seg = TRUE)
 dev.off()
 
 pairs <- c(
@@ -273,6 +313,15 @@ gd2 %>%
   plot_blanks(right_gap = 23, log_y = FALSE,
     bottom_frac_up = 0.03, label_gap = -1.0,
     show_seg = TRUE, pal = pal_func)
+dev.off()
+
+pdf("figs/blanks-extras-2018-08-09.pdf", width = 8, height = 8 * gold()*1.15)
+gd %>%
+  filter(panel_lemma %in% c("theory", "theory-of as first", "niche", "niche as first")) %>%
+  mutate(panel_lemma = gsub("theory-of as first", "theory of as first", panel_lemma)) %>%
+  plot_blanks(right_gap = 34, log_y = FALSE,
+    bottom_frac_up = 0.04, label_gap = -1.0,
+    show_seg = TRUE, one_pal = TRUE)
 dev.off()
 
 
