@@ -160,14 +160,14 @@ df <- tibble(decade = c("1940s", "1940s", "2000s", "2000s"),
   gram_num = c("1-grams", "2-grams", "1-grams", "2-grams"),
   ymax = c(1200, 50, 1200, 50))
 
-pdf("figs/decades.pdf", width = 7, height = 5.9)
-pop1_plot %>% mutate(gram_num = "1-grams") %>%
-  bind_rows(mutate(pop2_plot, gram_num = "2-grams")) %>%
-  inner_join(df, by = c("decade", "gram_num")) %>%
-  plot_decades(right_gap = 36, log_y = FALSE,
-    bottom_frac_up = 0.015, label_gap = -1.0,
-    show_seg = TRUE)
-dev.off()
+# pdf("figs/decades.pdf", width = 7, height = 5.9)
+# pop1_plot %>% mutate(gram_num = "1-grams") %>%
+#   bind_rows(mutate(pop2_plot, gram_num = "2-grams")) %>%
+#   inner_join(df, by = c("decade", "gram_num")) %>%
+#   plot_decades(right_gap = 36, log_y = FALSE,
+#     bottom_frac_up = 0.015, label_gap = -1.0,
+#     show_seg = TRUE)
+# dev.off()
 
 # booming -----------------------------------------------------------
 pop1 <- readRDS("data/generated/pop1-cleaned.rds")
