@@ -6,7 +6,7 @@ files <-
     "methods-models-genetics2.pdf",
     "conservation-human-impacts.pdf",
     "social-science-panels3.pdf",
-    "booms.pdf",
+    "booms-viridis.pdf",
     "stats-supp.pdf",
     # "ecology_supp_panels_06_19.pdf",
     "genetics-supp.pdf",
