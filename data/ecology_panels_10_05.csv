@@ -7,13 +7,13 @@ order,panel,gram,gram_canonical
 ,Scale,community,community
 ,Scale,ecosystem,ecosystem
 ,Scale,metapopulation,metapopulation
-2,Scale sans species,gene,gene
-,Scale sans species,cell,cell
-,Scale sans species,population,population
-,Scale sans species,organism,organism
-,Scale sans species,community,community
-,Scale sans species,ecosystem,ecosystem
-,Scale sans species,metapopulation,metapopulation
+2,Scale without 'species',gene,gene
+,Scale without 'species',cell,cell
+,Scale without 'species',population,population
+,Scale without 'species',organism,organism
+,Scale without 'species',community,community
+,Scale without 'species',ecosystem,ecosystem
+,Scale without 'species',metapopulation,metapopulation
 3,Metrics,richness,richness
 ,Metrics,evenness,evenness
 ,Metrics,abundance,abundance
@@ -24,12 +24,17 @@ order,panel,gram,gram_canonical
 ,Theories,theory of island,theory of island
 ,Theories,foraging theory,foraging theory
 ,Theories,neutral theory,neutral theory
-5,Hypotheses,hormone hypothesis,hormone hypothesis
+5,Hypotheses,null hypothesis,null hypothesis
+,Hypotheses,hormone hypothesis,hormone hypothesis
 ,Hypotheses,time hypothesis,time hypothesis
 ,Hypotheses,competition hypothesis,competition hypothesis
 ,Hypotheses,disturbance hypothesis,disturbance hypothesis
 ,Hypotheses,release hypothesis,release hypothesis
-6,Null hypothesis,null hypothesis,null hypothesis
+6,Hypotheses without 'null hypothesis',hormone hypothesis,hormone hypothesis
+,Hypotheses without 'null hypothesis',time hypothesis,time hypothesis
+,Hypotheses without 'null hypothesis',competition hypothesis,competition hypothesis
+,Hypotheses without 'null hypothesis',disturbance hypothesis,disturbance hypothesis
+,Hypotheses without 'null hypothesis',release hypothesis,release hypothesis
 7,Species interactions,predation,predation
 ,Species interactions,competition,competition
 ,Species interactions,commensalism,commensalism

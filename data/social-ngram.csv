@@ -1,56 +1,56 @@
 order,panel,gram,gram_canonical
-1,interventions,community based management,community-based management
-,interventions,community based conservation,community-based management
-,interventions,CBNRM,community-based management
-,interventions,community-based natural,community-based management
-,interventions,ecotourism,ecotourism
-,interventions,certification,certification
-,interventions,ecolabel,certification
-,interventions,eco label,certification
-,interventions,ecolabelling,certification
-,interventions,eco labelling,certification
-,interventions,MSC,certification
-,interventions,FSC,certification
-,interventions,carbon offsetting,offsetting
-,interventions,biodiversity offsetting,offsetting
-,interventions,REDD,REDD
-,interventions,REDD+,REDD
-,interventions,Alternative livelihood,alternative livelihoods
-,interventions,Alternative livelihoods,alternative livelihoods
-,interventions,Alternative income,alternative livelihoods
-2,Human wellbeing,human wellbeing,human well-being
-,Human wellbeing,human well being,human well-being
-,Human wellbeing,Human wildlife conflict,human-wildlife conflict
-,Human wellbeing,Human wildlife conflicts,human-wildlife conflict
-,Human wellbeing,Human wildlife coexistence,human-wildlife conflict
-,Human wellbeing,human health,human health
-,Human wellbeing,child health,human health
-,Human wellbeing,childrens health,human health
-,Human wellbeing,womens health,human health
-,Human wellbeing,poverty,poverty
-,Human wellbeing,poor people,poverty
-,Human wellbeing,food security,food security
-,Human wellbeing,human rights,human rights
-,Human wellbeing,human right,human rights
-3,social science methods,questionnaire,questionnaire
-,social science methods,questionnaires,questionnaire
-,social science methods,participant observation,participant observation
-,social science methods,participant observations,participant observation
-,social science methods,ethnography,etnography
-,social science methods,interview,interview
-,social science methods,interviews,interview
-,social science methods,focus group,focus group
-,social science methods,focus groups,focus group
-4,stakeholders,local community,local community
-,stakeholders,local communities,local community
-,stakeholders,local people,local community
-,stakeholders,indigenous people,indigenous people
-,stakeholders,indigenous groups,indigenous people
-,stakeholders,indigenous group,indigenous people
-,stakeholders,stakeholder,stakeholder
-,stakeholders,stakeholders,stakeholder
-,stakeholders,property rights,property rights
-,stakeholders,customary rights,property rights
-,stakeholders,indigenous rights,property rights
-,stakeholders,traditional rights,property rights
-,stakeholders,participatory,participatory
+1,Interventions,community based management,community-based management
+,Interventions,community based conservation,community-based management
+,Interventions,CBNRM,community-based management
+,Interventions,community-based natural,community-based management
+,Interventions,ecotourism,ecotourism
+,Interventions,certification,certification
+,Interventions,ecolabel,certification
+,Interventions,eco label,certification
+,Interventions,ecolabelling,certification
+,Interventions,eco labelling,certification
+,Interventions,MSC,certification
+,Interventions,FSC,certification
+,Interventions,carbon offsetting,offsetting
+,Interventions,biodiversity offsetting,offsetting
+,Interventions,REDD,REDD
+,Interventions,REDD+,REDD
+,Interventions,Alternative livelihood,alternative livelihoods
+,Interventions,Alternative livelihoods,alternative livelihoods
+,Interventions,Alternative income,alternative livelihoods
+2,Human well-being,human wellbeing,human well-being
+ ,Human well-being,human well being,human well-being
+ ,Human well-being,Human wildlife conflict,human-wildlife conflict
+ ,Human well-being,Human wildlife conflicts,human-wildlife conflict
+ ,Human well-being,Human wildlife coexistence,human-wildlife conflict
+ ,Human well-being,human health,human health
+ ,Human well-being,child health,human health
+ ,Human well-being,childrens health,human health
+ ,Human well-being,womens health,human health
+ ,Human well-being,poverty,poverty
+ ,Human well-being,poor people,poverty
+ ,Human well-being,food security,food security
+ ,Human well-being,human rights,human rights
+ ,Human well-being,human right,human rights
+3,Methods,questionnaire,questionnaire
+ ,Methods,questionnaires,questionnaire
+ ,Methods,participant observation,participant observation
+ ,Methods,participant observations,participant observation
+ ,Methods,ethnography,etnography
+ ,Methods,interview,interview
+ ,Methods,interviews,interview
+ ,Methods,focus group,focus group
+ ,Methods,focus groups,focus group
+4,Stakeholders,local community,local community
+,Stakeholders,local communities,local community
+,Stakeholders,local people,local community
+,Stakeholders,indigenous people,indigenous people
+,Stakeholders,indigenous groups,indigenous people
+,Stakeholders,indigenous group,indigenous people
+,Stakeholders,stakeholder,stakeholder
+,Stakeholders,stakeholders,stakeholder
+,Stakeholders,property rights,property rights
+,Stakeholders,customary rights,property rights
+,Stakeholders,indigenous rights,property rights
+,Stakeholders,traditional rights,property rights
+,Stakeholders,participatory,participatory

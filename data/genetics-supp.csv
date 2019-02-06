@@ -1,16 +1,16 @@
 order,panel,gram,gram_canonical
-1,Genetic tools SupplementA,amplified fragment length polymorphism,AFLP
-,Genetic tools SupplementA,AFLP,AFLP
-2,Genetic tools SupplementB,gene expression,gene expression
-,Genetic tools SupplementA,CRISPR-CAS,CRISPR-CAS
-,Genetic tools SupplementB,microarray,microarray
-,Genetic tools SupplementA,microsatellites,microsatellites and minisatellites
-,Genetic tools SupplementA,minisatellites,microsatellites and minisatellites
-,Genetic tools SupplementA,mitochondrial DNA,mtDNA
-,Genetic tools SupplementA,mtDNA,mtDNA
-,Genetic tools SupplementB,RAD seq,RADseq
-,Genetic tools SupplementB,RADseq,RADseq
-,Genetic tools SupplementB,restriction site associated,RADseq
-,Genetic tools SupplementA,nuclear DNA,nuDNA
-,Genetic tools SupplementA,nuDNA,nuDNA
-,Genetic tools SupplementB,RNA,RNA
+1,Genetic tools extra 1,amplified fragment length polymorphism,AFLP
+ ,Genetic tools extra 1,AFLP,AFLP
+ ,Genetic tools extra 1,minisatellites,microsatellites and minisatellites
+ ,Genetic tools extra 1,mitochondrial DNA,mtDNA
+ ,Genetic tools extra 1,nuclear DNA,nuDNA
+ ,Genetic tools extra 1,nuDNA,nuDNA
+ ,Genetic tools extra 1,mtDNA,mtDNA
+ ,Genetic tools extra 1,CRISPR-CAS,CRISPR-CAS
+ ,Genetic tools extra 2,microsatellites,microsatellites and minisatellites
+2,Genetic tools extra 2,gene expression,gene expression
+ ,Genetic tools extra 2,microarray,microarray
+ ,Genetic tools extra 2,RAD seq,RADseq
+ ,Genetic tools extra 2,RADseq,RADseq
+ ,Genetic tools extra 2,restriction site associated,RADseq
+ ,Genetic tools extra 2,RNA,RNA
