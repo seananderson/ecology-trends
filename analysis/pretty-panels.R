@@ -34,8 +34,8 @@ ecogram_panel <- function(x,
   pal = function(n) RColorBrewer::brewer.pal(n, "Dark2"),
   year_limits = c(1930, 2010),
   right_gap = 30, xaxes = NULL, stop_lab = 0.77, darken_factor = 1.0,
-  label_gap = -1.9, label_cex = 0.85, bottom_frac_up = 0.025, log_y = FALSE, ncols = 2,
-  show_seg = TRUE, yfrac_let = 0.08, ymax = NULL,
+  label_gap = -1.9, label_cex = 0.85, bottom_frac_up = 0.025, log_y = FALSE,
+  ncols = 2, show_seg = TRUE, yfrac_let = 0.08, ymax = NULL,
   lab_text = "", label_side = c("right", "left")) {
 
   x <- dplyr::filter(x, year >= year_limits[1], year <= year_limits[2])
@@ -101,7 +101,7 @@ ecogram_panel <- function(x,
 
   lower <- 0
   if (log_y) lower <- 0.1
-  ylim <- c(lower, current_max * 1.10)
+  ylim <- c(lower, current_max * 1.15)
 
   log_arg <- ifelse(log_y, "y", "")
 
@@ -164,10 +164,12 @@ ecogram_panel <- function(x,
     segments(x0 = year_limits[2], x1 = year_limits[2]+1.2,
       y0 = lab$y, y1 = lab$ynew,
       col = "grey75", lwd = 0.65)
-  add_label(xfrac = 0.0, yfrac = yfrac_let, label = LETTERS[[ii]], cex = 1.2)
+  add_label(xfrac = 0.0, yfrac = yfrac_let, label = letters[[ii]], cex = 1.5,
+    font = 2)
 
   u <- par("usr")
-  x <- u[1] + 0.0 * (u[2] - u[1]) + strwidth(LETTERS[[ii]]) + strwidth("  ")
+  x <- u[1] + 0.0 * (u[2] - u[1]) + strwidth(letters[[ii]], font = 2, cex = 1.4) +
+    strwidth("  ")
   y <- u[4] - yfrac_let * (u[4] - u[3])
   text(x, y, labels = lab_text, pos = 4, col = "grey50", cex = 1.2)
   ii <<- ii + 1
