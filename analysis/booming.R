@@ -45,7 +45,7 @@ plot_boom <- function(dat, right_gap = 15,
     plyr::d_ply("panel", function(x) {
       ecogram_panel(x, xaxes = xaxes,
         right_gap = right_gap, label_cex = label_cex, yfrac_let = 0.06,
-        lab_text = paste(simple_cap(unique(x$panel)), collapse = ""),
+        lab_text = paste(I(unique(x$panel)), collapse = ""),
         bottom_frac_up = 0.02, label_gap = -1.0,
         show_seg = TRUE,
         label_side = if(ii %in% 2:3) "right" else "right", ...)
@@ -75,7 +75,7 @@ plot_decades_and_boom <- function(dat, right_gap = 15,
     plyr::d_ply("panel", function(x) {
       ecogram_panel(x, xaxes = xaxes,
         right_gap = right_gap, label_cex = label_cex, yfrac_let = 0.06,
-        lab_text = paste(simple_cap(as.character(unique(x$panel))), collapse = ""),
+        lab_text = paste(I(as.character(unique(x$panel))), collapse = ""),
         bottom_frac_up = 0.02, label_gap = -1.0,
         show_seg = TRUE,
         label_side = if(ii %in% 2:3) "right" else "right", ...)
