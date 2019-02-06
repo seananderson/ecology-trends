@@ -21,7 +21,6 @@ blank_grams <- gram_db2 %>%
       gram %like% "% niche" |
 
       gram %like% "% theory" |
-      gram %like% "% hypothesis" |
 
       gram %like% "% experiment" |
       gram %like% "% experiments" |
@@ -50,10 +49,7 @@ load("data/generated/blank_grams.rda")
 blank_grams3 <- ngrams3 %>%
   filter(year %in% c(1930:2010)) %>%
   filter(
-    gram %like% "theory of %" |
-    gram %like% "hypothesis of %" |
-    gram %like% "% theory" |
-    gram %like% "% hypothesis"
+    gram %like% "theory of %"
   ) %>%
   group_by(year, gram) %>%
   summarise(total = sum(count)) %>%
@@ -62,51 +58,8 @@ blank_grams3 <- ngrams3 %>%
 save(blank_grams3, file = "data/generated/blank_grams3.rda")
 load("data/generated/blank_grams3.rda")
 
-get_n_term <- function(x, n) {
-  unlist(lapply(x, function(.x) strsplit(.x, " ")[[1]][n]))
-}
-
 blank_grams3 <- blank_grams3 %>%
-  mutate(gram1 = get_n_term(gram, 1),
-    gram2 = get_n_term(gram, 2),
-    gram3 = get_n_term(gram, 3))
-
-blank_grams3_swap <- filter(blank_grams3,
-  gram1 %in% c("theory", "hypothesis"))
-blank_grams3_noswap <- filter(blank_grams3,
-  !gram1 %in% c("theory", "hypothesis"))
-
-blank_grams3_swap <- mutate(blank_grams3_swap,
-  temp_word = gram1,
-  gram1 = gram2,
-  gram2 = gram3,
-  gram3 = paste(temp_word, "as first")) %>%
-  select(-temp_word)
-
-blank_grams3 <- bind_rows(blank_grams3_noswap, blank_grams3_swap)
-
-blank_grams3 %>% group_by(gram) %>% summarise(sum_total = sum(total), gram3 = gram3[[1]]) %>% filter(sum_total > 50) %>% arrange(gram3, -sum_total) %>% rename(panel = gram3) %>% readr::write_csv("data/generated/blank-3-grams-2018-08-16.csv")
-
-  blank_grams3 %>% left_join(total1) %>%
-  saveRDS("data/generated/blank-3-grams-2018-08-16-raw.rds")
-
-blank_grams <- blank_grams %>%
-  mutate(gram1 = get_n_term(gram, 1),
-    gram2 = get_n_term(gram, 2))
-
-blank_grams %>% filter(gram2 == "hypothesis") %>%
-  group_by(gram) %>% summarise(sum_total = sum(total), gram2 = gram2[[1]]) %>%
-  filter(sum_total > 50) %>%
-  arrange(gram2, -sum_total) %>% rename(panel = gram2) %>% readr::write_csv("data/generated/blank-2-grams-2018-08-16.csv")
-
-
-blank_grams %>% left_join(total1) %>% filter(gram2 == "hypothesis") %>%
-  saveRDS("data/generated/blank-2-grams-2018-08-16-raw.rds")
-
-##### broken from here!!!!!!!!!!!!!!!!!!1
-blank_grams3 <- blank_grams3 %>%
-  mutate(
-    gram = gsub("theory of", "theory-of", gram))
+  mutate(gram = gsub("theory of", "theory-of", gram))
 blank_grams <- bind_rows(blank_grams, blank_grams3)
 
 blank_grams <- left_join(blank_grams, total1, by = "year")
