@@ -2,7 +2,7 @@ files <-
   c(
     "decades-and-booms-viridis.pdf",
     "blanks-viridis5.pdf",
-    "ecology-panels.pdf",
+    "ecology-panels3.pdf",
     "methods-models-genetics2.pdf",
     "conservation-human-impacts.pdf",
     "social-science-panels3.pdf",
