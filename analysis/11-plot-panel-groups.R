@@ -49,21 +49,12 @@ make_handpicked_panel(
 
 # General ecology: -----------------------------------------------------------
 make_handpicked_panel(
-  terms_file = "data/ecology_panels_06_19.csv",
-  cache_file = "data/generated/ecology-panels1.rds",
-  fig_file   = "figs/ecology-panels.pdf",
-  fig_height = 6.5 * gold() * 3 / 2,
+  terms_file = "data/ecology_panels_10_05.csv",
+  cache_file = "data/generated/ecology-panels2.rds",
+  fig_file   = "figs/ecology-panels3.pdf",
+  fig_height = 6.5 * gold() * 4 / 2,
   fig_width  = 6.5,
   right_gap  = 55
-)
-make_handpicked_panel(
-  terms_file = "data/ecology_supp_panels_06_19.csv",
-  cache_file = "data/generated/ecology_supp_panels_06_19.rds",
-  fig_file   = "figs/ecology_supp_panels_06_19.pdf",
-  fig_height = 6.5 * 3 / 2 * gold(),
-  fig_width  = 6.5,
-  right_gap  = 60,
-  ncols =    2
 )
 
 # Social Science: ------------------------------------------------------------

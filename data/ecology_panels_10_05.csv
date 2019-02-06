@@ -1,0 +1,39 @@
+order,panel,gram,gram_canonical
+1,Scale,gene,gene
+,Scale,cell,cell
+,Scale,species,species
+,Scale,population,population
+,Scale,organism,organism
+,Scale,community,community
+,Scale,ecosystem,ecosystem
+,Scale,metapopulation,metapopulation
+2,Scale sans species,gene,gene
+,Scale sans species,cell,cell
+,Scale sans species,population,population
+,Scale sans species,organism,organism
+,Scale sans species,community,community
+,Scale sans species,ecosystem,ecosystem
+,Scale sans species,metapopulation,metapopulation
+3,Metrics,richness,richness
+,Metrics,evenness,evenness
+,Metrics,abundance,abundance
+,Metrics,diversity,diversity
+4,Theories,cell theory,cell theory
+,Theories,climax community,climax community
+,Theories,theory of natural,theory of natural
+,Theories,theory of island,theory of island
+,Theories,foraging theory,foraging theory
+,Theories,neutral theory,neutral theory
+5,Hypotheses,hormone hypothesis,hormone hypothesis
+,Hypotheses,time hypothesis,time hypothesis
+,Hypotheses,competition hypothesis,competition hypothesis
+,Hypotheses,disturbance hypothesis,disturbance hypothesis
+,Hypotheses,release hypothesis,release hypothesis
+6,Null hypothesis,null hypothesis,null hypothesis
+7,Species interactions,predation,predation
+,Species interactions,competition,competition
+,Species interactions,commensalism,commensalism
+,Species interactions,parasitism,parasitism
+,Species interactions,mutualism,mutualism
+,Species interactions,intraspecific,intraspecific
+,Species interactions,interspecific,interspecific

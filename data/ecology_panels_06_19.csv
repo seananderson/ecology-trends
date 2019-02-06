@@ -1,1 +1,39 @@
-﻿order,panel,gram,gram_canonical1,ecology_A,gene,gene,ecology_A,cell,cell,ecology_A,species,species,ecology_A,population,population,ecology_A,community,community,ecology_A,ecosystem,ecosystem,ecology_A,metapopulation,metapopulation2,ecology_B,equilibrium,equilibrium,ecology_B,population dynamics,population dynamics,ecology_B,carrying capacity,carrying capacity,ecology_B,density dependence,density dependence,ecology_B,density dependent,density dependence,ecology_B,top-down,top-down,ecology_B,bottom-up,bottom-up,ecology_B,predator-prey,predator-prey,ecology_B,population growth,population growth3,ecology_C,predation,predation,ecology_C,competition,competition,ecology_C,commensalism,commensalism,ecology_C,parasitism,parasitism,ecology_C,mutualism,mutualism,ecology_C,ammensalism,ammensalism4,ecology_D,niche,niche,ecology_D,neutral theory,neutral theory,ecology_D,community structure,community structure,ecology_D,community assembly,community assembly5,ecology_E,richness,richness,ecology_E,evenness,evenness,ecology_E,diversity,diversity6,ecology_F,alpha diversity,alpha diversity,ecology_F,beta diversity,beta diversity,ecology_F,gamma diversity,gamma diversity
+﻿order,panel,gram,gram_canonical
+1,Scale,gene,gene
+,Scale,cell,cell
+,Scale,species,species
+,Scale,population,population
+,Scale,individual,individual
+,Scale,community,community
+,Scale,ecosystem,ecosystem
+,Scale,metapopulation,metapopulation
+2,Scale sans species,gene,gene
+,Scale sans species,cell,cell
+,Scale sans species,population,population
+,Scale sans species,individual,individual
+,Scale sans species,community,community
+,Scale sans species,ecosystem,ecosystem
+,Scale sans species,metapopulation,metapopulation
+3,Metrics,richness,richness
+,Metrics,evenness,evenness
+,Metrics,diversity,diversity
+4,Theories,niche,niche
+,Theories,climax community,climax community
+,Theories,island biogeography,island biogeography
+,Theories,neutral theory,neutral theory
+,Theories,natural selection,natural selection
+,Theories,succession,succession
+5,Types of interactions,predation,predation
+,Types of interactions,competition,competition
+,Types of interactions,commensalism,commensalism
+,Types of interactions,parasitism,parasitism
+,Types of interactions,mutualism,mutualism
+,Types of interactions,intraspecific,intraspecific
+,Types of interactions,interspecific,interspecific
+6,Old community panel,community structure,community structure
+,Old community panel,top down,top down
+,Old community panel,bottom up,bottom up
+,Old community panel,community assembly,community assembly
+,Old community panel,neutral theory,neutral theory
+,Old community panel,climax community,climax community
+,Old community panel,niche theory,niche theory
