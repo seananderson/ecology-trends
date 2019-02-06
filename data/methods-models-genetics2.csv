@@ -1,15 +1,15 @@
 order,panel,gram,gram_canonical
-1,Regression,correlation,correlation
- ,Regression,correlations,correlation
- ,Regression,regression,regression
- ,Regression,regressions,regression
- ,Regression,anova,ANOVA
- ,Regression,t test,t-test
- ,Regression,ttest,t-test
- ,Regression,GLM,GLM
- ,Regression,GLMs,GLM
- ,Regression,generalized linear model,GLM
- ,Regression,generalized linear models,GLM
+1,Models for inference,correlation,correlation
+ ,Models for inference,correlations,correlation
+ ,Models for inference,regression,regression
+ ,Models for inference,regressions,regression
+ ,Models for inference,anova,ANOVA
+ ,Models for inference,t test,t-test
+ ,Models for inference,ttest,t-test
+ ,Models for inference,GLM,GLM
+ ,Models for inference,GLMs,GLM
+ ,Models for inference,generalized linear model,GLM
+ ,Models for inference,generalized linear models,GLM
 2,Statistical paradigms,maximum likelihood,maximum likelihood
  ,Statistical paradigms,least squares,least-squares
  ,Statistical paradigms,least square,least-squares
@@ -28,13 +28,13 @@ order,panel,gram,gram_canonical
  ,Hypothesis testing,pvalues,p-value
  ,Hypothesis testing,significant difference,significant difference
  ,Hypothesis testing,significant differences,significant difference
-4,Unpublished data,unpublished data,unpublished data
- ,Unpublished data,supplementary material,supplementary material
- ,Unpublished data,supplementary materials,supplementary material
- ,Unpublished data,supporting information,supplementary material
- ,Unpublished data,supporting online material,supplementary material
- ,Unpublished data,supporting online materials,supplementary material
- ,Unpublished data,som,supplementary material
+4,Supporting information and unpublished data,unpublished data,unpublished data
+ ,Supporting information and unpublished data,supplementary material,supplementary material
+ ,Supporting information and unpublished data,supplementary materials,supplementary material
+ ,Supporting information and unpublished data,supporting information,supplementary material
+ ,Supporting information and unpublished data,supporting online material,supplementary material
+ ,Supporting information and unpublished data,supporting online materials,supplementary material
+ ,Supporting information and unpublished data,som,supplementary material
 5,Genetic fields,ecological genomics,ecological genomics
  ,Genetic fields,epigenetics,epigenetics
  ,Genetic fields,genetic diversity,genetic diversity
