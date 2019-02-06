@@ -106,6 +106,7 @@ simple_cap <- function(x) {
 }
 
 library("koRpus")
+library("koRpus.lang.en")
 set.kRp.env(TT.cmd =
     "~/Dropbox/bin/treetagger/cmd/tree-tagger-english", lang = "en")
 
