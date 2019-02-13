@@ -13,6 +13,7 @@ pal_func <- function(n) {
 # Methods/Genetics: ----------------------------------------------------------
 make_handpicked_panel(
   terms_file = "data/methods-models-genetics2.csv",
+  csv_out    = "data/generated/methods-models-genetics-out.csv",
   cache_file = "data/generated/method-models-genetics-grams2.rds",
   fig_file   = "figs/methods-models-genetics2.pdf",
   fig_height = 6.5 * 3/2 * gold(),
@@ -40,6 +41,7 @@ make_handpicked_panel(
 # Conservation and human impacts: --------------------------------------------
 make_handpicked_panel(
   terms_file = "data/conservation-human-impacts.csv",
+  csv_out    = "data/generated/conservation-human-impacts-out.csv",
   cache_file = "data/generated/conservation-human-impacts.rds",
   fig_file   = "figs/conservation-human-impacts.pdf",
   fig_height = 6.5 * 3 / 2 * gold(),
@@ -50,6 +52,7 @@ make_handpicked_panel(
 # General ecology: -----------------------------------------------------------
 make_handpicked_panel(
   terms_file = "data/ecology_panels_10_05.csv",
+  csv_out    = "data/generated/general-ecology-out.csv",
   cache_file = "data/generated/ecology-panels2.rds",
   fig_file   = "figs/ecology-panels3.pdf",
   fig_height = 6.5 * gold() * 4 / 2,
@@ -60,6 +63,7 @@ make_handpicked_panel(
 # Social Science: ------------------------------------------------------------
 make_handpicked_panel(
   terms_file = "data/social-ngram.csv",
+  csv_out    = "data/generated/social-sciences-out.csv",
   cache_file = "data/generated/social-science-ngrams3.rds",
   fig_file   = "figs/social-science-panels3.pdf",
   fig_height = 6.5 * 2 / 2 * gold(),

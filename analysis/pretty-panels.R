@@ -175,7 +175,7 @@ ecogram_panel <- function(x,
   ii <<- ii + 1
 }
 
-ecogram_panels <- function(dat, right_gap = 50, ncols = 2, ...) {
+ecogram_panels <- function(dat, right_gap = 50, ncols = 2, csv_out = NULL, ...) {
   npanels <- length(unique(dat$panel))
   nrows <- ceiling(npanels / ncols)
   dat <- dat[!duplicated(dat), ]
@@ -184,6 +184,8 @@ ecogram_panels <- function(dat, right_gap = 50, ncols = 2, ...) {
     summarise(total = sum(total)) %>%
     ungroup() %>%
     arrange(panel, gram_canonical, year)
+
+  if (!is.null(csv_out)) readr::write_csv(dat, csv_out)
 
   par(mfrow = c(nrows, ncols))
   par(mgp = c(2, 0.3, 0), tcl = -0.15, las = 1, cex = 0.7,

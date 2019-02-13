@@ -14,6 +14,7 @@ order,panel,gram,gram_canonical
  ,Statistical paradigms,least squares,least-squares
  ,Statistical paradigms,least square,least-squares
  ,Statistical paradigms,mcmc,MCMC
+ ,Statistical paradigms,monte carlo,Monte Carlo
  ,Statistical paradigms,bayesian,Bayesian
  ,Statistical paradigms,bayes,Bayesian
  ,Statistical paradigms,aic,AIC
