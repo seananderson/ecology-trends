@@ -67,6 +67,16 @@ hand-curated approaches: (1) drawing on the most frequent and rapidly growing/de
 n-grams in various decades and (2) developing logical groupings of terms that fall under
 key ecology and conservation themes (see Methods).
 
+<!--
+Might shorten some part of this down to a sentence and insert above.
+[The corpus cannot be read by a human. If
+you tried to read only English-language entries from the year 2000 alone, at
+the reasonable pace of 200 words/min, without interruptions for food or sleep,
+it would take 80 years. The sequence of letters is 1000 times longer than the
+human genome: If you wrote it out in a straight line, it would reach to the
+Moon and back 10 times over (8).]
+-->
+
 # Results
 
 ## Broad trends in popularity
@@ -202,6 +212,76 @@ related to geographic protection over eight decades points to their continued im
 in conservation and applied ecology.
 
 ## Social sciences and ecology
+
+## Social sciences and ecology
+
+Fig. \@ref(fig:social)
+
+Interventions
+
+<!-- Diogo: I would suggest highlighting that these are all market-based approaches to
+conservation -->
+
+- Pre-1990: (not sure, potentially ecolabelling of food and consumer products?)
+
+  <!-- Diogo: I think that in this case the fact that not much is happening is the main finding,
+  although given the word limits I think we should such ignore it. -->
+
+- The 1992 Rio Summit spurned a plethora of conservation initiatives across the globe
+  (ref), and subsequent research on the need for and effects of these interventions.  One
+  of these interventions was the Forest Stewardship Council, a certification scheme
+  initiated in 1993 in response to perceived inaction from the Rio Summit (FSC 2019,
+  https://us.fsc.org/en-us/who-we-are/our-history). Since then certification schemes have
+  expanded considerably,  with two environmental certification schemes (Rainforest
+  Alliance, Marine Stewardship Council) alone account for 10%, 20%, and 14% of the world's
+  cocoa, tea, and wild marine catch production (ref). This exponential increase in
+  coverage is the likely driver of research on these types of interventions after the
+  1990s.
+- Reducing Emissions from Deforestation and forest Degradation (REDD) initiatives was
+  launched in 2005 (ref, un-redd.org)
+- Ecotourism also took off in the 1980 and 90s, where it was included in the development
+  strategy of almost every developing country by the 1990s [@moreno2005]
+
+Human wellbeing
+<!-- Diogo: One way to frame the strands would be around planetary health, which nicely
+bridges conservation and human health -->
+
+- Most of the research on human wellbeing in the corpus centers on poverty
+- The feedbacks between poverty and biodiversity loss are well known, along with some of
+  the negative effects of  biodiversity conservation efforts on human wellbeing  (ref) The
+  Millenium Development Goals and the Convention on Biological Diversity (1990s) advanced
+  research and action on the concept of ecosystem services (now reframed as nature's
+  contribution to people (ref)), where there was growing interest in how environmental
+  improvement can promote (and not harm) human wellbeing, often through poverty
+  alleviation (ref). Of the various aspects of human wellbeing, indicators related to
+  economic well being (e.g.  poverty, income, material living standards) are the most
+  studied (ref)
+- Recent interest in food security is likely closely linked to poverty alleviation, and
+  the impacts of environmental change to food availability?
+
+Methods
+
+- Given the increased focus on the human dimensions of biodiversity conservation over the
+  last decades [@bennett2017] it was expected that social science methods would become
+  more widely used in the literature.
+- While it may seem surprising to see interviews be more used than questionnaires, given
+  that most ecologists and conservationists have a quantitative background, this could be
+  a matter of terminology and questionnaires are a form of structured interview and are
+  often referred to as such [@newing2010].
+- More qualitative methods such as focus groups,
+  ethnography or participant observation remain scarcely used which supports the assertion
+  that ecology and conservation continue to rely mostly on quantitative methods
+
+Stakeholder
+
+- Increased use of stakeholder related focus suggests and increased focus on the social
+  sciences across conservation and ecology. Yet, it is clear that key stakeholder groups
+  such as indigenous people are still greatly underrepresented if we take into account ow
+  much land is under indigenous management [@garnett2018]
+- Yet, differences in scale of use between terms such as "stakeholder" or "local
+  community" and those such as "participatory" suggest that most of the focus so far has
+  been on characterizing stakeholders and their views and less on their direct involvement
+  on processes related to conservation and management of wildlife.
 
 # Discussion
 
