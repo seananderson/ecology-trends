@@ -1,9 +1,29 @@
-\documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$lang$,$endif$$if(papersize)$$papersize$,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
-$if(fontfamily)$
-\usepackage{$fontfamily$}
-$else$
-\usepackage{lmodern}
-$endif$
+% \documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$lang$,$endif$$if(papersize)$$papersize$,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
+\documentclass[11pt,english]{article}
+\usepackage{geometry}
+\geometry{verbose, letterpaper, tmargin = 2.54cm, bmargin = 2.54cm,
+  lmargin = 2.54cm, rmargin = 2.54cm}
+
+\usepackage{setspace}
+
+% $if(fontfamily)$
+% \usepackage{$fontfamily$}
+% $else$
+% \usepackage{lmodern}
+% $endif$
+
+% Linux Libertine:
+\usepackage{textcomp}
+\usepackage[sb]{libertine}
+\usepackage[varqu,varl]{inconsolata}% sans serif typewriter
+\usepackage[libertine,bigdelims,vvarbb]{newtxmath} % bb from STIX
+\usepackage[cal=boondoxo]{mathalfa} % mathcal
+\useosf % osf for text, not math
+\usepackage[supstfm=libertinesups,%
+  supscaled=1.2,%
+  raised=-.13em]{superiors}
+
+
 $if(linestretch)$
 \usepackage{setspace}
 \setstretch{$linestretch$}
@@ -198,11 +218,14 @@ $endfor$
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
+
 \begin{document}
 
 $if(title)$
 \maketitle
 $endif$
+
+\begin{spacing}{1.4}
 
 $if(abstract)$
 \begin{abstract}
@@ -250,4 +273,6 @@ $for(include-after)$
 $include-after$
 
 $endfor$
+
+\end{spacing}
 \end{document}

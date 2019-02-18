@@ -35,119 +35,137 @@ library(here)
 opts_chunk$set(echo = FALSE, message = FALSE, warnings = FALSE)
 ```
 
-Introductory paragraph. Citation [@michel2011].
+The field of ecology has experienced rapid growth since the  discipline specific journal, Ecology, was published for the first time over a century ago (Reiners et al. 2017; Kim et al. 2018). Today, there are approximately XX ecological journals, representing many subdisciplines within the field, spanning in scope from general to applied to theoretical. In light of the rapid diversification of the field, accomplishing a broad can be difficult...
 
-Paragraph that introduces the approach
+In effort to reduce human biases, the field of culturomics [@michel2011; @ladle2016] has increasingly been employed in the evaluation of past and present trends in literature (REFs). Through quantification of word use in relevant corpa, such as the large bodies of text accessible in online journal databases, one can glean a better understanding of trends. Specifically, word use in the published literature can serve as a proxy for tracking realized (versus perceived) importance (sensu WHO WROTE THAT ONE), though rankings of perceived importance are also valuable insights (e.g., Reiners et al., 2017). This method has been applied to subsets of the ecological literature, notably a century of titles and abstracts in the Ecological Society of America journal, Ecology [@kim2018], automated content analysis of titles and abstracts in top ecology journals based on impact factor [@mccallen2019], and more specific research questions restricted to certain regions and/or taxa (e.g., Beale, 2018).
 
-# Broad trends in popularity
+Here, we build on previous analyses [@carmel2013; @reiners2017; @kim2018; @mccallen2019] by providing the first full-text analysis of ecology and conservation journals over eight decades encompassing 52 journals, 131,533 papers, and over half a billion words. We base our analysis on the JSTOR full-text corpus of "n-grams" from 1930 to 2010 for all journals that regularly publish ecological or conservation papers and are not regionally or taxonomically exclusive (see Methods). An n-gram is a sequence of terms separated by a space. For example, "biogeography" is a 1-gram and "body size" is a 2-gram. We standardized n-gram frequency by total words per year and analysed trends over time for a selection of n-grams. We derived our n-gram selection through both algorithmic and hand-curated approaches: (1) drawing on the most frequent and rapidly growing/declining n-grams in various decades and (2) developing logical groupings of terms that fall under key ecology and conservation themes (see Methods).
 
-Fig. \@ref(fig:decades)
-Fig. \@ref(fig:S-booms)
-Fig. \@ref(fig:blanks)
+# Results
 
-- A: 'biodiversity conservation' first appears in the corpus in X (about 1990) and quickly became the most common word associated with conservation by nearly three-fold, perhaps at the expense of 'nature conservation', which peaked in the mid 1990s.
+## Broad trends in popularity
 
-- B: Forest, terrestrial, and marine 'ecosystem' were all similarly common in the corpus as of 2010 with 'marine ecosystem' experiencing the most rapid increased since the 1990s. In the 1980s 'forest ecosystem' was by far the most common 2-gram ecosystem term.
+A mission driven discipline: [@meine2006]
 
-- C: since the 1950s, 'natural' was the most popular term associated with 'population'
-- as of 2010, 'human population' surpassed 'natural population'
+(Fig. \@ref(fig:decades)) (biggest then and now; biggest climbers (and biggest losers in Supp.)
 
-- D: species is the most common term associated with 'diversity' and has been since any of the common 'diversity' terms started to be included in the corpus as of the 1950s
-- 'genetic diversity' has rocketed from being a rarely discussed form of diversity until about 1990 to being the second most common diversity phrase as of X (around 2000). As of 2010 its use was still rapidly increasing. 
-- 'species diversity' saw a decline in use between ~1975 and 1990 followed up by an increase in use until X (about 2005).
-- blank diversity terms as a group are discussed more than any of the other blank terms here (largest y axis values by 2 fold).
+We used a "fill in the blank" strategy to algorithmically examine the dominant 2-grams associated with levels of scale in ecology (Fig. \@ref(fig:blanks)). *Species richness* and *plant species* have been the dominant "species" and "species" 2-grams, respectively (Fig. \@ref(fig:blanks)ab). Notably, *native species* came from behind around 2000 to become the third most common " species" as of 2010 (Fig. \@ref(fig:blanks)b). The term "population" has been primarily associated with size, growth, dynamics, and density, with *population growth* following approximately exponential growth itself (Fig. \@ref(fig:blanks)d). Conversely, *natural* *population* was the dominant "population", but was surpassed by *human population* as of 2010 (Fig. \@ref(fig:blanks)e). Ecologists have written about *community structure*, and *community composition* more than any other "community" and about *plant communities*, within our corpus, over three times(?) more than any other "community" 2-gram (Fig. @ref(fig:blanks)gh). Ecologists first talked about "ecosystem" long before using "ecosystem" as an adjective starting around 1990 (Fig. \@ref(fig:blanks)jk). As a noun, "ecosystem" has been most commonly associated with *forest*, *terrestrial*, and *marine*, with the latter seeing a sharp uptick since 2000 (Fig. \@ref(fig:blanks)k). As an adjective, *ecosystem service* and *ecosystem function* are by far the dominant 2-grams (Fig. \@ref(fig:blanks)j).
 
-- E: although genetic diversity was not frequently talked about until the 1990s (D), 'genetic variability' was talked about more than 'genetic diversity' until about 1990 (check), and now 'genetic diversity' is included about 8 times more often than 'genetic variability'
-- 'temporal variability' was the most frequently discussed type of variability as of 2010, closely followed by spatial variability 
-- 'climate variability' didn't appear in the corpus until 1988 (check), but quickly became one of the top 3 types of variability discussed in the literature (TODO: perhaps combined climate and climatic, which would put climate approximately the same point as temporal)
+Using the same approach we also examined adjectives associated with conservation, diversity, experiment, and analysis (Fig. \@ref(fig:blanks)). *Biodiversity conservation* did not appear until 1990(?) in our corpus but is now used over twice as often as the next most common "conservation", *nature conservation* (Fig. \@ref(fig:blanks)c). *Genetic diversity* has skyrocketed since the early 1990s to become the dominant adjective associated with diversity (Fig. \@ref(fig:blanks)f). *Field* and *laboratory experiment* peaked around 1990 and have been declining since (Fig. @ref(fig:blanks)i). *Statistical analysis*, the first adjective associated with analysis that made the top eight terms, continued to see growth as of 2010 (Fig. \@ref(fig:blanks)l); however, *data analysis*, which didn't appear until 1950, surpassed statistical analysis as of 2000ish(?) (Fig. @ref(fig:blanks)l). *Meta-analysis*, which first appeared in 1988(?) in our corpus, has seen rapid growth to become the most common adjective associated with analysis as of 2010 (Fig. @ref(fig:blanks)l).
 
-- F: 'species distribution' the most common form of distribution included, but didn't see rapid growth until after 1990
-- statistical distributions mixed in: normal, frequency, probability 
-- from 1930 to ~1950 'vertical distribution' was the most common term; this peaked around 1940 and has consistently declined since around 1970 (TODO: WHY WAS THIS BIG?)
-
-# Ecology and scale
+## Community ecology
 
 Fig. \@ref(fig:ecology)
 
-# Ways of analyzing ecology
+## Statistics and data analysis
 
-Fig. \@ref(fig:methods)
+Ecology has increasingly become a data- and model-centric discipline in recent decades (Fig. @ref(fig:decades)). *Regression*, an overarching term encompassing many statistical approaches, saw continued and rapid growth in use since the 1950s, approaching *correlation* by 2005 (Fig. @ref(fig:methods)a). References to *ANOVA* and *t-tests* both peaked around 2000, while mentions of generalized linear models (*GLMs*) steadily increased in frequency surpassing *t-tests* around 2007(?) (Fig. \@ref(fig:methods)a). In terms of how such models were fit, *least-squares*, formerly the dominant paradigm, was rapidly surpassed by *Bayesian*, *maximum likelihood*, and *information theoretic* terms around 2000; as of 2010, the term *Bayesian* was used over twice as often as *maximum likelihood* (Fig. \@ref(fig:methods)b). The Markov chain Monte Carlo sampling method (*MCMC*), which combined with modern computing power has been responsible for the boom in applied Bayesian data analysis [@gelman2014b] first appears in the corpus in 1994 [@thompson1994], 24 years after [@hastings1970] described the concept. Such statistical approaches and paradigms have been associated with endless debates about the role of hypothesis testing in ecology (REFs). Regarding hypothesis testing, use of the phrase *null hypothesis* peaked in the 1980s and the phrase *significant difference* peaked around 1990 and has declined since (Fig. \@ref(fig:methods)c). The associated terms *p-value* and *confidence interval* appeared in approximately equal frequency as of 2010 (Fig. \@ref(fig:methods)c), although both are often referred to by abbreviations missed in our corpus (e.g. 'p =' or 'CI'). *Power analysis* remains a rarely used term despite numerous pleas of its importance [@nakagawa2007; @smith2011d]. The increased frequency of so many data- and model-centric terms, along with the advent of online publishing, has coincided with the meteoric rise of *supplementary material* n-grams since around 2000 --- the 2-gram itself had the second most rapid increase across all 2-grams from 2000--2010 (Fig. \@ref(fig:decades)f) --- and a decline in *unpublished data* (Fig. \@ref(fig:methods)d).
 
-## A: Models for inference
+## Genetics
 
-- 'Regression' saw continued and rapid growth from 1930s to late 2000s approaching 'correlation' [thought: it's possible we should remove correlation since it used a lot in contexts beyond models for inference]
-- References to 'ANOVA' started in substantial quantity in the mid 1970s and peaked around 2000 seeing a rapid decline from 2000-2010
-- References to generalized linear models (GLMs) have steadily increased and surpassed the frequency of 't-test' as of 2007(?), which has been declining in use since around 2000
+## Conservation and applied ecology
 
-## B: Modelling paradigms
+*Conservation* and themes related to applied ecology represented some of the fastest growing themes in modern ecology (Fig. \@ref(fig:decades)e). Conservation as a field originated alongside the formation of the Society for Conservation Biology in 1985 [@meine2006], prior to which the roughly synonymous term *preservation* was used as frequently in ecological literature (Fig. @ref(fig:cons)a). *Biodiversity*, a core concept of conservation, replaced the terminology *biological diversity* that had been in use since the 1960s. Alongside *conservation*, *biodiversity* is one of the most rapidly growing terms we analyzed in the corpus (Fig. 1e). Given the prominent focus on biodiversity conservation in the field of ecology, ecologists have increasingly studied the major threats to biodiversity loss: *habitat loss*, *invasive species*, *pollution*, *overpopulation*, *overexploitation*, and *climate change* (Fig. \@ref(fig:cons)b). Despite *overexploitation* being considered the most prevalent threat of species extinctions worldwide [@maxwell2016], the concept has received the least attention from ecologists both historically and currently (Fig. \@ref(fig:cons)b). Up until the early 1990s, *pollution* was the leading concept in the context of threats to biodiversity, its use in the ecological literature having peaked in the mid 1970s (Fig. \@ref(fig:cons)b). Interestingly, frequencies of the concept *ozone*, typically associated with studies of pollution, showed similar responses as *pollution*, but with a lag of approximately 15 years (Fig. \@ref(fig:cons)c). *Pollution* was then surpassed by *climate change* and subsequently by *invasive species*, two threats that now vastly outweigh all other threats in terms of their frequency of usage (Fig. \@ref(fig:cons)b) and two of the top three fastest growing terms in all of ecology (Fig. 1f).
 
-- Although 'least-squares' has been steadily increasing in use since the beginning of the corpus in 1930, it was rapidly surpassed by Bayesian, maximum likelihood, and information theoretic terms in ~2000
-- 'maximum likelihood' used to be used more frequently than 'Bayesian', but as of ~2000, 'Bayesian' terms surpassed 'maximum likelihood'
-- As of 2010, 'Bayesian' terms were used approximately twice as often as the phrase 'maximum likelihood'
-- The Bayesian Markov chain Monte Carlo sampling approach 'MCMC' first appears in 1992(?) and saw a rapid increase through to the end of the corpus in 2010
+A multitude of concepts originated alongside the proliferation of studies of climate change, habitat loss, and overexploitation (Fig. \@ref(fig:cons)c-e). With such relatively recent concept formations, most of these concepts are experiencing continued growth. For example, concepts related to climate change, such as *ocean acidification*, *range shifts*, and *climate extremes* have shown sharp upticks since the mid 2000s (Fig. \@ref(fig:cons)c). Other concepts have shown more complex patterns. For example, *sea-level rise* showed a large spike in usage in the mid 1990s, a dramatic downturn in usage by 2000, and then another sharp increase thereafter (Fig. \@ref(fig:cons)c). *Fragmentation* rose sharply following the common usage of *habitat loss* around 1990, but its use has been in decline since about 2000 (Fig. \@ref(fig:cons)d). In terms of modes of overexploitation, which include both methods of species exploitation and resource extraction, *fishing* is currently the leading concept, followed by *hunting* and *logging* (Fig. \@ref(fig:cons)e). Historically, *hunting* and *fishing* have exchanged positions of dominance in the ecological literature roughly every decade, showing predator-prey-like dynamics in their frequency distributions over time (Fig. @ref(fig:cons)e). Modes of exploitation of non-animal resources, such as *logging*, *harvesting*, and *mining* have consistently been discussed less in the ecological literature compared to modes of animal exploitation (Fig. \@ref(fig:cons)e).
 
-## C: Statistical significance 
+The prevention of biodiversity loss is a key goal of conservation ecologists, and the concept of protection has long been a pillar of biodiversity conservation [@watson2014]. Until roughly 2000, *park* was the most frequently used term related to forms of geographic protection (Fig. @ref(fig:cons)f). *Protected areas* has grown steadily over the past eight decades with the growth in *marine protected areas* showing a similar pattern, but lagging by several decades (Fig. @ref(fig:cons)f). These patterns of usage approximately mirror the growth rate of protected land and sea area globally [@watson2014]. Many of the key forms of geographic protection, including *parks*, *reserves*, *protected areas*, and *preserves* predated the common usage of the term *conservation* (Fig. \@ref(fig:cons)a,f), although this could be due in part to several of these also acting as verbs. Nevertheless, the clear and sustained rise in all terms related to geographic protection over eight decades points to their continued importance in conservation and applied ecology.
 
-- (TODO: did we include 'statistical significance' itself?)
-- Some sentence about endless debates on statistical significance in the ecology literature
-- Use of the phrase 'null hypothesis' peaked in the 1980s and the phrase 'significant difference' peaked in use around 1990 and has declined since 
-- 'p-value' and 'confidence interval' appeared in equal frequency as of 2010, although both are often referred to by abbreviations that would be missed in our corpus (e.g. 'p = ' or 'CI').
-- 'power analysis' remains a rarely used phrase despite numerous pleas by ecological statisticians (REF)
+## Social sciences and ecology
 
-## D: Supporting information
+# Discussion
 
-- 'supplementary material', 'supporting information', and 'SOM' (collectively shown as 'supplementary material') have seen a meteoric rise since around 2000, likely coinciding with the rise of the Internet and online journal publishing
-- this rise has coincided with a decline in the term 'unpublished data'
+# Acknowledgements
 
-## E: Genetics 1
-
-## F: Genetics 2
-
-Fig. \@ref(fig:stats-supp)
-Fig. \@ref(fig:genetics-supp)
-
-# Conservation and ecology
-
-Fig. \@ref(fig:conservation)
-
-# Social science and ecology
-
-Fig. \@ref(fig:social)
-
-# Some concluding subheading
-
-# Acknowledgments
+JSTOR, Smith, Smith Fellows, M.P. Dombeck, S.G. Foster, anyone who helped and declines to be an
+author...
 
 # Methods
 
-## Data source and filtering
+## Data
 
-- JSTOR
-- Picking journals --- rules, table of all plus chosen and why
-- what data looks like
-- PNAS filtering
-- 
+- JSTOR, ngram approach, 1-, 2-, and 3-grams
+- how selected initial categories, how many journals
+- How filtered down journals (not taxon specific, …), how many journals left
+- how many papers in end, how many words
+- Date range and why
+- Standardized per total number of 1-grams each year
+- Bad-amnat.txt: 28
+- Pnas_exluded_pub_ids.rds: 112259
+- Why limited it to 1930–2010
+- Table of journals included
+- Supplementary figure of total account by journals over time
 
-## Assessing popularity
+## Top terms by decade
 
-## Trend model fitting
+- Top terms by decade
+- Start with top 5000 over entire time span
+- Filter out grams with numbers
+- Filter out grams with less than 3 characters
+- For 1-grams: retain only nouns, koRpus::treetag() in English; from here on in work with lemmas
+- Take top 500 for 1-grams overall
+- For 2-grams: retain only adjective and nouns; from here on in work with lemmas
+- Retain only those in which the first and second word have > three letters
+- Exclude a number of 2-grams that are mostly affiliations or journal names:
 
-\clearpage
+(put this in the supplement as a table)
+exclude <- c("american naturalist", "ecological monographs",
+  "biol bull", "woods hole", "experi ments",
+  "condi tions", "indi viduals", "comp physiol",
+  "empty declaremathsizes", "university press",
+  "conservation biology", "ecological society",
+  "coastal research", "Journal compilation",
+  "Blackwell publishing", "british ecological",
+  "ecological applications", "cambridge university",
+  "authors journal", "canadian journal",
+  "royal society", "ecol evol", "state university",
+  "springer verlag", "phil trans", "much more", "same time",
+  "united states", "other hand", "philosophical transactions",
+  "corresponding editor", "ecol monogr", "conserv biol",
+  "ecol lett", "popu lations", "ecology letters",
+  "research institute", "press chicago", "ecol syst",
+  "funct ecol", "change biology", "author contributions",
+  "phil wrans", "portugal issn", "nati acad", "proc nati",
+  "corresponding author")
 
-```{r decades, fig.cap = "(A--D) Top 9 1-gram nouns and 2-gram nouns/adjectives from the 1940s and 2000s. Labels refer to 'lemmas' or root words. For example, plant and plants as n-grams are both combined and labelled as 'plant'. (E, F) Most rapidly increasing 1-gram nouns and 2-gram nouns/adjectives from 1980--2010."}
+- Take top 500 for 2-grams
+- Remove the following 1-grams
+
+(put this in the supplement as a table)
+pop1 <- pop1 %>% filter(!gram %in% c("fig", "use", "doi", "case"))
+pop1 <- pop1 %>% filter(!gram %in% c("tion", "cent", "while", "results"))
+pop1 <- pop1 %>% filter(!gram %in% c("table", "figure", "journal"))
+pop1 <- pop1 %>% filter(!gram %in% c("university", "author", "eve"))
+
+- Take top 9 1- and 2-grams from 1940–1950 and 2000–2010 for plotting
+- For most rapid increases and decreases:
+- Fit GLM for 1930–1960 and 1980–2010 total ~ year, offset = log(total_words), quasipoisson(link = “log) and record slope
+- Take top n terms from 1940s and 2000s based on most positive and most negative slopes
+- Curated panels
+
+## Curated panels
+
+- Talk about the benefits of ‘hand curation’ by a large group of ecologists working in their field
+- Combined related terms that would refer to the same thing. E.g. ‘mixed effects model’ and ‘mixed-effects model’, ‘GLM’ and ‘generalized linear model’.
+- Excluded terms that appeared frequently in journal names (would we picked up in headers and footers and in references)
+- Use a categorical colour scheme to do note all hand-picked panels
+
+# Figures
+
+```{r decades, fig.cap = "Overall"}
 include_graphics(here("figs/decades-and-booms-viridis.pdf"))
 ```
 
 \clearpage
 
-```{r blanks, fig.cap = "Top 8 terms followed by the term in the top left corner where the terms are either nouns or adjectives. The top n-grams are defined based on summing the occurrences throughout the entire time period thereby weighting recent years more heavily."}
-include_graphics(here("figs/blanks-viridis2.pdf"))
+```{r blanks, fig.cap = "Blanks"}
+include_graphics(here("figs/blanks-viridis5.pdf"))
 ```
 
 \clearpage
 
-```{r ecology, fig.cap = "General ecology... TO BE FIXED"}
-include_graphics(here("figs/ecology-panels.pdf"))
+```{r ecology, fig.cap = "Community ecology..."}
+include_graphics(here("figs/ecology-panels3.pdf"))
 ```
 
 \clearpage
@@ -158,7 +176,7 @@ include_graphics(here("figs/methods-models-genetics2.pdf"))
 
 \clearpage
 
-```{r conservation, fig.cap = "Conservation..."}
+```{r cons, fig.cap = "Conservation..."}
 include_graphics(here("figs/conservation-human-impacts.pdf"))
 ```
 
@@ -175,6 +193,7 @@ include_graphics(here("figs/social-science-panels3.pdf"))
 \setcounter{figure}{0}
 \setcounter{table}{0}
 
+<!--
 # Supporting Information
 
 \clearpage
@@ -200,6 +219,8 @@ include_graphics(here("figs/ecology_supp_panels_06_19.pdf"))
 ```{r genetics-supp, fig.cap = "TODO"}
 include_graphics(here("figs/genetics-supp.pdf"))
 ```
+
+-->
 
 \clearpage
 
