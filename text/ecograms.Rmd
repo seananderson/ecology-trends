@@ -97,7 +97,7 @@ approximately exponential growth itself (Fig. \@ref(fig:blanks)d). Conversely, *
 population* as of 2010 (Fig. \@ref(fig:blanks)e). Ecologists have written about *community
 structure*, and *community composition* more than any other adjective-form of *community*
 and about *plant communities*, within our corpus, over three times(?) more than any other
-form of community (Fig. @ref(fig:blanks)gh). Ecologists first used the term *ecosystem* as
+form of community (Fig. \@ref(fig:blanks)gh). Ecologists first used the term *ecosystem* as
 a noun long before using it as an adjective starting around 1990 (Fig.
 \@ref(fig:blanks)jk). As a noun, *ecosystem* has been most commonly associated with
 *forest*, *terrestrial*, and *marine*, with the latter seeing a sharp uptick since 2000
@@ -110,13 +110,13 @@ did not appear until 1990(?) in our corpus but is now used over twice as often a
 most common, *nature conservation* (Fig. \@ref(fig:blanks)c). *Genetic diversity* has
 skyrocketed since the early 1990s to become the dominant adjective associated with
 diversity (Fig. \@ref(fig:blanks)f). *Field* and *laboratory experiment* peaked around
-1990 and have been declining since (Fig. @ref(fig:blanks)i). *Statistical*, the first
+1990 and have been declining since (Fig. \@ref(fig:blanks)i). *Statistical*, the first
 adjective associated with *analysis* that made the top eight terms, continued to see
 growth as of 2010 (Fig. \@ref(fig:blanks)l); however, *data analysis*, which didn't appear
-until 1950, surpassed statistical analysis around 2000 (Fig. @ref(fig:blanks)l).
+until 1950, surpassed statistical analysis around 2000 (Fig. \@ref(fig:blanks)l).
 *Meta-analysis*, which first appeared in 1988(?) in our corpus, has seen rapid growth to
 become the most common adjective associated with analysis as of 2010 (Fig.
-@ref(fig:blanks)l).
+\@ref(fig:blanks)l).
 
 ## Community ecology
 
@@ -125,9 +125,9 @@ Fig. \@ref(fig:ecology)
 ## Statistics and data analysis
 
 Ecology has increasingly become a data- and model-centric discipline in recent decades
-(Fig. @ref(fig:decades)). *Regression*, an overarching term encompassing many statistical
+(Fig. \@ref(fig:decades)). *Regression*, an overarching term encompassing many statistical
 approaches, saw continued and rapid growth in use since the 1950s, approaching
-*correlation* by 2005 (Fig. @ref(fig:methods)a). References to *ANOVA* and *t-tests* both
+*correlation* by 2005 (Fig. \@ref(fig:methods)a). References to *ANOVA* and *t-tests* both
 peaked around 2000, while mentions of generalized linear models (*GLMs*) steadily
 increased in frequency surpassing *t-tests* around 2007(?) (Fig. \@ref(fig:methods)a). In
 terms of how such models were fit, *least-squares*, formerly the dominant paradigm, was
@@ -159,7 +159,7 @@ the 2-gram itself had the second most rapid increase across all 2-grams from 200
 growing themes in modern ecology (Fig. \@ref(fig:decades)e). Conservation as a field
 originated alongside the formation of the Society for Conservation Biology in 1985
 [@meine2006], prior to which the roughly synonymous term *preservation* was used as
-frequently in ecological literature (Fig. @ref(fig:cons)a). *Biodiversity*, a core concept
+frequently in ecological literature (Fig. \@ref(fig:cons)a). *Biodiversity*, a core concept
 of conservation, replaced the terminology *biological diversity* that had been in use
 since the 1960s. Alongside *conservation*, *biodiversity* is one of the most rapidly
 growing terms we analyzed in the corpus (Fig. 1e). Given the prominent focus on
@@ -200,9 +200,9 @@ literature compared to modes of animal exploitation (Fig. \@ref(fig:cons)e).
 The prevention of biodiversity loss is a key goal of conservation ecologists, and the
 concept of protection has long been a pillar of biodiversity conservation [@watson2014].
 Until roughly 2000, *park* was the most frequently used term related to forms of
-geographic protection (Fig. @ref(fig:cons)f). *Protected areas* has grown steadily over
+geographic protection (Fig. \@ref(fig:cons)f). *Protected areas* has grown steadily over
 the past eight decades with the growth in *marine protected areas* showing a similar
-pattern, but lagging by several decades (Fig. @ref(fig:cons)f). These patterns of usage
+pattern, but lagging by several decades (Fig. \@ref(fig:cons)f). These patterns of usage
 approximately mirror the growth rate of protected land and sea area globally
 [@watson2014]. Many of the key forms of geographic protection, including *parks*,
 *reserves*, *protected areas*, and *preserves* predated the common usage of the term
@@ -362,37 +362,37 @@ pop1 <- pop1 %>% filter(!gram %in% c("university", "author", "eve"))
 
 # Figures
 
-```{r decades, fig.cap = "Overall"}
+```{r decades, fig.cap = "**Top n-grams from the 1940s and 2000s.** (**a–d**) Top 9 1-gram nouns and 2-gram nouns or adjectives from the 1940s and 2000s. Labels refer to \"lemmas\" or root words. For example, plant and plants as n-grams are both combined and labelled as \"plant\". (**e–f**) Most rapidly increasing 1-gram nouns and 2-gram nouns or adjectives from 1980–2010. Light grey lines indicate frequency of the n-gram per 100,000 words. Dark coloured trend lines and associated shaded ribbons represent generalized additive model (GAM) fits and 95% confidence intervals (see Supporting Material)."}
 include_graphics(here("figs/decades-and-booms-viridis.pdf"))
 ```
 
 \clearpage
 
-```{r blanks, fig.cap = "Blanks"}
+```{r blanks, fig.cap = "**Top fill-in-the-blank 2-gram phrases.** Each panel shows the top eight 2-gram terms where the *blank* in the panel label is filled in by the noun or adjective indicated beside each trend. For example, in panel **a**, \"Species *blank*\" with the term \"richness\" corresponds to \"species richness\". The top n-grams are defined based on summing the occurrences throughout the entire time period thereby weighting recent years more heavily."}
 include_graphics(here("figs/blanks-viridis5.pdf"))
 ```
 
 \clearpage
 
-```{r ecology, fig.cap = "Community ecology..."}
+```{r ecology, fig.cap = "General ecology..."}
 include_graphics(here("figs/ecology-panels3.pdf"))
 ```
 
 \clearpage
 
-```{r methods, fig.cap = "Methods and genetics..."}
+```{r methods, fig.cap = "**Data analysis, statistical methods, and genetics.**"}
 include_graphics(here("figs/methods-models-genetics2.pdf"))
 ```
 
 \clearpage
 
-```{r cons, fig.cap = "Conservation..."}
+```{r cons, fig.cap = "**Conservation and applied ecology.**"}
 include_graphics(here("figs/conservation-human-impacts.pdf"))
 ```
 
 \clearpage
 
-```{r social, fig.cap = "Social science and ecology..."}
+```{r social, fig.cap = "**Social science and ecology.**"}
 include_graphics(here("figs/social-science-panels3.pdf"))
 ```
 
@@ -403,13 +403,18 @@ include_graphics(here("figs/social-science-panels3.pdf"))
 \setcounter{figure}{0}
 \setcounter{table}{0}
 
-<!--
 # Supporting Information
 
 \clearpage
 
-```{r S-booms, fig.cap = "TODO"}
-include_graphics(here("figs/booms.pdf"))
+```{r declines-supp, fig.cap = "TODO"}
+include_graphics(here("figs/booms-decline.pdf"))
+```
+
+\clearpage
+
+```{r blanks-supp, fig.cap = "TODO"}
+include_graphics(here("figs/blanks-extras-2018-08-09.pdf"))
 ```
 
 \clearpage
@@ -420,17 +425,9 @@ include_graphics(here("figs/stats-supp.pdf"))
 
 \clearpage
 
-```{r ecology-supp, fig.cap = "General ecology... TO BE FIXED"}
-include_graphics(here("figs/ecology_supp_panels_06_19.pdf"))
-```
-
-\clearpage
-
 ```{r genetics-supp, fig.cap = "TODO"}
 include_graphics(here("figs/genetics-supp.pdf"))
 ```
-
--->
 
 \clearpage
 
