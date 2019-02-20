@@ -4,7 +4,7 @@ REFS = refs
 all: $(TEXT).pdf
 
 %.pdf: %.Rmd $(REFS).bib
-	Rscript -e "bookdown::render_book('$<')"
+	Rscript -e "rmarkdown::render('$<')"
 	cp $@ ~/Dropbox/temp/
 
 continuous:
