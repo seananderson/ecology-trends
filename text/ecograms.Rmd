@@ -193,7 +193,7 @@ extraction, *fishing* is currently the leading concept, followed by *hunting* an
 *logging* (Fig. \@ref(fig:cons)e). Historically, *hunting* and *fishing* have exchanged
 positions of dominance in the ecological literature roughly every decade, showing
 predator-prey-like dynamics in their frequency distributions over time (Fig.
-@ref(fig:cons)e). Modes of exploitation of non-animal resources, such as *logging*,
+\@ref(fig:cons)e). Modes of exploitation of non-animal resources, such as *logging*,
 *harvesting*, and *mining* have consistently been discussed less in the ecological
 literature compared to modes of animal exploitation (Fig. \@ref(fig:cons)e).
 
