@@ -221,43 +221,16 @@ Interventions
 
 <!-- Diogo: I would suggest highlighting that these are all market-based approaches to
 conservation -->
-
-- Pre-1990: (not sure, potentially ecolabelling of food and consumer products?)
-
-  <!-- Diogo: I think that in this case the fact that not much is happening is the main finding,
-  although given the word limits I think we should such ignore it. -->
-
-- The 1992 Rio Summit spurned a plethora of conservation initiatives across the globe
-  (ref), and subsequent research on the need for and effects of these interventions.  One
-  of these interventions was the Forest Stewardship Council, a certification scheme
-  initiated in 1993 in response to perceived inaction from the Rio Summit (FSC 2019,
-  https://us.fsc.org/en-us/who-we-are/our-history). Since then certification schemes have
-  expanded considerably,  with two environmental certification schemes (Rainforest
-  Alliance, Marine Stewardship Council) alone account for 10%, 20%, and 14% of the world's
-  cocoa, tea, and wild marine catch production (ref). This exponential increase in
-  coverage is the likely driver of research on these types of interventions after the
-  1990s.
-- Reducing Emissions from Deforestation and forest Degradation (REDD) initiatives was
-  launched in 2005 (ref, un-redd.org)
-- Ecotourism also took off in the 1980 and 90s, where it was included in the development
-  strategy of almost every developing country by the 1990s [@moreno2005]
+<!-- David: Wecan cut sentence beginning with "For example" if you need space -->
+The 1992 Rio Summit played a key role in advancing ecosystem-based approaches to conservation, directly and indirectly spurning a plethora of conservation and research initiatives across the globe (Spalding et al 2013). For example, the Forest Stewardship Council was certification scheme initiated in 1993 in response to perceived inaction from the Rio Summit (FSC 2019,
+ https://us.fsc.org/en-us/who-we-are/our-history). Since then certification schemes have expanded considerably,  with two environmental certification schemes (Rainforest Alliance, Marine Stewardship Council) alone account for 10%, 20%, and 14% of the world's cocoa, tea, and wild marine catch production (ref). Other resource management approaches such as ecotourism also took off in the 1980 and 90s, where it was included in the development strategy of almost every developing country by the 1990s [@moreno2005]. This exponential increase in coverage and use of these management strategies are likely drivers for the increased attention in the literature.
 
 Human wellbeing
 <!-- Diogo: One way to frame the strands would be around planetary health, which nicely
 bridges conservation and human health -->
+<!-- David: I'm not too familar with that framing, but I made some cuts/corrections to the text, still needs work -->
+- Most of the research on human wellbeing in the corpus centers on poverty, likely advanced by the environmental discourse surrounding ecosystem services in the 2000s.The feedbacks between poverty and biodiversity are well discussed in the literature, where biodiversity conservation is seen as both a contributor and alleviator of poverty (Turner et al 2012). The Millenium Ecosystem Assessment (2005) however, advanced research and action around the concept of ecosystem services, where there was growing interest in how environmental improvement can promote (and not harm) various aspects of human wellbeing such as poverty alleviation. While the ecosystem service discourse has since been reframed (Diaz et al 2008), the causal links remain understudied (Suich et al 2005).
 
-- Most of the research on human wellbeing in the corpus centers on poverty
-- The feedbacks between poverty and biodiversity loss are well known, along with some of
-  the negative effects of  biodiversity conservation efforts on human wellbeing  (ref) The
-  Millenium Development Goals and the Convention on Biological Diversity (1990s) advanced
-  research and action on the concept of ecosystem services (now reframed as nature's
-  contribution to people (ref)), where there was growing interest in how environmental
-  improvement can promote (and not harm) human wellbeing, often through poverty
-  alleviation (ref). Of the various aspects of human wellbeing, indicators related to
-  economic well being (e.g.  poverty, income, material living standards) are the most
-  studied (ref)
-- Recent interest in food security is likely closely linked to poverty alleviation, and
-  the impacts of environmental change to food availability?
 
 Methods
 
@@ -282,6 +255,14 @@ Stakeholder
   community" and those such as "participatory" suggest that most of the focus so far has
   been on characterizing stakeholders and their views and less on their direct involvement
   on processes related to conservation and management of wildlife.
+
+<!-- David: References: 
+Spalding MD, Meliane I, Milam A, Fitzgerald C, Hale LZ. 2013. Protecting Marine Spaces: Global Targets and Changing Approaches. Ocean Yearb. 27, pp. 213–48 
+Díaz S, Pascual U, Stenseke M, Martín-López B, Watson RT, et al. 2018. Assessing nature’s contributions to people. Science (80-. ). 359(6373):270–72
+Turner WR, Brandon K, Brooks TM, Gascon C, Gibbs HK, et al. 2012. Global Biodiversity Conservation and the Alleviation of Poverty. Bioscience. 62(January):85–92
+Millennium Ecosystem Assessment. 2005. Ecosystems and Human Well-Being: Synthesis. Island Press, Washington D.C.
+Suich H, Howe C, Mace G. 2015. Ecosystem services and poverty alleviation : A review of the empirical links. Ecosyst. Serv. 12:1–11-->
+
 
 # Discussion
 
