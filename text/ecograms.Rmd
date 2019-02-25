@@ -35,37 +35,52 @@ library(here)
 opts_chunk$set(echo = FALSE, message = FALSE, warnings = FALSE)
 ```
 
-The field of ecology has experienced rapid growth since the discipline specific journal,
-Ecology, was first published over a century ago [@reiners2017; @kim2018]. Today, there are
-approximately XX ecological journals, representing many subdisciplines within the field,
-spanning in scope from general to applied to theoretical. In light of the rapid
-diversification of the field, accomplishing a broad can be difficult...
+<!--
 
-In an effort to reduce human biases, the field of culturomics has increasingly been
-employed in the evaluation of past and present trends in literature [@michel2011;
-@ladle2016]. Through quantification of word use in relevant corpa, such as the large
-bodies of text accessible in online journal databases, one can glean a better
-understanding of trends. Specifically, word use in the published literature can serve as
-a proxy for tracking realized (versus perceived) importance (sensu WHO WROTE THAT ONE),
-though rankings of perceived importance are also valuable insights (e.g., Reiners et al.,
-2017). This method has been applied to subsets of the ecological literature, notably
-a century of titles and abstracts in the Ecological Society of America journal, Ecology
-[@kim2018], automated content analysis of titles and abstracts in top ecology journals
-based on impact factor [@mccallen2019], and more specific research questions restricted to
-certain regions and/or taxa (e.g., Beale, 2018).
+The field of ecology has come a long way since the work of Linnaeus (REF),
+Humboldt (REF), Wallace (REF) amongst many others in the 18th and 19th
+centuries and has developed alongside the field of conservation, marked by
+events such as the founding of the nature conservancy and influential books such
+as Aldo Leopold's A Sand County Almanac and Rachel Carlson's Silent Spring.
 
-Here, we build on previous analyses [@carmel2013; @reiners2017; @kim2018; @mccallen2019]
-by providing the first full-text analysis of ecology and conservation journals over eight
-decades encompassing 52 journals, 131,533 papers, and over half a billion words. We base
-our analysis on the JSTOR full-text corpus of "n-grams" from 1930 to 2010 for all journals
-that regularly publish ecological or conservation papers and are not regionally or
-taxonomically exclusive (see Methods). An n-gram is a sequence of terms separated by
-a space. For example, "biogeography" is a 1-gram and "body size" is a 2-gram. We
-standardized n-gram frequency by total words per year and analysed trends over time for
-a selection of n-grams. We derived our n-gram selection through both algorithmic and
-hand-curated approaches: (1) drawing on the most frequent and rapidly growing/declining
-n-grams in various decades and (2) developing logical groupings of terms that fall under
-key ecology and conservation themes (see Methods).
+The field of ecology developed rapidly in the twentieth century
+
+The fields of ecology and conservation have developed rapidly since the work of
+ecology and conservation have developed substantial..
+-->
+
+The field of ecology has experienced rapid growth since the discipline specific
+journal, *Ecology*, was first published over a century ago [@reiners2017;
+@kim2018]. Today, with hundreds of ecology journals representing a multitude of
+subdisciplines, the field of ecology spans in scope from general to applied to
+theoretical and has become increasingly intertwined with the fields of natural
+history and conservation. In light of such growth and diversification,
+accomplishing a broad overview of the field can be challenging.
+
+The discipline of culturomics --- the quantitative analysis of large bodies of
+text or corpa --- offers a rich framework with which to track the evolution of
+a field through time [@michel2011; @ladle2016]. Specifically, word use in the
+published literature can serve as a proxy for tracking realized, versus
+perceived, importance. This approach has been applied to subsets of the
+ecological literature, notably a century of titles and abstracts in the journal
+*Ecology* [@kim2018], automated content analysis of titles and abstracts in top
+ecology journals based on impact factor [@mccallen2019], and more specific
+research questions restricted to certain regions or taxa [e.g., @beale2018].
+
+Here, we build on previous analyses [e.g., @carmel2013; @reiners2017; @kim2018;
+@mccallen2019] by providing the first full-text analysis of ecology and
+conservation journals over eight decades encompassing 52 journals, 131,533
+articles, and over half a billion words. We base our analysis on the JSTOR
+full-text corpus of "n-grams" from 1930 to 2010 for all journals that regularly
+publish ecological or conservation papers and are not regionally or
+taxonomically exclusive (see Methods). An n-gram is a sequence of terms
+separated by a space. For example, "biogeography" is a 1-gram and "body size" is
+a 2-gram. We standardize n-gram frequency by total words per year and analyze
+trends over time for a selection of n-grams. We derive our n-gram selection
+through both algorithmic and hand-curated approaches: (1) drawing on the most
+frequent and rapidly growing/declining n-grams in various decades and (2)
+developing logical groupings of terms that fall under key ecology and
+conservation themes (see Methods).
 
 <!--
 Might shorten some part of this down to a sentence and insert above.
@@ -85,38 +100,42 @@ A mission driven discipline: [@meine2006]
 
 (Fig. \@ref(fig:decades)) (biggest then and now; biggest climbers (and biggest losers in Supp.)
 
-We used a fill-in-the-blank strategy to algorithmically examine the dominant 2-grams
-associated with levels of scale in ecology (Fig. \@ref(fig:blanks)). *Species richness*
-and *plant species* have been the dominant adjective and noun uses of the term species,
-respectively (Fig. \@ref(fig:blanks)ab). Notably, *native* came from behind around 2000 to
-become the third most common term proceeding *species* as of 2010 (Fig.
-\@ref(fig:blanks)b). As an adjective, the term *population* has been primarily associated
-with *size*, *growth*, *dynamics*, and *density*, with *population growth* following
-approximately exponential growth itself (Fig. \@ref(fig:blanks)d). Conversely, *natural*
-*population* was the dominant noun-form of *population*, but was surpassed by *human
-population* as of 2010 (Fig. \@ref(fig:blanks)e). Ecologists have written about *community
-structure*, and *community composition* more than any other adjective-form of *community*
-and about *plant communities*, within our corpus, over three times(?) more than any other
-form of community (Fig. \@ref(fig:blanks)gh). Ecologists first used the term *ecosystem* as
-a noun long before using it as an adjective starting around 1990 (Fig.
-\@ref(fig:blanks)jk). As a noun, *ecosystem* has been most commonly associated with
-*forest*, *terrestrial*, and *marine*, with the latter seeing a sharp uptick since 2000
-(Fig. \@ref(fig:blanks)k). As an adjective, *ecosystem service* and *ecosystem function*
-are by far the dominant 2-grams (Fig. \@ref(fig:blanks)j).
+We used a fill-in-the-blank strategy to algorithmically examine the dominant
+2-grams associated with levels of scale in ecology (Fig. \@ref(fig:blanks)). We
+found that *Species richness* and *plant species* have been the dominant
+adjective and noun uses of the term species, respectively (Fig.
+\@ref(fig:blanks)ab). The term *native* came from behind around 2000 to become
+the third most common term proceeding *species* as of 2010 (Fig.
+\@ref(fig:blanks)b). As an adjective, the term *population* has been primarily
+associated with *size*, *growth*, *dynamics*, and *density*, with *population
+growth* following approximately exponential growth itself (Fig.
+\@ref(fig:blanks)d). Conversely, *natural* *population* was the dominant
+noun-form of *population*, but was surpassed by *human population* as of 2010
+(Fig. \@ref(fig:blanks)e). Ecologists have written about *community structure*,
+and *community composition* more than any other adjective-form of *community*
+and about *plant communities*, within our corpus, over three times(?) more than
+any other form of community (Fig. \@ref(fig:blanks)gh). Ecologists first used
+the term *ecosystem* as a noun long before using it as an adjective starting
+around 1990 (Fig. \@ref(fig:blanks)jk). As a noun, *ecosystem* has been most
+commonly associated with *forest*, *terrestrial*, and *marine*, with the latter
+seeing a sharp uptick since 2000 (Fig. \@ref(fig:blanks)k). As an adjective,
+*ecosystem service* and *ecosystem function* are by far the dominant 2-grams
+(Fig. \@ref(fig:blanks)j).
 
-Using the same approach we also examined adjectives associated with conservation,
-diversity, experiment, and analysis (Fig. \@ref(fig:blanks)). *Biodiversity conservation*
-did not appear until 1990(?) in our corpus but is now used over twice as often as the next
-most common, *nature conservation* (Fig. \@ref(fig:blanks)c). *Genetic diversity* has
-skyrocketed since the early 1990s to become the dominant adjective associated with
-diversity (Fig. \@ref(fig:blanks)f). *Field* and *laboratory experiment* peaked around
-1990 and have been declining since (Fig. \@ref(fig:blanks)i). *Statistical*, the first
-adjective associated with *analysis* that made the top eight terms, continued to see
-growth as of 2010 (Fig. \@ref(fig:blanks)l); however, *data analysis*, which didn't appear
-until 1950, surpassed statistical analysis around 2000 (Fig. \@ref(fig:blanks)l).
-*Meta-analysis*, which first appeared in 1988(?) in our corpus, has seen rapid growth to
-become the most common adjective associated with analysis as of 2010 (Fig.
-\@ref(fig:blanks)l).
+Using the same approach, we examined adjectives associated with conservation,
+diversity, experiment, and analysis (Fig. \@ref(fig:blanks)). *Biodiversity
+conservation* did not appear until 1990(?) in our corpus but is now used over
+twice as often as the next most common nature term, *nature conservation* (Fig.
+\@ref(fig:blanks)c). *Genetic diversity* has skyrocketed since the early 1990s
+to become the dominant adjective associated with diversity (Fig.
+\@ref(fig:blanks)f). *Field* and *laboratory experiment* peaked around 1990 and
+have been declining since (Fig. \@ref(fig:blanks)i). *Statistical*, the first
+adjective associated with *analysis* that made the top eight terms, continued to
+see growth as of 2010 (Fig. \@ref(fig:blanks)l); however, *data analysis*, which
+didn't appear until 1950, surpassed statistical analysis around 2000 (Fig.
+\@ref(fig:blanks)l). *Meta-analysis*, which first appeared in 1988(?) in our
+corpus, has seen rapid growth to become the most common adjective associated
+with analysis as of 2010 (Fig. \@ref(fig:blanks)l).
 
 ## Community ecology
 
@@ -124,111 +143,137 @@ Fig. \@ref(fig:ecology)
 
 ## Statistics and data analysis
 
-Ecology has increasingly become a data- and model-centric discipline in recent decades
-(Fig. \@ref(fig:decades)). *Regression*, an overarching term encompassing many statistical
-approaches, saw continued and rapid growth in use since the 1950s, approaching
-*correlation* by 2005 (Fig. \@ref(fig:methods)a). References to *ANOVA* and *t-tests* both
-peaked around 2000, while mentions of generalized linear models (*GLMs*) steadily
-increased in frequency surpassing *t-tests* around 2007(?) (Fig. \@ref(fig:methods)a). In
-terms of how such models were fit, *least-squares*, formerly the dominant paradigm, was
-rapidly surpassed by *Bayesian*, *maximum likelihood*, and *information theoretic* terms
-around 2000; as of 2010, the term *Bayesian* was used over twice as often as *maximum
-likelihood* (Fig. \@ref(fig:methods)b). The Markov chain Monte Carlo sampling method
-(*MCMC*), which combined with modern computing power has been responsible for the boom in
-applied Bayesian data analysis [@gelman2014b] first appears in the corpus in 1994
-[@thompson1994], 24 years after [@hastings1970] described the concept. Such statistical
-approaches and paradigms have been associated with endless debates about the role of
-hypothesis testing in ecology (REFs). Regarding hypothesis testing, use of the phrase
-*null hypothesis* peaked in the 1980s and the phrase *significant difference* peaked
-around 1990 and has declined since (Fig. \@ref(fig:methods)c). The associated terms
-*p-value* and *confidence interval* appeared in approximately equal frequency as of 2010
-(Fig. \@ref(fig:methods)c), although both are often referred to by abbreviations missed in
-our corpus (e.g. 'p =' or 'CI'). *Power analysis* remains a rarely used term despite
-numerous pleas of its importance [@nakagawa2007; @smith2011d]. The increased frequency of
-so many data- and model-centric terms, along with the advent of online publishing, has
-coincided with the meteoric rise of *supplementary material* n-grams since around 2000 ---
-the 2-gram itself had the second most rapid increase across all 2-grams from 2000--2010
-(Fig. \@ref(fig:decades)f) --- and a decline in *unpublished data* (Fig.
+Ecology has increasingly become a data- and model-centric discipline in recent
+decades (Fig. \@ref(fig:decades)). *Regression*, an overarching term
+encompassing many statistical approaches, saw continued and rapid growth in use
+since the 1950s, approaching *correlation* by 2005 (Fig. \@ref(fig:methods)a).
+References to *ANOVA* and *t-tests* both peaked around 2000, while mentions of
+generalized linear models (*GLMs*) steadily increased in frequency surpassing
+*t-tests* around 2007(?) (Fig. \@ref(fig:methods)a). In terms of how such models
+were fit, *least-squares*, formerly the dominant paradigm, was rapidly surpassed
+by *Bayesian*, *maximum likelihood*, and *information theoretic* terms around
+2000; as of 2010, the term *Bayesian* was used over twice as often as *maximum
+likelihood* (Fig. \@ref(fig:methods)b). The Markov chain Monte Carlo sampling
+method (*MCMC*), which combined with modern computing power has been responsible
+for the boom in applied Bayesian data analysis [@gelman2014b] first appears in
+the corpus in 1994 [@thompson1994], 24 years after [@hastings1970] described the
+concept. Such statistical approaches and paradigms have been associated with
+endless debates about the role of hypothesis testing in ecology (REFs).
+Regarding hypothesis testing, use of the phrase *null hypothesis* peaked in the
+1980s and the phrase *significant difference* peaked around 1990 and has
+declined since (Fig. \@ref(fig:methods)c). The associated terms *p-value* and
+*confidence interval* appeared in approximately equal frequency as of 2010 (Fig.
+\@ref(fig:methods)c), although both are often referred to by abbreviations
+missed in our corpus (e.g. 'p =' or 'CI'). *Power analysis* remains a rarely
+used term despite numerous pleas of its importance [@nakagawa2007; @smith2011d].
+The increased frequency of so many data- and model-centric terms, along with the
+advent of online publishing, has coincided with the meteoric rise of
+*supplementary material* n-grams since around 2000 --- the 2-gram itself had the
+second most rapid increase across all 2-grams from 2000--2010 (Fig.
+\@ref(fig:decades)f) --- and a decline in *unpublished data* (Fig.
 \@ref(fig:methods)d).
 
 ## Genetics
 
 ## Conservation and applied ecology
 
-*Conservation* and themes related to applied ecology represented some of the fastest
-growing themes in modern ecology (Fig. \@ref(fig:decades)e). Conservation as a field
-originated alongside the formation of the Society for Conservation Biology in 1985
-[@meine2006], prior to which the roughly synonymous term *preservation* was used as
-frequently in ecological literature (Fig. \@ref(fig:cons)a). *Biodiversity*, a core concept
-of conservation, replaced the terminology *biological diversity* that had been in use
-since the 1960s. Alongside *conservation*, *biodiversity* is one of the most rapidly
-growing terms we analyzed in the corpus (Fig. 1e). Given the prominent focus on
-biodiversity conservation in the field of ecology, ecologists have increasingly studied
-the major threats to biodiversity loss: *habitat loss*, *invasive species*, *pollution*,
-*overpopulation*, *overexploitation*, and *climate change* (Fig. \@ref(fig:cons)b).
-Despite *overexploitation* being considered the most prevalent threat of species
-extinctions worldwide [@maxwell2016], the concept has received the least attention from
-ecologists both historically and currently (Fig. \@ref(fig:cons)b). Up until the early
-1990s, *pollution* was the leading concept in the context of threats to biodiversity ---
-its use in the ecological literature having peaked in the mid 1970s (Fig.
-\@ref(fig:cons)b). Interestingly, frequencies of the concept *ozone*, typically associated
-with studies of pollution, showed similar responses as *pollution*, but with a lag of
-approximately 15 years (Fig. \@ref(fig:cons)c). *Pollution* was then surpassed by *climate
-change* and subsequently by *invasive species*, two threats that now vastly outweigh all
-other threats in terms of their frequency of usage (Fig. \@ref(fig:cons)b) and two of the
-top three fastest growing terms in all of ecology (Fig. 1f).
+*Conservation* and themes related to applied ecology represented some of the
+fastest growing themes in modern ecology (Fig. \@ref(fig:decades)e).
+Conservation as a field originated alongside the formation of the Society for
+Conservation Biology in 1985 [@meine2006], prior to which the roughly synonymous
+term *preservation* was used as frequently in ecological literature (Fig.
+\@ref(fig:cons)a). *Biodiversity*, a core concept of conservation, replaced the
+terminology *biological diversity* that had been in use since the 1960s.
+Alongside *conservation*, *biodiversity* is one of the most rapidly growing
+terms we analyzed in the corpus (Fig. 1e). Given the prominent focus on
+biodiversity conservation in the field of ecology, ecologists have increasingly
+studied the major threats to biodiversity loss: *habitat loss*, *invasive
+species*, *pollution*, *overpopulation*, *overexploitation*, and *climate
+change* (Fig. \@ref(fig:cons)b). Despite *overexploitation* being considered the
+most prevalent threat of species extinctions worldwide [@maxwell2016], the
+concept has received the least attention from ecologists both historically and
+currently (Fig. \@ref(fig:cons)b). Up until the early 1990s, *pollution* was the
+leading concept in the context of threats to biodiversity --- its use in the
+ecological literature having peaked in the mid 1970s (Fig. \@ref(fig:cons)b).
+Interestingly, frequencies of the concept *ozone*, typically associated with
+studies of pollution, showed similar responses as *pollution*, but with a lag of
+approximately 15 years (Fig. \@ref(fig:cons)c). *Pollution* was then surpassed
+by *climate change* and subsequently by *invasive species*, two threats that now
+vastly outweigh all other threats in terms of their frequency of usage (Fig.
+\@ref(fig:cons)b) and two of the top three fastest growing terms in all of
+ecology (Fig. 1f).
 
-A multitude of concepts originated alongside the proliferation of studies of climate
-change, habitat loss, and overexploitation (Fig. \@ref(fig:cons)c-e). With such relatively
-recent concept formations, most of these concepts are experiencing continued growth. For
-example, concepts related to climate change, such as *ocean acidification*, *range
-shifts*, and *climate extremes* have shown sharp upticks since the mid 2000s (Fig.
-\@ref(fig:cons)c). Other concepts have shown more complex patterns. For example,
-*sea-level rise* showed a large spike in usage in the mid 1990s, a dramatic downturn in
-usage by 2000, and then another sharp increase thereafter (Fig. \@ref(fig:cons)c).
-*Fragmentation* rose sharply following the common usage of *habitat loss* around 1990, but
-its use has been in decline since about 2000 (Fig. \@ref(fig:cons)d). In terms of modes of
-overexploitation, which include both methods of species exploitation and resource
-extraction, *fishing* is currently the leading concept, followed by *hunting* and
-*logging* (Fig. \@ref(fig:cons)e). Historically, *hunting* and *fishing* have exchanged
-positions of dominance in the ecological literature roughly every decade, showing
-predator-prey-like dynamics in their frequency distributions over time (Fig.
-\@ref(fig:cons)e). Modes of exploitation of non-animal resources, such as *logging*,
-*harvesting*, and *mining* have consistently been discussed less in the ecological
-literature compared to modes of animal exploitation (Fig. \@ref(fig:cons)e).
+A multitude of concepts originated alongside the proliferation of studies of
+climate change, habitat loss, and overexploitation (Fig. \@ref(fig:cons)c-e).
+With such relatively recent concept formations, most of these concepts are
+experiencing continued growth. For example, concepts related to climate change,
+such as *ocean acidification*, *range shifts*, and *climate extremes* have shown
+sharp upticks since the mid 2000s (Fig. \@ref(fig:cons)c). Other concepts have
+shown more complex patterns. For example, *sea-level rise* showed a large spike
+in usage in the mid 1990s, a dramatic downturn in usage by 2000, and then
+another sharp increase thereafter (Fig. \@ref(fig:cons)c). *Fragmentation* rose
+sharply following the common usage of *habitat loss* around 1990, but its use
+has been in decline since about 2000 (Fig. \@ref(fig:cons)d). In terms of modes
+of overexploitation, which include both methods of species exploitation and
+resource extraction, *fishing* is currently the leading concept, followed by
+*hunting* and *logging* (Fig. \@ref(fig:cons)e). Historically, *hunting* and
+*fishing* have exchanged positions of dominance in the ecological literature
+roughly every decade, showing predator-prey-like dynamics in their frequency
+distributions over time (Fig. \@ref(fig:cons)e). Modes of exploitation of
+non-animal resources, such as *logging*, *harvesting*, and *mining* have
+consistently been discussed less in the ecological literature compared to modes
+of animal exploitation (Fig. \@ref(fig:cons)e).
 
-The prevention of biodiversity loss is a key goal of conservation ecologists, and the
-concept of protection has long been a pillar of biodiversity conservation [@watson2014].
-Until roughly 2000, *park* was the most frequently used term related to forms of
-geographic protection (Fig. \@ref(fig:cons)f). *Protected areas* has grown steadily over
-the past eight decades with the growth in *marine protected areas* showing a similar
-pattern, but lagging by several decades (Fig. \@ref(fig:cons)f). These patterns of usage
-approximately mirror the growth rate of protected land and sea area globally
-[@watson2014]. Many of the key forms of geographic protection, including *parks*,
-*reserves*, *protected areas*, and *preserves* predated the common usage of the term
-*conservation* (Fig. \@ref(fig:cons)a,f), although this could be due in part to several of
-these also acting as verbs. Nevertheless, the clear and sustained rise in all terms
-related to geographic protection over eight decades points to their continued importance
-in conservation and applied ecology.
+The prevention of biodiversity loss is a key goal of conservation ecologists,
+and the concept of protection has long been a pillar of biodiversity
+conservation [@watson2014]. Until roughly 2000, *park* was the most frequently
+used term related to forms of geographic protection (Fig. \@ref(fig:cons)f).
+*Protected areas* has grown steadily over the past eight decades with the growth
+in *marine protected areas* showing a similar pattern, but lagging by several
+decades (Fig. \@ref(fig:cons)f). These patterns of usage approximately mirror
+the growth rate of protected land and sea area globally [@watson2014]. Many of
+the key forms of geographic protection, including *parks*, *reserves*,
+*protected areas*, and *preserves* predated the common usage of the term
+*conservation* (Fig. \@ref(fig:cons)a,f), although this could be due in part to
+several of these also acting as verbs. Nevertheless, the clear and sustained
+rise in all terms related to geographic protection over eight decades points to
+their continued importance in conservation and applied ecology.
 
 ## Social sciences and ecology
 
-## Social sciences and ecology
+Over the last few decades, there has been increasing attention to human
+dimensions in ecology and biodiversity conservation. Since the 1990s, there has
+been an exponential increase in research on market or community-based
+conservation interventions (Fig. \@ref(fig:social)a), particularly environmental
+certification programs and payment for ecosystem services schemes such as the
+Reducing Emissions from Deforestation and Forest Degradation (REDD) program. We
+also observe an increased focus on human wellbeing (Fig. \@ref(fig:social)b),
+with a spike of research on human health in the 1970s and more recently, an
+overall growth in research on poverty, food security and overall human wellbeing
+since the 1990--2000s. Given the increased focus on the human dimensions of
+biodiversity conservation over the last decades [@bennett2017], it was expected
+that social science methods such as interviews and questionnaires would become
+more widely used in the literature (Fig. \@ref(fig:social)c). However, more
+qualitative methods such as focus groups, ethnography or participant observation
+remain scarcely used which supports the assertion that ecology and conservation
+continue to rely mostly on quantitative methods (REF?). Parallel to the
+increased focus on human wellbeing since the 1970s was the increased research on
+various stakeholders and local communities (Fig. \@ref(fig:social)d). Yet, it is
+clear that key stakeholder groups such as indigenous people are still greatly
+underrepresented if we take into account how much land is under indigenous
+management [@garnett2018].
 
-Fig. \@ref(fig:social)
+
+<!--
+
+Commented out discussion text:
 
 Interventions
 
-<!-- Diogo: I would suggest highlighting that these are all market-based approaches to
-conservation -->
-<!-- David: Wecan cut sentence beginning with "For example" if you need space -->
 The 1992 Rio Summit played a key role in advancing ecosystem-based approaches to conservation, directly and indirectly spurning a plethora of conservation and research initiatives across the globe (Spalding et al 2013). For example, the Forest Stewardship Council was certification scheme initiated in 1993 in response to perceived inaction from the Rio Summit (FSC 2019,
  https://us.fsc.org/en-us/who-we-are/our-history). Since then certification schemes have expanded considerably,  with two environmental certification schemes (Rainforest Alliance, Marine Stewardship Council) alone account for 10%, 20%, and 14% of the world's cocoa, tea, and wild marine catch production (ref). Other resource management approaches such as ecotourism also took off in the 1980 and 90s, where it was included in the development strategy of almost every developing country by the 1990s [@moreno2005]. This exponential increase in coverage and use of these management strategies are likely drivers for the increased attention in the literature.
 
 Human wellbeing
-<!-- Diogo: One way to frame the strands would be around planetary health, which nicely
-bridges conservation and human health -->
-<!-- David: I'm not too familar with that framing, but I made some cuts/corrections to the text, still needs work -->
 - Most of the research on human wellbeing in the corpus centers on poverty, likely advanced by the environmental discourse surrounding ecosystem services in the 2000s.The feedbacks between poverty and biodiversity are well discussed in the literature, where biodiversity conservation is seen as both a contributor and alleviator of poverty (Turner et al 2012). The Millenium Ecosystem Assessment (2005) however, advanced research and action around the concept of ecosystem services, where there was growing interest in how environmental improvement can promote (and not harm) various aspects of human wellbeing such as poverty alleviation. While the ecosystem service discourse has since been reframed (Diaz et al 2008), the causal links remain understudied (Suich et al 2005).
 
 
@@ -256,12 +301,14 @@ Stakeholder
   been on characterizing stakeholders and their views and less on their direct involvement
   on processes related to conservation and management of wildlife.
 
-<!-- David: References: 
-Spalding MD, Meliane I, Milam A, Fitzgerald C, Hale LZ. 2013. Protecting Marine Spaces: Global Targets and Changing Approaches. Ocean Yearb. 27, pp. 213–48 
+David: References:
+Spalding MD, Meliane I, Milam A, Fitzgerald C, Hale LZ. 2013. Protecting Marine Spaces: Global Targets and Changing Approaches. Ocean Yearb. 27, pp. 213–48
 Díaz S, Pascual U, Stenseke M, Martín-López B, Watson RT, et al. 2018. Assessing nature’s contributions to people. Science (80-. ). 359(6373):270–72
 Turner WR, Brandon K, Brooks TM, Gascon C, Gibbs HK, et al. 2012. Global Biodiversity Conservation and the Alleviation of Poverty. Bioscience. 62(January):85–92
 Millennium Ecosystem Assessment. 2005. Ecosystems and Human Well-Being: Synthesis. Island Press, Washington D.C.
-Suich H, Howe C, Mace G. 2015. Ecosystem services and poverty alleviation : A review of the empirical links. Ecosyst. Serv. 12:1–11-->
+Suich H, Howe C, Mace G. 2015. Ecosystem services and poverty alleviation : A review of the empirical links. Ecosyst. Serv. 12:1–11
+
+-->
 
 
 # Discussion
@@ -275,9 +322,20 @@ author...
 
 ## Data
 
-We worked with the JSTOR data team to extract n-gram data from the fulltext of their database for a set of journals relevant to ecology and conservation.  
+We worked with the JSTOR data team to extract n-gram data from the fulltext of their database for a set of journals relevant to ecology and conservation.
 
-As a group, we reviewed all journals that were part of the JSTOR categories TODO to evaluate their suitability for this analysis. We removed all journals that were specific to taxa lower than kingdom (e.g., we retained "Plant Ecology" but not "The Wilson Journal of Ornithology"). We removed all journals that were not in English. We removed all journals that were not relevant to ecology or conservation (e.g., we removed journals that were purely biology focused). We removed journals that appeared in the JSTOR database for less than TODO years unless they were still in the database as of 2010. We removed journals that were too region specific. Specifically, be removed to journals that were longitude specific but retained journals that were latitude specific (e.g., be retained "Arctic and Alpine Research" but not "Great Basin Naturalist Memoirs"). In total, our corpus included TODO journals (Table TODO).
+As a group, we reviewed all journals that were part of the JSTOR categories TODO
+to evaluate their suitability for this analysis. We removed all journals that
+were specific to taxa lower than kingdom (e.g., we retained "Plant Ecology" but
+not "The Wilson Journal of Ornithology"). We removed all journals that were not
+in English. We removed all journals that were not relevant to ecology or
+conservation (e.g., we removed journals that were purely biology focused). We
+removed journals that appeared in the JSTOR database for less than TODO years
+unless they were still in the database as of 2010. We removed journals that were
+too region specific. Specifically, be removed to journals that were longitude
+specific but retained journals that were latitude specific (e.g., be retained
+"Arctic and Alpine Research" but not "Great Basin Naturalist Memoirs"). In
+total, our corpus included TODO journals (Table TODO).
 
 We focused on 1-, 2-, and 3-grams since most common terms we were interested in were three words or less and the computational burden increased substantially at 4-grams.
 
