@@ -11,7 +11,7 @@ date: |
      Nanaimo, BC, V6T 6N7, Canada; sean.anderson@dfo-mpo.gc.ca\
   ^2^Here\
   ^3^Here\
-  ^4^Here\
+  ^4^Department of Biology, University of Michigan-Flint, Flint, MI 48502, USA\
   ^X^Add Your Address Here
 output:
   bookdown::pdf_document2:
@@ -83,7 +83,7 @@ developing logical groupings of terms that fall under key ecology and
 conservation themes (see Methods).
 
 <!--
-Might shorten some part of this down to a sentence and insert above.
+Might shorten some part of this down to a sentence and insert above ** PLEASE NOTE the text below is directly pulled from a different paper, but wondered if we may want to do the same ** .
 [The corpus cannot be read by a human. If
 you tried to read only English-language entries from the year 2000 alone, at
 the reasonable pace of 200 words/min, without interruptions for food or sleep,
