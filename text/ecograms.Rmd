@@ -10,7 +10,7 @@ date: |
   ^1^Pacific Biological Station, Fisheries and Oceans Canada
      Nanaimo, BC, V6T 6N7, Canada; sean.anderson@dfo-mpo.gc.ca\
   ^2^Here\
-  ^3^Here\
+  ^3^Here\Department of Biology, Sonoma State University, Rohnert Park, CA 94928, USA\
   ^4^Department of Biology, University of Michigan-Flint, Flint, MI 48502, USA\
   ^X^Add Your Address Here
 output:
