@@ -137,11 +137,9 @@ didn't appear until 1950, surpassed statistical analysis around 2000 (Fig.
 corpus, has seen rapid growth to become the most common adjective associated
 with analysis as of 2010 (Fig. \@ref(fig:blanks)l).
 
-## General ecology
+## Community ecology
 
 Fig. \@ref(fig:ecology)
-From the onset, ecologists and conservationists have focused on species, compared to larger or smaller groupings of organisms (Fig. \@ref(fig:ecology)a). In the 1950's population studies userped cell-level work, and the field continues to focus on larger and larger groupings as communities and ecosystem work has been on the rise since the 1970's, with a more rapid increase since the 1990's (Fig. \@ref(fig:ecology)b).  
-
 
 ## Statistics and data analysis
 
@@ -176,7 +174,7 @@ second most rapid increase across all 2-grams from 2000--2010 (Fig.
 \@ref(fig:methods)d).
 
 ## Genetics
-
+The focus on genetics in ecology and conversation related research has skyrocketed in the past several decades. This can be seen in the massive increase in the term *genetic diversity* (Figure 2f and 4e). Interestingly, phylogenetics has remained the most common referenced genetic term over the years, at a rapidly increasing rate since the 1990s (Fig 4e). With the advent of next-generation sequencing, we also see a rapid increase in sequencing based approaches to studying genetic diveristy, particularly the rise in reference to *single nucleotide polymorphisms*  (Figure 4f).  
 ## Conservation and applied ecology
 
 *Conservation* and themes related to applied ecology represented some of the
