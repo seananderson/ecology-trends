@@ -137,9 +137,11 @@ didn't appear until 1950, surpassed statistical analysis around 2000 (Fig.
 corpus, has seen rapid growth to become the most common adjective associated
 with analysis as of 2010 (Fig. \@ref(fig:blanks)l).
 
-## Community ecology
+## General ecology
 
 Fig. \@ref(fig:ecology)
+From the onset, ecologists and conservationists have focused on species, compared to larger or smaller groupings of organisms (Fig. \@ref(fig:ecology)a). In the 1950's population studies userped cell-level work, and the field continues to focus on larger and larger groupings as communities and ecosystem work has been on the rise since the 1970's, with a more rapid increase since the 1990's (Fig. \@ref(fig:ecology)b).  
+
 
 ## Statistics and data analysis
 
