@@ -46,16 +46,17 @@ order,panel,gram,gram_canonical
  ,Genetic fields,transcriptomics,Omics techniques
  ,Genetic fields,genetic engineering,genetic engineering
  ,Genetic fields,conservation genetics,conservation genetics
-6,Genetic tools,eDNA,eDNA
- ,Genetic tools,environmental DNA,eDNA
+6,Genetic tools,environmental DNA,eDNA
  ,Genetic tools,gene drive,gene drive
  ,Genetic tools,qPCR,q/RT-PCR
  ,Genetic tools,RT-PCR,q/RT-PCR
  ,Genetic tools,genome sequencing,whole genome sequencing
  ,Genetic tools,single nucleotide polymorphisms,single nucleotide polymorphisms
  ,Genetic tools,RNA-seq,RNA-seq
+ ,Genetic tools,microsatellite,microsatellites
+ ,Genetic tools,microsatellites,microsatellites
  ,Genetic tools,high throughput sequencing,next generation sequencing
- ,Genetic tools,illumina,next generation sequencing
+ ,Genetic tools,sequencing,next generation sequencing
  ,Genetic tools,illumina sequencing,next generation sequencing
  ,Genetic tools,ion torrent,next generation sequencing
  ,Genetic tools,next gen sequencing,next generation sequencing

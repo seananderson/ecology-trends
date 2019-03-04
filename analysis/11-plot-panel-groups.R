@@ -14,7 +14,7 @@ pal_func <- function(n) {
 make_handpicked_panel(
   terms_file = "data/methods-models-genetics2.csv",
   csv_out    = "data/generated/methods-models-genetics-out.csv",
-  cache_file = "data/generated/method-models-genetics-grams2.rds",
+  cache_file = "data/generated/method-models-genetics-grams3.rds",
   fig_file   = "figs/methods-models-genetics2.pdf",
   fig_height = 6.5 * 3/2 * gold(),
   fig_width  = 6.5,
