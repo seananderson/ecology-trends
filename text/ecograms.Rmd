@@ -477,14 +477,32 @@ include_graphics(here("figs/blanks-extras-2018-08-09.pdf"))
 
 \clearpage
 
-```{r stats-supp, fig.cap = "TODO"}
-include_graphics(here("figs/stats-supp.pdf"))
+```{r genetics-supp, fig.cap = "TODO"}
+include_graphics(here("figs/genetics-supp.pdf"))
 ```
 
 \clearpage
 
-```{r genetics-supp, fig.cap = "TODO"}
-include_graphics(here("figs/genetics-supp.pdf"))
+```{r methods-all, fig.cap = "TODO"}
+include_graphics(here("figs/methods-models-genetics-facets.pdf"))
+```
+
+\clearpage
+
+```{r conservation-all, fig.cap = "TODO"}
+include_graphics(here("figs/conservation-human-impacts-facets.pdf"))
+```
+
+\clearpage
+
+```{r community-all, fig.cap = "TODO"}
+include_graphics(here("figs/community-ecology-facets.pdf"))
+```
+
+\clearpage
+
+```{r social-all, fig.cap = "TODO"}
+include_graphics(here("figs/social-facets.pdf"))
 ```
 
 \clearpage

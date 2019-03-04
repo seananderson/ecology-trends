@@ -179,6 +179,7 @@ ecogram_panels <- function(dat, right_gap = 50, ncols = 2, csv_out = NULL, ...) 
   npanels <- length(unique(dat$panel))
   nrows <- ceiling(npanels / ncols)
   dat <- dat[!duplicated(dat), ]
+  dat_out <- dat
   dat <- dat %>%
     group_by(year, panel, gram_canonical, total_words) %>%
     summarise(total = sum(total)) %>%
@@ -199,4 +200,5 @@ ecogram_panels <- function(dat, right_gap = 50, ncols = 2, csv_out = NULL, ...) 
       ...)})
   mtext("Frequency per 100,000 words", side = 2, outer = TRUE, line = -0.05,
     col = "grey45", cex = 0.85, las = 0)
+  invisible(dat_out)
 }

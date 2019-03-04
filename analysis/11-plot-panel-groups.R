@@ -11,7 +11,7 @@ pal_func <- function(n) {
 }
 
 # Methods/Genetics: ----------------------------------------------------------
-make_handpicked_panel(
+g <- make_handpicked_panel(
   terms_file = "data/methods-models-genetics2.csv",
   csv_out    = "data/generated/methods-models-genetics-out.csv",
   cache_file = "data/generated/method-models-genetics-grams3.rds",
@@ -20,6 +20,8 @@ make_handpicked_panel(
   fig_width  = 6.5,
   right_gap  = 63
 )
+ggsave("figs/methods-models-genetics-facets.pdf", width = 13, height = 18)
+
 make_handpicked_panel(
   terms_file = "data/stats-supp.csv",
   cache_file = "data/generated/stats-supp.rds",
@@ -39,7 +41,7 @@ make_handpicked_panel(
 )
 
 # Conservation and human impacts: --------------------------------------------
-make_handpicked_panel(
+g <- make_handpicked_panel(
   terms_file = "data/conservation-human-impacts.csv",
   csv_out    = "data/generated/conservation-human-impacts-out.csv",
   cache_file = "data/generated/conservation-human-impacts.rds",
@@ -48,9 +50,10 @@ make_handpicked_panel(
   fig_width  = 6.5,
   right_gap  = 38
 )
+ggsave("figs/conservation-human-impacts-facets.pdf", width = 13, height = 18)
 
 # General ecology: -----------------------------------------------------------
-make_handpicked_panel(
+g <- make_handpicked_panel(
   terms_file = "data/ecology_panels_10_05.csv",
   csv_out    = "data/generated/general-ecology-out.csv",
   cache_file = "data/generated/ecology-panels2.rds",
@@ -59,9 +62,10 @@ make_handpicked_panel(
   fig_width  = 6.5,
   right_gap  = 55
 )
+ggsave("figs/community-ecology-facets.pdf", width = 13, height = 11)
 
 # Social Science: ------------------------------------------------------------
-make_handpicked_panel(
+g <- make_handpicked_panel(
   terms_file = "data/social-ngram.csv",
   csv_out    = "data/generated/social-sciences-out.csv",
   cache_file = "data/generated/social-science-ngrams3.rds",
@@ -70,3 +74,4 @@ make_handpicked_panel(
   fig_width  = 6.5,
   right_gap  = 81
 )
+ggsave("figs/social-facets.pdf", width = 13, height = 13)

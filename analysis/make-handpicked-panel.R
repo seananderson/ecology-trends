@@ -22,6 +22,7 @@ make_handpicked_panel <- function(terms_file, cache_file, fig_file,
       "Removing them.", call. = FALSE)
   }
 
+
   if (!file.exists(cache_file) || overwrite_cache) {
     message("Extracting 1 grams")
     out1 <- gram_db1 %>%
@@ -58,8 +59,16 @@ make_handpicked_panel <- function(terms_file, cache_file, fig_file,
     "\\\nsingle nucleotide\\\npolymorphisms", d$gram_canonical)
 
   grDevices::pdf(fig_file, width = fig_width, height = fig_height)
-  ecogram_panels(d, right_gap = right_gap, ncols = ncols, ...)
+  dat <- ecogram_panels(d, right_gap = right_gap, ncols = ncols, ...)
   grDevices::dev.off()
 
-  invisible(d)
+  g <- ggplot(dat, aes(year, total / total_words * 100000)) +
+    geom_point(size = 1, pch = 21) +
+    geom_line() +
+    facet_wrap(~paste(gram_canonical, gram, sep = "\n"),
+      scales = "free_y", ncol = 6) +
+    ggsidekick::theme_sleek() +
+    ylab("Frequency per 100,000 words") +
+    xlab("Year")
+  invisible(g)
 }
