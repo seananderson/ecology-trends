@@ -178,18 +178,16 @@ second most rapid increase across all 2-grams from 2000--2010 (Fig.
 The focus on genetics in ecology and conversation related research has
 skyrocketed in the past several decades. This can be seen in the massive
 increase in the term *genetic diversity* (Fig. \@ref(fig:blanks)f and
-\@ref(fig:methods)e). Interestingly, phylogenetics has remained the most common
-referenced genetic term over the years, at a rapidly increasing rate since the
-1990s (Fig. \@ref(fig:methods)e). With the advent of next-generation
-sequencing, we also see a fast increase in sequencing based approaches to
-studying genetic diversity, particularly the rise in reference to *single
-nucleotide polymorphisms* (Fig. \@ref(fig:methods)f). Interestingly, the term
-*epigenetics* has been in use since the 1950s (See Supplementary figure),
+\@ref(fig:methods)e). *Phylogenetics* remained the most common referenced
+genetic term from 1930 to 2010, and increased in use rapidly since the 1990s
+(Fig. \@ref(fig:methods)e). With the advent of *next-generation sequencing*, we
+also see a fast increase in sequencing based approaches to studying genetic
+diversity, particularly the rise in reference to *single nucleotide
+polymorphisms* (Fig. \@ref(fig:methods)f). Interestingly, the term
+*epigenetics* has been in use since the 1950s (see Supplementary Fig. TODO),
 before we had methods for studying epigenetics in the modern sense [@bird2007].
-This is likely due to the fact that beginning the 1940s, the term *epigenetics*
-was used to refer to the differentiation of cells during embryonic development
-[@waddington2012]. The term also has been used in developmental psychology
-[@gottlieb1991].
+This is likely because, beginning in the 1940s, *epigenetics* was used to refer
+to the differentiation of cells during embryonic development [@waddington2012].
 
 ## Conservation and applied ecology
 
