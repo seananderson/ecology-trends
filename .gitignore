@@ -23,3 +23,4 @@ data/pop.csv
 included.csv
 included_ecology_ecological.csv
 words.csv
+*.log
