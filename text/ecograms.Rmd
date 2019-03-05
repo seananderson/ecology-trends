@@ -10,7 +10,7 @@ author:
 date: |
   ^1^Pacific Biological Station, Fisheries and Oceans Canada
      Nanaimo, BC, V6T 6N7, Canada; sean.anderson@dfo-mpo.gc.ca\
-  ^2^Here\
+  ^2^Department of Forest and Wildlife Ecology, University of Wisconsin-Madison, WI 53706, USA\
   ^3^Department of Biology, Sonoma State University, Rohnert Park, CA 94928, USA\
   ^4^Department of Biology, University of Michigan-Flint, Flint, MI 48502, USA\
   ^X^Add Your Address Here
@@ -82,7 +82,9 @@ trends over time for a selection of n-grams. We derive our n-gram selection
 through both algorithmic and hand-curated approaches: (1) drawing on the most
 frequent and rapidly growing/declining n-grams in various decades and (2)
 developing logical groupings of terms that fall under key ecology and
-conservation themes (see Methods).
+conservation themes (see Methods). Our approach thus enables unbiased comparisons
+of trends in ecology and conservation to yield important insights into the evolution
+of key concepts, analytical techniques, and entire subdisciplines in these fields.  
 
 <!--
 Might shorten some part of this down to a sentence and insert above ** PLEASE NOTE the text below is directly pulled from a different paper, but wondered if we may want to do the same ** .
@@ -154,16 +156,6 @@ corpus, has seen rapid growth to become the most common adjective associated
 with analysis as of 2010 (Fig. \@ref(fig:blanks)l).
 
 ## Community ecology
-
-<!-- reorder into:
-scale,
-scale without species
-species interactions
-theories
-drop the plain hypotheses and drop the null hypothesis title
-metrics
--->
-
 
 Fig. \@ref(fig:ecology)
 From the onset, ecologists and conservation biologists have studied organisms at the species-level (3a). Though cell-level studies were initially the next most common, the interests within the field of ecology have been growing in scale of study with populations, followed by communiies and ecosystems (3b). Initially, abundance metrics were the most commonly reported, yet abundance and richness are currently on the decline as diversity indicies, which incorporate both abundance and richness, have become the most common since the mid-1990s (3c). The theory of the climax community climaxed in the 1940’s, and community structure and populations next peak occurred in the 1960’s with the Theory of Island Biogeography (cite), followed by an interest in foraging theory, and a peak and dropoff in neutral theory (cite) (3d). The theory of natural selection and the role of evolution in ecology has been a constant theme (3d). In ecology, the null hypothesis reigns, with a meteoric rise in the 1970’s, replacing the frequently mentioned hormone hypothesis (cite) in the 1930’s – 1950’s. Over time, competition, disturbance and competitive release hypothesis have been posed and studied as potential _______________ (3e). Finally, though competition out-competes other interactions, competition and predation are both declining in study, with mutualisms and parasitism remaining of constant interest to a lesser degree (3g).  
@@ -351,18 +343,8 @@ Suich H, Howe C, Mace G. 2015. Ecosystem services and poverty alleviation : A re
 
 -->
 
+
 # Discussion
-
-1. caveats
-
-2. comparisons to related work; what's similar and what's different?
-
-things on their way out on way out, e.g. natural history, is that the way we want to go
-the way the field is moving, e.g., meta-analysis
-
-3. importance of work
-
-<!-- TODO: make sure we include some citations from nat ecol evol -->
 
 # Acknowledgements
 
@@ -403,10 +385,6 @@ Initial analyses revealed a number of data-cleaning steps that were necessary pr
 
 ## Top terms by decade
 
-We started by filtering the full data set down to the top 5000...
-
-
-
 - Top terms by decade
 - Start with top 5000 over entire time span
 - Filter out grams with numbers
@@ -415,8 +393,9 @@ We started by filtering the full data set down to the top 5000...
 - Take top 500 for 1-grams overall
 - For 2-grams: retain only adjective and nouns; from here on in work with lemmas
 - Retain only those in which the first and second word have > three letters
+- Exclude a number of 2-grams that are mostly affiliations or journal names:
 
-```{r}
+(put this in the supplement as a table)
 exclude <- c("american naturalist", "ecological monographs",
   "biol bull", "woods hole", "experi ments",
   "condi tions", "indi viduals", "comp physiol",
@@ -435,18 +414,9 @@ exclude <- c("american naturalist", "ecological monographs",
   "funct ecol", "change biology", "author contributions",
   "phil wrans", "portugal issn", "nati acad", "proc nati",
   "corresponding author")
-exclude <- tolower(sort(exclude))
-exclude <- paste(exclude, collapse = ", ")
-```
-
-We excluded a set of 2-grams that would primarily be used as affiliations or journal names or were frequent figures of speech unrelated to ecology (e.g., "much more"): `r exclude`.
 
 - Take top 500 for 2-grams
 - Remove the following 1-grams
-
-```{r}
-c("fig", "use", "doi", "case", "tion", "cent", "while", "results", "table", "figure")
-```
 
 (put this in the supplement as a table)
 pop1 <- pop1 %>% filter(!gram %in% c("fig", "use", "doi", "case"))
@@ -466,8 +436,6 @@ pop1 <- pop1 %>% filter(!gram %in% c("university", "author", "eve"))
 - Combined related terms that would refer to the same thing. E.g. ‘mixed effects model’ and ‘mixed-effects model’, ‘GLM’ and ‘generalized linear model’.
 - Excluded terms that appeared frequently in journal names (would we picked up in headers and footers and in references)
 - Use a categorical colour scheme to do note all hand-picked panels
-
-\clearpage
 
 # Figures
 
