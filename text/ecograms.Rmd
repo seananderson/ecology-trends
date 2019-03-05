@@ -144,10 +144,12 @@ with analysis as of 2010 (Fig. \@ref(fig:blanks)l).
 ## Community ecology
 
 Fig. \@ref(fig:ecology)
-From the onset, ecologists and conservation biologists have studied organisms at the species-level (3a). Though cell-level studies were initially the next most common, the interests within the field of ecology have been growing in scale of study with populations, followed by communiies and ecosystems (3b). 
+From the onset, ecologists and conservation biologists have studied organisms at the species-level (3a). 
+Though cell-level studies were initially the next most common, the interests within the field of ecology have been growing in scale of study with populations, followed by communiies and ecosystems (3b). 
 Initially, abundance metrics were the most commonly reported, yet abundance and richness are currently on the decline as diversity indicies, which incorporate both abundance and richness, have become the most common since the mid-1990s (3c). 
 The theory of the climax community climaxed in the 1940’s, and community structure and populations next peak occurred in the 1960’s with the Theory of Island Biogeography (cite), followed by an interest in foraging theory, and a peak and dropoff in neutral theory (cite) (3d). 
-The theory of natural selection and the role of evolution in ecology has been a constant theme (3d). In ecology, the null hypothesis reigns, with a meteoric rise in the 1970’s, replacing the frequently mentioned hormone hypothesis (cite) in the 1930’s – 1950’s. Over time, competition, disturbance and competitive release hypothesis have been posed and studied as potential _______________ (3e). 
+The theory of natural selection and the role of evolution in ecology has been a constant theme (3d). In ecology, the null hypothesis reigns, with a meteoric rise in the 1970’s, replacing the frequently mentioned hormone hypothesis (cite) in the 1930’s – 1950’s. 
+Over time, competition, disturbance and competitive release hypothesis have been posed and studied as potential _______________ (3e). 
 Finally, though competition out-competes other interactions, competition and predation are both declining in study, with mutualisms and parasitism remaining of constant interest to a lesser degree (3g).  
 
 ## Statistics and data analysis
