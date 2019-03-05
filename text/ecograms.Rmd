@@ -100,7 +100,9 @@ Moon and back 10 times over (8).]
 
 A mission driven discipline: [@meine2006]
 
-(Fig. \@ref(fig:decades)) (biggest then and now; biggest climbers (and biggest losers in Supp.)
+We compared the trends in the most commonly used terms from the 1940s and the 2000s using 1-grams and 2-grams (Fig. \@ref(fig:decades)a-d). We found that the most commonly used word (1-grams) in ecology is "species" and that has not changed over the last century (Fig. \@ref(fig:decades)a&c), and is still a word that continues to increase in use. The next two most commonly used words in ecology, "plant" and "area", have also not changed from the 1930s to 2000s. The remaining most commonly used words from the 1940s have generally declined in use since the 1940s, while the remaining most commonly used words from the 2000s have increased over time. We saw a similar pattern with 2-grams from the 1940s where all of the words are in a state of decline (Fig. \@ref(fig:decades)b), whereas nearly every 2-gram for the 2000s has increased in use since the 1930s.
+
+The changes we observed between popular terms from the 1940s and 2000s, likely relfect both a shift in science culture and are reflected in greater societal issues facing earth. In the 1940s popular terms, such as “time”, “number” and “day” (Fig. \@ref(fig:decades)a), reference descriptive data, probably more common before statistics and modelling became standard tools in ecological research. Similar terms that could represent time, day, and number are “data”, “effect”, “population”, and “model” (Fig. \@ref(fig:decades)b), which likely represents both replacement in terminology and a change in the field of ecology from a semi-quanitative to quantitiative discipline. Popular terms from the 1940s included "blue grama" and "wheatgrass" (Fig. \@ref(fig:decades)c), terms that could be considered rare today were important in the 1940s, likely due to famine and World War II.... 
 
 We used a fill-in-the-blank strategy to algorithmically examine the dominant
 2-grams associated with levels of scale in ecology (Fig. \@ref(fig:blanks)). We
