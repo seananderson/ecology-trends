@@ -29,13 +29,13 @@ order,panel,gram,gram_canonical
  ,Hypothesis testing,pvalues,p-value
  ,Hypothesis testing,significant difference,significant difference
  ,Hypothesis testing,significant differences,significant difference
-4,Supporting information and unpublished data,unpublished data,unpublished data
- ,Supporting information and unpublished data,supplementary material,supplementary material
- ,Supporting information and unpublished data,supplementary materials,supplementary material
- ,Supporting information and unpublished data,supporting information,supplementary material
- ,Supporting information and unpublished data,supporting online material,supplementary material
- ,Supporting information and unpublished data,supporting online materials,supplementary material
- ,Supporting information and unpublished data,som,supplementary material
+4,Supporting information,unpublished data,unpublished data
+ ,Supporting information,supplementary material,supplementary material
+ ,Supporting information,supplementary materials,supplementary material
+ ,Supporting information,supporting information,supplementary material
+ ,Supporting information,supporting online material,supplementary material
+ ,Supporting information,supporting online materials,supplementary material
+ ,Supporting information,som,supplementary material
 5,Genetic fields,ecological genomics,ecological genomics
  ,Genetic fields,epigenetics,epigenetics
  ,Genetic fields,genetic diversity,genetic diversity
@@ -51,7 +51,7 @@ order,panel,gram,gram_canonical
  ,Genetic tools,qPCR,q/RT-PCR
  ,Genetic tools,RT-PCR,q/RT-PCR
  ,Genetic tools,genome sequencing,whole genome sequencing
- ,Genetic tools,single nucleotide polymorphisms,single nucleotide polymorphisms
+ ,Genetic tools,single nucleotide polymorphisms,single nucleotide polymorphism
  ,Genetic tools,RNA-seq,RNA-seq
  ,Genetic tools,microsatellite,microsatellites
  ,Genetic tools,microsatellites,microsatellites
@@ -69,4 +69,4 @@ order,panel,gram,gram_canonical
  ,Genetic tools,whole genome resequencing,whole genome sequencing
  ,Genetic tools,whole genome sequencing,whole genome sequencing
  ,Genetic tools,SOLiD system,next generation sequencing
- ,Genetic tools,SNPs,single nucleotide polymorphisms
+ ,Genetic tools,SNPs,single nucleotide polymorphism

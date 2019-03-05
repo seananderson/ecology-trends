@@ -18,7 +18,7 @@ g <- make_handpicked_panel(
   fig_file   = "figs/methods-models-genetics2.pdf",
   fig_height = 6.5 * 3/2 * gold(),
   fig_width  = 6.5,
-  right_gap  = 63
+  right_gap  = 77
 )
 ggsave("figs/methods-models-genetics-facets.pdf", width = 13, height = 18)
 

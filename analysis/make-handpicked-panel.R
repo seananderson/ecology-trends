@@ -55,8 +55,8 @@ make_handpicked_panel <- function(terms_file, cache_file, fig_file,
     dplyr::filter(!is.na(total)) %>%
     unique()
 
-  d$gram_canonical <- gsub("single nucleotide polymorphisms",
-    "\\\nsingle nucleotide\\\npolymorphisms", d$gram_canonical)
+  # d$gram_canonical <- gsub("single nucleotide polymorphisms",
+  #   "\\\nsingle nucleotide\\\npolymorphisms", d$gram_canonical)
 
   grDevices::pdf(fig_file, width = fig_width, height = fig_height)
   dat <- ecogram_panels(d, right_gap = right_gap, ncols = ncols, ...)
