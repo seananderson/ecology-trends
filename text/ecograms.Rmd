@@ -6,6 +6,7 @@ author:
 - "Brent B. Hughes^3^"
 - "Rebecca K. Tonietto^4^"
 - "Add Your Name Here in Alphabetical Order^X^"
+- "Mariah H. Meek^X"
 date: |
   ^1^Pacific Biological Station, Fisheries and Oceans Canada
      Nanaimo, BC, V6T 6N7, Canada; sean.anderson@dfo-mpo.gc.ca\
@@ -13,6 +14,7 @@ date: |
   ^3^Department of Biology, Sonoma State University, Rohnert Park, CA 94928, USA\
   ^4^Department of Biology, University of Michigan-Flint, Flint, MI 48502, USA\
   ^X^Add Your Address Here
+  ^X^Department of Integrative Biology and AgBio Research, Michigan State University, East Lansing, MI 48824, USA\
 output:
   bookdown::pdf_document2:
     number_sections: no
