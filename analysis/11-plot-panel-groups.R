@@ -18,7 +18,7 @@ g <- make_handpicked_panel(
   fig_file   = "figs/methods-models-genetics2.pdf",
   fig_height = 6.5 * 3/2 * gold(),
   fig_width  = 6.5,
-  right_gap  = 77
+  right_gap  = 63
 )
 ggsave("figs/methods-models-genetics-facets.pdf", width = 13, height = 18)
 
@@ -58,9 +58,9 @@ g <- make_handpicked_panel(
   csv_out    = "data/generated/general-ecology-out.csv",
   cache_file = "data/generated/ecology-panels2.rds",
   fig_file   = "figs/ecology-panels3.pdf",
-  fig_height = 6.5 * gold() * 4 / 2,
+  fig_height = 6.5 * gold() * 3 / 2,
   fig_width  = 6.5,
-  right_gap  = 55
+  right_gap  = 46
 )
 ggsave("figs/community-ecology-facets.pdf", width = 13, height = 11)
 
