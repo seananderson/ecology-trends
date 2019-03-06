@@ -100,16 +100,16 @@ Moon and back 10 times over (8).]
 
 ## Broad trends in popularity
 
-We compared the trends in the most commonly used terms from the 1940s and the 2000s using 1-grams and 2-grams (Fig. \@ref(fig:decades)a-d).
+We compared trends in the most commonly used terms from the 1940s and the 2000s using 1- and 2-grams (Fig. \@ref(fig:decades)a--d).
 We found that the most commonly used word (1-grams) in ecology is *species* and that has not changed over the last eighty years (Fig. \@ref(fig:decades)a&c). *Species* still continues to increase in use.
 The next two most commonly used words in ecology, *plant* and *area*, have also not changed from the 1930s to 2000s.
 The remaining most commonly used words from the 1940s have generally declined in use since the 1940s, while the remaining most commonly used words from the 2000s have increased over time.
 We saw a similar pattern with 2-grams from the 1940s where all of the words are in a state of decline (Fig. \@ref(fig:decades)b), whereas nearly every 2-gram for the 2000s has increased in use since the 1930s.
-By far, the terms that have the greatest popularity and increase in use are *climate* and *climate change* (Fig. \@ref(fig:decades)d-f).
+By far, the terms that have the greatest popularity and increase in use are *climate* and *climate change* (Fig. \@ref(fig:decades)d--f).
 This reflects the recognized role humans play in earth's ecosystem processes in the last few decades as concern over climate change has increased, along with the need for conservation science [@scheffers2016] (Fig. \@ref(fig:decades)e).
 Other terms also standout because of their conservation implications, such as *conservation*, *impact*, *biodiversity*, *ecosystem service*, *invasive species*, and *global ecology* (Fig. \@ref(fig:decades)e&f), reflecting a general increase in applied ecological research.
 
-The changes we observed between popular terms from the 1940s and 2000s likely reflect both a shift in science culture and are reflected in greater societal issues facing earth.
+The changes we observed between popular terms from the 1940s and 2000s likely reflect both a shift in science culture and are reflected in greater societal issues facing Earth.
 In the 1940s, popular terms such as *time*, *number*, and *day* (Fig. \@ref(fig:decades)a) reference descriptive data, a notable difference compared to terminology use following analytical advancements and when statistics and modelling became standard tools in ecological research.
 Similar terms that could represent time, day, and number are *data*, *effect*, *population*, and *model* (Fig. \@ref(fig:decades)b), which likely represents both a replacement of terminology and an underlying change in ecology from a semi-quantitative to quantitative discipline.
 Popular terms in the 1940s also included *blue grama* and *wheatgrass* (Fig. \@ref(fig:decades)c), which are rarely used today but were of greater significance in the 1940s, likely due to famine in the United States in the 1930s and World War II in the 1940s.
