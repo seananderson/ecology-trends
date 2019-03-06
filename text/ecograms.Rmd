@@ -31,9 +31,11 @@ abstract: >
 
 \clearpage
 
-```{r, echo = FALSE, message = FALSE}
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
 library(knitr)
 library(here)
+library(ggplot2)
+library(dplyr)
 opts_chunk$set(echo = FALSE, message = FALSE, warnings = FALSE)
 ```
 
@@ -135,8 +137,6 @@ Using the same approach, we examined adjectives associated with conservation, di
 *Meta-analysis*, which first appeared in the late 1980s in our corpus, has seen rapid growth to become the most common adjective associated with analysis as of 2010 (Fig. \@ref(fig:blanks)l).
 
 ## Community ecology
-
-Fig. \@ref(fig:ecology)
 
 From the onset, ecologists and conservation biologists have studied organisms at the species-level, reflected by the sustained growth of *species* in the corpus over time (Fig. \@ref(fig:ecology)a).
 Though studies at the cellular level were initially the next most common, the interests within the field of ecology have been growing in scale of study with *populations*, followed by *communities* and *ecosystems* (Fig. \@ref(fig:ecology)b).
@@ -360,22 +360,34 @@ total, our corpus included TODO journals (Table TODO).
 
 We focused on 1-, 2-, and 3-grams since most common terms we were interested in were three words or less and the computational burden increased substantially at 4-grams.
 
-Initial analyses revealed a number of data-cleaning steps that were necessary prior to our final analysis. Our initial corpus was dominated by data from Proceedings of the National Academy of Sciences (PNAS), which also publishes a high volume of papers not relevant to ecology or conservation. Therefore, we excluded all papers from PNAS that did not include one of the 1-grams TODO. We removed a series of TeX terms that were inadvertently included from the American Naturalist (Table TODO). We limited our analysis to 1930--2010. Before 1930, there was a considerably more limited set of journals included in the corpus and after 2010, the JSTOR corpus did not yet have data for all journals present in 2010 --- the number of journals present and the total number of words began to decline (Fig. TODO). These issues led to presumably spurious trends before 1930 or after 2010.
+```{r}
+# Removed PNAS IDs:
+pnas_excluded_pub_ids <-
+  readRDS(here::here("data/generated/pnas_exluded_pub_ids.rds"))
+```
+
+Initial analyses revealed a number of data-cleaning steps that were necessary prior to our final analysis. Our initial corpus was dominated by data from Proceedings of the National Academy of Sciences (PNAS), which also publishes a high volume of papers not relevant to ecology or conservation. Therefore, we excluded all papers (`r length(pnas_excluded_pub_ids)`) from PNAS that did not include one of the 1-grams "ecology" or "ecological". We removed a series of TeX terms that were inadvertently included from the American Naturalist (Table TODO). We limited our analysis to 1930--2010. Before 1930, there was a considerably more limited set of journals included in the corpus and after 2010, the JSTOR corpus did not yet have data for all journals present in 2010 --- the number of journals present and the total number of words began to decline (Fig. TODO). These issues led to presumably spurious trends before 1930 or after 2010.
+
+```{r}
+bad_amnat <- readr::read_lines(here::here("data/bad-amnat.txt")) # latex code
+bad_amnat <- tolower(sort(bad_amnat))
+bad_amnat <- paste(bad_amnat, collapse = ", ")
+```
+
+Terms related to TeX that appeared in some American Naturalist papers that we removed: `r bad_amnat`.
 
 - how many papers in end, how many words
-- List this in the supplement: Bad-amnat.txt: 28
 
 - Standardized per total number of 1-grams each year
-- List this in the supplement: Pnas_exluded_pub_ids.rds: 112259
+- List this in the supplement: Pnas_exluded_pub_ids.rds: 112,259
 - Supplementary figure of total account by journals over time
 - Table of included journals
 - Table of excluded journals and why (could combine with the included journals table)
 
+
 ## Top terms by decade
 
 We started by filtering the full data set down to the top 5000...
-
-
 
 - Top terms by decade
 - Start with top 5000 over entire time span
@@ -415,14 +427,9 @@ We excluded a set of 2-grams that would primarily be used as affiliations or jou
 - Remove the following 1-grams
 
 ```{r}
-c("fig", "use", "doi", "case", "tion", "cent", "while", "results", "table", "figure")
+ignore_1grams <- c("fig", "use", "doi", "case", "tion", "cent", "while",
+  "results", "table", "figure", "journal", "university", "author", "eve")
 ```
-
-(put this in the supplement as a table)
-pop1 <- pop1 %>% filter(!gram %in% c("fig", "use", "doi", "case"))
-pop1 <- pop1 %>% filter(!gram %in% c("tion", "cent", "while", "results"))
-pop1 <- pop1 %>% filter(!gram %in% c("table", "figure", "journal"))
-pop1 <- pop1 %>% filter(!gram %in% c("university", "author", "eve"))
 
 - Take top 9 1- and 2-grams from 1940–1950 and 2000–2010 for plotting
 - For most rapid increases and decreases:
@@ -527,5 +534,17 @@ include_graphics(here("figs/social-facets.pdf"))
 ```
 
 \clearpage
+
+```{r total-by-year, message=FALSE, warning=FALSE, fig.asp=0.618, fig.cap="Number of 1-grams per year across the entire corpus. This time series represents the denominator when standardizing the timeseries in all other figures to be per 100,000 words in the corpus.", fig.width=5}
+total1 <- readRDS(here::here("data/generated/total1.rds"))
+total1 %>% 
+  filter(year >= 1930, year <= 2010) %>% 
+ggplot(aes(year, total_words / 1e6)) + 
+  geom_point() + 
+  geom_line() +
+  ggsidekick::theme_sleek() + 
+  ylab("Millions of 1-grams") + xlab("Year")
+```
+
 
 # References
