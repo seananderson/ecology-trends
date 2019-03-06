@@ -36,6 +36,7 @@ library(knitr)
 library(here)
 library(ggplot2)
 library(dplyr)
+library(readr)
 opts_chunk$set(echo = FALSE, message = FALSE, warnings = FALSE)
 ```
 
@@ -532,6 +533,35 @@ include_graphics(here("figs/community-ecology-facets.pdf"))
 ```{r social-all, fig.cap = "TODO"}
 include_graphics(here("figs/social-facets.pdf"))
 ```
+
+\clearpage
+
+```{r}
+filtered_journals <-
+  readr::read_csv(
+    here::here("data/taxa-specific-journal-classifications.csv"),
+    col_types = cols(
+      Journal = col_character(),
+      Slug = col_character(),
+      TaxonSpecific = col_character(),
+      Taxon = col_character(),
+      Notes = col_character()
+    )
+  ) %>%
+  filter(TaxonSpecific == "N") %>%
+  rename(journal = Slug)
+```
+
+```{r, message=FALSE, results="asis", eval=FALSE}
+journals <- readr::read_csv(here::here("data/journal-filtering.csv")) %>% 
+  select(journal, group_vote, group_comments)
+
+# TODO: need to fix the latex preamble so this will render:
+journals %>% 
+  knitr::kable() %>% 
+  kableExtra::column_spec(column = 1, width = "3in")
+```
+
 
 \clearpage
 
