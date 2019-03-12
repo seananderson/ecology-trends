@@ -396,34 +396,6 @@ bad_amnat <- paste(bad_amnat, collapse = ", ")
 
 ## Top terms by decade
 
-```{r}
-exclude <- c("american naturalist", "ecological monographs",
-  "biol bull", "woods hole", "experi ments",
-  "condi tions", "indi viduals", "comp physiol",
-  "empty declaremathsizes", "university press",
-  "conservation biology", "ecological society",
-  "coastal research", "Journal compilation",
-  "Blackwell publishing", "british ecological",
-  "ecological applications", "cambridge university",
-  "authors journal", "canadian journal",
-  "royal society", "ecol evol", "state university",
-  "springer verlag", "phil trans", "much more", "same time",
-  "united states", "other hand", "philosophical transactions",
-  "corresponding editor", "ecol monogr", "conserv biol",
-  "ecol lett", "popu lations", "ecology letters",
-  "research institute", "press chicago", "ecol syst",
-  "funct ecol", "change biology", "author contributions",
-  "phil wrans", "portugal issn", "nati acad", "proc nati",
-  "corresponding author")
-
-ignore_1grams <- c("fig", "use", "doi", "case", "tion", "cent", "while",
-  "results", "table", "figure", "journal", "university", "author", "eve")
-
-exclude <- c(exclude, ignore_1grams)
-exclude <- tolower(sort(exclude))
-exclude <- paste(exclude, collapse = ", ")
-```
-
 We conducted a series of data processing steps to determine
 the most popular 1- and 2-grams in the 1940s and 2000s.
 To speed computation,
@@ -441,7 +413,7 @@ For example, "plant" and "plants" are both derived from the same lemma "plant" a
 At this stage, we retained the top 500 1- and 2-gram lemmas by the frequency over the entire time span.
 We then excluded a set of n-grams that would primarily
 be used as affiliations or journal names or
-were frequent figures of speech unrelated to ecology: `r exclude`.
+were frequent figures of speech unrelated to ecology (Table TODO).
 After these filtering steps,
 we retained the top 9 1- and 2-grams in the time periods 1940--1950 and 2000--2010 for plotting.
 
@@ -452,6 +424,7 @@ $y_i \sim \mathrm{QuasiPoisson}(mu_i)$,
 $\log(mu_i) = \beta_0 + \beta_1 \mathrm{year_i} + \log(\mathrm{total}_i)$
 where $y_i$ refers to the number of occurrences of a give n-gram in year $i$,
 $\mu_i$ refers to the expected number of occurrences,
+the $\beta$ terms refer to estimated parameters,
 'year' refers to a respective year, and 'total', which acts as an offset term,
 refers to the total number of 1-grams. We sorted the n-grams by their $\beta_1$
 coefficient values in the above model to determine the 9 1- and 2-grams with
@@ -555,6 +528,19 @@ include_graphics(here("figs/social-facets.pdf"))
 
 \clearpage
 
+```{r total-by-year, message=FALSE, warning=FALSE, fig.asp=0.618, fig.cap="Number of 1-grams per year across the entire corpus. This time series represents the denominator when standardizing the timeseries in all other figures to be per 100,000 words in the corpus.", fig.width=5}
+total1 <- readRDS(here::here("data/generated/total1.rds"))
+total1 %>%
+  filter(year >= 1930, year <= 2010) %>%
+ggplot(aes(year, total_words / 1e6)) +
+  geom_point() +
+  geom_line() +
+  ggsidekick::theme_sleek() +
+  ylab("Millions of 1-grams") + xlab("Year")
+```
+
+\clearpage
+
 ```{r}
 filtered_journals <-
   readr::read_csv(
@@ -574,25 +560,62 @@ filtered_journals <-
 ```{r, message=FALSE, results="asis", eval=TRUE}
 journals <- readr::read_csv(here::here("data/journal-filtering.csv")) %>%
   select(journal, group_vote, group_comments)
+journals <- journals %>% mutate(group_comments = ifelse(is.na(group_comments), "", group_comments)) %>% 
+  rename(Journal = journal, `Inclusion code` = group_vote, Comments = group_comments)
+
+journals$Journal[journals$Journal == "Ã‰coscience"] <- "Écoscience"
+journals$Journal[journals$Journal == "Zeitschrift fÃ¼r Morphologie und Ã–kologie der Tiere"] <- "Zeitschrift für Morphologie und Ökologie der Tiere"
+journals$Journal[journals$Journal == "Annalen des Naturhistorischen Museums in Wien. Serie B fÃ¼r Botanik und Zoologie"] <- "Annalen des Naturhistorischen Museums in Wien. Serie B für Botanik und Zoologie"
 
 journals %>%
-  knitr::kable() %>%
-  kableExtra::column_spec(column = 1, width = "3in")
+  filter(`Inclusion code` != "EN") %>% 
+  arrange(`Inclusion code`, Journal) %>% 
+  knitr::kable(booktabs = TRUE, linesep = "", longtable = TRUE, 
+    caption = "Journals included in the corpus. Inclusion codes: `IN' = `include', `NR' = `not relevant', `TS' = `taxa specific', `NC' = `not sufficient temporal coverage', `RS' = `region specific'. In the comments column, `KS' refers to kingdom-specific journals. These were retained in our analysis.") %>%
+  kableExtra::column_spec(column = 1, width = "4.0in") %>% 
+  kableExtra::column_spec(column = 2, width = "0.7in") %>% 
+  kableExtra::column_spec(column = 3, width = "1.5in")
 ```
-
 
 \clearpage
 
-```{r total-by-year, message=FALSE, warning=FALSE, fig.asp=0.618, fig.cap="Number of 1-grams per year across the entire corpus. This time series represents the denominator when standardizing the timeseries in all other figures to be per 100,000 words in the corpus.", fig.width=5}
-total1 <- readRDS(here::here("data/generated/total1.rds"))
-total1 %>%
-  filter(year >= 1930, year <= 2010) %>%
-ggplot(aes(year, total_words / 1e6)) +
-  geom_point() +
-  geom_line() +
-  ggsidekick::theme_sleek() +
-  ylab("Millions of 1-grams") + xlab("Year")
-```
+```{r exclusion-n-grams}
+exclude <- c("american naturalist", "ecological monographs",
+  "biol bull", "woods hole", "experi ments",
+  "condi tions", "indi viduals", "comp physiol",
+  "empty declaremathsizes", "university press",
+  "conservation biology", "ecological society",
+  "coastal research", "Journal compilation",
+  "Blackwell publishing", "british ecological",
+  "ecological applications", "cambridge university",
+  "authors journal", "canadian journal",
+  "royal society", "ecol evol", "state university",
+  "springer verlag", "phil trans", "much more", "same time",
+  "united states", "other hand", "philosophical transactions",
+  "corresponding editor", "ecol monogr", "conserv biol",
+  "ecol lett", "popu lations", "ecology letters",
+  "research institute", "press chicago", "ecol syst",
+  "funct ecol", "change biology", "author contributions",
+  "phil wrans", "portugal issn", "nati acad", "proc nati",
+  "corresponding author")
 
+ignore_1grams <- c("fig", "use", "doi", "case", "tion", "cent", "while",
+  "results", "table", "figure", "journal", "university", "author", "eve")
+
+exclude <- c(exclude, ignore_1grams)
+exclude <- tolower(sort(exclude))
+# exclude <- paste(exclude, collapse = ", ")
+
+row_length <- ceiling(length(exclude)/3)
+
+exclude_df <- tibble::tibble(
+  `Excluded terms` = exclude[1:row_length],
+  `Excluded terms continued` = exclude[(row_length + 1):(row_length*2)],
+  `Excluded terms continued ` = c(exclude[(row_length*2 + 1):length(exclude)], "", ""))
+
+exclude_df %>%
+  knitr::kable(booktabs = TRUE, linesep = "", longtable = TRUE,
+    caption = "1- and 2-grams excluded from the top n-grams by decade analyses.")
+```
 
 # References
