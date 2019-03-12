@@ -344,22 +344,25 @@ author...
 
 ## Data
 
-We worked with the JSTOR data team to extract n-gram data from the fulltext of their database for a set of journals relevant to ecology and conservation.
-
-As a group, we reviewed all journals that were part of the JSTOR categories TODO
-to evaluate their suitability for this analysis. We removed all journals that
-were specific to taxa lower than kingdom (e.g., we retained "Plant Ecology" but
-not "The Wilson Journal of Ornithology"). We removed all journals that were not
-in English. We removed all journals that were not relevant to ecology or
-conservation (e.g., we removed journals that were purely biology focused). We
+We worked with the JSTOR data team to extract n-gram data from the fulltext of
+their database for a set of journals relevant to ecology and conservation. To
+select a set of journals, we reviewed all journals from the "Ecology
+& Evolutionary Biology" and "Biological Sciences" subject groups to evaluate
+their suitability for the analysis. We eliminated journals from our corpus
+according to the following rules: (1) We removed all journals that were
+specific to taxa lower than kingdom (e.g., we retained "Plant Ecology" but not
+"The Wilson Journal of Ornithology"). (2) We removed all journals that were not in
+English. We removed all journals that were not relevant to ecology or
+conservation (e.g., we removed journals that were purely biology focused). (3) We
 removed journals that appeared in the JSTOR database for less than TODO years
-unless they were still in the database as of 2010. We removed journals that were
-too region specific. Specifically, be removed to journals that were longitude
-specific but retained journals that were latitude specific (e.g., be retained
-"Arctic and Alpine Research" but not "Great Basin Naturalist Memoirs"). In
-total, our corpus included TODO journals (Table TODO).
+unless they were still in the database as of 2010. (4) We removed journals that
+were too region specific. Specifically, be removed to journals that were
+longitude specific but retained journals that were latitude specific (e.g., we
+retained "Arctic and Alpine Research" but not "Great Basin Naturalist
+Memoirs"). In total, our corpus included TODO journals (Figure TODO).
 
-We focused on 1-, 2-, and 3-grams since most common terms we were interested in were three words or less and the computational burden increased substantially at 4-grams.
+We focused on 1-, 2-, and 3-grams since most common terms we were interested in
+were three words or less and the computational burden increased with longer n-grams.
 
 ```{r}
 # Removed PNAS IDs:
@@ -367,7 +370,18 @@ pnas_excluded_pub_ids <-
   readRDS(here::here("data/generated/pnas_exluded_pub_ids.rds"))
 ```
 
-Initial analyses revealed a number of data-cleaning steps that were necessary prior to our final analysis. Our initial corpus was dominated by data from Proceedings of the National Academy of Sciences (PNAS), which also publishes a high volume of papers not relevant to ecology or conservation. Therefore, we excluded all papers (`r length(pnas_excluded_pub_ids)`) from PNAS that did not include one of the 1-grams "ecology" or "ecological". We removed a series of TeX terms that were inadvertently included from the American Naturalist (Table TODO). We limited our analysis to 1930--2010. Before 1930, there was a considerably more limited set of journals included in the corpus and after 2010, the JSTOR corpus did not yet have data for all journals present in 2010 --- the number of journals present and the total number of words began to decline (Fig. TODO). These issues led to presumably spurious trends before 1930 or after 2010.
+Initial analyses revealed a number of necessary data-cleaning steps prior to
+our final analysis. (1) Our initial corpus was dominated by data from Proceedings
+of the National Academy of Sciences (PNAS), which also publishes a high volume
+of papers not relevant to ecology or conservation. Therefore, we excluded all
+papers (`r length(pnas_excluded_pub_ids)`) from PNAS that did not include one
+of the 1-grams "ecology" or "ecological". (2) We removed a series of TeX terms that
+were inadvertently included from the American Naturalist (Table TODO). (3) We
+limited our analysis to 1930--2010. Before 1930, there was a considerably more
+limited set of journals included in the corpus and after 2010, the JSTOR corpus
+did not yet have data for all journals present in 2010 --- the number of
+journals present and the total number of words began to decline (Fig. TODO).
+These issues led to presumably spurious trends before 1930 or after 2010.
 
 ```{r}
 bad_amnat <- readr::read_lines(here::here("data/bad-amnat.txt")) # latex code
@@ -375,29 +389,12 @@ bad_amnat <- tolower(sort(bad_amnat))
 bad_amnat <- paste(bad_amnat, collapse = ", ")
 ```
 
-Terms related to TeX that appeared in some American Naturalist papers that we removed: `r bad_amnat`.
-
-- how many papers in end, how many words
-
 - Standardized per total number of 1-grams each year
-- List this in the supplement: Pnas_exluded_pub_ids.rds: 112,259
 - Supplementary figure of total account by journals over time
 - Table of included journals
 - Table of excluded journals and why (could combine with the included journals table)
 
-
 ## Top terms by decade
-
-We started by filtering the full data set down to the top 5000...
-
-- Top terms by decade
-- Start with top 5000 over entire time span
-- Filter out grams with numbers
-- Filter out grams with less than 3 characters
-- For 1-grams: retain only nouns, koRpus::treetag() in English; from here on in work with lemmas
-- Take top 500 for 1-grams overall
-- For 2-grams: retain only adjective and nouns; from here on in work with lemmas
-- Retain only those in which the first and second word have > three letters
 
 ```{r}
 exclude <- c("american naturalist", "ecological monographs",
@@ -418,25 +415,47 @@ exclude <- c("american naturalist", "ecological monographs",
   "funct ecol", "change biology", "author contributions",
   "phil wrans", "portugal issn", "nati acad", "proc nati",
   "corresponding author")
+
+ignore_1grams <- c("fig", "use", "doi", "case", "tion", "cent", "while",
+  "results", "table", "figure", "journal", "university", "author", "eve")
+
+exclude <- c(exclude, ignore_1grams)
 exclude <- tolower(sort(exclude))
 exclude <- paste(exclude, collapse = ", ")
 ```
 
-We excluded a set of 2-grams that would primarily be used as affiliations or journal names or were frequent figures of speech unrelated to ecology (e.g., "much more"): `r exclude`.
+We conducted a series of data processing steps to determine
+the most popular 1- and 2-grams in the 1940s and 2000s.
+To speed computation,
+we began by filtering the full data set down to the top 5000 1- and 2-grams over the entire time span.
+We then removed all n-grams that included numbers,
+we removed all 1-grams that had 3 or fewer characters,
+and we removed 2-grams in which either the first or second had 3 or fewer characters.
+To focus only on relevant parts of speech,
+we assigned parts of speech with the R function `koRpus::treetag()`.
+For 1-grams, we retained only nouns.
+For 2-grams, we retained only adjectives and nouns.
+Using the same parsing from `koRpus::treetag()`,
+we aggregated all remaining n-grams by their lemmas.
+For example, "plant" and "plants" are both derived from the same lemma "plant" and were combined.
+At this stage, we retained the top 500 1- and 2-gram lemmas by the frequency over the entire time span.
+We then excluded a set of n-grams that would primarily
+be used as affiliations or journal names or
+were frequent figures of speech unrelated to ecology: `r exclude`.
+After these filtering steps,
+we retained the top 9 1- and 2-grams in the time periods 1940--1950 and 2000--2010 for plotting.
 
-- Take top 500 for 2-grams
-- Remove the following 1-grams
-
-```{r}
-ignore_1grams <- c("fig", "use", "doi", "case", "tion", "cent", "while",
-  "results", "table", "figure", "journal", "university", "author", "eve")
-```
-
-- Take top 9 1- and 2-grams from 1940–1950 and 2000–2010 for plotting
-- For most rapid increases and decreases:
-- Fit GLM for 1930–1960 and 1980–2010 total ~ year, offset = log(total_words), quasipoisson(link = “log) and record slope
-- Take top n terms from 1940s and 2000s based on most positive and most negative slopes
-- Curated panels
+Using the filtered dataset as described above with the top 500 1- and 2-grams,
+we determined the n-grams with the most rapid increases and decreases by
+fitting generalized linear models. We fit models of the form:
+$y_i ~ QuasiPoisson(mu_i)$,
+$\log(mu_i) = \beta_0 + \beta_1 \mathrm{year_i}$ + \log(\mathrm{total}_i)$
+where $y_i$ refers to the number of occurrences of a give n-gram in year $i$,
+$\mu_i$ refers to the expected number of occurrences,
+'year' refers to a respective year, and 'total', which acts as an offset term,
+refers to the total number of 1-grams. We sorted the n-grams by their $\beta_1$
+coefficient values in the above model to determine the 9 1- and 2-grams with
+the most rapid increases and decreases from 1930--1960 and 1980--2010.
 
 ## Curated panels
 
@@ -552,13 +571,12 @@ filtered_journals <-
   rename(journal = Slug)
 ```
 
-```{r, message=FALSE, results="asis", eval=FALSE}
-journals <- readr::read_csv(here::here("data/journal-filtering.csv")) %>% 
+```{r, message=FALSE, results="asis", eval=TRUE}
+journals <- readr::read_csv(here::here("data/journal-filtering.csv")) %>%
   select(journal, group_vote, group_comments)
 
-# TODO: need to fix the latex preamble so this will render:
-journals %>% 
-  knitr::kable() %>% 
+journals %>%
+  knitr::kable() %>%
   kableExtra::column_spec(column = 1, width = "3in")
 ```
 
@@ -567,12 +585,12 @@ journals %>%
 
 ```{r total-by-year, message=FALSE, warning=FALSE, fig.asp=0.618, fig.cap="Number of 1-grams per year across the entire corpus. This time series represents the denominator when standardizing the timeseries in all other figures to be per 100,000 words in the corpus.", fig.width=5}
 total1 <- readRDS(here::here("data/generated/total1.rds"))
-total1 %>% 
-  filter(year >= 1930, year <= 2010) %>% 
-ggplot(aes(year, total_words / 1e6)) + 
-  geom_point() + 
+total1 %>%
+  filter(year >= 1930, year <= 2010) %>%
+ggplot(aes(year, total_words / 1e6)) +
+  geom_point() +
   geom_line() +
-  ggsidekick::theme_sleek() + 
+  ggsidekick::theme_sleek() +
   ylab("Millions of 1-grams") + xlab("Year")
 ```
 
