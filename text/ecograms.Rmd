@@ -618,4 +618,6 @@ exclude_df %>%
     caption = "1- and 2-grams excluded from the top n-grams by decade analyses.")
 ```
 
+\clearpage
+
 # References
