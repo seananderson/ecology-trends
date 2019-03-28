@@ -187,37 +187,49 @@ In addition to the algorithmic analysis described above, we assembled "curated" 
 
 # Figures
 
-```{r decades, fig.cap = "**Top n-grams from the 1940s and 2000s.** (**a–d**) Top 9 1-gram nouns and 2-gram nouns or adjectives from the 1940s and 2000s. Labels refer to \"lemmas\" or root words. For example, plant and plants as n-grams are both combined and labelled as \"plant\". (**e–f**) Most rapidly increasing 1-gram nouns and 2-gram nouns or adjectives from 1980–2010. Light grey lines indicate frequency of the n-gram per 100,000 words. Dark coloured trend lines and associated shaded ribbons represent generalized additive model (GAM) fits and 95% confidence intervals (see Supporting Material)."}
+(ref:fig-decades-cap) **Top n-grams from the 1940s and 2000s.** (**a–d**) Top 9 1-gram nouns and 2-gram nouns or adjectives from the 1940s and 2000s. Labels refer to "lemmas" or root words. For example, plant and plants as n-grams are both combined and labelled as "plant". (**e–f**) Most rapidly increasing 1-gram nouns and 2-gram nouns or adjectives from 1980–2010. Light grey lines indicate frequency of the n-gram per 100,000 words. Dark coloured trend lines and associated shaded ribbons represent generalized additive model (GAM) fits and 95% confidence intervals (see Supporting Material).
+
+```{r decades, fig.cap = "(ref:fig-decades-cap)", out.width="5.6in", fig.align="center", fig.pos="h"}
 include_graphics(here("figs/decades-and-booms-viridis.pdf"))
 ```
 
 \clearpage
 
-```{r blanks, fig.cap = "**Top fill-in-the-blank 2-gram phrases.** Each panel shows the top eight 2-gram terms where the *blank* in the panel label is filled in by the noun or adjective indicated beside each trend. For example, in panel **a**, \"Species *blank*\" with the term \"richness\" corresponds to \"species richness\". The top n-grams are defined based on summing the occurrences throughout the entire time period thereby weighting recent years more heavily."}
+(ref:fig-blanks-cap) **Top fill-in-the-blank 2-gram phrases.** Each panel shows the top eight 2-gram terms where the *blank* in the panel label is filled in by the noun or adjective indicated beside each trend. For example, in panel **a**, "Species *blank*" with the term "richness" corresponds to "species richness". The top n-grams are defined based on summing the occurrences throughout the entire time period thereby weighting recent years more heavily.
+
+```{r blanks, fig.cap = "(ref:fig-blanks-cap)"}
 include_graphics(here("figs/blanks-viridis5.pdf"))
 ```
 
 \clearpage
 
-```{r ecology, fig.cap = "General ecology..."}
+(ref:fig-ecology-cap) **Community ecology n-grams from 1930--2010.** Curated sets of n-grams related to themes in community ecology. Light grey lines indicate frequency of the n-gram per 100,000 words. Dark coloured trend lines and associated shaded ribbons represent generalized additive model (GAM) fits and 95% confidence intervals (see Supporting Material).
+
+```{r ecology, fig.cap = "(ref:fig-ecology-cap)"}
 include_graphics(here("figs/ecology-panels3.pdf"))
 ```
 
 \clearpage
 
-```{r methods, fig.cap = "**Data analysis, statistical methods, and genetics.**"}
+(ref:fig-methods-cap) **Data analysis, statistical methods, and genetics n-grams from 1930--2010.**
+
+```{r methods, fig.cap = "(ref:fig-methods-cap)"}
 include_graphics(here("figs/methods-models-genetics2.pdf"))
 ```
 
 \clearpage
 
-```{r cons, fig.cap = "**Conservation and applied ecology.**"}
+(ref:fig-conservation-cap) **Conservation and applied ecology n-grams from 1930--2010.**
+
+```{r cons, fig.cap = "(ref:fig-conservation-cap)"}
 include_graphics(here("figs/conservation-human-impacts.pdf"))
 ```
 
 \clearpage
 
-```{r social, fig.cap = "**Social science and ecology.**"}
+(ref:fig-social-cap) **Social science n-grams relevant to ecology from 1930--2010.**
+
+```{r social, fig.cap = "(ref:fig-social-cap)"}
 include_graphics(here("figs/social-science-panels3.pdf"))
 ```
 
@@ -228,47 +240,68 @@ include_graphics(here("figs/social-science-panels3.pdf"))
 \setcounter{figure}{0}
 \setcounter{table}{0}
 
-# Supporting Information
-
 \clearpage
 
-```{r declines-supp, fig.cap = "TODO"}
+# Supporting Information
+
+(ref:fig-declines-cap) Same as Fig. \@ref(fig:decades)e--f but for most rapidly declining n-grams from 1930--1960.
+
+```{r declines-supp, fig.cap = "(ref:fig-declines-cap)", fig.pos="h", fig.align="center"}
 include_graphics(here("figs/booms-decline.pdf"))
 ```
 
 \clearpage
 
-```{r blanks-supp, fig.cap = "TODO"}
+(ref:fig-blanks-supp-cap) Additional fill-in-the-blank figure panels using the same approach as Fig. \@ref(fig:blanks). Each panel shows the top eight 2-gram terms where the *blank* in the panel label is filled in by the noun or adjective indicated beside each trend. For example, in panel **a**, "Theory of *blank*" with the term "evolution" corresponds to "Theory of evolution".
+
+```{r blanks-supp, fig.cap = "(ref:fig-blanks-supp-cap)"}
 include_graphics(here("figs/blanks-extras-2018-08-09.pdf"))
 ```
 
 \clearpage
 
+<!-- TODO: do we want to include this extra supplemental figure? -->
+
 ```{r genetics-supp, fig.cap = "TODO"}
-include_graphics(here("figs/genetics-supp.pdf"))
+# include_graphics(here("figs/genetics-supp.pdf"))
 ```
 
 \clearpage
 
-```{r methods-all, fig.cap = "TODO"}
-include_graphics(here("figs/methods-models-genetics-facets.pdf"))
+```{r}
+make_facet_cap <- function(label) {
+  paste0("Individual trends in n-gram frequency for the data underlying Fig. \\@ref(fig:", label, "). The terms listed in the top row above each panel refer to the aggregate term displayed in Fig. \\@ref(fig:", label, "). The terms listed on the second row above each panel refer to an underlying n-gram that was searched in the corpus.")
+}
 ```
 
-\clearpage
 
-```{r conservation-all, fig.cap = "TODO"}
-include_graphics(here("figs/conservation-human-impacts-facets.pdf"))
-```
+(ref:fig-community-all-cap) `r make_facet_cap("ecology")` For this supplemental figure, the top and bottom rows happened to be the same.
 
-\clearpage
-
-```{r community-all, fig.cap = "TODO"}
+```{r community-all, fig.cap = "(ref:fig-community-all-cap) ", out.width="\\textwidth", fig.align="center"}
 include_graphics(here("figs/community-ecology-facets.pdf"))
 ```
 
 \clearpage
 
-```{r social-all, fig.cap = "TODO"}
+(ref:fig-methods-all-cap) `r make_facet_cap("methods")`
+
+```{r methods-all, fig.cap = "(ref:fig-methods-all-cap)", out.width="6.1in", fig.align="center"}
+include_graphics(here("figs/methods-models-genetics-facets.pdf"))
+```
+
+\clearpage
+
+(ref:fig-conservation-all-cap) `r make_facet_cap("cons")`
+
+```{r conservation-all, fig.cap = "(ref:fig-conservation-all-cap)", out.width="6.1in", fig.align="center"}
+include_graphics(here("figs/conservation-human-impacts-facets.pdf"))
+```
+
+\clearpage
+
+(ref:fig-social-all-cap) `r make_facet_cap("social")`
+
+```{r social-all, fig.cap = "(ref:fig-social-all-cap)"}
 include_graphics(here("figs/social-facets.pdf"))
 ```
 
