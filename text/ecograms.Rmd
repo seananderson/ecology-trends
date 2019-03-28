@@ -6,15 +6,15 @@ author:
 - "Brent B. Hughes^3^"
 - "Rebecca K. Tonietto^4^"
 - "Add Your Name Here in Alphabetical Order^X^"
-- "Mariah H. Meek^X"
+- "Mariah H. Meek^5^"
 date: |
   ^1^Pacific Biological Station, Fisheries and Oceans Canada
      Nanaimo, BC, V6T 6N7, Canada; sean.anderson@dfo-mpo.gc.ca\
   ^2^Department of Forest and Wildlife Ecology, University of Wisconsin-Madison, WI 53706, USA\
   ^3^Department of Biology, Sonoma State University, Rohnert Park, CA 94928, USA\
   ^4^Department of Biology, University of Michigan-Flint, Flint, MI 48502, USA\
+  ^5^Department of Integrative Biology and AgBio Research, Michigan State University, East Lansing, MI 48824, USA\
   ^X^Add Your Address Here
-  ^X^Department of Integrative Biology and AgBio Research, Michigan State University, East Lansing, MI 48824, USA\
 output:
   bookdown::pdf_document2:
     number_sections: no
@@ -90,6 +90,7 @@ conservation themes (see Methods). Our approach therefore enables data-derived c
 of trends in ecology and conservation to yield insights into the evolution
 of key concepts, analytical techniques, and entire subdisciplines in these fields.
 
+<!-- FIXME: should probably mention that the terms shown in the handpicked panels can represent many underlying related terms -->
 <!--
 Might shorten some part of this down to a sentence and insert above ** PLEASE NOTE the text below is directly pulled from a different paper, but wondered if we may want to do the same ** .
 [The corpus cannot be read by a human. If
@@ -454,13 +455,13 @@ we retained the top 9 1- and 2-grams in the time periods 1940--1950 and 2000--20
 Using the filtered dataset as described above with the top 500 1- and 2-grams,
 we determined the n-grams with the most rapid increases and decreases by
 fitting generalized linear models. We fit models of the form:
-$y_i \sim \mathrm{QuasiPoisson}(mu_i),\ $
-$\log(mu_i) = \beta_0 + \beta_1 \mathrm{year_i} + \log(\mathrm{total}_i)$,
+$y_i \sim \mathrm{QuasiPoisson}(\mu_i),\ $
+$\log(\mu_i) = \beta_0 + \beta_1 \mathrm{year_i} + \log(\mathrm{total}_i)$,
 where $y_i$ refers to the number of occurrences of a given n-gram in year $i$,
 $\mu_i$ refers to the expected number of occurrences,
 the $\beta$ terms refer to estimated parameters,
-'year' refers to a respective year, and 'total', which acts as an offset term,
-refers to the total number of 1-grams. We sorted the n-grams by their $\beta_1$
+'year' refers to a respective year, and '$\mathrm{total}_i$', which acts as an offset term,
+refers to the total number of 1-grams in year $i$. We sorted the n-grams by their $\beta_1$
 coefficient values in the above model to determine the 9 1- and 2-grams with
 the most rapid increases and decreases from 1930--1960 and 1980--2010.
 
