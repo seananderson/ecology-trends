@@ -46,7 +46,7 @@ The discipline of culturomics---the quantitative analysis of large bodies of tex
 
 Here, we build on previous analyses [e.g., @carmel2013; @reiners2017; @kim2018; @mccallen2019] by providing the first full-text analysis of ecology and conservation journals over eight decades encompassing 52 journals, 131,533 articles, and over half a billion words. We base our analysis on the JSTOR full-text corpus of "n-grams" from 1930 to 2010 for all journals that regularly publish ecological or conservation papers and are not regionally or taxonomically exclusive (see Methods). An n-gram is a sequence of terms separated by a space. For example, "biogeography" is a 1-gram and "body size" is a 2-gram (we herein denote n-grams in italics). We standardize n-gram frequency by total words per year and analyze trends over time for a selection of n-grams. We derive our n-gram selection through both algorithmic and hand-curated approaches: (1) drawing on the most frequent and rapidly growing/declining n-grams in various decades and (2) developing logical groupings of terms that fall under key ecology and conservation themes (see Methods). Our approach therefore enables data-derived comparisons of trends in ecology and conservation to yield insights into the evolution of key concepts, analytical techniques, and entire subdisciplines in these fields.
 
-<!-- FIXME: should probably mention that the terms shown in the handpicked panels can represent many underlying related terms -->
+<!-- FIXME: should probably mention that the terms shown in the handpicked panels can represent many underlying related terms. Or do this in the first handpicked figure. -->
 
 # Results
 
@@ -92,18 +92,30 @@ management [@garnett2018].
 
 # Discussion
 
-1. caveats
+1. Quick recap and importance of work
+
+Possibly any overall crosscutting themes
+
+<!-- Generally a movement from sharing ecology with biology to becoming its own discipline -->
+
+<!-- things on their way out on way out, e.g. natural history, is that the way we want to go the way the field is moving, e.g., meta-analysis -->
 
 2. comparisons to related work; what's similar and what's different?
 
-things on their way out on way out, e.g. natural history, is that the way we want to go
-the way the field is moving, e.g., meta-analysis
+3. caveats
 
-3. importance of work
+- word use doesn't necessarily mean important
+- may not represent true trends and concepts and importance to fields
+- some journal titles are sold next in with the terms
+- the corpus doesn't represent all or even necessarily a random selection of ecology journals
+- important journals like Science and Nature are missing
+- there is a mixing of biology and ecology especially in the earlier years
+- OCR problems especially on older texts
+- but can mention some similar trends compared to other studies with very different approaches
+- but this really is the best we can do; first full text analysis across multiple journals for the field
+- as to a growing body of knowledge through multiple lines of inference
 
 <!-- TODO: make sure we include some citations from nat ecol evol -->
-
-Generally a movement from sharing ecology with biology to becoming its own discipline
 
 # Acknowledgements
 
