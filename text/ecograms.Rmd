@@ -166,10 +166,10 @@ by *Bayesian*, *maximum likelihood*, and *information theoretic* terms around
 likelihood* (Fig. \@ref(fig:methods)b). The Markov chain Monte Carlo sampling
 method (*MCMC*), which combined with modern computing power has been responsible
 for the boom in applied Bayesian data analysis [@gelman2014b] first appears in
-the corpus in 1994 [@thompson1994], 24 years after [@hastings1970] described the
+the corpus in 1994 [@thompson1994], 24 years after Hastings[@hastings1970] described the
 concept. Such statistical approaches and paradigms have been associated with
 endless debates about the role of hypothesis testing in ecology (REFs).
-Regarding hypothesis testing, use of the phrase *null hypothesis* peaked in the
+To that end, use of the phrase *null hypothesis* peaked in the
 1980s and the phrase *significant difference* peaked around 1990 and has
 declined since (Fig. \@ref(fig:methods)c). The associated terms *p-value* and
 *confidence interval* appeared in approximately equal frequency as of 2010 (Fig.
@@ -178,17 +178,17 @@ missed in our corpus (e.g. 'p =' or 'CI'). *Power analysis* remains a rarely
 used term despite numerous pleas of its importance [@nakagawa2007; @smith2011d].
 The increased frequency of so many data- and model-centric terms, along with the
 advent of online publishing, has coincided with the meteoric rise of
-*supplementary material* n-grams since around 2000 --- the 2-gram itself had the
+*supplementary material* n-grams since around 2000---the 2-gram itself had the
 second most rapid increase across all 2-grams from 2000--2010 (Fig.
-\@ref(fig:decades)f) --- and a decline in *unpublished data* (Fig.
+\@ref(fig:decades)f)---and a decline in *unpublished data* (Fig.
 \@ref(fig:methods)d).
 
 ## Genetics
 
-The focus on genetics in ecology and conversation related research has skyrocketed in the past several decades. This can be seen in the massive increase in the use of the term *genetic diversity* (Fig. \@ref(fig:blanks)f and \@ref(fig:methods)e).
-*Phylogenetics* remained the most common referenced genetic term from 1930 to 2010, and increased in use rapidly since the 1990s (Fig. \@ref(fig:methods)e).
-With the advent of *next-generation sequencing* (ADD REF?), we also see a fast increase in sequencing-based approaches to studying genetic diversity, particularly the rise in reference to *single nucleotide polymorphisms* (Fig. \@ref(fig:methods)f).
-Interestingly, the term *epigenetics* has been in use since the 1950s (Supplementary Fig. \@ref(fig:methods-all)), before ecologists even had methods for studying epigenetics in the modern sense [@bird2007].
+The focus on genetics in ecology and conversation related research has skyrocketed in the past several decades. This can be seen in the increase in the use of the term *genetic diversity* (Fig. \@ref(fig:blanks)f and \@ref(fig:methods)e).
+*Phylogenetics* remained the most commonly referenced genetic term from 1930 to 2010, and increased in use rapidly since the 1990s (Fig. \@ref(fig:methods)e).
+With the advent of *next-generation sequencing* (ADD REF?), we also see an increase in sequencing-based approaches to studying genetic diversity, particularly the rise in references to *single nucleotide polymorphisms* (Fig. \@ref(fig:methods)f).
+Notably, the term *epigenetics* has been in use since the 1950s (Supplementary Fig. \@ref(fig:methods-all)), before ecologists even had methods for studying epigenetics in the modern sense [@bird2007].
 This is likely because, beginning in the 1940s, *epigenetics* was used to refer to the differentiation of cells during embryonic development [@waddington2012].
 
 ## Conservation and applied ecology
@@ -256,10 +256,11 @@ their continued importance in conservation and applied ecology.
 
 ## Social sciences and ecology
 
+<!-- FIXME: Figure out a way to make this paragraph match the style of the other paragraphs a bit better (in particular, make sure some of the terms are referred to in italics) -->
 Over the last few decades, there has been increasing attention to human
 dimensions in ecology and biodiversity conservation. Since the 1990s, there has
 been an exponential increase in research on market or community-based
-conservation interventions (Fig. \@ref(fig:social)a), particularly environmental
+conservation interventions (Fig. \@ref(fig:social)a)---particularly environmental
 certification programs and payment for ecosystem services schemes such as the
 Reducing Emissions from Deforestation and Forest Degradation (REDD) program. We
 also observed an increased focus on human wellbeing (Fig. \@ref(fig:social)b),
@@ -273,11 +274,12 @@ qualitative methods such as focus groups, ethnography, or participant observatio
 remain scarcely used, which supports the assertion that ecology and conservation
 continue to rely mostly on quantitative methods (REF?). Parallel to the
 increased focus on human wellbeing since the 1970s was the increased research on
-various stakeholders and local communities (Fig. \@ref(fig:social)d). Yet, it is
+various stakeholders and local communities (Fig. \@ref(fig:social)d). 
+<!-- FIXME: I like the following sentence but I wonder if it's sticking our neck a bit out beyond our specific results to include it in this paper... maybe modify it slightly? -->
+Yet, it is
 clear that key stakeholder groups such as indigenous people are still greatly
 underrepresented if we take into account how much land is under indigenous
 management [@garnett2018].
-
 
 <!--
 
@@ -337,6 +339,8 @@ the way the field is moving, e.g., meta-analysis
 3. importance of work
 
 <!-- TODO: make sure we include some citations from nat ecol evol -->
+
+Generally a movement from sharing ecology with biology to becoming its own discipline
 
 # Acknowledgements
 
