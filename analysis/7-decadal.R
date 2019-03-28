@@ -93,7 +93,8 @@ exclude <- c("american naturalist", "ecological monographs",
   "research institute", "press chicago", "ecol syst",
   "funct ecol", "change biology", "author contributions",
   "phil wrans", "portugal issn", "nati acad", "proc nati",
-  "corresponding author") %>%
+  "corresponding author",
+  "ecology evolution", "plant ecol", "textfig", "quarterly review") %>%
   tolower()
 pop2 <- pop2 %>% filter(!first_word %in% exclude,
   !second_word %in% exclude, !gram %in% exclude)
@@ -113,6 +114,7 @@ pop1 <- pop1 %>% filter(!gram %in% c("fig", "use", "doi", "case"))
 pop1 <- pop1 %>% filter(!gram %in% c("tion", "cent", "while", "results"))
 pop1 <- pop1 %>% filter(!gram %in% c("table", "figure", "journal"))
 pop1 <- pop1 %>% filter(!gram %in% c("university", "author", "eve"))
+pop1 <- pop1 %>% filter(!gram %in% c("figs", "figures", "writer", "phytologist"))
 
 saveRDS(pop2, file = "data/generated/pop2-cleaned.rds")
 saveRDS(pop1, file = "data/generated/pop1-cleaned.rds")

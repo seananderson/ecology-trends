@@ -1,5 +1,36 @@
 library(tidyverse)
-source("analysis/extract-functions.R")
+# source("analysis/extract-functions.R")
+
+pnas_exluded_pub_ids <- readRDS("data/generated/pnas_exluded_pub_ids.rds")
+
+filtered_journals <-
+  readr::read_csv(
+    "data/taxa-specific-journal-classifications.csv",
+    col_types = cols(
+      Journal = col_character(),
+      Slug = col_character(),
+      TaxonSpecific = col_character(),
+      Taxon = col_character(),
+      Notes = col_character()
+    )
+  ) %>%
+  # filter(TaxonSpecific == "N") %>%
+  select(Slug) %>% rename(journal = Slug)
+
+bad_amnat <- readr::read_lines("data/bad-amnat.txt") # latex code
+
+d1 <- dplyr::src_sqlite("data/jstor1.sqlite3")
+ngrams1 <- dplyr::tbl(d1, "ngrams") %>% filter(year != 999) %>%
+  filter(year >= 1920, year <= 2014) %>%
+  filter(!(gram %in% bad_amnat & journal == "amernatu")) %>%
+  filter(!pub_id %in% pnas_exluded_pub_ids,
+    journal %in% filtered_journals$journal)
+
+d2 <- dplyr::src_sqlite("data/jstor2.sqlite3")
+ngrams2 <- dplyr::tbl(d2, "ngrams") %>% filter(year != 999) %>%
+  filter(year >= 1920, year <= 2014) %>%
+  filter(!pub_id %in% pnas_exluded_pub_ids,
+    journal %in% filtered_journals$journal)
 
 ng1 <- ngrams1 %>%
   filter(year >= 1920, year <= 2011) %>%

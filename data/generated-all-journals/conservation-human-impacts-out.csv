@@ -1,0 +1,2548 @@
+year,panel,gram_canonical,total_words,total
+1920,1: Birth of conservation,conservation,1238345,11
+1921,1: Birth of conservation,conservation,1161623,18
+1922,1: Birth of conservation,conservation,1227253,7
+1923,1: Birth of conservation,conservation,1410471,11
+1924,1: Birth of conservation,conservation,1420599,11
+1925,1: Birth of conservation,conservation,1665928,14
+1926,1: Birth of conservation,conservation,1904958,12
+1927,1: Birth of conservation,conservation,1785362,16
+1928,1: Birth of conservation,conservation,1938784,15
+1929,1: Birth of conservation,conservation,1953262,12
+1930,1: Birth of conservation,conservation,2111981,12
+1931,1: Birth of conservation,conservation,2434124,23
+1932,1: Birth of conservation,conservation,2400513,14
+1933,1: Birth of conservation,conservation,2136969,17
+1934,1: Birth of conservation,conservation,2445175,30
+1935,1: Birth of conservation,conservation,2536260,27
+1936,1: Birth of conservation,conservation,2751507,36
+1937,1: Birth of conservation,conservation,2976473,53
+1938,1: Birth of conservation,conservation,2886297,121
+1939,1: Birth of conservation,conservation,2840157,103
+1940,1: Birth of conservation,conservation,3000307,132
+1941,1: Birth of conservation,conservation,2759525,123
+1942,1: Birth of conservation,conservation,2730695,136
+1943,1: Birth of conservation,conservation,2367394,132
+1944,1: Birth of conservation,conservation,2209069,260
+1945,1: Birth of conservation,conservation,2185186,94
+1946,1: Birth of conservation,conservation,2461581,131
+1947,1: Birth of conservation,conservation,2615111,163
+1948,1: Birth of conservation,conservation,2631628,119
+1949,1: Birth of conservation,conservation,2804409,129
+1950,1: Birth of conservation,conservation,3153253,151
+1951,1: Birth of conservation,conservation,3011208,114
+1952,1: Birth of conservation,conservation,3139138,127
+1953,1: Birth of conservation,conservation,3184772,225
+1954,1: Birth of conservation,conservation,3649078,198
+1955,1: Birth of conservation,conservation,3555386,208
+1956,1: Birth of conservation,conservation,3699565,189
+1957,1: Birth of conservation,conservation,3689751,135
+1958,1: Birth of conservation,conservation,3814339,137
+1959,1: Birth of conservation,conservation,3621589,135
+1960,1: Birth of conservation,conservation,3934513,181
+1961,1: Birth of conservation,conservation,4042372,100
+1962,1: Birth of conservation,conservation,4017454,189
+1963,1: Birth of conservation,conservation,4556693,206
+1964,1: Birth of conservation,conservation,5158453,297
+1965,1: Birth of conservation,conservation,5234257,250
+1966,1: Birth of conservation,conservation,5493607,159
+1967,1: Birth of conservation,conservation,6000525,199
+1968,1: Birth of conservation,conservation,6521402,412
+1969,1: Birth of conservation,conservation,7381164,221
+1970,1: Birth of conservation,conservation,7236804,205
+1971,1: Birth of conservation,conservation,7864657,241
+1972,1: Birth of conservation,conservation,7915372,272
+1973,1: Birth of conservation,conservation,8425604,323
+1974,1: Birth of conservation,conservation,8556640,316
+1975,1: Birth of conservation,conservation,9162777,379
+1976,1: Birth of conservation,conservation,9429413,551
+1977,1: Birth of conservation,conservation,10649032,897
+1978,1: Birth of conservation,conservation,10558723,555
+1979,1: Birth of conservation,conservation,10786566,588
+1980,1: Birth of conservation,conservation,11619305,627
+1981,1: Birth of conservation,conservation,12165346,655
+1982,1: Birth of conservation,conservation,12314218,958
+1983,1: Birth of conservation,conservation,12706096,918
+1984,1: Birth of conservation,conservation,13379542,1108
+1985,1: Birth of conservation,conservation,14023196,1070
+1986,1: Birth of conservation,conservation,13255908,1226
+1987,1: Birth of conservation,conservation,14598709,2454
+1988,1: Birth of conservation,conservation,15573940,2599
+1989,1: Birth of conservation,conservation,15966033,2962
+1990,1: Birth of conservation,conservation,16534942,3059
+1991,1: Birth of conservation,conservation,17585954,3485
+1992,1: Birth of conservation,conservation,18582976,4805
+1993,1: Birth of conservation,conservation,19158560,6064
+1994,1: Birth of conservation,conservation,20273048,7593
+1995,1: Birth of conservation,conservation,21582533,9473
+1996,1: Birth of conservation,conservation,23433482,11600
+1997,1: Birth of conservation,conservation,24142578,9638
+1998,1: Birth of conservation,conservation,26454637,11964
+1999,1: Birth of conservation,conservation,26387547,12877
+2000,1: Birth of conservation,conservation,28146960,14439
+2001,1: Birth of conservation,conservation,30114953,15929
+2002,1: Birth of conservation,conservation,29304753,15798
+2003,1: Birth of conservation,conservation,30981377,18015
+2004,1: Birth of conservation,conservation,31953113,19160
+2005,1: Birth of conservation,conservation,34738168,22540
+2006,1: Birth of conservation,conservation,36837237,26306
+2007,1: Birth of conservation,conservation,36641945,25170
+2008,1: Birth of conservation,conservation,39330183,28256
+2009,1: Birth of conservation,conservation,40377665,26153
+2010,1: Birth of conservation,conservation,38030234,27864
+2011,1: Birth of conservation,conservation,39815988,27573
+1920,1: Birth of conservation,preservation,1238345,32
+1921,1: Birth of conservation,preservation,1161623,50
+1922,1: Birth of conservation,preservation,1227253,14
+1923,1: Birth of conservation,preservation,1410471,44
+1924,1: Birth of conservation,preservation,1420599,46
+1925,1: Birth of conservation,preservation,1665928,67
+1926,1: Birth of conservation,preservation,1904958,34
+1927,1: Birth of conservation,preservation,1785362,39
+1928,1: Birth of conservation,preservation,1938784,42
+1929,1: Birth of conservation,preservation,1953262,42
+1930,1: Birth of conservation,preservation,2111981,76
+1931,1: Birth of conservation,preservation,2434124,62
+1932,1: Birth of conservation,preservation,2400513,69
+1933,1: Birth of conservation,preservation,2136969,65
+1934,1: Birth of conservation,preservation,2445175,47
+1935,1: Birth of conservation,preservation,2536260,77
+1936,1: Birth of conservation,preservation,2751507,47
+1937,1: Birth of conservation,preservation,2976473,72
+1938,1: Birth of conservation,preservation,2886297,52
+1939,1: Birth of conservation,preservation,2840157,35
+1940,1: Birth of conservation,preservation,3000307,51
+1941,1: Birth of conservation,preservation,2759525,50
+1942,1: Birth of conservation,preservation,2730695,51
+1943,1: Birth of conservation,preservation,2367394,24
+1944,1: Birth of conservation,preservation,2209069,138
+1945,1: Birth of conservation,preservation,2185186,66
+1946,1: Birth of conservation,preservation,2461581,47
+1947,1: Birth of conservation,preservation,2615111,88
+1948,1: Birth of conservation,preservation,2631628,55
+1949,1: Birth of conservation,preservation,2804409,38
+1950,1: Birth of conservation,preservation,3153253,96
+1951,1: Birth of conservation,preservation,3011208,65
+1952,1: Birth of conservation,preservation,3139138,60
+1953,1: Birth of conservation,preservation,3184772,61
+1954,1: Birth of conservation,preservation,3649078,68
+1955,1: Birth of conservation,preservation,3555386,97
+1956,1: Birth of conservation,preservation,3699565,57
+1957,1: Birth of conservation,preservation,3689751,119
+1958,1: Birth of conservation,preservation,3814339,60
+1959,1: Birth of conservation,preservation,3621589,98
+1960,1: Birth of conservation,preservation,3934513,167
+1961,1: Birth of conservation,preservation,4042372,75
+1962,1: Birth of conservation,preservation,4017454,67
+1963,1: Birth of conservation,preservation,4556693,85
+1964,1: Birth of conservation,preservation,5158453,158
+1965,1: Birth of conservation,preservation,5234257,128
+1966,1: Birth of conservation,preservation,5493607,112
+1967,1: Birth of conservation,preservation,6000525,344
+1968,1: Birth of conservation,preservation,6521402,261
+1969,1: Birth of conservation,preservation,7381164,130
+1970,1: Birth of conservation,preservation,7236804,124
+1971,1: Birth of conservation,preservation,7864657,147
+1972,1: Birth of conservation,preservation,7915372,156
+1973,1: Birth of conservation,preservation,8425604,167
+1974,1: Birth of conservation,preservation,8556640,142
+1975,1: Birth of conservation,preservation,9162777,187
+1976,1: Birth of conservation,preservation,9429413,204
+1977,1: Birth of conservation,preservation,10649032,228
+1978,1: Birth of conservation,preservation,10558723,229
+1979,1: Birth of conservation,preservation,10786566,269
+1980,1: Birth of conservation,preservation,11619305,237
+1981,1: Birth of conservation,preservation,12165346,320
+1982,1: Birth of conservation,preservation,12314218,257
+1983,1: Birth of conservation,preservation,12706096,307
+1984,1: Birth of conservation,preservation,13379542,229
+1985,1: Birth of conservation,preservation,14023196,645
+1986,1: Birth of conservation,preservation,13255908,240
+1987,1: Birth of conservation,preservation,14598709,354
+1988,1: Birth of conservation,preservation,15573940,345
+1989,1: Birth of conservation,preservation,15966033,372
+1990,1: Birth of conservation,preservation,16534942,407
+1991,1: Birth of conservation,preservation,17585954,566
+1992,1: Birth of conservation,preservation,18582976,444
+1993,1: Birth of conservation,preservation,19158560,528
+1994,1: Birth of conservation,preservation,20273048,541
+1995,1: Birth of conservation,preservation,21582533,670
+1996,1: Birth of conservation,preservation,23433482,638
+1997,1: Birth of conservation,preservation,24142578,633
+1998,1: Birth of conservation,preservation,26454637,676
+1999,1: Birth of conservation,preservation,26387547,812
+2000,1: Birth of conservation,preservation,28146960,647
+2001,1: Birth of conservation,preservation,30114953,758
+2002,1: Birth of conservation,preservation,29304753,545
+2003,1: Birth of conservation,preservation,30981377,734
+2004,1: Birth of conservation,preservation,31953113,896
+2005,1: Birth of conservation,preservation,34738168,824
+2006,1: Birth of conservation,preservation,36837237,838
+2007,1: Birth of conservation,preservation,36641945,831
+2008,1: Birth of conservation,preservation,39330183,883
+2009,1: Birth of conservation,preservation,40377665,850
+2010,1: Birth of conservation,preservation,38030234,881
+2011,1: Birth of conservation,preservation,39815988,889
+1920,1: Birth of conservation,restoration,1238345,18
+1921,1: Birth of conservation,restoration,1161623,6
+1922,1: Birth of conservation,restoration,1227253,6
+1923,1: Birth of conservation,restoration,1410471,3
+1924,1: Birth of conservation,restoration,1420599,31
+1925,1: Birth of conservation,restoration,1665928,8
+1926,1: Birth of conservation,restoration,1904958,30
+1927,1: Birth of conservation,restoration,1785362,10
+1928,1: Birth of conservation,restoration,1938784,12
+1929,1: Birth of conservation,restoration,1953262,17
+1930,1: Birth of conservation,restoration,2111981,16
+1931,1: Birth of conservation,restoration,2434124,34
+1932,1: Birth of conservation,restoration,2400513,26
+1933,1: Birth of conservation,restoration,2136969,30
+1934,1: Birth of conservation,restoration,2445175,22
+1935,1: Birth of conservation,restoration,2536260,36
+1936,1: Birth of conservation,restoration,2751507,22
+1937,1: Birth of conservation,restoration,2976473,63
+1938,1: Birth of conservation,restoration,2886297,31
+1939,1: Birth of conservation,restoration,2840157,28
+1940,1: Birth of conservation,restoration,3000307,36
+1941,1: Birth of conservation,restoration,2759525,38
+1942,1: Birth of conservation,restoration,2730695,74
+1943,1: Birth of conservation,restoration,2367394,16
+1944,1: Birth of conservation,restoration,2209069,26
+1945,1: Birth of conservation,restoration,2185186,41
+1946,1: Birth of conservation,restoration,2461581,25
+1947,1: Birth of conservation,restoration,2615111,29
+1948,1: Birth of conservation,restoration,2631628,18
+1949,1: Birth of conservation,restoration,2804409,35
+1950,1: Birth of conservation,restoration,3153253,27
+1951,1: Birth of conservation,restoration,3011208,37
+1952,1: Birth of conservation,restoration,3139138,28
+1953,1: Birth of conservation,restoration,3184772,26
+1954,1: Birth of conservation,restoration,3649078,36
+1955,1: Birth of conservation,restoration,3555386,27
+1956,1: Birth of conservation,restoration,3699565,43
+1957,1: Birth of conservation,restoration,3689751,37
+1958,1: Birth of conservation,restoration,3814339,43
+1959,1: Birth of conservation,restoration,3621589,39
+1960,1: Birth of conservation,restoration,3934513,44
+1961,1: Birth of conservation,restoration,4042372,71
+1962,1: Birth of conservation,restoration,4017454,51
+1963,1: Birth of conservation,restoration,4556693,51
+1964,1: Birth of conservation,restoration,5158453,126
+1965,1: Birth of conservation,restoration,5234257,98
+1966,1: Birth of conservation,restoration,5493607,74
+1967,1: Birth of conservation,restoration,6000525,93
+1968,1: Birth of conservation,restoration,6521402,72
+1969,1: Birth of conservation,restoration,7381164,68
+1970,1: Birth of conservation,restoration,7236804,114
+1971,1: Birth of conservation,restoration,7864657,126
+1972,1: Birth of conservation,restoration,7915372,141
+1973,1: Birth of conservation,restoration,8425604,60
+1974,1: Birth of conservation,restoration,8556640,87
+1975,1: Birth of conservation,restoration,9162777,145
+1976,1: Birth of conservation,restoration,9429413,108
+1977,1: Birth of conservation,restoration,10649032,167
+1978,1: Birth of conservation,restoration,10558723,97
+1979,1: Birth of conservation,restoration,10786566,79
+1980,1: Birth of conservation,restoration,11619305,131
+1981,1: Birth of conservation,restoration,12165346,186
+1982,1: Birth of conservation,restoration,12314218,120
+1983,1: Birth of conservation,restoration,12706096,198
+1984,1: Birth of conservation,restoration,13379542,202
+1985,1: Birth of conservation,restoration,14023196,202
+1986,1: Birth of conservation,restoration,13255908,179
+1987,1: Birth of conservation,restoration,14598709,286
+1988,1: Birth of conservation,restoration,15573940,273
+1989,1: Birth of conservation,restoration,15966033,289
+1990,1: Birth of conservation,restoration,16534942,296
+1991,1: Birth of conservation,restoration,17585954,368
+1992,1: Birth of conservation,restoration,18582976,418
+1993,1: Birth of conservation,restoration,19158560,531
+1994,1: Birth of conservation,restoration,20273048,763
+1995,1: Birth of conservation,restoration,21582533,745
+1996,1: Birth of conservation,restoration,23433482,1265
+1997,1: Birth of conservation,restoration,24142578,1472
+1998,1: Birth of conservation,restoration,26454637,2044
+1999,1: Birth of conservation,restoration,26387547,2023
+2000,1: Birth of conservation,restoration,28146960,1732
+2001,1: Birth of conservation,restoration,30114953,2505
+2002,1: Birth of conservation,restoration,29304753,2945
+2003,1: Birth of conservation,restoration,30981377,3260
+2004,1: Birth of conservation,restoration,31953113,3563
+2005,1: Birth of conservation,restoration,34738168,5596
+2006,1: Birth of conservation,restoration,36837237,4012
+2007,1: Birth of conservation,restoration,36641945,4809
+2008,1: Birth of conservation,restoration,39330183,5698
+2009,1: Birth of conservation,restoration,40377665,5415
+2010,1: Birth of conservation,restoration,38030234,5464
+2011,1: Birth of conservation,restoration,39815988,6815
+1920,2: Threats to biodiversity,climate change,1238345,1
+1921,2: Threats to biodiversity,climate change,1161623,1
+1923,2: Threats to biodiversity,climate change,1410471,8
+1924,2: Threats to biodiversity,climate change,1420599,2
+1925,2: Threats to biodiversity,climate change,1665928,5
+1927,2: Threats to biodiversity,climate change,1785362,1
+1928,2: Threats to biodiversity,climate change,1938784,4
+1929,2: Threats to biodiversity,climate change,1953262,4
+1930,2: Threats to biodiversity,climate change,2111981,6
+1931,2: Threats to biodiversity,climate change,2434124,21
+1932,2: Threats to biodiversity,climate change,2400513,2
+1933,2: Threats to biodiversity,climate change,2136969,7
+1934,2: Threats to biodiversity,climate change,2445175,10
+1935,2: Threats to biodiversity,climate change,2536260,10
+1936,2: Threats to biodiversity,climate change,2751507,11
+1937,2: Threats to biodiversity,climate change,2976473,3
+1938,2: Threats to biodiversity,climate change,2886297,10
+1939,2: Threats to biodiversity,climate change,2840157,20
+1940,2: Threats to biodiversity,climate change,3000307,15
+1941,2: Threats to biodiversity,climate change,2759525,12
+1942,2: Threats to biodiversity,climate change,2730695,14
+1943,2: Threats to biodiversity,climate change,2367394,5
+1944,2: Threats to biodiversity,climate change,2209069,4
+1945,2: Threats to biodiversity,climate change,2185186,1
+1946,2: Threats to biodiversity,climate change,2461581,7
+1947,2: Threats to biodiversity,climate change,2615111,7
+1948,2: Threats to biodiversity,climate change,2631628,20
+1949,2: Threats to biodiversity,climate change,2804409,5
+1950,2: Threats to biodiversity,climate change,3153253,4
+1951,2: Threats to biodiversity,climate change,3011208,15
+1952,2: Threats to biodiversity,climate change,3139138,4
+1953,2: Threats to biodiversity,climate change,3184772,11
+1954,2: Threats to biodiversity,climate change,3649078,12
+1955,2: Threats to biodiversity,climate change,3555386,8
+1956,2: Threats to biodiversity,climate change,3699565,31
+1957,2: Threats to biodiversity,climate change,3689751,18
+1958,2: Threats to biodiversity,climate change,3814339,20
+1959,2: Threats to biodiversity,climate change,3621589,11
+1960,2: Threats to biodiversity,climate change,3934513,31
+1961,2: Threats to biodiversity,climate change,4042372,22
+1962,2: Threats to biodiversity,climate change,4017454,11
+1963,2: Threats to biodiversity,climate change,4556693,15
+1964,2: Threats to biodiversity,climate change,5158453,60
+1965,2: Threats to biodiversity,climate change,5234257,35
+1966,2: Threats to biodiversity,climate change,5493607,20
+1967,2: Threats to biodiversity,climate change,6000525,17
+1968,2: Threats to biodiversity,climate change,6521402,50
+1969,2: Threats to biodiversity,climate change,7381164,55
+1970,2: Threats to biodiversity,climate change,7236804,39
+1971,2: Threats to biodiversity,climate change,7864657,22
+1972,2: Threats to biodiversity,climate change,7915372,41
+1973,2: Threats to biodiversity,climate change,8425604,54
+1974,2: Threats to biodiversity,climate change,8556640,49
+1975,2: Threats to biodiversity,climate change,9162777,75
+1976,2: Threats to biodiversity,climate change,9429413,51
+1977,2: Threats to biodiversity,climate change,10649032,115
+1978,2: Threats to biodiversity,climate change,10558723,58
+1979,2: Threats to biodiversity,climate change,10786566,110
+1980,2: Threats to biodiversity,climate change,11619305,129
+1981,2: Threats to biodiversity,climate change,12165346,63
+1982,2: Threats to biodiversity,climate change,12314218,93
+1983,2: Threats to biodiversity,climate change,12706096,96
+1984,2: Threats to biodiversity,climate change,13379542,125
+1985,2: Threats to biodiversity,climate change,14023196,173
+1986,2: Threats to biodiversity,climate change,13255908,252
+1987,2: Threats to biodiversity,climate change,14598709,174
+1988,2: Threats to biodiversity,climate change,15573940,315
+1989,2: Threats to biodiversity,climate change,15966033,376
+1990,2: Threats to biodiversity,climate change,16534942,552
+1991,2: Threats to biodiversity,climate change,17585954,1145
+1992,2: Threats to biodiversity,climate change,18582976,1068
+1993,2: Threats to biodiversity,climate change,19158560,1254
+1994,2: Threats to biodiversity,climate change,20273048,1190
+1995,2: Threats to biodiversity,climate change,21582533,2395
+1996,2: Threats to biodiversity,climate change,23433482,1527
+1997,2: Threats to biodiversity,climate change,24142578,2438
+1998,2: Threats to biodiversity,climate change,26454637,2006
+1999,2: Threats to biodiversity,climate change,26387547,2374
+2000,2: Threats to biodiversity,climate change,28146960,2201
+2001,2: Threats to biodiversity,climate change,30114953,2786
+2002,2: Threats to biodiversity,climate change,29304753,2737
+2003,2: Threats to biodiversity,climate change,30981377,3274
+2004,2: Threats to biodiversity,climate change,31953113,4728
+2005,2: Threats to biodiversity,climate change,34738168,5083
+2006,2: Threats to biodiversity,climate change,36837237,6011
+2007,2: Threats to biodiversity,climate change,36641945,6522
+2008,2: Threats to biodiversity,climate change,39330183,9649
+2009,2: Threats to biodiversity,climate change,40377665,10338
+2010,2: Threats to biodiversity,climate change,38030234,12024
+2011,2: Threats to biodiversity,climate change,39815988,11867
+1956,2: Threats to biodiversity,habitat loss,3699565,2
+1967,2: Threats to biodiversity,habitat loss,6000525,1
+1971,2: Threats to biodiversity,habitat loss,7864657,2
+1973,2: Threats to biodiversity,habitat loss,8425604,2
+1974,2: Threats to biodiversity,habitat loss,8556640,1
+1975,2: Threats to biodiversity,habitat loss,9162777,1
+1976,2: Threats to biodiversity,habitat loss,9429413,1
+1977,2: Threats to biodiversity,habitat loss,10649032,2
+1978,2: Threats to biodiversity,habitat loss,10558723,16
+1979,2: Threats to biodiversity,habitat loss,10786566,6
+1980,2: Threats to biodiversity,habitat loss,11619305,8
+1981,2: Threats to biodiversity,habitat loss,12165346,7
+1982,2: Threats to biodiversity,habitat loss,12314218,12
+1983,2: Threats to biodiversity,habitat loss,12706096,6
+1984,2: Threats to biodiversity,habitat loss,13379542,31
+1985,2: Threats to biodiversity,habitat loss,14023196,35
+1986,2: Threats to biodiversity,habitat loss,13255908,24
+1987,2: Threats to biodiversity,habitat loss,14598709,32
+1988,2: Threats to biodiversity,habitat loss,15573940,38
+1989,2: Threats to biodiversity,habitat loss,15966033,39
+1990,2: Threats to biodiversity,habitat loss,16534942,55
+1991,2: Threats to biodiversity,habitat loss,17585954,75
+1992,2: Threats to biodiversity,habitat loss,18582976,133
+1993,2: Threats to biodiversity,habitat loss,19158560,97
+1994,2: Threats to biodiversity,habitat loss,20273048,349
+1995,2: Threats to biodiversity,habitat loss,21582533,437
+1996,2: Threats to biodiversity,habitat loss,23433482,428
+1997,2: Threats to biodiversity,habitat loss,24142578,407
+1998,2: Threats to biodiversity,habitat loss,26454637,485
+1999,2: Threats to biodiversity,habitat loss,26387547,642
+2000,2: Threats to biodiversity,habitat loss,28146960,840
+2001,2: Threats to biodiversity,habitat loss,30114953,717
+2002,2: Threats to biodiversity,habitat loss,29304753,843
+2003,2: Threats to biodiversity,habitat loss,30981377,1162
+2004,2: Threats to biodiversity,habitat loss,31953113,1086
+2005,2: Threats to biodiversity,habitat loss,34738168,1473
+2006,2: Threats to biodiversity,habitat loss,36837237,1338
+2007,2: Threats to biodiversity,habitat loss,36641945,1808
+2008,2: Threats to biodiversity,habitat loss,39330183,1843
+2009,2: Threats to biodiversity,habitat loss,40377665,1928
+2010,2: Threats to biodiversity,habitat loss,38030234,1636
+2011,2: Threats to biodiversity,habitat loss,39815988,2464
+2012,2: Threats to biodiversity,habitat loss,22192417,640
+2013,2: Threats to biodiversity,habitat loss,23337453,789
+2014,2: Threats to biodiversity,habitat loss,11261291,579
+1920,2: Threats to biodiversity,invasive species,1238345,1
+1921,2: Threats to biodiversity,invasive species,1161623,1
+1922,2: Threats to biodiversity,invasive species,1227253,1
+1923,2: Threats to biodiversity,invasive species,1410471,2
+1926,2: Threats to biodiversity,invasive species,1904958,5
+1927,2: Threats to biodiversity,invasive species,1785362,3
+1929,2: Threats to biodiversity,invasive species,1953262,1
+1932,2: Threats to biodiversity,invasive species,2400513,19
+1933,2: Threats to biodiversity,invasive species,2136969,1
+1935,2: Threats to biodiversity,invasive species,2536260,3
+1937,2: Threats to biodiversity,invasive species,2976473,2
+1938,2: Threats to biodiversity,invasive species,2886297,1
+1940,2: Threats to biodiversity,invasive species,3000307,5
+1945,2: Threats to biodiversity,invasive species,2185186,7
+1946,2: Threats to biodiversity,invasive species,2461581,2
+1947,2: Threats to biodiversity,invasive species,2615111,4
+1948,2: Threats to biodiversity,invasive species,2631628,3
+1950,2: Threats to biodiversity,invasive species,3153253,1
+1951,2: Threats to biodiversity,invasive species,3011208,1
+1952,2: Threats to biodiversity,invasive species,3139138,1
+1953,2: Threats to biodiversity,invasive species,3184772,4
+1954,2: Threats to biodiversity,invasive species,3649078,5
+1955,2: Threats to biodiversity,invasive species,3555386,1
+1956,2: Threats to biodiversity,invasive species,3699565,1
+1958,2: Threats to biodiversity,invasive species,3814339,54
+1959,2: Threats to biodiversity,invasive species,3621589,2
+1961,2: Threats to biodiversity,invasive species,4042372,5
+1962,2: Threats to biodiversity,invasive species,4017454,3
+1963,2: Threats to biodiversity,invasive species,4556693,3
+1964,2: Threats to biodiversity,invasive species,5158453,6
+1965,2: Threats to biodiversity,invasive species,5234257,5
+1966,2: Threats to biodiversity,invasive species,5493607,4
+1967,2: Threats to biodiversity,invasive species,6000525,5
+1968,2: Threats to biodiversity,invasive species,6521402,7
+1969,2: Threats to biodiversity,invasive species,7381164,2
+1971,2: Threats to biodiversity,invasive species,7864657,7
+1972,2: Threats to biodiversity,invasive species,7915372,6
+1973,2: Threats to biodiversity,invasive species,8425604,6
+1974,2: Threats to biodiversity,invasive species,8556640,10
+1975,2: Threats to biodiversity,invasive species,9162777,15
+1976,2: Threats to biodiversity,invasive species,9429413,13
+1977,2: Threats to biodiversity,invasive species,10649032,34
+1978,2: Threats to biodiversity,invasive species,10558723,17
+1979,2: Threats to biodiversity,invasive species,10786566,19
+1980,2: Threats to biodiversity,invasive species,11619305,34
+1981,2: Threats to biodiversity,invasive species,12165346,26
+1982,2: Threats to biodiversity,invasive species,12314218,8
+1983,2: Threats to biodiversity,invasive species,12706096,84
+1984,2: Threats to biodiversity,invasive species,13379542,44
+1985,2: Threats to biodiversity,invasive species,14023196,51
+1986,2: Threats to biodiversity,invasive species,13255908,174
+1987,2: Threats to biodiversity,invasive species,14598709,70
+1988,2: Threats to biodiversity,invasive species,15573940,67
+1989,2: Threats to biodiversity,invasive species,15966033,97
+1990,2: Threats to biodiversity,invasive species,16534942,85
+1991,2: Threats to biodiversity,invasive species,17585954,122
+1992,2: Threats to biodiversity,invasive species,18582976,140
+1993,2: Threats to biodiversity,invasive species,19158560,197
+1994,2: Threats to biodiversity,invasive species,20273048,236
+1995,2: Threats to biodiversity,invasive species,21582533,263
+1996,2: Threats to biodiversity,invasive species,23433482,478
+1997,2: Threats to biodiversity,invasive species,24142578,578
+1998,2: Threats to biodiversity,invasive species,26454637,976
+1999,2: Threats to biodiversity,invasive species,26387547,951
+2000,2: Threats to biodiversity,invasive species,28146960,1165
+2001,2: Threats to biodiversity,invasive species,30114953,1649
+2002,2: Threats to biodiversity,invasive species,29304753,2423
+2003,2: Threats to biodiversity,invasive species,30981377,2730
+2004,2: Threats to biodiversity,invasive species,31953113,4787
+2005,2: Threats to biodiversity,invasive species,34738168,5293
+2006,2: Threats to biodiversity,invasive species,36837237,6466
+2007,2: Threats to biodiversity,invasive species,36641945,7305
+2008,2: Threats to biodiversity,invasive species,39330183,11082
+2009,2: Threats to biodiversity,invasive species,40377665,10153
+2010,2: Threats to biodiversity,invasive species,38030234,10577
+2011,2: Threats to biodiversity,invasive species,39815988,13342
+1954,2: Threats to biodiversity,overexploitation,3649078,1
+1955,2: Threats to biodiversity,overexploitation,3555386,3
+1961,2: Threats to biodiversity,overexploitation,4042372,2
+1963,2: Threats to biodiversity,overexploitation,4556693,1
+1964,2: Threats to biodiversity,overexploitation,5158453,1
+1965,2: Threats to biodiversity,overexploitation,5234257,1
+1966,2: Threats to biodiversity,overexploitation,5493607,1
+1968,2: Threats to biodiversity,overexploitation,6521402,3
+1969,2: Threats to biodiversity,overexploitation,7381164,2
+1970,2: Threats to biodiversity,overexploitation,7236804,4
+1971,2: Threats to biodiversity,overexploitation,7864657,2
+1972,2: Threats to biodiversity,overexploitation,7915372,2
+1973,2: Threats to biodiversity,overexploitation,8425604,2
+1974,2: Threats to biodiversity,overexploitation,8556640,11
+1975,2: Threats to biodiversity,overexploitation,9162777,4
+1976,2: Threats to biodiversity,overexploitation,9429413,7
+1977,2: Threats to biodiversity,overexploitation,10649032,10
+1978,2: Threats to biodiversity,overexploitation,10558723,24
+1979,2: Threats to biodiversity,overexploitation,10786566,15
+1980,2: Threats to biodiversity,overexploitation,11619305,25
+1981,2: Threats to biodiversity,overexploitation,12165346,14
+1982,2: Threats to biodiversity,overexploitation,12314218,11
+1983,2: Threats to biodiversity,overexploitation,12706096,11
+1984,2: Threats to biodiversity,overexploitation,13379542,15
+1985,2: Threats to biodiversity,overexploitation,14023196,17
+1986,2: Threats to biodiversity,overexploitation,13255908,13
+1987,2: Threats to biodiversity,overexploitation,14598709,20
+1988,2: Threats to biodiversity,overexploitation,15573940,19
+1989,2: Threats to biodiversity,overexploitation,15966033,17
+1990,2: Threats to biodiversity,overexploitation,16534942,36
+1991,2: Threats to biodiversity,overexploitation,17585954,31
+1992,2: Threats to biodiversity,overexploitation,18582976,34
+1993,2: Threats to biodiversity,overexploitation,19158560,46
+1994,2: Threats to biodiversity,overexploitation,20273048,39
+1995,2: Threats to biodiversity,overexploitation,21582533,62
+1996,2: Threats to biodiversity,overexploitation,23433482,48
+1997,2: Threats to biodiversity,overexploitation,24142578,32
+1998,2: Threats to biodiversity,overexploitation,26454637,102
+1999,2: Threats to biodiversity,overexploitation,26387547,61
+2000,2: Threats to biodiversity,overexploitation,28146960,74
+2001,2: Threats to biodiversity,overexploitation,30114953,57
+2002,2: Threats to biodiversity,overexploitation,29304753,94
+2003,2: Threats to biodiversity,overexploitation,30981377,114
+2004,2: Threats to biodiversity,overexploitation,31953113,127
+2005,2: Threats to biodiversity,overexploitation,34738168,139
+2006,2: Threats to biodiversity,overexploitation,36837237,99
+2007,2: Threats to biodiversity,overexploitation,36641945,92
+2008,2: Threats to biodiversity,overexploitation,39330183,167
+2009,2: Threats to biodiversity,overexploitation,40377665,139
+2010,2: Threats to biodiversity,overexploitation,38030234,117
+2011,2: Threats to biodiversity,overexploitation,39815988,126
+1926,2: Threats to biodiversity,overpopulation,1904958,5
+1927,2: Threats to biodiversity,overpopulation,1785362,1
+1928,2: Threats to biodiversity,overpopulation,1938784,1
+1931,2: Threats to biodiversity,overpopulation,2434124,1
+1933,2: Threats to biodiversity,overpopulation,2136969,1
+1934,2: Threats to biodiversity,overpopulation,2445175,2
+1936,2: Threats to biodiversity,overpopulation,2751507,1
+1938,2: Threats to biodiversity,overpopulation,2886297,2
+1939,2: Threats to biodiversity,overpopulation,2840157,1
+1941,2: Threats to biodiversity,overpopulation,2759525,1
+1942,2: Threats to biodiversity,overpopulation,2730695,3
+1944,2: Threats to biodiversity,overpopulation,2209069,4
+1945,2: Threats to biodiversity,overpopulation,2185186,7
+1946,2: Threats to biodiversity,overpopulation,2461581,4
+1947,2: Threats to biodiversity,overpopulation,2615111,5
+1948,2: Threats to biodiversity,overpopulation,2631628,4
+1949,2: Threats to biodiversity,overpopulation,2804409,19
+1950,2: Threats to biodiversity,overpopulation,3153253,1
+1951,2: Threats to biodiversity,overpopulation,3011208,7
+1952,2: Threats to biodiversity,overpopulation,3139138,8
+1953,2: Threats to biodiversity,overpopulation,3184772,2
+1954,2: Threats to biodiversity,overpopulation,3649078,5
+1955,2: Threats to biodiversity,overpopulation,3555386,3
+1956,2: Threats to biodiversity,overpopulation,3699565,3
+1957,2: Threats to biodiversity,overpopulation,3689751,2
+1960,2: Threats to biodiversity,overpopulation,3934513,6
+1961,2: Threats to biodiversity,overpopulation,4042372,8
+1962,2: Threats to biodiversity,overpopulation,4017454,2
+1963,2: Threats to biodiversity,overpopulation,4556693,4
+1964,2: Threats to biodiversity,overpopulation,5158453,4
+1965,2: Threats to biodiversity,overpopulation,5234257,7
+1966,2: Threats to biodiversity,overpopulation,5493607,6
+1967,2: Threats to biodiversity,overpopulation,6000525,8
+1968,2: Threats to biodiversity,overpopulation,6521402,3
+1969,2: Threats to biodiversity,overpopulation,7381164,34
+1970,2: Threats to biodiversity,overpopulation,7236804,17
+1971,2: Threats to biodiversity,overpopulation,7864657,14
+1972,2: Threats to biodiversity,overpopulation,7915372,16
+1973,2: Threats to biodiversity,overpopulation,8425604,5
+1974,2: Threats to biodiversity,overpopulation,8556640,21
+1975,2: Threats to biodiversity,overpopulation,9162777,16
+1976,2: Threats to biodiversity,overpopulation,9429413,13
+1977,2: Threats to biodiversity,overpopulation,10649032,15
+1978,2: Threats to biodiversity,overpopulation,10558723,9
+1979,2: Threats to biodiversity,overpopulation,10786566,13
+1980,2: Threats to biodiversity,overpopulation,11619305,6
+1981,2: Threats to biodiversity,overpopulation,12165346,8
+1982,2: Threats to biodiversity,overpopulation,12314218,10
+1983,2: Threats to biodiversity,overpopulation,12706096,13
+1984,2: Threats to biodiversity,overpopulation,13379542,10
+1985,2: Threats to biodiversity,overpopulation,14023196,33
+1986,2: Threats to biodiversity,overpopulation,13255908,14
+1987,2: Threats to biodiversity,overpopulation,14598709,11
+1988,2: Threats to biodiversity,overpopulation,15573940,20
+1989,2: Threats to biodiversity,overpopulation,15966033,8
+1990,2: Threats to biodiversity,overpopulation,16534942,9
+1991,2: Threats to biodiversity,overpopulation,17585954,37
+1992,2: Threats to biodiversity,overpopulation,18582976,32
+1993,2: Threats to biodiversity,overpopulation,19158560,23
+1994,2: Threats to biodiversity,overpopulation,20273048,51
+1995,2: Threats to biodiversity,overpopulation,21582533,48
+1996,2: Threats to biodiversity,overpopulation,23433482,43
+1997,2: Threats to biodiversity,overpopulation,24142578,47
+1998,2: Threats to biodiversity,overpopulation,26454637,33
+1999,2: Threats to biodiversity,overpopulation,26387547,42
+2000,2: Threats to biodiversity,overpopulation,28146960,39
+2001,2: Threats to biodiversity,overpopulation,30114953,41
+2002,2: Threats to biodiversity,overpopulation,29304753,65
+2003,2: Threats to biodiversity,overpopulation,30981377,78
+2004,2: Threats to biodiversity,overpopulation,31953113,61
+2005,2: Threats to biodiversity,overpopulation,34738168,44
+2006,2: Threats to biodiversity,overpopulation,36837237,91
+2007,2: Threats to biodiversity,overpopulation,36641945,51
+2008,2: Threats to biodiversity,overpopulation,39330183,83
+2009,2: Threats to biodiversity,overpopulation,40377665,78
+2010,2: Threats to biodiversity,overpopulation,38030234,75
+2011,2: Threats to biodiversity,overpopulation,39815988,91
+2012,2: Threats to biodiversity,overpopulation,22192417,12
+2013,2: Threats to biodiversity,overpopulation,23337453,36
+2014,2: Threats to biodiversity,overpopulation,11261291,28
+1920,2: Threats to biodiversity,pollution,1238345,35
+1921,2: Threats to biodiversity,pollution,1161623,1
+1922,2: Threats to biodiversity,pollution,1227253,9
+1923,2: Threats to biodiversity,pollution,1410471,3
+1925,2: Threats to biodiversity,pollution,1665928,1
+1926,2: Threats to biodiversity,pollution,1904958,3
+1927,2: Threats to biodiversity,pollution,1785362,7
+1928,2: Threats to biodiversity,pollution,1938784,3
+1929,2: Threats to biodiversity,pollution,1953262,14
+1930,2: Threats to biodiversity,pollution,2111981,40
+1931,2: Threats to biodiversity,pollution,2434124,45
+1932,2: Threats to biodiversity,pollution,2400513,17
+1933,2: Threats to biodiversity,pollution,2136969,35
+1934,2: Threats to biodiversity,pollution,2445175,14
+1935,2: Threats to biodiversity,pollution,2536260,5
+1936,2: Threats to biodiversity,pollution,2751507,15
+1937,2: Threats to biodiversity,pollution,2976473,38
+1938,2: Threats to biodiversity,pollution,2886297,48
+1939,2: Threats to biodiversity,pollution,2840157,3
+1940,2: Threats to biodiversity,pollution,3000307,46
+1941,2: Threats to biodiversity,pollution,2759525,26
+1942,2: Threats to biodiversity,pollution,2730695,13
+1943,2: Threats to biodiversity,pollution,2367394,26
+1944,2: Threats to biodiversity,pollution,2209069,23
+1945,2: Threats to biodiversity,pollution,2185186,7
+1946,2: Threats to biodiversity,pollution,2461581,15
+1947,2: Threats to biodiversity,pollution,2615111,23
+1948,2: Threats to biodiversity,pollution,2631628,25
+1949,2: Threats to biodiversity,pollution,2804409,40
+1950,2: Threats to biodiversity,pollution,3153253,29
+1951,2: Threats to biodiversity,pollution,3011208,25
+1952,2: Threats to biodiversity,pollution,3139138,12
+1953,2: Threats to biodiversity,pollution,3184772,8
+1954,2: Threats to biodiversity,pollution,3649078,49
+1955,2: Threats to biodiversity,pollution,3555386,44
+1956,2: Threats to biodiversity,pollution,3699565,87
+1957,2: Threats to biodiversity,pollution,3689751,47
+1958,2: Threats to biodiversity,pollution,3814339,107
+1959,2: Threats to biodiversity,pollution,3621589,67
+1960,2: Threats to biodiversity,pollution,3934513,35
+1961,2: Threats to biodiversity,pollution,4042372,73
+1962,2: Threats to biodiversity,pollution,4017454,68
+1963,2: Threats to biodiversity,pollution,4556693,66
+1964,2: Threats to biodiversity,pollution,5158453,118
+1965,2: Threats to biodiversity,pollution,5234257,151
+1966,2: Threats to biodiversity,pollution,5493607,137
+1967,2: Threats to biodiversity,pollution,6000525,117
+1968,2: Threats to biodiversity,pollution,6521402,229
+1969,2: Threats to biodiversity,pollution,7381164,374
+1970,2: Threats to biodiversity,pollution,7236804,470
+1971,2: Threats to biodiversity,pollution,7864657,647
+1972,2: Threats to biodiversity,pollution,7915372,904
+1973,2: Threats to biodiversity,pollution,8425604,624
+1974,2: Threats to biodiversity,pollution,8556640,686
+1975,2: Threats to biodiversity,pollution,9162777,736
+1976,2: Threats to biodiversity,pollution,9429413,915
+1977,2: Threats to biodiversity,pollution,10649032,1152
+1978,2: Threats to biodiversity,pollution,10558723,658
+1979,2: Threats to biodiversity,pollution,10786566,1231
+1980,2: Threats to biodiversity,pollution,11619305,1082
+1981,2: Threats to biodiversity,pollution,12165346,781
+1982,2: Threats to biodiversity,pollution,12314218,1179
+1983,2: Threats to biodiversity,pollution,12706096,579
+1984,2: Threats to biodiversity,pollution,13379542,862
+1985,2: Threats to biodiversity,pollution,14023196,912
+1986,2: Threats to biodiversity,pollution,13255908,784
+1987,2: Threats to biodiversity,pollution,14598709,1081
+1988,2: Threats to biodiversity,pollution,15573940,1409
+1989,2: Threats to biodiversity,pollution,15966033,1156
+1990,2: Threats to biodiversity,pollution,16534942,1525
+1991,2: Threats to biodiversity,pollution,17585954,1075
+1992,2: Threats to biodiversity,pollution,18582976,1343
+1993,2: Threats to biodiversity,pollution,19158560,1503
+1994,2: Threats to biodiversity,pollution,20273048,1931
+1995,2: Threats to biodiversity,pollution,21582533,1607
+1996,2: Threats to biodiversity,pollution,23433482,1980
+1997,2: Threats to biodiversity,pollution,24142578,1849
+1998,2: Threats to biodiversity,pollution,26454637,2007
+1999,2: Threats to biodiversity,pollution,26387547,1216
+2000,2: Threats to biodiversity,pollution,28146960,1772
+2001,2: Threats to biodiversity,pollution,30114953,1964
+2002,2: Threats to biodiversity,pollution,29304753,1753
+2003,2: Threats to biodiversity,pollution,30981377,1764
+2004,2: Threats to biodiversity,pollution,31953113,1672
+2005,2: Threats to biodiversity,pollution,34738168,1765
+2006,2: Threats to biodiversity,pollution,36837237,1927
+2007,2: Threats to biodiversity,pollution,36641945,1786
+2008,2: Threats to biodiversity,pollution,39330183,2145
+2009,2: Threats to biodiversity,pollution,40377665,2020
+2010,2: Threats to biodiversity,pollution,38030234,1925
+2011,2: Threats to biodiversity,pollution,39815988,1997
+1920,3: Climate change impacts,bleaching,1238345,2
+1921,3: Climate change impacts,bleaching,1161623,4
+1922,3: Climate change impacts,bleaching,1227253,1
+1923,3: Climate change impacts,bleaching,1410471,2
+1924,3: Climate change impacts,bleaching,1420599,1
+1925,3: Climate change impacts,bleaching,1665928,3
+1926,3: Climate change impacts,bleaching,1904958,11
+1927,3: Climate change impacts,bleaching,1785362,9
+1928,3: Climate change impacts,bleaching,1938784,6
+1929,3: Climate change impacts,bleaching,1953262,24
+1930,3: Climate change impacts,bleaching,2111981,16
+1931,3: Climate change impacts,bleaching,2434124,20
+1932,3: Climate change impacts,bleaching,2400513,2
+1933,3: Climate change impacts,bleaching,2136969,14
+1934,3: Climate change impacts,bleaching,2445175,11
+1935,3: Climate change impacts,bleaching,2536260,7
+1936,3: Climate change impacts,bleaching,2751507,19
+1937,3: Climate change impacts,bleaching,2976473,2
+1938,3: Climate change impacts,bleaching,2886297,3
+1939,3: Climate change impacts,bleaching,2840157,18
+1940,3: Climate change impacts,bleaching,3000307,9
+1941,3: Climate change impacts,bleaching,2759525,12
+1942,3: Climate change impacts,bleaching,2730695,12
+1943,3: Climate change impacts,bleaching,2367394,1
+1944,3: Climate change impacts,bleaching,2209069,3
+1945,3: Climate change impacts,bleaching,2185186,5
+1946,3: Climate change impacts,bleaching,2461581,8
+1947,3: Climate change impacts,bleaching,2615111,9
+1948,3: Climate change impacts,bleaching,2631628,1
+1949,3: Climate change impacts,bleaching,2804409,12
+1950,3: Climate change impacts,bleaching,3153253,14
+1951,3: Climate change impacts,bleaching,3011208,9
+1952,3: Climate change impacts,bleaching,3139138,7
+1953,3: Climate change impacts,bleaching,3184772,6
+1954,3: Climate change impacts,bleaching,3649078,5
+1955,3: Climate change impacts,bleaching,3555386,2
+1956,3: Climate change impacts,bleaching,3699565,11
+1957,3: Climate change impacts,bleaching,3689751,4
+1958,3: Climate change impacts,bleaching,3814339,28
+1959,3: Climate change impacts,bleaching,3621589,41
+1960,3: Climate change impacts,bleaching,3934513,12
+1961,3: Climate change impacts,bleaching,4042372,30
+1962,3: Climate change impacts,bleaching,4017454,18
+1963,3: Climate change impacts,bleaching,4556693,8
+1964,3: Climate change impacts,bleaching,5158453,6
+1965,3: Climate change impacts,bleaching,5234257,67
+1966,3: Climate change impacts,bleaching,5493607,33
+1967,3: Climate change impacts,bleaching,6000525,15
+1968,3: Climate change impacts,bleaching,6521402,25
+1969,3: Climate change impacts,bleaching,7381164,5
+1970,3: Climate change impacts,bleaching,7236804,17
+1971,3: Climate change impacts,bleaching,7864657,16
+1972,3: Climate change impacts,bleaching,7915372,22
+1973,3: Climate change impacts,bleaching,8425604,14
+1974,3: Climate change impacts,bleaching,8556640,14
+1975,3: Climate change impacts,bleaching,9162777,52
+1976,3: Climate change impacts,bleaching,9429413,34
+1977,3: Climate change impacts,bleaching,10649032,73
+1978,3: Climate change impacts,bleaching,10558723,23
+1979,3: Climate change impacts,bleaching,10786566,19
+1980,3: Climate change impacts,bleaching,11619305,49
+1981,3: Climate change impacts,bleaching,12165346,30
+1982,3: Climate change impacts,bleaching,12314218,11
+1983,3: Climate change impacts,bleaching,12706096,98
+1984,3: Climate change impacts,bleaching,13379542,24
+1985,3: Climate change impacts,bleaching,14023196,30
+1986,3: Climate change impacts,bleaching,13255908,18
+1987,3: Climate change impacts,bleaching,14598709,45
+1988,3: Climate change impacts,bleaching,15573940,121
+1989,3: Climate change impacts,bleaching,15966033,82
+1990,3: Climate change impacts,bleaching,16534942,60
+1991,3: Climate change impacts,bleaching,17585954,47
+1992,3: Climate change impacts,bleaching,18582976,315
+1993,3: Climate change impacts,bleaching,19158560,120
+1994,3: Climate change impacts,bleaching,20273048,170
+1995,3: Climate change impacts,bleaching,21582533,134
+1996,3: Climate change impacts,bleaching,23433482,49
+1997,3: Climate change impacts,bleaching,24142578,127
+1998,3: Climate change impacts,bleaching,26454637,84
+1999,3: Climate change impacts,bleaching,26387547,297
+2000,3: Climate change impacts,bleaching,28146960,355
+2001,3: Climate change impacts,bleaching,30114953,168
+2002,3: Climate change impacts,bleaching,29304753,270
+2003,3: Climate change impacts,bleaching,30981377,447
+2004,3: Climate change impacts,bleaching,31953113,158
+2005,3: Climate change impacts,bleaching,34738168,134
+2006,3: Climate change impacts,bleaching,36837237,232
+2007,3: Climate change impacts,bleaching,36641945,533
+2008,3: Climate change impacts,bleaching,39330183,689
+2009,3: Climate change impacts,bleaching,40377665,1017
+2010,3: Climate change impacts,bleaching,38030234,475
+2011,3: Climate change impacts,bleaching,39815988,487
+1945,3: Climate change impacts,climate extremes,2185186,1
+1947,3: Climate change impacts,climate extremes,2615111,1
+1953,3: Climate change impacts,climate extremes,3184772,1
+1956,3: Climate change impacts,climate extremes,3699565,1
+1957,3: Climate change impacts,climate extremes,3689751,1
+1959,3: Climate change impacts,climate extremes,3621589,2
+1962,3: Climate change impacts,climate extremes,4017454,1
+1963,3: Climate change impacts,climate extremes,4556693,4
+1968,3: Climate change impacts,climate extremes,6521402,1
+1970,3: Climate change impacts,climate extremes,7236804,3
+1972,3: Climate change impacts,climate extremes,7915372,3
+1974,3: Climate change impacts,climate extremes,8556640,3
+1975,3: Climate change impacts,climate extremes,9162777,1
+1976,3: Climate change impacts,climate extremes,9429413,1
+1978,3: Climate change impacts,climate extremes,10558723,2
+1979,3: Climate change impacts,climate extremes,10786566,2
+1980,3: Climate change impacts,climate extremes,11619305,7
+1981,3: Climate change impacts,climate extremes,12165346,2
+1983,3: Climate change impacts,climate extremes,12706096,1
+1984,3: Climate change impacts,climate extremes,13379542,2
+1985,3: Climate change impacts,climate extremes,14023196,4
+1986,3: Climate change impacts,climate extremes,13255908,1
+1987,3: Climate change impacts,climate extremes,14598709,2
+1988,3: Climate change impacts,climate extremes,15573940,3
+1989,3: Climate change impacts,climate extremes,15966033,3
+1990,3: Climate change impacts,climate extremes,16534942,7
+1991,3: Climate change impacts,climate extremes,17585954,13
+1992,3: Climate change impacts,climate extremes,18582976,7
+1993,3: Climate change impacts,climate extremes,19158560,13
+1994,3: Climate change impacts,climate extremes,20273048,4
+1995,3: Climate change impacts,climate extremes,21582533,14
+1996,3: Climate change impacts,climate extremes,23433482,8
+1997,3: Climate change impacts,climate extremes,24142578,17
+1998,3: Climate change impacts,climate extremes,26454637,31
+1999,3: Climate change impacts,climate extremes,26387547,22
+2000,3: Climate change impacts,climate extremes,28146960,16
+2001,3: Climate change impacts,climate extremes,30114953,38
+2002,3: Climate change impacts,climate extremes,29304753,27
+2003,3: Climate change impacts,climate extremes,30981377,43
+2004,3: Climate change impacts,climate extremes,31953113,62
+2005,3: Climate change impacts,climate extremes,34738168,84
+2006,3: Climate change impacts,climate extremes,36837237,103
+2007,3: Climate change impacts,climate extremes,36641945,125
+2008,3: Climate change impacts,climate extremes,39330183,160
+2009,3: Climate change impacts,climate extremes,40377665,114
+2010,3: Climate change impacts,climate extremes,38030234,177
+2011,3: Climate change impacts,climate extremes,39815988,324
+2012,3: Climate change impacts,climate extremes,22192417,115
+2013,3: Climate change impacts,climate extremes,23337453,111
+2014,3: Climate change impacts,climate extremes,11261291,55
+1975,3: Climate change impacts,global warming,9162777,1
+1981,3: Climate change impacts,global warming,12165346,9
+1982,3: Climate change impacts,global warming,12314218,1
+1983,3: Climate change impacts,global warming,12706096,2
+1984,3: Climate change impacts,global warming,13379542,6
+1985,3: Climate change impacts,global warming,14023196,13
+1986,3: Climate change impacts,global warming,13255908,8
+1987,3: Climate change impacts,global warming,14598709,12
+1988,3: Climate change impacts,global warming,15573940,15
+1989,3: Climate change impacts,global warming,15966033,46
+1990,3: Climate change impacts,global warming,16534942,109
+1991,3: Climate change impacts,global warming,17585954,193
+1992,3: Climate change impacts,global warming,18582976,225
+1993,3: Climate change impacts,global warming,19158560,276
+1994,3: Climate change impacts,global warming,20273048,245
+1995,3: Climate change impacts,global warming,21582533,370
+1996,3: Climate change impacts,global warming,23433482,242
+1997,3: Climate change impacts,global warming,24142578,275
+1998,3: Climate change impacts,global warming,26454637,321
+1999,3: Climate change impacts,global warming,26387547,286
+2000,3: Climate change impacts,global warming,28146960,346
+2001,3: Climate change impacts,global warming,30114953,436
+2002,3: Climate change impacts,global warming,29304753,388
+2003,3: Climate change impacts,global warming,30981377,485
+2004,3: Climate change impacts,global warming,31953113,644
+2005,3: Climate change impacts,global warming,34738168,692
+2006,3: Climate change impacts,global warming,36837237,663
+2007,3: Climate change impacts,global warming,36641945,733
+2008,3: Climate change impacts,global warming,39330183,1074
+2009,3: Climate change impacts,global warming,40377665,1001
+2010,3: Climate change impacts,global warming,38030234,1239
+2011,3: Climate change impacts,global warming,39815988,884
+1998,3: Climate change impacts,ocean acidification,26454637,1
+2006,3: Climate change impacts,ocean acidification,36837237,4
+2007,3: Climate change impacts,ocean acidification,36641945,23
+2008,3: Climate change impacts,ocean acidification,39330183,98
+2009,3: Climate change impacts,ocean acidification,40377665,146
+2010,3: Climate change impacts,ocean acidification,38030234,260
+2011,3: Climate change impacts,ocean acidification,39815988,146
+1920,3: Climate change impacts,ozone,1238345,1
+1921,3: Climate change impacts,ozone,1161623,1
+1925,3: Climate change impacts,ozone,1665928,2
+1927,3: Climate change impacts,ozone,1785362,10
+1928,3: Climate change impacts,ozone,1938784,7
+1929,3: Climate change impacts,ozone,1953262,3
+1933,3: Climate change impacts,ozone,2136969,4
+1934,3: Climate change impacts,ozone,2445175,1
+1935,3: Climate change impacts,ozone,2536260,2
+1936,3: Climate change impacts,ozone,2751507,4
+1937,3: Climate change impacts,ozone,2976473,19
+1938,3: Climate change impacts,ozone,2886297,4
+1940,3: Climate change impacts,ozone,3000307,3
+1941,3: Climate change impacts,ozone,2759525,1
+1942,3: Climate change impacts,ozone,2730695,1
+1943,3: Climate change impacts,ozone,2367394,3
+1944,3: Climate change impacts,ozone,2209069,3
+1947,3: Climate change impacts,ozone,2615111,2
+1948,3: Climate change impacts,ozone,2631628,1
+1950,3: Climate change impacts,ozone,3153253,3
+1951,3: Climate change impacts,ozone,3011208,13
+1952,3: Climate change impacts,ozone,3139138,2
+1953,3: Climate change impacts,ozone,3184772,2
+1954,3: Climate change impacts,ozone,3649078,3
+1955,3: Climate change impacts,ozone,3555386,31
+1956,3: Climate change impacts,ozone,3699565,29
+1958,3: Climate change impacts,ozone,3814339,2
+1960,3: Climate change impacts,ozone,3934513,1
+1961,3: Climate change impacts,ozone,4042372,6
+1962,3: Climate change impacts,ozone,4017454,8
+1963,3: Climate change impacts,ozone,4556693,6
+1964,3: Climate change impacts,ozone,5158453,2
+1965,3: Climate change impacts,ozone,5234257,14
+1966,3: Climate change impacts,ozone,5493607,8
+1967,3: Climate change impacts,ozone,6000525,8
+1968,3: Climate change impacts,ozone,6521402,44
+1969,3: Climate change impacts,ozone,7381164,3
+1970,3: Climate change impacts,ozone,7236804,7
+1971,3: Climate change impacts,ozone,7864657,187
+1972,3: Climate change impacts,ozone,7915372,206
+1973,3: Climate change impacts,ozone,8425604,129
+1974,3: Climate change impacts,ozone,8556640,325
+1975,3: Climate change impacts,ozone,9162777,100
+1976,3: Climate change impacts,ozone,9429413,87
+1977,3: Climate change impacts,ozone,10649032,446
+1978,3: Climate change impacts,ozone,10558723,117
+1979,3: Climate change impacts,ozone,10786566,119
+1980,3: Climate change impacts,ozone,11619305,267
+1981,3: Climate change impacts,ozone,12165346,270
+1982,3: Climate change impacts,ozone,12314218,354
+1983,3: Climate change impacts,ozone,12706096,147
+1984,3: Climate change impacts,ozone,13379542,587
+1985,3: Climate change impacts,ozone,14023196,229
+1986,3: Climate change impacts,ozone,13255908,150
+1987,3: Climate change impacts,ozone,14598709,249
+1988,3: Climate change impacts,ozone,15573940,595
+1989,3: Climate change impacts,ozone,15966033,734
+1990,3: Climate change impacts,ozone,16534942,2088
+1991,3: Climate change impacts,ozone,17585954,1554
+1992,3: Climate change impacts,ozone,18582976,1904
+1993,3: Climate change impacts,ozone,19158560,1487
+1994,3: Climate change impacts,ozone,20273048,1612
+1995,3: Climate change impacts,ozone,21582533,3002
+1996,3: Climate change impacts,ozone,23433482,1247
+1997,3: Climate change impacts,ozone,24142578,2441
+1998,3: Climate change impacts,ozone,26454637,2536
+1999,3: Climate change impacts,ozone,26387547,1695
+2000,3: Climate change impacts,ozone,28146960,1285
+2001,3: Climate change impacts,ozone,30114953,1881
+2002,3: Climate change impacts,ozone,29304753,1381
+2003,3: Climate change impacts,ozone,30981377,1123
+2004,3: Climate change impacts,ozone,31953113,1052
+2005,3: Climate change impacts,ozone,34738168,1248
+2006,3: Climate change impacts,ozone,36837237,887
+2007,3: Climate change impacts,ozone,36641945,1011
+2008,3: Climate change impacts,ozone,39330183,531
+2009,3: Climate change impacts,ozone,40377665,1718
+2010,3: Climate change impacts,ozone,38030234,428
+2011,3: Climate change impacts,ozone,39815988,467
+1945,3: Climate change impacts,range shifts,2185186,1
+1950,3: Climate change impacts,range shifts,3153253,1
+1955,3: Climate change impacts,range shifts,3555386,2
+1960,3: Climate change impacts,range shifts,3934513,3
+1964,3: Climate change impacts,range shifts,5158453,1
+1966,3: Climate change impacts,range shifts,5493607,4
+1967,3: Climate change impacts,range shifts,6000525,1
+1969,3: Climate change impacts,range shifts,7381164,4
+1970,3: Climate change impacts,range shifts,7236804,3
+1972,3: Climate change impacts,range shifts,7915372,2
+1975,3: Climate change impacts,range shifts,9162777,1
+1976,3: Climate change impacts,range shifts,9429413,1
+1977,3: Climate change impacts,range shifts,10649032,5
+1978,3: Climate change impacts,range shifts,10558723,3
+1979,3: Climate change impacts,range shifts,10786566,1
+1980,3: Climate change impacts,range shifts,11619305,2
+1981,3: Climate change impacts,range shifts,12165346,13
+1982,3: Climate change impacts,range shifts,12314218,3
+1983,3: Climate change impacts,range shifts,12706096,2
+1984,3: Climate change impacts,range shifts,13379542,3
+1985,3: Climate change impacts,range shifts,14023196,5
+1986,3: Climate change impacts,range shifts,13255908,18
+1987,3: Climate change impacts,range shifts,14598709,6
+1988,3: Climate change impacts,range shifts,15573940,3
+1989,3: Climate change impacts,range shifts,15966033,4
+1990,3: Climate change impacts,range shifts,16534942,12
+1991,3: Climate change impacts,range shifts,17585954,10
+1992,3: Climate change impacts,range shifts,18582976,8
+1993,3: Climate change impacts,range shifts,19158560,2
+1994,3: Climate change impacts,range shifts,20273048,9
+1995,3: Climate change impacts,range shifts,21582533,25
+1996,3: Climate change impacts,range shifts,23433482,33
+1997,3: Climate change impacts,range shifts,24142578,19
+1998,3: Climate change impacts,range shifts,26454637,36
+1999,3: Climate change impacts,range shifts,26387547,24
+2000,3: Climate change impacts,range shifts,28146960,59
+2001,3: Climate change impacts,range shifts,30114953,31
+2002,3: Climate change impacts,range shifts,29304753,62
+2003,3: Climate change impacts,range shifts,30981377,69
+2004,3: Climate change impacts,range shifts,31953113,104
+2005,3: Climate change impacts,range shifts,34738168,227
+2006,3: Climate change impacts,range shifts,36837237,249
+2007,3: Climate change impacts,range shifts,36641945,203
+2008,3: Climate change impacts,range shifts,39330183,254
+2009,3: Climate change impacts,range shifts,40377665,470
+2010,3: Climate change impacts,range shifts,38030234,724
+2011,3: Climate change impacts,range shifts,39815988,486
+1965,3: Climate change impacts,regime shift,5234257,1
+1980,3: Climate change impacts,regime shift,11619305,1
+1986,3: Climate change impacts,regime shift,13255908,1
+1995,3: Climate change impacts,regime shift,21582533,2
+1996,3: Climate change impacts,regime shift,23433482,1
+1997,3: Climate change impacts,regime shift,24142578,3
+1998,3: Climate change impacts,regime shift,26454637,26
+1999,3: Climate change impacts,regime shift,26387547,13
+2000,3: Climate change impacts,regime shift,28146960,9
+2001,3: Climate change impacts,regime shift,30114953,29
+2002,3: Climate change impacts,regime shift,29304753,23
+2003,3: Climate change impacts,regime shift,30981377,151
+2004,3: Climate change impacts,regime shift,31953113,68
+2005,3: Climate change impacts,regime shift,34738168,219
+2006,3: Climate change impacts,regime shift,36837237,131
+2007,3: Climate change impacts,regime shift,36641945,222
+2008,3: Climate change impacts,regime shift,39330183,366
+2009,3: Climate change impacts,regime shift,40377665,829
+2010,3: Climate change impacts,regime shift,38030234,340
+2011,3: Climate change impacts,regime shift,39815988,373
+1952,3: Climate change impacts,sea level rise,3139138,2
+1955,3: Climate change impacts,sea level rise,3555386,1
+1960,3: Climate change impacts,sea level rise,3934513,2
+1963,3: Climate change impacts,sea level rise,4556693,2
+1964,3: Climate change impacts,sea level rise,5158453,4
+1965,3: Climate change impacts,sea level rise,5234257,5
+1967,3: Climate change impacts,sea level rise,6000525,6
+1968,3: Climate change impacts,sea level rise,6521402,1
+1969,3: Climate change impacts,sea level rise,7381164,13
+1970,3: Climate change impacts,sea level rise,7236804,1
+1971,3: Climate change impacts,sea level rise,7864657,2
+1972,3: Climate change impacts,sea level rise,7915372,8
+1973,3: Climate change impacts,sea level rise,8425604,8
+1974,3: Climate change impacts,sea level rise,8556640,2
+1975,3: Climate change impacts,sea level rise,9162777,5
+1976,3: Climate change impacts,sea level rise,9429413,7
+1977,3: Climate change impacts,sea level rise,10649032,3
+1978,3: Climate change impacts,sea level rise,10558723,6
+1979,3: Climate change impacts,sea level rise,10786566,10
+1980,3: Climate change impacts,sea level rise,11619305,13
+1981,3: Climate change impacts,sea level rise,12165346,1
+1982,3: Climate change impacts,sea level rise,12314218,3
+1984,3: Climate change impacts,sea level rise,13379542,8
+1985,3: Climate change impacts,sea level rise,14023196,53
+1986,3: Climate change impacts,sea level rise,13255908,121
+1987,3: Climate change impacts,sea level rise,14598709,56
+1988,3: Climate change impacts,sea level rise,15573940,191
+1989,3: Climate change impacts,sea level rise,15966033,242
+1990,3: Climate change impacts,sea level rise,16534942,189
+1991,3: Climate change impacts,sea level rise,17585954,443
+1992,3: Climate change impacts,sea level rise,18582976,360
+1993,3: Climate change impacts,sea level rise,19158560,478
+1994,3: Climate change impacts,sea level rise,20273048,557
+1995,3: Climate change impacts,sea level rise,21582533,2131
+1996,3: Climate change impacts,sea level rise,23433482,314
+1997,3: Climate change impacts,sea level rise,24142578,1036
+1998,3: Climate change impacts,sea level rise,26454637,507
+1999,3: Climate change impacts,sea level rise,26387547,505
+2000,3: Climate change impacts,sea level rise,28146960,335
+2001,3: Climate change impacts,sea level rise,30114953,658
+2002,3: Climate change impacts,sea level rise,29304753,350
+2003,3: Climate change impacts,sea level rise,30981377,395
+2004,3: Climate change impacts,sea level rise,31953113,668
+2005,3: Climate change impacts,sea level rise,34738168,536
+2006,3: Climate change impacts,sea level rise,36837237,720
+2007,3: Climate change impacts,sea level rise,36641945,569
+2008,3: Climate change impacts,sea level rise,39330183,1197
+2009,3: Climate change impacts,sea level rise,40377665,1057
+2010,3: Climate change impacts,sea level rise,38030234,924
+2011,3: Climate change impacts,sea level rise,39815988,1055
+2012,3: Climate change impacts,sea level rise,22192417,1107
+2013,3: Climate change impacts,sea level rise,23337453,1912
+2014,3: Climate change impacts,sea level rise,11261291,1184
+1920,4: Consequences to species/landscapes,deforestation,1238345,1
+1923,4: Consequences to species/landscapes,deforestation,1410471,1
+1928,4: Consequences to species/landscapes,deforestation,1938784,3
+1929,4: Consequences to species/landscapes,deforestation,1953262,3
+1930,4: Consequences to species/landscapes,deforestation,2111981,1
+1932,4: Consequences to species/landscapes,deforestation,2400513,1
+1935,4: Consequences to species/landscapes,deforestation,2536260,1
+1936,4: Consequences to species/landscapes,deforestation,2751507,2
+1937,4: Consequences to species/landscapes,deforestation,2976473,2
+1938,4: Consequences to species/landscapes,deforestation,2886297,3
+1939,4: Consequences to species/landscapes,deforestation,2840157,1
+1940,4: Consequences to species/landscapes,deforestation,3000307,1
+1941,4: Consequences to species/landscapes,deforestation,2759525,2
+1943,4: Consequences to species/landscapes,deforestation,2367394,1
+1945,4: Consequences to species/landscapes,deforestation,2185186,1
+1947,4: Consequences to species/landscapes,deforestation,2615111,5
+1948,4: Consequences to species/landscapes,deforestation,2631628,5
+1949,4: Consequences to species/landscapes,deforestation,2804409,1
+1950,4: Consequences to species/landscapes,deforestation,3153253,2
+1951,4: Consequences to species/landscapes,deforestation,3011208,6
+1952,4: Consequences to species/landscapes,deforestation,3139138,7
+1953,4: Consequences to species/landscapes,deforestation,3184772,6
+1954,4: Consequences to species/landscapes,deforestation,3649078,4
+1956,4: Consequences to species/landscapes,deforestation,3699565,19
+1957,4: Consequences to species/landscapes,deforestation,3689751,7
+1959,4: Consequences to species/landscapes,deforestation,3621589,2
+1960,4: Consequences to species/landscapes,deforestation,3934513,2
+1961,4: Consequences to species/landscapes,deforestation,4042372,8
+1962,4: Consequences to species/landscapes,deforestation,4017454,3
+1963,4: Consequences to species/landscapes,deforestation,4556693,2
+1964,4: Consequences to species/landscapes,deforestation,5158453,25
+1965,4: Consequences to species/landscapes,deforestation,5234257,10
+1966,4: Consequences to species/landscapes,deforestation,5493607,2
+1967,4: Consequences to species/landscapes,deforestation,6000525,4
+1968,4: Consequences to species/landscapes,deforestation,6521402,10
+1969,4: Consequences to species/landscapes,deforestation,7381164,7
+1970,4: Consequences to species/landscapes,deforestation,7236804,52
+1971,4: Consequences to species/landscapes,deforestation,7864657,15
+1972,4: Consequences to species/landscapes,deforestation,7915372,35
+1973,4: Consequences to species/landscapes,deforestation,8425604,8
+1974,4: Consequences to species/landscapes,deforestation,8556640,71
+1975,4: Consequences to species/landscapes,deforestation,9162777,19
+1976,4: Consequences to species/landscapes,deforestation,9429413,21
+1977,4: Consequences to species/landscapes,deforestation,10649032,21
+1978,4: Consequences to species/landscapes,deforestation,10558723,38
+1979,4: Consequences to species/landscapes,deforestation,10786566,60
+1980,4: Consequences to species/landscapes,deforestation,11619305,47
+1981,4: Consequences to species/landscapes,deforestation,12165346,58
+1982,4: Consequences to species/landscapes,deforestation,12314218,23
+1983,4: Consequences to species/landscapes,deforestation,12706096,133
+1984,4: Consequences to species/landscapes,deforestation,13379542,71
+1985,4: Consequences to species/landscapes,deforestation,14023196,100
+1986,4: Consequences to species/landscapes,deforestation,13255908,166
+1987,4: Consequences to species/landscapes,deforestation,14598709,216
+1988,4: Consequences to species/landscapes,deforestation,15573940,299
+1989,4: Consequences to species/landscapes,deforestation,15966033,148
+1990,4: Consequences to species/landscapes,deforestation,16534942,188
+1991,4: Consequences to species/landscapes,deforestation,17585954,265
+1992,4: Consequences to species/landscapes,deforestation,18582976,451
+1993,4: Consequences to species/landscapes,deforestation,19158560,814
+1994,4: Consequences to species/landscapes,deforestation,20273048,753
+1995,4: Consequences to species/landscapes,deforestation,21582533,503
+1996,4: Consequences to species/landscapes,deforestation,23433482,534
+1997,4: Consequences to species/landscapes,deforestation,24142578,632
+1998,4: Consequences to species/landscapes,deforestation,26454637,599
+1999,4: Consequences to species/landscapes,deforestation,26387547,874
+2000,4: Consequences to species/landscapes,deforestation,28146960,611
+2001,4: Consequences to species/landscapes,deforestation,30114953,626
+2002,4: Consequences to species/landscapes,deforestation,29304753,673
+2003,4: Consequences to species/landscapes,deforestation,30981377,690
+2004,4: Consequences to species/landscapes,deforestation,31953113,1162
+2005,4: Consequences to species/landscapes,deforestation,34738168,858
+2006,4: Consequences to species/landscapes,deforestation,36837237,1309
+2007,4: Consequences to species/landscapes,deforestation,36641945,1108
+2008,4: Consequences to species/landscapes,deforestation,39330183,2005
+2009,4: Consequences to species/landscapes,deforestation,40377665,1268
+2010,4: Consequences to species/landscapes,deforestation,38030234,1488
+2011,4: Consequences to species/landscapes,deforestation,39815988,1117
+1920,4: Consequences to species/landscapes,disturbance,1238345,37
+1921,4: Consequences to species/landscapes,disturbance,1161623,54
+1922,4: Consequences to species/landscapes,disturbance,1227253,49
+1923,4: Consequences to species/landscapes,disturbance,1410471,65
+1924,4: Consequences to species/landscapes,disturbance,1420599,119
+1925,4: Consequences to species/landscapes,disturbance,1665928,103
+1926,4: Consequences to species/landscapes,disturbance,1904958,85
+1927,4: Consequences to species/landscapes,disturbance,1785362,88
+1928,4: Consequences to species/landscapes,disturbance,1938784,75
+1929,4: Consequences to species/landscapes,disturbance,1953262,116
+1930,4: Consequences to species/landscapes,disturbance,2111981,69
+1931,4: Consequences to species/landscapes,disturbance,2434124,106
+1932,4: Consequences to species/landscapes,disturbance,2400513,122
+1933,4: Consequences to species/landscapes,disturbance,2136969,92
+1934,4: Consequences to species/landscapes,disturbance,2445175,175
+1935,4: Consequences to species/landscapes,disturbance,2536260,134
+1936,4: Consequences to species/landscapes,disturbance,2751507,160
+1937,4: Consequences to species/landscapes,disturbance,2976473,144
+1938,4: Consequences to species/landscapes,disturbance,2886297,144
+1939,4: Consequences to species/landscapes,disturbance,2840157,133
+1940,4: Consequences to species/landscapes,disturbance,3000307,103
+1941,4: Consequences to species/landscapes,disturbance,2759525,104
+1942,4: Consequences to species/landscapes,disturbance,2730695,144
+1943,4: Consequences to species/landscapes,disturbance,2367394,73
+1944,4: Consequences to species/landscapes,disturbance,2209069,91
+1945,4: Consequences to species/landscapes,disturbance,2185186,100
+1946,4: Consequences to species/landscapes,disturbance,2461581,123
+1947,4: Consequences to species/landscapes,disturbance,2615111,149
+1948,4: Consequences to species/landscapes,disturbance,2631628,106
+1949,4: Consequences to species/landscapes,disturbance,2804409,154
+1950,4: Consequences to species/landscapes,disturbance,3153253,128
+1951,4: Consequences to species/landscapes,disturbance,3011208,143
+1952,4: Consequences to species/landscapes,disturbance,3139138,241
+1953,4: Consequences to species/landscapes,disturbance,3184772,191
+1954,4: Consequences to species/landscapes,disturbance,3649078,184
+1955,4: Consequences to species/landscapes,disturbance,3555386,196
+1956,4: Consequences to species/landscapes,disturbance,3699565,242
+1957,4: Consequences to species/landscapes,disturbance,3689751,175
+1958,4: Consequences to species/landscapes,disturbance,3814339,199
+1959,4: Consequences to species/landscapes,disturbance,3621589,160
+1960,4: Consequences to species/landscapes,disturbance,3934513,230
+1961,4: Consequences to species/landscapes,disturbance,4042372,187
+1962,4: Consequences to species/landscapes,disturbance,4017454,285
+1963,4: Consequences to species/landscapes,disturbance,4556693,272
+1964,4: Consequences to species/landscapes,disturbance,5158453,244
+1965,4: Consequences to species/landscapes,disturbance,5234257,390
+1966,4: Consequences to species/landscapes,disturbance,5493607,328
+1967,4: Consequences to species/landscapes,disturbance,6000525,283
+1968,4: Consequences to species/landscapes,disturbance,6521402,429
+1969,4: Consequences to species/landscapes,disturbance,7381164,356
+1970,4: Consequences to species/landscapes,disturbance,7236804,377
+1971,4: Consequences to species/landscapes,disturbance,7864657,467
+1972,4: Consequences to species/landscapes,disturbance,7915372,534
+1973,4: Consequences to species/landscapes,disturbance,8425604,481
+1974,4: Consequences to species/landscapes,disturbance,8556640,772
+1975,4: Consequences to species/landscapes,disturbance,9162777,748
+1976,4: Consequences to species/landscapes,disturbance,9429413,834
+1977,4: Consequences to species/landscapes,disturbance,10649032,1013
+1978,4: Consequences to species/landscapes,disturbance,10558723,851
+1979,4: Consequences to species/landscapes,disturbance,10786566,1487
+1980,4: Consequences to species/landscapes,disturbance,11619305,1451
+1981,4: Consequences to species/landscapes,disturbance,12165346,1403
+1982,4: Consequences to species/landscapes,disturbance,12314218,1706
+1983,4: Consequences to species/landscapes,disturbance,12706096,1475
+1984,4: Consequences to species/landscapes,disturbance,13379542,2501
+1985,4: Consequences to species/landscapes,disturbance,14023196,2509
+1986,4: Consequences to species/landscapes,disturbance,13255908,2281
+1987,4: Consequences to species/landscapes,disturbance,14598709,3189
+1988,4: Consequences to species/landscapes,disturbance,15573940,4026
+1989,4: Consequences to species/landscapes,disturbance,15966033,4031
+1990,4: Consequences to species/landscapes,disturbance,16534942,4122
+1991,4: Consequences to species/landscapes,disturbance,17585954,5733
+1992,4: Consequences to species/landscapes,disturbance,18582976,4568
+1993,4: Consequences to species/landscapes,disturbance,19158560,4468
+1994,4: Consequences to species/landscapes,disturbance,20273048,5775
+1995,4: Consequences to species/landscapes,disturbance,21582533,6413
+1996,4: Consequences to species/landscapes,disturbance,23433482,7607
+1997,4: Consequences to species/landscapes,disturbance,24142578,7458
+1998,4: Consequences to species/landscapes,disturbance,26454637,8740
+1999,4: Consequences to species/landscapes,disturbance,26387547,8479
+2000,4: Consequences to species/landscapes,disturbance,28146960,9608
+2001,4: Consequences to species/landscapes,disturbance,30114953,10061
+2002,4: Consequences to species/landscapes,disturbance,29304753,8923
+2003,4: Consequences to species/landscapes,disturbance,30981377,9598
+2004,4: Consequences to species/landscapes,disturbance,31953113,10244
+2005,4: Consequences to species/landscapes,disturbance,34738168,11430
+2006,4: Consequences to species/landscapes,disturbance,36837237,11276
+2007,4: Consequences to species/landscapes,disturbance,36641945,13084
+2008,4: Consequences to species/landscapes,disturbance,39330183,13461
+2009,4: Consequences to species/landscapes,disturbance,40377665,12885
+2010,4: Consequences to species/landscapes,disturbance,38030234,12333
+2011,4: Consequences to species/landscapes,disturbance,39815988,11789
+1920,4: Consequences to species/landscapes,extinction,1238345,13
+1921,4: Consequences to species/landscapes,extinction,1161623,8
+1922,4: Consequences to species/landscapes,extinction,1227253,39
+1923,4: Consequences to species/landscapes,extinction,1410471,23
+1924,4: Consequences to species/landscapes,extinction,1420599,16
+1925,4: Consequences to species/landscapes,extinction,1665928,40
+1926,4: Consequences to species/landscapes,extinction,1904958,16
+1927,4: Consequences to species/landscapes,extinction,1785362,17
+1928,4: Consequences to species/landscapes,extinction,1938784,67
+1929,4: Consequences to species/landscapes,extinction,1953262,39
+1930,4: Consequences to species/landscapes,extinction,2111981,89
+1931,4: Consequences to species/landscapes,extinction,2434124,55
+1932,4: Consequences to species/landscapes,extinction,2400513,33
+1933,4: Consequences to species/landscapes,extinction,2136969,16
+1934,4: Consequences to species/landscapes,extinction,2445175,34
+1935,4: Consequences to species/landscapes,extinction,2536260,39
+1936,4: Consequences to species/landscapes,extinction,2751507,19
+1937,4: Consequences to species/landscapes,extinction,2976473,49
+1938,4: Consequences to species/landscapes,extinction,2886297,100
+1939,4: Consequences to species/landscapes,extinction,2840157,64
+1940,4: Consequences to species/landscapes,extinction,3000307,61
+1941,4: Consequences to species/landscapes,extinction,2759525,32
+1942,4: Consequences to species/landscapes,extinction,2730695,45
+1943,4: Consequences to species/landscapes,extinction,2367394,19
+1944,4: Consequences to species/landscapes,extinction,2209069,25
+1945,4: Consequences to species/landscapes,extinction,2185186,28
+1946,4: Consequences to species/landscapes,extinction,2461581,35
+1947,4: Consequences to species/landscapes,extinction,2615111,44
+1948,4: Consequences to species/landscapes,extinction,2631628,70
+1949,4: Consequences to species/landscapes,extinction,2804409,18
+1950,4: Consequences to species/landscapes,extinction,3153253,55
+1951,4: Consequences to species/landscapes,extinction,3011208,81
+1952,4: Consequences to species/landscapes,extinction,3139138,77
+1953,4: Consequences to species/landscapes,extinction,3184772,46
+1954,4: Consequences to species/landscapes,extinction,3649078,122
+1955,4: Consequences to species/landscapes,extinction,3555386,44
+1956,4: Consequences to species/landscapes,extinction,3699565,46
+1957,4: Consequences to species/landscapes,extinction,3689751,115
+1958,4: Consequences to species/landscapes,extinction,3814339,113
+1959,4: Consequences to species/landscapes,extinction,3621589,72
+1960,4: Consequences to species/landscapes,extinction,3934513,118
+1961,4: Consequences to species/landscapes,extinction,4042372,78
+1962,4: Consequences to species/landscapes,extinction,4017454,113
+1963,4: Consequences to species/landscapes,extinction,4556693,131
+1964,4: Consequences to species/landscapes,extinction,5158453,121
+1965,4: Consequences to species/landscapes,extinction,5234257,129
+1966,4: Consequences to species/landscapes,extinction,5493607,237
+1967,4: Consequences to species/landscapes,extinction,6000525,172
+1968,4: Consequences to species/landscapes,extinction,6521402,177
+1969,4: Consequences to species/landscapes,extinction,7381164,393
+1970,4: Consequences to species/landscapes,extinction,7236804,243
+1971,4: Consequences to species/landscapes,extinction,7864657,335
+1972,4: Consequences to species/landscapes,extinction,7915372,345
+1973,4: Consequences to species/landscapes,extinction,8425604,456
+1974,4: Consequences to species/landscapes,extinction,8556640,693
+1975,4: Consequences to species/landscapes,extinction,9162777,534
+1976,4: Consequences to species/landscapes,extinction,9429413,622
+1977,4: Consequences to species/landscapes,extinction,10649032,565
+1978,4: Consequences to species/landscapes,extinction,10558723,903
+1979,4: Consequences to species/landscapes,extinction,10786566,753
+1980,4: Consequences to species/landscapes,extinction,11619305,749
+1981,4: Consequences to species/landscapes,extinction,12165346,824
+1982,4: Consequences to species/landscapes,extinction,12314218,784
+1983,4: Consequences to species/landscapes,extinction,12706096,918
+1984,4: Consequences to species/landscapes,extinction,13379542,917
+1985,4: Consequences to species/landscapes,extinction,14023196,1254
+1986,4: Consequences to species/landscapes,extinction,13255908,974
+1987,4: Consequences to species/landscapes,extinction,14598709,1392
+1988,4: Consequences to species/landscapes,extinction,15573940,1475
+1989,4: Consequences to species/landscapes,extinction,15966033,3654
+1990,4: Consequences to species/landscapes,extinction,16534942,1734
+1991,4: Consequences to species/landscapes,extinction,17585954,2068
+1992,4: Consequences to species/landscapes,extinction,18582976,2195
+1993,4: Consequences to species/landscapes,extinction,19158560,2676
+1994,4: Consequences to species/landscapes,extinction,20273048,3885
+1995,4: Consequences to species/landscapes,extinction,21582533,4098
+1996,4: Consequences to species/landscapes,extinction,23433482,4864
+1997,4: Consequences to species/landscapes,extinction,24142578,4484
+1998,4: Consequences to species/landscapes,extinction,26454637,5826
+1999,4: Consequences to species/landscapes,extinction,26387547,5299
+2000,4: Consequences to species/landscapes,extinction,28146960,5941
+2001,4: Consequences to species/landscapes,extinction,30114953,6313
+2002,4: Consequences to species/landscapes,extinction,29304753,7452
+2003,4: Consequences to species/landscapes,extinction,30981377,7456
+2004,4: Consequences to species/landscapes,extinction,31953113,6608
+2005,4: Consequences to species/landscapes,extinction,34738168,8697
+2006,4: Consequences to species/landscapes,extinction,36837237,8206
+2007,4: Consequences to species/landscapes,extinction,36641945,8637
+2008,4: Consequences to species/landscapes,extinction,39330183,10613
+2009,4: Consequences to species/landscapes,extinction,40377665,9601
+2010,4: Consequences to species/landscapes,extinction,38030234,7791
+2011,4: Consequences to species/landscapes,extinction,39815988,8899
+1920,4: Consequences to species/landscapes,fragmentation,1238345,38
+1921,4: Consequences to species/landscapes,fragmentation,1161623,4
+1922,4: Consequences to species/landscapes,fragmentation,1227253,7
+1923,4: Consequences to species/landscapes,fragmentation,1410471,31
+1924,4: Consequences to species/landscapes,fragmentation,1420599,23
+1925,4: Consequences to species/landscapes,fragmentation,1665928,35
+1926,4: Consequences to species/landscapes,fragmentation,1904958,41
+1927,4: Consequences to species/landscapes,fragmentation,1785362,50
+1928,4: Consequences to species/landscapes,fragmentation,1938784,30
+1929,4: Consequences to species/landscapes,fragmentation,1953262,17
+1930,4: Consequences to species/landscapes,fragmentation,2111981,28
+1931,4: Consequences to species/landscapes,fragmentation,2434124,17
+1932,4: Consequences to species/landscapes,fragmentation,2400513,35
+1933,4: Consequences to species/landscapes,fragmentation,2136969,22
+1934,4: Consequences to species/landscapes,fragmentation,2445175,81
+1935,4: Consequences to species/landscapes,fragmentation,2536260,33
+1936,4: Consequences to species/landscapes,fragmentation,2751507,29
+1937,4: Consequences to species/landscapes,fragmentation,2976473,34
+1938,4: Consequences to species/landscapes,fragmentation,2886297,29
+1939,4: Consequences to species/landscapes,fragmentation,2840157,34
+1940,4: Consequences to species/landscapes,fragmentation,3000307,49
+1941,4: Consequences to species/landscapes,fragmentation,2759525,8
+1942,4: Consequences to species/landscapes,fragmentation,2730695,29
+1943,4: Consequences to species/landscapes,fragmentation,2367394,7
+1944,4: Consequences to species/landscapes,fragmentation,2209069,21
+1945,4: Consequences to species/landscapes,fragmentation,2185186,20
+1946,4: Consequences to species/landscapes,fragmentation,2461581,26
+1947,4: Consequences to species/landscapes,fragmentation,2615111,24
+1948,4: Consequences to species/landscapes,fragmentation,2631628,15
+1949,4: Consequences to species/landscapes,fragmentation,2804409,29
+1950,4: Consequences to species/landscapes,fragmentation,3153253,36
+1951,4: Consequences to species/landscapes,fragmentation,3011208,40
+1952,4: Consequences to species/landscapes,fragmentation,3139138,21
+1953,4: Consequences to species/landscapes,fragmentation,3184772,18
+1954,4: Consequences to species/landscapes,fragmentation,3649078,42
+1955,4: Consequences to species/landscapes,fragmentation,3555386,42
+1956,4: Consequences to species/landscapes,fragmentation,3699565,74
+1957,4: Consequences to species/landscapes,fragmentation,3689751,34
+1958,4: Consequences to species/landscapes,fragmentation,3814339,27
+1959,4: Consequences to species/landscapes,fragmentation,3621589,31
+1960,4: Consequences to species/landscapes,fragmentation,3934513,43
+1961,4: Consequences to species/landscapes,fragmentation,4042372,34
+1962,4: Consequences to species/landscapes,fragmentation,4017454,26
+1963,4: Consequences to species/landscapes,fragmentation,4556693,48
+1964,4: Consequences to species/landscapes,fragmentation,5158453,20
+1965,4: Consequences to species/landscapes,fragmentation,5234257,35
+1966,4: Consequences to species/landscapes,fragmentation,5493607,45
+1967,4: Consequences to species/landscapes,fragmentation,6000525,38
+1968,4: Consequences to species/landscapes,fragmentation,6521402,61
+1969,4: Consequences to species/landscapes,fragmentation,7381164,53
+1970,4: Consequences to species/landscapes,fragmentation,7236804,73
+1971,4: Consequences to species/landscapes,fragmentation,7864657,44
+1972,4: Consequences to species/landscapes,fragmentation,7915372,41
+1973,4: Consequences to species/landscapes,fragmentation,8425604,80
+1974,4: Consequences to species/landscapes,fragmentation,8556640,97
+1975,4: Consequences to species/landscapes,fragmentation,9162777,76
+1976,4: Consequences to species/landscapes,fragmentation,9429413,66
+1977,4: Consequences to species/landscapes,fragmentation,10649032,85
+1978,4: Consequences to species/landscapes,fragmentation,10558723,72
+1979,4: Consequences to species/landscapes,fragmentation,10786566,83
+1980,4: Consequences to species/landscapes,fragmentation,11619305,90
+1981,4: Consequences to species/landscapes,fragmentation,12165346,95
+1982,4: Consequences to species/landscapes,fragmentation,12314218,91
+1983,4: Consequences to species/landscapes,fragmentation,12706096,95
+1984,4: Consequences to species/landscapes,fragmentation,13379542,186
+1985,4: Consequences to species/landscapes,fragmentation,14023196,201
+1986,4: Consequences to species/landscapes,fragmentation,13255908,126
+1987,4: Consequences to species/landscapes,fragmentation,14598709,211
+1988,4: Consequences to species/landscapes,fragmentation,15573940,307
+1989,4: Consequences to species/landscapes,fragmentation,15966033,306
+1990,4: Consequences to species/landscapes,fragmentation,16534942,457
+1991,4: Consequences to species/landscapes,fragmentation,17585954,477
+1992,4: Consequences to species/landscapes,fragmentation,18582976,602
+1993,4: Consequences to species/landscapes,fragmentation,19158560,825
+1994,4: Consequences to species/landscapes,fragmentation,20273048,1214
+1995,4: Consequences to species/landscapes,fragmentation,21582533,1334
+1996,4: Consequences to species/landscapes,fragmentation,23433482,1621
+1997,4: Consequences to species/landscapes,fragmentation,24142578,1927
+1998,4: Consequences to species/landscapes,fragmentation,26454637,2827
+1999,4: Consequences to species/landscapes,fragmentation,26387547,3000
+2000,4: Consequences to species/landscapes,fragmentation,28146960,3425
+2001,4: Consequences to species/landscapes,fragmentation,30114953,3826
+2002,4: Consequences to species/landscapes,fragmentation,29304753,4357
+2003,4: Consequences to species/landscapes,fragmentation,30981377,3956
+2004,4: Consequences to species/landscapes,fragmentation,31953113,3686
+2005,4: Consequences to species/landscapes,fragmentation,34738168,4435
+2006,4: Consequences to species/landscapes,fragmentation,36837237,4870
+2007,4: Consequences to species/landscapes,fragmentation,36641945,4449
+2008,4: Consequences to species/landscapes,fragmentation,39330183,4068
+2009,4: Consequences to species/landscapes,fragmentation,40377665,4713
+2010,4: Consequences to species/landscapes,fragmentation,38030234,4212
+2011,4: Consequences to species/landscapes,fragmentation,39815988,4493
+1920,4: Consequences to species/landscapes,restoration,1238345,18
+1921,4: Consequences to species/landscapes,restoration,1161623,6
+1922,4: Consequences to species/landscapes,restoration,1227253,6
+1923,4: Consequences to species/landscapes,restoration,1410471,3
+1924,4: Consequences to species/landscapes,restoration,1420599,31
+1925,4: Consequences to species/landscapes,restoration,1665928,8
+1926,4: Consequences to species/landscapes,restoration,1904958,30
+1927,4: Consequences to species/landscapes,restoration,1785362,10
+1928,4: Consequences to species/landscapes,restoration,1938784,12
+1929,4: Consequences to species/landscapes,restoration,1953262,17
+1930,4: Consequences to species/landscapes,restoration,2111981,16
+1931,4: Consequences to species/landscapes,restoration,2434124,34
+1932,4: Consequences to species/landscapes,restoration,2400513,26
+1933,4: Consequences to species/landscapes,restoration,2136969,30
+1934,4: Consequences to species/landscapes,restoration,2445175,22
+1935,4: Consequences to species/landscapes,restoration,2536260,36
+1936,4: Consequences to species/landscapes,restoration,2751507,22
+1937,4: Consequences to species/landscapes,restoration,2976473,63
+1938,4: Consequences to species/landscapes,restoration,2886297,31
+1939,4: Consequences to species/landscapes,restoration,2840157,28
+1940,4: Consequences to species/landscapes,restoration,3000307,36
+1941,4: Consequences to species/landscapes,restoration,2759525,38
+1942,4: Consequences to species/landscapes,restoration,2730695,74
+1943,4: Consequences to species/landscapes,restoration,2367394,16
+1944,4: Consequences to species/landscapes,restoration,2209069,26
+1945,4: Consequences to species/landscapes,restoration,2185186,41
+1946,4: Consequences to species/landscapes,restoration,2461581,25
+1947,4: Consequences to species/landscapes,restoration,2615111,29
+1948,4: Consequences to species/landscapes,restoration,2631628,18
+1949,4: Consequences to species/landscapes,restoration,2804409,35
+1950,4: Consequences to species/landscapes,restoration,3153253,27
+1951,4: Consequences to species/landscapes,restoration,3011208,37
+1952,4: Consequences to species/landscapes,restoration,3139138,28
+1953,4: Consequences to species/landscapes,restoration,3184772,26
+1954,4: Consequences to species/landscapes,restoration,3649078,36
+1955,4: Consequences to species/landscapes,restoration,3555386,27
+1956,4: Consequences to species/landscapes,restoration,3699565,43
+1957,4: Consequences to species/landscapes,restoration,3689751,37
+1958,4: Consequences to species/landscapes,restoration,3814339,43
+1959,4: Consequences to species/landscapes,restoration,3621589,39
+1960,4: Consequences to species/landscapes,restoration,3934513,44
+1961,4: Consequences to species/landscapes,restoration,4042372,71
+1962,4: Consequences to species/landscapes,restoration,4017454,51
+1963,4: Consequences to species/landscapes,restoration,4556693,51
+1964,4: Consequences to species/landscapes,restoration,5158453,126
+1965,4: Consequences to species/landscapes,restoration,5234257,98
+1966,4: Consequences to species/landscapes,restoration,5493607,74
+1967,4: Consequences to species/landscapes,restoration,6000525,93
+1968,4: Consequences to species/landscapes,restoration,6521402,72
+1969,4: Consequences to species/landscapes,restoration,7381164,68
+1970,4: Consequences to species/landscapes,restoration,7236804,114
+1971,4: Consequences to species/landscapes,restoration,7864657,126
+1972,4: Consequences to species/landscapes,restoration,7915372,141
+1973,4: Consequences to species/landscapes,restoration,8425604,60
+1974,4: Consequences to species/landscapes,restoration,8556640,87
+1975,4: Consequences to species/landscapes,restoration,9162777,145
+1976,4: Consequences to species/landscapes,restoration,9429413,108
+1977,4: Consequences to species/landscapes,restoration,10649032,167
+1978,4: Consequences to species/landscapes,restoration,10558723,97
+1979,4: Consequences to species/landscapes,restoration,10786566,79
+1980,4: Consequences to species/landscapes,restoration,11619305,131
+1981,4: Consequences to species/landscapes,restoration,12165346,186
+1982,4: Consequences to species/landscapes,restoration,12314218,120
+1983,4: Consequences to species/landscapes,restoration,12706096,198
+1984,4: Consequences to species/landscapes,restoration,13379542,202
+1985,4: Consequences to species/landscapes,restoration,14023196,202
+1986,4: Consequences to species/landscapes,restoration,13255908,179
+1987,4: Consequences to species/landscapes,restoration,14598709,286
+1988,4: Consequences to species/landscapes,restoration,15573940,273
+1989,4: Consequences to species/landscapes,restoration,15966033,289
+1990,4: Consequences to species/landscapes,restoration,16534942,296
+1991,4: Consequences to species/landscapes,restoration,17585954,368
+1992,4: Consequences to species/landscapes,restoration,18582976,418
+1993,4: Consequences to species/landscapes,restoration,19158560,531
+1994,4: Consequences to species/landscapes,restoration,20273048,763
+1995,4: Consequences to species/landscapes,restoration,21582533,745
+1996,4: Consequences to species/landscapes,restoration,23433482,1265
+1997,4: Consequences to species/landscapes,restoration,24142578,1472
+1998,4: Consequences to species/landscapes,restoration,26454637,2044
+1999,4: Consequences to species/landscapes,restoration,26387547,2023
+2000,4: Consequences to species/landscapes,restoration,28146960,1732
+2001,4: Consequences to species/landscapes,restoration,30114953,2505
+2002,4: Consequences to species/landscapes,restoration,29304753,2945
+2003,4: Consequences to species/landscapes,restoration,30981377,3260
+2004,4: Consequences to species/landscapes,restoration,31953113,3563
+2005,4: Consequences to species/landscapes,restoration,34738168,5596
+2006,4: Consequences to species/landscapes,restoration,36837237,4012
+2007,4: Consequences to species/landscapes,restoration,36641945,4809
+2008,4: Consequences to species/landscapes,restoration,39330183,5698
+2009,4: Consequences to species/landscapes,restoration,40377665,5415
+2010,4: Consequences to species/landscapes,restoration,38030234,5464
+2011,4: Consequences to species/landscapes,restoration,39815988,6815
+1937,4: Consequences to species/landscapes,urbanization,2976473,1
+1941,4: Consequences to species/landscapes,urbanization,2759525,3
+1943,4: Consequences to species/landscapes,urbanization,2367394,1
+1944,4: Consequences to species/landscapes,urbanization,2209069,3
+1947,4: Consequences to species/landscapes,urbanization,2615111,5
+1948,4: Consequences to species/landscapes,urbanization,2631628,1
+1953,4: Consequences to species/landscapes,urbanization,3184772,1
+1955,4: Consequences to species/landscapes,urbanization,3555386,1
+1956,4: Consequences to species/landscapes,urbanization,3699565,2
+1959,4: Consequences to species/landscapes,urbanization,3621589,1
+1961,4: Consequences to species/landscapes,urbanization,4042372,2
+1962,4: Consequences to species/landscapes,urbanization,4017454,3
+1963,4: Consequences to species/landscapes,urbanization,4556693,12
+1964,4: Consequences to species/landscapes,urbanization,5158453,2
+1965,4: Consequences to species/landscapes,urbanization,5234257,3
+1966,4: Consequences to species/landscapes,urbanization,5493607,3
+1967,4: Consequences to species/landscapes,urbanization,6000525,2
+1968,4: Consequences to species/landscapes,urbanization,6521402,6
+1969,4: Consequences to species/landscapes,urbanization,7381164,13
+1970,4: Consequences to species/landscapes,urbanization,7236804,7
+1971,4: Consequences to species/landscapes,urbanization,7864657,13
+1972,4: Consequences to species/landscapes,urbanization,7915372,50
+1973,4: Consequences to species/landscapes,urbanization,8425604,14
+1974,4: Consequences to species/landscapes,urbanization,8556640,33
+1975,4: Consequences to species/landscapes,urbanization,9162777,23
+1976,4: Consequences to species/landscapes,urbanization,9429413,39
+1977,4: Consequences to species/landscapes,urbanization,10649032,41
+1978,4: Consequences to species/landscapes,urbanization,10558723,43
+1979,4: Consequences to species/landscapes,urbanization,10786566,14
+1980,4: Consequences to species/landscapes,urbanization,11619305,49
+1981,4: Consequences to species/landscapes,urbanization,12165346,50
+1982,4: Consequences to species/landscapes,urbanization,12314218,21
+1983,4: Consequences to species/landscapes,urbanization,12706096,27
+1984,4: Consequences to species/landscapes,urbanization,13379542,53
+1985,4: Consequences to species/landscapes,urbanization,14023196,30
+1986,4: Consequences to species/landscapes,urbanization,13255908,12
+1987,4: Consequences to species/landscapes,urbanization,14598709,33
+1988,4: Consequences to species/landscapes,urbanization,15573940,29
+1989,4: Consequences to species/landscapes,urbanization,15966033,23
+1990,4: Consequences to species/landscapes,urbanization,16534942,61
+1991,4: Consequences to species/landscapes,urbanization,17585954,36
+1992,4: Consequences to species/landscapes,urbanization,18582976,83
+1993,4: Consequences to species/landscapes,urbanization,19158560,64
+1994,4: Consequences to species/landscapes,urbanization,20273048,98
+1995,4: Consequences to species/landscapes,urbanization,21582533,113
+1996,4: Consequences to species/landscapes,urbanization,23433482,172
+1997,4: Consequences to species/landscapes,urbanization,24142578,64
+1998,4: Consequences to species/landscapes,urbanization,26454637,148
+1999,4: Consequences to species/landscapes,urbanization,26387547,215
+2000,4: Consequences to species/landscapes,urbanization,28146960,174
+2001,4: Consequences to species/landscapes,urbanization,30114953,276
+2002,4: Consequences to species/landscapes,urbanization,29304753,304
+2003,4: Consequences to species/landscapes,urbanization,30981377,454
+2004,4: Consequences to species/landscapes,urbanization,31953113,414
+2005,4: Consequences to species/landscapes,urbanization,34738168,465
+2006,4: Consequences to species/landscapes,urbanization,36837237,617
+2007,4: Consequences to species/landscapes,urbanization,36641945,541
+2008,4: Consequences to species/landscapes,urbanization,39330183,971
+2009,4: Consequences to species/landscapes,urbanization,40377665,770
+2010,4: Consequences to species/landscapes,urbanization,38030234,921
+2011,4: Consequences to species/landscapes,urbanization,39815988,1086
+1920,5: Species/resource exploitation,fishing,1238345,6
+1921,5: Species/resource exploitation,fishing,1161623,34
+1922,5: Species/resource exploitation,fishing,1227253,24
+1923,5: Species/resource exploitation,fishing,1410471,10
+1924,5: Species/resource exploitation,fishing,1420599,8
+1925,5: Species/resource exploitation,fishing,1665928,4
+1926,5: Species/resource exploitation,fishing,1904958,111
+1927,5: Species/resource exploitation,fishing,1785362,93
+1928,5: Species/resource exploitation,fishing,1938784,21
+1929,5: Species/resource exploitation,fishing,1953262,20
+1930,5: Species/resource exploitation,fishing,2111981,9
+1931,5: Species/resource exploitation,fishing,2434124,21
+1932,5: Species/resource exploitation,fishing,2400513,74
+1933,5: Species/resource exploitation,fishing,2136969,11
+1934,5: Species/resource exploitation,fishing,2445175,66
+1935,5: Species/resource exploitation,fishing,2536260,12
+1936,5: Species/resource exploitation,fishing,2751507,16
+1937,5: Species/resource exploitation,fishing,2976473,19
+1938,5: Species/resource exploitation,fishing,2886297,43
+1939,5: Species/resource exploitation,fishing,2840157,71
+1940,5: Species/resource exploitation,fishing,3000307,26
+1941,5: Species/resource exploitation,fishing,2759525,231
+1942,5: Species/resource exploitation,fishing,2730695,67
+1943,5: Species/resource exploitation,fishing,2367394,49
+1944,5: Species/resource exploitation,fishing,2209069,18
+1945,5: Species/resource exploitation,fishing,2185186,104
+1946,5: Species/resource exploitation,fishing,2461581,81
+1947,5: Species/resource exploitation,fishing,2615111,99
+1948,5: Species/resource exploitation,fishing,2631628,67
+1949,5: Species/resource exploitation,fishing,2804409,46
+1950,5: Species/resource exploitation,fishing,3153253,88
+1951,5: Species/resource exploitation,fishing,3011208,84
+1952,5: Species/resource exploitation,fishing,3139138,163
+1953,5: Species/resource exploitation,fishing,3184772,59
+1954,5: Species/resource exploitation,fishing,3649078,117
+1955,5: Species/resource exploitation,fishing,3555386,109
+1956,5: Species/resource exploitation,fishing,3699565,147
+1957,5: Species/resource exploitation,fishing,3689751,160
+1958,5: Species/resource exploitation,fishing,3814339,41
+1959,5: Species/resource exploitation,fishing,3621589,78
+1960,5: Species/resource exploitation,fishing,3934513,112
+1961,5: Species/resource exploitation,fishing,4042372,264
+1962,5: Species/resource exploitation,fishing,4017454,240
+1963,5: Species/resource exploitation,fishing,4556693,239
+1964,5: Species/resource exploitation,fishing,5158453,104
+1965,5: Species/resource exploitation,fishing,5234257,180
+1966,5: Species/resource exploitation,fishing,5493607,61
+1967,5: Species/resource exploitation,fishing,6000525,103
+1968,5: Species/resource exploitation,fishing,6521402,214
+1969,5: Species/resource exploitation,fishing,7381164,116
+1970,5: Species/resource exploitation,fishing,7236804,180
+1971,5: Species/resource exploitation,fishing,7864657,177
+1972,5: Species/resource exploitation,fishing,7915372,435
+1973,5: Species/resource exploitation,fishing,8425604,152
+1974,5: Species/resource exploitation,fishing,8556640,161
+1975,5: Species/resource exploitation,fishing,9162777,269
+1976,5: Species/resource exploitation,fishing,9429413,203
+1977,5: Species/resource exploitation,fishing,10649032,422
+1978,5: Species/resource exploitation,fishing,10558723,528
+1979,5: Species/resource exploitation,fishing,10786566,245
+1980,5: Species/resource exploitation,fishing,11619305,206
+1981,5: Species/resource exploitation,fishing,12165346,300
+1982,5: Species/resource exploitation,fishing,12314218,405
+1983,5: Species/resource exploitation,fishing,12706096,321
+1984,5: Species/resource exploitation,fishing,13379542,387
+1985,5: Species/resource exploitation,fishing,14023196,295
+1986,5: Species/resource exploitation,fishing,13255908,248
+1987,5: Species/resource exploitation,fishing,14598709,483
+1988,5: Species/resource exploitation,fishing,15573940,438
+1989,5: Species/resource exploitation,fishing,15966033,351
+1990,5: Species/resource exploitation,fishing,16534942,373
+1991,5: Species/resource exploitation,fishing,17585954,390
+1992,5: Species/resource exploitation,fishing,18582976,683
+1993,5: Species/resource exploitation,fishing,19158560,873
+1994,5: Species/resource exploitation,fishing,20273048,503
+1995,5: Species/resource exploitation,fishing,21582533,1239
+1996,5: Species/resource exploitation,fishing,23433482,1333
+1997,5: Species/resource exploitation,fishing,24142578,739
+1998,5: Species/resource exploitation,fishing,26454637,1932
+1999,5: Species/resource exploitation,fishing,26387547,1106
+2000,5: Species/resource exploitation,fishing,28146960,1349
+2001,5: Species/resource exploitation,fishing,30114953,1889
+2002,5: Species/resource exploitation,fishing,29304753,1763
+2003,5: Species/resource exploitation,fishing,30981377,2234
+2004,5: Species/resource exploitation,fishing,31953113,2314
+2005,5: Species/resource exploitation,fishing,34738168,3346
+2006,5: Species/resource exploitation,fishing,36837237,2720
+2007,5: Species/resource exploitation,fishing,36641945,3151
+2008,5: Species/resource exploitation,fishing,39330183,3547
+2009,5: Species/resource exploitation,fishing,40377665,2652
+2010,5: Species/resource exploitation,fishing,38030234,3874
+2011,5: Species/resource exploitation,fishing,39815988,3380
+1920,5: Species/resource exploitation,harvesting,1238345,9
+1921,5: Species/resource exploitation,harvesting,1161623,4
+1922,5: Species/resource exploitation,harvesting,1227253,4
+1923,5: Species/resource exploitation,harvesting,1410471,18
+1924,5: Species/resource exploitation,harvesting,1420599,7
+1925,5: Species/resource exploitation,harvesting,1665928,7
+1926,5: Species/resource exploitation,harvesting,1904958,4
+1927,5: Species/resource exploitation,harvesting,1785362,6
+1928,5: Species/resource exploitation,harvesting,1938784,2
+1929,5: Species/resource exploitation,harvesting,1953262,3
+1930,5: Species/resource exploitation,harvesting,2111981,4
+1931,5: Species/resource exploitation,harvesting,2434124,5
+1932,5: Species/resource exploitation,harvesting,2400513,8
+1933,5: Species/resource exploitation,harvesting,2136969,13
+1934,5: Species/resource exploitation,harvesting,2445175,10
+1935,5: Species/resource exploitation,harvesting,2536260,6
+1936,5: Species/resource exploitation,harvesting,2751507,7
+1937,5: Species/resource exploitation,harvesting,2976473,20
+1938,5: Species/resource exploitation,harvesting,2886297,18
+1939,5: Species/resource exploitation,harvesting,2840157,15
+1940,5: Species/resource exploitation,harvesting,3000307,25
+1941,5: Species/resource exploitation,harvesting,2759525,31
+1942,5: Species/resource exploitation,harvesting,2730695,17
+1943,5: Species/resource exploitation,harvesting,2367394,21
+1944,5: Species/resource exploitation,harvesting,2209069,51
+1945,5: Species/resource exploitation,harvesting,2185186,29
+1946,5: Species/resource exploitation,harvesting,2461581,28
+1947,5: Species/resource exploitation,harvesting,2615111,39
+1948,5: Species/resource exploitation,harvesting,2631628,20
+1949,5: Species/resource exploitation,harvesting,2804409,29
+1950,5: Species/resource exploitation,harvesting,3153253,43
+1951,5: Species/resource exploitation,harvesting,3011208,12
+1952,5: Species/resource exploitation,harvesting,3139138,44
+1953,5: Species/resource exploitation,harvesting,3184772,26
+1954,5: Species/resource exploitation,harvesting,3649078,30
+1955,5: Species/resource exploitation,harvesting,3555386,43
+1956,5: Species/resource exploitation,harvesting,3699565,31
+1957,5: Species/resource exploitation,harvesting,3689751,29
+1958,5: Species/resource exploitation,harvesting,3814339,66
+1959,5: Species/resource exploitation,harvesting,3621589,40
+1960,5: Species/resource exploitation,harvesting,3934513,45
+1961,5: Species/resource exploitation,harvesting,4042372,33
+1962,5: Species/resource exploitation,harvesting,4017454,43
+1963,5: Species/resource exploitation,harvesting,4556693,89
+1964,5: Species/resource exploitation,harvesting,5158453,65
+1965,5: Species/resource exploitation,harvesting,5234257,67
+1966,5: Species/resource exploitation,harvesting,5493607,88
+1967,5: Species/resource exploitation,harvesting,6000525,73
+1968,5: Species/resource exploitation,harvesting,6521402,74
+1969,5: Species/resource exploitation,harvesting,7381164,60
+1970,5: Species/resource exploitation,harvesting,7236804,95
+1971,5: Species/resource exploitation,harvesting,7864657,102
+1972,5: Species/resource exploitation,harvesting,7915372,115
+1973,5: Species/resource exploitation,harvesting,8425604,170
+1974,5: Species/resource exploitation,harvesting,8556640,166
+1975,5: Species/resource exploitation,harvesting,9162777,185
+1976,5: Species/resource exploitation,harvesting,9429413,206
+1977,5: Species/resource exploitation,harvesting,10649032,291
+1978,5: Species/resource exploitation,harvesting,10558723,314
+1979,5: Species/resource exploitation,harvesting,10786566,307
+1980,5: Species/resource exploitation,harvesting,11619305,294
+1981,5: Species/resource exploitation,harvesting,12165346,323
+1982,5: Species/resource exploitation,harvesting,12314218,231
+1983,5: Species/resource exploitation,harvesting,12706096,390
+1984,5: Species/resource exploitation,harvesting,13379542,552
+1985,5: Species/resource exploitation,harvesting,14023196,433
+1986,5: Species/resource exploitation,harvesting,13255908,420
+1987,5: Species/resource exploitation,harvesting,14598709,433
+1988,5: Species/resource exploitation,harvesting,15573940,419
+1989,5: Species/resource exploitation,harvesting,15966033,553
+1990,5: Species/resource exploitation,harvesting,16534942,412
+1991,5: Species/resource exploitation,harvesting,17585954,480
+1992,5: Species/resource exploitation,harvesting,18582976,637
+1993,5: Species/resource exploitation,harvesting,19158560,675
+1994,5: Species/resource exploitation,harvesting,20273048,890
+1995,5: Species/resource exploitation,harvesting,21582533,1050
+1996,5: Species/resource exploitation,harvesting,23433482,1268
+1997,5: Species/resource exploitation,harvesting,24142578,1302
+1998,5: Species/resource exploitation,harvesting,26454637,1256
+1999,5: Species/resource exploitation,harvesting,26387547,1340
+2000,5: Species/resource exploitation,harvesting,28146960,1475
+2001,5: Species/resource exploitation,harvesting,30114953,1220
+2002,5: Species/resource exploitation,harvesting,29304753,1502
+2003,5: Species/resource exploitation,harvesting,30981377,1244
+2004,5: Species/resource exploitation,harvesting,31953113,1541
+2005,5: Species/resource exploitation,harvesting,34738168,1927
+2006,5: Species/resource exploitation,harvesting,36837237,1918
+2007,5: Species/resource exploitation,harvesting,36641945,2048
+2008,5: Species/resource exploitation,harvesting,39330183,2114
+2009,5: Species/resource exploitation,harvesting,40377665,1860
+2010,5: Species/resource exploitation,harvesting,38030234,1863
+2011,5: Species/resource exploitation,harvesting,39815988,2209
+1920,5: Species/resource exploitation,hunting,1238345,2
+1921,5: Species/resource exploitation,hunting,1161623,15
+1922,5: Species/resource exploitation,hunting,1227253,28
+1923,5: Species/resource exploitation,hunting,1410471,5
+1924,5: Species/resource exploitation,hunting,1420599,14
+1925,5: Species/resource exploitation,hunting,1665928,6
+1926,5: Species/resource exploitation,hunting,1904958,7
+1927,5: Species/resource exploitation,hunting,1785362,16
+1928,5: Species/resource exploitation,hunting,1938784,16
+1929,5: Species/resource exploitation,hunting,1953262,9
+1930,5: Species/resource exploitation,hunting,2111981,16
+1931,5: Species/resource exploitation,hunting,2434124,19
+1932,5: Species/resource exploitation,hunting,2400513,23
+1933,5: Species/resource exploitation,hunting,2136969,16
+1934,5: Species/resource exploitation,hunting,2445175,20
+1935,5: Species/resource exploitation,hunting,2536260,29
+1936,5: Species/resource exploitation,hunting,2751507,28
+1937,5: Species/resource exploitation,hunting,2976473,43
+1938,5: Species/resource exploitation,hunting,2886297,72
+1939,5: Species/resource exploitation,hunting,2840157,85
+1940,5: Species/resource exploitation,hunting,3000307,88
+1941,5: Species/resource exploitation,hunting,2759525,198
+1942,5: Species/resource exploitation,hunting,2730695,130
+1943,5: Species/resource exploitation,hunting,2367394,199
+1944,5: Species/resource exploitation,hunting,2209069,124
+1945,5: Species/resource exploitation,hunting,2185186,266
+1946,5: Species/resource exploitation,hunting,2461581,150
+1947,5: Species/resource exploitation,hunting,2615111,184
+1948,5: Species/resource exploitation,hunting,2631628,132
+1949,5: Species/resource exploitation,hunting,2804409,148
+1950,5: Species/resource exploitation,hunting,3153253,184
+1951,5: Species/resource exploitation,hunting,3011208,311
+1952,5: Species/resource exploitation,hunting,3139138,136
+1953,5: Species/resource exploitation,hunting,3184772,263
+1954,5: Species/resource exploitation,hunting,3649078,178
+1955,5: Species/resource exploitation,hunting,3555386,238
+1956,5: Species/resource exploitation,hunting,3699565,197
+1957,5: Species/resource exploitation,hunting,3689751,237
+1958,5: Species/resource exploitation,hunting,3814339,281
+1959,5: Species/resource exploitation,hunting,3621589,242
+1960,5: Species/resource exploitation,hunting,3934513,342
+1961,5: Species/resource exploitation,hunting,4042372,256
+1962,5: Species/resource exploitation,hunting,4017454,163
+1963,5: Species/resource exploitation,hunting,4556693,686
+1964,5: Species/resource exploitation,hunting,5158453,416
+1965,5: Species/resource exploitation,hunting,5234257,423
+1966,5: Species/resource exploitation,hunting,5493607,266
+1967,5: Species/resource exploitation,hunting,6000525,422
+1968,5: Species/resource exploitation,hunting,6521402,453
+1969,5: Species/resource exploitation,hunting,7381164,700
+1970,5: Species/resource exploitation,hunting,7236804,792
+1971,5: Species/resource exploitation,hunting,7864657,391
+1972,5: Species/resource exploitation,hunting,7915372,868
+1973,5: Species/resource exploitation,hunting,8425604,550
+1974,5: Species/resource exploitation,hunting,8556640,896
+1975,5: Species/resource exploitation,hunting,9162777,812
+1976,5: Species/resource exploitation,hunting,9429413,754
+1977,5: Species/resource exploitation,hunting,10649032,1121
+1978,5: Species/resource exploitation,hunting,10558723,790
+1979,5: Species/resource exploitation,hunting,10786566,1271
+1980,5: Species/resource exploitation,hunting,11619305,1078
+1981,5: Species/resource exploitation,hunting,12165346,1339
+1982,5: Species/resource exploitation,hunting,12314218,1046
+1983,5: Species/resource exploitation,hunting,12706096,1055
+1984,5: Species/resource exploitation,hunting,13379542,1401
+1985,5: Species/resource exploitation,hunting,14023196,1486
+1986,5: Species/resource exploitation,hunting,13255908,1221
+1987,5: Species/resource exploitation,hunting,14598709,1120
+1988,5: Species/resource exploitation,hunting,15573940,1697
+1989,5: Species/resource exploitation,hunting,15966033,2021
+1990,5: Species/resource exploitation,hunting,16534942,1082
+1991,5: Species/resource exploitation,hunting,17585954,1851
+1992,5: Species/resource exploitation,hunting,18582976,1787
+1993,5: Species/resource exploitation,hunting,19158560,1739
+1994,5: Species/resource exploitation,hunting,20273048,1917
+1995,5: Species/resource exploitation,hunting,21582533,1918
+1996,5: Species/resource exploitation,hunting,23433482,1582
+1997,5: Species/resource exploitation,hunting,24142578,3152
+1998,5: Species/resource exploitation,hunting,26454637,2376
+1999,5: Species/resource exploitation,hunting,26387547,2836
+2000,5: Species/resource exploitation,hunting,28146960,3267
+2001,5: Species/resource exploitation,hunting,30114953,2881
+2002,5: Species/resource exploitation,hunting,29304753,2756
+2003,5: Species/resource exploitation,hunting,30981377,2446
+2004,5: Species/resource exploitation,hunting,31953113,3255
+2005,5: Species/resource exploitation,hunting,34738168,3150
+2006,5: Species/resource exploitation,hunting,36837237,3494
+2007,5: Species/resource exploitation,hunting,36641945,3858
+2008,5: Species/resource exploitation,hunting,39330183,2831
+2009,5: Species/resource exploitation,hunting,40377665,3560
+2010,5: Species/resource exploitation,hunting,38030234,3249
+2011,5: Species/resource exploitation,hunting,39815988,3483
+1921,5: Species/resource exploitation,logging,1161623,1
+1922,5: Species/resource exploitation,logging,1227253,1
+1923,5: Species/resource exploitation,logging,1410471,3
+1924,5: Species/resource exploitation,logging,1420599,2
+1925,5: Species/resource exploitation,logging,1665928,7
+1926,5: Species/resource exploitation,logging,1904958,4
+1928,5: Species/resource exploitation,logging,1938784,3
+1929,5: Species/resource exploitation,logging,1953262,7
+1931,5: Species/resource exploitation,logging,2434124,6
+1932,5: Species/resource exploitation,logging,2400513,6
+1933,5: Species/resource exploitation,logging,2136969,10
+1934,5: Species/resource exploitation,logging,2445175,9
+1935,5: Species/resource exploitation,logging,2536260,8
+1936,5: Species/resource exploitation,logging,2751507,9
+1937,5: Species/resource exploitation,logging,2976473,46
+1938,5: Species/resource exploitation,logging,2886297,7
+1939,5: Species/resource exploitation,logging,2840157,7
+1940,5: Species/resource exploitation,logging,3000307,23
+1941,5: Species/resource exploitation,logging,2759525,23
+1942,5: Species/resource exploitation,logging,2730695,29
+1943,5: Species/resource exploitation,logging,2367394,33
+1944,5: Species/resource exploitation,logging,2209069,2
+1945,5: Species/resource exploitation,logging,2185186,31
+1946,5: Species/resource exploitation,logging,2461581,13
+1947,5: Species/resource exploitation,logging,2615111,14
+1948,5: Species/resource exploitation,logging,2631628,5
+1949,5: Species/resource exploitation,logging,2804409,10
+1950,5: Species/resource exploitation,logging,3153253,6
+1951,5: Species/resource exploitation,logging,3011208,17
+1952,5: Species/resource exploitation,logging,3139138,24
+1953,5: Species/resource exploitation,logging,3184772,14
+1954,5: Species/resource exploitation,logging,3649078,47
+1955,5: Species/resource exploitation,logging,3555386,18
+1956,5: Species/resource exploitation,logging,3699565,41
+1957,5: Species/resource exploitation,logging,3689751,27
+1958,5: Species/resource exploitation,logging,3814339,28
+1959,5: Species/resource exploitation,logging,3621589,16
+1960,5: Species/resource exploitation,logging,3934513,87
+1961,5: Species/resource exploitation,logging,4042372,23
+1962,5: Species/resource exploitation,logging,4017454,19
+1963,5: Species/resource exploitation,logging,4556693,35
+1964,5: Species/resource exploitation,logging,5158453,38
+1965,5: Species/resource exploitation,logging,5234257,80
+1966,5: Species/resource exploitation,logging,5493607,51
+1967,5: Species/resource exploitation,logging,6000525,52
+1968,5: Species/resource exploitation,logging,6521402,77
+1969,5: Species/resource exploitation,logging,7381164,44
+1970,5: Species/resource exploitation,logging,7236804,78
+1971,5: Species/resource exploitation,logging,7864657,74
+1972,5: Species/resource exploitation,logging,7915372,113
+1973,5: Species/resource exploitation,logging,8425604,172
+1974,5: Species/resource exploitation,logging,8556640,64
+1975,5: Species/resource exploitation,logging,9162777,107
+1976,5: Species/resource exploitation,logging,9429413,162
+1977,5: Species/resource exploitation,logging,10649032,197
+1978,5: Species/resource exploitation,logging,10558723,101
+1979,5: Species/resource exploitation,logging,10786566,129
+1980,5: Species/resource exploitation,logging,11619305,195
+1981,5: Species/resource exploitation,logging,12165346,152
+1982,5: Species/resource exploitation,logging,12314218,135
+1983,5: Species/resource exploitation,logging,12706096,190
+1984,5: Species/resource exploitation,logging,13379542,248
+1985,5: Species/resource exploitation,logging,14023196,341
+1986,5: Species/resource exploitation,logging,13255908,353
+1987,5: Species/resource exploitation,logging,14598709,274
+1988,5: Species/resource exploitation,logging,15573940,346
+1989,5: Species/resource exploitation,logging,15966033,452
+1990,5: Species/resource exploitation,logging,16534942,397
+1991,5: Species/resource exploitation,logging,17585954,316
+1992,5: Species/resource exploitation,logging,18582976,974
+1993,5: Species/resource exploitation,logging,19158560,827
+1994,5: Species/resource exploitation,logging,20273048,680
+1995,5: Species/resource exploitation,logging,21582533,903
+1996,5: Species/resource exploitation,logging,23433482,1408
+1997,5: Species/resource exploitation,logging,24142578,1147
+1998,5: Species/resource exploitation,logging,26454637,1274
+1999,5: Species/resource exploitation,logging,26387547,942
+2000,5: Species/resource exploitation,logging,28146960,1636
+2001,5: Species/resource exploitation,logging,30114953,1659
+2002,5: Species/resource exploitation,logging,29304753,1509
+2003,5: Species/resource exploitation,logging,30981377,1478
+2004,5: Species/resource exploitation,logging,31953113,1544
+2005,5: Species/resource exploitation,logging,34738168,1608
+2006,5: Species/resource exploitation,logging,36837237,1955
+2007,5: Species/resource exploitation,logging,36641945,1566
+2008,5: Species/resource exploitation,logging,39330183,1947
+2009,5: Species/resource exploitation,logging,40377665,2034
+2010,5: Species/resource exploitation,logging,38030234,1556
+2011,5: Species/resource exploitation,logging,39815988,2080
+1920,5: Species/resource exploitation,mining,1238345,17
+1921,5: Species/resource exploitation,mining,1161623,3
+1922,5: Species/resource exploitation,mining,1227253,26
+1923,5: Species/resource exploitation,mining,1410471,25
+1924,5: Species/resource exploitation,mining,1420599,10
+1925,5: Species/resource exploitation,mining,1665928,20
+1926,5: Species/resource exploitation,mining,1904958,21
+1927,5: Species/resource exploitation,mining,1785362,22
+1928,5: Species/resource exploitation,mining,1938784,27
+1929,5: Species/resource exploitation,mining,1953262,27
+1930,5: Species/resource exploitation,mining,2111981,14
+1931,5: Species/resource exploitation,mining,2434124,13
+1932,5: Species/resource exploitation,mining,2400513,21
+1933,5: Species/resource exploitation,mining,2136969,25
+1934,5: Species/resource exploitation,mining,2445175,17
+1935,5: Species/resource exploitation,mining,2536260,19
+1936,5: Species/resource exploitation,mining,2751507,22
+1937,5: Species/resource exploitation,mining,2976473,29
+1938,5: Species/resource exploitation,mining,2886297,53
+1939,5: Species/resource exploitation,mining,2840157,19
+1940,5: Species/resource exploitation,mining,3000307,44
+1941,5: Species/resource exploitation,mining,2759525,37
+1942,5: Species/resource exploitation,mining,2730695,24
+1943,5: Species/resource exploitation,mining,2367394,25
+1944,5: Species/resource exploitation,mining,2209069,18
+1945,5: Species/resource exploitation,mining,2185186,22
+1946,5: Species/resource exploitation,mining,2461581,15
+1947,5: Species/resource exploitation,mining,2615111,18
+1948,5: Species/resource exploitation,mining,2631628,19
+1949,5: Species/resource exploitation,mining,2804409,24
+1950,5: Species/resource exploitation,mining,3153253,30
+1951,5: Species/resource exploitation,mining,3011208,31
+1952,5: Species/resource exploitation,mining,3139138,34
+1953,5: Species/resource exploitation,mining,3184772,22
+1954,5: Species/resource exploitation,mining,3649078,29
+1955,5: Species/resource exploitation,mining,3555386,43
+1956,5: Species/resource exploitation,mining,3699565,25
+1957,5: Species/resource exploitation,mining,3689751,51
+1958,5: Species/resource exploitation,mining,3814339,38
+1959,5: Species/resource exploitation,mining,3621589,25
+1960,5: Species/resource exploitation,mining,3934513,20
+1961,5: Species/resource exploitation,mining,4042372,21
+1962,5: Species/resource exploitation,mining,4017454,36
+1963,5: Species/resource exploitation,mining,4556693,41
+1964,5: Species/resource exploitation,mining,5158453,32
+1965,5: Species/resource exploitation,mining,5234257,30
+1966,5: Species/resource exploitation,mining,5493607,44
+1967,5: Species/resource exploitation,mining,6000525,31
+1968,5: Species/resource exploitation,mining,6521402,56
+1969,5: Species/resource exploitation,mining,7381164,69
+1970,5: Species/resource exploitation,mining,7236804,69
+1971,5: Species/resource exploitation,mining,7864657,128
+1972,5: Species/resource exploitation,mining,7915372,79
+1973,5: Species/resource exploitation,mining,8425604,82
+1974,5: Species/resource exploitation,mining,8556640,130
+1975,5: Species/resource exploitation,mining,9162777,138
+1976,5: Species/resource exploitation,mining,9429413,125
+1977,5: Species/resource exploitation,mining,10649032,167
+1978,5: Species/resource exploitation,mining,10558723,159
+1979,5: Species/resource exploitation,mining,10786566,226
+1980,5: Species/resource exploitation,mining,11619305,239
+1981,5: Species/resource exploitation,mining,12165346,279
+1982,5: Species/resource exploitation,mining,12314218,246
+1983,5: Species/resource exploitation,mining,12706096,264
+1984,5: Species/resource exploitation,mining,13379542,395
+1985,5: Species/resource exploitation,mining,14023196,303
+1986,5: Species/resource exploitation,mining,13255908,295
+1987,5: Species/resource exploitation,mining,14598709,361
+1988,5: Species/resource exploitation,mining,15573940,453
+1989,5: Species/resource exploitation,mining,15966033,372
+1990,5: Species/resource exploitation,mining,16534942,398
+1991,5: Species/resource exploitation,mining,17585954,423
+1992,5: Species/resource exploitation,mining,18582976,409
+1993,5: Species/resource exploitation,mining,19158560,435
+1994,5: Species/resource exploitation,mining,20273048,469
+1995,5: Species/resource exploitation,mining,21582533,635
+1996,5: Species/resource exploitation,mining,23433482,677
+1997,5: Species/resource exploitation,mining,24142578,857
+1998,5: Species/resource exploitation,mining,26454637,780
+1999,5: Species/resource exploitation,mining,26387547,656
+2000,5: Species/resource exploitation,mining,28146960,558
+2001,5: Species/resource exploitation,mining,30114953,635
+2002,5: Species/resource exploitation,mining,29304753,658
+2003,5: Species/resource exploitation,mining,30981377,776
+2004,5: Species/resource exploitation,mining,31953113,854
+2005,5: Species/resource exploitation,mining,34738168,734
+2006,5: Species/resource exploitation,mining,36837237,704
+2007,5: Species/resource exploitation,mining,36641945,928
+2008,5: Species/resource exploitation,mining,39330183,1087
+2009,5: Species/resource exploitation,mining,40377665,1031
+2010,5: Species/resource exploitation,mining,38030234,882
+2011,5: Species/resource exploitation,mining,39815988,1065
+1934,5: Species/resource exploitation,poaching,2445175,3
+1935,5: Species/resource exploitation,poaching,2536260,1
+1937,5: Species/resource exploitation,poaching,2976473,2
+1938,5: Species/resource exploitation,poaching,2886297,1
+1939,5: Species/resource exploitation,poaching,2840157,7
+1940,5: Species/resource exploitation,poaching,3000307,6
+1941,5: Species/resource exploitation,poaching,2759525,1
+1942,5: Species/resource exploitation,poaching,2730695,3
+1943,5: Species/resource exploitation,poaching,2367394,10
+1944,5: Species/resource exploitation,poaching,2209069,4
+1945,5: Species/resource exploitation,poaching,2185186,2
+1946,5: Species/resource exploitation,poaching,2461581,6
+1947,5: Species/resource exploitation,poaching,2615111,3
+1948,5: Species/resource exploitation,poaching,2631628,1
+1949,5: Species/resource exploitation,poaching,2804409,1
+1951,5: Species/resource exploitation,poaching,3011208,7
+1952,5: Species/resource exploitation,poaching,3139138,1
+1953,5: Species/resource exploitation,poaching,3184772,2
+1955,5: Species/resource exploitation,poaching,3555386,3
+1956,5: Species/resource exploitation,poaching,3699565,1
+1957,5: Species/resource exploitation,poaching,3689751,1
+1958,5: Species/resource exploitation,poaching,3814339,5
+1959,5: Species/resource exploitation,poaching,3621589,3
+1960,5: Species/resource exploitation,poaching,3934513,17
+1961,5: Species/resource exploitation,poaching,4042372,2
+1962,5: Species/resource exploitation,poaching,4017454,4
+1963,5: Species/resource exploitation,poaching,4556693,19
+1964,5: Species/resource exploitation,poaching,5158453,6
+1965,5: Species/resource exploitation,poaching,5234257,4
+1966,5: Species/resource exploitation,poaching,5493607,1
+1967,5: Species/resource exploitation,poaching,6000525,12
+1968,5: Species/resource exploitation,poaching,6521402,2
+1969,5: Species/resource exploitation,poaching,7381164,6
+1970,5: Species/resource exploitation,poaching,7236804,8
+1971,5: Species/resource exploitation,poaching,7864657,18
+1972,5: Species/resource exploitation,poaching,7915372,2
+1973,5: Species/resource exploitation,poaching,8425604,10
+1974,5: Species/resource exploitation,poaching,8556640,12
+1975,5: Species/resource exploitation,poaching,9162777,2
+1976,5: Species/resource exploitation,poaching,9429413,23
+1977,5: Species/resource exploitation,poaching,10649032,24
+1978,5: Species/resource exploitation,poaching,10558723,14
+1979,5: Species/resource exploitation,poaching,10786566,15
+1980,5: Species/resource exploitation,poaching,11619305,35
+1981,5: Species/resource exploitation,poaching,12165346,23
+1982,5: Species/resource exploitation,poaching,12314218,34
+1983,5: Species/resource exploitation,poaching,12706096,24
+1984,5: Species/resource exploitation,poaching,13379542,58
+1985,5: Species/resource exploitation,poaching,14023196,32
+1986,5: Species/resource exploitation,poaching,13255908,20
+1987,5: Species/resource exploitation,poaching,14598709,58
+1988,5: Species/resource exploitation,poaching,15573940,30
+1989,5: Species/resource exploitation,poaching,15966033,41
+1990,5: Species/resource exploitation,poaching,16534942,87
+1991,5: Species/resource exploitation,poaching,17585954,57
+1992,5: Species/resource exploitation,poaching,18582976,90
+1993,5: Species/resource exploitation,poaching,19158560,91
+1994,5: Species/resource exploitation,poaching,20273048,62
+1995,5: Species/resource exploitation,poaching,21582533,173
+1996,5: Species/resource exploitation,poaching,23433482,127
+1997,5: Species/resource exploitation,poaching,24142578,186
+1998,5: Species/resource exploitation,poaching,26454637,195
+1999,5: Species/resource exploitation,poaching,26387547,109
+2000,5: Species/resource exploitation,poaching,28146960,138
+2001,5: Species/resource exploitation,poaching,30114953,251
+2002,5: Species/resource exploitation,poaching,29304753,111
+2003,5: Species/resource exploitation,poaching,30981377,96
+2004,5: Species/resource exploitation,poaching,31953113,109
+2005,5: Species/resource exploitation,poaching,34738168,140
+2006,5: Species/resource exploitation,poaching,36837237,193
+2007,5: Species/resource exploitation,poaching,36641945,188
+2008,5: Species/resource exploitation,poaching,39330183,367
+2009,5: Species/resource exploitation,poaching,40377665,321
+2010,5: Species/resource exploitation,poaching,38030234,154
+2011,5: Species/resource exploitation,poaching,39815988,241
+1941,6: Geographic protection,marine protected area,2759525,1
+1942,6: Geographic protection,marine protected area,2730695,1
+1949,6: Geographic protection,marine protected area,2804409,1
+1954,6: Geographic protection,marine protected area,3649078,1
+1961,6: Geographic protection,marine protected area,4042372,1
+1963,6: Geographic protection,marine protected area,4556693,1
+1967,6: Geographic protection,marine protected area,6000525,1
+1969,6: Geographic protection,marine protected area,7381164,17
+1972,6: Geographic protection,marine protected area,7915372,1
+1973,6: Geographic protection,marine protected area,8425604,1
+1974,6: Geographic protection,marine protected area,8556640,1
+1975,6: Geographic protection,marine protected area,9162777,13
+1976,6: Geographic protection,marine protected area,9429413,140
+1977,6: Geographic protection,marine protected area,10649032,18
+1978,6: Geographic protection,marine protected area,10558723,115
+1979,6: Geographic protection,marine protected area,10786566,215
+1980,6: Geographic protection,marine protected area,11619305,185
+1981,6: Geographic protection,marine protected area,12165346,392
+1982,6: Geographic protection,marine protected area,12314218,404
+1983,6: Geographic protection,marine protected area,12706096,536
+1984,6: Geographic protection,marine protected area,13379542,538
+1985,6: Geographic protection,marine protected area,14023196,629
+1986,6: Geographic protection,marine protected area,13255908,619
+1987,6: Geographic protection,marine protected area,14598709,488
+1988,6: Geographic protection,marine protected area,15573940,631
+1989,6: Geographic protection,marine protected area,15966033,677
+1990,6: Geographic protection,marine protected area,16534942,752
+1991,6: Geographic protection,marine protected area,17585954,1002
+1992,6: Geographic protection,marine protected area,18582976,777
+1993,6: Geographic protection,marine protected area,19158560,491
+1994,6: Geographic protection,marine protected area,20273048,819
+1995,6: Geographic protection,marine protected area,21582533,631
+1996,6: Geographic protection,marine protected area,23433482,886
+1997,6: Geographic protection,marine protected area,24142578,611
+1998,6: Geographic protection,marine protected area,26454637,746
+1999,6: Geographic protection,marine protected area,26387547,996
+2000,6: Geographic protection,marine protected area,28146960,774
+2001,6: Geographic protection,marine protected area,30114953,798
+2002,6: Geographic protection,marine protected area,29304753,886
+2003,6: Geographic protection,marine protected area,30981377,1229
+2004,6: Geographic protection,marine protected area,31953113,1410
+2005,6: Geographic protection,marine protected area,34738168,1422
+2006,6: Geographic protection,marine protected area,36837237,961
+2007,6: Geographic protection,marine protected area,36641945,1323
+2008,6: Geographic protection,marine protected area,39330183,1310
+2009,6: Geographic protection,marine protected area,40377665,1982
+2010,6: Geographic protection,marine protected area,38030234,2331
+2011,6: Geographic protection,marine protected area,39815988,1425
+2012,6: Geographic protection,marine protected area,22192417,206
+2013,6: Geographic protection,marine protected area,23337453,203
+2014,6: Geographic protection,marine protected area,11261291,117
+1920,6: Geographic protection,park,1238345,84
+1921,6: Geographic protection,park,1161623,51
+1922,6: Geographic protection,park,1227253,233
+1923,6: Geographic protection,park,1410471,182
+1924,6: Geographic protection,park,1420599,138
+1925,6: Geographic protection,park,1665928,68
+1926,6: Geographic protection,park,1904958,64
+1927,6: Geographic protection,park,1785362,98
+1928,6: Geographic protection,park,1938784,106
+1929,6: Geographic protection,park,1953262,93
+1930,6: Geographic protection,park,2111981,139
+1931,6: Geographic protection,park,2434124,154
+1932,6: Geographic protection,park,2400513,243
+1933,6: Geographic protection,park,2136969,147
+1934,6: Geographic protection,park,2445175,155
+1935,6: Geographic protection,park,2536260,170
+1936,6: Geographic protection,park,2751507,197
+1937,6: Geographic protection,park,2976473,239
+1938,6: Geographic protection,park,2886297,280
+1939,6: Geographic protection,park,2840157,325
+1940,6: Geographic protection,park,3000307,397
+1941,6: Geographic protection,park,2759525,700
+1942,6: Geographic protection,park,2730695,414
+1943,6: Geographic protection,park,2367394,200
+1944,6: Geographic protection,park,2209069,192
+1945,6: Geographic protection,park,2185186,254
+1946,6: Geographic protection,park,2461581,208
+1947,6: Geographic protection,park,2615111,244
+1948,6: Geographic protection,park,2631628,248
+1949,6: Geographic protection,park,2804409,250
+1950,6: Geographic protection,park,3153253,337
+1951,6: Geographic protection,park,3011208,306
+1952,6: Geographic protection,park,3139138,326
+1953,6: Geographic protection,park,3184772,395
+1954,6: Geographic protection,park,3649078,358
+1955,6: Geographic protection,park,3555386,344
+1956,6: Geographic protection,park,3699565,576
+1957,6: Geographic protection,park,3689751,304
+1958,6: Geographic protection,park,3814339,508
+1959,6: Geographic protection,park,3621589,429
+1960,6: Geographic protection,park,3934513,670
+1961,6: Geographic protection,park,4042372,421
+1962,6: Geographic protection,park,4017454,480
+1963,6: Geographic protection,park,4556693,506
+1964,6: Geographic protection,park,5158453,510
+1965,6: Geographic protection,park,5234257,538
+1966,6: Geographic protection,park,5493607,677
+1967,6: Geographic protection,park,6000525,766
+1968,6: Geographic protection,park,6521402,771
+1969,6: Geographic protection,park,7381164,740
+1970,6: Geographic protection,park,7236804,1314
+1971,6: Geographic protection,park,7864657,908
+1972,6: Geographic protection,park,7915372,1275
+1973,6: Geographic protection,park,8425604,1094
+1974,6: Geographic protection,park,8556640,1001
+1975,6: Geographic protection,park,9162777,1109
+1976,6: Geographic protection,park,9429413,1238
+1977,6: Geographic protection,park,10649032,1079
+1978,6: Geographic protection,park,10558723,1445
+1979,6: Geographic protection,park,10786566,1435
+1980,6: Geographic protection,park,11619305,1557
+1981,6: Geographic protection,park,12165346,1932
+1982,6: Geographic protection,park,12314218,2372
+1983,6: Geographic protection,park,12706096,2262
+1984,6: Geographic protection,park,13379542,1801
+1985,6: Geographic protection,park,14023196,2019
+1986,6: Geographic protection,park,13255908,2182
+1987,6: Geographic protection,park,14598709,2228
+1988,6: Geographic protection,park,15573940,2990
+1989,6: Geographic protection,park,15966033,3200
+1990,6: Geographic protection,park,16534942,2876
+1991,6: Geographic protection,park,17585954,3607
+1992,6: Geographic protection,park,18582976,3902
+1993,6: Geographic protection,park,19158560,3949
+1994,6: Geographic protection,park,20273048,4366
+1995,6: Geographic protection,park,21582533,5016
+1996,6: Geographic protection,park,23433482,5197
+1997,6: Geographic protection,park,24142578,5250
+1998,6: Geographic protection,park,26454637,6357
+1999,6: Geographic protection,park,26387547,5853
+2000,6: Geographic protection,park,28146960,6087
+2001,6: Geographic protection,park,30114953,6760
+2002,6: Geographic protection,park,29304753,6193
+2003,6: Geographic protection,park,30981377,6244
+2004,6: Geographic protection,park,31953113,7783
+2005,6: Geographic protection,park,34738168,7450
+2006,6: Geographic protection,park,36837237,8015
+2007,6: Geographic protection,park,36641945,9251
+2008,6: Geographic protection,park,39330183,8597
+2009,6: Geographic protection,park,40377665,7797
+2010,6: Geographic protection,park,38030234,7760
+2011,6: Geographic protection,park,39815988,7848
+1920,6: Geographic protection,preserve,1238345,16
+1921,6: Geographic protection,preserve,1161623,11
+1922,6: Geographic protection,preserve,1227253,18
+1923,6: Geographic protection,preserve,1410471,17
+1924,6: Geographic protection,preserve,1420599,12
+1925,6: Geographic protection,preserve,1665928,11
+1926,6: Geographic protection,preserve,1904958,29
+1927,6: Geographic protection,preserve,1785362,22
+1928,6: Geographic protection,preserve,1938784,28
+1929,6: Geographic protection,preserve,1953262,22
+1930,6: Geographic protection,preserve,2111981,24
+1931,6: Geographic protection,preserve,2434124,22
+1932,6: Geographic protection,preserve,2400513,23
+1933,6: Geographic protection,preserve,2136969,21
+1934,6: Geographic protection,preserve,2445175,35
+1935,6: Geographic protection,preserve,2536260,28
+1936,6: Geographic protection,preserve,2751507,39
+1937,6: Geographic protection,preserve,2976473,26
+1938,6: Geographic protection,preserve,2886297,47
+1939,6: Geographic protection,preserve,2840157,58
+1940,6: Geographic protection,preserve,3000307,43
+1941,6: Geographic protection,preserve,2759525,76
+1942,6: Geographic protection,preserve,2730695,43
+1943,6: Geographic protection,preserve,2367394,35
+1944,6: Geographic protection,preserve,2209069,94
+1945,6: Geographic protection,preserve,2185186,43
+1946,6: Geographic protection,preserve,2461581,45
+1947,6: Geographic protection,preserve,2615111,25
+1948,6: Geographic protection,preserve,2631628,28
+1949,6: Geographic protection,preserve,2804409,36
+1950,6: Geographic protection,preserve,3153253,34
+1951,6: Geographic protection,preserve,3011208,56
+1952,6: Geographic protection,preserve,3139138,22
+1953,6: Geographic protection,preserve,3184772,31
+1954,6: Geographic protection,preserve,3649078,26
+1955,6: Geographic protection,preserve,3555386,49
+1956,6: Geographic protection,preserve,3699565,51
+1957,6: Geographic protection,preserve,3689751,33
+1958,6: Geographic protection,preserve,3814339,70
+1959,6: Geographic protection,preserve,3621589,25
+1960,6: Geographic protection,preserve,3934513,50
+1961,6: Geographic protection,preserve,4042372,77
+1962,6: Geographic protection,preserve,4017454,54
+1963,6: Geographic protection,preserve,4556693,48
+1964,6: Geographic protection,preserve,5158453,114
+1965,6: Geographic protection,preserve,5234257,60
+1966,6: Geographic protection,preserve,5493607,72
+1967,6: Geographic protection,preserve,6000525,95
+1968,6: Geographic protection,preserve,6521402,143
+1969,6: Geographic protection,preserve,7381164,93
+1970,6: Geographic protection,preserve,7236804,226
+1971,6: Geographic protection,preserve,7864657,74
+1972,6: Geographic protection,preserve,7915372,101
+1973,6: Geographic protection,preserve,8425604,98
+1974,6: Geographic protection,preserve,8556640,108
+1975,6: Geographic protection,preserve,9162777,115
+1976,6: Geographic protection,preserve,9429413,245
+1977,6: Geographic protection,preserve,10649032,125
+1978,6: Geographic protection,preserve,10558723,115
+1979,6: Geographic protection,preserve,10786566,237
+1980,6: Geographic protection,preserve,11619305,143
+1981,6: Geographic protection,preserve,12165346,216
+1982,6: Geographic protection,preserve,12314218,135
+1983,6: Geographic protection,preserve,12706096,253
+1984,6: Geographic protection,preserve,13379542,171
+1985,6: Geographic protection,preserve,14023196,213
+1986,6: Geographic protection,preserve,13255908,214
+1987,6: Geographic protection,preserve,14598709,304
+1988,6: Geographic protection,preserve,15573940,312
+1989,6: Geographic protection,preserve,15966033,380
+1990,6: Geographic protection,preserve,16534942,367
+1991,6: Geographic protection,preserve,17585954,338
+1992,6: Geographic protection,preserve,18582976,380
+1993,6: Geographic protection,preserve,19158560,425
+1994,6: Geographic protection,preserve,20273048,426
+1995,6: Geographic protection,preserve,21582533,505
+1996,6: Geographic protection,preserve,23433482,582
+1997,6: Geographic protection,preserve,24142578,536
+1998,6: Geographic protection,preserve,26454637,462
+1999,6: Geographic protection,preserve,26387547,600
+2000,6: Geographic protection,preserve,28146960,691
+2001,6: Geographic protection,preserve,30114953,553
+2002,6: Geographic protection,preserve,29304753,663
+2003,6: Geographic protection,preserve,30981377,675
+2004,6: Geographic protection,preserve,31953113,609
+2005,6: Geographic protection,preserve,34738168,836
+2006,6: Geographic protection,preserve,36837237,816
+2007,6: Geographic protection,preserve,36641945,736
+2008,6: Geographic protection,preserve,39330183,960
+2009,6: Geographic protection,preserve,40377665,761
+2010,6: Geographic protection,preserve,38030234,800
+2011,6: Geographic protection,preserve,39815988,790
+1920,6: Geographic protection,protected area,1238345,262
+1921,6: Geographic protection,protected area,1161623,23
+1922,6: Geographic protection,protected area,1227253,46
+1923,6: Geographic protection,protected area,1410471,53
+1924,6: Geographic protection,protected area,1420599,56
+1925,6: Geographic protection,protected area,1665928,75
+1926,6: Geographic protection,protected area,1904958,69
+1927,6: Geographic protection,protected area,1785362,40
+1928,6: Geographic protection,protected area,1938784,47
+1929,6: Geographic protection,protected area,1953262,75
+1930,6: Geographic protection,protected area,2111981,118
+1931,6: Geographic protection,protected area,2434124,87
+1932,6: Geographic protection,protected area,2400513,114
+1933,6: Geographic protection,protected area,2136969,68
+1934,6: Geographic protection,protected area,2445175,113
+1935,6: Geographic protection,protected area,2536260,93
+1936,6: Geographic protection,protected area,2751507,97
+1937,6: Geographic protection,protected area,2976473,111
+1938,6: Geographic protection,protected area,2886297,102
+1939,6: Geographic protection,protected area,2840157,183
+1940,6: Geographic protection,protected area,3000307,178
+1941,6: Geographic protection,protected area,2759525,206
+1942,6: Geographic protection,protected area,2730695,148
+1943,6: Geographic protection,protected area,2367394,150
+1944,6: Geographic protection,protected area,2209069,119
+1945,6: Geographic protection,protected area,2185186,102
+1946,6: Geographic protection,protected area,2461581,172
+1947,6: Geographic protection,protected area,2615111,125
+1948,6: Geographic protection,protected area,2631628,158
+1949,6: Geographic protection,protected area,2804409,241
+1950,6: Geographic protection,protected area,3153253,315
+1951,6: Geographic protection,protected area,3011208,246
+1952,6: Geographic protection,protected area,3139138,216
+1953,6: Geographic protection,protected area,3184772,218
+1954,6: Geographic protection,protected area,3649078,375
+1955,6: Geographic protection,protected area,3555386,276
+1956,6: Geographic protection,protected area,3699565,210
+1957,6: Geographic protection,protected area,3689751,309
+1958,6: Geographic protection,protected area,3814339,340
+1959,6: Geographic protection,protected area,3621589,439
+1960,6: Geographic protection,protected area,3934513,388
+1961,6: Geographic protection,protected area,4042372,413
+1962,6: Geographic protection,protected area,4017454,308
+1963,6: Geographic protection,protected area,4556693,238
+1964,6: Geographic protection,protected area,5158453,677
+1965,6: Geographic protection,protected area,5234257,361
+1966,6: Geographic protection,protected area,5493607,381
+1967,6: Geographic protection,protected area,6000525,534
+1968,6: Geographic protection,protected area,6521402,739
+1969,6: Geographic protection,protected area,7381164,770
+1970,6: Geographic protection,protected area,7236804,542
+1971,6: Geographic protection,protected area,7864657,595
+1972,6: Geographic protection,protected area,7915372,555
+1973,6: Geographic protection,protected area,8425604,919
+1974,6: Geographic protection,protected area,8556640,1174
+1975,6: Geographic protection,protected area,9162777,1178
+1976,6: Geographic protection,protected area,9429413,1113
+1977,6: Geographic protection,protected area,10649032,862
+1978,6: Geographic protection,protected area,10558723,1022
+1979,6: Geographic protection,protected area,10786566,1003
+1980,6: Geographic protection,protected area,11619305,1134
+1981,6: Geographic protection,protected area,12165346,1382
+1982,6: Geographic protection,protected area,12314218,1494
+1983,6: Geographic protection,protected area,12706096,1581
+1984,6: Geographic protection,protected area,13379542,1644
+1985,6: Geographic protection,protected area,14023196,1510
+1986,6: Geographic protection,protected area,13255908,1333
+1987,6: Geographic protection,protected area,14598709,1694
+1988,6: Geographic protection,protected area,15573940,1557
+1989,6: Geographic protection,protected area,15966033,1881
+1990,6: Geographic protection,protected area,16534942,2058
+1991,6: Geographic protection,protected area,17585954,2264
+1992,6: Geographic protection,protected area,18582976,2838
+1993,6: Geographic protection,protected area,19158560,2536
+1994,6: Geographic protection,protected area,20273048,2779
+1995,6: Geographic protection,protected area,21582533,3237
+1996,6: Geographic protection,protected area,23433482,3208
+1997,6: Geographic protection,protected area,24142578,3505
+1998,6: Geographic protection,protected area,26454637,3809
+1999,6: Geographic protection,protected area,26387547,3324
+2000,6: Geographic protection,protected area,28146960,3704
+2001,6: Geographic protection,protected area,30114953,4481
+2002,6: Geographic protection,protected area,29304753,4154
+2003,6: Geographic protection,protected area,30981377,4061
+2004,6: Geographic protection,protected area,31953113,4422
+2005,6: Geographic protection,protected area,34738168,5474
+2006,6: Geographic protection,protected area,36837237,4348
+2007,6: Geographic protection,protected area,36641945,5601
+2008,6: Geographic protection,protected area,39330183,5882
+2009,6: Geographic protection,protected area,40377665,5199
+2010,6: Geographic protection,protected area,38030234,5701
+2011,6: Geographic protection,protected area,39815988,6152
+1920,6: Geographic protection,reserve,1238345,35
+1921,6: Geographic protection,reserve,1161623,28
+1922,6: Geographic protection,reserve,1227253,68
+1923,6: Geographic protection,reserve,1410471,57
+1924,6: Geographic protection,reserve,1420599,151
+1925,6: Geographic protection,reserve,1665928,78
+1926,6: Geographic protection,reserve,1904958,105
+1927,6: Geographic protection,reserve,1785362,85
+1928,6: Geographic protection,reserve,1938784,121
+1929,6: Geographic protection,reserve,1953262,202
+1930,6: Geographic protection,reserve,2111981,209
+1931,6: Geographic protection,reserve,2434124,153
+1932,6: Geographic protection,reserve,2400513,101
+1933,6: Geographic protection,reserve,2136969,171
+1934,6: Geographic protection,reserve,2445175,172
+1935,6: Geographic protection,reserve,2536260,91
+1936,6: Geographic protection,reserve,2751507,140
+1937,6: Geographic protection,reserve,2976473,216
+1938,6: Geographic protection,reserve,2886297,128
+1939,6: Geographic protection,reserve,2840157,218
+1940,6: Geographic protection,reserve,3000307,161
+1941,6: Geographic protection,reserve,2759525,174
+1942,6: Geographic protection,reserve,2730695,146
+1943,6: Geographic protection,reserve,2367394,140
+1944,6: Geographic protection,reserve,2209069,662
+1945,6: Geographic protection,reserve,2185186,116
+1946,6: Geographic protection,reserve,2461581,147
+1947,6: Geographic protection,reserve,2615111,248
+1948,6: Geographic protection,reserve,2631628,151
+1949,6: Geographic protection,reserve,2804409,190
+1950,6: Geographic protection,reserve,3153253,139
+1951,6: Geographic protection,reserve,3011208,110
+1952,6: Geographic protection,reserve,3139138,198
+1953,6: Geographic protection,reserve,3184772,238
+1954,6: Geographic protection,reserve,3649078,153
+1955,6: Geographic protection,reserve,3555386,256
+1956,6: Geographic protection,reserve,3699565,234
+1957,6: Geographic protection,reserve,3689751,277
+1958,6: Geographic protection,reserve,3814339,189
+1959,6: Geographic protection,reserve,3621589,199
+1960,6: Geographic protection,reserve,3934513,275
+1961,6: Geographic protection,reserve,4042372,275
+1962,6: Geographic protection,reserve,4017454,306
+1963,6: Geographic protection,reserve,4556693,452
+1964,6: Geographic protection,reserve,5158453,533
+1965,6: Geographic protection,reserve,5234257,424
+1966,6: Geographic protection,reserve,5493607,514
+1967,6: Geographic protection,reserve,6000525,398
+1968,6: Geographic protection,reserve,6521402,598
+1969,6: Geographic protection,reserve,7381164,798
+1970,6: Geographic protection,reserve,7236804,639
+1971,6: Geographic protection,reserve,7864657,514
+1972,6: Geographic protection,reserve,7915372,519
+1973,6: Geographic protection,reserve,8425604,608
+1974,6: Geographic protection,reserve,8556640,718
+1975,6: Geographic protection,reserve,9162777,678
+1976,6: Geographic protection,reserve,9429413,1154
+1977,6: Geographic protection,reserve,10649032,1571
+1978,6: Geographic protection,reserve,10558723,849
+1979,6: Geographic protection,reserve,10786566,946
+1980,6: Geographic protection,reserve,11619305,1006
+1981,6: Geographic protection,reserve,12165346,1334
+1982,6: Geographic protection,reserve,12314218,1312
+1983,6: Geographic protection,reserve,12706096,1928
+1984,6: Geographic protection,reserve,13379542,1295
+1985,6: Geographic protection,reserve,14023196,1691
+1986,6: Geographic protection,reserve,13255908,1971
+1987,6: Geographic protection,reserve,14598709,2282
+1988,6: Geographic protection,reserve,15573940,2424
+1989,6: Geographic protection,reserve,15966033,2367
+1990,6: Geographic protection,reserve,16534942,2240
+1991,6: Geographic protection,reserve,17585954,3050
+1992,6: Geographic protection,reserve,18582976,3496
+1993,6: Geographic protection,reserve,19158560,3537
+1994,6: Geographic protection,reserve,20273048,3790
+1995,6: Geographic protection,reserve,21582533,3834
+1996,6: Geographic protection,reserve,23433482,4878
+1997,6: Geographic protection,reserve,24142578,4086
+1998,6: Geographic protection,reserve,26454637,4123
+1999,6: Geographic protection,reserve,26387547,5417
+2000,6: Geographic protection,reserve,28146960,4981
+2001,6: Geographic protection,reserve,30114953,5134
+2002,6: Geographic protection,reserve,29304753,6014
+2003,6: Geographic protection,reserve,30981377,9927
+2004,6: Geographic protection,reserve,31953113,6947
+2005,6: Geographic protection,reserve,34738168,7644
+2006,6: Geographic protection,reserve,36837237,8458
+2007,6: Geographic protection,reserve,36641945,8008
+2008,6: Geographic protection,reserve,39330183,6914
+2009,6: Geographic protection,reserve,40377665,6852
+2010,6: Geographic protection,reserve,38030234,8086
+2011,6: Geographic protection,reserve,39815988,5932

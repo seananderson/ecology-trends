@@ -1,7 +1,6 @@
 library(tidyverse)
 library(purrr)
 library(assertthat)
-rm(list = ls()) # need all memory possible
 
 #' Insert JSTOR data into a database
 #'

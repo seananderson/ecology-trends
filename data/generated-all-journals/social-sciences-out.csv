@@ -1,0 +1,969 @@
+year,panel,gram_canonical,total_words,total
+1973,1: Interventions,alternative livelihoods,8425604,1
+1988,1: Interventions,alternative livelihoods,15573940,2
+1990,1: Interventions,alternative livelihoods,16534942,1
+1991,1: Interventions,alternative livelihoods,17585954,2
+1992,1: Interventions,alternative livelihoods,18582976,1
+1993,1: Interventions,alternative livelihoods,19158560,3
+1994,1: Interventions,alternative livelihoods,20273048,2
+1995,1: Interventions,alternative livelihoods,21582533,4
+1996,1: Interventions,alternative livelihoods,23433482,2
+1997,1: Interventions,alternative livelihoods,24142578,7
+1998,1: Interventions,alternative livelihoods,26454637,5
+1999,1: Interventions,alternative livelihoods,26387547,3
+2000,1: Interventions,alternative livelihoods,28146960,6
+2001,1: Interventions,alternative livelihoods,30114953,2
+2002,1: Interventions,alternative livelihoods,29304753,6
+2003,1: Interventions,alternative livelihoods,30981377,4
+2004,1: Interventions,alternative livelihoods,31953113,10
+2005,1: Interventions,alternative livelihoods,34738168,18
+2006,1: Interventions,alternative livelihoods,36837237,9
+2007,1: Interventions,alternative livelihoods,36641945,6
+2008,1: Interventions,alternative livelihoods,39330183,29
+2009,1: Interventions,alternative livelihoods,40377665,16
+2010,1: Interventions,alternative livelihoods,38030234,58
+2011,1: Interventions,alternative livelihoods,39815988,19
+1920,1: Interventions,certification,1238345,1
+1921,1: Interventions,certification,1161623,1
+1922,1: Interventions,certification,1227253,1
+1924,1: Interventions,certification,1420599,1
+1925,1: Interventions,certification,1665928,1
+1926,1: Interventions,certification,1904958,1
+1930,1: Interventions,certification,2111981,3
+1931,1: Interventions,certification,2434124,1
+1932,1: Interventions,certification,2400513,4
+1934,1: Interventions,certification,2445175,2
+1936,1: Interventions,certification,2751507,1
+1937,1: Interventions,certification,2976473,15
+1938,1: Interventions,certification,2886297,1
+1943,1: Interventions,certification,2367394,5
+1944,1: Interventions,certification,2209069,2
+1946,1: Interventions,certification,2461581,7
+1947,1: Interventions,certification,2615111,1
+1948,1: Interventions,certification,2631628,4
+1950,1: Interventions,certification,3153253,3
+1951,1: Interventions,certification,3011208,1
+1952,1: Interventions,certification,3139138,1
+1953,1: Interventions,certification,3184772,44
+1954,1: Interventions,certification,3649078,5
+1956,1: Interventions,certification,3699565,3
+1957,1: Interventions,certification,3689751,6
+1958,1: Interventions,certification,3814339,8
+1959,1: Interventions,certification,3621589,3
+1960,1: Interventions,certification,3934513,22
+1961,1: Interventions,certification,4042372,52
+1962,1: Interventions,certification,4017454,7
+1963,1: Interventions,certification,4556693,14
+1964,1: Interventions,certification,5158453,16
+1965,1: Interventions,certification,5234257,7
+1966,1: Interventions,certification,5493607,6
+1968,1: Interventions,certification,6521402,3
+1969,1: Interventions,certification,7381164,14
+1970,1: Interventions,certification,7236804,6
+1971,1: Interventions,certification,7864657,10
+1972,1: Interventions,certification,7915372,6
+1973,1: Interventions,certification,8425604,5
+1974,1: Interventions,certification,8556640,5
+1975,1: Interventions,certification,9162777,2
+1976,1: Interventions,certification,9429413,7
+1977,1: Interventions,certification,10649032,13
+1978,1: Interventions,certification,10558723,10
+1979,1: Interventions,certification,10786566,11
+1980,1: Interventions,certification,11619305,31
+1981,1: Interventions,certification,12165346,27
+1982,1: Interventions,certification,12314218,53
+1983,1: Interventions,certification,12706096,148
+1984,1: Interventions,certification,13379542,45
+1985,1: Interventions,certification,14023196,34
+1986,1: Interventions,certification,13255908,27
+1987,1: Interventions,certification,14598709,55
+1988,1: Interventions,certification,15573940,42
+1989,1: Interventions,certification,15966033,25
+1990,1: Interventions,certification,16534942,36
+1991,1: Interventions,certification,17585954,45
+1992,1: Interventions,certification,18582976,90
+1993,1: Interventions,certification,19158560,97
+1994,1: Interventions,certification,20273048,163
+1995,1: Interventions,certification,21582533,162
+1996,1: Interventions,certification,23433482,289
+1997,1: Interventions,certification,24142578,159
+1998,1: Interventions,certification,26454637,213
+1999,1: Interventions,certification,26387547,320
+2000,1: Interventions,certification,28146960,305
+2001,1: Interventions,certification,30114953,380
+2002,1: Interventions,certification,29304753,376
+2003,1: Interventions,certification,30981377,381
+2004,1: Interventions,certification,31953113,480
+2005,1: Interventions,certification,34738168,384
+2006,1: Interventions,certification,36837237,322
+2007,1: Interventions,certification,36641945,580
+2008,1: Interventions,certification,39330183,570
+2009,1: Interventions,certification,40377665,379
+2010,1: Interventions,certification,38030234,441
+2011,1: Interventions,certification,39815988,609
+1992,1: Interventions,community-based management,18582976,1
+1993,1: Interventions,community-based management,19158560,4
+1995,1: Interventions,community-based management,21582533,17
+1996,1: Interventions,community-based management,23433482,12
+1997,1: Interventions,community-based management,24142578,12
+1998,1: Interventions,community-based management,26454637,32
+1999,1: Interventions,community-based management,26387547,91
+2000,1: Interventions,community-based management,28146960,31
+2001,1: Interventions,community-based management,30114953,36
+2002,1: Interventions,community-based management,29304753,26
+2003,1: Interventions,community-based management,30981377,131
+2004,1: Interventions,community-based management,31953113,63
+2005,1: Interventions,community-based management,34738168,59
+2006,1: Interventions,community-based management,36837237,84
+2007,1: Interventions,community-based management,36641945,86
+2008,1: Interventions,community-based management,39330183,76
+2009,1: Interventions,community-based management,40377665,48
+2010,1: Interventions,community-based management,38030234,158
+2011,1: Interventions,community-based management,39815988,60
+2012,1: Interventions,community-based management,22192417,54
+2013,1: Interventions,community-based management,23337453,52
+2014,1: Interventions,community-based management,11261291,8
+1986,1: Interventions,ecotourism,13255908,1
+1988,1: Interventions,ecotourism,15573940,1
+1989,1: Interventions,ecotourism,15966033,1
+1990,1: Interventions,ecotourism,16534942,1
+1991,1: Interventions,ecotourism,17585954,13
+1992,1: Interventions,ecotourism,18582976,8
+1993,1: Interventions,ecotourism,19158560,55
+1994,1: Interventions,ecotourism,20273048,38
+1995,1: Interventions,ecotourism,21582533,68
+1996,1: Interventions,ecotourism,23433482,94
+1997,1: Interventions,ecotourism,24142578,56
+1998,1: Interventions,ecotourism,26454637,119
+1999,1: Interventions,ecotourism,26387547,96
+2000,1: Interventions,ecotourism,28146960,97
+2001,1: Interventions,ecotourism,30114953,83
+2002,1: Interventions,ecotourism,29304753,31
+2003,1: Interventions,ecotourism,30981377,65
+2004,1: Interventions,ecotourism,31953113,49
+2005,1: Interventions,ecotourism,34738168,164
+2006,1: Interventions,ecotourism,36837237,100
+2007,1: Interventions,ecotourism,36641945,114
+2008,1: Interventions,ecotourism,39330183,122
+2009,1: Interventions,ecotourism,40377665,151
+2010,1: Interventions,ecotourism,38030234,158
+2011,1: Interventions,ecotourism,39815988,164
+1996,1: Interventions,offsetting,23433482,1
+2001,1: Interventions,offsetting,30114953,1
+2008,1: Interventions,offsetting,39330183,11
+2009,1: Interventions,offsetting,40377665,3
+2010,1: Interventions,offsetting,38030234,3
+2011,1: Interventions,offsetting,39815988,6
+1922,1: Interventions,REDD,1227253,1
+1937,1: Interventions,REDD,2976473,1
+1938,1: Interventions,REDD,2886297,1
+1941,1: Interventions,REDD,2759525,12
+1948,1: Interventions,REDD,2631628,1
+1951,1: Interventions,REDD,3011208,1
+1955,1: Interventions,REDD,3555386,6
+1959,1: Interventions,REDD,3621589,1
+1961,1: Interventions,REDD,4042372,12
+1963,1: Interventions,REDD,4556693,2
+1964,1: Interventions,REDD,5158453,2
+1965,1: Interventions,REDD,5234257,5
+1967,1: Interventions,REDD,6000525,1
+1969,1: Interventions,REDD,7381164,1
+1971,1: Interventions,REDD,7864657,1
+1972,1: Interventions,REDD,7915372,1
+1974,1: Interventions,REDD,8556640,1
+1975,1: Interventions,REDD,9162777,2
+1978,1: Interventions,REDD,10558723,3
+1979,1: Interventions,REDD,10786566,1
+1984,1: Interventions,REDD,13379542,47
+1985,1: Interventions,REDD,14023196,3
+1986,1: Interventions,REDD,13255908,28
+1987,1: Interventions,REDD,14598709,4
+1988,1: Interventions,REDD,15573940,27
+1989,1: Interventions,REDD,15966033,2
+1990,1: Interventions,REDD,16534942,8
+1991,1: Interventions,REDD,17585954,7
+1992,1: Interventions,REDD,18582976,3
+1993,1: Interventions,REDD,19158560,22
+1994,1: Interventions,REDD,20273048,3
+1995,1: Interventions,REDD,21582533,25
+1996,1: Interventions,REDD,23433482,6
+1997,1: Interventions,REDD,24142578,37
+1998,1: Interventions,REDD,26454637,113
+1999,1: Interventions,REDD,26387547,35
+2000,1: Interventions,REDD,28146960,4
+2001,1: Interventions,REDD,30114953,52
+2002,1: Interventions,REDD,29304753,10
+2003,1: Interventions,REDD,30981377,53
+2004,1: Interventions,REDD,31953113,28
+2005,1: Interventions,REDD,34738168,23
+2006,1: Interventions,REDD,36837237,21
+2007,1: Interventions,REDD,36641945,34
+2008,1: Interventions,REDD,39330183,51
+2009,1: Interventions,REDD,40377665,80
+2010,1: Interventions,REDD,38030234,369
+2011,1: Interventions,REDD,39815988,258
+1975,2: Human well-being,food security,9162777,1
+1979,2: Human well-being,food security,10786566,3
+1980,2: Human well-being,food security,11619305,4
+1983,2: Human well-being,food security,12706096,2
+1984,2: Human well-being,food security,13379542,4
+1985,2: Human well-being,food security,14023196,2
+1986,2: Human well-being,food security,13255908,6
+1987,2: Human well-being,food security,14598709,10
+1988,2: Human well-being,food security,15573940,3
+1989,2: Human well-being,food security,15966033,7
+1990,2: Human well-being,food security,16534942,17
+1991,2: Human well-being,food security,17585954,14
+1992,2: Human well-being,food security,18582976,23
+1993,2: Human well-being,food security,19158560,23
+1994,2: Human well-being,food security,20273048,15
+1995,2: Human well-being,food security,21582533,31
+1996,2: Human well-being,food security,23433482,29
+1997,2: Human well-being,food security,24142578,82
+1998,2: Human well-being,food security,26454637,40
+1999,2: Human well-being,food security,26387547,51
+2000,2: Human well-being,food security,28146960,58
+2001,2: Human well-being,food security,30114953,23
+2002,2: Human well-being,food security,29304753,64
+2003,2: Human well-being,food security,30981377,47
+2004,2: Human well-being,food security,31953113,49
+2005,2: Human well-being,food security,34738168,265
+2006,2: Human well-being,food security,36837237,89
+2007,2: Human well-being,food security,36641945,146
+2008,2: Human well-being,food security,39330183,198
+2009,2: Human well-being,food security,40377665,146
+2010,2: Human well-being,food security,38030234,373
+2011,2: Human well-being,food security,39815988,220
+1921,2: Human well-being,human health,1161623,1
+1927,2: Human well-being,human health,1785362,1
+1932,2: Human well-being,human health,2400513,1
+1935,2: Human well-being,human health,2536260,1
+1943,2: Human well-being,human health,2367394,1
+1944,2: Human well-being,human health,2209069,2
+1951,2: Human well-being,human health,3011208,1
+1956,2: Human well-being,human health,3699565,3
+1958,2: Human well-being,human health,3814339,1
+1960,2: Human well-being,human health,3934513,1
+1961,2: Human well-being,human health,4042372,1
+1963,2: Human well-being,human health,4556693,3
+1964,2: Human well-being,human health,5158453,5
+1965,2: Human well-being,human health,5234257,7
+1966,2: Human well-being,human health,5493607,8
+1967,2: Human well-being,human health,6000525,14
+1968,2: Human well-being,human health,6521402,7
+1969,2: Human well-being,human health,7381164,13
+1970,2: Human well-being,human health,7236804,15
+1971,2: Human well-being,human health,7864657,23
+1972,2: Human well-being,human health,7915372,26
+1973,2: Human well-being,human health,8425604,16
+1974,2: Human well-being,human health,8556640,24
+1975,2: Human well-being,human health,9162777,28
+1976,2: Human well-being,human health,9429413,36
+1977,2: Human well-being,human health,10649032,44
+1978,2: Human well-being,human health,10558723,52
+1979,2: Human well-being,human health,10786566,75
+1980,2: Human well-being,human health,11619305,37
+1981,2: Human well-being,human health,12165346,35
+1982,2: Human well-being,human health,12314218,39
+1983,2: Human well-being,human health,12706096,30
+1984,2: Human well-being,human health,13379542,35
+1985,2: Human well-being,human health,14023196,24
+1986,2: Human well-being,human health,13255908,33
+1987,2: Human well-being,human health,14598709,26
+1988,2: Human well-being,human health,15573940,39
+1989,2: Human well-being,human health,15966033,43
+1990,2: Human well-being,human health,16534942,21
+1991,2: Human well-being,human health,17585954,40
+1992,2: Human well-being,human health,18582976,52
+1993,2: Human well-being,human health,19158560,39
+1994,2: Human well-being,human health,20273048,63
+1995,2: Human well-being,human health,21582533,87
+1996,2: Human well-being,human health,23433482,87
+1997,2: Human well-being,human health,24142578,71
+1998,2: Human well-being,human health,26454637,116
+1999,2: Human well-being,human health,26387547,96
+2000,2: Human well-being,human health,28146960,88
+2001,2: Human well-being,human health,30114953,115
+2002,2: Human well-being,human health,29304753,152
+2003,2: Human well-being,human health,30981377,210
+2004,2: Human well-being,human health,31953113,212
+2005,2: Human well-being,human health,34738168,230
+2006,2: Human well-being,human health,36837237,229
+2007,2: Human well-being,human health,36641945,277
+2008,2: Human well-being,human health,39330183,288
+2009,2: Human well-being,human health,40377665,406
+2010,2: Human well-being,human health,38030234,258
+2011,2: Human well-being,human health,39815988,373
+1952,2: Human well-being,human rights,3139138,1
+1969,2: Human well-being,human rights,7381164,4
+1970,2: Human well-being,human rights,7236804,1
+1971,2: Human well-being,human rights,7864657,2
+1972,2: Human well-being,human rights,7915372,1
+1973,2: Human well-being,human rights,8425604,7
+1974,2: Human well-being,human rights,8556640,16
+1975,2: Human well-being,human rights,9162777,1
+1976,2: Human well-being,human rights,9429413,16
+1977,2: Human well-being,human rights,10649032,5
+1978,2: Human well-being,human rights,10558723,4
+1980,2: Human well-being,human rights,11619305,1
+1981,2: Human well-being,human rights,12165346,1
+1982,2: Human well-being,human rights,12314218,32
+1983,2: Human well-being,human rights,12706096,9
+1984,2: Human well-being,human rights,13379542,3
+1985,2: Human well-being,human rights,14023196,3
+1986,2: Human well-being,human rights,13255908,5
+1987,2: Human well-being,human rights,14598709,2
+1988,2: Human well-being,human rights,15573940,2
+1989,2: Human well-being,human rights,15966033,1
+1990,2: Human well-being,human rights,16534942,2
+1991,2: Human well-being,human rights,17585954,8
+1992,2: Human well-being,human rights,18582976,5
+1993,2: Human well-being,human rights,19158560,6
+1994,2: Human well-being,human rights,20273048,4
+1995,2: Human well-being,human rights,21582533,83
+1996,2: Human well-being,human rights,23433482,9
+1997,2: Human well-being,human rights,24142578,11
+1998,2: Human well-being,human rights,26454637,11
+1999,2: Human well-being,human rights,26387547,9
+2000,2: Human well-being,human rights,28146960,19
+2001,2: Human well-being,human rights,30114953,5
+2002,2: Human well-being,human rights,29304753,11
+2003,2: Human well-being,human rights,30981377,20
+2004,2: Human well-being,human rights,31953113,10
+2005,2: Human well-being,human rights,34738168,16
+2006,2: Human well-being,human rights,36837237,18
+2007,2: Human well-being,human rights,36641945,26
+2008,2: Human well-being,human rights,39330183,17
+2009,2: Human well-being,human rights,40377665,36
+2010,2: Human well-being,human rights,38030234,21
+2011,2: Human well-being,human rights,39815988,42
+1948,2: Human well-being,human well-being,2631628,1
+1955,2: Human well-being,human well-being,3555386,1
+1963,2: Human well-being,human well-being,4556693,1
+1964,2: Human well-being,human well-being,5158453,1
+1965,2: Human well-being,human well-being,5234257,1
+1966,2: Human well-being,human well-being,5493607,1
+1972,2: Human well-being,human well-being,7915372,3
+1974,2: Human well-being,human well-being,8556640,5
+1975,2: Human well-being,human well-being,9162777,8
+1976,2: Human well-being,human well-being,9429413,1
+1977,2: Human well-being,human well-being,10649032,2
+1978,2: Human well-being,human well-being,10558723,4
+1980,2: Human well-being,human well-being,11619305,1
+1981,2: Human well-being,human well-being,12165346,5
+1984,2: Human well-being,human well-being,13379542,1
+1988,2: Human well-being,human well-being,15573940,2
+1989,2: Human well-being,human well-being,15966033,3
+1990,2: Human well-being,human well-being,16534942,3
+1991,2: Human well-being,human well-being,17585954,7
+1992,2: Human well-being,human well-being,18582976,2
+1993,2: Human well-being,human well-being,19158560,5
+1994,2: Human well-being,human well-being,20273048,6
+1995,2: Human well-being,human well-being,21582533,11
+1996,2: Human well-being,human well-being,23433482,19
+1997,2: Human well-being,human well-being,24142578,13
+1998,2: Human well-being,human well-being,26454637,10
+1999,2: Human well-being,human well-being,26387547,12
+2000,2: Human well-being,human well-being,28146960,9
+2001,2: Human well-being,human well-being,30114953,7
+2002,2: Human well-being,human well-being,29304753,7
+2003,2: Human well-being,human well-being,30981377,32
+2004,2: Human well-being,human well-being,31953113,17
+2005,2: Human well-being,human well-being,34738168,79
+2006,2: Human well-being,human well-being,36837237,111
+2007,2: Human well-being,human well-being,36641945,140
+2008,2: Human well-being,human well-being,39330183,186
+2009,2: Human well-being,human well-being,40377665,182
+2010,2: Human well-being,human well-being,38030234,224
+2011,2: Human well-being,human well-being,39815988,278
+2012,2: Human well-being,human well-being,22192417,159
+2013,2: Human well-being,human well-being,23337453,268
+2014,2: Human well-being,human well-being,11261291,100
+1985,2: Human well-being,human-wildlife conflict,14023196,1
+1994,2: Human well-being,human-wildlife conflict,20273048,1
+1995,2: Human well-being,human-wildlife conflict,21582533,2
+1996,2: Human well-being,human-wildlife conflict,23433482,1
+1997,2: Human well-being,human-wildlife conflict,24142578,6
+1998,2: Human well-being,human-wildlife conflict,26454637,11
+1999,2: Human well-being,human-wildlife conflict,26387547,19
+2000,2: Human well-being,human-wildlife conflict,28146960,4
+2001,2: Human well-being,human-wildlife conflict,30114953,9
+2002,2: Human well-being,human-wildlife conflict,29304753,5
+2003,2: Human well-being,human-wildlife conflict,30981377,30
+2004,2: Human well-being,human-wildlife conflict,31953113,25
+2005,2: Human well-being,human-wildlife conflict,34738168,21
+2006,2: Human well-being,human-wildlife conflict,36837237,47
+2007,2: Human well-being,human-wildlife conflict,36641945,27
+2008,2: Human well-being,human-wildlife conflict,39330183,58
+2009,2: Human well-being,human-wildlife conflict,40377665,71
+2010,2: Human well-being,human-wildlife conflict,38030234,44
+2011,2: Human well-being,human-wildlife conflict,39815988,54
+2012,2: Human well-being,human-wildlife conflict,22192417,50
+2013,2: Human well-being,human-wildlife conflict,23337453,35
+2014,2: Human well-being,human-wildlife conflict,11261291,25
+1920,2: Human well-being,poverty,1238345,4
+1921,2: Human well-being,poverty,1161623,7
+1922,2: Human well-being,poverty,1227253,4
+1923,2: Human well-being,poverty,1410471,3
+1924,2: Human well-being,poverty,1420599,6
+1925,2: Human well-being,poverty,1665928,12
+1926,2: Human well-being,poverty,1904958,9
+1927,2: Human well-being,poverty,1785362,9
+1928,2: Human well-being,poverty,1938784,14
+1929,2: Human well-being,poverty,1953262,7
+1930,2: Human well-being,poverty,2111981,5
+1931,2: Human well-being,poverty,2434124,8
+1932,2: Human well-being,poverty,2400513,7
+1933,2: Human well-being,poverty,2136969,46
+1934,2: Human well-being,poverty,2445175,13
+1935,2: Human well-being,poverty,2536260,10
+1936,2: Human well-being,poverty,2751507,11
+1937,2: Human well-being,poverty,2976473,14
+1938,2: Human well-being,poverty,2886297,15
+1939,2: Human well-being,poverty,2840157,16
+1940,2: Human well-being,poverty,3000307,9
+1941,2: Human well-being,poverty,2759525,14
+1942,2: Human well-being,poverty,2730695,5
+1943,2: Human well-being,poverty,2367394,8
+1944,2: Human well-being,poverty,2209069,13
+1945,2: Human well-being,poverty,2185186,10
+1946,2: Human well-being,poverty,2461581,10
+1947,2: Human well-being,poverty,2615111,13
+1948,2: Human well-being,poverty,2631628,7
+1949,2: Human well-being,poverty,2804409,19
+1950,2: Human well-being,poverty,3153253,7
+1951,2: Human well-being,poverty,3011208,10
+1952,2: Human well-being,poverty,3139138,8
+1953,2: Human well-being,poverty,3184772,3
+1954,2: Human well-being,poverty,3649078,8
+1955,2: Human well-being,poverty,3555386,5
+1956,2: Human well-being,poverty,3699565,7
+1957,2: Human well-being,poverty,3689751,13
+1958,2: Human well-being,poverty,3814339,10
+1959,2: Human well-being,poverty,3621589,13
+1960,2: Human well-being,poverty,3934513,11
+1961,2: Human well-being,poverty,4042372,7
+1962,2: Human well-being,poverty,4017454,7
+1963,2: Human well-being,poverty,4556693,11
+1964,2: Human well-being,poverty,5158453,10
+1965,2: Human well-being,poverty,5234257,10
+1966,2: Human well-being,poverty,5493607,24
+1967,2: Human well-being,poverty,6000525,14
+1968,2: Human well-being,poverty,6521402,10
+1969,2: Human well-being,poverty,7381164,31
+1970,2: Human well-being,poverty,7236804,35
+1971,2: Human well-being,poverty,7864657,11
+1972,2: Human well-being,poverty,7915372,16
+1973,2: Human well-being,poverty,8425604,15
+1974,2: Human well-being,poverty,8556640,32
+1975,2: Human well-being,poverty,9162777,40
+1976,2: Human well-being,poverty,9429413,57
+1977,2: Human well-being,poverty,10649032,53
+1978,2: Human well-being,poverty,10558723,15
+1979,2: Human well-being,poverty,10786566,68
+1980,2: Human well-being,poverty,11619305,54
+1981,2: Human well-being,poverty,12165346,26
+1982,2: Human well-being,poverty,12314218,42
+1983,2: Human well-being,poverty,12706096,35
+1984,2: Human well-being,poverty,13379542,69
+1985,2: Human well-being,poverty,14023196,76
+1986,2: Human well-being,poverty,13255908,36
+1987,2: Human well-being,poverty,14598709,51
+1988,2: Human well-being,poverty,15573940,77
+1989,2: Human well-being,poverty,15966033,46
+1990,2: Human well-being,poverty,16534942,33
+1991,2: Human well-being,poverty,17585954,72
+1992,2: Human well-being,poverty,18582976,126
+1993,2: Human well-being,poverty,19158560,160
+1994,2: Human well-being,poverty,20273048,117
+1995,2: Human well-being,poverty,21582533,118
+1996,2: Human well-being,poverty,23433482,109
+1997,2: Human well-being,poverty,24142578,121
+1998,2: Human well-being,poverty,26454637,114
+1999,2: Human well-being,poverty,26387547,129
+2000,2: Human well-being,poverty,28146960,105
+2001,2: Human well-being,poverty,30114953,152
+2002,2: Human well-being,poverty,29304753,185
+2003,2: Human well-being,poverty,30981377,193
+2004,2: Human well-being,poverty,31953113,217
+2005,2: Human well-being,poverty,34738168,357
+2006,2: Human well-being,poverty,36837237,268
+2007,2: Human well-being,poverty,36641945,392
+2008,2: Human well-being,poverty,39330183,561
+2009,2: Human well-being,poverty,40377665,620
+2010,2: Human well-being,poverty,38030234,632
+2011,2: Human well-being,poverty,39815988,632
+1922,3: Methods,ethnography,1227253,1
+1946,3: Methods,ethnography,2461581,13
+1953,3: Methods,ethnography,3184772,1
+1956,3: Methods,ethnography,3699565,1
+1960,3: Methods,ethnography,3934513,5
+1970,3: Methods,ethnography,7236804,2
+1972,3: Methods,ethnography,7915372,3
+1973,3: Methods,ethnography,8425604,1
+1974,3: Methods,ethnography,8556640,1
+1976,3: Methods,ethnography,9429413,6
+1977,3: Methods,ethnography,10649032,7
+1978,3: Methods,ethnography,10558723,9
+1979,3: Methods,ethnography,10786566,1
+1980,3: Methods,ethnography,11619305,2
+1981,3: Methods,ethnography,12165346,2
+1982,3: Methods,ethnography,12314218,3
+1983,3: Methods,ethnography,12706096,4
+1984,3: Methods,ethnography,13379542,5
+1985,3: Methods,ethnography,14023196,4
+1986,3: Methods,ethnography,13255908,1
+1987,3: Methods,ethnography,14598709,7
+1988,3: Methods,ethnography,15573940,7
+1989,3: Methods,ethnography,15966033,5
+1990,3: Methods,ethnography,16534942,7
+1991,3: Methods,ethnography,17585954,6
+1992,3: Methods,ethnography,18582976,6
+1993,3: Methods,ethnography,19158560,4
+1994,3: Methods,ethnography,20273048,8
+1995,3: Methods,ethnography,21582533,4
+1996,3: Methods,ethnography,23433482,2
+1997,3: Methods,ethnography,24142578,5
+1998,3: Methods,ethnography,26454637,5
+1999,3: Methods,ethnography,26387547,11
+2000,3: Methods,ethnography,28146960,4
+2001,3: Methods,ethnography,30114953,6
+2002,3: Methods,ethnography,29304753,19
+2003,3: Methods,ethnography,30981377,12
+2004,3: Methods,ethnography,31953113,15
+2005,3: Methods,ethnography,34738168,21
+2006,3: Methods,ethnography,36837237,8
+2007,3: Methods,ethnography,36641945,21
+2008,3: Methods,ethnography,39330183,14
+2009,3: Methods,ethnography,40377665,16
+2010,3: Methods,ethnography,38030234,14
+2011,3: Methods,ethnography,39815988,31
+1960,3: Methods,focus group,3934513,1
+1993,3: Methods,focus group,19158560,3
+1994,3: Methods,focus group,20273048,9
+1995,3: Methods,focus group,21582533,42
+1996,3: Methods,focus group,23433482,2
+1997,3: Methods,focus group,24142578,21
+1998,3: Methods,focus group,26454637,12
+1999,3: Methods,focus group,26387547,11
+2000,3: Methods,focus group,28146960,69
+2001,3: Methods,focus group,30114953,13
+2002,3: Methods,focus group,29304753,25
+2003,3: Methods,focus group,30981377,18
+2004,3: Methods,focus group,31953113,18
+2005,3: Methods,focus group,34738168,57
+2006,3: Methods,focus group,36837237,26
+2007,3: Methods,focus group,36641945,32
+2008,3: Methods,focus group,39330183,64
+2009,3: Methods,focus group,40377665,23
+2010,3: Methods,focus group,38030234,62
+2011,3: Methods,focus group,39815988,55
+1921,3: Methods,interview,1161623,2
+1925,3: Methods,interview,1665928,1
+1926,3: Methods,interview,1904958,1
+1927,3: Methods,interview,1785362,1
+1928,3: Methods,interview,1938784,1
+1930,3: Methods,interview,2111981,3
+1933,3: Methods,interview,2136969,1
+1938,3: Methods,interview,2886297,4
+1940,3: Methods,interview,3000307,4
+1941,3: Methods,interview,2759525,7
+1944,3: Methods,interview,2209069,3
+1945,3: Methods,interview,2185186,1
+1946,3: Methods,interview,2461581,1
+1947,3: Methods,interview,2615111,4
+1948,3: Methods,interview,2631628,5
+1949,3: Methods,interview,2804409,11
+1951,3: Methods,interview,3011208,1
+1952,3: Methods,interview,3139138,19
+1953,3: Methods,interview,3184772,2
+1954,3: Methods,interview,3649078,1
+1955,3: Methods,interview,3555386,8
+1956,3: Methods,interview,3699565,12
+1957,3: Methods,interview,3689751,15
+1958,3: Methods,interview,3814339,26
+1959,3: Methods,interview,3621589,23
+1960,3: Methods,interview,3934513,18
+1961,3: Methods,interview,4042372,8
+1962,3: Methods,interview,4017454,57
+1963,3: Methods,interview,4556693,36
+1964,3: Methods,interview,5158453,22
+1965,3: Methods,interview,5234257,9
+1966,3: Methods,interview,5493607,6
+1967,3: Methods,interview,6000525,16
+1968,3: Methods,interview,6521402,7
+1969,3: Methods,interview,7381164,8
+1970,3: Methods,interview,7236804,7
+1971,3: Methods,interview,7864657,13
+1972,3: Methods,interview,7915372,29
+1973,3: Methods,interview,8425604,33
+1974,3: Methods,interview,8556640,15
+1975,3: Methods,interview,9162777,13
+1976,3: Methods,interview,9429413,18
+1977,3: Methods,interview,10649032,15
+1978,3: Methods,interview,10558723,51
+1979,3: Methods,interview,10786566,24
+1980,3: Methods,interview,11619305,38
+1981,3: Methods,interview,12165346,38
+1982,3: Methods,interview,12314218,33
+1983,3: Methods,interview,12706096,39
+1984,3: Methods,interview,13379542,59
+1985,3: Methods,interview,14023196,36
+1986,3: Methods,interview,13255908,49
+1987,3: Methods,interview,14598709,40
+1988,3: Methods,interview,15573940,40
+1989,3: Methods,interview,15966033,63
+1990,3: Methods,interview,16534942,74
+1991,3: Methods,interview,17585954,78
+1992,3: Methods,interview,18582976,97
+1993,3: Methods,interview,19158560,118
+1994,3: Methods,interview,20273048,148
+1995,3: Methods,interview,21582533,195
+1996,3: Methods,interview,23433482,176
+1997,3: Methods,interview,24142578,166
+1998,3: Methods,interview,26454637,209
+1999,3: Methods,interview,26387547,223
+2000,3: Methods,interview,28146960,263
+2001,3: Methods,interview,30114953,253
+2002,3: Methods,interview,29304753,285
+2003,3: Methods,interview,30981377,376
+2004,3: Methods,interview,31953113,261
+2005,3: Methods,interview,34738168,417
+2006,3: Methods,interview,36837237,397
+2007,3: Methods,interview,36641945,574
+2008,3: Methods,interview,39330183,779
+2009,3: Methods,interview,40377665,601
+2010,3: Methods,interview,38030234,792
+2011,3: Methods,interview,39815988,806
+1966,3: Methods,participant observation,5493607,1
+1974,3: Methods,participant observation,8556640,1
+1977,3: Methods,participant observation,10649032,2
+1978,3: Methods,participant observation,10558723,2
+1981,3: Methods,participant observation,12165346,1
+1982,3: Methods,participant observation,12314218,1
+1983,3: Methods,participant observation,12706096,2
+1986,3: Methods,participant observation,13255908,1
+1988,3: Methods,participant observation,15573940,1
+1989,3: Methods,participant observation,15966033,1
+1990,3: Methods,participant observation,16534942,1
+1991,3: Methods,participant observation,17585954,2
+1994,3: Methods,participant observation,20273048,4
+1995,3: Methods,participant observation,21582533,2
+1996,3: Methods,participant observation,23433482,5
+1997,3: Methods,participant observation,24142578,5
+1998,3: Methods,participant observation,26454637,12
+1999,3: Methods,participant observation,26387547,11
+2000,3: Methods,participant observation,28146960,7
+2001,3: Methods,participant observation,30114953,9
+2002,3: Methods,participant observation,29304753,1
+2003,3: Methods,participant observation,30981377,14
+2004,3: Methods,participant observation,31953113,5
+2005,3: Methods,participant observation,34738168,9
+2006,3: Methods,participant observation,36837237,9
+2007,3: Methods,participant observation,36641945,10
+2008,3: Methods,participant observation,39330183,43
+2009,3: Methods,participant observation,40377665,31
+2010,3: Methods,participant observation,38030234,21
+2011,3: Methods,participant observation,39815988,54
+1923,3: Methods,questionnaire,1410471,6
+1927,3: Methods,questionnaire,1785362,2
+1928,3: Methods,questionnaire,1938784,1
+1929,3: Methods,questionnaire,1953262,3
+1930,3: Methods,questionnaire,2111981,2
+1932,3: Methods,questionnaire,2400513,5
+1934,3: Methods,questionnaire,2445175,3
+1935,3: Methods,questionnaire,2536260,2
+1937,3: Methods,questionnaire,2976473,9
+1938,3: Methods,questionnaire,2886297,15
+1939,3: Methods,questionnaire,2840157,32
+1940,3: Methods,questionnaire,3000307,19
+1941,3: Methods,questionnaire,2759525,11
+1942,3: Methods,questionnaire,2730695,10
+1943,3: Methods,questionnaire,2367394,12
+1944,3: Methods,questionnaire,2209069,13
+1945,3: Methods,questionnaire,2185186,12
+1946,3: Methods,questionnaire,2461581,6
+1947,3: Methods,questionnaire,2615111,26
+1948,3: Methods,questionnaire,2631628,6
+1949,3: Methods,questionnaire,2804409,2
+1950,3: Methods,questionnaire,3153253,6
+1951,3: Methods,questionnaire,3011208,6
+1952,3: Methods,questionnaire,3139138,6
+1953,3: Methods,questionnaire,3184772,7
+1954,3: Methods,questionnaire,3649078,33
+1955,3: Methods,questionnaire,3555386,21
+1956,3: Methods,questionnaire,3699565,26
+1957,3: Methods,questionnaire,3689751,8
+1958,3: Methods,questionnaire,3814339,20
+1959,3: Methods,questionnaire,3621589,20
+1960,3: Methods,questionnaire,3934513,32
+1961,3: Methods,questionnaire,4042372,10
+1962,3: Methods,questionnaire,4017454,9
+1963,3: Methods,questionnaire,4556693,46
+1964,3: Methods,questionnaire,5158453,14
+1965,3: Methods,questionnaire,5234257,29
+1966,3: Methods,questionnaire,5493607,30
+1967,3: Methods,questionnaire,6000525,35
+1968,3: Methods,questionnaire,6521402,40
+1969,3: Methods,questionnaire,7381164,40
+1970,3: Methods,questionnaire,7236804,21
+1971,3: Methods,questionnaire,7864657,60
+1972,3: Methods,questionnaire,7915372,35
+1973,3: Methods,questionnaire,8425604,54
+1974,3: Methods,questionnaire,8556640,60
+1975,3: Methods,questionnaire,9162777,50
+1976,3: Methods,questionnaire,9429413,71
+1977,3: Methods,questionnaire,10649032,55
+1978,3: Methods,questionnaire,10558723,205
+1979,3: Methods,questionnaire,10786566,58
+1980,3: Methods,questionnaire,11619305,60
+1981,3: Methods,questionnaire,12165346,134
+1982,3: Methods,questionnaire,12314218,58
+1983,3: Methods,questionnaire,12706096,53
+1984,3: Methods,questionnaire,13379542,60
+1985,3: Methods,questionnaire,14023196,101
+1986,3: Methods,questionnaire,13255908,47
+1987,3: Methods,questionnaire,14598709,80
+1988,3: Methods,questionnaire,15573940,53
+1989,3: Methods,questionnaire,15966033,89
+1990,3: Methods,questionnaire,16534942,44
+1991,3: Methods,questionnaire,17585954,100
+1992,3: Methods,questionnaire,18582976,159
+1993,3: Methods,questionnaire,19158560,114
+1994,3: Methods,questionnaire,20273048,101
+1995,3: Methods,questionnaire,21582533,115
+1996,3: Methods,questionnaire,23433482,189
+1997,3: Methods,questionnaire,24142578,168
+1998,3: Methods,questionnaire,26454637,157
+1999,3: Methods,questionnaire,26387547,289
+2000,3: Methods,questionnaire,28146960,208
+2001,3: Methods,questionnaire,30114953,164
+2002,3: Methods,questionnaire,29304753,161
+2003,3: Methods,questionnaire,30981377,243
+2004,3: Methods,questionnaire,31953113,178
+2005,3: Methods,questionnaire,34738168,317
+2006,3: Methods,questionnaire,36837237,395
+2007,3: Methods,questionnaire,36641945,175
+2008,3: Methods,questionnaire,39330183,284
+2009,3: Methods,questionnaire,40377665,280
+2010,3: Methods,questionnaire,38030234,315
+2011,3: Methods,questionnaire,39815988,295
+1941,4: Stakeholders,indigenous people,2759525,1
+1957,4: Stakeholders,indigenous people,3689751,2
+1968,4: Stakeholders,indigenous people,6521402,1
+1969,4: Stakeholders,indigenous people,7381164,1
+1976,4: Stakeholders,indigenous people,9429413,6
+1978,4: Stakeholders,indigenous people,10558723,2
+1980,4: Stakeholders,indigenous people,11619305,3
+1981,4: Stakeholders,indigenous people,12165346,6
+1983,4: Stakeholders,indigenous people,12706096,5
+1984,4: Stakeholders,indigenous people,13379542,1
+1985,4: Stakeholders,indigenous people,14023196,3
+1986,4: Stakeholders,indigenous people,13255908,2
+1987,4: Stakeholders,indigenous people,14598709,16
+1988,4: Stakeholders,indigenous people,15573940,8
+1989,4: Stakeholders,indigenous people,15966033,5
+1990,4: Stakeholders,indigenous people,16534942,6
+1991,4: Stakeholders,indigenous people,17585954,8
+1992,4: Stakeholders,indigenous people,18582976,18
+1993,4: Stakeholders,indigenous people,19158560,42
+1994,4: Stakeholders,indigenous people,20273048,37
+1995,4: Stakeholders,indigenous people,21582533,34
+1996,4: Stakeholders,indigenous people,23433482,38
+1997,4: Stakeholders,indigenous people,24142578,36
+1998,4: Stakeholders,indigenous people,26454637,35
+1999,4: Stakeholders,indigenous people,26387547,22
+2000,4: Stakeholders,indigenous people,28146960,85
+2001,4: Stakeholders,indigenous people,30114953,43
+2002,4: Stakeholders,indigenous people,29304753,38
+2003,4: Stakeholders,indigenous people,30981377,40
+2004,4: Stakeholders,indigenous people,31953113,53
+2005,4: Stakeholders,indigenous people,34738168,92
+2006,4: Stakeholders,indigenous people,36837237,74
+2007,4: Stakeholders,indigenous people,36641945,101
+2008,4: Stakeholders,indigenous people,39330183,85
+2009,4: Stakeholders,indigenous people,40377665,79
+2010,4: Stakeholders,indigenous people,38030234,86
+2011,4: Stakeholders,indigenous people,39815988,173
+1926,4: Stakeholders,local community,1904958,1
+1930,4: Stakeholders,local community,2111981,1
+1934,4: Stakeholders,local community,2445175,4
+1935,4: Stakeholders,local community,2536260,3
+1936,4: Stakeholders,local community,2751507,3
+1937,4: Stakeholders,local community,2976473,1
+1938,4: Stakeholders,local community,2886297,3
+1940,4: Stakeholders,local community,3000307,4
+1941,4: Stakeholders,local community,2759525,1
+1943,4: Stakeholders,local community,2367394,2
+1944,4: Stakeholders,local community,2209069,1
+1945,4: Stakeholders,local community,2185186,3
+1946,4: Stakeholders,local community,2461581,1
+1948,4: Stakeholders,local community,2631628,2
+1949,4: Stakeholders,local community,2804409,1
+1950,4: Stakeholders,local community,3153253,2
+1951,4: Stakeholders,local community,3011208,4
+1952,4: Stakeholders,local community,3139138,6
+1953,4: Stakeholders,local community,3184772,2
+1954,4: Stakeholders,local community,3649078,2
+1955,4: Stakeholders,local community,3555386,4
+1956,4: Stakeholders,local community,3699565,4
+1957,4: Stakeholders,local community,3689751,4
+1958,4: Stakeholders,local community,3814339,5
+1959,4: Stakeholders,local community,3621589,4
+1960,4: Stakeholders,local community,3934513,5
+1961,4: Stakeholders,local community,4042372,5
+1962,4: Stakeholders,local community,4017454,6
+1963,4: Stakeholders,local community,4556693,5
+1964,4: Stakeholders,local community,5158453,5
+1965,4: Stakeholders,local community,5234257,4
+1966,4: Stakeholders,local community,5493607,14
+1967,4: Stakeholders,local community,6000525,12
+1968,4: Stakeholders,local community,6521402,11
+1969,4: Stakeholders,local community,7381164,12
+1970,4: Stakeholders,local community,7236804,4
+1971,4: Stakeholders,local community,7864657,6
+1972,4: Stakeholders,local community,7915372,19
+1973,4: Stakeholders,local community,8425604,5
+1974,4: Stakeholders,local community,8556640,12
+1975,4: Stakeholders,local community,9162777,20
+1976,4: Stakeholders,local community,9429413,21
+1977,4: Stakeholders,local community,10649032,27
+1978,4: Stakeholders,local community,10558723,25
+1979,4: Stakeholders,local community,10786566,35
+1980,4: Stakeholders,local community,11619305,34
+1981,4: Stakeholders,local community,12165346,52
+1982,4: Stakeholders,local community,12314218,101
+1983,4: Stakeholders,local community,12706096,28
+1984,4: Stakeholders,local community,13379542,34
+1985,4: Stakeholders,local community,14023196,31
+1986,4: Stakeholders,local community,13255908,35
+1987,4: Stakeholders,local community,14598709,90
+1988,4: Stakeholders,local community,15573940,92
+1989,4: Stakeholders,local community,15966033,94
+1990,4: Stakeholders,local community,16534942,85
+1991,4: Stakeholders,local community,17585954,89
+1992,4: Stakeholders,local community,18582976,216
+1993,4: Stakeholders,local community,19158560,231
+1994,4: Stakeholders,local community,20273048,207
+1995,4: Stakeholders,local community,21582533,340
+1996,4: Stakeholders,local community,23433482,279
+1997,4: Stakeholders,local community,24142578,261
+1998,4: Stakeholders,local community,26454637,330
+1999,4: Stakeholders,local community,26387547,363
+2000,4: Stakeholders,local community,28146960,342
+2001,4: Stakeholders,local community,30114953,395
+2002,4: Stakeholders,local community,29304753,342
+2003,4: Stakeholders,local community,30981377,460
+2004,4: Stakeholders,local community,31953113,616
+2005,4: Stakeholders,local community,34738168,582
+2006,4: Stakeholders,local community,36837237,896
+2007,4: Stakeholders,local community,36641945,1026
+2008,4: Stakeholders,local community,39330183,794
+2009,4: Stakeholders,local community,40377665,840
+2010,4: Stakeholders,local community,38030234,989
+2011,4: Stakeholders,local community,39815988,920
+1971,4: Stakeholders,participatory,7864657,1
+1972,4: Stakeholders,participatory,7915372,1
+1973,4: Stakeholders,participatory,8425604,1
+1975,4: Stakeholders,participatory,9162777,1
+1977,4: Stakeholders,participatory,10649032,1
+1979,4: Stakeholders,participatory,10786566,1
+1980,4: Stakeholders,participatory,11619305,2
+1982,4: Stakeholders,participatory,12314218,1
+1984,4: Stakeholders,participatory,13379542,1
+1985,4: Stakeholders,participatory,14023196,3
+1986,4: Stakeholders,participatory,13255908,3
+1987,4: Stakeholders,participatory,14598709,1
+1989,4: Stakeholders,participatory,15966033,7
+1990,4: Stakeholders,participatory,16534942,6
+1991,4: Stakeholders,participatory,17585954,5
+1992,4: Stakeholders,participatory,18582976,29
+1993,4: Stakeholders,participatory,19158560,17
+1994,4: Stakeholders,participatory,20273048,11
+1995,4: Stakeholders,participatory,21582533,52
+1996,4: Stakeholders,participatory,23433482,45
+1997,4: Stakeholders,participatory,24142578,60
+1998,4: Stakeholders,participatory,26454637,43
+1999,4: Stakeholders,participatory,26387547,43
+2000,4: Stakeholders,participatory,28146960,71
+2001,4: Stakeholders,participatory,30114953,43
+2002,4: Stakeholders,participatory,29304753,48
+2003,4: Stakeholders,participatory,30981377,121
+2004,4: Stakeholders,participatory,31953113,112
+2005,4: Stakeholders,participatory,34738168,217
+2006,4: Stakeholders,participatory,36837237,134
+2007,4: Stakeholders,participatory,36641945,130
+2008,4: Stakeholders,participatory,39330183,212
+2009,4: Stakeholders,participatory,40377665,179
+2010,4: Stakeholders,participatory,38030234,284
+2011,4: Stakeholders,participatory,39815988,158
+1939,4: Stakeholders,property rights,2840157,1
+1942,4: Stakeholders,property rights,2730695,1
+1943,4: Stakeholders,property rights,2367394,3
+1944,4: Stakeholders,property rights,2209069,1
+1946,4: Stakeholders,property rights,2461581,1
+1951,4: Stakeholders,property rights,3011208,1
+1954,4: Stakeholders,property rights,3649078,2
+1955,4: Stakeholders,property rights,3555386,4
+1963,4: Stakeholders,property rights,4556693,1
+1967,4: Stakeholders,property rights,6000525,1
+1970,4: Stakeholders,property rights,7236804,1
+1972,4: Stakeholders,property rights,7915372,3
+1974,4: Stakeholders,property rights,8556640,3
+1975,4: Stakeholders,property rights,9162777,4
+1976,4: Stakeholders,property rights,9429413,3
+1977,4: Stakeholders,property rights,10649032,3
+1978,4: Stakeholders,property rights,10558723,4
+1980,4: Stakeholders,property rights,11619305,2
+1981,4: Stakeholders,property rights,12165346,7
+1982,4: Stakeholders,property rights,12314218,2
+1984,4: Stakeholders,property rights,13379542,5
+1985,4: Stakeholders,property rights,14023196,26
+1986,4: Stakeholders,property rights,13255908,10
+1987,4: Stakeholders,property rights,14598709,4
+1988,4: Stakeholders,property rights,15573940,4
+1989,4: Stakeholders,property rights,15966033,11
+1990,4: Stakeholders,property rights,16534942,43
+1991,4: Stakeholders,property rights,17585954,13
+1992,4: Stakeholders,property rights,18582976,69
+1993,4: Stakeholders,property rights,19158560,54
+1994,4: Stakeholders,property rights,20273048,31
+1995,4: Stakeholders,property rights,21582533,165
+1996,4: Stakeholders,property rights,23433482,81
+1997,4: Stakeholders,property rights,24142578,85
+1998,4: Stakeholders,property rights,26454637,107
+1999,4: Stakeholders,property rights,26387547,70
+2000,4: Stakeholders,property rights,28146960,74
+2001,4: Stakeholders,property rights,30114953,148
+2002,4: Stakeholders,property rights,29304753,110
+2003,4: Stakeholders,property rights,30981377,70
+2004,4: Stakeholders,property rights,31953113,105
+2005,4: Stakeholders,property rights,34738168,126
+2006,4: Stakeholders,property rights,36837237,118
+2007,4: Stakeholders,property rights,36641945,162
+2008,4: Stakeholders,property rights,39330183,129
+2009,4: Stakeholders,property rights,40377665,108
+2010,4: Stakeholders,property rights,38030234,182
+2011,4: Stakeholders,property rights,39815988,199
+1989,4: Stakeholders,stakeholder,15966033,17
+1991,4: Stakeholders,stakeholder,17585954,16
+1992,4: Stakeholders,stakeholder,18582976,4
+1993,4: Stakeholders,stakeholder,19158560,32
+1994,4: Stakeholders,stakeholder,20273048,4
+1995,4: Stakeholders,stakeholder,21582533,51
+1996,4: Stakeholders,stakeholder,23433482,187
+1997,4: Stakeholders,stakeholder,24142578,305
+1998,4: Stakeholders,stakeholder,26454637,182
+1999,4: Stakeholders,stakeholder,26387547,235
+2000,4: Stakeholders,stakeholder,28146960,300
+2001,4: Stakeholders,stakeholder,30114953,367
+2002,4: Stakeholders,stakeholder,29304753,516
+2003,4: Stakeholders,stakeholder,30981377,570
+2004,4: Stakeholders,stakeholder,31953113,739
+2005,4: Stakeholders,stakeholder,34738168,918
+2006,4: Stakeholders,stakeholder,36837237,1002
+2007,4: Stakeholders,stakeholder,36641945,465
+2008,4: Stakeholders,stakeholder,39330183,797
+2009,4: Stakeholders,stakeholder,40377665,829
+2010,4: Stakeholders,stakeholder,38030234,673
+2011,4: Stakeholders,stakeholder,39815988,1127

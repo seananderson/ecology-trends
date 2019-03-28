@@ -1,0 +1,1701 @@
+year,panel,gram_canonical,total_words,total
+1945,1: Models for inference,ANOVA,2185186,1
+1959,1: Models for inference,ANOVA,3621589,6
+1961,1: Models for inference,ANOVA,4042372,2
+1966,1: Models for inference,ANOVA,5493607,12
+1967,1: Models for inference,ANOVA,6000525,14
+1969,1: Models for inference,ANOVA,7381164,33
+1970,1: Models for inference,ANOVA,7236804,5
+1971,1: Models for inference,ANOVA,7864657,53
+1972,1: Models for inference,ANOVA,7915372,21
+1973,1: Models for inference,ANOVA,8425604,48
+1974,1: Models for inference,ANOVA,8556640,29
+1975,1: Models for inference,ANOVA,9162777,25
+1976,1: Models for inference,ANOVA,9429413,89
+1977,1: Models for inference,ANOVA,10649032,73
+1978,1: Models for inference,ANOVA,10558723,131
+1979,1: Models for inference,ANOVA,10786566,173
+1980,1: Models for inference,ANOVA,11619305,182
+1981,1: Models for inference,ANOVA,12165346,417
+1982,1: Models for inference,ANOVA,12314218,481
+1983,1: Models for inference,ANOVA,12706096,696
+1984,1: Models for inference,ANOVA,13379542,851
+1985,1: Models for inference,ANOVA,14023196,848
+1986,1: Models for inference,ANOVA,13255908,978
+1987,1: Models for inference,ANOVA,14598709,1147
+1988,1: Models for inference,ANOVA,15573940,1394
+1989,1: Models for inference,ANOVA,15966033,1598
+1990,1: Models for inference,ANOVA,16534942,1688
+1991,1: Models for inference,ANOVA,17585954,2236
+1992,1: Models for inference,ANOVA,18582976,2570
+1993,1: Models for inference,ANOVA,19158560,2944
+1994,1: Models for inference,ANOVA,20273048,3126
+1995,1: Models for inference,ANOVA,21582533,3415
+1996,1: Models for inference,ANOVA,23433482,3813
+1997,1: Models for inference,ANOVA,24142578,4307
+1998,1: Models for inference,ANOVA,26454637,4565
+1999,1: Models for inference,ANOVA,26387547,4724
+2000,1: Models for inference,ANOVA,28146960,4960
+2001,1: Models for inference,ANOVA,30114953,5775
+2002,1: Models for inference,ANOVA,29304753,5641
+2003,1: Models for inference,ANOVA,30981377,5741
+2004,1: Models for inference,ANOVA,31953113,5754
+2005,1: Models for inference,ANOVA,34738168,5453
+2006,1: Models for inference,ANOVA,36837237,5949
+2007,1: Models for inference,ANOVA,36641945,5603
+2008,1: Models for inference,ANOVA,39330183,6003
+2009,1: Models for inference,ANOVA,40377665,5600
+2010,1: Models for inference,ANOVA,38030234,4794
+2011,1: Models for inference,ANOVA,39815988,4829
+1920,1: Models for inference,correlation,1238345,75
+1921,1: Models for inference,correlation,1161623,342
+1922,1: Models for inference,correlation,1227253,188
+1923,1: Models for inference,correlation,1410471,132
+1924,1: Models for inference,correlation,1420599,162
+1925,1: Models for inference,correlation,1665928,337
+1926,1: Models for inference,correlation,1904958,387
+1927,1: Models for inference,correlation,1785362,322
+1928,1: Models for inference,correlation,1938784,509
+1929,1: Models for inference,correlation,1953262,377
+1930,1: Models for inference,correlation,2111981,578
+1931,1: Models for inference,correlation,2434124,332
+1932,1: Models for inference,correlation,2400513,334
+1933,1: Models for inference,correlation,2136969,468
+1934,1: Models for inference,correlation,2445175,434
+1935,1: Models for inference,correlation,2536260,320
+1936,1: Models for inference,correlation,2751507,843
+1937,1: Models for inference,correlation,2976473,575
+1938,1: Models for inference,correlation,2886297,632
+1939,1: Models for inference,correlation,2840157,868
+1940,1: Models for inference,correlation,3000307,587
+1941,1: Models for inference,correlation,2759525,566
+1942,1: Models for inference,correlation,2730695,483
+1943,1: Models for inference,correlation,2367394,545
+1944,1: Models for inference,correlation,2209069,510
+1945,1: Models for inference,correlation,2185186,323
+1946,1: Models for inference,correlation,2461581,426
+1947,1: Models for inference,correlation,2615111,461
+1948,1: Models for inference,correlation,2631628,391
+1949,1: Models for inference,correlation,2804409,516
+1950,1: Models for inference,correlation,3153253,572
+1951,1: Models for inference,correlation,3011208,448
+1952,1: Models for inference,correlation,3139138,584
+1953,1: Models for inference,correlation,3184772,509
+1954,1: Models for inference,correlation,3649078,684
+1955,1: Models for inference,correlation,3555386,757
+1956,1: Models for inference,correlation,3699565,739
+1957,1: Models for inference,correlation,3689751,741
+1958,1: Models for inference,correlation,3814339,936
+1959,1: Models for inference,correlation,3621589,593
+1960,1: Models for inference,correlation,3934513,718
+1961,1: Models for inference,correlation,4042372,1004
+1962,1: Models for inference,correlation,4017454,733
+1963,1: Models for inference,correlation,4556693,1155
+1964,1: Models for inference,correlation,5158453,1177
+1965,1: Models for inference,correlation,5234257,1356
+1966,1: Models for inference,correlation,5493607,1305
+1967,1: Models for inference,correlation,6000525,1215
+1968,1: Models for inference,correlation,6521402,1648
+1969,1: Models for inference,correlation,7381164,2008
+1970,1: Models for inference,correlation,7236804,2167
+1971,1: Models for inference,correlation,7864657,2135
+1972,1: Models for inference,correlation,7915372,2174
+1973,1: Models for inference,correlation,8425604,2457
+1974,1: Models for inference,correlation,8556640,2325
+1975,1: Models for inference,correlation,9162777,2765
+1976,1: Models for inference,correlation,9429413,2662
+1977,1: Models for inference,correlation,10649032,3135
+1978,1: Models for inference,correlation,10558723,3969
+1979,1: Models for inference,correlation,10786566,3462
+1980,1: Models for inference,correlation,11619305,4559
+1981,1: Models for inference,correlation,12165346,4540
+1982,1: Models for inference,correlation,12314218,4167
+1983,1: Models for inference,correlation,12706096,4628
+1984,1: Models for inference,correlation,13379542,4995
+1985,1: Models for inference,correlation,14023196,5138
+1986,1: Models for inference,correlation,13255908,5297
+1987,1: Models for inference,correlation,14598709,5877
+1988,1: Models for inference,correlation,15573940,6215
+1989,1: Models for inference,correlation,15966033,6555
+1990,1: Models for inference,correlation,16534942,6158
+1991,1: Models for inference,correlation,17585954,6942
+1992,1: Models for inference,correlation,18582976,6572
+1993,1: Models for inference,correlation,19158560,7511
+1994,1: Models for inference,correlation,20273048,7932
+1995,1: Models for inference,correlation,21582533,8371
+1996,1: Models for inference,correlation,23433482,8743
+1997,1: Models for inference,correlation,24142578,9295
+1998,1: Models for inference,correlation,26454637,9607
+1999,1: Models for inference,correlation,26387547,10558
+2000,1: Models for inference,correlation,28146960,11193
+2001,1: Models for inference,correlation,30114953,10939
+2002,1: Models for inference,correlation,29304753,11743
+2003,1: Models for inference,correlation,30981377,11787
+2004,1: Models for inference,correlation,31953113,12786
+2005,1: Models for inference,correlation,34738168,14502
+2006,1: Models for inference,correlation,36837237,14915
+2007,1: Models for inference,correlation,36641945,15225
+2008,1: Models for inference,correlation,39330183,16238
+2009,1: Models for inference,correlation,40377665,17271
+2010,1: Models for inference,correlation,38030234,14704
+2011,1: Models for inference,correlation,39815988,14705
+1929,1: Models for inference,GLM,1953262,1
+1931,1: Models for inference,GLM,2434124,1
+1935,1: Models for inference,GLM,2536260,1
+1953,1: Models for inference,GLM,3184772,1
+1962,1: Models for inference,GLM,4017454,2
+1963,1: Models for inference,GLM,4556693,2
+1967,1: Models for inference,GLM,6000525,1
+1968,1: Models for inference,GLM,6521402,1
+1969,1: Models for inference,GLM,7381164,1
+1971,1: Models for inference,GLM,7864657,5
+1972,1: Models for inference,GLM,7915372,4
+1973,1: Models for inference,GLM,8425604,5
+1974,1: Models for inference,GLM,8556640,3
+1975,1: Models for inference,GLM,9162777,4
+1976,1: Models for inference,GLM,9429413,14
+1977,1: Models for inference,GLM,10649032,18
+1978,1: Models for inference,GLM,10558723,23
+1979,1: Models for inference,GLM,10786566,8
+1980,1: Models for inference,GLM,11619305,26
+1981,1: Models for inference,GLM,12165346,29
+1982,1: Models for inference,GLM,12314218,23
+1983,1: Models for inference,GLM,12706096,54
+1984,1: Models for inference,GLM,13379542,61
+1985,1: Models for inference,GLM,14023196,59
+1986,1: Models for inference,GLM,13255908,57
+1987,1: Models for inference,GLM,14598709,106
+1988,1: Models for inference,GLM,15573940,112
+1989,1: Models for inference,GLM,15966033,131
+1990,1: Models for inference,GLM,16534942,191
+1991,1: Models for inference,GLM,17585954,257
+1992,1: Models for inference,GLM,18582976,201
+1993,1: Models for inference,GLM,19158560,320
+1994,1: Models for inference,GLM,20273048,293
+1995,1: Models for inference,GLM,21582533,367
+1996,1: Models for inference,GLM,23433482,398
+1997,1: Models for inference,GLM,24142578,509
+1998,1: Models for inference,GLM,26454637,543
+1999,1: Models for inference,GLM,26387547,651
+2000,1: Models for inference,GLM,28146960,892
+2001,1: Models for inference,GLM,30114953,926
+2002,1: Models for inference,GLM,29304753,818
+2003,1: Models for inference,GLM,30981377,1340
+2004,1: Models for inference,GLM,31953113,1474
+2005,1: Models for inference,GLM,34738168,1585
+2006,1: Models for inference,GLM,36837237,2068
+2007,1: Models for inference,GLM,36641945,2083
+2008,1: Models for inference,GLM,39330183,2246
+2009,1: Models for inference,GLM,40377665,2661
+2010,1: Models for inference,GLM,38030234,2374
+2011,1: Models for inference,GLM,39815988,2469
+2012,1: Models for inference,GLM,22192417,360
+2013,1: Models for inference,GLM,23337453,366
+2014,1: Models for inference,GLM,11261291,174
+1920,1: Models for inference,regression,1238345,11
+1921,1: Models for inference,regression,1161623,30
+1922,1: Models for inference,regression,1227253,17
+1923,1: Models for inference,regression,1410471,8
+1924,1: Models for inference,regression,1420599,1
+1925,1: Models for inference,regression,1665928,70
+1926,1: Models for inference,regression,1904958,28
+1927,1: Models for inference,regression,1785362,13
+1928,1: Models for inference,regression,1938784,53
+1929,1: Models for inference,regression,1953262,22
+1930,1: Models for inference,regression,2111981,91
+1931,1: Models for inference,regression,2434124,43
+1932,1: Models for inference,regression,2400513,33
+1933,1: Models for inference,regression,2136969,70
+1934,1: Models for inference,regression,2445175,119
+1935,1: Models for inference,regression,2536260,159
+1936,1: Models for inference,regression,2751507,122
+1937,1: Models for inference,regression,2976473,74
+1938,1: Models for inference,regression,2886297,334
+1939,1: Models for inference,regression,2840157,199
+1940,1: Models for inference,regression,3000307,105
+1941,1: Models for inference,regression,2759525,64
+1942,1: Models for inference,regression,2730695,97
+1943,1: Models for inference,regression,2367394,61
+1944,1: Models for inference,regression,2209069,86
+1945,1: Models for inference,regression,2185186,166
+1946,1: Models for inference,regression,2461581,129
+1947,1: Models for inference,regression,2615111,98
+1948,1: Models for inference,regression,2631628,349
+1949,1: Models for inference,regression,2804409,70
+1950,1: Models for inference,regression,3153253,168
+1951,1: Models for inference,regression,3011208,276
+1952,1: Models for inference,regression,3139138,133
+1953,1: Models for inference,regression,3184772,156
+1954,1: Models for inference,regression,3649078,231
+1955,1: Models for inference,regression,3555386,255
+1956,1: Models for inference,regression,3699565,308
+1957,1: Models for inference,regression,3689751,169
+1958,1: Models for inference,regression,3814339,401
+1959,1: Models for inference,regression,3621589,388
+1960,1: Models for inference,regression,3934513,425
+1961,1: Models for inference,regression,4042372,631
+1962,1: Models for inference,regression,4017454,334
+1963,1: Models for inference,regression,4556693,500
+1964,1: Models for inference,regression,5158453,531
+1965,1: Models for inference,regression,5234257,721
+1966,1: Models for inference,regression,5493607,726
+1967,1: Models for inference,regression,6000525,849
+1968,1: Models for inference,regression,6521402,1346
+1969,1: Models for inference,regression,7381164,925
+1970,1: Models for inference,regression,7236804,1084
+1971,1: Models for inference,regression,7864657,1382
+1972,1: Models for inference,regression,7915372,1537
+1973,1: Models for inference,regression,8425604,1492
+1974,1: Models for inference,regression,8556640,1811
+1975,1: Models for inference,regression,9162777,2312
+1976,1: Models for inference,regression,9429413,2018
+1977,1: Models for inference,regression,10649032,2157
+1978,1: Models for inference,regression,10558723,2748
+1979,1: Models for inference,regression,10786566,2819
+1980,1: Models for inference,regression,11619305,2873
+1981,1: Models for inference,regression,12165346,2892
+1982,1: Models for inference,regression,12314218,3303
+1983,1: Models for inference,regression,12706096,3222
+1984,1: Models for inference,regression,13379542,3830
+1985,1: Models for inference,regression,14023196,3450
+1986,1: Models for inference,regression,13255908,3648
+1987,1: Models for inference,regression,14598709,4225
+1988,1: Models for inference,regression,15573940,4711
+1989,1: Models for inference,regression,15966033,5181
+1990,1: Models for inference,regression,16534942,5294
+1991,1: Models for inference,regression,17585954,5458
+1992,1: Models for inference,regression,18582976,5289
+1993,1: Models for inference,regression,19158560,6339
+1994,1: Models for inference,regression,20273048,6390
+1995,1: Models for inference,regression,21582533,7066
+1996,1: Models for inference,regression,23433482,8079
+1997,1: Models for inference,regression,24142578,8085
+1998,1: Models for inference,regression,26454637,9162
+1999,1: Models for inference,regression,26387547,9417
+2000,1: Models for inference,regression,28146960,9533
+2001,1: Models for inference,regression,30114953,10329
+2002,1: Models for inference,regression,29304753,10888
+2003,1: Models for inference,regression,30981377,11200
+2004,1: Models for inference,regression,31953113,11112
+2005,1: Models for inference,regression,34738168,12922
+2006,1: Models for inference,regression,36837237,13666
+2007,1: Models for inference,regression,36641945,14224
+2008,1: Models for inference,regression,39330183,13833
+2009,1: Models for inference,regression,40377665,13910
+2010,1: Models for inference,regression,38030234,11903
+2011,1: Models for inference,regression,39815988,12650
+1920,1: Models for inference,t-test,1238345,1
+1930,1: Models for inference,t-test,2111981,7
+1931,1: Models for inference,t-test,2434124,7
+1933,1: Models for inference,t-test,2136969,2
+1934,1: Models for inference,t-test,2445175,6
+1935,1: Models for inference,t-test,2536260,2
+1936,1: Models for inference,t-test,2751507,4
+1937,1: Models for inference,t-test,2976473,7
+1938,1: Models for inference,t-test,2886297,4
+1939,1: Models for inference,t-test,2840157,21
+1940,1: Models for inference,t-test,3000307,3
+1941,1: Models for inference,t-test,2759525,6
+1942,1: Models for inference,t-test,2730695,6
+1943,1: Models for inference,t-test,2367394,10
+1944,1: Models for inference,t-test,2209069,4
+1945,1: Models for inference,t-test,2185186,14
+1946,1: Models for inference,t-test,2461581,4
+1947,1: Models for inference,t-test,2615111,25
+1948,1: Models for inference,t-test,2631628,5
+1949,1: Models for inference,t-test,2804409,35
+1950,1: Models for inference,t-test,3153253,20
+1951,1: Models for inference,t-test,3011208,7
+1952,1: Models for inference,t-test,3139138,22
+1953,1: Models for inference,t-test,3184772,20
+1954,1: Models for inference,t-test,3649078,23
+1955,1: Models for inference,t-test,3555386,37
+1956,1: Models for inference,t-test,3699565,24
+1957,1: Models for inference,t-test,3689751,19
+1958,1: Models for inference,t-test,3814339,34
+1959,1: Models for inference,t-test,3621589,31
+1960,1: Models for inference,t-test,3934513,41
+1961,1: Models for inference,t-test,4042372,51
+1962,1: Models for inference,t-test,4017454,55
+1963,1: Models for inference,t-test,4556693,40
+1964,1: Models for inference,t-test,5158453,55
+1965,1: Models for inference,t-test,5234257,58
+1966,1: Models for inference,t-test,5493607,68
+1967,1: Models for inference,t-test,6000525,75
+1968,1: Models for inference,t-test,6521402,118
+1969,1: Models for inference,t-test,7381164,100
+1970,1: Models for inference,t-test,7236804,129
+1971,1: Models for inference,t-test,7864657,94
+1972,1: Models for inference,t-test,7915372,169
+1973,1: Models for inference,t-test,8425604,147
+1974,1: Models for inference,t-test,8556640,165
+1975,1: Models for inference,t-test,9162777,216
+1976,1: Models for inference,t-test,9429413,247
+1977,1: Models for inference,t-test,10649032,304
+1978,1: Models for inference,t-test,10558723,272
+1979,1: Models for inference,t-test,10786566,276
+1980,1: Models for inference,t-test,11619305,342
+1981,1: Models for inference,t-test,12165346,397
+1982,1: Models for inference,t-test,12314218,490
+1983,1: Models for inference,t-test,12706096,488
+1984,1: Models for inference,t-test,13379542,660
+1985,1: Models for inference,t-test,14023196,454
+1986,1: Models for inference,t-test,13255908,543
+1987,1: Models for inference,t-test,14598709,618
+1988,1: Models for inference,t-test,15573940,683
+1989,1: Models for inference,t-test,15966033,672
+1990,1: Models for inference,t-test,16534942,727
+1991,1: Models for inference,t-test,17585954,748
+1992,1: Models for inference,t-test,18582976,836
+1993,1: Models for inference,t-test,19158560,720
+1994,1: Models for inference,t-test,20273048,842
+1995,1: Models for inference,t-test,21582533,968
+1996,1: Models for inference,t-test,23433482,952
+1997,1: Models for inference,t-test,24142578,1059
+1998,1: Models for inference,t-test,26454637,1203
+1999,1: Models for inference,t-test,26387547,1212
+2000,1: Models for inference,t-test,28146960,1466
+2001,1: Models for inference,t-test,30114953,1178
+2002,1: Models for inference,t-test,29304753,1435
+2003,1: Models for inference,t-test,30981377,1508
+2004,1: Models for inference,t-test,31953113,1145
+2005,1: Models for inference,t-test,34738168,1337
+2006,1: Models for inference,t-test,36837237,1434
+2007,1: Models for inference,t-test,36641945,1331
+2008,1: Models for inference,t-test,39330183,945
+2009,1: Models for inference,t-test,40377665,1039
+2010,1: Models for inference,t-test,38030234,764
+2011,1: Models for inference,t-test,39815988,930
+1927,2: Statistical paradigms,AIC,1785362,2
+1929,2: Statistical paradigms,AIC,1953262,1
+1939,2: Statistical paradigms,AIC,2840157,1
+1940,2: Statistical paradigms,AIC,3000307,1
+1943,2: Statistical paradigms,AIC,2367394,5
+1944,2: Statistical paradigms,AIC,2209069,1
+1947,2: Statistical paradigms,AIC,2615111,1
+1949,2: Statistical paradigms,AIC,2804409,1
+1953,2: Statistical paradigms,AIC,3184772,1
+1954,2: Statistical paradigms,AIC,3649078,1
+1955,2: Statistical paradigms,AIC,3555386,1
+1956,2: Statistical paradigms,AIC,3699565,1
+1957,2: Statistical paradigms,AIC,3689751,1
+1958,2: Statistical paradigms,AIC,3814339,2
+1959,2: Statistical paradigms,AIC,3621589,3
+1960,2: Statistical paradigms,AIC,3934513,2
+1961,2: Statistical paradigms,AIC,4042372,2
+1962,2: Statistical paradigms,AIC,4017454,2
+1964,2: Statistical paradigms,AIC,5158453,2
+1965,2: Statistical paradigms,AIC,5234257,5
+1967,2: Statistical paradigms,AIC,6000525,2
+1968,2: Statistical paradigms,AIC,6521402,1
+1970,2: Statistical paradigms,AIC,7236804,1
+1972,2: Statistical paradigms,AIC,7915372,1
+1974,2: Statistical paradigms,AIC,8556640,1
+1975,2: Statistical paradigms,AIC,9162777,2
+1976,2: Statistical paradigms,AIC,9429413,2
+1977,2: Statistical paradigms,AIC,10649032,3
+1978,2: Statistical paradigms,AIC,10558723,7
+1979,2: Statistical paradigms,AIC,10786566,2
+1980,2: Statistical paradigms,AIC,11619305,2
+1981,2: Statistical paradigms,AIC,12165346,2
+1982,2: Statistical paradigms,AIC,12314218,1
+1983,2: Statistical paradigms,AIC,12706096,7
+1984,2: Statistical paradigms,AIC,13379542,4
+1985,2: Statistical paradigms,AIC,14023196,2
+1986,2: Statistical paradigms,AIC,13255908,2
+1987,2: Statistical paradigms,AIC,14598709,8
+1988,2: Statistical paradigms,AIC,15573940,5
+1989,2: Statistical paradigms,AIC,15966033,30
+1990,2: Statistical paradigms,AIC,16534942,9
+1991,2: Statistical paradigms,AIC,17585954,23
+1992,2: Statistical paradigms,AIC,18582976,117
+1993,2: Statistical paradigms,AIC,19158560,53
+1994,2: Statistical paradigms,AIC,20273048,125
+1995,2: Statistical paradigms,AIC,21582533,161
+1996,2: Statistical paradigms,AIC,23433482,151
+1997,2: Statistical paradigms,AIC,24142578,260
+1998,2: Statistical paradigms,AIC,26454637,452
+1999,2: Statistical paradigms,AIC,26387547,255
+2000,2: Statistical paradigms,AIC,28146960,361
+2001,2: Statistical paradigms,AIC,30114953,471
+2002,2: Statistical paradigms,AIC,29304753,620
+2003,2: Statistical paradigms,AIC,30981377,851
+2004,2: Statistical paradigms,AIC,31953113,923
+2005,2: Statistical paradigms,AIC,34738168,1437
+2006,2: Statistical paradigms,AIC,36837237,1813
+2007,2: Statistical paradigms,AIC,36641945,2109
+2008,2: Statistical paradigms,AIC,39330183,2256
+2009,2: Statistical paradigms,AIC,40377665,2062
+2010,2: Statistical paradigms,AIC,38030234,2051
+2011,2: Statistical paradigms,AIC,39815988,2531
+1920,2: Statistical paradigms,Bayesian,1238345,1
+1931,2: Statistical paradigms,Bayesian,2434124,1
+1967,2: Statistical paradigms,Bayesian,6000525,2
+1968,2: Statistical paradigms,Bayesian,6521402,3
+1969,2: Statistical paradigms,Bayesian,7381164,4
+1970,2: Statistical paradigms,Bayesian,7236804,3
+1971,2: Statistical paradigms,Bayesian,7864657,1
+1972,2: Statistical paradigms,Bayesian,7915372,3
+1973,2: Statistical paradigms,Bayesian,8425604,11
+1974,2: Statistical paradigms,Bayesian,8556640,19
+1975,2: Statistical paradigms,Bayesian,9162777,1
+1976,2: Statistical paradigms,Bayesian,9429413,2
+1977,2: Statistical paradigms,Bayesian,10649032,12
+1978,2: Statistical paradigms,Bayesian,10558723,2
+1979,2: Statistical paradigms,Bayesian,10786566,35
+1980,2: Statistical paradigms,Bayesian,11619305,20
+1981,2: Statistical paradigms,Bayesian,12165346,13
+1982,2: Statistical paradigms,Bayesian,12314218,6
+1983,2: Statistical paradigms,Bayesian,12706096,7
+1984,2: Statistical paradigms,Bayesian,13379542,21
+1985,2: Statistical paradigms,Bayesian,14023196,22
+1986,2: Statistical paradigms,Bayesian,13255908,63
+1987,2: Statistical paradigms,Bayesian,14598709,16
+1988,2: Statistical paradigms,Bayesian,15573940,35
+1989,2: Statistical paradigms,Bayesian,15966033,118
+1990,2: Statistical paradigms,Bayesian,16534942,114
+1991,2: Statistical paradigms,Bayesian,17585954,22
+1992,2: Statistical paradigms,Bayesian,18582976,35
+1993,2: Statistical paradigms,Bayesian,19158560,59
+1994,2: Statistical paradigms,Bayesian,20273048,63
+1995,2: Statistical paradigms,Bayesian,21582533,115
+1996,2: Statistical paradigms,Bayesian,23433482,773
+1997,2: Statistical paradigms,Bayesian,24142578,41
+1998,2: Statistical paradigms,Bayesian,26454637,216
+1999,2: Statistical paradigms,Bayesian,26387547,219
+2000,2: Statistical paradigms,Bayesian,28146960,333
+2001,2: Statistical paradigms,Bayesian,30114953,347
+2002,2: Statistical paradigms,Bayesian,29304753,759
+2003,2: Statistical paradigms,Bayesian,30981377,1021
+2004,2: Statistical paradigms,Bayesian,31953113,1370
+2005,2: Statistical paradigms,Bayesian,34738168,1932
+2006,2: Statistical paradigms,Bayesian,36837237,2854
+2007,2: Statistical paradigms,Bayesian,36641945,2282
+2008,2: Statistical paradigms,Bayesian,39330183,3346
+2009,2: Statistical paradigms,Bayesian,40377665,3921
+2010,2: Statistical paradigms,Bayesian,38030234,4197
+2011,2: Statistical paradigms,Bayesian,39815988,4866
+1922,2: Statistical paradigms,least-squares,1227253,3
+1923,2: Statistical paradigms,least-squares,1410471,1
+1925,2: Statistical paradigms,least-squares,1665928,1
+1926,2: Statistical paradigms,least-squares,1904958,3
+1927,2: Statistical paradigms,least-squares,1785362,3
+1928,2: Statistical paradigms,least-squares,1938784,8
+1929,2: Statistical paradigms,least-squares,1953262,5
+1930,2: Statistical paradigms,least-squares,2111981,7
+1931,2: Statistical paradigms,least-squares,2434124,1
+1932,2: Statistical paradigms,least-squares,2400513,5
+1933,2: Statistical paradigms,least-squares,2136969,4
+1934,2: Statistical paradigms,least-squares,2445175,8
+1935,2: Statistical paradigms,least-squares,2536260,26
+1936,2: Statistical paradigms,least-squares,2751507,9
+1937,2: Statistical paradigms,least-squares,2976473,3
+1938,2: Statistical paradigms,least-squares,2886297,20
+1939,2: Statistical paradigms,least-squares,2840157,8
+1940,2: Statistical paradigms,least-squares,3000307,1
+1941,2: Statistical paradigms,least-squares,2759525,9
+1942,2: Statistical paradigms,least-squares,2730695,10
+1943,2: Statistical paradigms,least-squares,2367394,9
+1944,2: Statistical paradigms,least-squares,2209069,7
+1945,2: Statistical paradigms,least-squares,2185186,10
+1946,2: Statistical paradigms,least-squares,2461581,3
+1948,2: Statistical paradigms,least-squares,2631628,9
+1949,2: Statistical paradigms,least-squares,2804409,7
+1950,2: Statistical paradigms,least-squares,3153253,8
+1951,2: Statistical paradigms,least-squares,3011208,7
+1952,2: Statistical paradigms,least-squares,3139138,7
+1953,2: Statistical paradigms,least-squares,3184772,8
+1954,2: Statistical paradigms,least-squares,3649078,23
+1955,2: Statistical paradigms,least-squares,3555386,23
+1956,2: Statistical paradigms,least-squares,3699565,12
+1957,2: Statistical paradigms,least-squares,3689751,16
+1958,2: Statistical paradigms,least-squares,3814339,20
+1959,2: Statistical paradigms,least-squares,3621589,16
+1960,2: Statistical paradigms,least-squares,3934513,33
+1961,2: Statistical paradigms,least-squares,4042372,25
+1962,2: Statistical paradigms,least-squares,4017454,30
+1963,2: Statistical paradigms,least-squares,4556693,32
+1964,2: Statistical paradigms,least-squares,5158453,23
+1965,2: Statistical paradigms,least-squares,5234257,57
+1966,2: Statistical paradigms,least-squares,5493607,42
+1967,2: Statistical paradigms,least-squares,6000525,51
+1968,2: Statistical paradigms,least-squares,6521402,77
+1969,2: Statistical paradigms,least-squares,7381164,78
+1970,2: Statistical paradigms,least-squares,7236804,99
+1971,2: Statistical paradigms,least-squares,7864657,76
+1972,2: Statistical paradigms,least-squares,7915372,123
+1973,2: Statistical paradigms,least-squares,8425604,112
+1974,2: Statistical paradigms,least-squares,8556640,117
+1975,2: Statistical paradigms,least-squares,9162777,188
+1976,2: Statistical paradigms,least-squares,9429413,159
+1977,2: Statistical paradigms,least-squares,10649032,124
+1978,2: Statistical paradigms,least-squares,10558723,176
+1979,2: Statistical paradigms,least-squares,10786566,146
+1980,2: Statistical paradigms,least-squares,11619305,188
+1981,2: Statistical paradigms,least-squares,12165346,238
+1982,2: Statistical paradigms,least-squares,12314218,186
+1983,2: Statistical paradigms,least-squares,12706096,195
+1984,2: Statistical paradigms,least-squares,13379542,208
+1985,2: Statistical paradigms,least-squares,14023196,255
+1986,2: Statistical paradigms,least-squares,13255908,219
+1987,2: Statistical paradigms,least-squares,14598709,296
+1988,2: Statistical paradigms,least-squares,15573940,326
+1989,2: Statistical paradigms,least-squares,15966033,290
+1990,2: Statistical paradigms,least-squares,16534942,416
+1991,2: Statistical paradigms,least-squares,17585954,378
+1992,2: Statistical paradigms,least-squares,18582976,348
+1993,2: Statistical paradigms,least-squares,19158560,505
+1994,2: Statistical paradigms,least-squares,20273048,443
+1995,2: Statistical paradigms,least-squares,21582533,545
+1996,2: Statistical paradigms,least-squares,23433482,570
+1997,2: Statistical paradigms,least-squares,24142578,682
+1998,2: Statistical paradigms,least-squares,26454637,766
+1999,2: Statistical paradigms,least-squares,26387547,809
+2000,2: Statistical paradigms,least-squares,28146960,740
+2001,2: Statistical paradigms,least-squares,30114953,833
+2002,2: Statistical paradigms,least-squares,29304753,848
+2003,2: Statistical paradigms,least-squares,30981377,812
+2004,2: Statistical paradigms,least-squares,31953113,812
+2005,2: Statistical paradigms,least-squares,34738168,1028
+2006,2: Statistical paradigms,least-squares,36837237,1131
+2007,2: Statistical paradigms,least-squares,36641945,1164
+2008,2: Statistical paradigms,least-squares,39330183,1134
+2009,2: Statistical paradigms,least-squares,40377665,1160
+2010,2: Statistical paradigms,least-squares,38030234,1047
+2011,2: Statistical paradigms,least-squares,39815988,1134
+1922,2: Statistical paradigms,maximum likelihood,1227253,1
+1931,2: Statistical paradigms,maximum likelihood,2434124,4
+1936,2: Statistical paradigms,maximum likelihood,2751507,3
+1937,2: Statistical paradigms,maximum likelihood,2976473,1
+1938,2: Statistical paradigms,maximum likelihood,2886297,1
+1939,2: Statistical paradigms,maximum likelihood,2840157,1
+1945,2: Statistical paradigms,maximum likelihood,2185186,1
+1947,2: Statistical paradigms,maximum likelihood,2615111,2
+1948,2: Statistical paradigms,maximum likelihood,2631628,3
+1950,2: Statistical paradigms,maximum likelihood,3153253,6
+1951,2: Statistical paradigms,maximum likelihood,3011208,1
+1952,2: Statistical paradigms,maximum likelihood,3139138,19
+1953,2: Statistical paradigms,maximum likelihood,3184772,2
+1954,2: Statistical paradigms,maximum likelihood,3649078,5
+1955,2: Statistical paradigms,maximum likelihood,3555386,6
+1956,2: Statistical paradigms,maximum likelihood,3699565,12
+1957,2: Statistical paradigms,maximum likelihood,3689751,6
+1958,2: Statistical paradigms,maximum likelihood,3814339,2
+1959,2: Statistical paradigms,maximum likelihood,3621589,4
+1960,2: Statistical paradigms,maximum likelihood,3934513,7
+1961,2: Statistical paradigms,maximum likelihood,4042372,1
+1962,2: Statistical paradigms,maximum likelihood,4017454,10
+1963,2: Statistical paradigms,maximum likelihood,4556693,6
+1964,2: Statistical paradigms,maximum likelihood,5158453,9
+1965,2: Statistical paradigms,maximum likelihood,5234257,5
+1966,2: Statistical paradigms,maximum likelihood,5493607,20
+1967,2: Statistical paradigms,maximum likelihood,6000525,34
+1968,2: Statistical paradigms,maximum likelihood,6521402,15
+1969,2: Statistical paradigms,maximum likelihood,7381164,13
+1970,2: Statistical paradigms,maximum likelihood,7236804,39
+1971,2: Statistical paradigms,maximum likelihood,7864657,12
+1972,2: Statistical paradigms,maximum likelihood,7915372,24
+1973,2: Statistical paradigms,maximum likelihood,8425604,25
+1974,2: Statistical paradigms,maximum likelihood,8556640,26
+1975,2: Statistical paradigms,maximum likelihood,9162777,27
+1976,2: Statistical paradigms,maximum likelihood,9429413,15
+1977,2: Statistical paradigms,maximum likelihood,10649032,40
+1978,2: Statistical paradigms,maximum likelihood,10558723,50
+1979,2: Statistical paradigms,maximum likelihood,10786566,53
+1980,2: Statistical paradigms,maximum likelihood,11619305,76
+1981,2: Statistical paradigms,maximum likelihood,12165346,77
+1982,2: Statistical paradigms,maximum likelihood,12314218,107
+1983,2: Statistical paradigms,maximum likelihood,12706096,122
+1984,2: Statistical paradigms,maximum likelihood,13379542,47
+1985,2: Statistical paradigms,maximum likelihood,14023196,136
+1986,2: Statistical paradigms,maximum likelihood,13255908,78
+1987,2: Statistical paradigms,maximum likelihood,14598709,199
+1988,2: Statistical paradigms,maximum likelihood,15573940,124
+1989,2: Statistical paradigms,maximum likelihood,15966033,130
+1990,2: Statistical paradigms,maximum likelihood,16534942,168
+1991,2: Statistical paradigms,maximum likelihood,17585954,194
+1992,2: Statistical paradigms,maximum likelihood,18582976,234
+1993,2: Statistical paradigms,maximum likelihood,19158560,211
+1994,2: Statistical paradigms,maximum likelihood,20273048,439
+1995,2: Statistical paradigms,maximum likelihood,21582533,449
+1996,2: Statistical paradigms,maximum likelihood,23433482,521
+1997,2: Statistical paradigms,maximum likelihood,24142578,482
+1998,2: Statistical paradigms,maximum likelihood,26454637,593
+1999,2: Statistical paradigms,maximum likelihood,26387547,629
+2000,2: Statistical paradigms,maximum likelihood,28146960,706
+2001,2: Statistical paradigms,maximum likelihood,30114953,1025
+2002,2: Statistical paradigms,maximum likelihood,29304753,935
+2003,2: Statistical paradigms,maximum likelihood,30981377,890
+2004,2: Statistical paradigms,maximum likelihood,31953113,1078
+2005,2: Statistical paradigms,maximum likelihood,34738168,1171
+2006,2: Statistical paradigms,maximum likelihood,36837237,1384
+2007,2: Statistical paradigms,maximum likelihood,36641945,1225
+2008,2: Statistical paradigms,maximum likelihood,39330183,1664
+2009,2: Statistical paradigms,maximum likelihood,40377665,1804
+2010,2: Statistical paradigms,maximum likelihood,38030234,1743
+2011,2: Statistical paradigms,maximum likelihood,39815988,1892
+1994,2: Statistical paradigms,MCMC,20273048,3
+1995,2: Statistical paradigms,MCMC,21582533,2
+1996,2: Statistical paradigms,MCMC,23433482,1
+1999,2: Statistical paradigms,MCMC,26387547,12
+2000,2: Statistical paradigms,MCMC,28146960,2
+2001,2: Statistical paradigms,MCMC,30114953,19
+2002,2: Statistical paradigms,MCMC,29304753,112
+2003,2: Statistical paradigms,MCMC,30981377,160
+2004,2: Statistical paradigms,MCMC,31953113,134
+2005,2: Statistical paradigms,MCMC,34738168,284
+2006,2: Statistical paradigms,MCMC,36837237,275
+2007,2: Statistical paradigms,MCMC,36641945,246
+2008,2: Statistical paradigms,MCMC,39330183,586
+2009,2: Statistical paradigms,MCMC,40377665,451
+2010,2: Statistical paradigms,MCMC,38030234,607
+2011,2: Statistical paradigms,MCMC,39815988,684
+1957,2: Statistical paradigms,Monte Carlo,3689751,1
+1960,2: Statistical paradigms,Monte Carlo,3934513,1
+1962,2: Statistical paradigms,Monte Carlo,4017454,3
+1964,2: Statistical paradigms,Monte Carlo,5158453,2
+1967,2: Statistical paradigms,Monte Carlo,6000525,1
+1968,2: Statistical paradigms,Monte Carlo,6521402,1
+1969,2: Statistical paradigms,Monte Carlo,7381164,6
+1970,2: Statistical paradigms,Monte Carlo,7236804,11
+1971,2: Statistical paradigms,Monte Carlo,7864657,4
+1972,2: Statistical paradigms,Monte Carlo,7915372,7
+1973,2: Statistical paradigms,Monte Carlo,8425604,9
+1974,2: Statistical paradigms,Monte Carlo,8556640,3
+1975,2: Statistical paradigms,Monte Carlo,9162777,29
+1976,2: Statistical paradigms,Monte Carlo,9429413,15
+1977,2: Statistical paradigms,Monte Carlo,10649032,19
+1978,2: Statistical paradigms,Monte Carlo,10558723,29
+1979,2: Statistical paradigms,Monte Carlo,10786566,35
+1980,2: Statistical paradigms,Monte Carlo,11619305,49
+1981,2: Statistical paradigms,Monte Carlo,12165346,29
+1982,2: Statistical paradigms,Monte Carlo,12314218,64
+1983,2: Statistical paradigms,Monte Carlo,12706096,40
+1984,2: Statistical paradigms,Monte Carlo,13379542,105
+1985,2: Statistical paradigms,Monte Carlo,14023196,73
+1986,2: Statistical paradigms,Monte Carlo,13255908,81
+1987,2: Statistical paradigms,Monte Carlo,14598709,94
+1988,2: Statistical paradigms,Monte Carlo,15573940,107
+1989,2: Statistical paradigms,Monte Carlo,15966033,129
+1990,2: Statistical paradigms,Monte Carlo,16534942,136
+1991,2: Statistical paradigms,Monte Carlo,17585954,171
+1992,2: Statistical paradigms,Monte Carlo,18582976,241
+1993,2: Statistical paradigms,Monte Carlo,19158560,268
+1994,2: Statistical paradigms,Monte Carlo,20273048,366
+1995,2: Statistical paradigms,Monte Carlo,21582533,350
+1996,2: Statistical paradigms,Monte Carlo,23433482,466
+1997,2: Statistical paradigms,Monte Carlo,24142578,413
+1998,2: Statistical paradigms,Monte Carlo,26454637,404
+1999,2: Statistical paradigms,Monte Carlo,26387547,502
+2000,2: Statistical paradigms,Monte Carlo,28146960,487
+2001,2: Statistical paradigms,Monte Carlo,30114953,524
+2002,2: Statistical paradigms,Monte Carlo,29304753,693
+2003,2: Statistical paradigms,Monte Carlo,30981377,740
+2004,2: Statistical paradigms,Monte Carlo,31953113,766
+2005,2: Statistical paradigms,Monte Carlo,34738168,904
+2006,2: Statistical paradigms,Monte Carlo,36837237,967
+2007,2: Statistical paradigms,Monte Carlo,36641945,969
+2008,2: Statistical paradigms,Monte Carlo,39330183,1127
+2009,2: Statistical paradigms,Monte Carlo,40377665,1084
+2010,2: Statistical paradigms,Monte Carlo,38030234,1174
+2011,2: Statistical paradigms,Monte Carlo,39815988,1169
+1944,3: Hypothesis testing,confidence interval,2209069,3
+1948,3: Hypothesis testing,confidence interval,2631628,3
+1949,3: Hypothesis testing,confidence interval,2804409,2
+1950,3: Hypothesis testing,confidence interval,3153253,1
+1951,3: Hypothesis testing,confidence interval,3011208,2
+1952,3: Hypothesis testing,confidence interval,3139138,2
+1953,3: Hypothesis testing,confidence interval,3184772,1
+1954,3: Hypothesis testing,confidence interval,3649078,4
+1955,3: Hypothesis testing,confidence interval,3555386,7
+1956,3: Hypothesis testing,confidence interval,3699565,13
+1957,3: Hypothesis testing,confidence interval,3689751,1
+1958,3: Hypothesis testing,confidence interval,3814339,12
+1959,3: Hypothesis testing,confidence interval,3621589,20
+1960,3: Hypothesis testing,confidence interval,3934513,15
+1961,3: Hypothesis testing,confidence interval,4042372,16
+1962,3: Hypothesis testing,confidence interval,4017454,9
+1963,3: Hypothesis testing,confidence interval,4556693,24
+1964,3: Hypothesis testing,confidence interval,5158453,18
+1965,3: Hypothesis testing,confidence interval,5234257,25
+1966,3: Hypothesis testing,confidence interval,5493607,53
+1967,3: Hypothesis testing,confidence interval,6000525,36
+1968,3: Hypothesis testing,confidence interval,6521402,50
+1969,3: Hypothesis testing,confidence interval,7381164,85
+1970,3: Hypothesis testing,confidence interval,7236804,64
+1971,3: Hypothesis testing,confidence interval,7864657,92
+1972,3: Hypothesis testing,confidence interval,7915372,99
+1973,3: Hypothesis testing,confidence interval,8425604,114
+1974,3: Hypothesis testing,confidence interval,8556640,163
+1975,3: Hypothesis testing,confidence interval,9162777,150
+1976,3: Hypothesis testing,confidence interval,9429413,91
+1977,3: Hypothesis testing,confidence interval,10649032,122
+1978,3: Hypothesis testing,confidence interval,10558723,280
+1979,3: Hypothesis testing,confidence interval,10786566,171
+1980,3: Hypothesis testing,confidence interval,11619305,238
+1981,3: Hypothesis testing,confidence interval,12165346,194
+1982,3: Hypothesis testing,confidence interval,12314218,286
+1983,3: Hypothesis testing,confidence interval,12706096,296
+1984,3: Hypothesis testing,confidence interval,13379542,259
+1985,3: Hypothesis testing,confidence interval,14023196,302
+1986,3: Hypothesis testing,confidence interval,13255908,362
+1987,3: Hypothesis testing,confidence interval,14598709,453
+1988,3: Hypothesis testing,confidence interval,15573940,419
+1989,3: Hypothesis testing,confidence interval,15966033,485
+1990,3: Hypothesis testing,confidence interval,16534942,446
+1991,3: Hypothesis testing,confidence interval,17585954,518
+1992,3: Hypothesis testing,confidence interval,18582976,591
+1993,3: Hypothesis testing,confidence interval,19158560,533
+1994,3: Hypothesis testing,confidence interval,20273048,527
+1995,3: Hypothesis testing,confidence interval,21582533,721
+1996,3: Hypothesis testing,confidence interval,23433482,918
+1997,3: Hypothesis testing,confidence interval,24142578,737
+1998,3: Hypothesis testing,confidence interval,26454637,999
+1999,3: Hypothesis testing,confidence interval,26387547,1308
+2000,3: Hypothesis testing,confidence interval,28146960,1014
+2001,3: Hypothesis testing,confidence interval,30114953,1262
+2002,3: Hypothesis testing,confidence interval,29304753,1339
+2003,3: Hypothesis testing,confidence interval,30981377,1566
+2004,3: Hypothesis testing,confidence interval,31953113,1611
+2005,3: Hypothesis testing,confidence interval,34738168,1848
+2006,3: Hypothesis testing,confidence interval,36837237,2201
+2007,3: Hypothesis testing,confidence interval,36641945,2319
+2008,3: Hypothesis testing,confidence interval,39330183,2111
+2009,3: Hypothesis testing,confidence interval,40377665,2736
+2010,3: Hypothesis testing,confidence interval,38030234,2197
+2011,3: Hypothesis testing,confidence interval,39815988,2490
+1941,3: Hypothesis testing,null hypothesis,2759525,2
+1944,3: Hypothesis testing,null hypothesis,2209069,3
+1947,3: Hypothesis testing,null hypothesis,2615111,1
+1948,3: Hypothesis testing,null hypothesis,2631628,2
+1949,3: Hypothesis testing,null hypothesis,2804409,9
+1951,3: Hypothesis testing,null hypothesis,3011208,3
+1952,3: Hypothesis testing,null hypothesis,3139138,4
+1953,3: Hypothesis testing,null hypothesis,3184772,4
+1954,3: Hypothesis testing,null hypothesis,3649078,7
+1955,3: Hypothesis testing,null hypothesis,3555386,8
+1957,3: Hypothesis testing,null hypothesis,3689751,8
+1958,3: Hypothesis testing,null hypothesis,3814339,10
+1959,3: Hypothesis testing,null hypothesis,3621589,3
+1960,3: Hypothesis testing,null hypothesis,3934513,13
+1961,3: Hypothesis testing,null hypothesis,4042372,12
+1962,3: Hypothesis testing,null hypothesis,4017454,36
+1963,3: Hypothesis testing,null hypothesis,4556693,15
+1964,3: Hypothesis testing,null hypothesis,5158453,11
+1965,3: Hypothesis testing,null hypothesis,5234257,14
+1966,3: Hypothesis testing,null hypothesis,5493607,55
+1967,3: Hypothesis testing,null hypothesis,6000525,11
+1968,3: Hypothesis testing,null hypothesis,6521402,45
+1969,3: Hypothesis testing,null hypothesis,7381164,50
+1970,3: Hypothesis testing,null hypothesis,7236804,51
+1971,3: Hypothesis testing,null hypothesis,7864657,42
+1972,3: Hypothesis testing,null hypothesis,7915372,30
+1973,3: Hypothesis testing,null hypothesis,8425604,62
+1974,3: Hypothesis testing,null hypothesis,8556640,78
+1975,3: Hypothesis testing,null hypothesis,9162777,60
+1976,3: Hypothesis testing,null hypothesis,9429413,72
+1977,3: Hypothesis testing,null hypothesis,10649032,116
+1978,3: Hypothesis testing,null hypothesis,10558723,192
+1979,3: Hypothesis testing,null hypothesis,10786566,168
+1980,3: Hypothesis testing,null hypothesis,11619305,166
+1981,3: Hypothesis testing,null hypothesis,12165346,271
+1982,3: Hypothesis testing,null hypothesis,12314218,358
+1983,3: Hypothesis testing,null hypothesis,12706096,355
+1984,3: Hypothesis testing,null hypothesis,13379542,320
+1985,3: Hypothesis testing,null hypothesis,14023196,346
+1986,3: Hypothesis testing,null hypothesis,13255908,287
+1987,3: Hypothesis testing,null hypothesis,14598709,347
+1988,3: Hypothesis testing,null hypothesis,15573940,331
+1989,3: Hypothesis testing,null hypothesis,15966033,358
+1990,3: Hypothesis testing,null hypothesis,16534942,394
+1991,3: Hypothesis testing,null hypothesis,17585954,420
+1992,3: Hypothesis testing,null hypothesis,18582976,482
+1993,3: Hypothesis testing,null hypothesis,19158560,528
+1994,3: Hypothesis testing,null hypothesis,20273048,571
+1995,3: Hypothesis testing,null hypothesis,21582533,582
+1996,3: Hypothesis testing,null hypothesis,23433482,662
+1997,3: Hypothesis testing,null hypothesis,24142578,723
+1998,3: Hypothesis testing,null hypothesis,26454637,848
+1999,3: Hypothesis testing,null hypothesis,26387547,779
+2000,3: Hypothesis testing,null hypothesis,28146960,735
+2001,3: Hypothesis testing,null hypothesis,30114953,799
+2002,3: Hypothesis testing,null hypothesis,29304753,750
+2003,3: Hypothesis testing,null hypothesis,30981377,745
+2004,3: Hypothesis testing,null hypothesis,31953113,796
+2005,3: Hypothesis testing,null hypothesis,34738168,869
+2006,3: Hypothesis testing,null hypothesis,36837237,843
+2007,3: Hypothesis testing,null hypothesis,36641945,935
+2008,3: Hypothesis testing,null hypothesis,39330183,793
+2009,3: Hypothesis testing,null hypothesis,40377665,936
+2010,3: Hypothesis testing,null hypothesis,38030234,756
+2011,3: Hypothesis testing,null hypothesis,39815988,678
+1923,3: Hypothesis testing,p-value,1410471,4
+1925,3: Hypothesis testing,p-value,1665928,3
+1929,3: Hypothesis testing,p-value,1953262,2
+1930,3: Hypothesis testing,p-value,2111981,1
+1931,3: Hypothesis testing,p-value,2434124,2
+1933,3: Hypothesis testing,p-value,2136969,2
+1934,3: Hypothesis testing,p-value,2445175,2
+1935,3: Hypothesis testing,p-value,2536260,1
+1936,3: Hypothesis testing,p-value,2751507,1
+1937,3: Hypothesis testing,p-value,2976473,6
+1938,3: Hypothesis testing,p-value,2886297,1
+1939,3: Hypothesis testing,p-value,2840157,1
+1940,3: Hypothesis testing,p-value,3000307,6
+1941,3: Hypothesis testing,p-value,2759525,4
+1942,3: Hypothesis testing,p-value,2730695,9
+1943,3: Hypothesis testing,p-value,2367394,1
+1944,3: Hypothesis testing,p-value,2209069,4
+1945,3: Hypothesis testing,p-value,2185186,8
+1947,3: Hypothesis testing,p-value,2615111,1
+1948,3: Hypothesis testing,p-value,2631628,19
+1949,3: Hypothesis testing,p-value,2804409,12
+1950,3: Hypothesis testing,p-value,3153253,2
+1951,3: Hypothesis testing,p-value,3011208,15
+1952,3: Hypothesis testing,p-value,3139138,15
+1953,3: Hypothesis testing,p-value,3184772,11
+1954,3: Hypothesis testing,p-value,3649078,5
+1955,3: Hypothesis testing,p-value,3555386,9
+1956,3: Hypothesis testing,p-value,3699565,3
+1957,3: Hypothesis testing,p-value,3689751,11
+1958,3: Hypothesis testing,p-value,3814339,13
+1959,3: Hypothesis testing,p-value,3621589,14
+1960,3: Hypothesis testing,p-value,3934513,11
+1961,3: Hypothesis testing,p-value,4042372,21
+1962,3: Hypothesis testing,p-value,4017454,11
+1963,3: Hypothesis testing,p-value,4556693,6
+1964,3: Hypothesis testing,p-value,5158453,20
+1965,3: Hypothesis testing,p-value,5234257,6
+1966,3: Hypothesis testing,p-value,5493607,21
+1967,3: Hypothesis testing,p-value,6000525,10
+1968,3: Hypothesis testing,p-value,6521402,17
+1969,3: Hypothesis testing,p-value,7381164,21
+1970,3: Hypothesis testing,p-value,7236804,36
+1971,3: Hypothesis testing,p-value,7864657,18
+1972,3: Hypothesis testing,p-value,7915372,31
+1973,3: Hypothesis testing,p-value,8425604,20
+1974,3: Hypothesis testing,p-value,8556640,43
+1975,3: Hypothesis testing,p-value,9162777,55
+1976,3: Hypothesis testing,p-value,9429413,52
+1977,3: Hypothesis testing,p-value,10649032,35
+1978,3: Hypothesis testing,p-value,10558723,58
+1979,3: Hypothesis testing,p-value,10786566,70
+1980,3: Hypothesis testing,p-value,11619305,50
+1981,3: Hypothesis testing,p-value,12165346,71
+1982,3: Hypothesis testing,p-value,12314218,110
+1983,3: Hypothesis testing,p-value,12706096,81
+1984,3: Hypothesis testing,p-value,13379542,160
+1985,3: Hypothesis testing,p-value,14023196,111
+1986,3: Hypothesis testing,p-value,13255908,139
+1987,3: Hypothesis testing,p-value,14598709,186
+1988,3: Hypothesis testing,p-value,15573940,247
+1989,3: Hypothesis testing,p-value,15966033,253
+1990,3: Hypothesis testing,p-value,16534942,318
+1991,3: Hypothesis testing,p-value,17585954,311
+1992,3: Hypothesis testing,p-value,18582976,372
+1993,3: Hypothesis testing,p-value,19158560,488
+1994,3: Hypothesis testing,p-value,20273048,509
+1995,3: Hypothesis testing,p-value,21582533,593
+1996,3: Hypothesis testing,p-value,23433482,800
+1997,3: Hypothesis testing,p-value,24142578,830
+1998,3: Hypothesis testing,p-value,26454637,1213
+1999,3: Hypothesis testing,p-value,26387547,1147
+2000,3: Hypothesis testing,p-value,28146960,1229
+2001,3: Hypothesis testing,p-value,30114953,1582
+2002,3: Hypothesis testing,p-value,29304753,1583
+2003,3: Hypothesis testing,p-value,30981377,1847
+2004,3: Hypothesis testing,p-value,31953113,1772
+2005,3: Hypothesis testing,p-value,34738168,1994
+2006,3: Hypothesis testing,p-value,36837237,2220
+2007,3: Hypothesis testing,p-value,36641945,2351
+2008,3: Hypothesis testing,p-value,39330183,2430
+2009,3: Hypothesis testing,p-value,40377665,2938
+2010,3: Hypothesis testing,p-value,38030234,2376
+2011,3: Hypothesis testing,p-value,39815988,2597
+1961,3: Hypothesis testing,power analysis,4042372,1
+1973,3: Hypothesis testing,power analysis,8425604,5
+1983,3: Hypothesis testing,power analysis,12706096,10
+1985,3: Hypothesis testing,power analysis,14023196,18
+1986,3: Hypothesis testing,power analysis,13255908,2
+1987,3: Hypothesis testing,power analysis,14598709,36
+1988,3: Hypothesis testing,power analysis,15573940,19
+1989,3: Hypothesis testing,power analysis,15966033,6
+1990,3: Hypothesis testing,power analysis,16534942,27
+1991,3: Hypothesis testing,power analysis,17585954,19
+1992,3: Hypothesis testing,power analysis,18582976,26
+1993,3: Hypothesis testing,power analysis,19158560,67
+1994,3: Hypothesis testing,power analysis,20273048,40
+1995,3: Hypothesis testing,power analysis,21582533,59
+1996,3: Hypothesis testing,power analysis,23433482,111
+1997,3: Hypothesis testing,power analysis,24142578,207
+1998,3: Hypothesis testing,power analysis,26454637,179
+1999,3: Hypothesis testing,power analysis,26387547,144
+2000,3: Hypothesis testing,power analysis,28146960,152
+2001,3: Hypothesis testing,power analysis,30114953,137
+2002,3: Hypothesis testing,power analysis,29304753,147
+2003,3: Hypothesis testing,power analysis,30981377,159
+2004,3: Hypothesis testing,power analysis,31953113,139
+2005,3: Hypothesis testing,power analysis,34738168,147
+2006,3: Hypothesis testing,power analysis,36837237,119
+2007,3: Hypothesis testing,power analysis,36641945,149
+2008,3: Hypothesis testing,power analysis,39330183,154
+2009,3: Hypothesis testing,power analysis,40377665,114
+2010,3: Hypothesis testing,power analysis,38030234,119
+2011,3: Hypothesis testing,power analysis,39815988,159
+1920,3: Hypothesis testing,significant difference,1238345,3
+1921,3: Hypothesis testing,significant difference,1161623,1
+1922,3: Hypothesis testing,significant difference,1227253,13
+1923,3: Hypothesis testing,significant difference,1410471,10
+1924,3: Hypothesis testing,significant difference,1420599,14
+1925,3: Hypothesis testing,significant difference,1665928,22
+1926,3: Hypothesis testing,significant difference,1904958,27
+1927,3: Hypothesis testing,significant difference,1785362,21
+1928,3: Hypothesis testing,significant difference,1938784,55
+1929,3: Hypothesis testing,significant difference,1953262,51
+1930,3: Hypothesis testing,significant difference,2111981,32
+1931,3: Hypothesis testing,significant difference,2434124,53
+1932,3: Hypothesis testing,significant difference,2400513,62
+1933,3: Hypothesis testing,significant difference,2136969,56
+1934,3: Hypothesis testing,significant difference,2445175,74
+1935,3: Hypothesis testing,significant difference,2536260,42
+1936,3: Hypothesis testing,significant difference,2751507,90
+1937,3: Hypothesis testing,significant difference,2976473,78
+1938,3: Hypothesis testing,significant difference,2886297,162
+1939,3: Hypothesis testing,significant difference,2840157,92
+1940,3: Hypothesis testing,significant difference,3000307,103
+1941,3: Hypothesis testing,significant difference,2759525,103
+1942,3: Hypothesis testing,significant difference,2730695,88
+1943,3: Hypothesis testing,significant difference,2367394,77
+1944,3: Hypothesis testing,significant difference,2209069,96
+1945,3: Hypothesis testing,significant difference,2185186,90
+1946,3: Hypothesis testing,significant difference,2461581,107
+1947,3: Hypothesis testing,significant difference,2615111,135
+1948,3: Hypothesis testing,significant difference,2631628,142
+1949,3: Hypothesis testing,significant difference,2804409,140
+1950,3: Hypothesis testing,significant difference,3153253,151
+1951,3: Hypothesis testing,significant difference,3011208,160
+1952,3: Hypothesis testing,significant difference,3139138,149
+1953,3: Hypothesis testing,significant difference,3184772,186
+1954,3: Hypothesis testing,significant difference,3649078,151
+1955,3: Hypothesis testing,significant difference,3555386,200
+1956,3: Hypothesis testing,significant difference,3699565,214
+1957,3: Hypothesis testing,significant difference,3689751,169
+1958,3: Hypothesis testing,significant difference,3814339,200
+1959,3: Hypothesis testing,significant difference,3621589,243
+1960,3: Hypothesis testing,significant difference,3934513,223
+1961,3: Hypothesis testing,significant difference,4042372,282
+1962,3: Hypothesis testing,significant difference,4017454,265
+1963,3: Hypothesis testing,significant difference,4556693,363
+1964,3: Hypothesis testing,significant difference,5158453,428
+1965,3: Hypothesis testing,significant difference,5234257,394
+1966,3: Hypothesis testing,significant difference,5493607,388
+1967,3: Hypothesis testing,significant difference,6000525,438
+1968,3: Hypothesis testing,significant difference,6521402,562
+1969,3: Hypothesis testing,significant difference,7381164,647
+1970,3: Hypothesis testing,significant difference,7236804,593
+1971,3: Hypothesis testing,significant difference,7864657,617
+1972,3: Hypothesis testing,significant difference,7915372,624
+1973,3: Hypothesis testing,significant difference,8425604,604
+1974,3: Hypothesis testing,significant difference,8556640,718
+1975,3: Hypothesis testing,significant difference,9162777,868
+1976,3: Hypothesis testing,significant difference,9429413,866
+1977,3: Hypothesis testing,significant difference,10649032,1087
+1978,3: Hypothesis testing,significant difference,10558723,1109
+1979,3: Hypothesis testing,significant difference,10786566,1219
+1980,3: Hypothesis testing,significant difference,11619305,1253
+1981,3: Hypothesis testing,significant difference,12165346,1321
+1982,3: Hypothesis testing,significant difference,12314218,1370
+1983,3: Hypothesis testing,significant difference,12706096,1369
+1984,3: Hypothesis testing,significant difference,13379542,1624
+1985,3: Hypothesis testing,significant difference,14023196,1588
+1986,3: Hypothesis testing,significant difference,13255908,1695
+1987,3: Hypothesis testing,significant difference,14598709,1992
+1988,3: Hypothesis testing,significant difference,15573940,1730
+1989,3: Hypothesis testing,significant difference,15966033,1948
+1990,3: Hypothesis testing,significant difference,16534942,2092
+1991,3: Hypothesis testing,significant difference,17585954,2280
+1992,3: Hypothesis testing,significant difference,18582976,2340
+1993,3: Hypothesis testing,significant difference,19158560,2324
+1994,3: Hypothesis testing,significant difference,20273048,2478
+1995,3: Hypothesis testing,significant difference,21582533,2726
+1996,3: Hypothesis testing,significant difference,23433482,3019
+1997,3: Hypothesis testing,significant difference,24142578,3225
+1998,3: Hypothesis testing,significant difference,26454637,3400
+1999,3: Hypothesis testing,significant difference,26387547,3374
+2000,3: Hypothesis testing,significant difference,28146960,3391
+2001,3: Hypothesis testing,significant difference,30114953,3480
+2002,3: Hypothesis testing,significant difference,29304753,3746
+2003,3: Hypothesis testing,significant difference,30981377,4109
+2004,3: Hypothesis testing,significant difference,31953113,4108
+2005,3: Hypothesis testing,significant difference,34738168,4139
+2006,3: Hypothesis testing,significant difference,36837237,4675
+2007,3: Hypothesis testing,significant difference,36641945,4589
+2008,3: Hypothesis testing,significant difference,39330183,4884
+2009,3: Hypothesis testing,significant difference,40377665,5025
+2010,3: Hypothesis testing,significant difference,38030234,4455
+2011,3: Hypothesis testing,significant difference,39815988,4458
+1920,4: Supporting information,supplementary material,1238345,5
+1922,4: Supporting information,supplementary material,1227253,1
+1923,4: Supporting information,supplementary material,1410471,8
+1924,4: Supporting information,supplementary material,1420599,8
+1925,4: Supporting information,supplementary material,1665928,5
+1926,4: Supporting information,supplementary material,1904958,1
+1927,4: Supporting information,supplementary material,1785362,5
+1928,4: Supporting information,supplementary material,1938784,2
+1929,4: Supporting information,supplementary material,1953262,16
+1930,4: Supporting information,supplementary material,2111981,6
+1931,4: Supporting information,supplementary material,2434124,8
+1932,4: Supporting information,supplementary material,2400513,5
+1933,4: Supporting information,supplementary material,2136969,3
+1934,4: Supporting information,supplementary material,2445175,3
+1935,4: Supporting information,supplementary material,2536260,3
+1936,4: Supporting information,supplementary material,2751507,17
+1937,4: Supporting information,supplementary material,2976473,9
+1938,4: Supporting information,supplementary material,2886297,3
+1939,4: Supporting information,supplementary material,2840157,6
+1940,4: Supporting information,supplementary material,3000307,8
+1941,4: Supporting information,supplementary material,2759525,10
+1942,4: Supporting information,supplementary material,2730695,13
+1943,4: Supporting information,supplementary material,2367394,11
+1944,4: Supporting information,supplementary material,2209069,5
+1945,4: Supporting information,supplementary material,2185186,5
+1946,4: Supporting information,supplementary material,2461581,8
+1947,4: Supporting information,supplementary material,2615111,5
+1948,4: Supporting information,supplementary material,2631628,15
+1949,4: Supporting information,supplementary material,2804409,9
+1950,4: Supporting information,supplementary material,3153253,10
+1951,4: Supporting information,supplementary material,3011208,8
+1952,4: Supporting information,supplementary material,3139138,7
+1953,4: Supporting information,supplementary material,3184772,3
+1954,4: Supporting information,supplementary material,3649078,8
+1955,4: Supporting information,supplementary material,3555386,8
+1956,4: Supporting information,supplementary material,3699565,6
+1957,4: Supporting information,supplementary material,3689751,10
+1958,4: Supporting information,supplementary material,3814339,6
+1959,4: Supporting information,supplementary material,3621589,15
+1960,4: Supporting information,supplementary material,3934513,9
+1961,4: Supporting information,supplementary material,4042372,11
+1962,4: Supporting information,supplementary material,4017454,9
+1963,4: Supporting information,supplementary material,4556693,11
+1964,4: Supporting information,supplementary material,5158453,9
+1965,4: Supporting information,supplementary material,5234257,12
+1966,4: Supporting information,supplementary material,5493607,4
+1967,4: Supporting information,supplementary material,6000525,13
+1968,4: Supporting information,supplementary material,6521402,13
+1969,4: Supporting information,supplementary material,7381164,12
+1970,4: Supporting information,supplementary material,7236804,14
+1971,4: Supporting information,supplementary material,7864657,15
+1972,4: Supporting information,supplementary material,7915372,18
+1973,4: Supporting information,supplementary material,8425604,22
+1974,4: Supporting information,supplementary material,8556640,17
+1975,4: Supporting information,supplementary material,9162777,22
+1976,4: Supporting information,supplementary material,9429413,16
+1977,4: Supporting information,supplementary material,10649032,42
+1978,4: Supporting information,supplementary material,10558723,21
+1979,4: Supporting information,supplementary material,10786566,41
+1980,4: Supporting information,supplementary material,11619305,39
+1981,4: Supporting information,supplementary material,12165346,30
+1982,4: Supporting information,supplementary material,12314218,24
+1983,4: Supporting information,supplementary material,12706096,46
+1984,4: Supporting information,supplementary material,13379542,36
+1985,4: Supporting information,supplementary material,14023196,28
+1986,4: Supporting information,supplementary material,13255908,32
+1987,4: Supporting information,supplementary material,14598709,25
+1988,4: Supporting information,supplementary material,15573940,98
+1989,4: Supporting information,supplementary material,15966033,91
+1990,4: Supporting information,supplementary material,16534942,57
+1991,4: Supporting information,supplementary material,17585954,133
+1992,4: Supporting information,supplementary material,18582976,107
+1993,4: Supporting information,supplementary material,19158560,122
+1994,4: Supporting information,supplementary material,20273048,141
+1995,4: Supporting information,supplementary material,21582533,304
+1996,4: Supporting information,supplementary material,23433482,291
+1997,4: Supporting information,supplementary material,24142578,442
+1998,4: Supporting information,supplementary material,26454637,201
+1999,4: Supporting information,supplementary material,26387547,224
+2000,4: Supporting information,supplementary material,28146960,429
+2001,4: Supporting information,supplementary material,30114953,440
+2002,4: Supporting information,supplementary material,29304753,442
+2003,4: Supporting information,supplementary material,30981377,662
+2004,4: Supporting information,supplementary material,31953113,845
+2005,4: Supporting information,supplementary material,34738168,1465
+2006,4: Supporting information,supplementary material,36837237,2755
+2007,4: Supporting information,supplementary material,36641945,4362
+2008,4: Supporting information,supplementary material,39330183,6453
+2009,4: Supporting information,supplementary material,40377665,7614
+2010,4: Supporting information,supplementary material,38030234,8369
+2011,4: Supporting information,supplementary material,39815988,9982
+2014,4: Supporting information,supplementary material,11261291,1
+1921,4: Supporting information,unpublished data,1161623,3
+1922,4: Supporting information,unpublished data,1227253,12
+1924,4: Supporting information,unpublished data,1420599,1
+1925,4: Supporting information,unpublished data,1665928,2
+1926,4: Supporting information,unpublished data,1904958,5
+1927,4: Supporting information,unpublished data,1785362,10
+1928,4: Supporting information,unpublished data,1938784,11
+1929,4: Supporting information,unpublished data,1953262,14
+1930,4: Supporting information,unpublished data,2111981,2
+1931,4: Supporting information,unpublished data,2434124,19
+1932,4: Supporting information,unpublished data,2400513,12
+1933,4: Supporting information,unpublished data,2136969,9
+1934,4: Supporting information,unpublished data,2445175,15
+1935,4: Supporting information,unpublished data,2536260,14
+1936,4: Supporting information,unpublished data,2751507,24
+1937,4: Supporting information,unpublished data,2976473,15
+1938,4: Supporting information,unpublished data,2886297,24
+1939,4: Supporting information,unpublished data,2840157,22
+1940,4: Supporting information,unpublished data,3000307,24
+1941,4: Supporting information,unpublished data,2759525,31
+1942,4: Supporting information,unpublished data,2730695,32
+1943,4: Supporting information,unpublished data,2367394,23
+1944,4: Supporting information,unpublished data,2209069,18
+1945,4: Supporting information,unpublished data,2185186,23
+1946,4: Supporting information,unpublished data,2461581,23
+1947,4: Supporting information,unpublished data,2615111,18
+1948,4: Supporting information,unpublished data,2631628,18
+1949,4: Supporting information,unpublished data,2804409,36
+1950,4: Supporting information,unpublished data,3153253,26
+1951,4: Supporting information,unpublished data,3011208,26
+1952,4: Supporting information,unpublished data,3139138,33
+1953,4: Supporting information,unpublished data,3184772,37
+1954,4: Supporting information,unpublished data,3649078,37
+1955,4: Supporting information,unpublished data,3555386,33
+1956,4: Supporting information,unpublished data,3699565,32
+1957,4: Supporting information,unpublished data,3689751,27
+1958,4: Supporting information,unpublished data,3814339,52
+1959,4: Supporting information,unpublished data,3621589,54
+1960,4: Supporting information,unpublished data,3934513,45
+1961,4: Supporting information,unpublished data,4042372,68
+1962,4: Supporting information,unpublished data,4017454,70
+1963,4: Supporting information,unpublished data,4556693,53
+1964,4: Supporting information,unpublished data,5158453,106
+1965,4: Supporting information,unpublished data,5234257,92
+1966,4: Supporting information,unpublished data,5493607,92
+1967,4: Supporting information,unpublished data,6000525,105
+1968,4: Supporting information,unpublished data,6521402,117
+1969,4: Supporting information,unpublished data,7381164,119
+1970,4: Supporting information,unpublished data,7236804,113
+1971,4: Supporting information,unpublished data,7864657,189
+1972,4: Supporting information,unpublished data,7915372,221
+1973,4: Supporting information,unpublished data,8425604,150
+1974,4: Supporting information,unpublished data,8556640,162
+1975,4: Supporting information,unpublished data,9162777,189
+1976,4: Supporting information,unpublished data,9429413,216
+1977,4: Supporting information,unpublished data,10649032,254
+1978,4: Supporting information,unpublished data,10558723,309
+1979,4: Supporting information,unpublished data,10786566,332
+1980,4: Supporting information,unpublished data,11619305,287
+1981,4: Supporting information,unpublished data,12165346,309
+1982,4: Supporting information,unpublished data,12314218,309
+1983,4: Supporting information,unpublished data,12706096,326
+1984,4: Supporting information,unpublished data,13379542,388
+1985,4: Supporting information,unpublished data,14023196,378
+1986,4: Supporting information,unpublished data,13255908,466
+1987,4: Supporting information,unpublished data,14598709,536
+1988,4: Supporting information,unpublished data,15573940,570
+1989,4: Supporting information,unpublished data,15966033,654
+1990,4: Supporting information,unpublished data,16534942,710
+1991,4: Supporting information,unpublished data,17585954,949
+1992,4: Supporting information,unpublished data,18582976,1144
+1993,4: Supporting information,unpublished data,19158560,1287
+1994,4: Supporting information,unpublished data,20273048,1310
+1995,4: Supporting information,unpublished data,21582533,1600
+1996,4: Supporting information,unpublished data,23433482,1655
+1997,4: Supporting information,unpublished data,24142578,1670
+1998,4: Supporting information,unpublished data,26454637,2245
+1999,4: Supporting information,unpublished data,26387547,2344
+2000,4: Supporting information,unpublished data,28146960,2430
+2001,4: Supporting information,unpublished data,30114953,2669
+2002,4: Supporting information,unpublished data,29304753,2766
+2003,4: Supporting information,unpublished data,30981377,2545
+2004,4: Supporting information,unpublished data,31953113,2692
+2005,4: Supporting information,unpublished data,34738168,2503
+2006,4: Supporting information,unpublished data,36837237,3158
+2007,4: Supporting information,unpublished data,36641945,3008
+2008,4: Supporting information,unpublished data,39330183,2720
+2009,4: Supporting information,unpublished data,40377665,2371
+2010,4: Supporting information,unpublished data,38030234,2470
+2011,4: Supporting information,unpublished data,39815988,2160
+1986,5: Genetic fields,conservation genetics,13255908,1
+1987,5: Genetic fields,conservation genetics,14598709,1
+1988,5: Genetic fields,conservation genetics,15573940,15
+1989,5: Genetic fields,conservation genetics,15966033,19
+1990,5: Genetic fields,conservation genetics,16534942,22
+1991,5: Genetic fields,conservation genetics,17585954,10
+1992,5: Genetic fields,conservation genetics,18582976,50
+1993,5: Genetic fields,conservation genetics,19158560,46
+1994,5: Genetic fields,conservation genetics,20273048,39
+1995,5: Genetic fields,conservation genetics,21582533,53
+1996,5: Genetic fields,conservation genetics,23433482,104
+1997,5: Genetic fields,conservation genetics,24142578,69
+1998,5: Genetic fields,conservation genetics,26454637,98
+1999,5: Genetic fields,conservation genetics,26387547,78
+2000,5: Genetic fields,conservation genetics,28146960,94
+2001,5: Genetic fields,conservation genetics,30114953,93
+2002,5: Genetic fields,conservation genetics,29304753,94
+2003,5: Genetic fields,conservation genetics,30981377,100
+2004,5: Genetic fields,conservation genetics,31953113,132
+2005,5: Genetic fields,conservation genetics,34738168,191
+2006,5: Genetic fields,conservation genetics,36837237,265
+2007,5: Genetic fields,conservation genetics,36641945,220
+2008,5: Genetic fields,conservation genetics,39330183,216
+2009,5: Genetic fields,conservation genetics,40377665,228
+2010,5: Genetic fields,conservation genetics,38030234,202
+2011,5: Genetic fields,conservation genetics,39815988,228
+2001,5: Genetic fields,ecological genomics,30114953,4
+2004,5: Genetic fields,ecological genomics,31953113,1
+2005,5: Genetic fields,ecological genomics,34738168,4
+2006,5: Genetic fields,ecological genomics,36837237,3
+2007,5: Genetic fields,ecological genomics,36641945,12
+2008,5: Genetic fields,ecological genomics,39330183,19
+2009,5: Genetic fields,ecological genomics,40377665,12
+2010,5: Genetic fields,ecological genomics,38030234,42
+2011,5: Genetic fields,ecological genomics,39815988,16
+1955,5: Genetic fields,epigenetics,3555386,1
+1956,5: Genetic fields,epigenetics,3699565,2
+1957,5: Genetic fields,epigenetics,3689751,1
+1961,5: Genetic fields,epigenetics,4042372,2
+1963,5: Genetic fields,epigenetics,4556693,1
+1964,5: Genetic fields,epigenetics,5158453,1
+1965,5: Genetic fields,epigenetics,5234257,1
+1966,5: Genetic fields,epigenetics,5493607,2
+1967,5: Genetic fields,epigenetics,6000525,2
+1968,5: Genetic fields,epigenetics,6521402,2
+1970,5: Genetic fields,epigenetics,7236804,2
+1976,5: Genetic fields,epigenetics,9429413,1
+1977,5: Genetic fields,epigenetics,10649032,2
+1978,5: Genetic fields,epigenetics,10558723,1
+1980,5: Genetic fields,epigenetics,11619305,4
+1981,5: Genetic fields,epigenetics,12165346,1
+1982,5: Genetic fields,epigenetics,12314218,1
+1984,5: Genetic fields,epigenetics,13379542,3
+1985,5: Genetic fields,epigenetics,14023196,7
+1987,5: Genetic fields,epigenetics,14598709,3
+1989,5: Genetic fields,epigenetics,15966033,1
+1990,5: Genetic fields,epigenetics,16534942,3
+1991,5: Genetic fields,epigenetics,17585954,2
+1992,5: Genetic fields,epigenetics,18582976,20
+1993,5: Genetic fields,epigenetics,19158560,4
+1994,5: Genetic fields,epigenetics,20273048,5
+1997,5: Genetic fields,epigenetics,24142578,1
+1998,5: Genetic fields,epigenetics,26454637,2
+1999,5: Genetic fields,epigenetics,26387547,2
+2000,5: Genetic fields,epigenetics,28146960,10
+2001,5: Genetic fields,epigenetics,30114953,1
+2002,5: Genetic fields,epigenetics,29304753,3
+2003,5: Genetic fields,epigenetics,30981377,2
+2004,5: Genetic fields,epigenetics,31953113,8
+2005,5: Genetic fields,epigenetics,34738168,53
+2006,5: Genetic fields,epigenetics,36837237,55
+2007,5: Genetic fields,epigenetics,36641945,13
+2008,5: Genetic fields,epigenetics,39330183,49
+2009,5: Genetic fields,epigenetics,40377665,66
+2010,5: Genetic fields,epigenetics,38030234,57
+2011,5: Genetic fields,epigenetics,39815988,69
+1922,5: Genetic fields,genetic diversity,1227253,1
+1930,5: Genetic fields,genetic diversity,2111981,1
+1934,5: Genetic fields,genetic diversity,2445175,2
+1939,5: Genetic fields,genetic diversity,2840157,1
+1942,5: Genetic fields,genetic diversity,2730695,3
+1944,5: Genetic fields,genetic diversity,2209069,3
+1945,5: Genetic fields,genetic diversity,2185186,4
+1946,5: Genetic fields,genetic diversity,2461581,4
+1947,5: Genetic fields,genetic diversity,2615111,6
+1950,5: Genetic fields,genetic diversity,3153253,2
+1951,5: Genetic fields,genetic diversity,3011208,5
+1952,5: Genetic fields,genetic diversity,3139138,2
+1953,5: Genetic fields,genetic diversity,3184772,1
+1954,5: Genetic fields,genetic diversity,3649078,6
+1955,5: Genetic fields,genetic diversity,3555386,7
+1956,5: Genetic fields,genetic diversity,3699565,4
+1957,5: Genetic fields,genetic diversity,3689751,3
+1958,5: Genetic fields,genetic diversity,3814339,4
+1959,5: Genetic fields,genetic diversity,3621589,4
+1960,5: Genetic fields,genetic diversity,3934513,2
+1961,5: Genetic fields,genetic diversity,4042372,7
+1962,5: Genetic fields,genetic diversity,4017454,4
+1963,5: Genetic fields,genetic diversity,4556693,6
+1964,5: Genetic fields,genetic diversity,5158453,11
+1965,5: Genetic fields,genetic diversity,5234257,6
+1966,5: Genetic fields,genetic diversity,5493607,13
+1967,5: Genetic fields,genetic diversity,6000525,10
+1968,5: Genetic fields,genetic diversity,6521402,5
+1969,5: Genetic fields,genetic diversity,7381164,5
+1970,5: Genetic fields,genetic diversity,7236804,13
+1971,5: Genetic fields,genetic diversity,7864657,15
+1972,5: Genetic fields,genetic diversity,7915372,24
+1973,5: Genetic fields,genetic diversity,8425604,20
+1974,5: Genetic fields,genetic diversity,8556640,12
+1975,5: Genetic fields,genetic diversity,9162777,21
+1976,5: Genetic fields,genetic diversity,9429413,26
+1977,5: Genetic fields,genetic diversity,10649032,12
+1978,5: Genetic fields,genetic diversity,10558723,37
+1979,5: Genetic fields,genetic diversity,10786566,55
+1980,5: Genetic fields,genetic diversity,11619305,60
+1981,5: Genetic fields,genetic diversity,12165346,36
+1982,5: Genetic fields,genetic diversity,12314218,41
+1983,5: Genetic fields,genetic diversity,12706096,50
+1984,5: Genetic fields,genetic diversity,13379542,81
+1985,5: Genetic fields,genetic diversity,14023196,72
+1986,5: Genetic fields,genetic diversity,13255908,84
+1987,5: Genetic fields,genetic diversity,14598709,150
+1988,5: Genetic fields,genetic diversity,15573940,199
+1989,5: Genetic fields,genetic diversity,15966033,245
+1990,5: Genetic fields,genetic diversity,16534942,218
+1991,5: Genetic fields,genetic diversity,17585954,335
+1992,5: Genetic fields,genetic diversity,18582976,435
+1993,5: Genetic fields,genetic diversity,19158560,313
+1994,5: Genetic fields,genetic diversity,20273048,809
+1995,5: Genetic fields,genetic diversity,21582533,622
+1996,5: Genetic fields,genetic diversity,23433482,1128
+1997,5: Genetic fields,genetic diversity,24142578,752
+1998,5: Genetic fields,genetic diversity,26454637,1063
+1999,5: Genetic fields,genetic diversity,26387547,988
+2000,5: Genetic fields,genetic diversity,28146960,1004
+2001,5: Genetic fields,genetic diversity,30114953,1081
+2002,5: Genetic fields,genetic diversity,29304753,1107
+2003,5: Genetic fields,genetic diversity,30981377,1416
+2004,5: Genetic fields,genetic diversity,31953113,1511
+2005,5: Genetic fields,genetic diversity,34738168,2278
+2006,5: Genetic fields,genetic diversity,36837237,2242
+2007,5: Genetic fields,genetic diversity,36641945,2520
+2008,5: Genetic fields,genetic diversity,39330183,2412
+2009,5: Genetic fields,genetic diversity,40377665,3170
+2010,5: Genetic fields,genetic diversity,38030234,2924
+2011,5: Genetic fields,genetic diversity,39815988,3051
+1967,5: Genetic fields,genetic engineering,6000525,1
+1968,5: Genetic fields,genetic engineering,6521402,1
+1970,5: Genetic fields,genetic engineering,7236804,7
+1971,5: Genetic fields,genetic engineering,7864657,4
+1972,5: Genetic fields,genetic engineering,7915372,6
+1973,5: Genetic fields,genetic engineering,8425604,1
+1974,5: Genetic fields,genetic engineering,8556640,12
+1975,5: Genetic fields,genetic engineering,9162777,14
+1976,5: Genetic fields,genetic engineering,9429413,18
+1977,5: Genetic fields,genetic engineering,10649032,17
+1978,5: Genetic fields,genetic engineering,10558723,14
+1979,5: Genetic fields,genetic engineering,10786566,3
+1980,5: Genetic fields,genetic engineering,11619305,42
+1981,5: Genetic fields,genetic engineering,12165346,15
+1982,5: Genetic fields,genetic engineering,12314218,23
+1983,5: Genetic fields,genetic engineering,12706096,33
+1984,5: Genetic fields,genetic engineering,13379542,30
+1985,5: Genetic fields,genetic engineering,14023196,24
+1986,5: Genetic fields,genetic engineering,13255908,48
+1987,5: Genetic fields,genetic engineering,14598709,66
+1988,5: Genetic fields,genetic engineering,15573940,77
+1989,5: Genetic fields,genetic engineering,15966033,104
+1990,5: Genetic fields,genetic engineering,16534942,34
+1991,5: Genetic fields,genetic engineering,17585954,20
+1992,5: Genetic fields,genetic engineering,18582976,37
+1993,5: Genetic fields,genetic engineering,19158560,57
+1994,5: Genetic fields,genetic engineering,20273048,61
+1995,5: Genetic fields,genetic engineering,21582533,60
+1996,5: Genetic fields,genetic engineering,23433482,67
+1997,5: Genetic fields,genetic engineering,24142578,52
+1998,5: Genetic fields,genetic engineering,26454637,50
+1999,5: Genetic fields,genetic engineering,26387547,61
+2000,5: Genetic fields,genetic engineering,28146960,62
+2001,5: Genetic fields,genetic engineering,30114953,49
+2002,5: Genetic fields,genetic engineering,29304753,63
+2003,5: Genetic fields,genetic engineering,30981377,48
+2004,5: Genetic fields,genetic engineering,31953113,36
+2005,5: Genetic fields,genetic engineering,34738168,68
+2006,5: Genetic fields,genetic engineering,36837237,50
+2007,5: Genetic fields,genetic engineering,36641945,41
+2008,5: Genetic fields,genetic engineering,39330183,86
+2009,5: Genetic fields,genetic engineering,40377665,61
+2010,5: Genetic fields,genetic engineering,38030234,46
+2011,5: Genetic fields,genetic engineering,39815988,55
+1950,5: Genetic fields,molecular ecology,3153253,5
+1954,5: Genetic fields,molecular ecology,3649078,1
+1959,5: Genetic fields,molecular ecology,3621589,1
+1975,5: Genetic fields,molecular ecology,9162777,1
+1980,5: Genetic fields,molecular ecology,11619305,10
+1982,5: Genetic fields,molecular ecology,12314218,2
+1984,5: Genetic fields,molecular ecology,13379542,2
+1985,5: Genetic fields,molecular ecology,14023196,1
+1986,5: Genetic fields,molecular ecology,13255908,7
+1988,5: Genetic fields,molecular ecology,15573940,1
+1991,5: Genetic fields,molecular ecology,17585954,2
+1992,5: Genetic fields,molecular ecology,18582976,1
+1993,5: Genetic fields,molecular ecology,19158560,11
+1994,5: Genetic fields,molecular ecology,20273048,29
+1995,5: Genetic fields,molecular ecology,21582533,34
+1996,5: Genetic fields,molecular ecology,23433482,78
+1997,5: Genetic fields,molecular ecology,24142578,67
+1998,5: Genetic fields,molecular ecology,26454637,156
+1999,5: Genetic fields,molecular ecology,26387547,110
+2000,5: Genetic fields,molecular ecology,28146960,167
+2001,5: Genetic fields,molecular ecology,30114953,272
+2002,5: Genetic fields,molecular ecology,29304753,303
+2003,5: Genetic fields,molecular ecology,30981377,419
+2004,5: Genetic fields,molecular ecology,31953113,636
+2005,5: Genetic fields,molecular ecology,34738168,932
+2006,5: Genetic fields,molecular ecology,36837237,937
+2007,5: Genetic fields,molecular ecology,36641945,1349
+2008,5: Genetic fields,molecular ecology,39330183,1386
+2009,5: Genetic fields,molecular ecology,40377665,1778
+2010,5: Genetic fields,molecular ecology,38030234,2052
+2011,5: Genetic fields,molecular ecology,39815988,1832
+2000,5: Genetic fields,Omics techniques,28146960,7
+2001,5: Genetic fields,Omics techniques,30114953,8
+2002,5: Genetic fields,Omics techniques,29304753,40
+2003,5: Genetic fields,Omics techniques,30981377,39
+2004,5: Genetic fields,Omics techniques,31953113,42
+2005,5: Genetic fields,Omics techniques,34738168,134
+2006,5: Genetic fields,Omics techniques,36837237,172
+2007,5: Genetic fields,Omics techniques,36641945,142
+2008,5: Genetic fields,Omics techniques,39330183,199
+2009,5: Genetic fields,Omics techniques,40377665,234
+2010,5: Genetic fields,Omics techniques,38030234,366
+2011,5: Genetic fields,Omics techniques,39815988,288
+1920,5: Genetic fields,phylogenetics,1238345,55
+1921,5: Genetic fields,phylogenetics,1161623,27
+1922,5: Genetic fields,phylogenetics,1227253,16
+1923,5: Genetic fields,phylogenetics,1410471,34
+1924,5: Genetic fields,phylogenetics,1420599,23
+1925,5: Genetic fields,phylogenetics,1665928,31
+1926,5: Genetic fields,phylogenetics,1904958,58
+1927,5: Genetic fields,phylogenetics,1785362,71
+1928,5: Genetic fields,phylogenetics,1938784,108
+1929,5: Genetic fields,phylogenetics,1953262,79
+1930,5: Genetic fields,phylogenetics,2111981,82
+1931,5: Genetic fields,phylogenetics,2434124,67
+1932,5: Genetic fields,phylogenetics,2400513,57
+1933,5: Genetic fields,phylogenetics,2136969,70
+1934,5: Genetic fields,phylogenetics,2445175,86
+1935,5: Genetic fields,phylogenetics,2536260,79
+1936,5: Genetic fields,phylogenetics,2751507,128
+1937,5: Genetic fields,phylogenetics,2976473,121
+1938,5: Genetic fields,phylogenetics,2886297,57
+1939,5: Genetic fields,phylogenetics,2840157,80
+1940,5: Genetic fields,phylogenetics,3000307,96
+1941,5: Genetic fields,phylogenetics,2759525,92
+1942,5: Genetic fields,phylogenetics,2730695,238
+1943,5: Genetic fields,phylogenetics,2367394,63
+1944,5: Genetic fields,phylogenetics,2209069,95
+1945,5: Genetic fields,phylogenetics,2185186,53
+1946,5: Genetic fields,phylogenetics,2461581,37
+1947,5: Genetic fields,phylogenetics,2615111,58
+1948,5: Genetic fields,phylogenetics,2631628,109
+1949,5: Genetic fields,phylogenetics,2804409,71
+1950,5: Genetic fields,phylogenetics,3153253,92
+1951,5: Genetic fields,phylogenetics,3011208,73
+1952,5: Genetic fields,phylogenetics,3139138,49
+1953,5: Genetic fields,phylogenetics,3184772,159
+1954,5: Genetic fields,phylogenetics,3649078,70
+1955,5: Genetic fields,phylogenetics,3555386,83
+1956,5: Genetic fields,phylogenetics,3699565,108
+1957,5: Genetic fields,phylogenetics,3689751,86
+1958,5: Genetic fields,phylogenetics,3814339,82
+1959,5: Genetic fields,phylogenetics,3621589,115
+1960,5: Genetic fields,phylogenetics,3934513,63
+1961,5: Genetic fields,phylogenetics,4042372,91
+1962,5: Genetic fields,phylogenetics,4017454,90
+1963,5: Genetic fields,phylogenetics,4556693,144
+1964,5: Genetic fields,phylogenetics,5158453,123
+1965,5: Genetic fields,phylogenetics,5234257,152
+1966,5: Genetic fields,phylogenetics,5493607,165
+1967,5: Genetic fields,phylogenetics,6000525,379
+1968,5: Genetic fields,phylogenetics,6521402,169
+1969,5: Genetic fields,phylogenetics,7381164,133
+1970,5: Genetic fields,phylogenetics,7236804,221
+1971,5: Genetic fields,phylogenetics,7864657,183
+1972,5: Genetic fields,phylogenetics,7915372,243
+1973,5: Genetic fields,phylogenetics,8425604,192
+1974,5: Genetic fields,phylogenetics,8556640,230
+1975,5: Genetic fields,phylogenetics,9162777,242
+1976,5: Genetic fields,phylogenetics,9429413,182
+1977,5: Genetic fields,phylogenetics,10649032,282
+1978,5: Genetic fields,phylogenetics,10558723,404
+1979,5: Genetic fields,phylogenetics,10786566,268
+1980,5: Genetic fields,phylogenetics,11619305,362
+1981,5: Genetic fields,phylogenetics,12165346,493
+1982,5: Genetic fields,phylogenetics,12314218,447
+1983,5: Genetic fields,phylogenetics,12706096,378
+1984,5: Genetic fields,phylogenetics,13379542,470
+1985,5: Genetic fields,phylogenetics,14023196,607
+1986,5: Genetic fields,phylogenetics,13255908,509
+1987,5: Genetic fields,phylogenetics,14598709,661
+1988,5: Genetic fields,phylogenetics,15573940,898
+1989,5: Genetic fields,phylogenetics,15966033,955
+1990,5: Genetic fields,phylogenetics,16534942,848
+1991,5: Genetic fields,phylogenetics,17585954,1426
+1992,5: Genetic fields,phylogenetics,18582976,2005
+1993,5: Genetic fields,phylogenetics,19158560,2117
+1994,5: Genetic fields,phylogenetics,20273048,2316
+1995,5: Genetic fields,phylogenetics,21582533,2928
+1996,5: Genetic fields,phylogenetics,23433482,3680
+1997,5: Genetic fields,phylogenetics,24142578,3239
+1998,5: Genetic fields,phylogenetics,26454637,4253
+1999,5: Genetic fields,phylogenetics,26387547,4585
+2000,5: Genetic fields,phylogenetics,28146960,5340
+2001,5: Genetic fields,phylogenetics,30114953,5762
+2002,5: Genetic fields,phylogenetics,29304753,5208
+2003,5: Genetic fields,phylogenetics,30981377,6152
+2004,5: Genetic fields,phylogenetics,31953113,7352
+2005,5: Genetic fields,phylogenetics,34738168,6906
+2006,5: Genetic fields,phylogenetics,36837237,9414
+2007,5: Genetic fields,phylogenetics,36641945,8259
+2008,5: Genetic fields,phylogenetics,39330183,9733
+2009,5: Genetic fields,phylogenetics,40377665,11976
+2010,5: Genetic fields,phylogenetics,38030234,12551
+2011,5: Genetic fields,phylogenetics,39815988,13458
+1994,6: Genetic tools,eDNA,20273048,1
+1995,6: Genetic tools,eDNA,21582533,1
+1996,6: Genetic tools,eDNA,23433482,3
+2002,6: Genetic tools,eDNA,29304753,2
+2003,6: Genetic tools,eDNA,30981377,13
+2004,6: Genetic tools,eDNA,31953113,14
+2005,6: Genetic tools,eDNA,34738168,9
+2006,6: Genetic tools,eDNA,36837237,14
+2007,6: Genetic tools,eDNA,36641945,13
+2008,6: Genetic tools,eDNA,39330183,6
+2009,6: Genetic tools,eDNA,40377665,16
+2010,6: Genetic tools,eDNA,38030234,11
+2011,6: Genetic tools,eDNA,39815988,22
+2007,6: Genetic tools,gene drive,36641945,1
+2008,6: Genetic tools,gene drive,39330183,22
+2009,6: Genetic tools,gene drive,40377665,4
+2010,6: Genetic tools,gene drive,38030234,5
+2011,6: Genetic tools,gene drive,39815988,4
+1962,6: Genetic tools,microsatellites,4017454,2
+1978,6: Genetic tools,microsatellites,10558723,1
+1981,6: Genetic tools,microsatellites,12165346,12
+1990,6: Genetic tools,microsatellites,16534942,1
+1992,6: Genetic tools,microsatellites,18582976,1
+1993,6: Genetic tools,microsatellites,19158560,10
+1994,6: Genetic tools,microsatellites,20273048,91
+1995,6: Genetic tools,microsatellites,21582533,183
+1996,6: Genetic tools,microsatellites,23433482,557
+1997,6: Genetic tools,microsatellites,24142578,402
+1998,6: Genetic tools,microsatellites,26454637,688
+1999,6: Genetic tools,microsatellites,26387547,910
+2000,6: Genetic tools,microsatellites,28146960,798
+2001,6: Genetic tools,microsatellites,30114953,954
+2002,6: Genetic tools,microsatellites,29304753,991
+2003,6: Genetic tools,microsatellites,30981377,1135
+2004,6: Genetic tools,microsatellites,31953113,1128
+2005,6: Genetic tools,microsatellites,34738168,1961
+2006,6: Genetic tools,microsatellites,36837237,1495
+2007,6: Genetic tools,microsatellites,36641945,1859
+2008,6: Genetic tools,microsatellites,39330183,2225
+2009,6: Genetic tools,microsatellites,40377665,2206
+2010,6: Genetic tools,microsatellites,38030234,2295
+2011,6: Genetic tools,microsatellites,39815988,2161
+1968,6: Genetic tools,next generation sequencing,6521402,1
+1969,6: Genetic tools,next generation sequencing,7381164,5
+1970,6: Genetic tools,next generation sequencing,7236804,5
+1971,6: Genetic tools,next generation sequencing,7864657,17
+1972,6: Genetic tools,next generation sequencing,7915372,8
+1973,6: Genetic tools,next generation sequencing,8425604,7
+1974,6: Genetic tools,next generation sequencing,8556640,24
+1975,6: Genetic tools,next generation sequencing,9162777,28
+1976,6: Genetic tools,next generation sequencing,9429413,32
+1977,6: Genetic tools,next generation sequencing,10649032,23
+1978,6: Genetic tools,next generation sequencing,10558723,18
+1979,6: Genetic tools,next generation sequencing,10786566,41
+1980,6: Genetic tools,next generation sequencing,11619305,45
+1981,6: Genetic tools,next generation sequencing,12165346,41
+1982,6: Genetic tools,next generation sequencing,12314218,77
+1983,6: Genetic tools,next generation sequencing,12706096,28
+1984,6: Genetic tools,next generation sequencing,13379542,65
+1985,6: Genetic tools,next generation sequencing,14023196,31
+1986,6: Genetic tools,next generation sequencing,13255908,53
+1987,6: Genetic tools,next generation sequencing,14598709,60
+1988,6: Genetic tools,next generation sequencing,15573940,48
+1989,6: Genetic tools,next generation sequencing,15966033,68
+1990,6: Genetic tools,next generation sequencing,16534942,176
+1991,6: Genetic tools,next generation sequencing,17585954,279
+1992,6: Genetic tools,next generation sequencing,18582976,220
+1993,6: Genetic tools,next generation sequencing,19158560,288
+1994,6: Genetic tools,next generation sequencing,20273048,330
+1995,6: Genetic tools,next generation sequencing,21582533,291
+1996,6: Genetic tools,next generation sequencing,23433482,488
+1997,6: Genetic tools,next generation sequencing,24142578,559
+1998,6: Genetic tools,next generation sequencing,26454637,736
+1999,6: Genetic tools,next generation sequencing,26387547,732
+2000,6: Genetic tools,next generation sequencing,28146960,891
+2001,6: Genetic tools,next generation sequencing,30114953,1061
+2002,6: Genetic tools,next generation sequencing,29304753,1025
+2003,6: Genetic tools,next generation sequencing,30981377,1058
+2004,6: Genetic tools,next generation sequencing,31953113,1282
+2005,6: Genetic tools,next generation sequencing,34738168,1612
+2006,6: Genetic tools,next generation sequencing,36837237,1489
+2007,6: Genetic tools,next generation sequencing,36641945,1662
+2008,6: Genetic tools,next generation sequencing,39330183,1888
+2009,6: Genetic tools,next generation sequencing,40377665,2182
+2010,6: Genetic tools,next generation sequencing,38030234,2717
+2011,6: Genetic tools,next generation sequencing,39815988,2945
+2012,6: Genetic tools,next generation sequencing,22192417,101
+2013,6: Genetic tools,next generation sequencing,23337453,105
+2014,6: Genetic tools,next generation sequencing,11261291,135
+1992,6: Genetic tools,q/RT-PCR,18582976,2
+1993,6: Genetic tools,q/RT-PCR,19158560,18
+1994,6: Genetic tools,q/RT-PCR,20273048,4
+1995,6: Genetic tools,q/RT-PCR,21582533,30
+1996,6: Genetic tools,q/RT-PCR,23433482,9
+1997,6: Genetic tools,q/RT-PCR,24142578,37
+1998,6: Genetic tools,q/RT-PCR,26454637,68
+1999,6: Genetic tools,q/RT-PCR,26387547,42
+2000,6: Genetic tools,q/RT-PCR,28146960,73
+2001,6: Genetic tools,q/RT-PCR,30114953,101
+2002,6: Genetic tools,q/RT-PCR,29304753,154
+2003,6: Genetic tools,q/RT-PCR,30981377,138
+2004,6: Genetic tools,q/RT-PCR,31953113,193
+2005,6: Genetic tools,q/RT-PCR,34738168,288
+2006,6: Genetic tools,q/RT-PCR,36837237,439
+2007,6: Genetic tools,q/RT-PCR,36641945,647
+2008,6: Genetic tools,q/RT-PCR,39330183,796
+2009,6: Genetic tools,q/RT-PCR,40377665,879
+2010,6: Genetic tools,q/RT-PCR,38030234,894
+2011,6: Genetic tools,q/RT-PCR,39815988,1007
+2009,6: Genetic tools,RNA-seq,40377665,10
+2010,6: Genetic tools,RNA-seq,38030234,15
+2011,6: Genetic tools,RNA-seq,39815988,97
+2002,6: Genetic tools,sanger sequencing,29304753,1
+2008,6: Genetic tools,sanger sequencing,39330183,1
+2009,6: Genetic tools,sanger sequencing,40377665,15
+2010,6: Genetic tools,sanger sequencing,38030234,11
+2011,6: Genetic tools,sanger sequencing,39815988,26
+1996,6: Genetic tools,single nucleotide polymorphism,23433482,31
+1999,6: Genetic tools,single nucleotide polymorphism,26387547,57
+2000,6: Genetic tools,single nucleotide polymorphism,28146960,9
+2001,6: Genetic tools,single nucleotide polymorphism,30114953,28
+2002,6: Genetic tools,single nucleotide polymorphism,29304753,67
+2003,6: Genetic tools,single nucleotide polymorphism,30981377,98
+2004,6: Genetic tools,single nucleotide polymorphism,31953113,90
+2005,6: Genetic tools,single nucleotide polymorphism,34738168,254
+2006,6: Genetic tools,single nucleotide polymorphism,36837237,120
+2007,6: Genetic tools,single nucleotide polymorphism,36641945,328
+2008,6: Genetic tools,single nucleotide polymorphism,39330183,402
+2009,6: Genetic tools,single nucleotide polymorphism,40377665,316
+2010,6: Genetic tools,single nucleotide polymorphism,38030234,870
+2011,6: Genetic tools,single nucleotide polymorphism,39815988,678
+2012,6: Genetic tools,single nucleotide polymorphism,22192417,42
+2013,6: Genetic tools,single nucleotide polymorphism,23337453,41
+2014,6: Genetic tools,single nucleotide polymorphism,11261291,20
+1989,6: Genetic tools,whole genome sequencing,15966033,1
+1991,6: Genetic tools,whole genome sequencing,17585954,1
+1993,6: Genetic tools,whole genome sequencing,19158560,2
+1994,6: Genetic tools,whole genome sequencing,20273048,3
+1995,6: Genetic tools,whole genome sequencing,21582533,3
+1996,6: Genetic tools,whole genome sequencing,23433482,3
+1998,6: Genetic tools,whole genome sequencing,26454637,12
+1999,6: Genetic tools,whole genome sequencing,26387547,12
+2000,6: Genetic tools,whole genome sequencing,28146960,17
+2001,6: Genetic tools,whole genome sequencing,30114953,14
+2002,6: Genetic tools,whole genome sequencing,29304753,48
+2003,6: Genetic tools,whole genome sequencing,30981377,43
+2004,6: Genetic tools,whole genome sequencing,31953113,60
+2005,6: Genetic tools,whole genome sequencing,34738168,90
+2006,6: Genetic tools,whole genome sequencing,36837237,75
+2007,6: Genetic tools,whole genome sequencing,36641945,157
+2008,6: Genetic tools,whole genome sequencing,39330183,186
+2009,6: Genetic tools,whole genome sequencing,40377665,152
+2010,6: Genetic tools,whole genome sequencing,38030234,152
+2011,6: Genetic tools,whole genome sequencing,39815988,178
+2012,6: Genetic tools,whole genome sequencing,22192417,52
+2013,6: Genetic tools,whole genome sequencing,23337453,41
+2014,6: Genetic tools,whole genome sequencing,11261291,49

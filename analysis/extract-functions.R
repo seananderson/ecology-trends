@@ -16,7 +16,7 @@ filtered_journals <-
       Notes = col_character()
     )
   ) %>%
-  filter(TaxonSpecific == "N") %>%
+  # filter(TaxonSpecific == "N") %>%
   select(Slug) %>% rename(journal = Slug)
 
 bad_amnat <- readr::read_lines("data/bad-amnat.txt") # latex code

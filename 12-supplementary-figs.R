@@ -15,7 +15,7 @@ filtered_journals <-
       Notes = col_character()
     )
   ) %>%
-  filter(TaxonSpecific == "N") %>%
+  # filter(TaxonSpecific == "N") %>%
   select(Slug) %>% rename(journal = Slug)
 
 bad_amnat <- readr::read_lines("data/bad-amnat.txt") # latex code
@@ -27,14 +27,14 @@ ngrams1 <- dplyr::tbl(d1, "ngrams") %>% filter(year != 999) %>%
   filter(!pub_id %in% pnas_exluded_pub_ids,
     journal %in% filtered_journals$journal)
 
-if (!file.exists("data/generated/journal_totals.rds")) {
+if (!file.exists("data/generated/journal_totals_all.rds")) {
   journal_totals <- ngrams1 %>%
     group_by(journal, year) %>%
     summarize(total_words = sum(count)) %>%
     collect(n = Inf)
-  saveRDS(journal_totals, file = "data/generated/journal_totals.rds")
+  saveRDS(journal_totals, file = "data/generated/journal_totals_all.rds")
 } else {
-  journal_totals <- readRDS("data/generated/journal_totals.rds")
+  journal_totals <- readRDS("data/generated/journal_totals_all.rds")
 }
 
 
@@ -47,4 +47,4 @@ g <- journal_totals %>%
     scales = "fixed") + ggsidekick::theme_sleek() +
   ylab("Total words (millions)") + xlab("Year")
 
-ggsave("figs/journal-totals-by-year.pdf", width = 10, height = 9)
+ggsave("figs/journal-totals-by-year-all.pdf", width = 10, height = 9)
