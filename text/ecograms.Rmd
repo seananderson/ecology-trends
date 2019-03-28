@@ -140,17 +140,15 @@ Using the same approach, we examined adjectives associated with conservation, di
 *Meta-analysis*, which first appeared in the late 1980s in our corpus, has seen rapid growth to become the most common adjective associated with analysis as of 2010 (Fig. \@ref(fig:blanks)l).
 
 ## Community ecology
-
-<!-- FIXME: we need to rearrange this  to match the new ordering of the panels (assuming the ordering of the panels is what we decided on) -->
 From the onset, ecologists and conservation biologists have studied organisms at the species-level, reflected by the sustained growth of *species* in the corpus over time (Fig. \@ref(fig:ecology)a).
-Though references to *cell*ular level were initially the next most common, interest within the field of ecology has since transition to *populations*, followed by *communities* and *ecosystems* (Fig. \@ref(fig:ecology)b).
-In ecological studies, metrics of *abundance* were initially the most commonly reported (Fig. \@ref(fig:ecology)c).
-Yet references to *abundance* plateaued in the 2000s while references to *diversity*, which incorporates both *abundance* and *richness*, have become the most common since the mid 1990s (Fig. \@ref(fig:ecology)c).
-The theory of the *climax community* climaxed in the 1940s, and community structure and populations next peak occurred in the 1960s with the *theory of island biogeography* (REF), followed by an interest in *foraging theory*, and a peak and dropoff in *neutral theory* (REF) (Fig. \@ref(fig:ecology)d).
-The *theory of natural selection* and the role of evolution in ecology has been a constant theme (Fig. \@ref(fig:ecology)d).
-<!-- FIXME: adjust this next sentence now that the null hypothesis is no longer included -->
-In ecology, the *null hypothesis* reigns, with a meteoric rise in the 1970s, replacing the frequently mentioned *hormone hypothesis* (REF) in the 1930s--50s.
-Over time, *competition*, *disturbance*, and *competitive release* hypotheses have been posed and studied as potential TODO (Fig. \@ref(fig:ecology)e). Finally, though *competition* outcompetes other forms of interactions, *competition* and *predation* are both declining in word use, with *mutualism* and *parasitism* remaining of constant interest to a lesser degree (Fig. \@ref(fig:ecology)g).
+Though references to *cell*ular level were initially the next-most common, interest within the field of ecology has since transition to *populations*, followed by *communities* and *ecosystems* (Fig. \@ref(fig:ecology)b).
+*Competition* and *predation* are the interactions most commonly included in the corpus, yet both interactions are experiencing sharp relative declines since the 1980's and early 2000's, respectively (Fig. \@ref(fig:ecology)c). 
+Interestingly, the most commonly represented theories in ecology appear to all be in declining use (Fig. \@ref(fig:ecology)d). Specifically, the theory of the *climax community* climaxed in the 1940s, and community structure and populations next peak occurred in the 1960s with the *theory of island biogeography* (REF), followed by an interest in *foraging theory*, and a peak and dropoff in *neutral theory* (REF) (Fig. \@ref(fig:ecology)d).
+Though there is not direct evidence of most common theories following the most common hypothesis, the decline in the mention of *competition* (Fig. \@ref(fig:ecology)c)is mirrored by the decline in interest in the competition hypothesis (Fig. \@ref(fig:ecology)e), which as terms in the corpus may be inextricably intertwined in this context. 
+Overall, while metrics of *abundance* were initially the most commonly reported (Fig. \@ref(fig:ecology)c).
+they plateaued in the 2000s while references to *diversity*, which incorporates both *abundance* and *richness*, have become the most common since the mid 1990s (Fig. \@ref(fig:ecology)c).
+
+
 
 ## Statistics and data analysis
 
