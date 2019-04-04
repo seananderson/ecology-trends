@@ -228,7 +228,7 @@ In addition to the algorithmic analyses described above, we assembled "hand-cura
 
 # Figures
 
-(ref:fig-decades-cap) **Top n-grams from the 1940s and 2000s.** (**a–d**) Top nine 1-gram nouns and 2-gram nouns or adjectives from the 1940s and 2000s. Labels refer to "lemmas" or root words. For example, plant and plants as n-grams are both combined and labelled as "plant". (**e–f**) Most rapidly increasing 1-gram nouns and 2-gram nouns or adjectives from 1980--2010. Light grey lines indicate frequency of the n-gram per 100,000 words. Dark coloured trend lines and associated shaded ribbons represent generalized additive model (GAM) fits and 95% confidence intervals (see Supporting Material).
+(ref:fig-decades-cap) **Top n-grams from the 1940s and 2000s.** (**a–d**) Top nine 1-gram nouns and 2-gram nouns or adjectives from the 1940s and 2000s. Labels refer to "lemmas" or root words. For example, plant and plants as n-grams are both combined and labelled as "plant". (**e–f**) Most rapidly increasing 1-gram nouns and 2-gram nouns or adjectives from 1980--2010. Light grey lines indicate frequency of the n-gram per 100,000 words. Dark coloured trend lines and associated shaded ribbons represent generalized additive model (GAM) fits and 95% confidence intervals (see Methods).
 
 ```{r decades, fig.cap = "(ref:fig-decades-cap)", out.width="5.6in", fig.align="center", fig.pos="h"}
 include_graphics(here("figs/decades-and-booms-viridis.pdf"))
