@@ -188,6 +188,8 @@ Looking forward...?
 JSTOR, Smith,  Smith Fellows, M.P. Dombeck, S.G. Foster, anyone who helped and declines to be an
 author...
 
+The full-text corpus is available through consultation with the JSTOR data team (<https://jstor.org>. All code to conduct our analysis is available at <https://github.com/seananderson/ecology-trends> and *Zenodo DOI goes here on publication*.
+
 # Methods
 
 ## Data
@@ -216,7 +218,7 @@ Using the filtered dataset as described above with the top 500 1- and 2-grams, w
 
 When presenting these and all subsequent timeseries, we fit Generalized Additive Models (GAMs) with the R package mgcv [@wood2017] to characterize the general trends and uncertainty about those trends. We fit models of the form $y_i \sim \mathrm{QuasiPoisson}(\mu_i),\ $ $\log(\mu_i) = \beta_0 + s(\mathrm{year_i}) + \log(\mathrm{total}_i)$, where all symbols have the same meaning as in the previous paragraph and the term $s(\mathrm{year_i})$ represents a thin-plate regression spline [@wood2003] smoother over time.
 
-We conducted our fill-in-the-blank analysis using a similar approach to the top-nine-terms-by-decade approach described above. In contrast, however, we worked with the entire 2-gram dataset. We retained only 2-grams in which the word filling in the blank was at least four characters long. We again combined 2-grams if the "blank" words had the same lemma and omitted a number of 2-grams in with the "blank" word rendered a 2-gram that was not ecologically relevant (Table \@ref(tab:bad-blanks)). We also omitted "biological conservation", since it appeared disproportionally as a journal name.
+We conducted our fill-in-the-blank analysis using a similar approach to the top-nine-terms-by-decade approach described above. In contrast, however, we worked with the entire 2-gram dataset. We retained only 2-grams in which the word filling in the blank was at least four characters long. We combined 2-grams if the "blank" words had the same lemma and omitted a number of 2-grams in with the "blank" word rendered a 2-gram that was not ecologically relevant (Table \@ref(tab:bad-blanks)). We also omitted "biological conservation", since it appeared disproportionally as a journal name. We retained the top eight terms according to the total number of occurrences throughout the eight-decade time period.
 
 ## Curated panels
 
