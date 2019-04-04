@@ -107,14 +107,11 @@ journals$Journal[journals$Journal == "Ã‰coscience"] <- "Écoscience"
 n_journals <- nrow(dplyr::filter(journals, `Taxon Specific` == "N"))
 ```
 
-The field of ecology has experienced rapid growth since the discipline-specific journal, *Ecology*, was first published over a century ago [@reiners2017; @kim2018]. Today, with hundreds of ecology journals representing a multitude of subdisciplines, the field spans in scope from general to applied to theoretical and has become increasingly intertwined with the fields of natural history and conservation. In light of such growth and diversification, accomplishing a broad overview of the field can be challenging.
-<!-- TODO: add a sentence about the importance of an overview -->
+The field of ecology has experienced rapid growth since the discipline-specific journal, *Ecology*, was first published over a century ago [@reiners2017; @kim2018]. Today, with hundreds of ecology journals representing a multitude of subdisciplines, the field spans in scope from general to applied to theoretical and has become increasingly intertwined with the fields of natural history and conservation. In light of such growth and diversification, accomplishing a broad overview of the field can be challenging. And yet a broad overview is critical for many reasons including guiding new research and funding directions and structuring educational frameworks [@mccallen2019].
 
 The discipline of culturomics---the quantitative analysis of large bodies of text or corpa---offers a rich framework with which to track the evolution of a field through time [@michel2011; @ladle2016]. Specifically, word use in the published literature can serve as a proxy for tracking realized, versus perceived, importance. This approach has been applied to subsets of the ecological literature, notably a century of titles and abstracts in the journal *Ecology* [@kim2018], automated content analysis of titles and abstracts in top ecology journals based on impact factor [@mccallen2019], and more specific research questions restricted to certain regions or taxa [e.g., @beale2018].
 
-Here, we build on previous analyses [e.g., @carmel2013; @reiners2017; @kim2018; @mccallen2019] by providing the first full-text analysis of ecology and conservation journals over eight decades encompassing `r n_journals` journals, 131,533 articles, and over half a billion words. We base our analysis on the JSTOR full-text corpus of "n-grams" from 1930 to 2010 for all journals that regularly publish ecological or conservation papers and are not regionally or taxonomically exclusive (see Methods). An n-gram is a sequence of terms separated by a space. For example, "biogeography" is a 1-gram and "body size" is a 2-gram (we herein denote n-grams in italics). We standardize n-gram frequency by total words per year and analyze trends over time for a selection of n-grams. We derive our n-gram selection through both algorithmic and hand-curated approaches: (1) drawing on the most frequent and rapidly growing/declining n-grams in various decades and (2) developing logical groupings of terms that fall under key ecology and conservation themes (see Methods). Our approach therefore enables data-derived comparisons of trends in ecology and conservation to yield insights into the evolution of key concepts, analytical techniques, and entire subdisciplines in these fields.
-
-<!-- FIXME: should probably mention that the terms shown in the handpicked panels can represent many underlying related terms. Or do this in the first handpicked figure. -->
+Here, we build on previous analyses [e.g., @carmel2013; @reiners2017; @kim2018; @mccallen2019] by providing the first full-text analysis of ecology and conservation journals over eight decades encompassing `r n_journals` journals, 131,533 articles, and over half a billion words. We base our analysis on the JSTOR full-text corpus of "n-grams" from 1930 to 2010 for all journals that regularly publish ecological or conservation papers and are not regionally or taxonomically exclusive (see Methods). An n-gram is a sequence of terms separated by a space. For example, "biogeography" is a 1-gram and "body size" is a 2-gram (we herein denote n-grams in italics). Here, we standardize n-gram frequency by total words per year and analyze trends over time for a selection of n-grams. We derive our n-gram selection through both algorithmic and hand-curated approaches: (1) drawing on the most frequent and rapidly growing/declining n-grams in various decades and (2) developing logical groupings of terms that fall under key ecology and conservation themes (see Methods). Our approach therefore enables data-derived comparisons of trends in ecology and conservation to yield insights into the evolution of key concepts, analytical techniques, and entire subdisciplines in these fields.
 
 # Results
 
@@ -260,7 +257,7 @@ include_graphics(here("figs/blanks-viridis5.pdf"))
 
 \clearpage
 
-(ref:fig-ecology-cap) **Community ecology n-grams from 1930--2010.** Curated sets of n-grams related to themes in community ecology. Light grey lines indicate frequency of the n-gram per 100,000 words. Dark coloured trend lines and associated shaded ribbons represent generalized additive model (GAM) fits and 95% confidence intervals (see Supporting Material).
+(ref:fig-ecology-cap) **Community ecology n-grams from 1930--2010.** Curated sets of n-grams related to themes in community ecology. Light grey lines indicate frequency of the n-gram per 100,000 words. Dark coloured trend lines and associated shaded ribbons represent generalized additive model (GAM) fits and 95% confidence intervals (see Supporting Material). 
 
 ```{r ecology, fig.cap = "(ref:fig-ecology-cap)"}
 include_graphics(here("figs/ecology-panels3.pdf"))
@@ -268,7 +265,12 @@ include_graphics(here("figs/ecology-panels3.pdf"))
 
 \clearpage
 
-(ref:fig-methods-cap) **Data analysis, statistical methods, and genetics n-grams from 1930--2010.**
+(ref:fig-methods-cap) **Data analysis, statistical methods, and genetics n-grams from 1930--2010.** Note that in this and subsequent figures, the n-gram labels sometimes refer to multiple underlying related n-grams. For example, *supplementary material* refers to multiple n-grams including *supplementary material*, *supporting information*, and *SOM*. 
+*ANOVA*: analysis of variance, 
+*GLM*: generalized linear model, 
+*AIC*: Akaike information criterion, 
+*MCMC*: Markov chain Monte Carlo, 
+*RT-PCR*: reverse transcription polymerase chain reaction.
 
 ```{r methods, fig.cap = "(ref:fig-methods-cap)"}
 include_graphics(here("figs/methods-models-genetics2.pdf"))
@@ -285,6 +287,7 @@ include_graphics(here("figs/conservation-human-impacts.pdf"))
 \clearpage
 
 (ref:fig-social-cap) **Social science n-grams relevant to ecology from 1930--2010.**
+*REDD*: Reducing Emissions from Deforestation and Forest Degradation.
 
 ```{r social, fig.cap = "(ref:fig-social-cap)"}
 include_graphics(here("figs/social-science-panels3.pdf"))
