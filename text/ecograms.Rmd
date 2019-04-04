@@ -188,7 +188,7 @@ Looking forward...?
 JSTOR, Smith,  Smith Fellows, M.P. Dombeck, S.G. Foster, anyone who helped and declines to be an
 author...
 
-The full-text corpus is available through consultation with the JSTOR data team (<https://jstor.org>. All code to conduct our analysis is available at <https://github.com/seananderson/ecology-trends> and *Zenodo DOI goes here on publication*.
+The full-text corpus is available through consultation with the JSTOR data team (<https://jstor.org)>. All code to conduct our analysis and some derived data sets available at <https://github.com/seananderson/ecology-trends> and *Zenodo DOI goes here on publication*.
 
 # Methods
 
