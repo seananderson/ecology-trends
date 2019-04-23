@@ -47,8 +47,9 @@ order,panel,gram,gram_canonical
  ,Genetic fields,genetic engineering,genetic engineering
  ,Genetic fields,conservation genetics,conservation genetics
 6,Genetic tools,environmental DNA,eDNA
- ,Genetic tools,gene drive,gene drive
  ,Genetic tools,qPCR,q/RT-PCR
+ ,Genetic tools,mitochondrial DNA,mtDNA
+ ,Genetic tools,mtDNA,mtDNA
  ,Genetic tools,RT-PCR,q/RT-PCR
  ,Genetic tools,genome sequencing,whole genome sequencing
  ,Genetic tools,single nucleotide polymorphisms,single nucleotide polymorphism
