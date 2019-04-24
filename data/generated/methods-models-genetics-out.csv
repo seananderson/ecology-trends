@@ -1478,11 +1478,6 @@ year,panel,gram_canonical,total_words,total
 2009,6: Genetic tools,eDNA,26767306,12
 2010,6: Genetic tools,eDNA,23931224,9
 2011,6: Genetic tools,eDNA,24867009,13
-2007,6: Genetic tools,gene drive,23407699,1
-2008,6: Genetic tools,gene drive,26392520,22
-2009,6: Genetic tools,gene drive,26767306,4
-2010,6: Genetic tools,gene drive,23931224,4
-2011,6: Genetic tools,gene drive,24867009,1
 1992,6: Genetic tools,microsatellites,11532841,1
 1993,6: Genetic tools,microsatellites,11863228,10
 1994,6: Genetic tools,microsatellites,12424547,75
@@ -1503,6 +1498,51 @@ year,panel,gram_canonical,total_words,total
 2009,6: Genetic tools,microsatellites,26767306,1268
 2010,6: Genetic tools,microsatellites,23931224,1171
 2011,6: Genetic tools,microsatellites,24867009,1199
+1965,6: Genetic tools,mtDNA,2366519,13
+1966,6: Genetic tools,mtDNA,2646845,1
+1967,6: Genetic tools,mtDNA,2436421,14
+1968,6: Genetic tools,mtDNA,2817575,1
+1969,6: Genetic tools,mtDNA,3165729,15
+1971,6: Genetic tools,mtDNA,3876617,1
+1973,6: Genetic tools,mtDNA,3944110,1
+1974,6: Genetic tools,mtDNA,4327880,13
+1975,6: Genetic tools,mtDNA,4926792,1
+1976,6: Genetic tools,mtDNA,4851135,18
+1977,6: Genetic tools,mtDNA,5986495,33
+1978,6: Genetic tools,mtDNA,5653233,6
+1979,6: Genetic tools,mtDNA,5693994,3
+1980,6: Genetic tools,mtDNA,6331998,3
+1981,6: Genetic tools,mtDNA,6748054,15
+1982,6: Genetic tools,mtDNA,6661455,9
+1983,6: Genetic tools,mtDNA,7131449,51
+1984,6: Genetic tools,mtDNA,7405435,7
+1985,6: Genetic tools,mtDNA,7790280,44
+1986,6: Genetic tools,mtDNA,7205017,352
+1987,6: Genetic tools,mtDNA,8232279,677
+1988,6: Genetic tools,mtDNA,9127375,341
+1989,6: Genetic tools,mtDNA,9187930,89
+1990,6: Genetic tools,mtDNA,9827250,383
+1991,6: Genetic tools,mtDNA,10692126,444
+1992,6: Genetic tools,mtDNA,11532841,777
+1993,6: Genetic tools,mtDNA,11863228,544
+1994,6: Genetic tools,mtDNA,12424547,643
+1995,6: Genetic tools,mtDNA,13968243,632
+1996,6: Genetic tools,mtDNA,15100715,1114
+1997,6: Genetic tools,mtDNA,15395967,718
+1998,6: Genetic tools,mtDNA,16912010,1148
+1999,6: Genetic tools,mtDNA,16924957,1573
+2000,6: Genetic tools,mtDNA,18064233,1087
+2001,6: Genetic tools,mtDNA,19322097,1043
+2002,6: Genetic tools,mtDNA,18790584,674
+2003,6: Genetic tools,mtDNA,20408258,821
+2004,6: Genetic tools,mtDNA,20858212,1147
+2005,6: Genetic tools,mtDNA,21777074,1531
+2006,6: Genetic tools,mtDNA,23460538,1220
+2007,6: Genetic tools,mtDNA,23407699,1078
+2008,6: Genetic tools,mtDNA,26392520,1446
+2009,6: Genetic tools,mtDNA,26767306,1670
+2010,6: Genetic tools,mtDNA,23931224,1785
+2011,6: Genetic tools,mtDNA,24867009,1449
 1968,6: Genetic tools,next generation sequencing,2817575,1
 1970,6: Genetic tools,next generation sequencing,3398488,4
 1971,6: Genetic tools,next generation sequencing,3876617,17

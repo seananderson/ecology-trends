@@ -142,17 +142,10 @@ Ecology has increasingly become a data- and model-centric discipline (Fig. \@ref
 
 Such statistical approaches and paradigms have been associated with endless debates about the role of hypothesis testing in ecology [@quinn1983; @burnham2002; @johnson2004]. To that end, use of the phrase *null hypothesis* peaked in the 1980s and the phrase *significant difference* peaked around 1990 and has declined since (Fig. \@ref(fig:methods)c). The associated terms *p-value* and *confidence interval* appeared in approximately equal frequency as of 2010 (Fig. \@ref(fig:methods)c), although both are often referred to by abbreviations missed in our corpus (e.g. "p =" or "CI"). *Power analysis* remains a rarely used term despite numerous pleas of its importance [@nakagawa2007; @smith2011d]. The increased frequency of so many data- and model-centric terms, along with the advent of online publishing, has coincided with the meteoric rise of *supplementary material* n-grams since around 2000---the 2-gram itself had the second most rapid increase across all 2-grams from 2000--2010 (Fig. \@ref(fig:decades)f)---and a concomitant decline in *unpublished data* (Fig. \@ref(fig:methods)d).
 
-<!-- TODO: consider breaking into two paragraphs  -->
-<!-- TODO: if breaking into two paragraphs then could expand slightly on debates on p-values, Burnham and Anderson etc. -->
-
 ## Genetics
 
-The focus on genetics in ecology and conversation-related research has skyrocketed in the last several decades (*genetic diversity* in Fig. \@ref(fig:blanks)f, Fig. \@ref(fig:methods)ef). 
-
-*Phylogenetics* remained the most commonly referenced genetic term from 1930 to 2010, and increased in use rapidly since the 1990s (Fig. \@ref(fig:methods)e). With the advent of *next-generation sequencing* [@sanger1977], we have also seen an increase in sequencing-based approaches to studying genetic diversity, particularly the rise in references to *single nucleotide polymorphisms* (Fig. \@ref(fig:methods)f). Notably, the term *epigenetics* has been in use since the 1950s (Fig. \@ref(fig:methods-all)), before ecologists even had methods for studying epigenetics in the modern sense [@bird2007]. This is likely because, beginning in the 1940s, *epigenetics* was used to refer to the differentiation of cells during embryonic development [@waddington2012].
-
-
-*Microsatellites* and *mtDNA* remain the most commonly referenced genetic tools, with microsatellites skyrocketing in use since the mid-1990s. With the advent of *next-generation sequencing* [@sanger1977], we have also seen an increase in sequencing-based approaches to studying genetic diversity, particularly the rise in references to *single nucleotide polymorphisms* (Fig. \@ref(fig:methods)f). Since 2010, when our data set ends, there has likely been an increase in references to *next-generation sequencing* given that it is rapidly being adopted in ecological research of many species---not just model species.
+The focus on genetics in ecology and conversation-related research has skyrocketed in the last several decades (*genetic diversity* in Fig. \@ref(fig:blanks)f, Fig. \@ref(fig:methods)ef, Fig. \@ref(fig:methods-all)). 
+*Phylogenetics* remained the most commonly referenced genetic term from 1930 to 2010, and increased in use rapidly since the 1990s (Fig. \@ref(fig:methods)e). In terms of genetic tools, *Microsatellites* and *mtDNA* are now the most commonly referenced terms. With the advent of *next-generation sequencing* [@sanger1977], we have also seen an increase in sequencing-based approaches to studying genetic diversity, particularly the rise in references to *single nucleotide polymorphisms* (Fig. \@ref(fig:methods)f). Since 2010, when our dataset ends, there has likely been a continued increase in references to *next-generation sequencing* given that it is now widely adopted in ecological research of many species---not just model species [REF].
  
 <!-- TODO: add paragraph about different genetic tools and potential ongoing evolution of genetic fields (one of we perhaps missed and stopping in 2010?) -->
 
@@ -263,6 +256,7 @@ include_graphics(here("figs/ecology-panels3.pdf"))
 *GLM*: generalized linear model,
 *AIC*: Akaike information criterion,
 *MCMC*: Markov chain Monte Carlo,
+*mtDNA*: mitochondrial DNA,
 *RT-PCR*: reverse transcription polymerase chain reaction.
 
 ```{r methods, fig.cap = "(ref:fig-methods-cap)"}
