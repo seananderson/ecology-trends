@@ -5,15 +5,23 @@ author:
 - "Paul R. Elsen^2^"
 - "Brent B. Hughes^3^"
 - "Rebecca K. Tonietto^4^"
+- "Molly C. Bletz^5^"
+- "David A. Gill^6^"
+- "Mariah H. Meek^7^"
+- "Diogo Veríssimo^8,9,10^"
 - "Add Your Name Here in Alphabetical Order^X^"
-- "Mariah H. Meek^5^"
 date: |
   ^1^Pacific Biological Station, Fisheries and Oceans Canada
-     Nanaimo, BC, V6T 6N7, Canada; sean.anderson@dfo-mpo.gc.ca\
+     Nanaimo, BC, V6T 6N7, Canada\
   ^2^Department of Forest and Wildlife Ecology, University of Wisconsin-Madison, WI 53706, USA\
   ^3^Department of Biology, Sonoma State University, Rohnert Park, CA 94928, USA\
   ^4^Department of Biology, University of Michigan-Flint, Flint, MI 48502, USA\
-  ^5^Department of Integrative Biology and AgBio Research, Michigan State University, East Lansing, MI 48824, USA\
+  ^5^Department of Biology, University of Massachusetts Boston, 100 Morrissey Blvd., Boston, MA 02125, USA
+  ^6^Duke Univ Marine Lab, 135 Duke Marine Lab Road, Beaufort, NC 28516, USA\
+  ^7^Department of Integrative Biology and AgBio Research, Michigan State University, East Lansing, MI 48824, USA\
+  ^8^Oxford Department of Zoology, University of Oxford, Oxford, United Kingdom\
+  ^9^Oxford Martin School, University of Oxford, Oxford, United Kingdom\
+  ^10^San Diego Zoo Institute for Conservation Research, Escondido, CA, USA\
   ^X^Add Your Address Here
 output:
   bookdown::pdf_document2:
@@ -185,7 +193,7 @@ Our analyses allow ecologists to reflect on the past, present, and future of the
 JSTOR, Smith,  Smith Fellows, M.P. Dombeck, S.G. Foster, anyone who helped and declines to be an
 author...
 
-The full-text corpus is available through consultation with the JSTOR data team (<https://jstor.org)>. All code to conduct our analysis and some derived data sets available at <https://github.com/seananderson/ecology-trends> and *Zenodo DOI goes here on publication*.
+The full-text corpus is available through consultation with the JSTOR data team (<https://jstor.org)>. All code to conduct our analysis is available at <https://github.com/seananderson/ecology-trends> and *insert Zenodo DOI here on publication*.
 
 # Methods
 
@@ -309,7 +317,7 @@ include_graphics(here("figs/blanks-extras-2018-08-09.pdf"))
 
 <!-- TODO: do we want to include this extra supplemental figure? -->
 
-```{r genetics-supp, fig.cap = "TODO"}
+```{r genetics-supp, fig.cap = "TODO", include=FALSE}
 include_graphics(here("figs/genetics-supp.pdf"))
 ```
 
