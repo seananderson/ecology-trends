@@ -18,6 +18,7 @@ order,panel,gram,gram_canonical
  ,Statistical paradigms,bayesian,Bayesian
  ,Statistical paradigms,bayes,Bayesian
  ,Statistical paradigms,aic,AIC
+ ,Statistical paradigms,aic,AICc
 3,Hypothesis testing,confidence interval,confidence interval
  ,Hypothesis testing,confidence intervals,confidence interval
  ,Hypothesis testing,null hypothesis,null hypothesis
@@ -29,23 +30,36 @@ order,panel,gram,gram_canonical
  ,Hypothesis testing,pvalues,p-value
  ,Hypothesis testing,significant difference,significant difference
  ,Hypothesis testing,significant differences,significant difference
+ ,Hypothesis testing,significantly different,significant difference
 4,Supporting information,unpublished data,unpublished data
  ,Supporting information,supplementary material,supplementary material
  ,Supporting information,supplementary materials,supplementary material
  ,Supporting information,supporting information,supplementary material
  ,Supporting information,supporting online material,supplementary material
  ,Supporting information,supporting online materials,supplementary material
+ ,Supporting information,supplemental material,supplementary material
+ ,Supporting information,supplemental materials,supplementary material
+ ,Supporting information,supporting documents,supplementary material
+ ,Supporting information,supporting document,supplementary material
+ ,Supporting information,personal communication,personal communication
+ ,Supporting information,pers comm,personal communication
+ ,Supporting information,pers commun,personal communication
  ,Supporting information,som,supplementary material
 5,Genetic fields,ecological genomics,ecological genomics
  ,Genetic fields,epigenetics,epigenetics
+ ,Genetic fields,epigenetic,epigenetics
  ,Genetic fields,genetic diversity,genetic diversity
  ,Genetic fields,metagenomics,Omics techniques
+ ,Genetic fields,metagenomic,Omics techniques
  ,Genetic fields,molecular ecology,molecular ecology
  ,Genetic fields,phylogenetic,phylogenetics
  ,Genetic fields,proteomics,Omics techniques
+ ,Genetic fields,proteomic,Omics techniques
  ,Genetic fields,transcriptomics,Omics techniques
+ ,Genetic fields,transcriptomic,Omics techniques
  ,Genetic fields,genetic engineering,genetic engineering
  ,Genetic fields,conservation genetics,conservation genetics
+ ,Genetic fields,conservation genomics,conservation genetics
 6,Genetic tools,environmental DNA,eDNA
  ,Genetic tools,qPCR,q/RT-PCR
  ,Genetic tools,mitochondrial DNA,mtDNA
@@ -53,6 +67,8 @@ order,panel,gram,gram_canonical
  ,Genetic tools,RT-PCR,q/RT-PCR
  ,Genetic tools,genome sequencing,whole genome sequencing
  ,Genetic tools,single nucleotide polymorphisms,single nucleotide polymorphism
+ ,Genetic tools,SNP,single nucleotide polymorphism
+ ,Genetic tools,SNPs,single nucleotide polymorphism
  ,Genetic tools,RNA-seq,RNA-seq
  ,Genetic tools,microsatellite,microsatellites
  ,Genetic tools,microsatellites,microsatellites
