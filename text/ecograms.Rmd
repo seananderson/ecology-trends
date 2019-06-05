@@ -204,6 +204,9 @@ There are a number of important caveats to keep in mind when interpreting our re
 Our analyses allow ecologists to reflect on the past, present, and future of their field. Within eight decades, the field evolved from focussing on natural history and observational field studies to a multidisciplinary field that is more applied and quantitative in scope. Undoubtedly, the fields of ecology and conservation have and will continue to adopt approaches developed elsewhere, such as analyses of increasingly large datasets and the use of deep learning [@christin2018], which will empower ecologists to answer questions that were previously unanswerable. Yet, while quantitative and meta-analysis-style research---this paper included---can undoubtedly be valuable, if ecology wishes to maintain its natural-history and fundamental-science roots, the field needs to prioritize such a focus through research funding bodies and educational curricula for the production of works from which we can scale-up findings [@osenberg1999]. As we see it, ecology today is almost unrecognizable from the field 90 years ago; only time will tell if this rate of evolution will continue, leaving ecologists in 2100 with a similar sentiment.
 
 <!-- TODO: make sure we include some more citations from nat ecol evol -->
+<!-- went through NEE and there wasn't much there in terms of things to cite: here are some suggested articles:
+Sandbrook C, JA Fisher, G Holmes, R Luque-Lora, A Keane. 2019. The global conservation movement is diverse but not divided. 
+Anton et al. 2019. Global ecological impacts of marine exotic species.
 
 # Acknowledgements
 
