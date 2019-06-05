@@ -44,7 +44,7 @@ make_handpicked_panel(
 g <- make_handpicked_panel(
   terms_file = "data/conservation-human-impacts.csv",
   csv_out    = "data/generated/conservation-human-impacts-out.csv",
-  cache_file = "data/generated/conservation-human-impacts.rds",
+  cache_file = "data/generated/conservation-human-impacts1.rds",
   fig_file   = "figs/conservation-human-impacts.pdf",
   fig_height = 6.5 * 3 / 2 * gold(),
   fig_width  = 6.5,
