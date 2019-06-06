@@ -125,7 +125,7 @@ exclude <- c("iii", "nat", "min", "bull", "physiol", "zool", "line", "und",
   "note", "trans", "ment", "pre", "dis", "way", "pre", "soc", "other",
   "i.e", "ing", "biol", "might", "ecol", "fontenc", "encodingdefault",
   "American", "part", "well", "following", "paper", "example", "term",
-  "show", "press", "series", "fig", "figure")
+  "show", "press", "series", "fig", "figure", "society", "usa")
 pop1 <- pop1 %>% filter(!tolower(lemma) %in% tolower(exclude))
 
 exclude2 <- c("nature lond", "tempera ture", "popula tion", "tempera tures",
@@ -143,7 +143,17 @@ exclude2 <- c("nature lond", "tempera ture", "popula tion", "tempera tures",
   "chicago press", "Chicago press", "relation ship", "blackwell science",
   "research special", "press Cambridge", "press cambridge", "landscape mathrm"
 )
+exclude3 <- c("animal ecology", "approxi mately", "biol chem", "biological conservation",
+  "biological science", "chromo somes", "experi ment", "functional ecology",
+  "global change", "global ecology", "holarctic ecology", "physiol lond",
+  "press london", "many case", "upper part", "such case", "different type",
+  "other animal", "right angle", "more rapid", "more likely", "small amount",
+  "other factor", "puerto rico", "high level", "more important",
+  "north american", "forest service", "british columbia",
+  "previous study", "total number")
+
 pop2 <- pop2 %>% filter(!tolower(lemma) %in% tolower(exclude2))
+pop2 <- pop2 %>% filter(!tolower(lemma) %in% tolower(exclude3))
 
 pop1_plot <- shape_top_decade(pop1, gram_db = gram_db1, total1 = total1,
   top = 144)
