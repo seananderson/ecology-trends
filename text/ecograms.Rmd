@@ -135,7 +135,7 @@ Here, we build on previous analyses [e.g., @carmel2013; @reiners2017; @kim2018; 
 
 ## Broad trends in popularity
 
-Over the last eighty years, the most commonly used 1- and 2-grams in ecology shifted from more fundamental ecology toward more applied ecology (Fig. \@ref(fig:decades)a--d; Fig. \@ref(fig:-declines-cap)). Of the nine 1-grams that were most common in the 1940s, the top three remained the same in the 2000s: *species*, *plant*, and *area*. However, the remaining most-common 1-grams in the 1940s (e.g., *time*, *water*, *temperature*) and all top-nine 2-grams from that era (e.g., *organic matter*, *soil moisture*) declined in use over time (Fig. \@ref(fig:decades)a--b), whereas many of the most popular 2-grams in the 2000s did not even appear in the corpus until after 1970 (Fig. \@ref(fig:decades)d). By far, the 1- and 2-grams with the greatest rise in use over time were *climate* and *climate change* (Fig. \@ref(fig:decades)d--f), as concern over climate change increased alongside the growth of conservation science [@li2011; @scheffers2016; @staples2019] (Fig. \@ref(fig:decades)e). To that end, the 1- and 2-grams with the most rapid increases from 1980--2010 reflected a strong trend towards applied ecological research (e.g., *conservation*, *impact*, *biodiversity*, *ecosystem service*, *invasive species*, and *global ecology*; Fig. \@ref(fig:decades)e--f).
+Over the last eighty years, the most commonly used 1- and 2-grams in ecology shifted from more fundamental ecology toward more applied ecology (Fig. \@ref(fig:decades)a--d; Fig. \@ref(fig:declines-supp)). Of the nine 1-grams that were most common in the 1940s, the top three remained the same in the 2000s: *species*, *plant*, and *area*. However, the remaining most-common 1-grams in the 1940s (e.g., *time*, *water*, *temperature*) and all top-nine 2-grams from that era (e.g., *organic matter*, *soil moisture*) declined in use over time (Fig. \@ref(fig:decades)a--b), whereas many of the most popular 2-grams in the 2000s did not even appear in the corpus until after 1970 (Fig. \@ref(fig:decades)d). By far, the 1- and 2-grams with the greatest rise in use over time were *climate* and *climate change* (Fig. \@ref(fig:decades)d--f), as concern over climate change increased alongside the growth of conservation science [@li2011; @scheffers2016; @staples2019] (Fig. \@ref(fig:decades)e). To that end, the 1- and 2-grams with the most rapid increases from 1980--2010 reflected a strong trend towards applied ecological research (e.g., *conservation*, *impact*, *biodiversity*, *ecosystem service*, *invasive species*, and *global ecology*; Fig. \@ref(fig:decades)e--f).
 
 <!-- TODO: add some references -->
 
@@ -150,11 +150,11 @@ but was used over twice as often as the next most common conservation term, *nat
 
 ## Ecological scale and community ecology
 
-From the onset, ecologists and conservation biologists studied organisms at the species-level, reflected by the frequent mentions and sustained growth of *species* in the corpus over time (Fig. \@ref(fig:ecology)a, Fig. \@ref(fig:community-all))<!--NOTE (sk): need to change "community-all" supp fig to S2 (now S3); current S2 is niche/theory fill in the blank and I've included it below--> . Though references to the *cell*ular level were initially the next most common, interest within the field of ecology then transitioned to *populations*, followed by *communities* and *ecosystems* (Fig. \@ref(fig:ecology)b). It is perhaps unsurprising that *ecosystems* was the least common given that it is also the youngest scale: ecosystem ecology was not formalized until 1953 by Eugene Odum [@odum1953]. Furthermore, as ecosystem ecology extends into biogeochemistry, our corpus likely missed many relevant ecosystem journals.
+From the onset, ecologists and conservation biologists studied organisms at the species-level, reflected by the frequent mentions and sustained growth of *species* in the corpus over time (Fig. \@ref(fig:ecology)a, Fig. \@ref(fig:community-all)). Though references to the *cell*ular level were initially the next most common, interest within the field of ecology then transitioned to *populations*, followed by *communities* and *ecosystems* (Fig. \@ref(fig:ecology)b). It is perhaps unsurprising that *ecosystems* was the least common given that it is also the youngest scale: ecosystem ecology was not formalized until 1953 by Eugene Odum [@odum1953]. Furthermore, as ecosystem ecology extends into biogeochemistry, our corpus likely missed many relevant ecosystem journals.
 
 Population and community ecology are worth further consideration as they represent the next two most common ecological scales following species. While *population* was a more common 1-gram than *community*, the terms may be linked considering that many community ecology papers will include the study of *populations*. The way we study populations and communities appears to have changed over time. Mathematical Lotka-Volterra models emerged in the 1920s to examine competition and predator-prey dynamics, and *competition* and *predation* were the interactions most commonly included in the corpus (Fig. \@ref(fig:ecology)c) corresponding with calls from ecologists to consider the importance of *facilitation* and *mutualism* in ecological theories [@bruno2003; @brooker2008]. Yet, both interactions experienced steep declines since the 1980s and early 2000s, respectively (Fig. \@ref(fig:ecology)c). The declines perhaps reflect that Lotka-Volterra models, while overly simple, marked the beginning of mathematical ecology that has now moved beyond one or two species to explain more complex community dynamics, such as food web structure and ecological niche modeling (Fig. \@ref(fig:blanks-supp)c--d).
 
-The most commonly represented theories of community ecology, which were posed to explain community structure and diversity patterns, all appeared to decline from peak levels (Fig. \@ref(fig:ecology)d, Fig. \@ref(fig:blanks-supp)a--b). <!--Note (sk): change the fig"blanks-supp" to S3 (now S2) to align numbering correctly--> For example, the theory of the *climax community* climaxed in the 1940s [@clements1936], followed by a peak for the *theory of island* biogeography in the late 1970s [@macarthur1967], and a peak and dropoff in *neutral theory* in the mid-2000s [@hubbell2001] (Fig. \@ref(fig:ecology)d). We also saw changing patterns around the hypotheses predicting biodiversity. Specifically, one of the earliest hypotheses stemming from Darwin's finches is the *competition hypothesis*, which peaked in the 1980s and was replaced by the *intermediate disturbance hypothesis* [@connell1978] (Fig. \@ref(fig:ecology)e). Yet, the *intermediate disturbance hypothesis* peaked itself in the 2000s, perhaps explained by later critiques [@fox2013] (Fig. \@ref(fig:ecology)e). Population and community ecologists may now favour asking what drives biodiversity. Indeed, metrics of *diversity*, which incorporates both *abundance* and *richness*, have steadily increased since 1990 (Fig. \@ref(fig:ecology)f).
+The most commonly represented theories of community ecology, which were posed to explain community structure and diversity patterns, all appeared to decline from peak levels (Fig. \@ref(fig:ecology)d, Fig. \@ref(fig:blanks-supp)a--b). For example, the theory of the *climax community* climaxed in the 1940s [@clements1936], followed by a peak for the *theory of island* biogeography in the late 1970s [@macarthur1967], and a peak and dropoff in *neutral theory* in the mid-2000s [@hubbell2001] (Fig. \@ref(fig:ecology)d). We also saw changing patterns around the hypotheses predicting biodiversity. Specifically, one of the earliest hypotheses stemming from Darwin's finches is the *competition hypothesis*, which peaked in the 1980s and was replaced by the *intermediate disturbance hypothesis* [@connell1978] (Fig. \@ref(fig:ecology)e). Yet, the *intermediate disturbance hypothesis* peaked itself in the 2000s, perhaps explained by later critiques [@fox2013] (Fig. \@ref(fig:ecology)e). Population and community ecologists may now favour asking what drives biodiversity. Indeed, metrics of *diversity*, which incorporates both *abundance* and *richness*, have steadily increased since 1990 (Fig. \@ref(fig:ecology)f).
 <!-- SK: Although the term *niche* reamins a fundamental concept in community ecology (@Reiners2017), we never identified it as a top ??144??? 1-grams for any given time period (ADD "DECADAL GIANT" FIG CITE HERE). Despite this, we used the same fill-in-the-blank algorethms, we foudn the terms *niche breadth* and *niche width* were the most frequently used in the 1970's and 1980s, being replaced by the terms *niche model* and *niche conservatism* as the most frequent today (Fig. \@ref(fig:blanks-supp)c--d). We find that the term *ecological niche* has rapidly increased in frequency as the most frequent descriptor of *niche* (Fig. \@ref(fig:blanks-supp)d). -->
 
 <!-- TODO: add references to the community ecology [SK - I added a few on the rise of facilitation and muturalism into ecolgoy...don't know if that gets at what you're looking for?  -->
@@ -254,7 +254,7 @@ Using the filtered dataset as described above with the top 500 1- and 2-grams, w
 
 When presenting these and all subsequent timeseries, we fit Generalized Additive Models (GAMs) with the R package mgcv [@wood2017] to characterize the general trends and uncertainty about those trends. We fit models of the form $y_i \sim \mathrm{QuasiPoisson}(\mu_i),\ $ $\log(\mu_i) = \beta_0 + s(\mathrm{year_i}) + \log(\mathrm{total}_i)$, where all symbols have the same meaning as in the previous paragraph and the term $s(\mathrm{year_i})$ represents a thin-plate regression spline [@wood2003] smoother over time.
 
-We conducted our fill-in-the-blank analysis (Fig. \@ref(fig:blanks), Fig. \@ref(fig:blanks-supp) using a similar approach to the top-nine-terms-by-decade approach described above. In contrast, however, we worked with the entire 2-gram dataset. We retained only 2-grams in which the word filling in the blank was at least four characters long. We combined 2-grams if the "blank" words had the same lemma and omitted a number of 2-grams in which the "blank" word rendered a 2-gram that was not ecologically relevant (Table \@ref(tab:bad-blanks)). We also omitted "biological conservation", since it appeared disproportionally as a journal name. We retained the top eight terms according to the total number of occurrences throughout the eight-decade time period.
+We conducted our fill-in-the-blank analysis (Fig. \@ref(fig:blanks), Fig. \@ref(fig:blanks-supp)) using a similar approach to the top-nine-terms-by-decade approach described above. In contrast, however, we worked with the entire 2-gram dataset. We retained only 2-grams in which the word filling in the blank was at least four characters long. We combined 2-grams if the "blank" words had the same lemma and omitted a number of 2-grams in which the "blank" word rendered a 2-gram that was not ecologically relevant (Table \@ref(tab:bad-blanks)). We also omitted "biological conservation", since it appeared disproportionally as a journal name. We retained the top eight terms according to the total number of occurrences throughout the eight-decade time period.
 
 ## Curated panels
 
@@ -336,6 +336,20 @@ include_graphics(here("figs/booms-decline.pdf"))
 
 \clearpage
 
+```{r}
+make_facet_cap <- function(label) {
+  paste0("Individual trends in n-gram frequency for the data underlying Fig. \\@ref(fig:", label, "). The terms listed in the top row above each panel refer to the aggregate term displayed in Fig. \\@ref(fig:", label, "). The terms listed on the second row above each panel refer to an underlying n-gram that was searched in the corpus.")
+}
+```
+
+(ref:fig-community-all-cap) `r make_facet_cap("ecology")` For this supplemental figure, the top and bottom rows happened to be the same.
+
+```{r community-all, fig.cap = "(ref:fig-community-all-cap) ", out.width="\\textwidth", fig.align="center"}
+include_graphics(here("figs/community-ecology-facets.pdf"))
+```
+
+\clearpage
+
 (ref:fig-blanks-supp-cap) Additional fill-in-the-blank figure panels using the same approach as Fig. \@ref(fig:blanks). Each panel shows the top eight 2-gram terms where the *blank* in the panel label is filled in by the noun or adjective indicated beside each trend. For example, in panel **a**, "Theory of *blank*" with the term "evolution" corresponds to "Theory of evolution".
 
 ```{r blanks-supp, fig.cap = "(ref:fig-blanks-supp-cap)"}
@@ -348,21 +362,6 @@ include_graphics(here("figs/blanks-extras-2018-08-09.pdf"))
 
 ```{r genetics-supp, fig.cap = "TODO", include=FALSE}
 include_graphics(here("figs/genetics-supp.pdf"))
-```
-
-\clearpage
-
-```{r}
-make_facet_cap <- function(label) {
-  paste0("Individual trends in n-gram frequency for the data underlying Fig. \\@ref(fig:", label, "). The terms listed in the top row above each panel refer to the aggregate term displayed in Fig. \\@ref(fig:", label, "). The terms listed on the second row above each panel refer to an underlying n-gram that was searched in the corpus.")
-}
-```
-
-
-(ref:fig-community-all-cap) `r make_facet_cap("ecology")` For this supplemental figure, the top and bottom rows happened to be the same.
-
-```{r community-all, fig.cap = "(ref:fig-community-all-cap) ", out.width="\\textwidth", fig.align="center"}
-include_graphics(here("figs/community-ecology-facets.pdf"))
 ```
 
 \clearpage
