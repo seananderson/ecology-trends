@@ -9,6 +9,7 @@ author:
 - "David A. Gill^6^"
 - "Mariah H. Meek^7^"
 - "Diogo Veríssimo^8,9,10^"
+- "Caitlin McDonough MacKenzie^11"
 - "Names Added Here in Alphabetical Order^X^"
 date: |
   ^1^Pacific Biological Station, Fisheries and Oceans Canada
@@ -22,6 +23,7 @@ date: |
   ^8^Oxford Department of Zoology, University of Oxford, Oxford, United Kingdom\
   ^9^Oxford Martin School, University of Oxford, Oxford, United Kingdom\
   ^10^San Diego Zoo Institute for Conservation Research, Escondido, CA, USA\
+  ^11^Climate Change Institute, University of Maine, Orono, ME, 04469, USA\
   ^X^Add Your Address Here
 output:
   bookdown::pdf_document2:
@@ -204,7 +206,7 @@ McCallen et al. [@mccallen2019] found a slight decrease in the use of *conservat
 
 There are a number of important caveats to keep in mind when interpreting our results. First, our analysis tracks frequency of term use in the ecological literature but such frequency does not necessarily correspond to the importance of related concepts to the field. For example, some terms may be frequently mentioned in paper introductions but appear less often as the core topic of research. Other terms, such as "conservation", are linked to journal titles such as "Conservation Biology" and appear in the bibliography section of some papers. Second, the quality of the corpus improves through time---the data from the earlier years in our analysis are based on much smaller sample sizes than the more recent data (Fig. \@ref(fig:totals-by-journal), \@ref(fig:total-by-year)) and the data from the earlier years is mostly based on Optical Character Recognition (OCR), which is used to turn scanned PDFs into text with some inevitable errors. Third, the journals included in the corpus are not a random sample across the field of ecology. Our corpus does not include some prominent journals that publish ecological research (e.g., "Science" and "Nature"), nor does it include taxonomic-specific journals such as the "American Journal of Botany" or "The Journal of Wildlife Management", which we intentionally excluded to reduce taxonomic bias (see Methods). Despite these unavoidable caveats, we see considerable merit in our full-text analysis of multiple ecological journals in terms of accomplishing a broad overview of the field and contributing to a growing body of knowledge through multiple lines of inference.
 
-Our analyses allow ecologists to reflect on the past, present, and future of their field. Within eight decades, the field evolved from focussing on natural history and observational field studies to a multidisciplinary field that is more applied and quantitative in scope. Undoubtedly, the fields of ecology and conservation have and will continue to adopt approaches developed elsewhere, such as analyses of increasingly large datasets and the use of deep learning [@christin2018], which will empower ecologists to answer questions that were previously unanswerable. Yet, while quantitative and meta-analysis-style research---this paper included---can undoubtedly be valuable, if ecology wishes to maintain its natural-history and fundamental-science roots, the field needs to prioritize such a focus through research funding bodies and educational curricula for the production of works from which we can scale-up findings [@osenberg1999]. As we see it, ecology today is almost unrecognizable from the field 90 years ago; only time will tell if this rate of evolution will continue, leaving ecologists in 2100 with a similar sentiment.
+Our analyses allow ecologists to reflect on the past, present, and future of their field. Within eight decades, the field evolved from focussing on natural history and observational field studies to a multidisciplinary field that is more applied and quantitative in scope. Undoubtedly, the fields of ecology and conservation have and will continue to adopt approaches developed elsewhere, such as analyses of increasingly large datasets and the use of deep learning [@christin2018], which will empower ecologists to answer questions that were previously unanswerable. Yet, while quantitative and meta-analysis-style research---this paper included---can undoubtedly be valuable, if ecology wishes to maintain its natural-history and fundamental-science roots, the field needs to prioritize such a focus through research funding bodies and educational curricula for the production of works from which we can scale-up findings [@osenberg1999]. As we see it, elements of ecology today are almost unrecognizable from the field 90 years ago; only time will tell if this rate of evolution will continue, leaving ecologists in 2100 with a similar sentiment.
 
 <!-- TODO: make sure we include some more citations from nat ecol evol -->
 
