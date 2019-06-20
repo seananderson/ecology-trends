@@ -8,7 +8,7 @@ author:
 - "Molly C. Bletz^5^"
 - "David A. Gill^6^"
 - "Meredith A. Holgerson^7^"
-- "Sara Kuebbing^8^"
+- "Sara E. Kuebbing^8^"
 - "Caitlin McDonough MacKenzie^9^"
 - "Mariah H. Meek^10^"
 - "Diogo Veríssimo^11,12,13^"
