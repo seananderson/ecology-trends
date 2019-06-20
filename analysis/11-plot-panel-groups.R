@@ -75,3 +75,16 @@ g <- make_handpicked_panel(
   right_gap  = 81
 )
 ggsave("figs/social-facets.pdf", width = 13, height = 13)
+
+# Supplemental: --------------------------------------------------------------
+
+g <- make_handpicked_panel(
+  terms_file = "data/supplemental.csv",
+  csv_out    = "data/generated/supplemental-out.csv",
+  cache_file = "data/generated/supplemental.rds",
+  fig_file   = "figs/supplemental-handpicked.pdf",
+  fig_height = 6.5 * 2 / 2 * gold(),
+  fig_width  = 6.5,
+  right_gap  = 81
+)
+ggsave("figs/supplemental-facets.pdf", width = 13, height = 13)
