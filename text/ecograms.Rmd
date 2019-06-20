@@ -7,8 +7,9 @@ author:
 - "Rebecca K. Tonietto^4^"
 - "Molly C. Bletz^5^"
 - "David A. Gill^6^"
-- "Mariah H. Meek^7^"
-- "Diogo Veríssimo^8,9,10^"
+- "Meredith A. Holgerson^7^"
+- "Mariah H. Meek^8^"
+- "Diogo Veríssimo^9,10,11^"
 - "Names Added Here in Alphabetical Order^X^"
 date: |
   ^1^Pacific Biological Station, Fisheries and Oceans Canada
@@ -18,10 +19,11 @@ date: |
   ^4^Department of Biology, University of Michigan-Flint, Flint, MI 48502, USA\
   ^5^Department of Biology, University of Massachusetts Boston, 100 Morrissey Blvd., Boston, MA 02125, USA
   ^6^Duke Univ Marine Lab, 135 Duke Marine Lab Road, Beaufort, NC 28516, USA\
-  ^7^Department of Integrative Biology and AgBio Research, Michigan State University, East Lansing, MI 48824, USA\
-  ^8^Oxford Department of Zoology, University of Oxford, Oxford, United Kingdom\
-  ^9^Oxford Martin School, University of Oxford, Oxford, United Kingdom\
-  ^10^San Diego Zoo Institute for Conservation Research, Escondido, CA, USA\
+  ^7^Department of Biology and Environmental Studies, St. Olaf College, Northfield, MN 55057, USA\
+  ^8^Department of Integrative Biology and AgBio Research, Michigan State University, East Lansing, MI 48824, USA\
+  ^9^Oxford Department of Zoology, University of Oxford, Oxford, United Kingdom\
+  ^10^Oxford Martin School, University of Oxford, Oxford, United Kingdom\
+  ^11^San Diego Zoo Institute for Conservation Research, Escondido, CA, USA\
   ^X^Add Your Address Here
 output:
   bookdown::pdf_document2:
@@ -150,12 +152,13 @@ but was used over twice as often as the next most common conservation term, *nat
 
 ## Ecological scale and community ecology
 
-From the onset, ecologists and conservation biologists studied organisms at the species-level, reflected by the frequent mentions and sustained growth of *species* in the corpus over time (Fig. \@ref(fig:ecology)a, Fig. \@ref(fig:community-all)). Though references to the *cell*ular level were initially the next most common, interest within the field of ecology then transitioned to *populations*, followed by *communities* and *ecosystems* (Fig. \@ref(fig:ecology)b). It is perhaps unsurprising that *ecosystems* was the least common given that it is also the youngest scale: ecosystem ecology was not formalized until 1953 by Eugene Odum [@odum1953]. Furthermore, as ecosystem ecology extends into biogeochemistry, our corpus likely missed many relevant ecosystem journals.
+From the onset, ecologists and conservation biologists studied organisms at the species-level, reflected by the frequent mentions and sustained growth of *species* in the corpus over time (Fig. \@ref(fig:ecology)a, Fig. \@ref(fig:community-all)). Though references to the *cell*ular level were initially the next most common, interest within the field of ecology then transitioned to *populations*, followed by *communities* and *ecosystems* (Fig. \@ref(fig:ecology)b). It is perhaps unsurprising that *ecosystems* was the least common given that it is also the youngest scale: while the term *ecosystem* was first described in 1935 by Sir Arthur Tansley (@Tansley1935), ecosystem ecology was not formalized until 1953 by Eugene Odum [@odum1953]. Furthermore, as ecosystem ecology extends into biogeochemistry, our corpus likely missed many relevant ecosystem journals.
+<!-- MH: this was adding some of Sara's text on Tansley as I couldn't tell if it was in or out up above-- might want to combine either way?
 
 Population and community ecology are worth further consideration as they represent the next two most common ecological scales following species. While *population* was a more common 1-gram than *community*, the terms may be linked considering that many community ecology papers will include the study of *populations*. The way we study populations and communities appears to have changed over time. Mathematical Lotka-Volterra models emerged in the 1920s to examine competition and predator-prey dynamics, and *competition* and *predation* were the interactions most commonly included in the corpus (Fig. \@ref(fig:ecology)c) corresponding with calls from ecologists to consider the importance of *facilitation* and *mutualism* in ecological theories [@bruno2003; @brooker2008]. Yet, both interactions experienced steep declines since the 1980s and early 2000s, respectively (Fig. \@ref(fig:ecology)c). The declines perhaps reflect that Lotka-Volterra models, while overly simple, marked the beginning of mathematical ecology that has now moved beyond one or two species to explain more complex community dynamics, such as food web structure and ecological niche modeling (Fig. \@ref(fig:blanks-supp)c--d).
 
 The most commonly represented theories of community ecology, which were posed to explain community structure and diversity patterns, all appeared to decline from peak levels (Fig. \@ref(fig:ecology)d, Fig. \@ref(fig:blanks-supp)a--b). For example, the theory of the *climax community* climaxed in the 1940s [@clements1936], followed by a peak for the *theory of island* biogeography in the late 1970s [@macarthur1967], and a peak and dropoff in *neutral theory* in the mid-2000s [@hubbell2001] (Fig. \@ref(fig:ecology)d). We also saw changing patterns around the hypotheses predicting biodiversity. Specifically, one of the earliest hypotheses stemming from Darwin's finches is the *competition hypothesis*, which peaked in the 1980s and was replaced by the *intermediate disturbance hypothesis* [@connell1978] (Fig. \@ref(fig:ecology)e). Yet, the *intermediate disturbance hypothesis* peaked itself in the 2000s, perhaps explained by later critiques [@fox2013] (Fig. \@ref(fig:ecology)e). Population and community ecologists may now favour asking what drives biodiversity. Indeed, metrics of *diversity*, which incorporates both *abundance* and *richness*, have steadily increased since 1990 (Fig. \@ref(fig:ecology)f).
-<!-- SK: Although the term *niche* reamins a fundamental concept in community ecology (@Reiners2017), we never identified it as a top ??144??? 1-grams for any given time period (ADD "DECADAL GIANT" FIG CITE HERE). Despite this, we used the same fill-in-the-blank algorethms, we foudn the terms *niche breadth* and *niche width* were the most frequently used in the 1970's and 1980s, being replaced by the terms *niche model* and *niche conservatism* as the most frequent today (Fig. \@ref(fig:blanks-supp)c--d). We find that the term *ecological niche* has rapidly increased in frequency as the most frequent descriptor of *niche* (Fig. \@ref(fig:blanks-supp)d). -->
+<!-- SK: Although the term *niche* reamins a fundamental concept in community ecology (@Reiners2017), we never identified it as a top ??144??? 1-grams for any given time period (ADD "DECADAL GIANT" FIG CITE HERE). Despite this, we used the same fill-in-the-blank algorithms, we found the terms *niche breadth* and *niche width* were the most frequently used in the 1970's and 1980s, being replaced by the terms *niche model* and *niche conservatism* as the most frequent today (Fig. \@ref(fig:blanks-supp)c--d). We find that the term *ecological niche* has rapidly increased in frequency as the most frequent descriptor of *niche* (Fig. \@ref(fig:blanks-supp)d). -->
 
 <!-- TODO: add references to the community ecology [SK - I added a few on the rise of facilitation and muturalism into ecolgoy...don't know if that gets at what you're looking for?  -->
 <!-- TODO: consider splitting into a  on theories and hypotheses, one on metrics and scale, and one on species interactions (short) [SK - I like this how it is... adn don't see a huge advantage of revising this way-->
