@@ -25,19 +25,22 @@ make_handpicked_panel <- function(terms_file, cache_file, fig_file,
 
   if (!file.exists(cache_file) || overwrite_cache) {
     message("Extracting 1 grams")
+    .terms <- terms[N == 1L]
     out1 <- gram_db1 %>%
-      dplyr::filter(gram %in% terms[N == 1L]) %>%
+      dplyr::filter(gram %in% .terms) %>%
       dplyr::collect(n = Inf) %>%
       dplyr::inner_join(total1, by = "year")
 
     message("Extracting 2 grams")
+    .terms <- terms[N == 2L]
     out2 <- gram_db2 %>%
-      dplyr::filter(gram %in% terms[N == 2L]) %>%
+      dplyr::filter(gram %in% .terms) %>%
       dplyr::collect(n = Inf) %>%
       dplyr::inner_join(total1, by = "year")
 
     if (max(N) == 3) {
-      out3 <- get_ngram_dat(terms[N == 3L])
+      .terms <- terms[N == 3L]
+      out3 <- get_ngram_dat(.terms)
       out <- dplyr::bind_rows(out1, out2) %>%
         dplyr::bind_rows(out3) %>%
         unique()
