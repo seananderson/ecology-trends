@@ -1,574 +1,627 @@
 year,panel,gram_canonical,total_words,total
-1920,1: Scale,cell,630090,536
-1921,1: Scale,cell,589125,701
-1922,1: Scale,cell,536084,575
-1923,1: Scale,cell,711435,445
-1924,1: Scale,cell,684937,539
-1925,1: Scale,cell,860483,771
-1926,1: Scale,cell,824677,1047
-1927,1: Scale,cell,797713,779
-1928,1: Scale,cell,889702,633
-1929,1: Scale,cell,880254,1049
-1930,1: Scale,cell,940855,1032
-1931,1: Scale,cell,1279796,943
-1932,1: Scale,cell,1186501,1133
-1933,1: Scale,cell,898679,877
-1934,1: Scale,cell,1224182,1008
-1935,1: Scale,cell,1180563,1199
-1936,1: Scale,cell,1205270,1282
-1937,1: Scale,cell,1333413,1366
-1938,1: Scale,cell,1096306,1002
-1939,1: Scale,cell,977570,836
-1940,1: Scale,cell,1030652,867
-1941,1: Scale,cell,870866,531
-1942,1: Scale,cell,923110,837
-1943,1: Scale,cell,781624,516
-1944,1: Scale,cell,802533,351
-1945,1: Scale,cell,695500,315
-1946,1: Scale,cell,906932,867
-1947,1: Scale,cell,1034692,533
-1948,1: Scale,cell,906817,538
-1949,1: Scale,cell,949573,827
-1950,1: Scale,cell,1257239,866
-1951,1: Scale,cell,1272147,810
-1952,1: Scale,cell,1338935,1333
-1953,1: Scale,cell,1246757,1219
-1954,1: Scale,cell,1348685,1150
-1955,1: Scale,cell,1510331,1044
-1956,1: Scale,cell,1486176,1306
-1957,1: Scale,cell,1535449,1234
-1958,1: Scale,cell,1709098,1393
-1959,1: Scale,cell,1586959,1533
-1960,1: Scale,cell,1782508,1743
-1961,1: Scale,cell,1765657,1507
-1962,1: Scale,cell,1753664,1881
-1963,1: Scale,cell,1844840,1595
-1964,1: Scale,cell,2285016,1861
-1965,1: Scale,cell,2366519,2098
-1966,1: Scale,cell,2646845,2201
-1967,1: Scale,cell,2436421,1580
-1968,1: Scale,cell,2817575,2281
-1969,1: Scale,cell,3165729,3284
-1970,1: Scale,cell,3398488,3361
-1971,1: Scale,cell,3876617,4547
-1972,1: Scale,cell,3861897,2531
-1973,1: Scale,cell,3944110,3023
-1974,1: Scale,cell,4327880,3513
-1975,1: Scale,cell,4926792,3709
-1976,1: Scale,cell,4851135,3981
-1977,1: Scale,cell,5986495,4506
-1978,1: Scale,cell,5653233,3834
-1979,1: Scale,cell,5693994,3947
-1980,1: Scale,cell,6331998,4752
-1981,1: Scale,cell,6748054,5143
-1982,1: Scale,cell,6661455,5304
-1983,1: Scale,cell,7131449,4695
-1984,1: Scale,cell,7405435,5331
-1985,1: Scale,cell,7790280,6036
-1986,1: Scale,cell,7205017,4104
-1987,1: Scale,cell,8232279,4187
-1988,1: Scale,cell,9127375,4422
-1989,1: Scale,cell,9187930,4851
-1990,1: Scale,cell,9827250,5942
-1991,1: Scale,cell,10692126,4875
-1992,1: Scale,cell,11532841,6414
-1993,1: Scale,cell,11863228,5650
-1994,1: Scale,cell,12424547,5793
-1995,1: Scale,cell,13968243,6443
-1996,1: Scale,cell,15100715,5465
-1997,1: Scale,cell,15395967,5196
-1998,1: Scale,cell,16912010,6474
-1999,1: Scale,cell,16924957,6762
-2000,1: Scale,cell,18064233,8446
-2001,1: Scale,cell,19322097,8692
-2002,1: Scale,cell,18790584,6340
-2003,1: Scale,cell,20408258,7531
-2004,1: Scale,cell,20858212,6223
-2005,1: Scale,cell,21777074,7675
-2006,1: Scale,cell,23460538,7799
-2007,1: Scale,cell,23407699,8419
-2008,1: Scale,cell,26392520,10041
-2009,1: Scale,cell,26767306,8839
-2010,1: Scale,cell,23931224,9662
-2011,1: Scale,cell,24867009,12690
-1920,1: Scale,community,630090,7
-1921,1: Scale,community,589125,30
-1922,1: Scale,community,536084,16
-1923,1: Scale,community,711435,65
-1924,1: Scale,community,684937,2
-1925,1: Scale,community,860483,6
-1926,1: Scale,community,824677,73
-1927,1: Scale,community,797713,25
-1928,1: Scale,community,889702,68
-1929,1: Scale,community,880254,50
-1930,1: Scale,community,940855,188
-1931,1: Scale,community,1279796,140
-1932,1: Scale,community,1186501,174
-1933,1: Scale,community,898679,171
-1934,1: Scale,community,1224182,157
-1935,1: Scale,community,1180563,346
-1936,1: Scale,community,1205270,259
-1937,1: Scale,community,1333413,239
-1938,1: Scale,community,1096306,402
-1939,1: Scale,community,977570,213
-1940,1: Scale,community,1030652,405
-1941,1: Scale,community,870866,399
-1942,1: Scale,community,923110,282
-1943,1: Scale,community,781624,95
-1944,1: Scale,community,802533,188
-1945,1: Scale,community,695500,358
-1946,1: Scale,community,906932,330
-1947,1: Scale,community,1034692,434
-1948,1: Scale,community,906817,210
-1949,1: Scale,community,949573,134
-1950,1: Scale,community,1257239,386
-1951,1: Scale,community,1272147,657
-1952,1: Scale,community,1338935,416
-1953,1: Scale,community,1246757,530
-1954,1: Scale,community,1348685,347
-1955,1: Scale,community,1510331,440
-1956,1: Scale,community,1486176,427
-1957,1: Scale,community,1535449,490
-1958,1: Scale,community,1709098,432
-1959,1: Scale,community,1586959,474
-1960,1: Scale,community,1782508,480
-1961,1: Scale,community,1765657,621
-1962,1: Scale,community,1753664,703
-1963,1: Scale,community,1844840,589
-1964,1: Scale,community,2285016,435
-1965,1: Scale,community,2366519,860
-1966,1: Scale,community,2646845,761
-1967,1: Scale,community,2436421,805
-1968,1: Scale,community,2817575,1224
-1969,1: Scale,community,3165729,840
-1970,1: Scale,community,3398488,940
-1971,1: Scale,community,3876617,1247
-1972,1: Scale,community,3861897,1392
-1973,1: Scale,community,3944110,1570
-1974,1: Scale,community,4327880,1829
-1975,1: Scale,community,4926792,1848
-1976,1: Scale,community,4851135,2144
-1977,1: Scale,community,5986495,2603
-1978,1: Scale,community,5653233,2125
-1979,1: Scale,community,5693994,2594
-1980,1: Scale,community,6331998,2928
-1981,1: Scale,community,6748054,3207
-1982,1: Scale,community,6661455,3129
-1983,1: Scale,community,7131449,3733
-1984,1: Scale,community,7405435,3433
-1985,1: Scale,community,7790280,3584
-1986,1: Scale,community,7205017,3645
-1987,1: Scale,community,8232279,4035
-1988,1: Scale,community,9127375,4995
-1989,1: Scale,community,9187930,3826
-1990,1: Scale,community,9827250,5012
-1991,1: Scale,community,10692126,5088
-1992,1: Scale,community,11532841,5889
-1993,1: Scale,community,11863228,5594
-1994,1: Scale,community,12424547,6372
-1995,1: Scale,community,13968243,6848
-1996,1: Scale,community,15100715,8120
-1997,1: Scale,community,15395967,7739
-1998,1: Scale,community,16912010,9093
-1999,1: Scale,community,16924957,9400
-2000,1: Scale,community,18064233,11014
-2001,1: Scale,community,19322097,11057
-2002,1: Scale,community,18790584,11278
-2003,1: Scale,community,20408258,12770
-2004,1: Scale,community,20858212,14355
-2005,1: Scale,community,21777074,13784
-2006,1: Scale,community,23460538,17170
-2007,1: Scale,community,23407699,16763
-2008,1: Scale,community,26392520,19521
-2009,1: Scale,community,26767306,18131
-2010,1: Scale,community,23931224,18378
-2011,1: Scale,community,24867009,18736
-1935,1: Scale,ecosystem,1180563,17
-1936,1: Scale,ecosystem,1205270,1
+1920,1: Scale,cell,630090,1647
+1921,1: Scale,cell,589125,1811
+1922,1: Scale,cell,536084,1484
+1923,1: Scale,cell,711435,1499
+1924,1: Scale,cell,684937,2127
+1925,1: Scale,cell,860483,2414
+1926,1: Scale,cell,824677,3070
+1927,1: Scale,cell,797713,3177
+1928,1: Scale,cell,889702,2401
+1929,1: Scale,cell,880254,3404
+1930,1: Scale,cell,940855,3249
+1931,1: Scale,cell,1279796,3022
+1932,1: Scale,cell,1186501,3525
+1933,1: Scale,cell,898679,2549
+1934,1: Scale,cell,1224182,3172
+1935,1: Scale,cell,1180563,3787
+1936,1: Scale,cell,1205270,3430
+1937,1: Scale,cell,1333413,4760
+1938,1: Scale,cell,1096306,2346
+1939,1: Scale,cell,977570,2460
+1940,1: Scale,cell,1030652,2237
+1941,1: Scale,cell,870866,1627
+1942,1: Scale,cell,923110,2524
+1943,1: Scale,cell,781624,1455
+1944,1: Scale,cell,802533,1326
+1945,1: Scale,cell,695500,919
+1946,1: Scale,cell,906932,2037
+1947,1: Scale,cell,1034692,1500
+1948,1: Scale,cell,906817,1365
+1949,1: Scale,cell,949573,2228
+1950,1: Scale,cell,1257239,2794
+1951,1: Scale,cell,1272147,2303
+1952,1: Scale,cell,1338935,3798
+1953,1: Scale,cell,1246757,3040
+1954,1: Scale,cell,1348685,3410
+1955,1: Scale,cell,1510331,2883
+1956,1: Scale,cell,1486176,3860
+1957,1: Scale,cell,1535449,3962
+1958,1: Scale,cell,1709098,3506
+1959,1: Scale,cell,1586959,3819
+1960,1: Scale,cell,1782508,4480
+1961,1: Scale,cell,1765657,4184
+1962,1: Scale,cell,1753664,5402
+1963,1: Scale,cell,1844840,4236
+1964,1: Scale,cell,2285016,4846
+1965,1: Scale,cell,2366519,5967
+1966,1: Scale,cell,2646845,6207
+1967,1: Scale,cell,2436421,4403
+1968,1: Scale,cell,2817575,5624
+1969,1: Scale,cell,3165729,8012
+1970,1: Scale,cell,3398488,8232
+1971,1: Scale,cell,3876617,10308
+1972,1: Scale,cell,3861897,6448
+1973,1: Scale,cell,3944110,7546
+1974,1: Scale,cell,4327880,7813
+1975,1: Scale,cell,4926792,9066
+1976,1: Scale,cell,4851135,9450
+1977,1: Scale,cell,5986495,10600
+1978,1: Scale,cell,5653233,9032
+1979,1: Scale,cell,5693994,9717
+1980,1: Scale,cell,6331998,11238
+1981,1: Scale,cell,6748054,11757
+1982,1: Scale,cell,6661455,11932
+1983,1: Scale,cell,7131449,11115
+1984,1: Scale,cell,7405435,12316
+1985,1: Scale,cell,7790280,13414
+1986,1: Scale,cell,7205017,8943
+1987,1: Scale,cell,8232279,10334
+1988,1: Scale,cell,9127375,9921
+1989,1: Scale,cell,9187930,9900
+1990,1: Scale,cell,9827250,14032
+1991,1: Scale,cell,10692126,10584
+1992,1: Scale,cell,11532841,14296
+1993,1: Scale,cell,11863228,12077
+1994,1: Scale,cell,12424547,11734
+1995,1: Scale,cell,13968243,12449
+1996,1: Scale,cell,15100715,11734
+1997,1: Scale,cell,15395967,11204
+1998,1: Scale,cell,16912010,13541
+1999,1: Scale,cell,16924957,13588
+2000,1: Scale,cell,18064233,17596
+2001,1: Scale,cell,19322097,17288
+2002,1: Scale,cell,18790584,12806
+2003,1: Scale,cell,20408258,14466
+2004,1: Scale,cell,20858212,12288
+2005,1: Scale,cell,21777074,16167
+2006,1: Scale,cell,23460538,15410
+2007,1: Scale,cell,23407699,16904
+2008,1: Scale,cell,26392520,20970
+2009,1: Scale,cell,26767306,17845
+2010,1: Scale,cell,23931224,18830
+2011,1: Scale,cell,24867009,24857
+1920,1: Scale,community,630090,10
+1921,1: Scale,community,589125,65
+1922,1: Scale,community,536084,32
+1923,1: Scale,community,711435,158
+1924,1: Scale,community,684937,5
+1925,1: Scale,community,860483,11
+1926,1: Scale,community,824677,143
+1927,1: Scale,community,797713,75
+1928,1: Scale,community,889702,150
+1929,1: Scale,community,880254,152
+1930,1: Scale,community,940855,392
+1931,1: Scale,community,1279796,362
+1932,1: Scale,community,1186501,368
+1933,1: Scale,community,898679,420
+1934,1: Scale,community,1224182,311
+1935,1: Scale,community,1180563,695
+1936,1: Scale,community,1205270,415
+1937,1: Scale,community,1333413,464
+1938,1: Scale,community,1096306,821
+1939,1: Scale,community,977570,376
+1940,1: Scale,community,1030652,694
+1941,1: Scale,community,870866,614
+1942,1: Scale,community,923110,508
+1943,1: Scale,community,781624,215
+1944,1: Scale,community,802533,383
+1945,1: Scale,community,695500,520
+1946,1: Scale,community,906932,619
+1947,1: Scale,community,1034692,773
+1948,1: Scale,community,906817,393
+1949,1: Scale,community,949573,278
+1950,1: Scale,community,1257239,713
+1951,1: Scale,community,1272147,1303
+1952,1: Scale,community,1338935,878
+1953,1: Scale,community,1246757,1076
+1954,1: Scale,community,1348685,722
+1955,1: Scale,community,1510331,704
+1956,1: Scale,community,1486176,783
+1957,1: Scale,community,1535449,786
+1958,1: Scale,community,1709098,739
+1959,1: Scale,community,1586959,1049
+1960,1: Scale,community,1782508,881
+1961,1: Scale,community,1765657,1095
+1962,1: Scale,community,1753664,1144
+1963,1: Scale,community,1844840,1154
+1964,1: Scale,community,2285016,1038
+1965,1: Scale,community,2366519,1611
+1966,1: Scale,community,2646845,1441
+1967,1: Scale,community,2436421,1492
+1968,1: Scale,community,2817575,2147
+1969,1: Scale,community,3165729,1423
+1970,1: Scale,community,3398488,1761
+1971,1: Scale,community,3876617,2208
+1972,1: Scale,community,3861897,2329
+1973,1: Scale,community,3944110,2958
+1974,1: Scale,community,4327880,3105
+1975,1: Scale,community,4926792,3227
+1976,1: Scale,community,4851135,3904
+1977,1: Scale,community,5986495,4694
+1978,1: Scale,community,5653233,3959
+1979,1: Scale,community,5693994,4833
+1980,1: Scale,community,6331998,5461
+1981,1: Scale,community,6748054,5911
+1982,1: Scale,community,6661455,6005
+1983,1: Scale,community,7131449,6603
+1984,1: Scale,community,7405435,6271
+1985,1: Scale,community,7790280,6647
+1986,1: Scale,community,7205017,6660
+1987,1: Scale,community,8232279,7552
+1988,1: Scale,community,9127375,9094
+1989,1: Scale,community,9187930,7354
+1990,1: Scale,community,9827250,8937
+1991,1: Scale,community,10692126,9406
+1992,1: Scale,community,11532841,10923
+1993,1: Scale,community,11863228,10226
+1994,1: Scale,community,12424547,12029
+1995,1: Scale,community,13968243,12850
+1996,1: Scale,community,15100715,14781
+1997,1: Scale,community,15395967,14262
+1998,1: Scale,community,16912010,16475
+1999,1: Scale,community,16924957,17582
+2000,1: Scale,community,18064233,19735
+2001,1: Scale,community,19322097,19895
+2002,1: Scale,community,18790584,20988
+2003,1: Scale,community,20408258,23512
+2004,1: Scale,community,20858212,25556
+2005,1: Scale,community,21777074,24539
+2006,1: Scale,community,23460538,30562
+2007,1: Scale,community,23407699,30019
+2008,1: Scale,community,26392520,33468
+2009,1: Scale,community,26767306,31621
+2010,1: Scale,community,23931224,32211
+2011,1: Scale,community,24867009,32766
+1935,1: Scale,ecosystem,1180563,31
+1936,1: Scale,ecosystem,1205270,2
 1937,1: Scale,ecosystem,1333413,1
 1939,1: Scale,ecosystem,977570,1
-1942,1: Scale,ecosystem,923110,16
+1942,1: Scale,ecosystem,923110,27
 1944,1: Scale,ecosystem,802533,1
 1945,1: Scale,ecosystem,695500,1
 1946,1: Scale,ecosystem,906932,11
-1947,1: Scale,ecosystem,1034692,1
+1947,1: Scale,ecosystem,1034692,3
 1948,1: Scale,ecosystem,906817,6
 1950,1: Scale,ecosystem,1257239,1
-1951,1: Scale,ecosystem,1272147,22
-1952,1: Scale,ecosystem,1338935,7
-1953,1: Scale,ecosystem,1246757,11
-1954,1: Scale,ecosystem,1348685,5
-1955,1: Scale,ecosystem,1510331,5
-1956,1: Scale,ecosystem,1486176,21
-1957,1: Scale,ecosystem,1535449,33
-1958,1: Scale,ecosystem,1709098,93
-1959,1: Scale,ecosystem,1586959,65
-1960,1: Scale,ecosystem,1782508,48
-1961,1: Scale,ecosystem,1765657,83
-1962,1: Scale,ecosystem,1753664,61
-1963,1: Scale,ecosystem,1844840,130
-1964,1: Scale,ecosystem,2285016,127
-1965,1: Scale,ecosystem,2366519,116
-1966,1: Scale,ecosystem,2646845,156
-1967,1: Scale,ecosystem,2436421,310
-1968,1: Scale,ecosystem,2817575,184
-1969,1: Scale,ecosystem,3165729,258
-1970,1: Scale,ecosystem,3398488,419
-1971,1: Scale,ecosystem,3876617,440
-1972,1: Scale,ecosystem,3861897,645
-1973,1: Scale,ecosystem,3944110,580
-1974,1: Scale,ecosystem,4327880,712
-1975,1: Scale,ecosystem,4926792,885
-1976,1: Scale,ecosystem,4851135,1158
-1977,1: Scale,ecosystem,5986495,1038
-1978,1: Scale,ecosystem,5653233,1009
-1979,1: Scale,ecosystem,5693994,906
-1980,1: Scale,ecosystem,6331998,1208
-1981,1: Scale,ecosystem,6748054,1000
-1982,1: Scale,ecosystem,6661455,1348
-1983,1: Scale,ecosystem,7131449,1108
-1984,1: Scale,ecosystem,7405435,1197
-1985,1: Scale,ecosystem,7790280,1158
-1986,1: Scale,ecosystem,7205017,929
-1987,1: Scale,ecosystem,8232279,1104
-1988,1: Scale,ecosystem,9127375,1776
-1989,1: Scale,ecosystem,9187930,1646
-1990,1: Scale,ecosystem,9827250,1912
-1991,1: Scale,ecosystem,10692126,2606
-1992,1: Scale,ecosystem,11532841,2629
-1993,1: Scale,ecosystem,11863228,2379
-1994,1: Scale,ecosystem,12424547,2588
-1995,1: Scale,ecosystem,13968243,3984
-1996,1: Scale,ecosystem,15100715,4792
-1997,1: Scale,ecosystem,15395967,5020
-1998,1: Scale,ecosystem,16912010,6356
-1999,1: Scale,ecosystem,16924957,6514
-2000,1: Scale,ecosystem,18064233,6293
-2001,1: Scale,ecosystem,19322097,7336
-2002,1: Scale,ecosystem,18790584,7453
-2003,1: Scale,ecosystem,20408258,7750
-2004,1: Scale,ecosystem,20858212,8768
-2005,1: Scale,ecosystem,21777074,10169
-2006,1: Scale,ecosystem,23460538,10708
-2007,1: Scale,ecosystem,23407699,12139
-2008,1: Scale,ecosystem,26392520,14233
-2009,1: Scale,ecosystem,26767306,13567
-2010,1: Scale,ecosystem,23931224,13938
-2011,1: Scale,ecosystem,24867009,15680
-1920,1: Scale,gene,630090,95
-1921,1: Scale,gene,589125,44
-1922,1: Scale,gene,536084,201
-1923,1: Scale,gene,711435,66
-1924,1: Scale,gene,684937,56
-1925,1: Scale,gene,860483,50
-1926,1: Scale,gene,824677,31
-1927,1: Scale,gene,797713,55
-1928,1: Scale,gene,889702,45
-1929,1: Scale,gene,880254,111
-1930,1: Scale,gene,940855,108
-1931,1: Scale,gene,1279796,151
-1932,1: Scale,gene,1186501,293
-1933,1: Scale,gene,898679,142
-1934,1: Scale,gene,1224182,272
-1935,1: Scale,gene,1180563,344
-1936,1: Scale,gene,1205270,352
-1937,1: Scale,gene,1333413,219
-1938,1: Scale,gene,1096306,289
-1939,1: Scale,gene,977570,197
-1940,1: Scale,gene,1030652,189
-1941,1: Scale,gene,870866,174
-1942,1: Scale,gene,923110,220
-1943,1: Scale,gene,781624,157
-1944,1: Scale,gene,802533,143
-1945,1: Scale,gene,695500,289
-1946,1: Scale,gene,906932,257
-1947,1: Scale,gene,1034692,386
-1948,1: Scale,gene,906817,271
-1949,1: Scale,gene,949573,61
-1950,1: Scale,gene,1257239,185
-1951,1: Scale,gene,1272147,268
-1952,1: Scale,gene,1338935,252
-1953,1: Scale,gene,1246757,271
-1954,1: Scale,gene,1348685,159
-1955,1: Scale,gene,1510331,458
-1956,1: Scale,gene,1486176,243
-1957,1: Scale,gene,1535449,124
-1958,1: Scale,gene,1709098,294
-1959,1: Scale,gene,1586959,94
-1960,1: Scale,gene,1782508,476
-1961,1: Scale,gene,1765657,325
-1962,1: Scale,gene,1753664,238
-1963,1: Scale,gene,1844840,453
-1964,1: Scale,gene,2285016,183
-1965,1: Scale,gene,2366519,434
-1966,1: Scale,gene,2646845,738
-1967,1: Scale,gene,2436421,380
-1968,1: Scale,gene,2817575,580
-1969,1: Scale,gene,3165729,567
-1970,1: Scale,gene,3398488,758
-1971,1: Scale,gene,3876617,591
-1972,1: Scale,gene,3861897,933
-1973,1: Scale,gene,3944110,621
-1974,1: Scale,gene,4327880,632
-1975,1: Scale,gene,4926792,811
-1976,1: Scale,gene,4851135,1096
-1977,1: Scale,gene,5986495,974
-1978,1: Scale,gene,5653233,974
-1979,1: Scale,gene,5693994,911
-1980,1: Scale,gene,6331998,1333
-1981,1: Scale,gene,6748054,1135
-1982,1: Scale,gene,6661455,1007
-1983,1: Scale,gene,7131449,1229
-1984,1: Scale,gene,7405435,2164
-1985,1: Scale,gene,7790280,1670
-1986,1: Scale,gene,7205017,2111
-1987,1: Scale,gene,8232279,1969
-1988,1: Scale,gene,9127375,2483
-1989,1: Scale,gene,9187930,1785
-1990,1: Scale,gene,9827250,2733
-1991,1: Scale,gene,10692126,2117
-1992,1: Scale,gene,11532841,2457
-1993,1: Scale,gene,11863228,3754
-1994,1: Scale,gene,12424547,3270
-1995,1: Scale,gene,13968243,4051
-1996,1: Scale,gene,15100715,3778
-1997,1: Scale,gene,15395967,3616
-1998,1: Scale,gene,16912010,3993
-1999,1: Scale,gene,16924957,4506
-2000,1: Scale,gene,18064233,4781
-2001,1: Scale,gene,19322097,5184
-2002,1: Scale,gene,18790584,4933
-2003,1: Scale,gene,20408258,6414
-2004,1: Scale,gene,20858212,4751
-2005,1: Scale,gene,21777074,5631
-2006,1: Scale,gene,23460538,7405
-2007,1: Scale,gene,23407699,7330
-2008,1: Scale,gene,26392520,9818
-2009,1: Scale,gene,26767306,9694
-2010,1: Scale,gene,23931224,10041
-2011,1: Scale,gene,24867009,9510
-1972,1: Scale,metapopulation,3861897,1
-1973,1: Scale,metapopulation,3944110,19
-1975,1: Scale,metapopulation,4926792,1
-1976,1: Scale,metapopulation,4851135,1
-1978,1: Scale,metapopulation,5653233,31
-1979,1: Scale,metapopulation,5693994,30
-1980,1: Scale,metapopulation,6331998,7
-1981,1: Scale,metapopulation,6748054,4
-1982,1: Scale,metapopulation,6661455,9
-1983,1: Scale,metapopulation,7131449,7
-1984,1: Scale,metapopulation,7405435,1
-1985,1: Scale,metapopulation,7790280,17
-1986,1: Scale,metapopulation,7205017,25
-1987,1: Scale,metapopulation,8232279,37
-1988,1: Scale,metapopulation,9127375,85
-1989,1: Scale,metapopulation,9187930,63
-1990,1: Scale,metapopulation,9827250,152
-1991,1: Scale,metapopulation,10692126,174
-1992,1: Scale,metapopulation,11532841,263
-1993,1: Scale,metapopulation,11863228,355
-1994,1: Scale,metapopulation,12424547,653
-1995,1: Scale,metapopulation,13968243,547
-1996,1: Scale,metapopulation,15100715,1029
-1997,1: Scale,metapopulation,15395967,884
-1998,1: Scale,metapopulation,16912010,1141
-1999,1: Scale,metapopulation,16924957,1042
-2000,1: Scale,metapopulation,18064233,1874
-2001,1: Scale,metapopulation,19322097,1968
-2002,1: Scale,metapopulation,18790584,2109
-2003,1: Scale,metapopulation,20408258,1606
-2004,1: Scale,metapopulation,20858212,1286
-2005,1: Scale,metapopulation,21777074,2251
-2006,1: Scale,metapopulation,23460538,1193
-2007,1: Scale,metapopulation,23407699,1369
-2008,1: Scale,metapopulation,26392520,1362
-2009,1: Scale,metapopulation,26767306,1534
-2010,1: Scale,metapopulation,23931224,1211
-2011,1: Scale,metapopulation,24867009,1466
-1920,1: Scale,organism,630090,168
-1921,1: Scale,organism,589125,210
-1922,1: Scale,organism,536084,199
-1923,1: Scale,organism,711435,153
-1924,1: Scale,organism,684937,156
-1925,1: Scale,organism,860483,146
-1926,1: Scale,organism,824677,204
-1927,1: Scale,organism,797713,122
-1928,1: Scale,organism,889702,206
-1929,1: Scale,organism,880254,147
-1930,1: Scale,organism,940855,234
-1931,1: Scale,organism,1279796,209
-1932,1: Scale,organism,1186501,168
-1933,1: Scale,organism,898679,160
-1934,1: Scale,organism,1224182,187
-1935,1: Scale,organism,1180563,282
-1936,1: Scale,organism,1205270,208
-1937,1: Scale,organism,1333413,194
-1938,1: Scale,organism,1096306,146
-1939,1: Scale,organism,977570,114
-1940,1: Scale,organism,1030652,365
-1941,1: Scale,organism,870866,125
-1942,1: Scale,organism,923110,123
-1943,1: Scale,organism,781624,80
-1944,1: Scale,organism,802533,110
-1945,1: Scale,organism,695500,74
-1946,1: Scale,organism,906932,106
-1947,1: Scale,organism,1034692,145
-1948,1: Scale,organism,906817,143
-1949,1: Scale,organism,949573,96
-1950,1: Scale,organism,1257239,187
-1951,1: Scale,organism,1272147,103
-1952,1: Scale,organism,1338935,155
-1953,1: Scale,organism,1246757,134
-1954,1: Scale,organism,1348685,119
-1955,1: Scale,organism,1510331,121
-1956,1: Scale,organism,1486176,162
-1957,1: Scale,organism,1535449,320
-1958,1: Scale,organism,1709098,168
-1959,1: Scale,organism,1586959,233
-1960,1: Scale,organism,1782508,191
-1961,1: Scale,organism,1765657,220
-1962,1: Scale,organism,1753664,219
-1963,1: Scale,organism,1844840,192
-1964,1: Scale,organism,2285016,301
-1965,1: Scale,organism,2366519,280
-1966,1: Scale,organism,2646845,361
-1967,1: Scale,organism,2436421,237
-1968,1: Scale,organism,2817575,306
-1969,1: Scale,organism,3165729,282
-1970,1: Scale,organism,3398488,328
-1971,1: Scale,organism,3876617,338
-1972,1: Scale,organism,3861897,320
-1973,1: Scale,organism,3944110,314
-1974,1: Scale,organism,4327880,286
-1975,1: Scale,organism,4926792,380
-1976,1: Scale,organism,4851135,352
-1977,1: Scale,organism,5986495,449
-1978,1: Scale,organism,5653233,435
-1979,1: Scale,organism,5693994,476
-1980,1: Scale,organism,6331998,429
-1981,1: Scale,organism,6748054,456
-1982,1: Scale,organism,6661455,578
-1983,1: Scale,organism,7131449,516
-1984,1: Scale,organism,7405435,369
-1985,1: Scale,organism,7790280,549
-1986,1: Scale,organism,7205017,550
-1987,1: Scale,organism,8232279,425
-1988,1: Scale,organism,9127375,562
-1989,1: Scale,organism,9187930,535
-1990,1: Scale,organism,9827250,553
-1991,1: Scale,organism,10692126,599
-1992,1: Scale,organism,11532841,592
-1993,1: Scale,organism,11863228,559
-1994,1: Scale,organism,12424547,646
-1995,1: Scale,organism,13968243,719
-1996,1: Scale,organism,15100715,819
-1997,1: Scale,organism,15395967,1066
-1998,1: Scale,organism,16912010,609
-1999,1: Scale,organism,16924957,940
-2000,1: Scale,organism,18064233,881
-2001,1: Scale,organism,19322097,924
-2002,1: Scale,organism,18790584,839
-2003,1: Scale,organism,20408258,971
-2004,1: Scale,organism,20858212,1112
-2005,1: Scale,organism,21777074,1028
-2006,1: Scale,organism,23460538,1346
-2007,1: Scale,organism,23407699,1058
-2008,1: Scale,organism,26392520,1328
-2009,1: Scale,organism,26767306,1399
-2010,1: Scale,organism,23931224,1192
-2011,1: Scale,organism,24867009,1330
+1951,1: Scale,ecosystem,1272147,24
+1952,1: Scale,ecosystem,1338935,16
+1953,1: Scale,ecosystem,1246757,15
+1954,1: Scale,ecosystem,1348685,6
+1955,1: Scale,ecosystem,1510331,9
+1956,1: Scale,ecosystem,1486176,24
+1957,1: Scale,ecosystem,1535449,45
+1958,1: Scale,ecosystem,1709098,126
+1959,1: Scale,ecosystem,1586959,80
+1960,1: Scale,ecosystem,1782508,80
+1961,1: Scale,ecosystem,1765657,122
+1962,1: Scale,ecosystem,1753664,102
+1963,1: Scale,ecosystem,1844840,242
+1964,1: Scale,ecosystem,2285016,232
+1965,1: Scale,ecosystem,2366519,201
+1966,1: Scale,ecosystem,2646845,258
+1967,1: Scale,ecosystem,2436421,528
+1968,1: Scale,ecosystem,2817575,343
+1969,1: Scale,ecosystem,3165729,449
+1970,1: Scale,ecosystem,3398488,649
+1971,1: Scale,ecosystem,3876617,793
+1972,1: Scale,ecosystem,3861897,1100
+1973,1: Scale,ecosystem,3944110,1192
+1974,1: Scale,ecosystem,4327880,1293
+1975,1: Scale,ecosystem,4926792,1631
+1976,1: Scale,ecosystem,4851135,2180
+1977,1: Scale,ecosystem,5986495,2100
+1978,1: Scale,ecosystem,5653233,1970
+1979,1: Scale,ecosystem,5693994,1833
+1980,1: Scale,ecosystem,6331998,2348
+1981,1: Scale,ecosystem,6748054,2197
+1982,1: Scale,ecosystem,6661455,2921
+1983,1: Scale,ecosystem,7131449,2367
+1984,1: Scale,ecosystem,7405435,2498
+1985,1: Scale,ecosystem,7790280,2473
+1986,1: Scale,ecosystem,7205017,2272
+1987,1: Scale,ecosystem,8232279,2540
+1988,1: Scale,ecosystem,9127375,3686
+1989,1: Scale,ecosystem,9187930,3546
+1990,1: Scale,ecosystem,9827250,3905
+1991,1: Scale,ecosystem,10692126,5288
+1992,1: Scale,ecosystem,11532841,5608
+1993,1: Scale,ecosystem,11863228,5290
+1994,1: Scale,ecosystem,12424547,5767
+1995,1: Scale,ecosystem,13968243,7943
+1996,1: Scale,ecosystem,15100715,9018
+1997,1: Scale,ecosystem,15395967,9775
+1998,1: Scale,ecosystem,16912010,11929
+1999,1: Scale,ecosystem,16924957,11901
+2000,1: Scale,ecosystem,18064233,11931
+2001,1: Scale,ecosystem,19322097,13262
+2002,1: Scale,ecosystem,18790584,13979
+2003,1: Scale,ecosystem,20408258,14938
+2004,1: Scale,ecosystem,20858212,16851
+2005,1: Scale,ecosystem,21777074,18558
+2006,1: Scale,ecosystem,23460538,20069
+2007,1: Scale,ecosystem,23407699,22016
+2008,1: Scale,ecosystem,26392520,25344
+2009,1: Scale,ecosystem,26767306,23556
+2010,1: Scale,ecosystem,23931224,24603
+2011,1: Scale,ecosystem,24867009,26676
+1920,1: Scale,gene,630090,234
+1921,1: Scale,gene,589125,116
+1922,1: Scale,gene,536084,420
+1923,1: Scale,gene,711435,128
+1924,1: Scale,gene,684937,137
+1925,1: Scale,gene,860483,127
+1926,1: Scale,gene,824677,122
+1927,1: Scale,gene,797713,128
+1928,1: Scale,gene,889702,112
+1929,1: Scale,gene,880254,293
+1930,1: Scale,gene,940855,219
+1931,1: Scale,gene,1279796,263
+1932,1: Scale,gene,1186501,758
+1933,1: Scale,gene,898679,370
+1934,1: Scale,gene,1224182,577
+1935,1: Scale,gene,1180563,685
+1936,1: Scale,gene,1205270,762
+1937,1: Scale,gene,1333413,487
+1938,1: Scale,gene,1096306,529
+1939,1: Scale,gene,977570,368
+1940,1: Scale,gene,1030652,336
+1941,1: Scale,gene,870866,319
+1942,1: Scale,gene,923110,452
+1943,1: Scale,gene,781624,423
+1944,1: Scale,gene,802533,350
+1945,1: Scale,gene,695500,510
+1946,1: Scale,gene,906932,462
+1947,1: Scale,gene,1034692,687
+1948,1: Scale,gene,906817,430
+1949,1: Scale,gene,949573,118
+1950,1: Scale,gene,1257239,408
+1951,1: Scale,gene,1272147,501
+1952,1: Scale,gene,1338935,450
+1953,1: Scale,gene,1246757,560
+1954,1: Scale,gene,1348685,306
+1955,1: Scale,gene,1510331,760
+1956,1: Scale,gene,1486176,400
+1957,1: Scale,gene,1535449,272
+1958,1: Scale,gene,1709098,466
+1959,1: Scale,gene,1586959,209
+1960,1: Scale,gene,1782508,824
+1961,1: Scale,gene,1765657,463
+1962,1: Scale,gene,1753664,406
+1963,1: Scale,gene,1844840,705
+1964,1: Scale,gene,2285016,346
+1965,1: Scale,gene,2366519,761
+1966,1: Scale,gene,2646845,1413
+1967,1: Scale,gene,2436421,619
+1968,1: Scale,gene,2817575,742
+1969,1: Scale,gene,3165729,969
+1970,1: Scale,gene,3398488,1377
+1971,1: Scale,gene,3876617,900
+1972,1: Scale,gene,3861897,1296
+1973,1: Scale,gene,3944110,899
+1974,1: Scale,gene,4327880,886
+1975,1: Scale,gene,4926792,1171
+1976,1: Scale,gene,4851135,1838
+1977,1: Scale,gene,5986495,1701
+1978,1: Scale,gene,5653233,1760
+1979,1: Scale,gene,5693994,1416
+1980,1: Scale,gene,6331998,2299
+1981,1: Scale,gene,6748054,2018
+1982,1: Scale,gene,6661455,1718
+1983,1: Scale,gene,7131449,1986
+1984,1: Scale,gene,7405435,3737
+1985,1: Scale,gene,7790280,2535
+1986,1: Scale,gene,7205017,3913
+1987,1: Scale,gene,8232279,3527
+1988,1: Scale,gene,9127375,3823
+1989,1: Scale,gene,9187930,2682
+1990,1: Scale,gene,9827250,4409
+1991,1: Scale,gene,10692126,3361
+1992,1: Scale,gene,11532841,3756
+1993,1: Scale,gene,11863228,5984
+1994,1: Scale,gene,12424547,5476
+1995,1: Scale,gene,13968243,6866
+1996,1: Scale,gene,15100715,5972
+1997,1: Scale,gene,15395967,6248
+1998,1: Scale,gene,16912010,6993
+1999,1: Scale,gene,16924957,7689
+2000,1: Scale,gene,18064233,8173
+2001,1: Scale,gene,19322097,9446
+2002,1: Scale,gene,18790584,8570
+2003,1: Scale,gene,20408258,11862
+2004,1: Scale,gene,20858212,8473
+2005,1: Scale,gene,21777074,9916
+2006,1: Scale,gene,23460538,12609
+2007,1: Scale,gene,23407699,11989
+2008,1: Scale,gene,26392520,17378
+2009,1: Scale,gene,26767306,17140
+2010,1: Scale,gene,23931224,17994
+2011,1: Scale,gene,24867009,16859
+1921,1: Scale,landscape,589125,1
+1922,1: Scale,landscape,536084,1
+1923,1: Scale,landscape,711435,19
+1924,1: Scale,landscape,684937,2
+1925,1: Scale,landscape,860483,7
+1926,1: Scale,landscape,824677,1
+1927,1: Scale,landscape,797713,1
+1928,1: Scale,landscape,889702,4
+1929,1: Scale,landscape,880254,3
+1930,1: Scale,landscape,940855,16
+1931,1: Scale,landscape,1279796,10
+1932,1: Scale,landscape,1186501,2
+1933,1: Scale,landscape,898679,5
+1934,1: Scale,landscape,1224182,33
+1935,1: Scale,landscape,1180563,6
+1936,1: Scale,landscape,1205270,5
+1937,1: Scale,landscape,1333413,6
+1938,1: Scale,landscape,1096306,5
+1939,1: Scale,landscape,977570,12
+1940,1: Scale,landscape,1030652,15
+1941,1: Scale,landscape,870866,6
+1942,1: Scale,landscape,923110,7
+1943,1: Scale,landscape,781624,7
+1944,1: Scale,landscape,802533,17
+1945,1: Scale,landscape,695500,6
+1946,1: Scale,landscape,906932,12
+1947,1: Scale,landscape,1034692,4
+1948,1: Scale,landscape,906817,16
+1949,1: Scale,landscape,949573,2
+1950,1: Scale,landscape,1257239,9
+1951,1: Scale,landscape,1272147,42
+1952,1: Scale,landscape,1338935,3
+1953,1: Scale,landscape,1246757,52
+1954,1: Scale,landscape,1348685,13
+1955,1: Scale,landscape,1510331,4
+1956,1: Scale,landscape,1486176,25
+1957,1: Scale,landscape,1535449,22
+1958,1: Scale,landscape,1709098,46
+1959,1: Scale,landscape,1586959,13
+1960,1: Scale,landscape,1782508,13
+1961,1: Scale,landscape,1765657,15
+1962,1: Scale,landscape,1753664,39
+1963,1: Scale,landscape,1844840,19
+1964,1: Scale,landscape,2285016,36
+1965,1: Scale,landscape,2366519,107
+1966,1: Scale,landscape,2646845,33
+1967,1: Scale,landscape,2436421,38
+1968,1: Scale,landscape,2817575,42
+1969,1: Scale,landscape,3165729,82
+1970,1: Scale,landscape,3398488,85
+1971,1: Scale,landscape,3876617,63
+1972,1: Scale,landscape,3861897,58
+1973,1: Scale,landscape,3944110,124
+1974,1: Scale,landscape,4327880,80
+1975,1: Scale,landscape,4926792,221
+1976,1: Scale,landscape,4851135,89
+1977,1: Scale,landscape,5986495,202
+1978,1: Scale,landscape,5653233,235
+1979,1: Scale,landscape,5693994,275
+1980,1: Scale,landscape,6331998,256
+1981,1: Scale,landscape,6748054,258
+1982,1: Scale,landscape,6661455,274
+1983,1: Scale,landscape,7131449,244
+1984,1: Scale,landscape,7405435,204
+1985,1: Scale,landscape,7790280,473
+1986,1: Scale,landscape,7205017,278
+1987,1: Scale,landscape,8232279,595
+1988,1: Scale,landscape,9127375,782
+1989,1: Scale,landscape,9187930,1079
+1990,1: Scale,landscape,9827250,927
+1991,1: Scale,landscape,10692126,1390
+1992,1: Scale,landscape,11532841,2317
+1993,1: Scale,landscape,11863228,2260
+1994,1: Scale,landscape,12424547,3194
+1995,1: Scale,landscape,13968243,4439
+1996,1: Scale,landscape,15100715,5123
+1997,1: Scale,landscape,15395967,5661
+1998,1: Scale,landscape,16912010,6501
+1999,1: Scale,landscape,16924957,8158
+2000,1: Scale,landscape,18064233,9052
+2001,1: Scale,landscape,19322097,8742
+2002,1: Scale,landscape,18790584,11246
+2003,1: Scale,landscape,20408258,11463
+2004,1: Scale,landscape,20858212,12017
+2005,1: Scale,landscape,21777074,13772
+2006,1: Scale,landscape,23460538,13925
+2007,1: Scale,landscape,23407699,15610
+2008,1: Scale,landscape,26392520,15391
+2009,1: Scale,landscape,26767306,15470
+2010,1: Scale,landscape,23931224,13519
+2011,1: Scale,landscape,24867009,15339
+1920,1: Scale,organism,630090,353
+1921,1: Scale,organism,589125,395
+1922,1: Scale,organism,536084,373
+1923,1: Scale,organism,711435,345
+1924,1: Scale,organism,684937,352
+1925,1: Scale,organism,860483,436
+1926,1: Scale,organism,824677,402
+1927,1: Scale,organism,797713,288
+1928,1: Scale,organism,889702,519
+1929,1: Scale,organism,880254,366
+1930,1: Scale,organism,940855,449
+1931,1: Scale,organism,1279796,786
+1932,1: Scale,organism,1186501,425
+1933,1: Scale,organism,898679,457
+1934,1: Scale,organism,1224182,639
+1935,1: Scale,organism,1180563,668
+1936,1: Scale,organism,1205270,564
+1937,1: Scale,organism,1333413,542
+1938,1: Scale,organism,1096306,350
+1939,1: Scale,organism,977570,366
+1940,1: Scale,organism,1030652,796
+1941,1: Scale,organism,870866,344
+1942,1: Scale,organism,923110,642
+1943,1: Scale,organism,781624,306
+1944,1: Scale,organism,802533,441
+1945,1: Scale,organism,695500,343
+1946,1: Scale,organism,906932,417
+1947,1: Scale,organism,1034692,626
+1948,1: Scale,organism,906817,451
+1949,1: Scale,organism,949573,309
+1950,1: Scale,organism,1257239,525
+1951,1: Scale,organism,1272147,363
+1952,1: Scale,organism,1338935,582
+1953,1: Scale,organism,1246757,381
+1954,1: Scale,organism,1348685,407
+1955,1: Scale,organism,1510331,520
+1956,1: Scale,organism,1486176,629
+1957,1: Scale,organism,1535449,897
+1958,1: Scale,organism,1709098,559
+1959,1: Scale,organism,1586959,777
+1960,1: Scale,organism,1782508,728
+1961,1: Scale,organism,1765657,894
+1962,1: Scale,organism,1753664,898
+1963,1: Scale,organism,1844840,869
+1964,1: Scale,organism,2285016,1111
+1965,1: Scale,organism,2366519,890
+1966,1: Scale,organism,2646845,1190
+1967,1: Scale,organism,2436421,1085
+1968,1: Scale,organism,2817575,1478
+1969,1: Scale,organism,3165729,1187
+1970,1: Scale,organism,3398488,1170
+1971,1: Scale,organism,3876617,1511
+1972,1: Scale,organism,3861897,1578
+1973,1: Scale,organism,3944110,1406
+1974,1: Scale,organism,4327880,1281
+1975,1: Scale,organism,4926792,1510
+1976,1: Scale,organism,4851135,1556
+1977,1: Scale,organism,5986495,1954
+1978,1: Scale,organism,5653233,1899
+1979,1: Scale,organism,5693994,2047
+1980,1: Scale,organism,6331998,1929
+1981,1: Scale,organism,6748054,2048
+1982,1: Scale,organism,6661455,2698
+1983,1: Scale,organism,7131449,2312
+1984,1: Scale,organism,7405435,2144
+1985,1: Scale,organism,7790280,2532
+1986,1: Scale,organism,7205017,2453
+1987,1: Scale,organism,8232279,2193
+1988,1: Scale,organism,9127375,2638
+1989,1: Scale,organism,9187930,2474
+1990,1: Scale,organism,9827250,2486
+1991,1: Scale,organism,10692126,2616
+1992,1: Scale,organism,11532841,2924
+1993,1: Scale,organism,11863228,2990
+1994,1: Scale,organism,12424547,3094
+1995,1: Scale,organism,13968243,3517
+1996,1: Scale,organism,15100715,4165
+1997,1: Scale,organism,15395967,4448
+1998,1: Scale,organism,16912010,3622
+1999,1: Scale,organism,16924957,4570
+2000,1: Scale,organism,18064233,4418
+2001,1: Scale,organism,19322097,4792
+2002,1: Scale,organism,18790584,4565
+2003,1: Scale,organism,20408258,5264
+2004,1: Scale,organism,20858212,5531
+2005,1: Scale,organism,21777074,5551
+2006,1: Scale,organism,23460538,6546
+2007,1: Scale,organism,23407699,5896
+2008,1: Scale,organism,26392520,6491
+2009,1: Scale,organism,26767306,6701
+2010,1: Scale,organism,23931224,6135
+2011,1: Scale,organism,24867009,6100
 1920,1: Scale,population,630090,28
-1921,1: Scale,population,589125,54
-1922,1: Scale,population,536084,150
-1923,1: Scale,population,711435,80
-1924,1: Scale,population,684937,55
-1925,1: Scale,population,860483,40
-1926,1: Scale,population,824677,79
-1927,1: Scale,population,797713,173
-1928,1: Scale,population,889702,137
-1929,1: Scale,population,880254,121
-1930,1: Scale,population,940855,203
-1931,1: Scale,population,1279796,255
-1932,1: Scale,population,1186501,502
-1933,1: Scale,population,898679,263
-1934,1: Scale,population,1224182,229
-1935,1: Scale,population,1180563,261
-1936,1: Scale,population,1205270,386
-1937,1: Scale,population,1333413,580
-1938,1: Scale,population,1096306,300
-1939,1: Scale,population,977570,721
-1940,1: Scale,population,1030652,389
-1941,1: Scale,population,870866,627
-1942,1: Scale,population,923110,400
-1943,1: Scale,population,781624,664
-1944,1: Scale,population,802533,716
-1945,1: Scale,population,695500,666
-1946,1: Scale,population,906932,743
-1947,1: Scale,population,1034692,572
-1948,1: Scale,population,906817,606
-1949,1: Scale,population,949573,629
-1950,1: Scale,population,1257239,1300
-1951,1: Scale,population,1272147,1355
-1952,1: Scale,population,1338935,1117
-1953,1: Scale,population,1246757,1428
-1954,1: Scale,population,1348685,1339
-1955,1: Scale,population,1510331,1683
-1956,1: Scale,population,1486176,1371
-1957,1: Scale,population,1535449,1151
-1958,1: Scale,population,1709098,1689
-1959,1: Scale,population,1586959,1364
-1960,1: Scale,population,1782508,2362
-1961,1: Scale,population,1765657,2250
-1962,1: Scale,population,1753664,1682
-1963,1: Scale,population,1844840,2437
-1964,1: Scale,population,2285016,2037
-1965,1: Scale,population,2366519,2593
-1966,1: Scale,population,2646845,3717
-1967,1: Scale,population,2436421,3267
-1968,1: Scale,population,2817575,3258
-1969,1: Scale,population,3165729,3481
-1970,1: Scale,population,3398488,4706
-1971,1: Scale,population,3876617,5604
-1972,1: Scale,population,3861897,5369
-1973,1: Scale,population,3944110,5253
-1974,1: Scale,population,4327880,6711
-1975,1: Scale,population,4926792,6630
-1976,1: Scale,population,4851135,6394
-1977,1: Scale,population,5986495,7579
-1978,1: Scale,population,5653233,7630
-1979,1: Scale,population,5693994,8659
-1980,1: Scale,population,6331998,8368
-1981,1: Scale,population,6748054,9177
-1982,1: Scale,population,6661455,8108
-1983,1: Scale,population,7131449,9156
-1984,1: Scale,population,7405435,10047
-1985,1: Scale,population,7790280,10499
-1986,1: Scale,population,7205017,10715
-1987,1: Scale,population,8232279,13279
-1988,1: Scale,population,9127375,12983
-1989,1: Scale,population,9187930,12139
-1990,1: Scale,population,9827250,13374
-1991,1: Scale,population,10692126,14892
-1992,1: Scale,population,11532841,17376
-1993,1: Scale,population,11863228,17061
-1994,1: Scale,population,12424547,19997
-1995,1: Scale,population,13968243,22799
-1996,1: Scale,population,15100715,26501
-1997,1: Scale,population,15395967,23923
-1998,1: Scale,population,16912010,25634
-1999,1: Scale,population,16924957,25056
-2000,1: Scale,population,18064233,29626
-2001,1: Scale,population,19322097,28027
-2002,1: Scale,population,18790584,33565
-2003,1: Scale,population,20408258,30227
-2004,1: Scale,population,20858212,31677
-2005,1: Scale,population,21777074,34877
-2006,1: Scale,population,23460538,34232
-2007,1: Scale,population,23407699,37330
-2008,1: Scale,population,26392520,38086
-2009,1: Scale,population,26767306,40424
-2010,1: Scale,population,23931224,35057
-2011,1: Scale,population,24867009,34988
+1921,1: Scale,population,589125,77
+1922,1: Scale,population,536084,158
+1923,1: Scale,population,711435,85
+1924,1: Scale,population,684937,75
+1925,1: Scale,population,860483,43
+1926,1: Scale,population,824677,87
+1927,1: Scale,population,797713,213
+1928,1: Scale,population,889702,157
+1929,1: Scale,population,880254,146
+1930,1: Scale,population,940855,233
+1931,1: Scale,population,1279796,310
+1932,1: Scale,population,1186501,710
+1933,1: Scale,population,898679,302
+1934,1: Scale,population,1224182,324
+1935,1: Scale,population,1180563,360
+1936,1: Scale,population,1205270,494
+1937,1: Scale,population,1333413,867
+1938,1: Scale,population,1096306,416
+1939,1: Scale,population,977570,965
+1940,1: Scale,population,1030652,605
+1941,1: Scale,population,870866,866
+1942,1: Scale,population,923110,665
+1943,1: Scale,population,781624,1056
+1944,1: Scale,population,802533,1010
+1945,1: Scale,population,695500,936
+1946,1: Scale,population,906932,1198
+1947,1: Scale,population,1034692,813
+1948,1: Scale,population,906817,1066
+1949,1: Scale,population,949573,1008
+1950,1: Scale,population,1257239,2055
+1951,1: Scale,population,1272147,2275
+1952,1: Scale,population,1338935,1636
+1953,1: Scale,population,1246757,2158
+1954,1: Scale,population,1348685,2216
+1955,1: Scale,population,1510331,2404
+1956,1: Scale,population,1486176,2261
+1957,1: Scale,population,1535449,1819
+1958,1: Scale,population,1709098,2450
+1959,1: Scale,population,1586959,2147
+1960,1: Scale,population,1782508,3630
+1961,1: Scale,population,1765657,3632
+1962,1: Scale,population,1753664,2728
+1963,1: Scale,population,1844840,3973
+1964,1: Scale,population,2285016,3398
+1965,1: Scale,population,2366519,4458
+1966,1: Scale,population,2646845,6349
+1967,1: Scale,population,2436421,5374
+1968,1: Scale,population,2817575,5291
+1969,1: Scale,population,3165729,6083
+1970,1: Scale,population,3398488,7766
+1971,1: Scale,population,3876617,8909
+1972,1: Scale,population,3861897,8930
+1973,1: Scale,population,3944110,8995
+1974,1: Scale,population,4327880,10558
+1975,1: Scale,population,4926792,10640
+1976,1: Scale,population,4851135,10526
+1977,1: Scale,population,5986495,12022
+1978,1: Scale,population,5653233,12430
+1979,1: Scale,population,5693994,14741
+1980,1: Scale,population,6331998,14180
+1981,1: Scale,population,6748054,14986
+1982,1: Scale,population,6661455,13989
+1983,1: Scale,population,7131449,15362
+1984,1: Scale,population,7405435,16995
+1985,1: Scale,population,7790280,17112
+1986,1: Scale,population,7205017,17866
+1987,1: Scale,population,8232279,21613
+1988,1: Scale,population,9127375,21311
+1989,1: Scale,population,9187930,20557
+1990,1: Scale,population,9827250,21810
+1991,1: Scale,population,10692126,24632
+1992,1: Scale,population,11532841,28234
+1993,1: Scale,population,11863228,28485
+1994,1: Scale,population,12424547,33718
+1995,1: Scale,population,13968243,37207
+1996,1: Scale,population,15100715,43132
+1997,1: Scale,population,15395967,39251
+1998,1: Scale,population,16912010,42699
+1999,1: Scale,population,16924957,41612
+2000,1: Scale,population,18064233,49065
+2001,1: Scale,population,19322097,45892
+2002,1: Scale,population,18790584,53959
+2003,1: Scale,population,20408258,49714
+2004,1: Scale,population,20858212,52041
+2005,1: Scale,population,21777074,56915
+2006,1: Scale,population,23460538,56566
+2007,1: Scale,population,23407699,62404
+2008,1: Scale,population,26392520,63240
+2009,1: Scale,population,26767306,67050
+2010,1: Scale,population,23931224,59762
+2011,1: Scale,population,24867009,59466
 1920,1: Scale,species,630090,1635
 1921,1: Scale,species,589125,1226
 1922,1: Scale,species,536084,1113
@@ -661,576 +714,629 @@ year,panel,gram_canonical,total_words,total
 2009,1: Scale,species,26767306,162212
 2010,1: Scale,species,23931224,141188
 2011,1: Scale,species,24867009,145187
-1920,2: Scale without 'species',cell,630090,536
-1921,2: Scale without 'species',cell,589125,701
-1922,2: Scale without 'species',cell,536084,575
-1923,2: Scale without 'species',cell,711435,445
-1924,2: Scale without 'species',cell,684937,539
-1925,2: Scale without 'species',cell,860483,771
-1926,2: Scale without 'species',cell,824677,1047
-1927,2: Scale without 'species',cell,797713,779
-1928,2: Scale without 'species',cell,889702,633
-1929,2: Scale without 'species',cell,880254,1049
-1930,2: Scale without 'species',cell,940855,1032
-1931,2: Scale without 'species',cell,1279796,943
-1932,2: Scale without 'species',cell,1186501,1133
-1933,2: Scale without 'species',cell,898679,877
-1934,2: Scale without 'species',cell,1224182,1008
-1935,2: Scale without 'species',cell,1180563,1199
-1936,2: Scale without 'species',cell,1205270,1282
-1937,2: Scale without 'species',cell,1333413,1366
-1938,2: Scale without 'species',cell,1096306,1002
-1939,2: Scale without 'species',cell,977570,836
-1940,2: Scale without 'species',cell,1030652,867
-1941,2: Scale without 'species',cell,870866,531
-1942,2: Scale without 'species',cell,923110,837
-1943,2: Scale without 'species',cell,781624,516
-1944,2: Scale without 'species',cell,802533,351
-1945,2: Scale without 'species',cell,695500,315
-1946,2: Scale without 'species',cell,906932,867
-1947,2: Scale without 'species',cell,1034692,533
-1948,2: Scale without 'species',cell,906817,538
-1949,2: Scale without 'species',cell,949573,827
-1950,2: Scale without 'species',cell,1257239,866
-1951,2: Scale without 'species',cell,1272147,810
-1952,2: Scale without 'species',cell,1338935,1333
-1953,2: Scale without 'species',cell,1246757,1219
-1954,2: Scale without 'species',cell,1348685,1150
-1955,2: Scale without 'species',cell,1510331,1044
-1956,2: Scale without 'species',cell,1486176,1306
-1957,2: Scale without 'species',cell,1535449,1234
-1958,2: Scale without 'species',cell,1709098,1393
-1959,2: Scale without 'species',cell,1586959,1533
-1960,2: Scale without 'species',cell,1782508,1743
-1961,2: Scale without 'species',cell,1765657,1507
-1962,2: Scale without 'species',cell,1753664,1881
-1963,2: Scale without 'species',cell,1844840,1595
-1964,2: Scale without 'species',cell,2285016,1861
-1965,2: Scale without 'species',cell,2366519,2098
-1966,2: Scale without 'species',cell,2646845,2201
-1967,2: Scale without 'species',cell,2436421,1580
-1968,2: Scale without 'species',cell,2817575,2281
-1969,2: Scale without 'species',cell,3165729,3284
-1970,2: Scale without 'species',cell,3398488,3361
-1971,2: Scale without 'species',cell,3876617,4547
-1972,2: Scale without 'species',cell,3861897,2531
-1973,2: Scale without 'species',cell,3944110,3023
-1974,2: Scale without 'species',cell,4327880,3513
-1975,2: Scale without 'species',cell,4926792,3709
-1976,2: Scale without 'species',cell,4851135,3981
-1977,2: Scale without 'species',cell,5986495,4506
-1978,2: Scale without 'species',cell,5653233,3834
-1979,2: Scale without 'species',cell,5693994,3947
-1980,2: Scale without 'species',cell,6331998,4752
-1981,2: Scale without 'species',cell,6748054,5143
-1982,2: Scale without 'species',cell,6661455,5304
-1983,2: Scale without 'species',cell,7131449,4695
-1984,2: Scale without 'species',cell,7405435,5331
-1985,2: Scale without 'species',cell,7790280,6036
-1986,2: Scale without 'species',cell,7205017,4104
-1987,2: Scale without 'species',cell,8232279,4187
-1988,2: Scale without 'species',cell,9127375,4422
-1989,2: Scale without 'species',cell,9187930,4851
-1990,2: Scale without 'species',cell,9827250,5942
-1991,2: Scale without 'species',cell,10692126,4875
-1992,2: Scale without 'species',cell,11532841,6414
-1993,2: Scale without 'species',cell,11863228,5650
-1994,2: Scale without 'species',cell,12424547,5793
-1995,2: Scale without 'species',cell,13968243,6443
-1996,2: Scale without 'species',cell,15100715,5465
-1997,2: Scale without 'species',cell,15395967,5196
-1998,2: Scale without 'species',cell,16912010,6474
-1999,2: Scale without 'species',cell,16924957,6762
-2000,2: Scale without 'species',cell,18064233,8446
-2001,2: Scale without 'species',cell,19322097,8692
-2002,2: Scale without 'species',cell,18790584,6340
-2003,2: Scale without 'species',cell,20408258,7531
-2004,2: Scale without 'species',cell,20858212,6223
-2005,2: Scale without 'species',cell,21777074,7675
-2006,2: Scale without 'species',cell,23460538,7799
-2007,2: Scale without 'species',cell,23407699,8419
-2008,2: Scale without 'species',cell,26392520,10041
-2009,2: Scale without 'species',cell,26767306,8839
-2010,2: Scale without 'species',cell,23931224,9662
-2011,2: Scale without 'species',cell,24867009,12690
-1920,2: Scale without 'species',community,630090,7
-1921,2: Scale without 'species',community,589125,30
-1922,2: Scale without 'species',community,536084,16
-1923,2: Scale without 'species',community,711435,65
-1924,2: Scale without 'species',community,684937,2
-1925,2: Scale without 'species',community,860483,6
-1926,2: Scale without 'species',community,824677,73
-1927,2: Scale without 'species',community,797713,25
-1928,2: Scale without 'species',community,889702,68
-1929,2: Scale without 'species',community,880254,50
-1930,2: Scale without 'species',community,940855,188
-1931,2: Scale without 'species',community,1279796,140
-1932,2: Scale without 'species',community,1186501,174
-1933,2: Scale without 'species',community,898679,171
-1934,2: Scale without 'species',community,1224182,157
-1935,2: Scale without 'species',community,1180563,346
-1936,2: Scale without 'species',community,1205270,259
-1937,2: Scale without 'species',community,1333413,239
-1938,2: Scale without 'species',community,1096306,402
-1939,2: Scale without 'species',community,977570,213
-1940,2: Scale without 'species',community,1030652,405
-1941,2: Scale without 'species',community,870866,399
-1942,2: Scale without 'species',community,923110,282
-1943,2: Scale without 'species',community,781624,95
-1944,2: Scale without 'species',community,802533,188
-1945,2: Scale without 'species',community,695500,358
-1946,2: Scale without 'species',community,906932,330
-1947,2: Scale without 'species',community,1034692,434
-1948,2: Scale without 'species',community,906817,210
-1949,2: Scale without 'species',community,949573,134
-1950,2: Scale without 'species',community,1257239,386
-1951,2: Scale without 'species',community,1272147,657
-1952,2: Scale without 'species',community,1338935,416
-1953,2: Scale without 'species',community,1246757,530
-1954,2: Scale without 'species',community,1348685,347
-1955,2: Scale without 'species',community,1510331,440
-1956,2: Scale without 'species',community,1486176,427
-1957,2: Scale without 'species',community,1535449,490
-1958,2: Scale without 'species',community,1709098,432
-1959,2: Scale without 'species',community,1586959,474
-1960,2: Scale without 'species',community,1782508,480
-1961,2: Scale without 'species',community,1765657,621
-1962,2: Scale without 'species',community,1753664,703
-1963,2: Scale without 'species',community,1844840,589
-1964,2: Scale without 'species',community,2285016,435
-1965,2: Scale without 'species',community,2366519,860
-1966,2: Scale without 'species',community,2646845,761
-1967,2: Scale without 'species',community,2436421,805
-1968,2: Scale without 'species',community,2817575,1224
-1969,2: Scale without 'species',community,3165729,840
-1970,2: Scale without 'species',community,3398488,940
-1971,2: Scale without 'species',community,3876617,1247
-1972,2: Scale without 'species',community,3861897,1392
-1973,2: Scale without 'species',community,3944110,1570
-1974,2: Scale without 'species',community,4327880,1829
-1975,2: Scale without 'species',community,4926792,1848
-1976,2: Scale without 'species',community,4851135,2144
-1977,2: Scale without 'species',community,5986495,2603
-1978,2: Scale without 'species',community,5653233,2125
-1979,2: Scale without 'species',community,5693994,2594
-1980,2: Scale without 'species',community,6331998,2928
-1981,2: Scale without 'species',community,6748054,3207
-1982,2: Scale without 'species',community,6661455,3129
-1983,2: Scale without 'species',community,7131449,3733
-1984,2: Scale without 'species',community,7405435,3433
-1985,2: Scale without 'species',community,7790280,3584
-1986,2: Scale without 'species',community,7205017,3645
-1987,2: Scale without 'species',community,8232279,4035
-1988,2: Scale without 'species',community,9127375,4995
-1989,2: Scale without 'species',community,9187930,3826
-1990,2: Scale without 'species',community,9827250,5012
-1991,2: Scale without 'species',community,10692126,5088
-1992,2: Scale without 'species',community,11532841,5889
-1993,2: Scale without 'species',community,11863228,5594
-1994,2: Scale without 'species',community,12424547,6372
-1995,2: Scale without 'species',community,13968243,6848
-1996,2: Scale without 'species',community,15100715,8120
-1997,2: Scale without 'species',community,15395967,7739
-1998,2: Scale without 'species',community,16912010,9093
-1999,2: Scale without 'species',community,16924957,9400
-2000,2: Scale without 'species',community,18064233,11014
-2001,2: Scale without 'species',community,19322097,11057
-2002,2: Scale without 'species',community,18790584,11278
-2003,2: Scale without 'species',community,20408258,12770
-2004,2: Scale without 'species',community,20858212,14355
-2005,2: Scale without 'species',community,21777074,13784
-2006,2: Scale without 'species',community,23460538,17170
-2007,2: Scale without 'species',community,23407699,16763
-2008,2: Scale without 'species',community,26392520,19521
-2009,2: Scale without 'species',community,26767306,18131
-2010,2: Scale without 'species',community,23931224,18378
-2011,2: Scale without 'species',community,24867009,18736
-1935,2: Scale without 'species',ecosystem,1180563,17
-1936,2: Scale without 'species',ecosystem,1205270,1
+1920,2: Scale without 'species',cell,630090,1647
+1921,2: Scale without 'species',cell,589125,1811
+1922,2: Scale without 'species',cell,536084,1484
+1923,2: Scale without 'species',cell,711435,1499
+1924,2: Scale without 'species',cell,684937,2127
+1925,2: Scale without 'species',cell,860483,2414
+1926,2: Scale without 'species',cell,824677,3070
+1927,2: Scale without 'species',cell,797713,3177
+1928,2: Scale without 'species',cell,889702,2401
+1929,2: Scale without 'species',cell,880254,3404
+1930,2: Scale without 'species',cell,940855,3249
+1931,2: Scale without 'species',cell,1279796,3022
+1932,2: Scale without 'species',cell,1186501,3525
+1933,2: Scale without 'species',cell,898679,2549
+1934,2: Scale without 'species',cell,1224182,3172
+1935,2: Scale without 'species',cell,1180563,3787
+1936,2: Scale without 'species',cell,1205270,3430
+1937,2: Scale without 'species',cell,1333413,4760
+1938,2: Scale without 'species',cell,1096306,2346
+1939,2: Scale without 'species',cell,977570,2460
+1940,2: Scale without 'species',cell,1030652,2237
+1941,2: Scale without 'species',cell,870866,1627
+1942,2: Scale without 'species',cell,923110,2524
+1943,2: Scale without 'species',cell,781624,1455
+1944,2: Scale without 'species',cell,802533,1326
+1945,2: Scale without 'species',cell,695500,919
+1946,2: Scale without 'species',cell,906932,2037
+1947,2: Scale without 'species',cell,1034692,1500
+1948,2: Scale without 'species',cell,906817,1365
+1949,2: Scale without 'species',cell,949573,2228
+1950,2: Scale without 'species',cell,1257239,2794
+1951,2: Scale without 'species',cell,1272147,2303
+1952,2: Scale without 'species',cell,1338935,3798
+1953,2: Scale without 'species',cell,1246757,3040
+1954,2: Scale without 'species',cell,1348685,3410
+1955,2: Scale without 'species',cell,1510331,2883
+1956,2: Scale without 'species',cell,1486176,3860
+1957,2: Scale without 'species',cell,1535449,3962
+1958,2: Scale without 'species',cell,1709098,3506
+1959,2: Scale without 'species',cell,1586959,3819
+1960,2: Scale without 'species',cell,1782508,4480
+1961,2: Scale without 'species',cell,1765657,4184
+1962,2: Scale without 'species',cell,1753664,5402
+1963,2: Scale without 'species',cell,1844840,4236
+1964,2: Scale without 'species',cell,2285016,4846
+1965,2: Scale without 'species',cell,2366519,5967
+1966,2: Scale without 'species',cell,2646845,6207
+1967,2: Scale without 'species',cell,2436421,4403
+1968,2: Scale without 'species',cell,2817575,5624
+1969,2: Scale without 'species',cell,3165729,8012
+1970,2: Scale without 'species',cell,3398488,8232
+1971,2: Scale without 'species',cell,3876617,10308
+1972,2: Scale without 'species',cell,3861897,6448
+1973,2: Scale without 'species',cell,3944110,7546
+1974,2: Scale without 'species',cell,4327880,7813
+1975,2: Scale without 'species',cell,4926792,9066
+1976,2: Scale without 'species',cell,4851135,9450
+1977,2: Scale without 'species',cell,5986495,10600
+1978,2: Scale without 'species',cell,5653233,9032
+1979,2: Scale without 'species',cell,5693994,9717
+1980,2: Scale without 'species',cell,6331998,11238
+1981,2: Scale without 'species',cell,6748054,11757
+1982,2: Scale without 'species',cell,6661455,11932
+1983,2: Scale without 'species',cell,7131449,11115
+1984,2: Scale without 'species',cell,7405435,12316
+1985,2: Scale without 'species',cell,7790280,13414
+1986,2: Scale without 'species',cell,7205017,8943
+1987,2: Scale without 'species',cell,8232279,10334
+1988,2: Scale without 'species',cell,9127375,9921
+1989,2: Scale without 'species',cell,9187930,9900
+1990,2: Scale without 'species',cell,9827250,14032
+1991,2: Scale without 'species',cell,10692126,10584
+1992,2: Scale without 'species',cell,11532841,14296
+1993,2: Scale without 'species',cell,11863228,12077
+1994,2: Scale without 'species',cell,12424547,11734
+1995,2: Scale without 'species',cell,13968243,12449
+1996,2: Scale without 'species',cell,15100715,11734
+1997,2: Scale without 'species',cell,15395967,11204
+1998,2: Scale without 'species',cell,16912010,13541
+1999,2: Scale without 'species',cell,16924957,13588
+2000,2: Scale without 'species',cell,18064233,17596
+2001,2: Scale without 'species',cell,19322097,17288
+2002,2: Scale without 'species',cell,18790584,12806
+2003,2: Scale without 'species',cell,20408258,14466
+2004,2: Scale without 'species',cell,20858212,12288
+2005,2: Scale without 'species',cell,21777074,16167
+2006,2: Scale without 'species',cell,23460538,15410
+2007,2: Scale without 'species',cell,23407699,16904
+2008,2: Scale without 'species',cell,26392520,20970
+2009,2: Scale without 'species',cell,26767306,17845
+2010,2: Scale without 'species',cell,23931224,18830
+2011,2: Scale without 'species',cell,24867009,24857
+1920,2: Scale without 'species',community,630090,10
+1921,2: Scale without 'species',community,589125,65
+1922,2: Scale without 'species',community,536084,32
+1923,2: Scale without 'species',community,711435,158
+1924,2: Scale without 'species',community,684937,5
+1925,2: Scale without 'species',community,860483,11
+1926,2: Scale without 'species',community,824677,143
+1927,2: Scale without 'species',community,797713,75
+1928,2: Scale without 'species',community,889702,150
+1929,2: Scale without 'species',community,880254,152
+1930,2: Scale without 'species',community,940855,392
+1931,2: Scale without 'species',community,1279796,362
+1932,2: Scale without 'species',community,1186501,368
+1933,2: Scale without 'species',community,898679,420
+1934,2: Scale without 'species',community,1224182,311
+1935,2: Scale without 'species',community,1180563,695
+1936,2: Scale without 'species',community,1205270,415
+1937,2: Scale without 'species',community,1333413,464
+1938,2: Scale without 'species',community,1096306,821
+1939,2: Scale without 'species',community,977570,376
+1940,2: Scale without 'species',community,1030652,694
+1941,2: Scale without 'species',community,870866,614
+1942,2: Scale without 'species',community,923110,508
+1943,2: Scale without 'species',community,781624,215
+1944,2: Scale without 'species',community,802533,383
+1945,2: Scale without 'species',community,695500,520
+1946,2: Scale without 'species',community,906932,619
+1947,2: Scale without 'species',community,1034692,773
+1948,2: Scale without 'species',community,906817,393
+1949,2: Scale without 'species',community,949573,278
+1950,2: Scale without 'species',community,1257239,713
+1951,2: Scale without 'species',community,1272147,1303
+1952,2: Scale without 'species',community,1338935,878
+1953,2: Scale without 'species',community,1246757,1076
+1954,2: Scale without 'species',community,1348685,722
+1955,2: Scale without 'species',community,1510331,704
+1956,2: Scale without 'species',community,1486176,783
+1957,2: Scale without 'species',community,1535449,786
+1958,2: Scale without 'species',community,1709098,739
+1959,2: Scale without 'species',community,1586959,1049
+1960,2: Scale without 'species',community,1782508,881
+1961,2: Scale without 'species',community,1765657,1095
+1962,2: Scale without 'species',community,1753664,1144
+1963,2: Scale without 'species',community,1844840,1154
+1964,2: Scale without 'species',community,2285016,1038
+1965,2: Scale without 'species',community,2366519,1611
+1966,2: Scale without 'species',community,2646845,1441
+1967,2: Scale without 'species',community,2436421,1492
+1968,2: Scale without 'species',community,2817575,2147
+1969,2: Scale without 'species',community,3165729,1423
+1970,2: Scale without 'species',community,3398488,1761
+1971,2: Scale without 'species',community,3876617,2208
+1972,2: Scale without 'species',community,3861897,2329
+1973,2: Scale without 'species',community,3944110,2958
+1974,2: Scale without 'species',community,4327880,3105
+1975,2: Scale without 'species',community,4926792,3227
+1976,2: Scale without 'species',community,4851135,3904
+1977,2: Scale without 'species',community,5986495,4694
+1978,2: Scale without 'species',community,5653233,3959
+1979,2: Scale without 'species',community,5693994,4833
+1980,2: Scale without 'species',community,6331998,5461
+1981,2: Scale without 'species',community,6748054,5911
+1982,2: Scale without 'species',community,6661455,6005
+1983,2: Scale without 'species',community,7131449,6603
+1984,2: Scale without 'species',community,7405435,6271
+1985,2: Scale without 'species',community,7790280,6647
+1986,2: Scale without 'species',community,7205017,6660
+1987,2: Scale without 'species',community,8232279,7552
+1988,2: Scale without 'species',community,9127375,9094
+1989,2: Scale without 'species',community,9187930,7354
+1990,2: Scale without 'species',community,9827250,8937
+1991,2: Scale without 'species',community,10692126,9406
+1992,2: Scale without 'species',community,11532841,10923
+1993,2: Scale without 'species',community,11863228,10226
+1994,2: Scale without 'species',community,12424547,12029
+1995,2: Scale without 'species',community,13968243,12850
+1996,2: Scale without 'species',community,15100715,14781
+1997,2: Scale without 'species',community,15395967,14262
+1998,2: Scale without 'species',community,16912010,16475
+1999,2: Scale without 'species',community,16924957,17582
+2000,2: Scale without 'species',community,18064233,19735
+2001,2: Scale without 'species',community,19322097,19895
+2002,2: Scale without 'species',community,18790584,20988
+2003,2: Scale without 'species',community,20408258,23512
+2004,2: Scale without 'species',community,20858212,25556
+2005,2: Scale without 'species',community,21777074,24539
+2006,2: Scale without 'species',community,23460538,30562
+2007,2: Scale without 'species',community,23407699,30019
+2008,2: Scale without 'species',community,26392520,33468
+2009,2: Scale without 'species',community,26767306,31621
+2010,2: Scale without 'species',community,23931224,32211
+2011,2: Scale without 'species',community,24867009,32766
+1935,2: Scale without 'species',ecosystem,1180563,31
+1936,2: Scale without 'species',ecosystem,1205270,2
 1937,2: Scale without 'species',ecosystem,1333413,1
 1939,2: Scale without 'species',ecosystem,977570,1
-1942,2: Scale without 'species',ecosystem,923110,16
+1942,2: Scale without 'species',ecosystem,923110,27
 1944,2: Scale without 'species',ecosystem,802533,1
 1945,2: Scale without 'species',ecosystem,695500,1
 1946,2: Scale without 'species',ecosystem,906932,11
-1947,2: Scale without 'species',ecosystem,1034692,1
+1947,2: Scale without 'species',ecosystem,1034692,3
 1948,2: Scale without 'species',ecosystem,906817,6
 1950,2: Scale without 'species',ecosystem,1257239,1
-1951,2: Scale without 'species',ecosystem,1272147,22
-1952,2: Scale without 'species',ecosystem,1338935,7
-1953,2: Scale without 'species',ecosystem,1246757,11
-1954,2: Scale without 'species',ecosystem,1348685,5
-1955,2: Scale without 'species',ecosystem,1510331,5
-1956,2: Scale without 'species',ecosystem,1486176,21
-1957,2: Scale without 'species',ecosystem,1535449,33
-1958,2: Scale without 'species',ecosystem,1709098,93
-1959,2: Scale without 'species',ecosystem,1586959,65
-1960,2: Scale without 'species',ecosystem,1782508,48
-1961,2: Scale without 'species',ecosystem,1765657,83
-1962,2: Scale without 'species',ecosystem,1753664,61
-1963,2: Scale without 'species',ecosystem,1844840,130
-1964,2: Scale without 'species',ecosystem,2285016,127
-1965,2: Scale without 'species',ecosystem,2366519,116
-1966,2: Scale without 'species',ecosystem,2646845,156
-1967,2: Scale without 'species',ecosystem,2436421,310
-1968,2: Scale without 'species',ecosystem,2817575,184
-1969,2: Scale without 'species',ecosystem,3165729,258
-1970,2: Scale without 'species',ecosystem,3398488,419
-1971,2: Scale without 'species',ecosystem,3876617,440
-1972,2: Scale without 'species',ecosystem,3861897,645
-1973,2: Scale without 'species',ecosystem,3944110,580
-1974,2: Scale without 'species',ecosystem,4327880,712
-1975,2: Scale without 'species',ecosystem,4926792,885
-1976,2: Scale without 'species',ecosystem,4851135,1158
-1977,2: Scale without 'species',ecosystem,5986495,1038
-1978,2: Scale without 'species',ecosystem,5653233,1009
-1979,2: Scale without 'species',ecosystem,5693994,906
-1980,2: Scale without 'species',ecosystem,6331998,1208
-1981,2: Scale without 'species',ecosystem,6748054,1000
-1982,2: Scale without 'species',ecosystem,6661455,1348
-1983,2: Scale without 'species',ecosystem,7131449,1108
-1984,2: Scale without 'species',ecosystem,7405435,1197
-1985,2: Scale without 'species',ecosystem,7790280,1158
-1986,2: Scale without 'species',ecosystem,7205017,929
-1987,2: Scale without 'species',ecosystem,8232279,1104
-1988,2: Scale without 'species',ecosystem,9127375,1776
-1989,2: Scale without 'species',ecosystem,9187930,1646
-1990,2: Scale without 'species',ecosystem,9827250,1912
-1991,2: Scale without 'species',ecosystem,10692126,2606
-1992,2: Scale without 'species',ecosystem,11532841,2629
-1993,2: Scale without 'species',ecosystem,11863228,2379
-1994,2: Scale without 'species',ecosystem,12424547,2588
-1995,2: Scale without 'species',ecosystem,13968243,3984
-1996,2: Scale without 'species',ecosystem,15100715,4792
-1997,2: Scale without 'species',ecosystem,15395967,5020
-1998,2: Scale without 'species',ecosystem,16912010,6356
-1999,2: Scale without 'species',ecosystem,16924957,6514
-2000,2: Scale without 'species',ecosystem,18064233,6293
-2001,2: Scale without 'species',ecosystem,19322097,7336
-2002,2: Scale without 'species',ecosystem,18790584,7453
-2003,2: Scale without 'species',ecosystem,20408258,7750
-2004,2: Scale without 'species',ecosystem,20858212,8768
-2005,2: Scale without 'species',ecosystem,21777074,10169
-2006,2: Scale without 'species',ecosystem,23460538,10708
-2007,2: Scale without 'species',ecosystem,23407699,12139
-2008,2: Scale without 'species',ecosystem,26392520,14233
-2009,2: Scale without 'species',ecosystem,26767306,13567
-2010,2: Scale without 'species',ecosystem,23931224,13938
-2011,2: Scale without 'species',ecosystem,24867009,15680
-1920,2: Scale without 'species',gene,630090,95
-1921,2: Scale without 'species',gene,589125,44
-1922,2: Scale without 'species',gene,536084,201
-1923,2: Scale without 'species',gene,711435,66
-1924,2: Scale without 'species',gene,684937,56
-1925,2: Scale without 'species',gene,860483,50
-1926,2: Scale without 'species',gene,824677,31
-1927,2: Scale without 'species',gene,797713,55
-1928,2: Scale without 'species',gene,889702,45
-1929,2: Scale without 'species',gene,880254,111
-1930,2: Scale without 'species',gene,940855,108
-1931,2: Scale without 'species',gene,1279796,151
-1932,2: Scale without 'species',gene,1186501,293
-1933,2: Scale without 'species',gene,898679,142
-1934,2: Scale without 'species',gene,1224182,272
-1935,2: Scale without 'species',gene,1180563,344
-1936,2: Scale without 'species',gene,1205270,352
-1937,2: Scale without 'species',gene,1333413,219
-1938,2: Scale without 'species',gene,1096306,289
-1939,2: Scale without 'species',gene,977570,197
-1940,2: Scale without 'species',gene,1030652,189
-1941,2: Scale without 'species',gene,870866,174
-1942,2: Scale without 'species',gene,923110,220
-1943,2: Scale without 'species',gene,781624,157
-1944,2: Scale without 'species',gene,802533,143
-1945,2: Scale without 'species',gene,695500,289
-1946,2: Scale without 'species',gene,906932,257
-1947,2: Scale without 'species',gene,1034692,386
-1948,2: Scale without 'species',gene,906817,271
-1949,2: Scale without 'species',gene,949573,61
-1950,2: Scale without 'species',gene,1257239,185
-1951,2: Scale without 'species',gene,1272147,268
-1952,2: Scale without 'species',gene,1338935,252
-1953,2: Scale without 'species',gene,1246757,271
-1954,2: Scale without 'species',gene,1348685,159
-1955,2: Scale without 'species',gene,1510331,458
-1956,2: Scale without 'species',gene,1486176,243
-1957,2: Scale without 'species',gene,1535449,124
-1958,2: Scale without 'species',gene,1709098,294
-1959,2: Scale without 'species',gene,1586959,94
-1960,2: Scale without 'species',gene,1782508,476
-1961,2: Scale without 'species',gene,1765657,325
-1962,2: Scale without 'species',gene,1753664,238
-1963,2: Scale without 'species',gene,1844840,453
-1964,2: Scale without 'species',gene,2285016,183
-1965,2: Scale without 'species',gene,2366519,434
-1966,2: Scale without 'species',gene,2646845,738
-1967,2: Scale without 'species',gene,2436421,380
-1968,2: Scale without 'species',gene,2817575,580
-1969,2: Scale without 'species',gene,3165729,567
-1970,2: Scale without 'species',gene,3398488,758
-1971,2: Scale without 'species',gene,3876617,591
-1972,2: Scale without 'species',gene,3861897,933
-1973,2: Scale without 'species',gene,3944110,621
-1974,2: Scale without 'species',gene,4327880,632
-1975,2: Scale without 'species',gene,4926792,811
-1976,2: Scale without 'species',gene,4851135,1096
-1977,2: Scale without 'species',gene,5986495,974
-1978,2: Scale without 'species',gene,5653233,974
-1979,2: Scale without 'species',gene,5693994,911
-1980,2: Scale without 'species',gene,6331998,1333
-1981,2: Scale without 'species',gene,6748054,1135
-1982,2: Scale without 'species',gene,6661455,1007
-1983,2: Scale without 'species',gene,7131449,1229
-1984,2: Scale without 'species',gene,7405435,2164
-1985,2: Scale without 'species',gene,7790280,1670
-1986,2: Scale without 'species',gene,7205017,2111
-1987,2: Scale without 'species',gene,8232279,1969
-1988,2: Scale without 'species',gene,9127375,2483
-1989,2: Scale without 'species',gene,9187930,1785
-1990,2: Scale without 'species',gene,9827250,2733
-1991,2: Scale without 'species',gene,10692126,2117
-1992,2: Scale without 'species',gene,11532841,2457
-1993,2: Scale without 'species',gene,11863228,3754
-1994,2: Scale without 'species',gene,12424547,3270
-1995,2: Scale without 'species',gene,13968243,4051
-1996,2: Scale without 'species',gene,15100715,3778
-1997,2: Scale without 'species',gene,15395967,3616
-1998,2: Scale without 'species',gene,16912010,3993
-1999,2: Scale without 'species',gene,16924957,4506
-2000,2: Scale without 'species',gene,18064233,4781
-2001,2: Scale without 'species',gene,19322097,5184
-2002,2: Scale without 'species',gene,18790584,4933
-2003,2: Scale without 'species',gene,20408258,6414
-2004,2: Scale without 'species',gene,20858212,4751
-2005,2: Scale without 'species',gene,21777074,5631
-2006,2: Scale without 'species',gene,23460538,7405
-2007,2: Scale without 'species',gene,23407699,7330
-2008,2: Scale without 'species',gene,26392520,9818
-2009,2: Scale without 'species',gene,26767306,9694
-2010,2: Scale without 'species',gene,23931224,10041
-2011,2: Scale without 'species',gene,24867009,9510
-1972,2: Scale without 'species',metapopulation,3861897,1
-1973,2: Scale without 'species',metapopulation,3944110,19
-1975,2: Scale without 'species',metapopulation,4926792,1
-1976,2: Scale without 'species',metapopulation,4851135,1
-1978,2: Scale without 'species',metapopulation,5653233,31
-1979,2: Scale without 'species',metapopulation,5693994,30
-1980,2: Scale without 'species',metapopulation,6331998,7
-1981,2: Scale without 'species',metapopulation,6748054,4
-1982,2: Scale without 'species',metapopulation,6661455,9
-1983,2: Scale without 'species',metapopulation,7131449,7
-1984,2: Scale without 'species',metapopulation,7405435,1
-1985,2: Scale without 'species',metapopulation,7790280,17
-1986,2: Scale without 'species',metapopulation,7205017,25
-1987,2: Scale without 'species',metapopulation,8232279,37
-1988,2: Scale without 'species',metapopulation,9127375,85
-1989,2: Scale without 'species',metapopulation,9187930,63
-1990,2: Scale without 'species',metapopulation,9827250,152
-1991,2: Scale without 'species',metapopulation,10692126,174
-1992,2: Scale without 'species',metapopulation,11532841,263
-1993,2: Scale without 'species',metapopulation,11863228,355
-1994,2: Scale without 'species',metapopulation,12424547,653
-1995,2: Scale without 'species',metapopulation,13968243,547
-1996,2: Scale without 'species',metapopulation,15100715,1029
-1997,2: Scale without 'species',metapopulation,15395967,884
-1998,2: Scale without 'species',metapopulation,16912010,1141
-1999,2: Scale without 'species',metapopulation,16924957,1042
-2000,2: Scale without 'species',metapopulation,18064233,1874
-2001,2: Scale without 'species',metapopulation,19322097,1968
-2002,2: Scale without 'species',metapopulation,18790584,2109
-2003,2: Scale without 'species',metapopulation,20408258,1606
-2004,2: Scale without 'species',metapopulation,20858212,1286
-2005,2: Scale without 'species',metapopulation,21777074,2251
-2006,2: Scale without 'species',metapopulation,23460538,1193
-2007,2: Scale without 'species',metapopulation,23407699,1369
-2008,2: Scale without 'species',metapopulation,26392520,1362
-2009,2: Scale without 'species',metapopulation,26767306,1534
-2010,2: Scale without 'species',metapopulation,23931224,1211
-2011,2: Scale without 'species',metapopulation,24867009,1466
-1920,2: Scale without 'species',organism,630090,168
-1921,2: Scale without 'species',organism,589125,210
-1922,2: Scale without 'species',organism,536084,199
-1923,2: Scale without 'species',organism,711435,153
-1924,2: Scale without 'species',organism,684937,156
-1925,2: Scale without 'species',organism,860483,146
-1926,2: Scale without 'species',organism,824677,204
-1927,2: Scale without 'species',organism,797713,122
-1928,2: Scale without 'species',organism,889702,206
-1929,2: Scale without 'species',organism,880254,147
-1930,2: Scale without 'species',organism,940855,234
-1931,2: Scale without 'species',organism,1279796,209
-1932,2: Scale without 'species',organism,1186501,168
-1933,2: Scale without 'species',organism,898679,160
-1934,2: Scale without 'species',organism,1224182,187
-1935,2: Scale without 'species',organism,1180563,282
-1936,2: Scale without 'species',organism,1205270,208
-1937,2: Scale without 'species',organism,1333413,194
-1938,2: Scale without 'species',organism,1096306,146
-1939,2: Scale without 'species',organism,977570,114
-1940,2: Scale without 'species',organism,1030652,365
-1941,2: Scale without 'species',organism,870866,125
-1942,2: Scale without 'species',organism,923110,123
-1943,2: Scale without 'species',organism,781624,80
-1944,2: Scale without 'species',organism,802533,110
-1945,2: Scale without 'species',organism,695500,74
-1946,2: Scale without 'species',organism,906932,106
-1947,2: Scale without 'species',organism,1034692,145
-1948,2: Scale without 'species',organism,906817,143
-1949,2: Scale without 'species',organism,949573,96
-1950,2: Scale without 'species',organism,1257239,187
-1951,2: Scale without 'species',organism,1272147,103
-1952,2: Scale without 'species',organism,1338935,155
-1953,2: Scale without 'species',organism,1246757,134
-1954,2: Scale without 'species',organism,1348685,119
-1955,2: Scale without 'species',organism,1510331,121
-1956,2: Scale without 'species',organism,1486176,162
-1957,2: Scale without 'species',organism,1535449,320
-1958,2: Scale without 'species',organism,1709098,168
-1959,2: Scale without 'species',organism,1586959,233
-1960,2: Scale without 'species',organism,1782508,191
-1961,2: Scale without 'species',organism,1765657,220
-1962,2: Scale without 'species',organism,1753664,219
-1963,2: Scale without 'species',organism,1844840,192
-1964,2: Scale without 'species',organism,2285016,301
-1965,2: Scale without 'species',organism,2366519,280
-1966,2: Scale without 'species',organism,2646845,361
-1967,2: Scale without 'species',organism,2436421,237
-1968,2: Scale without 'species',organism,2817575,306
-1969,2: Scale without 'species',organism,3165729,282
-1970,2: Scale without 'species',organism,3398488,328
-1971,2: Scale without 'species',organism,3876617,338
-1972,2: Scale without 'species',organism,3861897,320
-1973,2: Scale without 'species',organism,3944110,314
-1974,2: Scale without 'species',organism,4327880,286
-1975,2: Scale without 'species',organism,4926792,380
-1976,2: Scale without 'species',organism,4851135,352
-1977,2: Scale without 'species',organism,5986495,449
-1978,2: Scale without 'species',organism,5653233,435
-1979,2: Scale without 'species',organism,5693994,476
-1980,2: Scale without 'species',organism,6331998,429
-1981,2: Scale without 'species',organism,6748054,456
-1982,2: Scale without 'species',organism,6661455,578
-1983,2: Scale without 'species',organism,7131449,516
-1984,2: Scale without 'species',organism,7405435,369
-1985,2: Scale without 'species',organism,7790280,549
-1986,2: Scale without 'species',organism,7205017,550
-1987,2: Scale without 'species',organism,8232279,425
-1988,2: Scale without 'species',organism,9127375,562
-1989,2: Scale without 'species',organism,9187930,535
-1990,2: Scale without 'species',organism,9827250,553
-1991,2: Scale without 'species',organism,10692126,599
-1992,2: Scale without 'species',organism,11532841,592
-1993,2: Scale without 'species',organism,11863228,559
-1994,2: Scale without 'species',organism,12424547,646
-1995,2: Scale without 'species',organism,13968243,719
-1996,2: Scale without 'species',organism,15100715,819
-1997,2: Scale without 'species',organism,15395967,1066
-1998,2: Scale without 'species',organism,16912010,609
-1999,2: Scale without 'species',organism,16924957,940
-2000,2: Scale without 'species',organism,18064233,881
-2001,2: Scale without 'species',organism,19322097,924
-2002,2: Scale without 'species',organism,18790584,839
-2003,2: Scale without 'species',organism,20408258,971
-2004,2: Scale without 'species',organism,20858212,1112
-2005,2: Scale without 'species',organism,21777074,1028
-2006,2: Scale without 'species',organism,23460538,1346
-2007,2: Scale without 'species',organism,23407699,1058
-2008,2: Scale without 'species',organism,26392520,1328
-2009,2: Scale without 'species',organism,26767306,1399
-2010,2: Scale without 'species',organism,23931224,1192
-2011,2: Scale without 'species',organism,24867009,1330
+1951,2: Scale without 'species',ecosystem,1272147,24
+1952,2: Scale without 'species',ecosystem,1338935,16
+1953,2: Scale without 'species',ecosystem,1246757,15
+1954,2: Scale without 'species',ecosystem,1348685,6
+1955,2: Scale without 'species',ecosystem,1510331,9
+1956,2: Scale without 'species',ecosystem,1486176,24
+1957,2: Scale without 'species',ecosystem,1535449,45
+1958,2: Scale without 'species',ecosystem,1709098,126
+1959,2: Scale without 'species',ecosystem,1586959,80
+1960,2: Scale without 'species',ecosystem,1782508,80
+1961,2: Scale without 'species',ecosystem,1765657,122
+1962,2: Scale without 'species',ecosystem,1753664,102
+1963,2: Scale without 'species',ecosystem,1844840,242
+1964,2: Scale without 'species',ecosystem,2285016,232
+1965,2: Scale without 'species',ecosystem,2366519,201
+1966,2: Scale without 'species',ecosystem,2646845,258
+1967,2: Scale without 'species',ecosystem,2436421,528
+1968,2: Scale without 'species',ecosystem,2817575,343
+1969,2: Scale without 'species',ecosystem,3165729,449
+1970,2: Scale without 'species',ecosystem,3398488,649
+1971,2: Scale without 'species',ecosystem,3876617,793
+1972,2: Scale without 'species',ecosystem,3861897,1100
+1973,2: Scale without 'species',ecosystem,3944110,1192
+1974,2: Scale without 'species',ecosystem,4327880,1293
+1975,2: Scale without 'species',ecosystem,4926792,1631
+1976,2: Scale without 'species',ecosystem,4851135,2180
+1977,2: Scale without 'species',ecosystem,5986495,2100
+1978,2: Scale without 'species',ecosystem,5653233,1970
+1979,2: Scale without 'species',ecosystem,5693994,1833
+1980,2: Scale without 'species',ecosystem,6331998,2348
+1981,2: Scale without 'species',ecosystem,6748054,2197
+1982,2: Scale without 'species',ecosystem,6661455,2921
+1983,2: Scale without 'species',ecosystem,7131449,2367
+1984,2: Scale without 'species',ecosystem,7405435,2498
+1985,2: Scale without 'species',ecosystem,7790280,2473
+1986,2: Scale without 'species',ecosystem,7205017,2272
+1987,2: Scale without 'species',ecosystem,8232279,2540
+1988,2: Scale without 'species',ecosystem,9127375,3686
+1989,2: Scale without 'species',ecosystem,9187930,3546
+1990,2: Scale without 'species',ecosystem,9827250,3905
+1991,2: Scale without 'species',ecosystem,10692126,5288
+1992,2: Scale without 'species',ecosystem,11532841,5608
+1993,2: Scale without 'species',ecosystem,11863228,5290
+1994,2: Scale without 'species',ecosystem,12424547,5767
+1995,2: Scale without 'species',ecosystem,13968243,7943
+1996,2: Scale without 'species',ecosystem,15100715,9018
+1997,2: Scale without 'species',ecosystem,15395967,9775
+1998,2: Scale without 'species',ecosystem,16912010,11929
+1999,2: Scale without 'species',ecosystem,16924957,11901
+2000,2: Scale without 'species',ecosystem,18064233,11931
+2001,2: Scale without 'species',ecosystem,19322097,13262
+2002,2: Scale without 'species',ecosystem,18790584,13979
+2003,2: Scale without 'species',ecosystem,20408258,14938
+2004,2: Scale without 'species',ecosystem,20858212,16851
+2005,2: Scale without 'species',ecosystem,21777074,18558
+2006,2: Scale without 'species',ecosystem,23460538,20069
+2007,2: Scale without 'species',ecosystem,23407699,22016
+2008,2: Scale without 'species',ecosystem,26392520,25344
+2009,2: Scale without 'species',ecosystem,26767306,23556
+2010,2: Scale without 'species',ecosystem,23931224,24603
+2011,2: Scale without 'species',ecosystem,24867009,26676
+1920,2: Scale without 'species',gene,630090,234
+1921,2: Scale without 'species',gene,589125,116
+1922,2: Scale without 'species',gene,536084,420
+1923,2: Scale without 'species',gene,711435,128
+1924,2: Scale without 'species',gene,684937,137
+1925,2: Scale without 'species',gene,860483,127
+1926,2: Scale without 'species',gene,824677,122
+1927,2: Scale without 'species',gene,797713,128
+1928,2: Scale without 'species',gene,889702,112
+1929,2: Scale without 'species',gene,880254,293
+1930,2: Scale without 'species',gene,940855,219
+1931,2: Scale without 'species',gene,1279796,263
+1932,2: Scale without 'species',gene,1186501,758
+1933,2: Scale without 'species',gene,898679,370
+1934,2: Scale without 'species',gene,1224182,577
+1935,2: Scale without 'species',gene,1180563,685
+1936,2: Scale without 'species',gene,1205270,762
+1937,2: Scale without 'species',gene,1333413,487
+1938,2: Scale without 'species',gene,1096306,529
+1939,2: Scale without 'species',gene,977570,368
+1940,2: Scale without 'species',gene,1030652,336
+1941,2: Scale without 'species',gene,870866,319
+1942,2: Scale without 'species',gene,923110,452
+1943,2: Scale without 'species',gene,781624,423
+1944,2: Scale without 'species',gene,802533,350
+1945,2: Scale without 'species',gene,695500,510
+1946,2: Scale without 'species',gene,906932,462
+1947,2: Scale without 'species',gene,1034692,687
+1948,2: Scale without 'species',gene,906817,430
+1949,2: Scale without 'species',gene,949573,118
+1950,2: Scale without 'species',gene,1257239,408
+1951,2: Scale without 'species',gene,1272147,501
+1952,2: Scale without 'species',gene,1338935,450
+1953,2: Scale without 'species',gene,1246757,560
+1954,2: Scale without 'species',gene,1348685,306
+1955,2: Scale without 'species',gene,1510331,760
+1956,2: Scale without 'species',gene,1486176,400
+1957,2: Scale without 'species',gene,1535449,272
+1958,2: Scale without 'species',gene,1709098,466
+1959,2: Scale without 'species',gene,1586959,209
+1960,2: Scale without 'species',gene,1782508,824
+1961,2: Scale without 'species',gene,1765657,463
+1962,2: Scale without 'species',gene,1753664,406
+1963,2: Scale without 'species',gene,1844840,705
+1964,2: Scale without 'species',gene,2285016,346
+1965,2: Scale without 'species',gene,2366519,761
+1966,2: Scale without 'species',gene,2646845,1413
+1967,2: Scale without 'species',gene,2436421,619
+1968,2: Scale without 'species',gene,2817575,742
+1969,2: Scale without 'species',gene,3165729,969
+1970,2: Scale without 'species',gene,3398488,1377
+1971,2: Scale without 'species',gene,3876617,900
+1972,2: Scale without 'species',gene,3861897,1296
+1973,2: Scale without 'species',gene,3944110,899
+1974,2: Scale without 'species',gene,4327880,886
+1975,2: Scale without 'species',gene,4926792,1171
+1976,2: Scale without 'species',gene,4851135,1838
+1977,2: Scale without 'species',gene,5986495,1701
+1978,2: Scale without 'species',gene,5653233,1760
+1979,2: Scale without 'species',gene,5693994,1416
+1980,2: Scale without 'species',gene,6331998,2299
+1981,2: Scale without 'species',gene,6748054,2018
+1982,2: Scale without 'species',gene,6661455,1718
+1983,2: Scale without 'species',gene,7131449,1986
+1984,2: Scale without 'species',gene,7405435,3737
+1985,2: Scale without 'species',gene,7790280,2535
+1986,2: Scale without 'species',gene,7205017,3913
+1987,2: Scale without 'species',gene,8232279,3527
+1988,2: Scale without 'species',gene,9127375,3823
+1989,2: Scale without 'species',gene,9187930,2682
+1990,2: Scale without 'species',gene,9827250,4409
+1991,2: Scale without 'species',gene,10692126,3361
+1992,2: Scale without 'species',gene,11532841,3756
+1993,2: Scale without 'species',gene,11863228,5984
+1994,2: Scale without 'species',gene,12424547,5476
+1995,2: Scale without 'species',gene,13968243,6866
+1996,2: Scale without 'species',gene,15100715,5972
+1997,2: Scale without 'species',gene,15395967,6248
+1998,2: Scale without 'species',gene,16912010,6993
+1999,2: Scale without 'species',gene,16924957,7689
+2000,2: Scale without 'species',gene,18064233,8173
+2001,2: Scale without 'species',gene,19322097,9446
+2002,2: Scale without 'species',gene,18790584,8570
+2003,2: Scale without 'species',gene,20408258,11862
+2004,2: Scale without 'species',gene,20858212,8473
+2005,2: Scale without 'species',gene,21777074,9916
+2006,2: Scale without 'species',gene,23460538,12609
+2007,2: Scale without 'species',gene,23407699,11989
+2008,2: Scale without 'species',gene,26392520,17378
+2009,2: Scale without 'species',gene,26767306,17140
+2010,2: Scale without 'species',gene,23931224,17994
+2011,2: Scale without 'species',gene,24867009,16859
+1921,2: Scale without 'species',landscape,589125,1
+1922,2: Scale without 'species',landscape,536084,1
+1923,2: Scale without 'species',landscape,711435,19
+1924,2: Scale without 'species',landscape,684937,2
+1925,2: Scale without 'species',landscape,860483,7
+1926,2: Scale without 'species',landscape,824677,1
+1927,2: Scale without 'species',landscape,797713,1
+1928,2: Scale without 'species',landscape,889702,4
+1929,2: Scale without 'species',landscape,880254,3
+1930,2: Scale without 'species',landscape,940855,16
+1931,2: Scale without 'species',landscape,1279796,10
+1932,2: Scale without 'species',landscape,1186501,2
+1933,2: Scale without 'species',landscape,898679,5
+1934,2: Scale without 'species',landscape,1224182,33
+1935,2: Scale without 'species',landscape,1180563,6
+1936,2: Scale without 'species',landscape,1205270,5
+1937,2: Scale without 'species',landscape,1333413,6
+1938,2: Scale without 'species',landscape,1096306,5
+1939,2: Scale without 'species',landscape,977570,12
+1940,2: Scale without 'species',landscape,1030652,15
+1941,2: Scale without 'species',landscape,870866,6
+1942,2: Scale without 'species',landscape,923110,7
+1943,2: Scale without 'species',landscape,781624,7
+1944,2: Scale without 'species',landscape,802533,17
+1945,2: Scale without 'species',landscape,695500,6
+1946,2: Scale without 'species',landscape,906932,12
+1947,2: Scale without 'species',landscape,1034692,4
+1948,2: Scale without 'species',landscape,906817,16
+1949,2: Scale without 'species',landscape,949573,2
+1950,2: Scale without 'species',landscape,1257239,9
+1951,2: Scale without 'species',landscape,1272147,42
+1952,2: Scale without 'species',landscape,1338935,3
+1953,2: Scale without 'species',landscape,1246757,52
+1954,2: Scale without 'species',landscape,1348685,13
+1955,2: Scale without 'species',landscape,1510331,4
+1956,2: Scale without 'species',landscape,1486176,25
+1957,2: Scale without 'species',landscape,1535449,22
+1958,2: Scale without 'species',landscape,1709098,46
+1959,2: Scale without 'species',landscape,1586959,13
+1960,2: Scale without 'species',landscape,1782508,13
+1961,2: Scale without 'species',landscape,1765657,15
+1962,2: Scale without 'species',landscape,1753664,39
+1963,2: Scale without 'species',landscape,1844840,19
+1964,2: Scale without 'species',landscape,2285016,36
+1965,2: Scale without 'species',landscape,2366519,107
+1966,2: Scale without 'species',landscape,2646845,33
+1967,2: Scale without 'species',landscape,2436421,38
+1968,2: Scale without 'species',landscape,2817575,42
+1969,2: Scale without 'species',landscape,3165729,82
+1970,2: Scale without 'species',landscape,3398488,85
+1971,2: Scale without 'species',landscape,3876617,63
+1972,2: Scale without 'species',landscape,3861897,58
+1973,2: Scale without 'species',landscape,3944110,124
+1974,2: Scale without 'species',landscape,4327880,80
+1975,2: Scale without 'species',landscape,4926792,221
+1976,2: Scale without 'species',landscape,4851135,89
+1977,2: Scale without 'species',landscape,5986495,202
+1978,2: Scale without 'species',landscape,5653233,235
+1979,2: Scale without 'species',landscape,5693994,275
+1980,2: Scale without 'species',landscape,6331998,256
+1981,2: Scale without 'species',landscape,6748054,258
+1982,2: Scale without 'species',landscape,6661455,274
+1983,2: Scale without 'species',landscape,7131449,244
+1984,2: Scale without 'species',landscape,7405435,204
+1985,2: Scale without 'species',landscape,7790280,473
+1986,2: Scale without 'species',landscape,7205017,278
+1987,2: Scale without 'species',landscape,8232279,595
+1988,2: Scale without 'species',landscape,9127375,782
+1989,2: Scale without 'species',landscape,9187930,1079
+1990,2: Scale without 'species',landscape,9827250,927
+1991,2: Scale without 'species',landscape,10692126,1390
+1992,2: Scale without 'species',landscape,11532841,2317
+1993,2: Scale without 'species',landscape,11863228,2260
+1994,2: Scale without 'species',landscape,12424547,3194
+1995,2: Scale without 'species',landscape,13968243,4439
+1996,2: Scale without 'species',landscape,15100715,5123
+1997,2: Scale without 'species',landscape,15395967,5661
+1998,2: Scale without 'species',landscape,16912010,6501
+1999,2: Scale without 'species',landscape,16924957,8158
+2000,2: Scale without 'species',landscape,18064233,9052
+2001,2: Scale without 'species',landscape,19322097,8742
+2002,2: Scale without 'species',landscape,18790584,11246
+2003,2: Scale without 'species',landscape,20408258,11463
+2004,2: Scale without 'species',landscape,20858212,12017
+2005,2: Scale without 'species',landscape,21777074,13772
+2006,2: Scale without 'species',landscape,23460538,13925
+2007,2: Scale without 'species',landscape,23407699,15610
+2008,2: Scale without 'species',landscape,26392520,15391
+2009,2: Scale without 'species',landscape,26767306,15470
+2010,2: Scale without 'species',landscape,23931224,13519
+2011,2: Scale without 'species',landscape,24867009,15339
+1920,2: Scale without 'species',organism,630090,353
+1921,2: Scale without 'species',organism,589125,395
+1922,2: Scale without 'species',organism,536084,373
+1923,2: Scale without 'species',organism,711435,345
+1924,2: Scale without 'species',organism,684937,352
+1925,2: Scale without 'species',organism,860483,436
+1926,2: Scale without 'species',organism,824677,402
+1927,2: Scale without 'species',organism,797713,288
+1928,2: Scale without 'species',organism,889702,519
+1929,2: Scale without 'species',organism,880254,366
+1930,2: Scale without 'species',organism,940855,449
+1931,2: Scale without 'species',organism,1279796,786
+1932,2: Scale without 'species',organism,1186501,425
+1933,2: Scale without 'species',organism,898679,457
+1934,2: Scale without 'species',organism,1224182,639
+1935,2: Scale without 'species',organism,1180563,668
+1936,2: Scale without 'species',organism,1205270,564
+1937,2: Scale without 'species',organism,1333413,542
+1938,2: Scale without 'species',organism,1096306,350
+1939,2: Scale without 'species',organism,977570,366
+1940,2: Scale without 'species',organism,1030652,796
+1941,2: Scale without 'species',organism,870866,344
+1942,2: Scale without 'species',organism,923110,642
+1943,2: Scale without 'species',organism,781624,306
+1944,2: Scale without 'species',organism,802533,441
+1945,2: Scale without 'species',organism,695500,343
+1946,2: Scale without 'species',organism,906932,417
+1947,2: Scale without 'species',organism,1034692,626
+1948,2: Scale without 'species',organism,906817,451
+1949,2: Scale without 'species',organism,949573,309
+1950,2: Scale without 'species',organism,1257239,525
+1951,2: Scale without 'species',organism,1272147,363
+1952,2: Scale without 'species',organism,1338935,582
+1953,2: Scale without 'species',organism,1246757,381
+1954,2: Scale without 'species',organism,1348685,407
+1955,2: Scale without 'species',organism,1510331,520
+1956,2: Scale without 'species',organism,1486176,629
+1957,2: Scale without 'species',organism,1535449,897
+1958,2: Scale without 'species',organism,1709098,559
+1959,2: Scale without 'species',organism,1586959,777
+1960,2: Scale without 'species',organism,1782508,728
+1961,2: Scale without 'species',organism,1765657,894
+1962,2: Scale without 'species',organism,1753664,898
+1963,2: Scale without 'species',organism,1844840,869
+1964,2: Scale without 'species',organism,2285016,1111
+1965,2: Scale without 'species',organism,2366519,890
+1966,2: Scale without 'species',organism,2646845,1190
+1967,2: Scale without 'species',organism,2436421,1085
+1968,2: Scale without 'species',organism,2817575,1478
+1969,2: Scale without 'species',organism,3165729,1187
+1970,2: Scale without 'species',organism,3398488,1170
+1971,2: Scale without 'species',organism,3876617,1511
+1972,2: Scale without 'species',organism,3861897,1578
+1973,2: Scale without 'species',organism,3944110,1406
+1974,2: Scale without 'species',organism,4327880,1281
+1975,2: Scale without 'species',organism,4926792,1510
+1976,2: Scale without 'species',organism,4851135,1556
+1977,2: Scale without 'species',organism,5986495,1954
+1978,2: Scale without 'species',organism,5653233,1899
+1979,2: Scale without 'species',organism,5693994,2047
+1980,2: Scale without 'species',organism,6331998,1929
+1981,2: Scale without 'species',organism,6748054,2048
+1982,2: Scale without 'species',organism,6661455,2698
+1983,2: Scale without 'species',organism,7131449,2312
+1984,2: Scale without 'species',organism,7405435,2144
+1985,2: Scale without 'species',organism,7790280,2532
+1986,2: Scale without 'species',organism,7205017,2453
+1987,2: Scale without 'species',organism,8232279,2193
+1988,2: Scale without 'species',organism,9127375,2638
+1989,2: Scale without 'species',organism,9187930,2474
+1990,2: Scale without 'species',organism,9827250,2486
+1991,2: Scale without 'species',organism,10692126,2616
+1992,2: Scale without 'species',organism,11532841,2924
+1993,2: Scale without 'species',organism,11863228,2990
+1994,2: Scale without 'species',organism,12424547,3094
+1995,2: Scale without 'species',organism,13968243,3517
+1996,2: Scale without 'species',organism,15100715,4165
+1997,2: Scale without 'species',organism,15395967,4448
+1998,2: Scale without 'species',organism,16912010,3622
+1999,2: Scale without 'species',organism,16924957,4570
+2000,2: Scale without 'species',organism,18064233,4418
+2001,2: Scale without 'species',organism,19322097,4792
+2002,2: Scale without 'species',organism,18790584,4565
+2003,2: Scale without 'species',organism,20408258,5264
+2004,2: Scale without 'species',organism,20858212,5531
+2005,2: Scale without 'species',organism,21777074,5551
+2006,2: Scale without 'species',organism,23460538,6546
+2007,2: Scale without 'species',organism,23407699,5896
+2008,2: Scale without 'species',organism,26392520,6491
+2009,2: Scale without 'species',organism,26767306,6701
+2010,2: Scale without 'species',organism,23931224,6135
+2011,2: Scale without 'species',organism,24867009,6100
 1920,2: Scale without 'species',population,630090,28
-1921,2: Scale without 'species',population,589125,54
-1922,2: Scale without 'species',population,536084,150
-1923,2: Scale without 'species',population,711435,80
-1924,2: Scale without 'species',population,684937,55
-1925,2: Scale without 'species',population,860483,40
-1926,2: Scale without 'species',population,824677,79
-1927,2: Scale without 'species',population,797713,173
-1928,2: Scale without 'species',population,889702,137
-1929,2: Scale without 'species',population,880254,121
-1930,2: Scale without 'species',population,940855,203
-1931,2: Scale without 'species',population,1279796,255
-1932,2: Scale without 'species',population,1186501,502
-1933,2: Scale without 'species',population,898679,263
-1934,2: Scale without 'species',population,1224182,229
-1935,2: Scale without 'species',population,1180563,261
-1936,2: Scale without 'species',population,1205270,386
-1937,2: Scale without 'species',population,1333413,580
-1938,2: Scale without 'species',population,1096306,300
-1939,2: Scale without 'species',population,977570,721
-1940,2: Scale without 'species',population,1030652,389
-1941,2: Scale without 'species',population,870866,627
-1942,2: Scale without 'species',population,923110,400
-1943,2: Scale without 'species',population,781624,664
-1944,2: Scale without 'species',population,802533,716
-1945,2: Scale without 'species',population,695500,666
-1946,2: Scale without 'species',population,906932,743
-1947,2: Scale without 'species',population,1034692,572
-1948,2: Scale without 'species',population,906817,606
-1949,2: Scale without 'species',population,949573,629
-1950,2: Scale without 'species',population,1257239,1300
-1951,2: Scale without 'species',population,1272147,1355
-1952,2: Scale without 'species',population,1338935,1117
-1953,2: Scale without 'species',population,1246757,1428
-1954,2: Scale without 'species',population,1348685,1339
-1955,2: Scale without 'species',population,1510331,1683
-1956,2: Scale without 'species',population,1486176,1371
-1957,2: Scale without 'species',population,1535449,1151
-1958,2: Scale without 'species',population,1709098,1689
-1959,2: Scale without 'species',population,1586959,1364
-1960,2: Scale without 'species',population,1782508,2362
-1961,2: Scale without 'species',population,1765657,2250
-1962,2: Scale without 'species',population,1753664,1682
-1963,2: Scale without 'species',population,1844840,2437
-1964,2: Scale without 'species',population,2285016,2037
-1965,2: Scale without 'species',population,2366519,2593
-1966,2: Scale without 'species',population,2646845,3717
-1967,2: Scale without 'species',population,2436421,3267
-1968,2: Scale without 'species',population,2817575,3258
-1969,2: Scale without 'species',population,3165729,3481
-1970,2: Scale without 'species',population,3398488,4706
-1971,2: Scale without 'species',population,3876617,5604
-1972,2: Scale without 'species',population,3861897,5369
-1973,2: Scale without 'species',population,3944110,5253
-1974,2: Scale without 'species',population,4327880,6711
-1975,2: Scale without 'species',population,4926792,6630
-1976,2: Scale without 'species',population,4851135,6394
-1977,2: Scale without 'species',population,5986495,7579
-1978,2: Scale without 'species',population,5653233,7630
-1979,2: Scale without 'species',population,5693994,8659
-1980,2: Scale without 'species',population,6331998,8368
-1981,2: Scale without 'species',population,6748054,9177
-1982,2: Scale without 'species',population,6661455,8108
-1983,2: Scale without 'species',population,7131449,9156
-1984,2: Scale without 'species',population,7405435,10047
-1985,2: Scale without 'species',population,7790280,10499
-1986,2: Scale without 'species',population,7205017,10715
-1987,2: Scale without 'species',population,8232279,13279
-1988,2: Scale without 'species',population,9127375,12983
-1989,2: Scale without 'species',population,9187930,12139
-1990,2: Scale without 'species',population,9827250,13374
-1991,2: Scale without 'species',population,10692126,14892
-1992,2: Scale without 'species',population,11532841,17376
-1993,2: Scale without 'species',population,11863228,17061
-1994,2: Scale without 'species',population,12424547,19997
-1995,2: Scale without 'species',population,13968243,22799
-1996,2: Scale without 'species',population,15100715,26501
-1997,2: Scale without 'species',population,15395967,23923
-1998,2: Scale without 'species',population,16912010,25634
-1999,2: Scale without 'species',population,16924957,25056
-2000,2: Scale without 'species',population,18064233,29626
-2001,2: Scale without 'species',population,19322097,28027
-2002,2: Scale without 'species',population,18790584,33565
-2003,2: Scale without 'species',population,20408258,30227
-2004,2: Scale without 'species',population,20858212,31677
-2005,2: Scale without 'species',population,21777074,34877
-2006,2: Scale without 'species',population,23460538,34232
-2007,2: Scale without 'species',population,23407699,37330
-2008,2: Scale without 'species',population,26392520,38086
-2009,2: Scale without 'species',population,26767306,40424
-2010,2: Scale without 'species',population,23931224,35057
-2011,2: Scale without 'species',population,24867009,34988
+1921,2: Scale without 'species',population,589125,77
+1922,2: Scale without 'species',population,536084,158
+1923,2: Scale without 'species',population,711435,85
+1924,2: Scale without 'species',population,684937,75
+1925,2: Scale without 'species',population,860483,43
+1926,2: Scale without 'species',population,824677,87
+1927,2: Scale without 'species',population,797713,213
+1928,2: Scale without 'species',population,889702,157
+1929,2: Scale without 'species',population,880254,146
+1930,2: Scale without 'species',population,940855,233
+1931,2: Scale without 'species',population,1279796,310
+1932,2: Scale without 'species',population,1186501,710
+1933,2: Scale without 'species',population,898679,302
+1934,2: Scale without 'species',population,1224182,324
+1935,2: Scale without 'species',population,1180563,360
+1936,2: Scale without 'species',population,1205270,494
+1937,2: Scale without 'species',population,1333413,867
+1938,2: Scale without 'species',population,1096306,416
+1939,2: Scale without 'species',population,977570,965
+1940,2: Scale without 'species',population,1030652,605
+1941,2: Scale without 'species',population,870866,866
+1942,2: Scale without 'species',population,923110,665
+1943,2: Scale without 'species',population,781624,1056
+1944,2: Scale without 'species',population,802533,1010
+1945,2: Scale without 'species',population,695500,936
+1946,2: Scale without 'species',population,906932,1198
+1947,2: Scale without 'species',population,1034692,813
+1948,2: Scale without 'species',population,906817,1066
+1949,2: Scale without 'species',population,949573,1008
+1950,2: Scale without 'species',population,1257239,2055
+1951,2: Scale without 'species',population,1272147,2275
+1952,2: Scale without 'species',population,1338935,1636
+1953,2: Scale without 'species',population,1246757,2158
+1954,2: Scale without 'species',population,1348685,2216
+1955,2: Scale without 'species',population,1510331,2404
+1956,2: Scale without 'species',population,1486176,2261
+1957,2: Scale without 'species',population,1535449,1819
+1958,2: Scale without 'species',population,1709098,2450
+1959,2: Scale without 'species',population,1586959,2147
+1960,2: Scale without 'species',population,1782508,3630
+1961,2: Scale without 'species',population,1765657,3632
+1962,2: Scale without 'species',population,1753664,2728
+1963,2: Scale without 'species',population,1844840,3973
+1964,2: Scale without 'species',population,2285016,3398
+1965,2: Scale without 'species',population,2366519,4458
+1966,2: Scale without 'species',population,2646845,6349
+1967,2: Scale without 'species',population,2436421,5374
+1968,2: Scale without 'species',population,2817575,5291
+1969,2: Scale without 'species',population,3165729,6083
+1970,2: Scale without 'species',population,3398488,7766
+1971,2: Scale without 'species',population,3876617,8909
+1972,2: Scale without 'species',population,3861897,8930
+1973,2: Scale without 'species',population,3944110,8995
+1974,2: Scale without 'species',population,4327880,10558
+1975,2: Scale without 'species',population,4926792,10640
+1976,2: Scale without 'species',population,4851135,10526
+1977,2: Scale without 'species',population,5986495,12022
+1978,2: Scale without 'species',population,5653233,12430
+1979,2: Scale without 'species',population,5693994,14741
+1980,2: Scale without 'species',population,6331998,14180
+1981,2: Scale without 'species',population,6748054,14986
+1982,2: Scale without 'species',population,6661455,13989
+1983,2: Scale without 'species',population,7131449,15362
+1984,2: Scale without 'species',population,7405435,16995
+1985,2: Scale without 'species',population,7790280,17112
+1986,2: Scale without 'species',population,7205017,17866
+1987,2: Scale without 'species',population,8232279,21613
+1988,2: Scale without 'species',population,9127375,21311
+1989,2: Scale without 'species',population,9187930,20557
+1990,2: Scale without 'species',population,9827250,21810
+1991,2: Scale without 'species',population,10692126,24632
+1992,2: Scale without 'species',population,11532841,28234
+1993,2: Scale without 'species',population,11863228,28485
+1994,2: Scale without 'species',population,12424547,33718
+1995,2: Scale without 'species',population,13968243,37207
+1996,2: Scale without 'species',population,15100715,43132
+1997,2: Scale without 'species',population,15395967,39251
+1998,2: Scale without 'species',population,16912010,42699
+1999,2: Scale without 'species',population,16924957,41612
+2000,2: Scale without 'species',population,18064233,49065
+2001,2: Scale without 'species',population,19322097,45892
+2002,2: Scale without 'species',population,18790584,53959
+2003,2: Scale without 'species',population,20408258,49714
+2004,2: Scale without 'species',population,20858212,52041
+2005,2: Scale without 'species',population,21777074,56915
+2006,2: Scale without 'species',population,23460538,56566
+2007,2: Scale without 'species',population,23407699,62404
+2008,2: Scale without 'species',population,26392520,63240
+2009,2: Scale without 'species',population,26767306,67050
+2010,2: Scale without 'species',population,23931224,59762
+2011,2: Scale without 'species',population,24867009,59466
 1924,3: Species interactions,commensalism,684937,1
 1927,3: Species interactions,commensalism,797713,1
 1930,3: Species interactions,commensalism,940855,1
@@ -1319,78 +1425,159 @@ year,panel,gram_canonical,total_words,total
 1937,3: Species interactions,competition,1333413,99
 1938,3: Species interactions,competition,1096306,96
 1939,3: Species interactions,competition,977570,29
-1940,3: Species interactions,competition,1030652,78
+1940,3: Species interactions,competition,1030652,79
 1941,3: Species interactions,competition,870866,121
 1942,3: Species interactions,competition,923110,120
 1943,3: Species interactions,competition,781624,81
 1944,3: Species interactions,competition,802533,90
 1945,3: Species interactions,competition,695500,161
-1946,3: Species interactions,competition,906932,199
+1946,3: Species interactions,competition,906932,200
 1947,3: Species interactions,competition,1034692,162
 1948,3: Species interactions,competition,906817,162
 1949,3: Species interactions,competition,949573,153
 1950,3: Species interactions,competition,1257239,507
 1951,3: Species interactions,competition,1272147,336
-1952,3: Species interactions,competition,1338935,183
+1952,3: Species interactions,competition,1338935,185
 1953,3: Species interactions,competition,1246757,168
-1954,3: Species interactions,competition,1348685,174
+1954,3: Species interactions,competition,1348685,175
 1955,3: Species interactions,competition,1510331,252
-1956,3: Species interactions,competition,1486176,189
+1956,3: Species interactions,competition,1486176,190
 1957,3: Species interactions,competition,1535449,235
 1958,3: Species interactions,competition,1709098,236
 1959,3: Species interactions,competition,1586959,184
-1960,3: Species interactions,competition,1782508,309
-1961,3: Species interactions,competition,1765657,328
+1960,3: Species interactions,competition,1782508,313
+1961,3: Species interactions,competition,1765657,331
 1962,3: Species interactions,competition,1753664,246
-1963,3: Species interactions,competition,1844840,337
+1963,3: Species interactions,competition,1844840,338
 1964,3: Species interactions,competition,2285016,398
-1965,3: Species interactions,competition,2366519,389
-1966,3: Species interactions,competition,2646845,605
-1967,3: Species interactions,competition,2436421,605
-1968,3: Species interactions,competition,2817575,506
-1969,3: Species interactions,competition,3165729,542
-1970,3: Species interactions,competition,3398488,876
-1971,3: Species interactions,competition,3876617,1062
-1972,3: Species interactions,competition,3861897,1170
-1973,3: Species interactions,competition,3944110,1059
-1974,3: Species interactions,competition,4327880,1583
-1975,3: Species interactions,competition,4926792,1630
-1976,3: Species interactions,competition,4851135,1639
-1977,3: Species interactions,competition,5986495,2145
-1978,3: Species interactions,competition,5653233,2206
-1979,3: Species interactions,competition,5693994,2488
-1980,3: Species interactions,competition,6331998,3434
-1981,3: Species interactions,competition,6748054,3444
-1982,3: Species interactions,competition,6661455,3292
-1983,3: Species interactions,competition,7131449,4187
-1984,3: Species interactions,competition,7405435,3746
-1985,3: Species interactions,competition,7790280,4451
-1986,3: Species interactions,competition,7205017,5068
-1987,3: Species interactions,competition,8232279,4936
-1988,3: Species interactions,competition,9127375,4914
-1989,3: Species interactions,competition,9187930,4613
-1990,3: Species interactions,competition,9827250,5216
-1991,3: Species interactions,competition,10692126,5968
-1992,3: Species interactions,competition,11532841,5104
-1993,3: Species interactions,competition,11863228,5861
-1994,3: Species interactions,competition,12424547,6460
-1995,3: Species interactions,competition,13968243,6268
-1996,3: Species interactions,competition,15100715,6736
-1997,3: Species interactions,competition,15395967,7162
-1998,3: Species interactions,competition,16912010,6986
-1999,3: Species interactions,competition,16924957,7374
-2000,3: Species interactions,competition,18064233,7917
-2001,3: Species interactions,competition,19322097,9006
-2002,3: Species interactions,competition,18790584,8884
-2003,3: Species interactions,competition,20408258,7412
-2004,3: Species interactions,competition,20858212,8626
-2005,3: Species interactions,competition,21777074,8308
-2006,3: Species interactions,competition,23460538,7844
-2007,3: Species interactions,competition,23407699,9097
-2008,3: Species interactions,competition,26392520,9566
-2009,3: Species interactions,competition,26767306,9165
-2010,3: Species interactions,competition,23931224,8214
-2011,3: Species interactions,competition,24867009,7710
+1965,3: Species interactions,competition,2366519,392
+1966,3: Species interactions,competition,2646845,611
+1967,3: Species interactions,competition,2436421,609
+1968,3: Species interactions,competition,2817575,507
+1969,3: Species interactions,competition,3165729,545
+1970,3: Species interactions,competition,3398488,887
+1971,3: Species interactions,competition,3876617,1082
+1972,3: Species interactions,competition,3861897,1202
+1973,3: Species interactions,competition,3944110,1068
+1974,3: Species interactions,competition,4327880,1597
+1975,3: Species interactions,competition,4926792,1644
+1976,3: Species interactions,competition,4851135,1646
+1977,3: Species interactions,competition,5986495,2163
+1978,3: Species interactions,competition,5653233,2231
+1979,3: Species interactions,competition,5693994,2501
+1980,3: Species interactions,competition,6331998,3477
+1981,3: Species interactions,competition,6748054,3472
+1982,3: Species interactions,competition,6661455,3319
+1983,3: Species interactions,competition,7131449,4216
+1984,3: Species interactions,competition,7405435,3772
+1985,3: Species interactions,competition,7790280,4488
+1986,3: Species interactions,competition,7205017,5103
+1987,3: Species interactions,competition,8232279,4955
+1988,3: Species interactions,competition,9127375,4930
+1989,3: Species interactions,competition,9187930,4643
+1990,3: Species interactions,competition,9827250,5248
+1991,3: Species interactions,competition,10692126,5984
+1992,3: Species interactions,competition,11532841,5127
+1993,3: Species interactions,competition,11863228,5886
+1994,3: Species interactions,competition,12424547,6482
+1995,3: Species interactions,competition,13968243,6319
+1996,3: Species interactions,competition,15100715,6753
+1997,3: Species interactions,competition,15395967,7189
+1998,3: Species interactions,competition,16912010,7027
+1999,3: Species interactions,competition,16924957,7396
+2000,3: Species interactions,competition,18064233,7937
+2001,3: Species interactions,competition,19322097,9030
+2002,3: Species interactions,competition,18790584,8919
+2003,3: Species interactions,competition,20408258,7441
+2004,3: Species interactions,competition,20858212,8646
+2005,3: Species interactions,competition,21777074,8333
+2006,3: Species interactions,competition,23460538,7866
+2007,3: Species interactions,competition,23407699,9113
+2008,3: Species interactions,competition,26392520,9590
+2009,3: Species interactions,competition,26767306,9195
+2010,3: Species interactions,competition,23931224,8237
+2011,3: Species interactions,competition,24867009,7732
+1922,3: Species interactions,facilitation,536084,2
+1925,3: Species interactions,facilitation,860483,3
+1927,3: Species interactions,facilitation,797713,10
+1928,3: Species interactions,facilitation,889702,1
+1929,3: Species interactions,facilitation,880254,12
+1930,3: Species interactions,facilitation,940855,1
+1931,3: Species interactions,facilitation,1279796,66
+1933,3: Species interactions,facilitation,898679,2
+1935,3: Species interactions,facilitation,1180563,9
+1937,3: Species interactions,facilitation,1333413,21
+1938,3: Species interactions,facilitation,1096306,1
+1939,3: Species interactions,facilitation,977570,19
+1940,3: Species interactions,facilitation,1030652,1
+1941,3: Species interactions,facilitation,870866,12
+1942,3: Species interactions,facilitation,923110,4
+1943,3: Species interactions,facilitation,781624,4
+1945,3: Species interactions,facilitation,695500,1
+1946,3: Species interactions,facilitation,906932,23
+1947,3: Species interactions,facilitation,1034692,1
+1950,3: Species interactions,facilitation,1257239,7
+1951,3: Species interactions,facilitation,1272147,33
+1952,3: Species interactions,facilitation,1338935,25
+1953,3: Species interactions,facilitation,1246757,11
+1954,3: Species interactions,facilitation,1348685,1
+1955,3: Species interactions,facilitation,1510331,25
+1956,3: Species interactions,facilitation,1486176,29
+1957,3: Species interactions,facilitation,1535449,25
+1958,3: Species interactions,facilitation,1709098,19
+1959,3: Species interactions,facilitation,1586959,24
+1960,3: Species interactions,facilitation,1782508,17
+1961,3: Species interactions,facilitation,1765657,19
+1962,3: Species interactions,facilitation,1753664,5
+1963,3: Species interactions,facilitation,1844840,26
+1964,3: Species interactions,facilitation,2285016,13
+1965,3: Species interactions,facilitation,2366519,25
+1966,3: Species interactions,facilitation,2646845,9
+1967,3: Species interactions,facilitation,2436421,30
+1968,3: Species interactions,facilitation,2817575,6
+1969,3: Species interactions,facilitation,3165729,19
+1970,3: Species interactions,facilitation,3398488,7
+1971,3: Species interactions,facilitation,3876617,41
+1972,3: Species interactions,facilitation,3861897,8
+1973,3: Species interactions,facilitation,3944110,81
+1974,3: Species interactions,facilitation,4327880,22
+1975,3: Species interactions,facilitation,4926792,88
+1976,3: Species interactions,facilitation,4851135,38
+1977,3: Species interactions,facilitation,5986495,55
+1978,3: Species interactions,facilitation,5653233,38
+1979,3: Species interactions,facilitation,5693994,42
+1980,3: Species interactions,facilitation,6331998,90
+1981,3: Species interactions,facilitation,6748054,67
+1982,3: Species interactions,facilitation,6661455,92
+1983,3: Species interactions,facilitation,7131449,109
+1984,3: Species interactions,facilitation,7405435,66
+1985,3: Species interactions,facilitation,7790280,104
+1986,3: Species interactions,facilitation,7205017,149
+1987,3: Species interactions,facilitation,8232279,168
+1988,3: Species interactions,facilitation,9127375,116
+1989,3: Species interactions,facilitation,9187930,101
+1990,3: Species interactions,facilitation,9827250,141
+1991,3: Species interactions,facilitation,10692126,247
+1992,3: Species interactions,facilitation,11532841,134
+1993,3: Species interactions,facilitation,11863228,158
+1994,3: Species interactions,facilitation,12424547,206
+1995,3: Species interactions,facilitation,13968243,164
+1996,3: Species interactions,facilitation,15100715,256
+1997,3: Species interactions,facilitation,15395967,300
+1998,3: Species interactions,facilitation,16912010,277
+1999,3: Species interactions,facilitation,16924957,267
+2000,3: Species interactions,facilitation,18064233,320
+2001,3: Species interactions,facilitation,19322097,426
+2002,3: Species interactions,facilitation,18790584,523
+2003,3: Species interactions,facilitation,20408258,559
+2004,3: Species interactions,facilitation,20858212,632
+2005,3: Species interactions,facilitation,21777074,758
+2006,3: Species interactions,facilitation,23460538,1071
+2007,3: Species interactions,facilitation,23407699,901
+2008,3: Species interactions,facilitation,26392520,1233
+2009,3: Species interactions,facilitation,26767306,1048
+2010,3: Species interactions,facilitation,23931224,874
+2011,3: Species interactions,facilitation,24867009,857
 1921,3: Species interactions,mutualism,589125,2
 1937,3: Species interactions,mutualism,1333413,2
 1938,3: Species interactions,mutualism,1096306,1
@@ -1403,51 +1590,51 @@ year,panel,gram_canonical,total_words,total
 1960,3: Species interactions,mutualism,1782508,8
 1963,3: Species interactions,mutualism,1844840,1
 1966,3: Species interactions,mutualism,2646845,6
-1967,3: Species interactions,mutualism,2436421,1
+1967,3: Species interactions,mutualism,2436421,2
 1968,3: Species interactions,mutualism,2817575,1
 1969,3: Species interactions,mutualism,3165729,4
 1970,3: Species interactions,mutualism,3398488,3
 1971,3: Species interactions,mutualism,3876617,3
 1972,3: Species interactions,mutualism,3861897,6
-1973,3: Species interactions,mutualism,3944110,29
+1973,3: Species interactions,mutualism,3944110,32
 1974,3: Species interactions,mutualism,4327880,10
-1975,3: Species interactions,mutualism,4926792,50
+1975,3: Species interactions,mutualism,4926792,51
 1976,3: Species interactions,mutualism,4851135,13
-1977,3: Species interactions,mutualism,5986495,15
-1978,3: Species interactions,mutualism,5653233,57
-1979,3: Species interactions,mutualism,5693994,108
-1980,3: Species interactions,mutualism,6331998,129
-1981,3: Species interactions,mutualism,6748054,280
-1982,3: Species interactions,mutualism,6661455,266
-1983,3: Species interactions,mutualism,7131449,144
-1984,3: Species interactions,mutualism,7405435,240
-1985,3: Species interactions,mutualism,7790280,102
-1986,3: Species interactions,mutualism,7205017,126
-1987,3: Species interactions,mutualism,8232279,134
-1988,3: Species interactions,mutualism,9127375,194
-1989,3: Species interactions,mutualism,9187930,177
-1990,3: Species interactions,mutualism,9827250,150
-1991,3: Species interactions,mutualism,10692126,181
-1992,3: Species interactions,mutualism,11532841,246
-1993,3: Species interactions,mutualism,11863228,211
-1994,3: Species interactions,mutualism,12424547,189
-1995,3: Species interactions,mutualism,13968243,183
-1996,3: Species interactions,mutualism,15100715,435
-1997,3: Species interactions,mutualism,15395967,412
-1998,3: Species interactions,mutualism,16912010,526
-1999,3: Species interactions,mutualism,16924957,478
-2000,3: Species interactions,mutualism,18064233,541
-2001,3: Species interactions,mutualism,19322097,564
-2002,3: Species interactions,mutualism,18790584,510
-2003,3: Species interactions,mutualism,20408258,711
-2004,3: Species interactions,mutualism,20858212,659
-2005,3: Species interactions,mutualism,21777074,545
-2006,3: Species interactions,mutualism,23460538,614
-2007,3: Species interactions,mutualism,23407699,795
-2008,3: Species interactions,mutualism,26392520,703
-2009,3: Species interactions,mutualism,26767306,771
-2010,3: Species interactions,mutualism,23931224,874
-2011,3: Species interactions,mutualism,24867009,638
+1977,3: Species interactions,mutualism,5986495,16
+1978,3: Species interactions,mutualism,5653233,61
+1979,3: Species interactions,mutualism,5693994,113
+1980,3: Species interactions,mutualism,6331998,133
+1981,3: Species interactions,mutualism,6748054,294
+1982,3: Species interactions,mutualism,6661455,272
+1983,3: Species interactions,mutualism,7131449,147
+1984,3: Species interactions,mutualism,7405435,249
+1985,3: Species interactions,mutualism,7790280,105
+1986,3: Species interactions,mutualism,7205017,130
+1987,3: Species interactions,mutualism,8232279,140
+1988,3: Species interactions,mutualism,9127375,199
+1989,3: Species interactions,mutualism,9187930,185
+1990,3: Species interactions,mutualism,9827250,153
+1991,3: Species interactions,mutualism,10692126,185
+1992,3: Species interactions,mutualism,11532841,257
+1993,3: Species interactions,mutualism,11863228,215
+1994,3: Species interactions,mutualism,12424547,191
+1995,3: Species interactions,mutualism,13968243,187
+1996,3: Species interactions,mutualism,15100715,440
+1997,3: Species interactions,mutualism,15395967,416
+1998,3: Species interactions,mutualism,16912010,534
+1999,3: Species interactions,mutualism,16924957,498
+2000,3: Species interactions,mutualism,18064233,559
+2001,3: Species interactions,mutualism,19322097,580
+2002,3: Species interactions,mutualism,18790584,523
+2003,3: Species interactions,mutualism,20408258,728
+2004,3: Species interactions,mutualism,20858212,667
+2005,3: Species interactions,mutualism,21777074,550
+2006,3: Species interactions,mutualism,23460538,624
+2007,3: Species interactions,mutualism,23407699,809
+2008,3: Species interactions,mutualism,26392520,718
+2009,3: Species interactions,mutualism,26767306,785
+2010,3: Species interactions,mutualism,23931224,890
+2011,3: Species interactions,mutualism,24867009,651
 1920,3: Species interactions,parasitism,630090,9
 1921,3: Species interactions,parasitism,589125,59
 1922,3: Species interactions,parasitism,536084,16
@@ -1506,39 +1693,39 @@ year,panel,gram_canonical,total_words,total
 1976,3: Species interactions,parasitism,4851135,72
 1977,3: Species interactions,parasitism,5986495,239
 1978,3: Species interactions,parasitism,5653233,69
-1979,3: Species interactions,parasitism,5693994,188
+1979,3: Species interactions,parasitism,5693994,189
 1980,3: Species interactions,parasitism,6331998,208
 1981,3: Species interactions,parasitism,6748054,225
 1982,3: Species interactions,parasitism,6661455,199
-1983,3: Species interactions,parasitism,7131449,210
+1983,3: Species interactions,parasitism,7131449,211
 1984,3: Species interactions,parasitism,7405435,267
 1985,3: Species interactions,parasitism,7790280,457
 1986,3: Species interactions,parasitism,7205017,548
 1987,3: Species interactions,parasitism,8232279,559
 1988,3: Species interactions,parasitism,9127375,658
-1989,3: Species interactions,parasitism,9187930,491
+1989,3: Species interactions,parasitism,9187930,492
 1990,3: Species interactions,parasitism,9827250,882
-1991,3: Species interactions,parasitism,10692126,749
-1992,3: Species interactions,parasitism,11532841,826
+1991,3: Species interactions,parasitism,10692126,750
+1992,3: Species interactions,parasitism,11532841,827
 1993,3: Species interactions,parasitism,11863228,984
 1994,3: Species interactions,parasitism,12424547,855
 1995,3: Species interactions,parasitism,13968243,1054
-1996,3: Species interactions,parasitism,15100715,1430
+1996,3: Species interactions,parasitism,15100715,1432
 1997,3: Species interactions,parasitism,15395967,1070
-1998,3: Species interactions,parasitism,16912010,1556
-1999,3: Species interactions,parasitism,16924957,1387
-2000,3: Species interactions,parasitism,18064233,1715
-2001,3: Species interactions,parasitism,19322097,1667
+1998,3: Species interactions,parasitism,16912010,1557
+1999,3: Species interactions,parasitism,16924957,1389
+2000,3: Species interactions,parasitism,18064233,1717
+2001,3: Species interactions,parasitism,19322097,1668
 2002,3: Species interactions,parasitism,18790584,1790
-2003,3: Species interactions,parasitism,20408258,1853
+2003,3: Species interactions,parasitism,20408258,1855
 2004,3: Species interactions,parasitism,20858212,1164
 2005,3: Species interactions,parasitism,21777074,1655
 2006,3: Species interactions,parasitism,23460538,1533
 2007,3: Species interactions,parasitism,23407699,1261
-2008,3: Species interactions,parasitism,26392520,1577
+2008,3: Species interactions,parasitism,26392520,1582
 2009,3: Species interactions,parasitism,26767306,1345
 2010,3: Species interactions,parasitism,23931224,1064
-2011,3: Species interactions,parasitism,24867009,1240
+2011,3: Species interactions,parasitism,24867009,1242
 1934,3: Species interactions,predation,1224182,47
 1935,3: Species interactions,predation,1180563,2
 1937,3: Species interactions,predation,1333413,10
@@ -1587,35 +1774,35 @@ year,panel,gram_canonical,total_words,total
 1980,3: Species interactions,predation,6331998,1622
 1981,3: Species interactions,predation,6748054,1963
 1982,3: Species interactions,predation,6661455,2035
-1983,3: Species interactions,predation,7131449,2540
-1984,3: Species interactions,predation,7405435,3416
+1983,3: Species interactions,predation,7131449,2541
+1984,3: Species interactions,predation,7405435,3417
 1985,3: Species interactions,predation,7790280,3133
 1986,3: Species interactions,predation,7205017,2660
-1987,3: Species interactions,predation,8232279,3815
+1987,3: Species interactions,predation,8232279,3816
 1988,3: Species interactions,predation,9127375,3920
 1989,3: Species interactions,predation,9187930,4111
-1990,3: Species interactions,predation,9827250,3515
-1991,3: Species interactions,predation,10692126,3899
+1990,3: Species interactions,predation,9827250,3519
+1991,3: Species interactions,predation,10692126,3901
 1992,3: Species interactions,predation,11532841,3931
 1993,3: Species interactions,predation,11863228,4878
 1994,3: Species interactions,predation,12424547,4592
-1995,3: Species interactions,predation,13968243,4413
+1995,3: Species interactions,predation,13968243,4414
 1996,3: Species interactions,predation,15100715,5850
-1997,3: Species interactions,predation,15395967,6544
+1997,3: Species interactions,predation,15395967,6545
 1998,3: Species interactions,predation,16912010,6932
-1999,3: Species interactions,predation,16924957,7446
-2000,3: Species interactions,predation,18064233,7450
-2001,3: Species interactions,predation,19322097,7412
+1999,3: Species interactions,predation,16924957,7447
+2000,3: Species interactions,predation,18064233,7455
+2001,3: Species interactions,predation,19322097,7414
 2002,3: Species interactions,predation,18790584,8060
-2003,3: Species interactions,predation,20408258,7967
+2003,3: Species interactions,predation,20408258,7968
 2004,3: Species interactions,predation,20858212,10054
 2005,3: Species interactions,predation,21777074,6701
-2006,3: Species interactions,predation,23460538,5870
-2007,3: Species interactions,predation,23407699,5931
+2006,3: Species interactions,predation,23460538,5872
+2007,3: Species interactions,predation,23407699,5932
 2008,3: Species interactions,predation,26392520,4573
-2009,3: Species interactions,predation,26767306,4750
+2009,3: Species interactions,predation,26767306,4751
 2010,3: Species interactions,predation,23931224,3461
-2011,3: Species interactions,predation,24867009,3421
+2011,3: Species interactions,predation,24867009,3422
 1922,4: Theories,cell theory,536084,4
 1926,4: Theories,cell theory,824677,1
 1929,4: Theories,cell theory,880254,3
@@ -1808,135 +1995,135 @@ year,panel,gram_canonical,total_words,total
 2009,4: Theories,neutral theory,26767306,338
 2010,4: Theories,neutral theory,23931224,279
 2011,4: Theories,neutral theory,24867009,232
-1968,4: Theories,theory of island,2817575,3
-1969,4: Theories,theory of island,3165729,17
-1970,4: Theories,theory of island,3398488,17
-1971,4: Theories,theory of island,3876617,18
-1972,4: Theories,theory of island,3861897,19
-1973,4: Theories,theory of island,3944110,19
-1974,4: Theories,theory of island,4327880,51
-1975,4: Theories,theory of island,4926792,52
-1976,4: Theories,theory of island,4851135,60
-1977,4: Theories,theory of island,5986495,43
-1978,4: Theories,theory of island,5653233,75
-1979,4: Theories,theory of island,5693994,70
-1980,4: Theories,theory of island,6331998,86
-1981,4: Theories,theory of island,6748054,82
-1982,4: Theories,theory of island,6661455,85
-1983,4: Theories,theory of island,7131449,116
-1984,4: Theories,theory of island,7405435,73
-1985,4: Theories,theory of island,7790280,71
-1986,4: Theories,theory of island,7205017,72
-1987,4: Theories,theory of island,8232279,85
-1988,4: Theories,theory of island,9127375,83
-1989,4: Theories,theory of island,9187930,69
-1990,4: Theories,theory of island,9827250,63
-1991,4: Theories,theory of island,10692126,67
-1992,4: Theories,theory of island,11532841,68
-1993,4: Theories,theory of island,11863228,94
-1994,4: Theories,theory of island,12424547,96
-1995,4: Theories,theory of island,13968243,53
-1996,4: Theories,theory of island,15100715,93
-1997,4: Theories,theory of island,15395967,88
-1998,4: Theories,theory of island,16912010,85
-1999,4: Theories,theory of island,16924957,96
-2000,4: Theories,theory of island,18064233,143
-2001,4: Theories,theory of island,19322097,98
-2002,4: Theories,theory of island,18790584,110
-2003,4: Theories,theory of island,20408258,132
-2004,4: Theories,theory of island,20858212,82
-2005,4: Theories,theory of island,21777074,130
-2006,4: Theories,theory of island,23460538,132
-2007,4: Theories,theory of island,23407699,109
-2008,4: Theories,theory of island,26392520,105
-2009,4: Theories,theory of island,26767306,111
-2010,4: Theories,theory of island,23931224,138
-2011,4: Theories,theory of island,24867009,110
-2012,4: Theories,theory of island,17761987,44
-2013,4: Theories,theory of island,18742838,20
-2014,4: Theories,theory of island,10049228,24
-1923,4: Theories,theory of natural,711435,1
-1924,4: Theories,theory of natural,684937,1
-1925,4: Theories,theory of natural,860483,2
-1928,4: Theories,theory of natural,889702,3
-1930,4: Theories,theory of natural,940855,2
-1932,4: Theories,theory of natural,1186501,2
-1934,4: Theories,theory of natural,1224182,3
-1935,4: Theories,theory of natural,1180563,3
-1936,4: Theories,theory of natural,1205270,20
-1937,4: Theories,theory of natural,1333413,2
-1938,4: Theories,theory of natural,1096306,4
-1940,4: Theories,theory of natural,1030652,2
-1941,4: Theories,theory of natural,870866,4
-1942,4: Theories,theory of natural,923110,3
-1943,4: Theories,theory of natural,781624,1
-1944,4: Theories,theory of natural,802533,2
-1945,4: Theories,theory of natural,695500,1
-1946,4: Theories,theory of natural,906932,1
-1947,4: Theories,theory of natural,1034692,3
-1948,4: Theories,theory of natural,906817,1
-1950,4: Theories,theory of natural,1257239,3
-1952,4: Theories,theory of natural,1338935,1
-1953,4: Theories,theory of natural,1246757,5
-1954,4: Theories,theory of natural,1348685,3
-1955,4: Theories,theory of natural,1510331,6
-1956,4: Theories,theory of natural,1486176,5
-1959,4: Theories,theory of natural,1586959,7
-1960,4: Theories,theory of natural,1782508,16
-1961,4: Theories,theory of natural,1765657,9
-1962,4: Theories,theory of natural,1753664,8
-1963,4: Theories,theory of natural,1844840,9
-1964,4: Theories,theory of natural,2285016,5
-1965,4: Theories,theory of natural,2366519,9
-1966,4: Theories,theory of natural,2646845,29
-1967,4: Theories,theory of natural,2436421,7
-1968,4: Theories,theory of natural,2817575,15
-1969,4: Theories,theory of natural,3165729,8
-1970,4: Theories,theory of natural,3398488,18
-1971,4: Theories,theory of natural,3876617,9
-1972,4: Theories,theory of natural,3861897,18
-1973,4: Theories,theory of natural,3944110,9
-1974,4: Theories,theory of natural,4327880,13
-1975,4: Theories,theory of natural,4926792,22
-1976,4: Theories,theory of natural,4851135,17
-1977,4: Theories,theory of natural,5986495,20
-1978,4: Theories,theory of natural,5653233,27
-1979,4: Theories,theory of natural,5693994,42
-1980,4: Theories,theory of natural,6331998,33
-1981,4: Theories,theory of natural,6748054,38
-1982,4: Theories,theory of natural,6661455,41
-1983,4: Theories,theory of natural,7131449,29
-1984,4: Theories,theory of natural,7405435,41
-1985,4: Theories,theory of natural,7790280,32
-1986,4: Theories,theory of natural,7205017,53
-1987,4: Theories,theory of natural,8232279,46
-1988,4: Theories,theory of natural,9127375,35
-1989,4: Theories,theory of natural,9187930,24
-1990,4: Theories,theory of natural,9827250,37
-1991,4: Theories,theory of natural,10692126,37
-1992,4: Theories,theory of natural,11532841,51
-1993,4: Theories,theory of natural,11863228,52
-1994,4: Theories,theory of natural,12424547,65
-1995,4: Theories,theory of natural,13968243,60
-1996,4: Theories,theory of natural,15100715,46
-1997,4: Theories,theory of natural,15395967,57
-1998,4: Theories,theory of natural,16912010,56
-1999,4: Theories,theory of natural,16924957,49
-2000,4: Theories,theory of natural,18064233,31
-2001,4: Theories,theory of natural,19322097,39
-2002,4: Theories,theory of natural,18790584,29
-2003,4: Theories,theory of natural,20408258,32
-2004,4: Theories,theory of natural,20858212,28
-2005,4: Theories,theory of natural,21777074,31
-2006,4: Theories,theory of natural,23460538,43
-2007,4: Theories,theory of natural,23407699,46
-2008,4: Theories,theory of natural,26392520,44
-2009,4: Theories,theory of natural,26767306,54
-2010,4: Theories,theory of natural,23931224,76
-2011,4: Theories,theory of natural,24867009,30
-2012,4: Theories,theory of natural,17761987,38
-2013,4: Theories,theory of natural,18742838,27
-2014,4: Theories,theory of natural,10049228,6
+1968,4: Theories,theory of island [biogeography],2817575,3
+1969,4: Theories,theory of island [biogeography],3165729,17
+1970,4: Theories,theory of island [biogeography],3398488,17
+1971,4: Theories,theory of island [biogeography],3876617,18
+1972,4: Theories,theory of island [biogeography],3861897,19
+1973,4: Theories,theory of island [biogeography],3944110,19
+1974,4: Theories,theory of island [biogeography],4327880,51
+1975,4: Theories,theory of island [biogeography],4926792,52
+1976,4: Theories,theory of island [biogeography],4851135,60
+1977,4: Theories,theory of island [biogeography],5986495,43
+1978,4: Theories,theory of island [biogeography],5653233,75
+1979,4: Theories,theory of island [biogeography],5693994,70
+1980,4: Theories,theory of island [biogeography],6331998,86
+1981,4: Theories,theory of island [biogeography],6748054,82
+1982,4: Theories,theory of island [biogeography],6661455,85
+1983,4: Theories,theory of island [biogeography],7131449,116
+1984,4: Theories,theory of island [biogeography],7405435,73
+1985,4: Theories,theory of island [biogeography],7790280,71
+1986,4: Theories,theory of island [biogeography],7205017,72
+1987,4: Theories,theory of island [biogeography],8232279,85
+1988,4: Theories,theory of island [biogeography],9127375,83
+1989,4: Theories,theory of island [biogeography],9187930,69
+1990,4: Theories,theory of island [biogeography],9827250,63
+1991,4: Theories,theory of island [biogeography],10692126,67
+1992,4: Theories,theory of island [biogeography],11532841,68
+1993,4: Theories,theory of island [biogeography],11863228,94
+1994,4: Theories,theory of island [biogeography],12424547,96
+1995,4: Theories,theory of island [biogeography],13968243,53
+1996,4: Theories,theory of island [biogeography],15100715,93
+1997,4: Theories,theory of island [biogeography],15395967,88
+1998,4: Theories,theory of island [biogeography],16912010,85
+1999,4: Theories,theory of island [biogeography],16924957,96
+2000,4: Theories,theory of island [biogeography],18064233,143
+2001,4: Theories,theory of island [biogeography],19322097,98
+2002,4: Theories,theory of island [biogeography],18790584,110
+2003,4: Theories,theory of island [biogeography],20408258,132
+2004,4: Theories,theory of island [biogeography],20858212,82
+2005,4: Theories,theory of island [biogeography],21777074,130
+2006,4: Theories,theory of island [biogeography],23460538,132
+2007,4: Theories,theory of island [biogeography],23407699,109
+2008,4: Theories,theory of island [biogeography],26392520,105
+2009,4: Theories,theory of island [biogeography],26767306,111
+2010,4: Theories,theory of island [biogeography],23931224,138
+2011,4: Theories,theory of island [biogeography],24867009,110
+2012,4: Theories,theory of island [biogeography],17761987,44
+2013,4: Theories,theory of island [biogeography],18742838,20
+2014,4: Theories,theory of island [biogeography],10049228,24
+1923,4: Theories,theory of natural [selection],711435,1
+1924,4: Theories,theory of natural [selection],684937,1
+1925,4: Theories,theory of natural [selection],860483,2
+1928,4: Theories,theory of natural [selection],889702,3
+1930,4: Theories,theory of natural [selection],940855,2
+1932,4: Theories,theory of natural [selection],1186501,2
+1934,4: Theories,theory of natural [selection],1224182,3
+1935,4: Theories,theory of natural [selection],1180563,3
+1936,4: Theories,theory of natural [selection],1205270,20
+1937,4: Theories,theory of natural [selection],1333413,2
+1938,4: Theories,theory of natural [selection],1096306,4
+1940,4: Theories,theory of natural [selection],1030652,2
+1941,4: Theories,theory of natural [selection],870866,4
+1942,4: Theories,theory of natural [selection],923110,3
+1943,4: Theories,theory of natural [selection],781624,1
+1944,4: Theories,theory of natural [selection],802533,2
+1945,4: Theories,theory of natural [selection],695500,1
+1946,4: Theories,theory of natural [selection],906932,1
+1947,4: Theories,theory of natural [selection],1034692,3
+1948,4: Theories,theory of natural [selection],906817,1
+1950,4: Theories,theory of natural [selection],1257239,3
+1952,4: Theories,theory of natural [selection],1338935,1
+1953,4: Theories,theory of natural [selection],1246757,5
+1954,4: Theories,theory of natural [selection],1348685,3
+1955,4: Theories,theory of natural [selection],1510331,6
+1956,4: Theories,theory of natural [selection],1486176,5
+1959,4: Theories,theory of natural [selection],1586959,7
+1960,4: Theories,theory of natural [selection],1782508,16
+1961,4: Theories,theory of natural [selection],1765657,9
+1962,4: Theories,theory of natural [selection],1753664,8
+1963,4: Theories,theory of natural [selection],1844840,9
+1964,4: Theories,theory of natural [selection],2285016,5
+1965,4: Theories,theory of natural [selection],2366519,9
+1966,4: Theories,theory of natural [selection],2646845,29
+1967,4: Theories,theory of natural [selection],2436421,7
+1968,4: Theories,theory of natural [selection],2817575,15
+1969,4: Theories,theory of natural [selection],3165729,8
+1970,4: Theories,theory of natural [selection],3398488,18
+1971,4: Theories,theory of natural [selection],3876617,9
+1972,4: Theories,theory of natural [selection],3861897,18
+1973,4: Theories,theory of natural [selection],3944110,9
+1974,4: Theories,theory of natural [selection],4327880,13
+1975,4: Theories,theory of natural [selection],4926792,22
+1976,4: Theories,theory of natural [selection],4851135,17
+1977,4: Theories,theory of natural [selection],5986495,20
+1978,4: Theories,theory of natural [selection],5653233,27
+1979,4: Theories,theory of natural [selection],5693994,42
+1980,4: Theories,theory of natural [selection],6331998,33
+1981,4: Theories,theory of natural [selection],6748054,38
+1982,4: Theories,theory of natural [selection],6661455,41
+1983,4: Theories,theory of natural [selection],7131449,29
+1984,4: Theories,theory of natural [selection],7405435,41
+1985,4: Theories,theory of natural [selection],7790280,32
+1986,4: Theories,theory of natural [selection],7205017,53
+1987,4: Theories,theory of natural [selection],8232279,46
+1988,4: Theories,theory of natural [selection],9127375,35
+1989,4: Theories,theory of natural [selection],9187930,24
+1990,4: Theories,theory of natural [selection],9827250,37
+1991,4: Theories,theory of natural [selection],10692126,37
+1992,4: Theories,theory of natural [selection],11532841,51
+1993,4: Theories,theory of natural [selection],11863228,52
+1994,4: Theories,theory of natural [selection],12424547,65
+1995,4: Theories,theory of natural [selection],13968243,60
+1996,4: Theories,theory of natural [selection],15100715,46
+1997,4: Theories,theory of natural [selection],15395967,57
+1998,4: Theories,theory of natural [selection],16912010,56
+1999,4: Theories,theory of natural [selection],16924957,49
+2000,4: Theories,theory of natural [selection],18064233,31
+2001,4: Theories,theory of natural [selection],19322097,39
+2002,4: Theories,theory of natural [selection],18790584,29
+2003,4: Theories,theory of natural [selection],20408258,32
+2004,4: Theories,theory of natural [selection],20858212,28
+2005,4: Theories,theory of natural [selection],21777074,31
+2006,4: Theories,theory of natural [selection],23460538,43
+2007,4: Theories,theory of natural [selection],23407699,46
+2008,4: Theories,theory of natural [selection],26392520,44
+2009,4: Theories,theory of natural [selection],26767306,54
+2010,4: Theories,theory of natural [selection],23931224,76
+2011,4: Theories,theory of natural [selection],24867009,30
+2012,4: Theories,theory of natural [selection],17761987,38
+2013,4: Theories,theory of natural [selection],18742838,27
+2014,4: Theories,theory of natural [selection],10049228,6
 1950,5: Hypotheses,competition hypothesis,1257239,1
 1966,5: Hypotheses,competition hypothesis,2646845,5
 1967,5: Hypotheses,competition hypothesis,2436421,5
