@@ -153,6 +153,10 @@ exclude3 <- c("animal ecology", "approxi mately", "biol chem", "biological conse
   "north american", "forest service", "british columbia",
   "previous study", "total number", "other species")
 
+excludes_giants <- sort(unique(c(excludes, exclude, exclude2, exclude3)))
+excludes_giants <- sort(excludes_giants[!excludes_giants %in% bad_latex$gram])
+saveRDS(excludes_giants, file = here::here("data/generated/excludes_giants.rds"))
+
 pop2 <- pop2 %>% filter(!tolower(lemma) %in% tolower(exclude2))
 pop2 <- pop2 %>% filter(!tolower(lemma) %in% tolower(exclude3))
 

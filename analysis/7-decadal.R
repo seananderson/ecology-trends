@@ -3,9 +3,9 @@ source("analysis/booming.R")
 source("analysis/pretty-panels.R")
 
 bad_latex <- read_csv("data/bad-latex.csv", col_types = cols(gram = col_character()))
-excludes <- c("of", "in", "to", "and", "the", "from",
+excludes1 <- c("of", "in", "to", "and", "the", "from",
   "fig", "table", "figure", "vol", "tion")
-excludes <- union(excludes, bad_latex$gram)
+excludes <- union(excludes1, bad_latex$gram)
 
 # ----------
 # Get the most popular terms in various decades
@@ -93,7 +93,7 @@ exclude <- c("american naturalist", "ecological monographs",
   "research institute", "press chicago", "ecol syst",
   "funct ecol", "change biology", "author contributions",
   "phil wrans", "portugal issn", "nati acad", "proc nati",
-  "corresponding author", "other species") %>%
+  "corresponding author", "other species", "document documentclass") %>%
   tolower()
 pop2 <- pop2 %>% filter(!first_word %in% exclude,
   !second_word %in% exclude, !gram %in% exclude)
@@ -109,10 +109,11 @@ pop2 <- pop2 %>%
   arrange(decade, -total)
 
 # pop1 %>% as.data.frame()
-pop1 <- pop1 %>% filter(!gram %in% c("fig", "use", "doi", "case"))
-pop1 <- pop1 %>% filter(!gram %in% c("tion", "cent", "while", "results"))
-pop1 <- pop1 %>% filter(!gram %in% c("table", "figure", "journal"))
-pop1 <- pop1 %>% filter(!gram %in% c("university", "author", "eve"))
+exclude3 <- c("fig", "use", "doi", "case",
+  "tion", "cent", "while", "results",
+  "table", "figure", "journal",
+  "university", "author", "eve")
+pop1 <- pop1 %>% filter(!gram %in% exclude3)
 
 saveRDS(pop2, file = "data/generated/pop2-cleaned.rds")
 saveRDS(pop1, file = "data/generated/pop1-cleaned.rds")
@@ -120,7 +121,7 @@ pop1 <- readRDS("data/generated/pop1-cleaned.rds")
 pop2 <- readRDS("data/generated/pop2-cleaned.rds")
 
 pop2 %>% group_by(decade) %>%
-  top_n(n = 10, wt = total) %>%
+  top_n(n = 14, wt = total) %>%
   select(gram, total, decade) %>% as.data.frame()
 
 # ---------
@@ -229,3 +230,5 @@ pdf("figs/booms.pdf", width = 7,
 plot_boom(boom_only_dat, right_gap = 50, nrows = 2, ncols = 2)
 dev.off()
 
+exclusions_fig1 <- sort(unique(c(excludes1, exclude, exclude3)))
+saveRDS(exclusions_fig1, file = here::here("data/generated/exclusions_fig1.rds"))

@@ -351,81 +351,6 @@ include_graphics(here("figs/booms-decline.pdf"))
 \clearpage
 
 ```{r}
-make_facet_cap <- function(label) {
-  paste0("Individual trends in n-gram frequency for the data underlying Fig. \\@ref(fig:", label, "). The terms listed in the top row above each panel refer to the aggregate term displayed in Fig. \\@ref(fig:", label, "). The terms listed on the second row above each panel refer to an underlying n-gram that was searched in the corpus.")
-}
-```
-
-(ref:fig-community-all-cap) `r make_facet_cap("ecology")` For this supplemental figure, the top and bottom rows happened to be the same.
-
-```{r community-all, fig.cap = "(ref:fig-community-all-cap) ", out.width="\\textwidth", fig.align="center"}
-include_graphics(here("figs/community-ecology-facets.pdf"))
-```
-
-\clearpage
-
-(ref:fig-conservation-all-cap) `r make_facet_cap("cons")`
-
-```{r conservation-all, fig.cap = "(ref:fig-conservation-all-cap)", out.width="6.1in", fig.align="center"}
-include_graphics(here("figs/conservation-human-impacts-facets.pdf"))
-```
-
-\clearpage
-
-(ref:fig-blanks-supp-cap) Additional fill-in-the-blank figure panels using the same approach as Fig. \@ref(fig:blanks). Each panel shows the top eight 2-gram terms where the *blank* in the panel label is filled in by the noun or adjective indicated beside each trend. For example, in panel **a**, "Theory of *blank*" with the term "evolution" corresponds to "Theory of evolution".
-
-```{r blanks-supp, fig.cap = "(ref:fig-blanks-supp-cap)"}
-include_graphics(here("figs/blanks-extras-2018-08-09.pdf"))
-```
-
-\clearpage
-
-<!-- TODO: do we want to include this extra supplemental figure? -->
-
-```{r genetics-supp, fig.cap = "TODO", include=FALSE}
-include_graphics(here("figs/genetics-supp.pdf"))
-```
-
-\clearpage
-
-(ref:fig-methods-all-cap) `r make_facet_cap("methods")`
-
-```{r methods-all, fig.cap = "(ref:fig-methods-all-cap)", out.width="6.1in", fig.align="center"}
-include_graphics(here("figs/methods-models-genetics-facets.pdf"))
-```
-
-\clearpage
-
-(ref:fig-social-all-cap) `r make_facet_cap("social")`
-
-```{r social-all, fig.cap = "(ref:fig-social-all-cap)"}
-include_graphics(here("figs/social-facets.pdf"))
-```
-
-\clearpage
-
-(ref:totals-by-journal-cap) Total number of words per year by journal in the corpus. Journal names are given as JSTOR "slugs" (Table \@ref(tab:included-journals)) and journals are arranged by total number of words across all years. Note that a number of the JSTOR slugs represent the same journal through time (e.g., "procroyasocilon2", "procroyasocilon4", etc.). URLs for the various JSTOR slugs can be created by adding <https://www.jstor.org/journal/> before the slug. For example, <https://www.jstor.org/journal/ecology>.
-
-```{r totals-by-journal, fig.cap = "(ref:totals-by-journal-cap)"}
-include_graphics(here("figs/journal-totals-by-year.pdf"))
-```
-
-\clearpage
-
-```{r total-by-year, message=FALSE, warning=FALSE, fig.asp=0.618, fig.cap="Number of 1-grams per year across the entire corpus. This time series represents the denominator when standardizing the timeseries in all other figures to be per 100,000 words in the corpus.", fig.width=5}
-total1 <- readRDS(here::here("data/generated/total1.rds"))
-total1 %>%
-  filter(year >= 1930, year <= 2010) %>%
-ggplot(aes(year, total_words / 1e6)) +
-  geom_point() +
-  geom_line() +
-  ggsidekick::theme_sleek() +
-  ylab("Millions of 1-grams") + xlab("Year")
-```
-
-\clearpage
-
-```{r}
 make_giant_cap <- function(label, gram = "1") {
   paste0("Top 144 ", gram, "-grams in the time period ", label, ". Panels are ordered by decreasing total mentions during the focal time period (indicated by grey-shaded rectangle).")
 }
@@ -494,8 +419,83 @@ include_graphics(here("figs/decadal-giant-1980-1999-2gram.pdf"))
 include_graphics(here("figs/decadal-giant-2000-2010-2gram.pdf"))
 ```
 
+
 \clearpage
 
+(ref:fig-blanks-supp-cap) Additional fill-in-the-blank figure panels using the same approach as Fig. \@ref(fig:blanks). Each panel shows the top eight 2-gram terms where the *blank* in the panel label is filled in by the noun or adjective indicated beside each trend. For example, in panel **a**, "Theory of *blank*" with the term "evolution" corresponds to "Theory of evolution".
+
+```{r blanks-supp, fig.cap = "(ref:fig-blanks-supp-cap)"}
+include_graphics(here("figs/blanks-extras-2018-08-09.pdf"))
+```
+
+\clearpage
+
+```{r}
+make_facet_cap <- function(label) {
+  paste0("Individual trends in n-gram frequency for the data underlying Fig. \\@ref(fig:", label, "). The terms listed in the top row above each panel refer to the aggregate term displayed in Fig. \\@ref(fig:", label, "). The terms listed on the second row above each panel refer to an underlying n-gram that was searched in the corpus.")
+}
+```
+
+(ref:fig-community-all-cap) `r make_facet_cap("ecology")` For this supplemental figure, the top and bottom rows happened to be the same.
+
+```{r community-all, fig.cap = "(ref:fig-community-all-cap) ", out.width="\\textwidth", fig.align="center"}
+include_graphics(here("figs/community-ecology-facets.pdf"))
+```
+
+\clearpage
+
+(ref:fig-conservation-all-cap) `r make_facet_cap("cons")`
+
+```{r conservation-all, fig.cap = "(ref:fig-conservation-all-cap)", out.width="6.1in", fig.align="center"}
+include_graphics(here("figs/conservation-human-impacts-facets.pdf"))
+```
+
+\clearpage
+
+<!-- TODO: do we want to include this extra supplemental figure? -->
+
+```{r genetics-supp, fig.cap = "TODO", include=FALSE}
+include_graphics(here("figs/genetics-supp.pdf"))
+```
+
+\clearpage
+
+(ref:fig-methods-all-cap) `r make_facet_cap("methods")`
+
+```{r methods-all, fig.cap = "(ref:fig-methods-all-cap)", out.width="6.1in", fig.align="center"}
+include_graphics(here("figs/methods-models-genetics-facets.pdf"))
+```
+
+\clearpage
+
+(ref:fig-social-all-cap) `r make_facet_cap("social")`
+
+```{r social-all, fig.cap = "(ref:fig-social-all-cap)"}
+include_graphics(here("figs/social-facets.pdf"))
+```
+
+\clearpage
+
+(ref:totals-by-journal-cap) Total number of words per year by journal in the corpus. Journal names are given as JSTOR "slugs" (Table \@ref(tab:included-journals)) and journals are arranged by total number of words across all years. Note that a number of the JSTOR slugs represent the same journal through time (e.g., "procroyasocilon2", "procroyasocilon4", etc.). URLs for the various JSTOR slugs can be created by adding <https://www.jstor.org/journal/> before the slug. For example, <https://www.jstor.org/journal/ecology>.
+
+```{r totals-by-journal, fig.cap = "(ref:totals-by-journal-cap)"}
+include_graphics(here("figs/journal-totals-by-year.pdf"))
+```
+
+\clearpage
+
+```{r total-by-year, message=FALSE, warning=FALSE, fig.asp=0.618, fig.cap="Number of 1-grams per year across the entire corpus. This time series represents the denominator when standardizing the timeseries in all other figures to be per 100,000 words in the corpus.", fig.width=5}
+total1 <- readRDS(here::here("data/generated/total1.rds"))
+total1 %>%
+  filter(year >= 1930, year <= 2010) %>%
+ggplot(aes(year, total_words / 1e6)) +
+  geom_point() +
+  geom_line() +
+  ggsidekick::theme_sleek() +
+  ylab("Millions of 1-grams") + xlab("Year")
+```
+
+\clearpage
 
 ```{r included-journals, message=FALSE, results="asis", eval=TRUE}
 journals %>%
@@ -512,32 +512,8 @@ journals %>%
 \clearpage
 
 ```{r exclusion-n-grams}
-exclude <- c("american naturalist", "ecological monographs",
-  "biol bull", "woods hole", "experi ments",
-  "condi tions", "indi viduals", "comp physiol",
-  "empty declaremathsizes", "university press",
-  "conservation biology", "ecological society",
-  "coastal research", "Journal compilation",
-  "Blackwell publishing", "british ecological",
-  "ecological applications", "cambridge university",
-  "authors journal", "canadian journal",
-  "royal society", "ecol evol", "state university",
-  "springer verlag", "phil trans", "much more", "same time",
-  "united states", "other hand", "philosophical transactions",
-  "corresponding editor", "ecol monogr", "conserv biol",
-  "ecol lett", "popu lations", "ecology letters",
-  "research institute", "press chicago", "ecol syst",
-  "funct ecol", "change biology", "author contributions",
-  "phil wrans", "portugal issn", "nati acad", "proc nati",
-  "corresponding author")
-
-ignore_1grams <- c("fig", "use", "doi", "case", "tion", "cent", "while",
-  "results", "table", "figure", "journal", "university", "author", "eve")
-
-exclude <- c(exclude, ignore_1grams)
+exclude <- readRDS(here::here("data/generated/exclusions_fig1.rds"))
 exclude <- tolower(sort(exclude))
-# exclude <- paste(exclude, collapse = ", ")
-
 row_length <- ceiling(length(exclude)/3)
 
 exclude_df <- tibble::tibble(
@@ -548,6 +524,23 @@ exclude_df <- tibble::tibble(
 exclude_df %>%
   knitr::kable(booktabs = TRUE, linesep = "", longtable = TRUE,
     caption = "1- and 2-grams excluded from the top n-grams by decade analyses.")
+```
+
+\clearpage
+
+```{r exclusion-n-grams-giants}
+exclude <- readRDS(here::here("data/generated/excludes_giants.rds"))
+exclude <- tolower(sort(exclude))
+row_length <- ceiling(length(exclude)/3)
+
+exclude_df <- tibble::tibble(
+  `Excluded terms` = exclude[1:row_length],
+  `Excluded terms continued` = exclude[(row_length + 1):(row_length*2)],
+  `Excluded terms continued ` = c(exclude[(row_length*2 + 1):length(exclude)]))
+
+exclude_df %>%
+  knitr::kable(booktabs = TRUE, linesep = "", longtable = TRUE,
+    caption = "n-grams excluded from the top 144 n-gram supplementary figures.")
 ```
 
 \clearpage
@@ -574,7 +567,7 @@ exclude <- c("ecol",
   "affect", "editors", "same", "such", "cer", "esw", "l.f", "r.f",
   "many", "different", "present", "previous")
 exclude <- exclude[!nchar(exclude) < 4]
-exclude <- tolower(sort(exclude))
+exclude <- unique(tolower(sort(exclude)))
 row_length <- ceiling(length(exclude)/2)
 exclude_df <- tibble::tibble(
   `Excluded terms` = exclude)
