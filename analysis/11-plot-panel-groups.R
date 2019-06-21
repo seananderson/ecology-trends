@@ -14,11 +14,11 @@ pal_func <- function(n) {
 g <- make_handpicked_panel(
   terms_file = "data/methods-models-genetics2.csv",
   csv_out    = "data/generated/methods-models-genetics-out.csv",
-  cache_file = "data/generated/method-models-genetics-grams4.rds",
+  cache_file = "data/generated/method-models-genetics-grams5.rds",
   fig_file   = "figs/methods-models-genetics2.pdf",
   fig_height = 6.5 * 3/2 * gold(),
   fig_width  = 6.5,
-  right_gap  = 63
+  right_gap  = 75
 )
 ggsave("figs/methods-models-genetics-facets.pdf", width = 13, height = 18)
 
@@ -48,7 +48,7 @@ g <- make_handpicked_panel(
   fig_file   = "figs/conservation-human-impacts.pdf",
   fig_height = 6.5 * 3 / 2 * gold(),
   fig_width  = 6.5,
-  right_gap  = 38
+  right_gap  = 42
 )
 ggsave("figs/conservation-human-impacts-facets.pdf", width = 13, height = 18)
 
