@@ -82,13 +82,18 @@ order,panel,gram,gram_canonical
 ,Species/resource exploitation,overhunting,hunting
 ,Species/resource exploitation,poaching,poaching
 ,Species/resource exploitation,logging,logging
+,Species/resource exploitation,clearcutting,logging
+,Species/resource exploitation,clear cutting,logging
 ,Species/resource exploitation,mining,mining
+,Species/resource exploitation,fracking,mining
 6,Geographic protection,reserve,reserve
 ,Geographic protection,reserves,reserve
 ,Geographic protection,preserve,preserve
 ,Geographic protection,preserves,preserve
 ,Geographic protection,park,park
 ,Geographic protection,parks,park
+,Geographic protection,parkland,park
+,Geographic protection,parklands,park
 ,Geographic protection,restoration,restoration
 ,Geographic protection,afforestation,restoration
 ,Geographic protection,reforestation,restoration

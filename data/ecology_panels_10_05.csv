@@ -1,28 +1,48 @@
 order,panel,gram,gram_canonical
 1,Scale,gene,gene
+,Scale,genes,gene
 ,Scale,cell,cell
+,Scale,cells,cell
 ,Scale,species,species
 ,Scale,population,population
+,Scale,populations,population
 ,Scale,organism,organism
+,Scale,organisms,organism
 ,Scale,community,community
+,Scale,communities,community
 ,Scale,ecosystem,ecosystem
-,Scale,metapopulation,metapopulation
+,Scale,ecosystems,ecosystem
+,Scale,landscape,landscape
+,Scale,landscapes,landscape
 2,Scale without 'species',gene,gene
+2,Scale without 'species',genes,gene
 ,Scale without 'species',cell,cell
+,Scale without 'species',cells,cell
 ,Scale without 'species',population,population
+,Scale without 'species',populations,population
 ,Scale without 'species',organism,organism
+,Scale without 'species',organisms,organism
 ,Scale without 'species',community,community
+,Scale without 'species',communities,community
 ,Scale without 'species',ecosystem,ecosystem
-,Scale without 'species',metapopulation,metapopulation
+,Scale without 'species',ecosystems,ecosystem
+,Scale without 'species',landscape,landscape
+,Scale without 'species',landscapes,landscape
 3,Species interactions,predation,predation
+,Species interactions,predatory interaction,predation
 ,Species interactions,competition,competition
+,Species interactions,competitive interaction,competition
 ,Species interactions,commensalism,commensalism
 ,Species interactions,parasitism,parasitism
+,Species interactions,parasitic interaction,parasitism
 ,Species interactions,mutualism,mutualism
+,Species interactions,mutualistic interaction,mutualism
+,Species interactions,facilitation,facilitation
+,Species interactions,facilitative interaction,facilitation
 4,Theories,cell theory,cell theory
 ,Theories,climax community,climax community
-,Theories,theory of natural,theory of natural
-,Theories,theory of island,theory of island
+,Theories,theory of natural,theory of natural [selection]
+,Theories,theory of island,theory of island [biogeography]
 ,Theories,foraging theory,foraging theory
 ,Theories,neutral theory,neutral theory
 5,Hypotheses,hormone hypothesis,hormone hypothesis

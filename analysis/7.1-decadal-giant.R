@@ -141,7 +141,8 @@ exclude2 <- c("nature lond", "tempera ture", "popula tion", "tempera tures",
   "proc natn", "oecologia berlin", "observa tion", "short article",
   "biophys acta", "amer natur", "present address", "many other",
   "chicago press", "Chicago press", "relation ship", "blackwell science",
-  "research special", "press Cambridge", "press cambridge", "landscape mathrm"
+  "research special", "press Cambridge", "press cambridge", "landscape mathrm",
+  "ecology progress"
 )
 exclude3 <- c("animal ecology", "approxi mately", "biol chem", "biological conservation",
   "biological science", "chromo somes", "experi ment", "functional ecology",
@@ -150,7 +151,7 @@ exclude3 <- c("animal ecology", "approxi mately", "biol chem", "biological conse
   "other animal", "right angle", "more rapid", "more likely", "small amount",
   "other factor", "puerto rico", "high level", "more important",
   "north american", "forest service", "british columbia",
-  "previous study", "total number")
+  "previous study", "total number", "other species")
 
 pop2 <- pop2 %>% filter(!tolower(lemma) %in% tolower(exclude2))
 pop2 <- pop2 %>% filter(!tolower(lemma) %in% tolower(exclude3))

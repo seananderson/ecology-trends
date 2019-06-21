@@ -44,7 +44,7 @@ make_handpicked_panel(
 g <- make_handpicked_panel(
   terms_file = "data/conservation-human-impacts.csv",
   csv_out    = "data/generated/conservation-human-impacts-out.csv",
-  cache_file = "data/generated/conservation-human-impacts1.rds",
+  cache_file = "data/generated/conservation-human-impacts2.rds",
   fig_file   = "figs/conservation-human-impacts.pdf",
   fig_height = 6.5 * 3 / 2 * gold(),
   fig_width  = 6.5,
@@ -56,11 +56,11 @@ ggsave("figs/conservation-human-impacts-facets.pdf", width = 13, height = 18)
 g <- make_handpicked_panel(
   terms_file = "data/ecology_panels_10_05.csv",
   csv_out    = "data/generated/general-ecology-out.csv",
-  cache_file = "data/generated/ecology-panels2.rds",
+  cache_file = "data/generated/ecology-panels3.rds",
   fig_file   = "figs/ecology-panels3.pdf",
   fig_height = 6.5 * gold() * 3 / 2,
   fig_width  = 6.5,
-  right_gap  = 46
+  right_gap  = 73
 )
 ggsave("figs/community-ecology-facets.pdf", width = 13, height = 11)
 
@@ -88,3 +88,13 @@ g <- make_handpicked_panel(
   right_gap  = 81
 )
 ggsave("figs/supplemental-facets.pdf", width = 13, height = 13)
+
+g <- make_handpicked_panel(
+  terms_file = "data/temp.csv",
+  csv_out    = "data/generated/temp-out.csv",
+  cache_file = "data/generated/temp1.rds",
+  fig_file   = "figs/temp.pdf",
+  fig_height = 6.5 * 2 / 2 * gold(),
+  fig_width  = 6.5,
+  right_gap  = 81
+)

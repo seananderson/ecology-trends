@@ -93,7 +93,7 @@ exclude <- c("american naturalist", "ecological monographs",
   "research institute", "press chicago", "ecol syst",
   "funct ecol", "change biology", "author contributions",
   "phil wrans", "portugal issn", "nati acad", "proc nati",
-  "corresponding author") %>%
+  "corresponding author", "other species") %>%
   tolower()
 pop2 <- pop2 %>% filter(!first_word %in% exclude,
   !second_word %in% exclude, !gram %in% exclude)
