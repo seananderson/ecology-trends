@@ -26,19 +26,19 @@ ngrams1 <- dplyr::tbl(d1, "ngrams") %>% filter(year != 999) %>%
   filter(year >= 1920, year <= 2014) %>%
   filter(!(gram %in% bad_amnat & journal == "amernatu")) %>%
   filter(!pub_id %in% pnas_exluded_pub_ids,
-    journal %in% filtered_journals$journal)
+    journal %in% !!filtered_journals$journal)
 
 d2 <- dplyr::src_sqlite("data/jstor2.sqlite3")
 ngrams2 <- dplyr::tbl(d2, "ngrams") %>% filter(year != 999) %>%
   filter(year >= 1920, year <= 2014) %>%
   filter(!pub_id %in% pnas_exluded_pub_ids,
-    journal %in% filtered_journals$journal)
+    journal %in% !!filtered_journals$journal)
 
 d3 <- dplyr::src_sqlite("data/jstor3.sqlite3")
 ngrams3 <- dplyr::tbl(d3, "ngrams") %>% filter(year != 999) %>%
   filter(year >= 1920, year <= 2014) %>%
   filter(!pub_id %in% pnas_exluded_pub_ids,
-    journal %in% filtered_journals$journal)
+    journal %in% !!filtered_journals$journal)
 
 if (!file.exists("data/generated/total1.rds")) {
   total1 <- ngrams1 %>%
@@ -68,7 +68,7 @@ get_ngram_dat <- function(terms) {
   dd <- filter(terms, n == 1)
   if (nrow(dd) > 0) {
     message("Extracting 1 grams")
-    ecology1 <- ngrams1 %>% filter(gram %in% dd$terms) %>%
+    ecology1 <- ngrams1 %>% filter(gram %in% !!dd$terms) %>%
       group_by(year, gram) %>%
       summarise(total = sum(count)) %>%
       collect(n = Inf) %>%
@@ -78,7 +78,7 @@ get_ngram_dat <- function(terms) {
   dd <- filter(terms, n == 2)
   if (nrow(dd) > 0) {
     message("Extracting 2 grams")
-    ecology2 <- ngrams2 %>% filter(gram %in% dd$terms) %>%
+    ecology2 <- ngrams2 %>% filter(gram %in% !!dd$terms) %>%
       group_by(year, gram) %>%
       summarise(total = sum(count)) %>%
       collect(n = Inf) %>%
@@ -88,7 +88,7 @@ get_ngram_dat <- function(terms) {
   dd <- filter(terms, n == 3)
   if (nrow(dd) > 0) {
     message("Extracting 3 grams")
-    ecology3 <- ngrams3 %>% filter(gram %in% dd$terms) %>%
+    ecology3 <- ngrams3 %>% filter(gram %in% !!dd$terms) %>%
       group_by(year, gram) %>%
       summarise(total = sum(count)) %>%
       collect(n = Inf) %>%

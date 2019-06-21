@@ -16,7 +16,7 @@ shape_top_decade <- function(data, gram_db, total1, top = 9) {
   pop3_keep <- inner_join(data, keep, by = c("decade", "lemma"))
 
   # extract:
-  dat3 <- gram_db %>% filter(gram %in% pop3_keep$gram) %>%
+  dat3 <- gram_db %>% filter(gram %in% !!pop3_keep$gram) %>%
     collect(n = Inf) %>%
     left_join(total1, by = "year") %>% # from extract-functions.R
     ungroup()
