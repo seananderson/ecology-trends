@@ -13,13 +13,13 @@ get_big_grams <- function(gram_db, decades = list(1940:1949, 2000:2009)) {
   pop <- list()
   for (i in seq_along(decades)) {
     message(decades[i])
-    pop[[i]] <- gram_db %>% filter(year %in% decades[[i]]) %>%
+    pop[[i]] <- gram_db %>% filter(year %in% !!decades[[i]]) %>%
       filter(!gram %in% excludes) %>%
       # inner_join(total1, by = "year", copy = TRUE) %>%  # from "analysis/extract-functions.R"
       group_by(gram) %>%
       summarise(total = sum(total)) %>%
       arrange(-total) %>%
-      collect(n = 5000) %>%
+      collect(n = 7000) %>%
       filter(!grepl("[0-9]+", gram)) %>%
       filter(nchar(gram) >= 3)
     pop[[i]]$decade <- min(decades[[i]])
@@ -50,7 +50,7 @@ pop1 <- left_join(pop1, tt, by = "gram")
 pop1 <- group_by(pop1, decade) %>%
   filter(tag %in% c("NN", "NNS")) %>%
   # filter(lemma != "<unknown>") %>%
-  top_n(n = 500, wt = total) %>%
+  top_n(n = 800, wt = total) %>%
   ungroup()
 pop1$lemma[pop1$lemma == "<unknown>"] <- pop1$gram[pop1$lemma == "<unknown>"]
 

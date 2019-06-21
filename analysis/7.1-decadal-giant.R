@@ -35,7 +35,7 @@ get_big_grams <- function(gram_db,
   pop <- list()
   for (i in seq_along(decades)) {
     message(decades[i])
-    pop[[i]] <- gram_db %>% filter(year %in% decades[[i]]) %>%
+    pop[[i]] <- gram_db %>% filter(year %in% !!decades[[i]]) %>%
       filter(!gram %in% excludes) %>%
       group_by(gram) %>%
       summarise(total = sum(total), n_obs = n()) %>%
