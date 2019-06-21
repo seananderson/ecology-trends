@@ -380,7 +380,7 @@ bad_amnat <- paste(bad_amnat, collapse = ", ")
 
 ## Algorithmic panels
 
-We conducted a series of data processing steps to determine the most popular 1- and 2-grams in various decades.
+We conducted a series of data processing steps to determine the most popular 1- and 2-grams in various time periods.
 To speed computation, we began by filtering the full data set down to the top 7000 1- and 2-grams over each respective decade or time window.
 We then removed all n-grams that included numbers, we removed all 1-grams that had three or fewer characters, and we removed 2-grams in which either the first or second had three or fewer characters.
 To focus only on relevant parts of speech, we assigned parts of speech with the TreeTager probabilistic part-of-speech tagger [@schmid1994] via the R [@r2018] package koRpus [@korpus2018].
