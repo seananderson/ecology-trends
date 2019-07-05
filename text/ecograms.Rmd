@@ -122,14 +122,22 @@ n_journals <- nrow(dplyr::filter(journals, `Taxon Specific` == "N"))
 The field of ecology has experienced rapid growth since the discipline-specific journal, *Ecology*, was first published in 1920 [@reiners2017; @kim2018]. Today, with hundreds of ecology journals representing numerous subdisciplines, the field spans in scope from theoretical to applied and has become increasingly intertwined with the fields of natural history and conservation. In light of such growth and diversification, accomplishing a broad overview of the field can be challenging, and yet, a broad overview is critical for reasons including guiding new research, informing funding directions, and structuring educational frameworks [@mccallen2019].
 -->
 
-The field of ecology has experienced rapid growth since the discipline-specific journal, *Ecology*, was first published over a century ago [@reiners2017; @kim2018].
-Today, hundreds of ecology journals represent numerous subdisciplines spanning in scope from theoretical to applied.
-Although there is disagreement about the specific origins of ecology as its own scientific discipline, there is generally agreement that ecology arose at some point in the late 19th or early 20th century drawing from a broad set of disciplines including geography, geology, evolutionary biology, systematics, physiology, natural history, and natural resource management [@simberloff1980; @egerton1983; @kingsland2005; @ayres2012; @huston2016].
+The field of ecology has experienced rapid growth since the discipline-specific journal, *Ecology*, was first published over a century ago [@reiners2017; @kim2018]. 
+There is generally agreement that the field of ecology arose in the late 19th or early 20th century drawing from a broad set of disciplines including geography, geology, evolutionary biology, systematics, physiology, natural history, and natural resource management [@simberloff1980; @egerton1983; @kingsland2005; @ayres2012; @huston2016].
+Today, there are hundreds of ecology journals representing subdisciplines spanning in scope from theoretical to applied, and in scale from ecosystems to genomes (CITE).
 
-Some of the fastest growing subdisciplines in ecology fall under the umbrella of "applied ecology" and focus on the conservation, protection, and management of natural resources, ecosystems, and plant and animal populations [@staples2019; @li2011; @lockwood2013; @griffiths2012].
-This is likely owing to the mounting evidence of the scale and magnitude of the impact of human populations on global biogeochemical cycles, species extinction rates, and habitat conversion [@young2005; @li2011; @simberloff2010; @griffiths2012; @staples2019].
-A danger for any rapidly growing field of study is that researchers can quickly become "siloed" in their own subdisciplines---forming their own jargon, missing key conceptual bridges, and squandering opportunities for interdisciplinary collaborations [@staples2019; @margles2010].
+
+
+In any rapidly growing field of study, one potential danger is that researchers can become "siloed" in their own subdisciplines, i.e., forming their own jargon and potentially missing conceptual bridges or opportunities for interdisciplinary collaborations [@staples2019; @margles2010]. 
+
+
+For example, some of the fastest growing subdisciplines in ecology fall under the umbrella of "applied ecology" and focus on the conservation, protection, and management of natural resources, ecosystems, and plant and animal populations [@staples2019; @li2011; @lockwood2013; @griffiths2012].
+The subdiscipline is represented by XXX targeted journals with researchers from public and private institutions, non-profits and government agencies working... 
+To read all articles published each month from these journals would take XXX hours to complete!
+The proliferation of publication is likely owing to the mounting evidence of the scale and magnitude of the impact of human populations on global biogeochemical cycles, species extinction rates, and habitat conversion [@young2005; @li2011; @simberloff2010; @griffiths2012; @staples2019].
 This path is especially worrisome for applied ecological research because of the urgency for scientifically sound data to inform conservation and management decisions [@ipcc2014; @ipbes2019].
+
+
 
 In light of such rapid growth and diversification, synthesizing larger trends in a field can be challenging.
 Yet, broad overviews are critical for bridging siloed disciplines and highlighting key concepts that potentially span multiple subdisciplines.
@@ -139,12 +147,12 @@ Ecology does not lack reflections on the state of the field; reviews opine on th
 However, much of this work is built on personal observations, subject to the biases of individuals, and may not accurately reflect the progression of the field.
 
 The discipline of culturomics---the quantitative analysis of large bodies of text---offers a rich framework with which to track the evolution of a field through time [@michel2011; @ladle2016] and highlight areas of convergence across subdisciplines.
-Specifically, word use in the published literature can serve as a proxy for tracking realized, versus perceived, importance of fundamental concepts and terms.
+Specifically, word use in the published literature can serve as a proxy for tracking realized versus perceived importance of fundamental concepts and terms.
 This approach has been successfully applied to smaller subsets of the ecological literature, notably a century of titles and abstracts in the journal *Ecology* [@kim2018], automated content analysis of titles and abstracts in top ecology journals based on impact factor [@mccallen2019], and more specific research questions restricted to certain regions or taxa [e.g., @beale2018, @Correia2018].
 
 <!-- The discipline of culturomics---the quantitative analysis of large bodies of text---offers a rich framework with which to track the evolution of a field through time [@michel2011; @ladle2016]. Specifically, word use in the published literature can serve as a proxy for tracking realized, versus perceived, importance. This approach has been applied to subsets of the ecological literature, notably a century of titles and abstracts in the journal *Ecology* [@kim2018], automated content analysis of titles and abstracts in top ecology journals based on impact factor [@mccallen2019], and more specific research questions restricted to certain regions or taxa [e.g., @beale2018]. -->
 
-Here, we build on previous analyses [e.g., @carmel2013; @reiners2017; @kim2018; @mccallen2019] by providing the first full-text analysis of ecology journals over eight decades encompassing `r n_journals` journals, 131,533 articles, and over half a billion words.
+Here, we build on previous analyses [e.g., @carmel2013; @reiners2017; @kim2018; @mccallen2019] by providing the first full-text analysis of ecology journals over eight decades encompassing `r n_journals` journals, 131,533 articles, including over half a billion words.
 We analyze the JSTOR full-text corpus from 1930 to 2010---the period of time with the most robust journal coverage in the JSTOR database---for all journals that regularly publish ecological or conservation papers and are not regionally or taxonomically exclusive (see Methods).
 We search the corpus for specific "n-grams," which are sequences of terms separated by a space.
 For example, "biogeography" is a 1-gram and "body size" is a 2-gram (we herein denote n-gram terms in italics).
