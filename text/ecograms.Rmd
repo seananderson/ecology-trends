@@ -129,18 +129,15 @@ Today, there are hundreds of ecology journals representing subdisciplines spanni
 
 
 In any rapidly growing field of study, one potential danger is that researchers can become "siloed" in their own subdisciplines, i.e., forming their own jargon and potentially missing conceptual bridges or opportunities for interdisciplinary collaborations [@staples2019; @margles2010]. 
-
-
-For example, some of the fastest growing subdisciplines in ecology fall under the umbrella of "applied ecology" and focus on the conservation, protection, and management of natural resources, ecosystems, and plant and animal populations [@staples2019; @li2011; @lockwood2013; @griffiths2012].
-The subdiscipline is represented by XXX targeted journals with researchers from public and private institutions, non-profits and government agencies working... 
-To read all articles published each month from these journals would take XXX hours to complete!
+For example, some of the fastest growing subdisciplines in ecology fall under the umbrella of "applied ecology" with a focus on the conservation, protection, and management of natural resources, ecosystems, and plant and animal populations [@staples2019; @li2011; @lockwood2013; @griffiths2012].
+The subdiscipline is represented by XXX targeted journals with researchers from public and private institutions, non-profits and government agencies, publishing their work at a rate of XXX artciles per month.  
+In order to keep abreast of the literature, this means a person would have to read at a rate of XX articles per day.
 The proliferation of publication is likely owing to the mounting evidence of the scale and magnitude of the impact of human populations on global biogeochemical cycles, species extinction rates, and habitat conversion [@young2005; @li2011; @simberloff2010; @griffiths2012; @staples2019].
 This path is especially worrisome for applied ecological research because of the urgency for scientifically sound data to inform conservation and management decisions [@ipcc2014; @ipbes2019].
 
 
 
-In light of such rapid growth and diversification, synthesizing larger trends in a field can be challenging.
-Yet, broad overviews are critical for bridging siloed disciplines and highlighting key concepts that potentially span multiple subdisciplines.
+In light of such rapid growth and diversification, synthesizing larger trends in a field can be challenging, yet broad overviews are critical for bridging sub-disciplines.
 <!-- TODO: Reviewing the evolution of a field's lexicon can faciliate discussions about deconstructing  colonial language and implicit biases, allowing space for growth into a more equitable and inclusive discipline.  https://www.sciencemag.org/news/2019/04/historians-expose-early-scientists-debt-slave-trade https://github.com/seananderson/ecology-trends/issues/32-->
 Additionally, syntheses can guide new research, inform funding directions, and structure educational frameworks [@mccallen2019].
 Ecology does not lack reflections on the state of the field; reviews opine on the field's reading lists, methodologies, coursework, and exclusivity [REFs].
@@ -177,7 +174,7 @@ Changes in popular terms between the 1940s and 2000s reflect both shifts in scie
 In the 1940s, popular terms such as *time*, *number*, and *day* (Fig. \@ref(fig:decades)a) referenced descriptive data.
 Popular terms in the modern era representing related concepts included *data*, *effect*, and *model* (Fig. \@ref(fig:decades)c).
 This shift likely represented both a replacement of terminology and a shift from a largely descriptive discipline to a more quantitative one [@rios-saldana2018].
-Popular terms in the 1940s included *blue grama* (*Bouteloua gracilis*) and *wheat grass* (Fig. \@ref(fig:decades)b), which are rarely mentioned today but were of greater significance in the 1940s, likely due to famine in the United States in the 1930s and World War II in the 1940s.
+Popular terms in the 1940s included *blue grama* (*Bouteloua gracilis*) and *wheat grass* (Fig. \@ref(fig:decades)b), which are rarely mentioned today but were of greater significance in the 1940s, likely due to famine in the United States in the 1930s and World War II in the 1940s (NEED CITATION ABOUT FAMINE).
 For example, blue grama was heavily studied in the 1930s due to its drought tolerance [@mueller1942].
 This focus on agricultural research was supported by other popular 2-grams from the 1940s, such as *organic matter*, *soil moisture*, and *fresh water* (Fig. \@ref(fig:decades)b).
 The decline in these historically popular terms may reflect trends in agricultural and soil scientists increasingly publishing in discipline-specific that are outside our corpus.
