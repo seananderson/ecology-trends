@@ -312,6 +312,7 @@ In contrast, *natural history* has remained steadily in the lexicon for eight de
 From the perspective of preparing students to publish in the field, our results reinforce the call to refocus ecological statistical education from declining recipe-based approaches (e.g., *ANOVA*s) to probability theory, programming, and simulation-based approaches [@mcelreath2015].
 
 
+<!-- TODO: make this topic sentence and the  more general with these as examples. -->
 The term *conservation* was one of the fastest growing terms in the corpus (Fig. \@ref(fig:cons)a), which contrasts with an earlier culturomic analysis [@mccallen2019].
 <!-- SA: make this topic sentence more general since the  also gets into 'competition' -->
 <!-- Our approach greatly expanded upon prior culturonomic studies that focused on shorter periods of time and smaller bodies of text [@kim2018; @mccallen2019].  -->
