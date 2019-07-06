@@ -436,7 +436,7 @@ include_graphics(here("figs/conservation-human-impacts.pdf"))
 
 \clearpage
 
-(ref:fig-ecology-cap) **Community ecology n-grams from 1930--2010.** Panel **b** is the same as panel **a**, but removes the 1-gram *species* to better visualize the remaining terms. Panels **e** and **f** are based on the same algorithm used in Fig. \@ref(fig:blanks) to find the top eight n-grams for "theory of *blank*" or "*blank* theory" and "*blank* hypothesis".
+(ref:fig-ecology-cap) **Community ecology n-grams from 1930--2010.** Panel **b** is the same as panel **a**, but removes the 1-gram *species* to better visualize the remaining terms. Panels **e** and **f** are based on the same algorithm used in Fig. \@ref(fig:blanks) to find the top eight n-grams for "*blank* hypothesis" and "theory of *blank*" or "*blank* theory".
 
 ```{r ecology, fig.cap = "(ref:fig-ecology-cap)"}
 include_graphics(here("figs/ecology-panels3.pdf"))
