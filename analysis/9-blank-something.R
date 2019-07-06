@@ -25,7 +25,7 @@ blank_grams <- gram_db2 %>%
 
       gram %like% "% experiment" |
       gram %like% "% experiments" |
-      # gram %like% "% data" |
+      gram %like% "% hypothesis" |
       # gram %like% "% model" |
       # gram %like% "% models" |
       gram %like% "% analysis" |
@@ -146,6 +146,8 @@ top_lemmas <- group_by(x_top2, panel_lemma, lemma) %>%
   top_n(n = 30, wt = total)
 
 terms <- filter(x_top2, lemma %in% top_lemmas$lemma)
+save(terms, file = "data/generated/terms-top.rda")
+save(top_lemmas, file = "data/generated/top-lemmas.rda")
 grams <- unique(terms$gram)
 
 grams2 <- grams[!grepl("theory-of", grams)]
@@ -194,6 +196,7 @@ gd <- gd %>% mutate(lemma = gsub("datum", "data", lemma))
 gd <- gd %>% mutate(panel_lemma = gsub("datum", "data", panel_lemma))
 gd <- gd %>% mutate(panel_lemma = gsub("<unknown> as first", "theory-of as first", panel_lemma))
 gd <- gd %>% filter(panel_lemma != "scale")
+gd <- gd %>% filter(panel_lemma != "hypothesis")
 
 plot_blanks <- function(dat, right_gap = 40,
   label_cex = 0.85, one_pal = FALSE, ...) {

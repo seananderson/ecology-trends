@@ -25,3 +25,5 @@ included_ecology_ecological.csv
 words.csv
 *.log
 text/ecograms.knit.md
+data/generated/top-blank.rda
+data/ecology_panels_combined.csv

@@ -52,11 +52,16 @@ g <- make_handpicked_panel(
 )
 ggsave("figs/conservation-human-impacts-facets.pdf", width = 13, height = 18)
 
+d1 <- readr::read_csv("data/ecology_panels_10_05.csv")
+d2 <- readr::read_csv("data/ecology_panels_automated.csv")
+d3 <- bind_rows(d1, d2)
+readr::write_csv(d3, "data/ecology_panels_combined.csv")
+
 # General ecology: -----------------------------------------------------------
 g <- make_handpicked_panel(
-  terms_file = "data/ecology_panels_10_05.csv",
+  terms_file = "data/ecology_panels_combined.csv",
   csv_out    = "data/generated/general-ecology-out.csv",
-  cache_file = "data/generated/ecology-panels3.rds",
+  cache_file = "data/generated/ecology-panels4.rds",
   fig_file   = "figs/ecology-panels3.pdf",
   fig_height = 6.5 * gold() * 3 / 2,
   fig_width  = 6.5,

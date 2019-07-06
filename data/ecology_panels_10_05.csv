@@ -39,18 +39,7 @@ order,panel,gram,gram_canonical
 ,Species interactions,mutualistic interaction,mutualism
 ,Species interactions,facilitation,facilitation
 ,Species interactions,facilitative interaction,facilitation
-4,Theories,cell theory,cell theory
-,Theories,climax community,climax community
-,Theories,theory of natural,theory of natural [selection]
-,Theories,theory of island,theory of island [biogeography]
-,Theories,foraging theory,foraging theory
-,Theories,neutral theory,neutral theory
-5,Hypotheses,hormone hypothesis,hormone hypothesis
-,Hypotheses,time hypothesis,time hypothesis
-,Hypotheses,competition hypothesis,competition hypothesis
-,Hypotheses,disturbance hypothesis,disturbance hypothesis
-,Hypotheses,release hypothesis,release hypothesis
-6,Metrics,richness,richness
+4,Metrics,richness,richness
 ,Metrics,evenness,evenness
 ,Metrics,abundance,abundance
 ,Metrics,diversity,diversity
