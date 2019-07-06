@@ -332,13 +332,14 @@ temp <- gd %>%
   mutate(panel_lemma = gsub("niche$", "____ Niche", panel_lemma)) %>%
   mutate(panel_lemma = gsub("theory$", "____ Theory", panel_lemma))
 
+temp <- filter(temp, !panel_lemma %in% c("theory of ____", "____ Theory"))
 temp$panel_lemma <- factor(temp$panel_lemma,
   levels = c(
-    "theory of ____", "____ Theory",
+    # "theory of ____", "____ Theory",
     "niche ____", "____ Niche"))
 
 
-pdf("figs/blanks-extras-2018-08-09.pdf", width = 8, height = 8 * gold()*1.15)
+pdf("figs/blanks-extras-2018-08-09.pdf", width = 4, height = 7.5 * gold())
 plot_blanks(temp, right_gap = 34, log_y = FALSE,
   bottom_frac_up = 0.04, label_gap = -1.0,
   show_seg = TRUE, one_pal = TRUE)
