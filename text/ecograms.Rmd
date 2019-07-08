@@ -631,6 +631,7 @@ ggplot(aes(year, total_words / 1e6)) +
 ```{r included-journals, message=FALSE, results="asis", eval=TRUE}
 journals %>%
   filter(Journal != "Science") %>% # removed; no longer part of JSTOR
+  mutate(Journal = ifelse(Journal == "Ìäcoscience", "Écoscience", Journal)) %>% 
   arrange(`JSTOR Slug`, Journal) %>%
   knitr::kable(booktabs = TRUE, linesep = "", longtable = TRUE,
     label = "included-journals",
