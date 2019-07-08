@@ -128,9 +128,16 @@ Today, hundreds of ecology journals represent subdisciplines spanning in scope f
 In light of such rapid growth and diversification, synthesizing larger trends in a field can be challenging, yet broad overviews are critical for bridging subdisciplines [@staples2019; @margles2010], guiding new research, and informing funding directions and educational frameworks [@mccallen2019].
 <!-- become "siloed" in their own subdisciplines, thereby forming their own jargon and missing conceptual bridges or opportunities for interdisciplinary collaboration [@staples2019; @margles2010] -->
 <!-- Reviewing the evolution of a field's lexicon can faciliate discussions about deconstructing  colonial language and implicit biases, allowing space for growth into a more equitable and inclusive discipline.  https://www.sciencemag.org/news/2019/04/historians-expose-early-scientists-debt-slave-trade https://github.com/seananderson/ecology-trends/issues/32-->
-Ecology does not lack reflections on the state of the field [REFs]; 
+<!-- Ecology does not lack reflections on the state of the field [e.g.,  -->
+<!-- @barrows2016;  -->
+<!-- @reiners2017;  -->
+<!-- @estes2018;  -->
+<!-- @courchamp2018;  -->
+<!-- @kim2018;  -->
+<!-- @mccallen2019;  -->
+<!-- @staples2019]; -->
 <!-- reviews opine on the field's reading lists, methodologies, coursework, and exclusivity [REFs]. -->
-however, much of this work is built on personal observations, subject to the biases of individuals, and may not accurately reflect the progression of the field.
+<!-- however, much of this work is built on personal observations, subject to the biases of individuals, and may not accurately reflect the progression of the field. -->
 
 <!-- In any rapidly growing field of study, a potential danger is that researchers can become "siloed" in their own subdisciplines, thereby forming their own jargon and missing conceptual bridges or opportunities for interdisciplinary collaboration [@staples2019; @margles2010].  -->
 <!-- For example, some of the fastest growing subdisciplines in ecology fall under the umbrella of "applied ecology" with a focus on the conservation, protection, and management of natural resources, ecosystems, and plant and animal populations [@staples2019; @li2011; @lockwood2013; @griffiths2012]. -->
@@ -143,7 +150,7 @@ This approach has been successfully applied to smaller subsets of the ecological
 
 <!-- The discipline of culturomics---the quantitative analysis of large bodies of text---offers a rich framework with which to track the evolution of a field through time [@michel2011; @ladle2016]. Specifically, word use in the published literature can serve as a proxy for tracking realized, versus perceived, importance. This approach has been applied to subsets of the ecological literature, notably a century of titles and abstracts in the journal *Ecology* [@kim2018], automated content analysis of titles and abstracts in top ecology journals based on impact factor [@mccallen2019], and more specific research questions restricted to certain regions or taxa [e.g., @beale2018]. -->
 
-Here, we build on previous analyses [e.g., @carmel2013; @reiners2017; @kim2018; @mccallen2019] with the first full-text analysis of ecology journals over eight decades encompassing `r n_journals` journals, 131,533 articles, and over half a billion words.
+Here, we build on previous analyses [e.g., @carmel2013; @reiners2017; @courchamp2018; @kim2018; @mccallen2019] with the first full-text analysis of ecology journals over eight decades encompassing `r n_journals` journals, 131,533 articles, and over half a billion words.
 We analyze the JSTOR full-text corpus from 1930 to 2010---the period of time with the most robust journal coverage in the JSTOR database---for all journals that regularly publish ecological or conservation papers and are not regionally or taxonomically exclusive.
 We search the corpus for specific "n-grams," which are sequences of terms separated by a space.
 For example, "biogeography" is a 1-gram and "body size" is a 2-gram (we herein denote n-gram terms in italics).
