@@ -235,14 +235,15 @@ Many of the key forms of geographic protection, including *parks*, *reserves*, *
 
 From the onset, ecologists and conservation biologists studied organisms at the species-level, reflected by the frequent mentions and sustained growth of *species* in the corpus over time (Fig. \@ref(fig:ecology)a, Fig. \@ref(fig:community-all)).
 Though references to the *cell*ular level were initially the next most common, interest within the field of ecology then transitioned to *populations*, followed by *communities* and *ecosystems* (Fig. \@ref(fig:ecology)b).
-It is perhaps unsurprising that *ecosystems* was the least common given that it is also the youngest scale: while the term *ecosystem* was first described in 1935 by Tansley [@tansley1935], ecosystem ecology was not formalized until 1953 by Odum [@odum1953].
+It is perhaps unsurprising that *ecosystem* was the least common term given that it is also the youngest scale: while the term *ecosystem* was first described in 1935 by Tansley [@tansley1935], ecosystem ecology was not formalized until 1953 by Odum [@odum1953].
 Furthermore, as ecosystem ecology extends into biogeochemistry, our corpus likely missed many relevant ecosystem journals.
 
 Population and community ecology are worth further consideration as they represent the next two most common ecological scales following species.
-While *population* was a more common 1-gram than *community*, the terms may be linked considering that many community ecology papers will include the study of *populations*.
+While *population* was a more common 1-gram than *community*, the terms may be linked considering that many community ecology papers include the study of *populations*.
 The way we study populations and communities appears to have changed over time.
-Mathematical Lotka-Volterra models emerged in the 1920s to examine competition and predator-prey dynamics, and *competition* and *predation* were the interactions most commonly included in the corpus (Fig. \@ref(fig:ecology)c) corresponding with calls from ecologists to consider the importance of *facilitation* and *mutualism* in ecological theories [@bruno2003; @brooker2008]. Yet, both interactions experienced steep declines since the 1980s and early 2000s, respectively (Fig.
-\@ref(fig:ecology)c).
+Mathematical Lotka-Volterra models emerged in the 1920s to examine competition and predator-prey dynamics, and *competition* and *predation* were the interactions most commonly included in the corpus (Fig. \@ref(fig:ecology)c) corresponding with calls from ecologists to consider the importance of *facilitation* and *mutualism* in ecological theories [@bruno2003; @brooker2008]. 
+<!-- SA: Not entirely sure about the logic of this previous sentence -->
+Yet, both *competition* and *predation* experienced steep declines since the 1980s and early 2000s, respectively (Fig. \@ref(fig:ecology)c).
 The declines perhaps reflect that Lotka-Volterra models, while overly simple, marked the beginning of mathematical ecology that has now moved beyond one or two species to explain more complex community dynamics, such as food web structure and ecological niche modeling (Fig. \@ref(fig:blanks-supp)).
 
 The most commonly represented theories of community ecology, which were posed to explain community structure and diversity patterns, all appeared to decline from peak levels (Fig. \@ref(fig:ecology)f).
@@ -269,7 +270,7 @@ Such statistical approaches and paradigms have been associated with endless deba
 To that end, use of the phrase *null hypothesis* peaked in the 1980s and the phrase *significant difference* peaked around 1990 and declined thereafter (Fig. \@ref(fig:methods)c).
 The associated terms *p-value* and *confidence interval* appeared in approximately equal frequency as of 2010 (Fig. \@ref(fig:methods)c), although both are often referred to by abbreviations missed in our corpus (e.g. "p =" or "CI").
 *Power analysis* remained a rarely used term as of 2010 despite numerous calls for its increased use [@nakagawa2007; @smith2011d].
-The increased frequency of so many data- and model-centric terms, along with the advent of online publishing, coincided with the meteoric rise of *supplementary material* n-grams since around 2000---the 2-gram itself had the second most rapid increase across all 2-grams from 2000--2010 (Fig. \@ref(fig:decades)f)---and a concomitant decline in *unpublished data* [@federer2018] (Fig. \@ref(fig:methods)d, Fig. \@ref(fig:methods-all)).
+The increased frequency of so many data- and model-centric terms, along with the advent of online publishing, coincided with the meteoric rise of *supplementary material* n-grams since around 2000---the 2-gram itself had the second most rapid increase across all 2-grams from 2000--2010 (Fig. \@ref(fig:decades)f)---and a concomitant decline in *unpublished data* and *personal communication* [@federer2018] (Fig. \@ref(fig:methods)d, Fig. \@ref(fig:methods-all)).
 
 ## Genetics
 
@@ -285,18 +286,18 @@ Since 2010, there has likely been a continued increase in references to *next-ge
 
 Over the last few decades, ecologists paid increasing attention to the human dimensions of ecology and biodiversity conservation [@bennett2017] (Fig.
 \@ref(fig:social), Fig. \@ref(fig:social-all)).
-Since the 1990s, references to market or *community-based management* interventions gained traction (Fig. \@ref(fig:social)a)---particularly environmental certification programs and payment for ecosystem services schemes such as the Reducing Emissions from Deforestation and Forest Degradation (*REDD*) program.
+Since the 1990s, references to market or *community-based management* interventions gained traction---particularly environmental certification programs and payment for ecosystem services schemes such as the Reducing Emissions from Deforestation and Forest Degradation (*REDD*) program (Fig. \@ref(fig:social)a).
 We also observed an increased focus on *human well-being* (Fig. \@ref(fig:social)b), with a spike of references to *human health* in the 1970s and, more recently, an overall growth in references to *poverty*, *food security*, and overall *human well-being* since the 1990s.
 This trend is parallelled by the rise in frequency of the terms *ecosystem service* and *ecosystem function* (Fig. \@ref(fig:blanks)j), which are two terms that explicitly focus on ecological processes in terms of their benefits to humans.
 Given the increased focus on the human dimensions of biodiversity conservation over the last decades [@bennett2017], it makes sense that social science methods such as *interviews* and *questionnaires* would become more widely noted in the literature (Fig. \@ref(fig:social)c).
-Ecology is just starting to acknowledge different ways of knowing, however qualitative methods such as *focus groups*, *ethnography*, or *participant observation* remained scarcely referenced, which supports the assertion that ecology and conservation continued to rely mostly on quantitative approaches [@moon2016].
+Ecology is just starting to acknowledge different ways of knowing; however, qualitative methods such as *focus groups*, *ethnography*, or *participant observation* remained scarcely referenced, which supports the assertion that ecology and conservation continued to rely mostly on quantitative approaches [@moon2016] (Fig. \@ref(fig:social)c).
 Parallel to the increased focus on human well-being since the 1970s, we observed an increased frequency of n-grams related to *stakeholders*, *local communities*, and *indigenous people* (Fig. \@ref(fig:social)d).
 Yet, it is clear that key stakeholder groups such as indigenous people are still underrepresented if we take into account how much land is under indigenous management [@garnett2018].
 
 # Discussion
 
 The ecological lexicon has expanded and evolved over the last 80 years.
-The most frequently used terms in the 1930s derived from the breadth of disciplines that inspired early ecologists [@simberloff1980; @egerton1983; @kingsland2005; @ayres2012; @huston2016] and by the 2000s many were replaced by terms that reflected the emergence of a data-driven scientific field largely focused on applied environmental problems.
+The most frequently used terms in the 1930s were derived from the breadth of disciplines that inspired early ecologists [@simberloff1980; @egerton1983; @kingsland2005; @ayres2012; @huston2016], and by the 2000s, many were replaced by terms that reflected the emergence of a data-driven scientific field largely focused on applied environmental problems.
 The turnover in ecological terminology demonstrates how ecologists have embraced many newly coined terms such as *biodiversity*, *climate change*, and *meta analysis* that did not exist in the early-decades of the field, and signifies the evolution of ecology into a fully independent field of study.
 Our results, based on the first-ever full-text analysis of multiple ecology and conservation journals, reinforce the notion of both previous quantitative- [@kim2018; @mccallen2019] and expert-opinion-based studies [@reiners2017] that ecologists are working on increasingly complex and specialized topics, at broader spatial scales [@estes2018], and at higher levels of taxonomic and hierarchical organization [@kim2018].
 
@@ -327,20 +328,23 @@ Our corpus does not include some prominent journals that publish ecological rese
 Despite these unavoidable caveats, we see considerable merit in our full-text analysis of multiple ecological journals in terms of accomplishing a broad overview of the field and contributing to a growing body of knowledge through multiple lines of inference.
 
 Our analyses allow ecologists to reflect on the past, present, and future of their field.
-Within eight decades, the field evolved from focusing on natural history and observational field studies to a multidisciplinary field that is more applied and quantitative in scope.
+Within eight decades, the field has evolved from focusing on natural history and observational field studies to a multidisciplinary field that is more applied and quantitative in scope.
+ <!-- and that supports a much wider diversity of practitioners -->
 Undoubtedly, the fields of ecology and conservation have and will continue to adopt approaches developed elsewhere, such as analyses of increasingly large datasets and the use of deep learning [@christin2018], which will empower ecologists to answer questions that were previously unanswerable.
-Yet, while quantitative and meta-analysis-style research---this paper included---can undoubtedly be valuable, if ecology wishes to maintain its natural-history and fundamental-science roots, the field needs to prioritize such a focus through research funding bodies and educational curricula for the production of works from which we can scale-up findings [@osenberg1999].
-In addition, interdisciplinary work with social science is necessary to incorporate the human dimension into ecological research and develop conservation solutions.
+Yet, while quantitative and meta-analysis-style research---this paper included---are valuable [@osenberg1999], if ecology wishes to maintain its natural-history and fundamental-science roots, the field needs to prioritize such a focus through research funding bodies and educational curricula.
+<!-- In addition, interdisciplinary work with social science is necessary to incorporate the human dimension into ecological research and develop conservation solutions. -->
 As we see it, elements of ecology today are almost unrecognizable from the field 90 years ago; only time will tell if this rate of evolution will continue, leaving ecologists in 2100 with a similar sentiment.
+<!-- TODO: Space for a wider diversity of ecologists now -->
+<!-- Ecology today encompasses a much wider diversity of ecologists than in 1930.-->
 
 <!-- TODO: make sure we include some more citations from nat ecol evol -->
 
 # Acknowledgements
 
-JSTOR, Smith,  Smith Fellows, M.P. Dombeck, S.G. Foster, anyone who helped and declines to be an
-author...
-
-The full-text corpus is available through consultation with the JSTOR data team (<https://jstor.org)>. All code to conduct our analysis is available at <https://github.com/seananderson/ecology-trends> and *insert Zenodo DOI here on publication*.
+We thank the JSTOR Data Team for their work maintaining the JSTOR n-gram database and their help with data extraction.
+We thank the David H. Smith Conservation Research Fellowship, which supported all of the authors at some point while completing this project. 
+We thank numerous people involved with the David H. Smith Conservation Research Fellowship for their support and helpful discussions and contributions to this project including M.P. Dombeck, S.G. Foster, *TODO anyone who helped and declines to be an author*. 
+The full-text corpus is available through consultation with the JSTOR Data Team (<https://jstor.org)>. All code to conduct our analysis is available at <https://github.com/seananderson/ecology-trends> and *insert Zenodo DOI here on publication*.
 
 # Methods
 
@@ -354,7 +358,7 @@ This step reduced the corpus from approximately one billion words to just over 0
 <!-- n = 18 -->
 We removed all journals that were not focussed on ecology or conservation (e.g., we removed journals that were purely biology focused).
 <!-- n = 98 -->
-(3) We removed journals that appeared in the JSTOR database for less than TODO years unless they were still in the database as of 2010 or continued under a different name. This was meant to focus on long-standing journals and reduce the influence of journals appearing and disappearing from the corpus and thereby influencing trends. (4) We removed journals that were region specific.
+(3) We removed journals that appeared in the JSTOR database for less than 10 years unless they were still in the database as of 2010 or continued under a different name. This was meant to focus on long-standing journals and reduce the influence of journals appearing and disappearing from the corpus and thereby influencing trends. (4) We removed journals that were region specific.
 <!-- n = 24 -->
 Specifically, we removed journals that were specific with respect to longitude but retained journals that were latitude specific (e.g., we retained "Arctic and Alpine Research" but not "Great Basin Naturalist Memoirs"). In total, our corpus included `r n_journals` journals or continuations of the same journal under different names (Table \@ref(tab:included-journals), Fig. \@ref(fig:totals-by-journal)). We focused on 1-, 2-, and 3-grams since most common terms we were interested in were three words or less and the computational burden increased substantially with longer n-grams.
 

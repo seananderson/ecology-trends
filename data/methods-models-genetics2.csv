@@ -18,7 +18,7 @@ order,panel,gram,gram_canonical
  ,Statistical paradigms,bayesian,Bayesian
  ,Statistical paradigms,bayes,Bayesian
  ,Statistical paradigms,aic,AIC
- ,Statistical paradigms,aic,AICc
+ ,Statistical paradigms,aicc,AIC
 3,Hypothesis testing,confidence interval,confidence interval
  ,Hypothesis testing,confidence intervals,confidence interval
  ,Hypothesis testing,null hypothesis,null hypothesis
