@@ -258,7 +258,7 @@ Population and community ecologists may now favour asking what drives biodiversi
 
 <!-- TODO: From SK - I looked through the new "Decadal giant" 1 grams and "niche" never came up as a top -->
 
-## Statistics and data analysis
+## Statistics, data analysis, and genetics
 
 Ecology increasingly became a data- and model-centric discipline (Fig. \@ref(fig:decades), Fig. \@ref(fig:methods), Fig. \@ref(fig:methods-all)) over the eight-decade time period. *Regression*, an overarching term encompassing many statistical approaches, saw continued and rapid growth in use since the 1950s, approaching *correlation* by 2005 (Fig. \@ref(fig:methods)a).
 References to *ANOVA* and *t-tests* both peaked around 2000, while mentions of generalized linear models (*GLMs*) steadily increased in frequency, surpassing *t-tests* in `r glm_surpasses_ttest` (Fig. \@ref(fig:methods)a).
@@ -271,8 +271,6 @@ To that end, use of the phrase *null hypothesis* peaked in the 1980s and the phr
 The associated terms *p-value* and *confidence interval* appeared in approximately equal frequency as of 2010 (Fig. \@ref(fig:methods)c), although both are often referred to by abbreviations missed in our corpus (e.g. "p =" or "CI").
 *Power analysis* remained a rarely used term as of 2010 despite numerous calls for its increased use [@nakagawa2007; @smith2011d].
 The increased frequency of so many data- and model-centric terms, along with the advent of online publishing, coincided with the meteoric rise of *supplementary material* n-grams since around 2000---the 2-gram itself had the second most rapid increase across all 2-grams from 2000--2010 (Fig. \@ref(fig:decades)f)---and a concomitant decline in *unpublished data* and *personal communication* [@federer2018] (Fig. \@ref(fig:methods)d, Fig. \@ref(fig:methods-all)).
-
-## Genetics
 
 The focus on genetics in ecology and conversation-related research increased markedly in the last several decades (*genetic diversity* in Fig. \@ref(fig:blanks)f, Fig. \@ref(fig:methods)e,f, Fig. \@ref(fig:methods-all)).
 *Phylogenetics* remained the most commonly referenced genetic term from 1930 to 2010, and increased in use rapidly after the later 1980s (Fig. \@ref(fig:methods)e).
@@ -304,27 +302,25 @@ Our results, based on the first-ever full-text analysis of multiple ecology and 
 There has been a notable shift in ecologists' descriptions of analytical techniques, demonstrating the evolution of ecological research into a more quantitative and data-driven field of study (Fig. \@ref(fig:decades), Fig. \@ref(fig:methods)).
 In particular, ecologists have adopted many statistical paradigms (e.g., *Bayesian*, *AIC*, and *MCMC*) and genetic analytical techniques (e.g., *phylogenetics*, *Omics*, and *next generation sequencing*) over the past three decades, drawing from other disciplines such as computer science, engineering, and molecular biology.
 The increased use of these terms highlights the importance of advanced training in statistics, genetic techniques, and computer programming.
-In contrast, *natural history* has remained steadily in the lexicon for eight decades (TODO:figure), while the loss of natural history from ecological curricula is mourned and debated [@able2016; @barrows2016; @tewksbury2014].
+In contrast, *natural history* has remained steadily in the lexicon for eight decades  (Fig. \@ref(fig:cons)a), while the loss of natural history from ecological curricula is mourned and debated [@tewksbury2014; @able2016; @barrows2016].
 From the perspective of preparing students to publish in the field, our results reinforce the call to refocus ecological statistical education from declining recipe-based approaches (e.g., *ANOVA*s) to probability theory, programming, and simulation-based approaches [@mcelreath2015].
 
-
-<!-- TODO: make this topic sentence and the  more general with these as examples. -->
-The term *conservation* was one of the fastest growing terms in the corpus (Fig. \@ref(fig:cons)a), which contrasts with an earlier culturomic analysis [@mccallen2019].
-<!-- SA: make this topic sentence more general since the  also gets into 'competition' -->
-<!-- Our approach greatly expanded upon prior culturonomic studies that focused on shorter periods of time and smaller bodies of text [@kim2018; @mccallen2019].  -->
-McCallen et al. [@mccallen2019] found a slight decrease in the use of *conservation* in their analysis, while our full-text analysis revealed that *conservation* was one of the fastest growing terms in our corpus (Fig. \@ref(fig:cons)a).
-This may be due to higher frequency of use of the term in the introduction or discussion sections of a manuscript, which appear in much-abbreviated forms in abstracts, yet we cannot test this directly with our approach.
+Our approach expands upon prior culturonomic studies that focused on shorter periods of time [@mccallen2019] or smaller bodies of text [@kim2018; @mccallen2019] allowing us to put our results in a broader context. 
+<!-- Our expanded corpus working with the full-text content of journals and using both algorithmic and hand-curated analyses of trends can put shorterm trends into a broader context. -->
+For example, the term *conservation* was one of the fastest growing terms in the corpus (Fig. \@ref(fig:cons)a), which contrasts with an earlier culturomic analysis [@mccallen2019].
+McCallen et al. [@mccallen2019] found a slight decrease in the relative use of *conservation* in their analysis, while our full-text analysis revealed that *conservation* was one of the fastest growing terms in our corpus (Fig. \@ref(fig:decades)e, Fig. \@ref(fig:cons)a).
+This may be due to higher frequency of use of the term in the introduction or discussion sections of a manuscript, which appear in much-abbreviated forms in abstracts.
 Similarly, McCallen et al. [@mccallen2019] found a significant decline in the use of *competition* over the past four decades.
 Indeed, between 1970--2010, the frequency of *competition* mainly declined in our analysis, yet when analyzed over eight decades, we found that the underlying trend is multi-peaked with an overall positive slope (Fig. \@ref(fig:ecology)c).
-Our corpus demonstrates that trends can be sensitive to the temporal scale considered.
+<!-- Our corpus demonstrates that trends can be sensitive to the temporal scale considered. -->
 
 There are a number of important caveats to keep in mind when interpreting our results.
 First, our analysis tracks frequency of term use in the ecological literature but such frequency does not necessarily correspond to the importance of related concepts to the field.
 For example, some terms may be frequently mentioned in paper introductions but appear less often as the core topic of research.
 Other terms, such as *conservation*, are linked to journal titles such as "Conservation Biology" and appear in the bibliography section of some papers.
-Second, the quality of the corpus improves through time---the data from the earlier years in our analysis are based on much smaller sample sizes than the more recent data (Fig. \@ref(fig:totals-by-journal), \@ref(fig:total-by-year)) and the data from the earlier years is mostly based on Optical Character Recognition (OCR), which is used to turn scanned PDFs into text with some inevitable errors.
-Third, the journals included in the corpus are not a random sample across the field of ecology.
+Second, the journals included in the corpus are not a random sample across the field of ecology.
 Our corpus does not include some prominent journals that publish ecological research (e.g., "Science" and "Nature"), nor does it include taxonomic-specific journals such as the "American Journal of Botany" or "The Journal of Wildlife Management", which we intentionally excluded to reduce taxonomic bias (see Methods).
+Third, the quality of the corpus improves through time---the data from the earlier years in our analysis are based on much smaller sample sizes than the more recent data (Fig. \@ref(fig:totals-by-journal), \@ref(fig:total-by-year)) and the data from the earlier years is mostly based on Optical Character Recognition (OCR), which is used to turn scanned PDFs into text with some inevitable errors.
 Despite these unavoidable caveats, we see considerable merit in our full-text analysis of multiple ecological journals in terms of accomplishing a broad overview of the field and contributing to a growing body of knowledge through multiple lines of inference.
 
 Our analyses allow ecologists to reflect on the past, present, and future of their field.
@@ -627,6 +623,7 @@ ggplot(aes(year, total_words / 1e6)) +
 
 ```{r included-journals, message=FALSE, results="asis", eval=TRUE}
 journals %>%
+  filter(Journal != "Science") %>% # removed; no longer part of JSTOR
   arrange(`JSTOR Slug`, Journal) %>%
   knitr::kable(booktabs = TRUE, linesep = "", longtable = TRUE,
     label = "included-journals",
