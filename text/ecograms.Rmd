@@ -123,19 +123,19 @@ The field of ecology has experienced rapid growth since the discipline-specific 
 -->
 
 The field of ecology has experienced rapid growth since the discipline-specific journal, *Ecology*, was first published over a century ago [@reiners2017; @kim2018]. 
-The field as a whole arose in the late 19th or early 20th century drawing from a broad set of disciplines including geography, geology, evolutionary biology, systematics, physiology, natural history, and natural resource management [@simberloff1980; @egerton1983; @kingsland2005; @ayres2012; @huston2016].
-Today, there are hundreds of ecology journals representing subdisciplines spanning in scope from theoretical to applied and in scale from genomes to ecosystems.
+<!-- The field as a whole arose in the late 19th or early 20th century drawing from a broad set of disciplines including geography, geology, evolutionary biology, systematics, physiology, natural history, and natural resource management [@simberloff1980; @egerton1983; @kingsland2005; @ayres2012; @huston2016]. -->
+Today, hundreds of ecology journals represent subdisciplines spanning in scope from theoretical to applied and in scale from genomes to ecosystems.
+In light of such rapid growth and diversification, synthesizing larger trends in a field can be challenging, yet broad overviews are critical for bridging subdisciplines [@staples2019; @margles2010], guiding new research, and informing funding directions and educational frameworks [@mccallen2019].
+<!-- become "siloed" in their own subdisciplines, thereby forming their own jargon and missing conceptual bridges or opportunities for interdisciplinary collaboration [@staples2019; @margles2010] -->
+<!-- Reviewing the evolution of a field's lexicon can faciliate discussions about deconstructing  colonial language and implicit biases, allowing space for growth into a more equitable and inclusive discipline.  https://www.sciencemag.org/news/2019/04/historians-expose-early-scientists-debt-slave-trade https://github.com/seananderson/ecology-trends/issues/32-->
+Ecology does not lack reflections on the state of the field [REFs]; 
+<!-- reviews opine on the field's reading lists, methodologies, coursework, and exclusivity [REFs]. -->
+however, much of this work is built on personal observations, subject to the biases of individuals, and may not accurately reflect the progression of the field.
 
-In any rapidly growing field of study, a potential danger is that researchers can become "siloed" in their own subdisciplines, thereby forming their own jargon and missing conceptual bridges or opportunities for interdisciplinary collaboration [@staples2019; @margles2010]. 
-For example, some of the fastest growing subdisciplines in ecology fall under the umbrella of "applied ecology" with a focus on the conservation, protection, and management of natural resources, ecosystems, and plant and animal populations [@staples2019; @li2011; @lockwood2013; @griffiths2012].
-The proliferation of publication is likely owing to the mounting evidence of the scale and magnitude of the impact of human populations on global biogeochemical cycles, species extinction rates, and habitat conversion [@young2005; @li2011; @simberloff2010; @griffiths2012; @staples2019].
-This path is especially worrisome for applied ecological research because of the urgency for scientifically sound data to inform conservation and management decisions [@ipcc2014; @ipbes2019].
-
-In light of such rapid growth and diversification, synthesizing larger trends in a field can be challenging, yet broad overviews are critical for bridging subdisciplines.
-<!-- TODO: Reviewing the evolution of a field's lexicon can faciliate discussions about deconstructing  colonial language and implicit biases, allowing space for growth into a more equitable and inclusive discipline.  https://www.sciencemag.org/news/2019/04/historians-expose-early-scientists-debt-slave-trade https://github.com/seananderson/ecology-trends/issues/32-->
-Additionally, syntheses can guide new research, inform funding directions, and structure educational frameworks [@mccallen2019].
-Ecology does not lack reflections on the state of the field; reviews opine on the field's reading lists, methodologies, coursework, and exclusivity [REFs].
-However, much of this work is built on personal observations, subject to the biases of individuals, and may not accurately reflect the progression of the field.
+<!-- In any rapidly growing field of study, a potential danger is that researchers can become "siloed" in their own subdisciplines, thereby forming their own jargon and missing conceptual bridges or opportunities for interdisciplinary collaboration [@staples2019; @margles2010].  -->
+<!-- For example, some of the fastest growing subdisciplines in ecology fall under the umbrella of "applied ecology" with a focus on the conservation, protection, and management of natural resources, ecosystems, and plant and animal populations [@staples2019; @li2011; @lockwood2013; @griffiths2012]. -->
+<!-- The proliferation of publication is likely owing to the mounting evidence of the scale and magnitude of the impact of human populations on global biogeochemical cycles, species extinction rates, and habitat conversion [@young2005; @li2011; @simberloff2010; @griffiths2012; @staples2019]. -->
+<!-- This path is especially worrisome for applied ecological research because of the urgency for scientifically sound data to inform conservation and management decisions [@ipcc2014; @ipbes2019]. -->
 
 The discipline of culturomics---the quantitative analysis of large bodies of text---offers a rich framework with which to track the evolution of a field through time [@michel2011; @ladle2016] and highlight areas of convergence across subdisciplines.
 Specifically, word use in the published literature can serve as a proxy for tracking realized versus perceived importance of fundamental concepts and terms.
@@ -143,12 +143,12 @@ This approach has been successfully applied to smaller subsets of the ecological
 
 <!-- The discipline of culturomics---the quantitative analysis of large bodies of text---offers a rich framework with which to track the evolution of a field through time [@michel2011; @ladle2016]. Specifically, word use in the published literature can serve as a proxy for tracking realized, versus perceived, importance. This approach has been applied to subsets of the ecological literature, notably a century of titles and abstracts in the journal *Ecology* [@kim2018], automated content analysis of titles and abstracts in top ecology journals based on impact factor [@mccallen2019], and more specific research questions restricted to certain regions or taxa [e.g., @beale2018]. -->
 
-Here, we build on previous analyses [e.g., @carmel2013; @reiners2017; @kim2018; @mccallen2019] by providing the first full-text analysis of ecology journals over eight decades encompassing `r n_journals` journals, 131,533 articles, and over half a billion words.
-We analyze the JSTOR full-text corpus from 1930 to 2010---the period of time with the most robust journal coverage in the JSTOR database---for all journals that regularly publish ecological or conservation papers and are not regionally or taxonomically exclusive (see Methods).
+Here, we build on previous analyses [e.g., @carmel2013; @reiners2017; @kim2018; @mccallen2019] with the first full-text analysis of ecology journals over eight decades encompassing `r n_journals` journals, 131,533 articles, and over half a billion words.
+We analyze the JSTOR full-text corpus from 1930 to 2010---the period of time with the most robust journal coverage in the JSTOR database---for all journals that regularly publish ecological or conservation papers and are not regionally or taxonomically exclusive.
 We search the corpus for specific "n-grams," which are sequences of terms separated by a space.
 For example, "biogeography" is a 1-gram and "body size" is a 2-gram (we herein denote n-gram terms in italics).
 We standardize n-gram frequency by total words per year published across all included journals and analyze trends over time for a selection of n-grams.
-We derive our n-gram selection through both algorithmic and hand-curated approaches: (1) drawing on the most frequent and rapidly growing/declining n-grams in various decades and (2) developing logical groupings of terms that fall under key ecology and conservation themes (see Methods).
+We derive our n-gram selection through both algorithmic and hand-curated approaches: (1) drawing on the most frequent and rapidly growing/declining n-grams in various decades and (2) developing logical groupings of terms that fall under key ecology and conservation themes.
 
 <!-- Our approach therefore enables data-derived comparisons of trends in ecology and conservation to yield insights into the evolution of key concepts, analytical techniques, and entire subdisciplines in these fields. -->
 
