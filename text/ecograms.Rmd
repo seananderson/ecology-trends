@@ -278,11 +278,11 @@ The increased frequency of so many data- and model-centric terms, along with the
 
 ## Genetics
 
-The focus on genetics in ecology and conversation-related research increased markedly in the last several decades (*genetic diversity* in Fig.\ \@ref(fig:blanks)f, Fig.\ \@ref(fig:methods)e,f, Fig.\ \@ref(fig:methods-all)). *Phylogenetics* remained the most commonly referenced genetic term from 1930 to 2010, and increased in use rapidly after the later 1980s (Fig. \@ref(fig:methods)e).
-In fact, by 2010, "phylogenetic analysis" was the fourth most commonly used "____ analysis" 2-gram (Fig. \@ref(fig:blanks)l) and "phylogenetic hypothesis" was the third highest "____ hypothesis" 2-gram (Fig. \@ref(fig:ecology)e).
-The 1980s was when we really began to see a strong interest in genetic variation and diversity in the ecological literature, with the terms *genetic variation*, *gene flow*, and *evolutionary biology* all appearing in the top 144 2-grams for the years 1980--1999 (Fig. \@ref(fig:giant-2-1980)) and  *genetic diversity* showing up in the 2000--2010 range (Fig. \@ref(fig:giant-2-2000)).
-In terms of genetic tools, *microsatellites* and *mtDNA* were the most commonly referenced terms as of 2010, but *next-generation sequencing* nearly overtook *microsatellites* and may have done so by now.
-With the development of *next-generation sequencing* [@sanger1977], we also saw an increase in sequencing-based approaches to studying genetic diversity, particularly the rise in references to single nucleotide polymorphisms (Fig. \@ref(fig:methods)f).
+The focus on genetics in ecology and conversation-related research increased markedly in the last several decades (*genetic diversity* in Fig.\ \@ref(fig:blanks)f, Fig.\ \@ref(fig:methods)e,f, Fig.\ \@ref(fig:methods-all)). *Phylogenetics* remained the most commonly referenced genetics term from 1930 to 2010, and increased in use rapidly after the late 1980s (Fig. \@ref(fig:methods)e).
+By 2010, *phylogenetic analysis* was the fourth most commonly used *____ analysis* 2-gram (Fig. \@ref(fig:blanks)l) and *phylogenetic hypothesis* was the third highest *____ hypothesis* 2-gram (Fig. \@ref(fig:ecology)e).
+The 1980s was when we began to see a strong interest in genetic variation and diversity in the ecological literature, with the terms *genetic variation*, *gene flow*, and *evolutionary biology* all appearing in the top 144 2-grams for the years 1980--1999 (Fig. \@ref(fig:giant-2-1980)) and  *genetic diversity* showing up in the 2000--2010 range (Fig. \@ref(fig:giant-2-2000)).
+In terms of genetics tools, *microsatellites* and *mtDNA* were the most commonly referenced terms as of 2010, but *next-generation sequencing* nearly overtook *microsatellites* and may have done so by now.
+With the development of *next-generation sequencing* [@sanger1977], we also saw an increase in sequencing-based approaches to studying genetic diversity, particularly the rise in references to *single nucleotide polymorphisms* (Fig. \@ref(fig:methods)f).
 Since 2010, there has likely been a continued increase in references to *next-generation sequencing* given that it is now widely adopted in ecological research of many species---not just model species [@andrews2016].
 
 ## Social sciences
@@ -663,12 +663,13 @@ exclude_df %>%
 ```{r exclusion-n-grams-giants}
 exclude <- readRDS(here::here("data/generated/excludes_giants.rds"))
 exclude <- tolower(sort(exclude))
-row_length <- ceiling(length(exclude)/3)
+row_length <- ceiling(length(exclude) / 3)
+blank_spaces <- abs(length(exclude) - row_length * 3)
 
 exclude_df <- tibble::tibble(
   `Excluded terms` = exclude[1:row_length],
   `Excluded terms continued` = exclude[(row_length + 1):(row_length*2)],
-  `Excluded terms continued ` = c(exclude[(row_length*2 + 1):length(exclude)]))
+  `Excluded terms continued ` = c(exclude[(row_length*2 + 1):length(exclude)], rep("", blank_spaces)))
 
 exclude_df %>%
   knitr::kable(booktabs = TRUE, linesep = "", longtable = TRUE,
