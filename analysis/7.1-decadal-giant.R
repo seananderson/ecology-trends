@@ -151,7 +151,8 @@ exclude3 <- c("animal ecology", "approxi mately", "biol chem", "biological conse
   "other animal", "right angle", "more rapid", "more likely", "small amount",
   "other factor", "puerto rico", "high level", "more important",
   "north american", "forest service", "british columbia",
-  "previous study", "total number", "other species")
+  "previous study", "total number", "other species", "national science",
+  "distri bution", "north america", "coastal rica")
 
 excludes_giants <- sort(unique(c(excludes, exclude, exclude2, exclude3)))
 excludes_giants <- sort(excludes_giants[!excludes_giants %in% bad_latex$gram])
