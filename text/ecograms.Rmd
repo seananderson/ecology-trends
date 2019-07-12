@@ -128,15 +128,15 @@ Today, hundreds of ecology journals represent subdisciplines spanning in scope f
 In light of such rapid growth and diversification, synthesizing larger trends in a field can be challenging, yet broad overviews are critical for bridging subdisciplines [@staples2019; @margles2010], guiding new research, and informing funding directions and educational frameworks [@mccallen2019].
 <!-- become "siloed" in their own subdisciplines, thereby forming their own jargon and missing conceptual bridges or opportunities for interdisciplinary collaboration [@staples2019; @margles2010] -->
 <!-- Reviewing the evolution of a field's lexicon can faciliate discussions about deconstructing  colonial language and implicit biases, allowing space for growth into a more equitable and inclusive discipline.  https://www.sciencemag.org/news/2019/04/historians-expose-early-scientists-debt-slave-trade https://github.com/seananderson/ecology-trends/issues/32-->
-<!-- Ecology does not lack reflections on the state of the field [e.g.,  -->
-<!-- @barrows2016;  -->
-<!-- @reiners2017;  -->
-<!-- @estes2018;  -->
-<!-- @courchamp2018;  -->
-<!-- @kim2018;  -->
-<!-- @mccallen2019;  -->
-<!-- @staples2019]; -->
-<!-- reviews opine on the field's reading lists, methodologies, coursework, and exclusivity [REFs]. -->
+<!-- Ecology does not lack reflections on the state of the field [e.g., -->
+<!-- <!-- @barrows2016;  --> -->
+<!-- <!-- @reiners2017;  --> -->
+<!-- <!-- @estes2018;  --> -->
+<!-- <!-- @courchamp2018;  --> -->
+<!-- <!-- @kim2018;  --> -->
+<!-- <!-- @mccallen2019;  --> -->
+<!-- <!-- @staples2019]; --> -->
+<!-- <!-- reviews opine on the field's reading lists, methodologies, coursework, and exclusivity [REFs]. --> -->
 <!-- however, much of this work is built on personal observations, subject to the biases of individuals, and may not accurately reflect the progression of the field. -->
 
 <!-- In any rapidly growing field of study, a potential danger is that researchers can become "siloed" in their own subdisciplines, thereby forming their own jargon and missing conceptual bridges or opportunities for interdisciplinary collaboration [@staples2019; @margles2010].  -->
@@ -152,7 +152,7 @@ This approach has been successfully applied to smaller subsets of the ecological
 
 Here, we build on previous analyses [e.g., @carmel2013; @reiners2017; @courchamp2018; @kim2018; @mccallen2019] with the first full-text analysis of ecology journals over eight decades encompassing `r n_journals` journals, 131,533 articles, and over half a billion words.
 We analyze the JSTOR full-text corpus from 1930 to 2010---the period of time with the most robust journal coverage in the JSTOR database---for all journals that regularly publish ecological or conservation papers and are not regionally or taxonomically exclusive.
-We search the corpus for specific "n-grams," which are sequences of terms separated by a space.
+We search the corpus for specific "n-grams", which are sequences of terms separated by a space.
 For example, "biogeography" is a 1-gram and "body size" is a 2-gram (we herein denote n-gram terms in italics).
 We standardize n-gram frequency by total words per year published across all included journals and analyze trends over time for a selection of n-grams.
 We derive our n-gram selection through both algorithmic and hand-curated approaches: (1) drawing on the most frequent and rapidly growing/declining n-grams in various decades and (2) developing logical groupings of terms that fall under key ecology and conservation themes.
@@ -174,7 +174,7 @@ Changes in popular terms between the 1940s and 2000s reflected both shifts in sc
 In the 1940s, popular terms such as *time*, *number*, and *day* (Fig. \@ref(fig:decades)a) referenced descriptive data.
 Popular terms in the modern era representing related concepts included *data*, *effect*, and *model* (Fig. \@ref(fig:decades)c).
 This shift likely represented both a replacement of terminology and a transition from a largely descriptive discipline to a more quantitative one [@rios-saldana2018].
-Popular terms in the 1940s included *blue grama* (*Bouteloua gracilis*) and *wheat grass* (Fig. \@ref(fig:decades)b), which likely had greater significance during and after the Dust Browl drought of North American prairies in the 1930s [@mueller1942; @worster2004]. 
+Popular terms in the 1940s included *blue grama* (*Bouteloua gracilis*) and *wheat grass* (Fig. \@ref(fig:decades)b), which likely had greater significance during and after the Dust Browl drought experienced in the North American prairies in the 1930s [@mueller1942; @worster2004]. 
 This focus on agricultural research---in an era that culminated in the formation of the Food and Agriculture Organization of the United Nations [@yates1946]---was supported by other 2-grams from the 1940s, such as *organic matter*, *soil moisture*, and *fresh water* (Fig. \@ref(fig:decades)b).
 The decline in these historically popular terms may reflect trends in agricultural and soil scientists increasingly publishing in discipline-specific journals outside our corpus.
 
@@ -312,7 +312,7 @@ The increased use of these terms highlights the importance of advanced training 
 In contrast, *natural history* has remained steadily in the lexicon for eight decades  (Fig. \@ref(fig:cons)a), while the loss of natural history from ecological curricula is mourned and debated [@tewksbury2014; @able2016; @barrows2016].
 From the perspective of preparing students to publish in the field, our results reinforce the call to refocus ecological statistical education from declining recipe-based approaches (e.g., *ANOVA*s) to probability theory, programming, and simulation-based approaches [@mcelreath2015].
 
-Our approach expands upon prior culturonomic studies that focused on shorter periods of time [@mccallen2019] or smaller bodies of text [@kim2018; @mccallen2019] allowing us to put our results in a broader context. 
+Our approach expands upon prior culturomic studies that focused on shorter periods of time [@mccallen2019] or smaller bodies of text [@kim2018; @mccallen2019] allowing us to put our results in a broader context. 
 <!-- Our expanded corpus working with the full-text content of journals and using both algorithmic and hand-curated analyses of trends can put shorterm trends into a broader context. -->
 For example, the term *conservation* was one of the fastest growing terms in the corpus (Fig. \@ref(fig:cons)a), which contrasts with an earlier culturomic analysis [@mccallen2019].
 McCallen et al. [@mccallen2019] found a slight decrease in the relative use of *conservation* in their analysis, while our full-text analysis revealed that *conservation* was one of the fastest growing terms in our corpus (Fig. \@ref(fig:decades)e, Fig. \@ref(fig:cons)a).
@@ -346,7 +346,7 @@ As we see it, elements of ecology today are almost unrecognizable from the field
 
 We thank the JSTOR Data Team for their work maintaining the JSTOR n-gram database and their help with data extraction.
 We thank the David H. Smith Conservation Research Fellowship, which supported all of the authors at some point while completing this project. 
-We thank numerous people involved with the David H. Smith Conservation Research Fellowship for their support and helpful discussions and contributions to this project including M.P. Dombeck, S.G. Foster, *TODO anyone who helped and declines to be an author*. 
+We thank M.P. Dombeck, S.G. Foster, *TODO anyone who helped and declines to be an author* for their support and helpful discussions and contributions to this project.
 The full-text corpus is available through consultation with the JSTOR Data Team (<https://jstor.org)>. All code to conduct our analysis is available at <https://github.com/seananderson/ecology-trends> and *insert Zenodo DOI here on publication*.
 
 # Methods
