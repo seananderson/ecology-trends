@@ -93,13 +93,3 @@ g <- make_handpicked_panel(
   right_gap  = 81
 )
 ggsave("figs/supplemental-facets.pdf", width = 13, height = 13)
-
-g <- make_handpicked_panel(
-  terms_file = "data/temp.csv",
-  csv_out    = "data/generated/temp-out.csv",
-  cache_file = "data/generated/temp1.rds",
-  fig_file   = "figs/temp.pdf",
-  fig_height = 6.5 * 2 / 2 * gold(),
-  fig_width  = 6.5,
-  right_gap  = 81
-)
