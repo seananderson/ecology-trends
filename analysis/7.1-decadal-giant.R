@@ -214,8 +214,8 @@ get_smoothers <- function(d) {
       p <- predict(m, se.fit = TRUE, newdata = this_pred)
       out <- data.frame(year = this_pred$year,
         y = exp(p$fit),
-        ymin = exp(p$fit - 1.96 * p$se.fit),
-        ymax = exp(p$fit + 1.96 * p$se.fit))
+        ymin = exp(p$fit - 1 * p$se.fit),
+        ymax = exp(p$fit + 1 * p$se.fit))
       out$ymin[out$ymax > 10 * out$y] <- out$y[out$ymax > 10 * out$y]
       out$ymax[out$ymax > 10 * out$y] <- out$y[out$ymax > 10 * out$y]
     } else {
