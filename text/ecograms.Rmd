@@ -639,11 +639,12 @@ ggplot(aes(year, total_words / 1e6)) +
 journals %>%
   filter(Journal != "Science") %>% # removed; no longer part of JSTOR
   mutate(Journal = ifelse(Journal == "Ìäcoscience", "Écoscience", Journal)) %>%
+  mutate(`Taxon Specific` = ifelse(Journal == "Zoological Bulletin", "A", `Taxon Specific`)) %>%
   arrange(`JSTOR Slug`, Journal) %>%
   knitr::kable(booktabs = TRUE, linesep = "", longtable = TRUE,
     label = "included-journals", format	= "latex",
     # caption = "Journals included in the corpus. Inclusion codes: `IN' = `include', `NR' = `not relevant', `TS' = `taxa specific', `NC' = `not sufficient temporal coverage', `RS' = `region specific'. In the comments column, `KS' refers to kingdom-specific journals. These were retained in our analysis.") %>%
-      caption = "Journals included in the corpus. Taxon Specific codes: `P' = `Plants' (excluded), `F' = `Fungi' (excluded), `A' = `Animals' (excluded), `N' = `Not taxon specific' (retained). URLs for the various JSTOR slugs can be created by adding \\url{https://www.jstor.org/journal/} before the slug. For example, \\url{https://www.jstor.org/journal/ecology}.") %>%
+      caption = "Journals included in the corpus. Taxon Specific codes: `P' = `Plants' (excluded), `F' = `Fungi' (excluded), `A' = `Animals' (excluded), `N' = `Not taxon specific' (retained). Other journals from the 'Ecology and Evolutionary Biology' and 'Biological Sciences' JSTOR categories were excluded in an earlier screening phase if they were deemed do not have sufficient temporal coverage, to be region specific, or to be not directly relevant to ecology or conservation biology. URLs for the various JSTOR slugs can be created by adding \\url{https://www.jstor.org/journal/} before the slug. For example, \\url{https://www.jstor.org/journal/ecology}.") %>%
   kableExtra::column_spec(column = 1, width = "3.8in") %>%
   kableExtra::column_spec(column = 2, width = "1.3in") %>%
   kableExtra::column_spec(column = 3, width = "1.0in")
