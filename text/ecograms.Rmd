@@ -126,14 +126,14 @@ In light of such rapid growth and diversification, synthesizing larger trends in
 <!-- become "siloed" in their own subdisciplines, thereby forming their own jargon and missing conceptual bridges or opportunities for interdisciplinary collaboration [@staples2019; @margles2010] -->
 <!-- Reviewing the evolution of a field's lexicon can faciliate discussions about deconstructing  colonial language and implicit biases, allowing space for growth into a more equitable and inclusive discipline.  https://www.sciencemag.org/news/2019/04/historians-expose-early-scientists-debt-slave-trade https://github.com/seananderson/ecology-trends/issues/32-->
 <!-- Ecology does not lack reflections on the state of the field [e.g., -->
-<!-- <!-- @barrows2016;  --> 
-<!-- <!-- @reiners2017;  --> 
-<!-- <!-- @estes2018;  --> 
-<!-- <!-- @courchamp2018;  --> 
-<!-- <!-- @kim2018;  --> 
-<!-- <!-- @mccallen2019;  --> 
-<!-- <!-- @staples2019]; --> 
-<!-- <!-- reviews opine on the field's reading lists, methodologies, coursework, and exclusivity [REFs]. --> 
+<!-- <!-- @barrows2016;  -->
+<!-- <!-- @reiners2017;  -->
+<!-- <!-- @estes2018;  -->
+<!-- <!-- @courchamp2018;  -->
+<!-- <!-- @kim2018;  -->
+<!-- <!-- @mccallen2019;  -->
+<!-- <!-- @staples2019]; -->
+<!-- <!-- reviews opine on the field's reading lists, methodologies, coursework, and exclusivity [REFs]. -->
 <!-- however, much of this work is built on personal observations, subject to the biases of individuals, and may not accurately reflect the progression of the field. -->
 
 <!-- In any rapidly growing field of study, a potential danger is that researchers can become "siloed" in their own subdisciplines, thereby forming their own jargon and missing conceptual bridges or opportunities for interdisciplinary collaboration [@staples2019; @margles2010].  -->
@@ -397,7 +397,7 @@ Using the filtered dataset as described above with the top 800 1- and 2-grams, w
 
 When presenting these and all subsequent timeseries, we fit Generalized Additive Models (GAMs) with the R package mgcv [@wood2017] to characterize the general trends and uncertainty about those trends. We fit models of the form $y_i \sim \mathrm{QuasiPoisson}(\mu_i),\ $ $\log(\mu_i) = \beta_0 + s(\mathrm{year_i}) + \log(\mathrm{total}_i)$, where all symbols have the same meaning as in the previous paragraph and the term $s(\mathrm{year_i})$ represents a thin-plate regression spline [@wood2003] smoother over time.
 
-We conducted our fill-in-the-blank analysis (Fig. \@ref(fig:blanks), Fig. \@ref(fig:blanks-supp)) using a similar approach to the top-nine-terms-by-decade approach described above. In contrast, however, we worked with the entire 2-gram dataset. We retained only 2-grams in which the word filling in the blank was at least four characters long. We combined 2-grams if the "blank" words had the same lemma and omitted a number of 2-grams in which the "blank" word rendered a 2-gram that was not ecologically relevant (Table \@ref(tab:bad-blanks)). We also omitted "biological conservation", since it appeared disproportionally as a journal name. We retained the top eight terms according to the total number of occurrences throughout the eight-decade time period.
+We conducted our fill-in-the-blank analysis (Fig. \@ref(fig:blanks), Fig. \@ref(fig:blanks-supp)) using a similar approach to the top-nine-terms-by-decade approach described above. In contrast, however, we worked with the entire 2-gram dataset. We retained only 2-grams in which the word filling in the blank was at least four characters long. We combined 2-grams if the "blank" words had the same lemma and omitted a number of 2-grams in which the "blank" word rendered a 2-gram that was not ecologically relevant (Table \@ref(tab:bad-blanks)). We also omitted "biological conservation", since it appeared disproportionately as a journal name. We retained the top eight terms according to the total number of occurrences throughout the eight-decade time period.
 
 ## Curated panels
 
