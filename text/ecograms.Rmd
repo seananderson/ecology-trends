@@ -431,7 +431,7 @@ include_graphics(here("figs/blanks-viridis5.pdf"))
 
 \clearpage
 
-(ref:fig-conservation-cap) **Conservation and applied ecology n-grams from 1930--2010.** Curated sets of n-grams related to selected themes. Light grey lines indicate frequency of the n-gram per 100,000 words. Note that in this and subsequent figures, the n-gram labels sometimes refer to multiple underlying related n-grams (see Methods). For example, *climate extremes* refers to multiple n-grams including *climate extremes*, *extreme climatic events*, and singular versions. Dark coloured trend lines and associated shaded ribbons represent generalized additive model fits and 90% confidence intervals (see Methods).
+(ref:fig-conservation-cap) **Conservation and applied ecology n-grams from 1930--2010.** Curated sets of n-grams related to selected themes. Light grey lines indicate frequency of the n-gram per 100,000 words. Note that in this and subsequent figures, the n-gram labels sometimes refer to multiple underlying related n-grams (see Methods). For example, *climate extremes* refers to multiple n-grams including *climate extremes*, *extreme climatic events*, and singular versions. Dark coloured trend lines and associated shaded ribbons represent generalized additive model fits and 95% confidence intervals (see Methods).
 
 ```{r cons, fig.cap = "(ref:fig-conservation-cap)"}
 include_graphics(here("figs/conservation-human-impacts.pdf"))
@@ -556,15 +556,6 @@ include_graphics(here("figs/decadal-giant-1980-1999-2gram.pdf"))
 include_graphics(here("figs/decadal-giant-2000-2010-2gram.pdf"))
 ```
 
-
-\clearpage
-
-(ref:fig-blanks-supp-cap) Additional fill-in-the-blank figure panels using the same approach as Fig. \@ref(fig:blanks). Each panel shows the top eight 2-gram terms where the *blank* in the panel label is filled in by the noun or adjective indicated beside each trend. For example, in panel **a**, "Niche *blank*" with the term "breadth" corresponds to "Niche breadth".
-
-```{r blanks-supp, fig.cap = "(ref:fig-blanks-supp-cap)"}
-include_graphics(here("figs/blanks-extras-2018-08-09.pdf"))
-```
-
 \clearpage
 
 ```{r}
@@ -572,6 +563,16 @@ make_facet_cap <- function(label) {
   paste0("Individual trends in n-gram frequency for the data underlying Fig. \\@ref(fig:", label, "). The terms listed in the top row above each panel refer to the aggregate term displayed in Fig. \\@ref(fig:", label, "). The terms listed on the second row above each panel refer to an underlying n-gram that was searched in the corpus.")
 }
 ```
+
+\clearpage
+
+(ref:fig-conservation-all-cap) `r make_facet_cap("cons")`
+
+```{r conservation-all, fig.cap = "(ref:fig-conservation-all-cap)", out.width="6.1in", fig.align="center"}
+include_graphics(here("figs/conservation-human-impacts-facets.pdf"))
+```
+
+\clearpage
 
 (ref:fig-community-all-cap) `r make_facet_cap("ecology")` For this supplemental figure, the top and bottom rows happened to be the same.
 
@@ -581,10 +582,10 @@ include_graphics(here("figs/community-ecology-facets.pdf"))
 
 \clearpage
 
-(ref:fig-conservation-all-cap) `r make_facet_cap("cons")`
+(ref:fig-blanks-supp-cap) Additional fill-in-the-blank figure panels using the same approach as Fig. \@ref(fig:blanks). Each panel shows the top eight 2-gram terms where the *blank* in the panel label is filled in by the noun or adjective indicated beside each trend. For example, in panel **a**, "Niche *blank*" with the term "breadth" corresponds to "Niche breadth".
 
-```{r conservation-all, fig.cap = "(ref:fig-conservation-all-cap)", out.width="6.1in", fig.align="center"}
-include_graphics(here("figs/conservation-human-impacts-facets.pdf"))
+```{r blanks-supp, fig.cap = "(ref:fig-blanks-supp-cap)"}
+include_graphics(here("figs/blanks-extras-2018-08-09.pdf"))
 ```
 
 \clearpage
@@ -650,6 +651,22 @@ journals %>%
 
 \clearpage
 
+```{r bad-amnat}
+exclude <- readr::read_lines(here::here("data/bad-amnat.txt")) # latex code
+exclude <- tolower(sort(exclude))
+row_length <- ceiling(length(exclude)/2)
+exclude_df <- tibble::tibble(
+  `Excluded terms` = exclude[1:row_length],
+  `Excluded terms continued` = exclude[(row_length + 1):(row_length*2)])
+
+exclude_df %>%
+  knitr::kable(booktabs = TRUE, linesep = "", longtable = TRUE,
+    format	= "latex",
+    caption = "1-grams excluded because they were erroneous LaTeX terms included in some American Naturalist papers.")
+```
+
+\clearpage
+
 ```{r exclusion-n-grams}
 exclude <- readRDS(here::here("data/generated/exclusions_fig1.rds"))
 exclude <- tolower(sort(exclude))
@@ -683,22 +700,6 @@ exclude_df %>%
   knitr::kable(booktabs = TRUE, linesep = "", longtable = TRUE,
     format	= "latex",
     caption = "n-grams excluded from the top 144 n-gram supplementary figures.")
-```
-
-\clearpage
-
-```{r bad-amnat}
-exclude <- readr::read_lines(here::here("data/bad-amnat.txt")) # latex code
-exclude <- tolower(sort(exclude))
-row_length <- ceiling(length(exclude)/2)
-exclude_df <- tibble::tibble(
-  `Excluded terms` = exclude[1:row_length],
-  `Excluded terms continued` = exclude[(row_length + 1):(row_length*2)])
-
-exclude_df %>%
-  knitr::kable(booktabs = TRUE, linesep = "", longtable = TRUE,
-    format	= "latex",
-    caption = "1-grams excluded because they were erroneous LaTeX terms included in some American Naturalist papers.")
 ```
 
 \clearpage
