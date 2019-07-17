@@ -276,12 +276,12 @@ The increased frequency of so many data- and model-centric terms, along with the
 
 ## Genetics
 
-The focus on genetics in ecology and conversation-related research increased markedly in the last several decades (*genetic diversity* in Fig.\ \@ref(fig:blanks)f, Fig.\ \@ref(fig:methods)e,f, Fig.\ \@ref(fig:methods-all)). *Phylogenetics* remained the most commonly referenced genetics term from 1930 to 2010, and increased in use rapidly after the late 1980s (Fig. \@ref(fig:methods)e).
-By 2010, *phylogenetic analysis* was the fourth most commonly used *____ analysis* 2-gram (Fig. \@ref(fig:blanks)l) and *phylogenetic hypothesis* was the third highest *____ hypothesis* 2-gram (Fig. \@ref(fig:ecology)e).
+The focus on genetics in ecology- and conversation-related research increased markedly in the last several decades (*genetic diversity* in Fig.\ \@ref(fig:blanks)f, Fig.\ \@ref(fig:methods)e,f, Fig.\ \@ref(fig:methods-all)). *Phylogenetics* remained the most commonly referenced genetics term from 1930 to 2010, and increased in use rapidly after the late 1980s (Fig. \@ref(fig:methods)e).
+By 2010, *phylogenetic* was the fourth most common adjective associated with *analysis* (Fig. \@ref(fig:blanks)l) and the third most common associated with *analysis* (Fig. \@ref(fig:ecology)e).
 The 1980s was when we began to see a strong interest in genetic variation and diversity in the ecological literature, with the terms *genetic variation*, *gene flow*, and *evolutionary biology* all appearing in the top 144 2-grams for the years 1980--1999 (Fig. \@ref(fig:giant-2-1980)) and  *genetic diversity* showing up in the 2000--2010 range (Fig. \@ref(fig:giant-2-2000)).
 In terms of genetics tools, *microsatellites* and *mtDNA* were the most commonly referenced terms as of 2010, but *next-generation sequencing* nearly overtook *microsatellites* and may have done so by now.
 With the development of *next-generation sequencing* [@sanger1977], we also saw an increase in sequencing-based approaches to studying genetic diversity, particularly the rise in references to *single nucleotide polymorphisms* (Fig. \@ref(fig:methods)f).
-Since 2010, there has likely been a continued increase in references to *next-generation sequencing* given that it is now widely adopted in ecological research of many species---not just model species [@andrews2016].
+Since 2010, there has likely been a continued increase in references to *next-generation sequencing* given that it is now widely adopted in both macro- and micro-ecological research of many species and communities---not just model systems [@andrews2016].
 
 ## Social sciences
 
@@ -341,9 +341,19 @@ As we see it, elements of ecology today are almost unrecognizable from the field
 # Acknowledgements
 
 We thank the JSTOR Data Team for their work maintaining the JSTOR n-gram database and their help with data extraction.
-We thank the David H. Smith Conservation Research Fellowship, which supported all of the authors at some point while completing this project.
-We thank M.P. Dombeck, S.G. Foster, *TODO anyone who helped and declines to be an author* for their support and helpful discussions and contributions to this project.
-The full-text corpus is available through consultation with the JSTOR Data Team (<https://jstor.org)>. All code to conduct our analysis is available at <https://github.com/seananderson/ecology-trends> and *insert Zenodo DOI here on publication*.
+We thank the David H. Smith Conservation Research Fellowship, which supported all of the authors financially at some point while completing this project.
+We thank
+M.P. Dombeck,
+S.G. Foster,
+T. Chang,
+B.J. Harvey,
+M.A. Nocco,
+S.M. O'Regan,
+and
+T. Young
+for their support and helpful discussions about this project.
+The full-text corpus is available through consultation with the JSTOR Data Team (<https://jstor.org)>.
+All code to conduct our analysis is available at <https://github.com/seananderson/ecology-trends> and *insert Zenodo DOI here on publication*.
 
 # Methods
 
