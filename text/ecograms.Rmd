@@ -187,8 +187,7 @@ The term *ecosystem* existed as a noun long before it was used as an adjective s
 As a noun, *ecosystem* was most commonly associated with *forest*, *terrestrial*, and *marine*, with the latter seeing a sharp uptick after 2000 (Fig. \@ref(fig:blanks)k).
 As an adjective, *ecosystem service* and *ecosystem function* were the dominant 2-grams (Fig. \@ref(fig:blanks)j), the former showing a rapid increase shortly after the United Nations' Milleneum Ecosystem Assessment championed the concept as a fundamental principle [@mea2005].
 
-Using the same fill-in-the-blank approach, we examined adjectives associated with conservation, diversity, experiment, and analysis (Fig.
-\@ref(fig:blanks) third column).
+Using the same fill-in-the-blank approach, we examined adjectives associated with conservation, diversity, experiment, and analysis (Fig. \@ref(fig:blanks) third column).
 *Biodiversity conservation* did not appear until the mid 1980s in our corpus
 (the term *biodiversity* was not coined until 1985 [@wilson1988] (Fig. \@ref(fig:decades)e) but was used over twice as often as the next most common conservation term, *nature conservation*, by 2010 (Fig. \@ref(fig:blanks)c).
 *Genetic diversity* rose quickly in the early 1990s to become the dominant adjective associated with diversity (Fig. \@ref(fig:blanks)f).
@@ -198,20 +197,15 @@ References to *field* and *laboratory experiment* peaked around 1990 and decline
 
 ## Conservation and applied ecology
 
-Terms and phrases related to *conservation* and applied ecology represented some of the fastest growing n-grams in modern ecology (Fig.
-\@ref(fig:decades)e).
-*Conservation* as a field originated alongside the formation of the Society for Conservation Biology in 1985 [@meine2006], prior to which the term *preservation* was used as frequently in ecological literature (Fig.
-\@ref(fig:cons)a, Fig.
-\@ref(fig:conservation-all)).
+Terms and phrases related to *conservation* and applied ecology represented some of the fastest growing n-grams in modern ecology (Fig. \@ref(fig:decades)e).
+*Conservation* as a field originated alongside the formation of the Society for Conservation Biology in 1985 [@meine2006], prior to which the term *preservation* was used as frequently in ecological literature (Fig. \@ref(fig:cons)a, Fig. \@ref(fig:conservation-all)).
 <!-- TODO: this needs clarification and references: Though *preservation* and *conservation* may seem roughly synonymous in retrospect, these concepts originated in western environmental thought as opposites[REF], and the rise of conservation reflects a distinct shift in the land ethic and desirable outcomes of ecological management[REF?].
 -->
 Alongside *conservation*, *biodiversity* was one of the most quickly growing terms we analyzed in the corpus (Fig. \@ref(fig:decades)e).
-*Biodiversity*, a core concept of conservation, replaced the phrase *biological diversity*, which had been in use since the 1960s [@soule1980].
-Given the prominent focus on biodiversity conservation in the field of ecology, ecologists increasingly studied the major threats to biodiversity loss: *habitat loss*, *invasive species*, *pollution*, *overpopulation*, *overexploitation*, and *climate change* (Fig.
-\@ref(fig:cons)b).
+<!-- *Biodiversity*, a core concept of conservation, replaced the phrase *biological diversity*, which had been in use since the 1960s [@soule1980].-->
+Given the prominent focus on biodiversity conservation in the field of ecology, ecologists increasingly studied the major threats to biodiversity loss: *habitat loss*, *invasive species*, *pollution*, *overpopulation*, *overexploitation*, and *climate change* (Fig. \@ref(fig:cons)b).
 Despite *overexploitation* being considered one of the most prevalent causes of species extinctions worldwide [@maxwell2016; @ipbes2019], the term itself received relatively little attention in our corpus (Fig. \@ref(fig:cons)b), though frequencies of terms associated with specific modes of exploitation, such as *hunting*, *fishing*, and *logging*, all grew steadily (Fig. \@ref(fig:cons)e).
-Up until the early 1990s, *pollution* was the leading term in the context of threats to biodiversity and its use peaked in the ecological literature in the mid-1970s (Fig.
-\@ref(fig:cons)b).
+Up until the early 1990s, *pollution* was the leading term in the context of threats to biodiversity and its use peaked in the ecological literature in the mid-1970s (Fig. \@ref(fig:cons)b).
 Frequencies of the term *ozone*, typically associated with studies of pollution, displayed a similar trend as *pollution*, but with a lag of approximately 15 years (Fig. \@ref(fig:cons)c) and peaked in frequency around 1985 with the announcement of an ozone hole over the Antarctic continent [@farman1985].
 The term *pollution* was then surpassed by *climate change* and subsequently by *invasive species*, two terms that as of 2010 vastly outweighed all other threats in their frequency of use (Fig. \@ref(fig:cons)b) and two of the top three fastest growing terms in all of ecology (Fig. \@ref(fig:decades)f).
 
@@ -250,12 +244,16 @@ Mathematical Lotka-Volterra models emerged in the 1920s to examine competition a
 Yet, both *competition* and *predation* experienced steep declines since the 1980s and early 2000s, respectively (Fig. \@ref(fig:ecology)c).
 The declines perhaps reflect that Lotka-Volterra models, while overly simple, marked the beginning of mathematical ecology that has now moved beyond one or two species to explain more complex community dynamics, such as food web structure and ecological niche modeling (Fig. \@ref(fig:blanks-supp)).
 
-The most commonly represented theories of community ecology, which were posed to explain community structure and diversity patterns, all appeared to decline from peak levels (Fig. \@ref(fig:ecology)f).
-For example, the theory of the *climax community* climaxed in the 1940s [@clements1936], followed by a peak for the *theory of island* biogeography in the late 1970s [@macarthur1967], and a peak and dropoff in *neutral theory* in the mid-2000s [@hubbell2001] (Fig. \@ref(fig:ecology)f).
-We also saw changing patterns around the hypotheses predicting biodiversity.
-Specifically, one of the earliest hypotheses stemming from Darwin's finches is the *competition hypothesis*, which peaked in the 1980s and was replaced by the intermediate *disturbance hypothesis* [@connell1978] (Fig. \@ref(fig:ecology)e).
-Yet, the intermediate *disturbance hypothesis* peaked itself in the 2000s, perhaps explained by later critiques [@fox2013] (Fig. \@ref(fig:ecology)e).
-Population and community ecologists may now favour asking what drives biodiversity. Indeed, metrics of *diversity*, which incorporates both *abundance* and *richness*, have steadily increased since 1990 (Fig. \@ref(fig:ecology)d).
+<!-- TODO: change this topic sentence to match the new panels: -->
+
+Perhaps nowhere else in ecology did we see the evolution and replacement of terminology as with ecological hypotheses and theories (Fig. \@ref(fig:ecology)e,f).
+We examined the top-eight ecological hypotheses and theories using the same fill-in-the-blank algorithmic approach as in Fig. \@ref(fig:blanks).
+We found no dominant hypothesis but a number of changing patterns around the hypotheses predicting biodiversity.
+For example, one of the earliest hypotheses stemming from Darwin's finches was the *competition hypothesis*, which peaked in the 1980s and was replaced by the intermediate *disturbance hypothesis* [@connell1978] (Fig. \@ref(fig:ecology)e).
+Yet, the intermediate *disturbance hypothesis* peaked itself in the early 2000s, perhaps due to later critiques [@fox2013] (Fig. \@ref(fig:ecology)e).
+Population and community ecologists may now favour asking what drives biodiversity. Indeed, metrics of *diversity*, which incorporate both *abundance* and *richness*, have steadily increased in use since 1990 (Fig. \@ref(fig:ecology)d).
+In terms of theories, notable 2-grams with large historical peaks included the *theory of natural* selection, the *theory of island* biogeography, and *equilibrium theory* (Fig. \@ref(fig:ecology)f). By 2010, *neutral theory* [@hubbell2001], *game theory*, and *evolutionary theory* were the most frequently referenced theories, although all were declining in use (Fig. \@ref(fig:ecology)f).
+
 <!-- SK: Although the term *niche* reamins a fundamental concept in community ecology (@Reiners2017), we never identified it as a top ??144??? 1-grams for any given time period (ADD "DECADAL GIANT" FIG CITE HERE). Despite this, we used the same fill-in-the-blank algorithms, we found the terms *niche breadth* and *niche width* were the most frequently used in the 1970's and 1980s, being replaced by the terms *niche model* and *niche conservatism* as the most frequent today (Fig. \@ref(fig:blanks-supp)c--d). We find that the term *ecological niche* has rapidly increased in frequency as the most frequent descriptor of *niche* (Fig. \@ref(fig:blanks-supp)d). -->
 
 <!-- TODO: cite and describe Fig. \@ref(fig:blanks-supp) perhaps more than what I added above; also make sure to describe the niche panels (c--d) [SK - (1) added in text in niche panels Fig. S2, but if we're not including the panels in the main text does it make sense to include discussion of them? (2) I wasn't sure what you need for "Fig. \@ref(fig:blanks-supp), but I changed the text a bit to something a little clearer? don't know if that works..."-->
