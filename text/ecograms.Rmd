@@ -638,9 +638,11 @@ ggplot(aes(year, total_words / 1e6)) +
 ```{r included-journals, message=FALSE, results="asis", eval=TRUE}
 journals %>%
   filter(Journal != "Science") %>% # removed; no longer part of JSTOR
+  filter(`Taxon Specific` != "E") %>% # removed
   mutate(Journal = ifelse(Journal == "Ìäcoscience", "Écoscience", Journal)) %>%
   mutate(`Taxon Specific` = ifelse(Journal == "Zoological Bulletin", "A", `Taxon Specific`)) %>%
-  arrange(`JSTOR Slug`, Journal) %>%
+  mutate(`Taxon Specific` = factor(`Taxon Specific`, levels = c("N", "P", "A", "F"))) %>% 
+  arrange(`Taxon Specific`, `JSTOR Slug`, Journal) %>%
   knitr::kable(booktabs = TRUE, linesep = "", longtable = TRUE,
     label = "included-journals", format	= "latex",
     # caption = "Journals included in the corpus. Inclusion codes: `IN' = `include', `NR' = `not relevant', `TS' = `taxa specific', `NC' = `not sufficient temporal coverage', `RS' = `region specific'. In the comments column, `KS' refers to kingdom-specific journals. These were retained in our analysis.") %>%
