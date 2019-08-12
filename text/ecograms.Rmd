@@ -167,11 +167,7 @@ journals$Journal[journals$Journal == "Ã‰coscience"] <- "Écoscience"
 n_journals <- nrow(dplyr::filter(journals, `Taxon Specific` == "N"))
 ```
 
-<!--
-The field of ecology has experienced rapid growth since the discipline-specific journal, *Ecology*, was first published in 1920 [@reiners2017; @kim2018]. Today, with hundreds of ecology journals representing numerous subdisciplines, the field spans in scope from theoretical to applied and has become increasingly intertwined with the fields of natural history and conservation. In light of such growth and diversification, accomplishing a broad overview of the field can be challenging, and yet, a broad overview is critical for reasons including guiding new research, informing funding directions, and structuring educational frameworks [@mccallen2019].
--->
-
-The field of ecology has experienced rapid growth since the discipline-specific journal, *Ecology*, was first published over a century ago [@reiners2017; @kim2018].
+The field of ecology and conservation has experienced rapid growth since the discipline-specific journal, *Ecology*, was first published over a century ago [@reiners2017; @kim2018].
 <!-- The field as a whole arose in the late 19th or early 20th century drawing from a broad set of disciplines including geography, geology, evolutionary biology, systematics, physiology, natural history, and natural resource management [@simberloff1980; @egerton1983; @kingsland2005; @ayres2012; @huston2016]. -->
 Today, hundreds of ecology journals represent subdisciplines spanning in scope from theoretical to applied and in scale from genomes to ecosystems.
 In light of such rapid growth and diversification, synthesizing larger trends in a field can be challenging, yet broad overviews are critical for bridging subdisciplines [@staples2019; @margles2010], guiding new research, and informing funding directions and educational frameworks [@mccallen2019].
@@ -199,7 +195,7 @@ This approach has been applied to smaller subsets of the ecological literature, 
 
 <!-- The discipline of culturomics---the quantitative analysis of large bodies of text---offers a rich framework with which to track the evolution of a field through time [@michel2011; @ladle2016]. Specifically, word use in the published literature can serve as a proxy for tracking realized, versus perceived, importance. This approach has been applied to subsets of the ecological literature, notably a century of titles and abstracts in the journal *Ecology* [@kim2018], automated content analysis of titles and abstracts in top ecology journals based on impact factor [@mccallen2019], and more specific research questions restricted to certain regions or taxa [e.g., @beale2018]. -->
 
-Here, we build on previous analyses [e.g., @carmel2013; @reiners2017; @courchamp2018; @kim2018; @mccallen2019] with the first full-text analysis of ecology journals over eight decades encompassing `r n_journals` journals, 131,533 articles, and over half a billion words.
+Here, we build on previous analyses [e.g., @carmel2013; @reiners2017; @courchamp2018; @kim2018; @mccallen2019] with the first full-text analysis of ecology and conservation journals over eight decades encompassing `r n_journals` journals, 131,533 articles, and over half a billion words.
 We analyze the JSTOR full-text corpus from 1930 to 2010---the period of time with the most robust journal coverage in the JSTOR database---for all journals that regularly publish ecological or conservation papers and are not regionally or taxonomically exclusive.
 We searched the corpus for specific "n-grams", which are sequences of terms separated by a space.
 For example, "biogeography" is a 1-gram and "body size" is a 2-gram (we herein denote n-gram terms in italics).
