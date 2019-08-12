@@ -38,10 +38,62 @@ link-citations: yes
 linkcolor: "blue"
 urlcolor: "blue"
 abstract: >
-  The abstract will go here.
+  The field of ecology and conservation has grown rapidly over the last century.
+  Synthesizing those trends into a broad overview of the field remains a challenge and yet is critical to bridging subdisciplines, guiding research funding, and informing educational frameworks.
+  Here we provide the largest full-text culturomic analysis of ecology and conservation journals to date covering eight decades, 52 journals, and half a billion words.
+  Our analysis illustrates overall trends in ecological term usage and trends within the themes of conservation, general and community ecology, statistical and genetic ecology, and the social sciences.
+  We track the evolution of ecology from a largely descriptive field focused on natural history and observational field studies to a more data-driven multidisciplinary field focused on applied environmental problems.
+  We highlight the boom and bust of ecological hypotheses and theories; the adoption of statistical, genetic, and social science approaches; and the domination of terms as of 2010 that emerged only after 1990 (e.g., climate change, invasive species, ecosystem services, meta-analysis).
+  Overall, our analysis highlights the increasing breadth of the field, illustrating that there is room for more types of ecologists today than ever before.
 ---
 
-\clearpage
+
+<!--
+  Left over abstract text:
+
+  Opinion- and survey-based approaches can form a biased perspective of the field and data-driven approaches have tended to focus on specific journals, subdisciplines, or title and abstract databases.
+
+  theory as terms representing new ideas emerge and all terms are replaced with new ones with slightly different focuses
+
+  the emergence of supplementary material and the death of unpublished data and personal communications
+
+  Terms representing new ideas emerge, and old terms
+
+  notable results include the evolution of ecology and conservation into more quantitative and data-driven disciplines; the domination of terms as of 2010 that did not emerge until after 1990 (e.g., climate change, biodiversity, invasive species, ecosystem services, and meta-analysis), the emergence of supplementary material and the death of unpublished data and personal communications, and the frequent boom and bust of ecological hypotheses and theories.
+
+  we delve into the evolution of ecology and conservation.
+
+  increasingly specialized topics at broader spatial scales.
+
+  The ubiquity of ecologists' focus on species.
+-->
+
+<!--
+One or two sentences providing a basic introduction to the field, comprehensible to a scientist in any discipline.
+Two to three sentences of more detailed background, comprehensible to scientists in related disciplines.
+One sentence clearly stating the general problem being addressed by this particular study.
+One sentence summarising the main result (with the words “here we show” or their equivalent).
+Two or three sentences explaining what the main result reveals in direct comparison to what was thought to be the case previously, or how the main result adds to previous knowledge.
+One or two sentences to put the results into a more general context.
+-->
+
+<!-- Abstract of 150 words -->
+
+<!-- An Article reports an important novel research study of general interest to the
+ecology and evolution community, and often draws on several techniques or
+approaches. The main text (excluding introductory paragraph, Methods section,
+references and figure legends) is limited to 3,500 words. Articles can have up
+to 6 display items (figures and/or tables). The maximum title length is 100
+characters (including spaces). The introductory paragraph is typically 150
+words and is unreferenced; it contains a brief account of the background and
+rationale of the work, followed by a statement of the main conclusions
+introduced by the phrase "Here we show" or some equivalent. An introduction
+(without heading) of up to 500 words of referenced text expands on the
+background of the work (some overlap with the summary is acceptable), and is
+followed by a concise, focused account of the findings (headed 'Results'), and
+one or two short paragraphs of discussion (headed 'Discussion'). -->
+
+<!-- 3865 words as of 2019-08-12 -->
 
 ```{r setup, echo = FALSE, message = FALSE, warning = FALSE}
 library(knitr)
