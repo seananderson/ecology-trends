@@ -13,7 +13,7 @@ author:
 - "Mariah H. Meek^10^"
 - "Diogo Veríssimo^11,12,13^"
 date: |
-  ^1^Pacific Biological Station, Fisheries and Oceans Canada Nanaimo, BC, V6T 6N7, Canada\
+  ^1^Pacific Biological Station, Fisheries and Oceans Canada, Nanaimo, BC, V6T 6N7, Canada\
   ^2^Department of Forest and Wildlife Ecology, University of Wisconsin-Madison, WI 53706, USA\
   ^3^Department of Biology, Sonoma State University, Rohnert Park, CA 94928, USA\
   ^4^Department of Biology, University of Michigan-Flint, Flint, MI 48502, USA\
