@@ -38,7 +38,7 @@ link-citations: yes
 linkcolor: "blue"
 urlcolor: "blue"
 abstract: >
-  The field of ecology and conservation has evoloved rapidly over the last century.
+  The field of ecology and conservation has evolved rapidly over the last century.
   Synthesizing that growth into a broad overview of the field remains a challenge and yet is critical to bridging subdisciplines, guiding research directions, and informing educational frameworks.
   Here we provide the largest full-text culturomic analysis of ecology and conservation journals to date covering eight decades, 52 journals, and half a billion words.
   Our analysis illustrates overall trends in ecological term usage and trends within the themes of conservation, general and community ecology, statistical and genetic ecology, and the social sciences.
