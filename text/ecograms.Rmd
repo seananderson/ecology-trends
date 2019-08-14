@@ -171,9 +171,9 @@ This approach has been applied to smaller subsets of the ecological literature, 
 Here, we build on previous analyses [e.g., @carmel2013; @reiners2017; @courchamp2018; @kim2018; @mccallen2019] with the first full-text analysis of ecology and conservation journals over eight decades encompassing `r n_journals` journals, 131,533 articles, and over half a billion words.
 We analyze the JSTOR full-text corpus from 1930 to 2010---the period of time with the most robust journal coverage in the JSTOR database---for all journals that regularly publish ecological or conservation papers and are not regionally or taxonomically exclusive.
 We searched the corpus for specific "n-grams", which are sequences of terms separated by a space.
-For example, "biogeography" is a 1-gram and "body size" is a 2-gram (we herein denote n-gram terms in italics).
+For example, *biogeography* is a 1-gram and *body size* is a 2-gram (we herein denote n-gram terms in italics).
 We standardized n-gram frequency by total words per year published across all included journals and analyzed trends over time for a selection of n-grams.
-We derived our n-gram selection through both algorithmic and hand-curated approaches: (1) drawing on the most frequent and rapidly growing/declining n-grams in various decades and (2) developing logical groupings of terms that fall under key ecology and conservation themes.
+We derived our n-gram selection through both algorithmic and hand-curated approaches: (1) drawing on the most frequent and rapidly growing/declining n-grams in various decades and (2) developing logical groupings of terms that fall under key ecology and conservation themes (see Methods).
 
 <!-- Our approach therefore enables data-derived comparisons of trends in ecology and conservation to yield insights into the evolution of key concepts, analytical techniques, and entire subdisciplines in these fields. -->
 
@@ -196,7 +196,7 @@ Popular terms in the 1940s included *blue grama* (*Bouteloua gracilis*) and *whe
 This focus on agricultural research---in an era that culminated in the formation of the Food and Agriculture Organization of the United Nations [@yates1946]---was supported by other 2-grams from the 1940s, such as *organic matter*, *soil moisture*, and *fresh water* (Fig. \@ref(fig:decades)b).
 The decline in these historically popular terms may partly reflect agricultural and soil scientists increasingly publishing in discipline-specific journals outside our corpus.
 
-We examined trends in 2-gram terms associated with various scales in ecology (species, population, community, and ecosystem) by using a fill-in-the-blank algorithmic approach (Fig. \@ref(fig:blanks) first two columns).
+We examined trends in 2-gram terms associated with various scales in ecology (species, population, community, and ecosystem) by using a fill-in-the-blank algorithmic approach (Fig. \@ref(fig:blanks) first two columns; see Methods).
 We found that *species richness* and *plant species* were the dominant adjective and noun uses of the term *species*, respectively (Fig. \@ref(fig:blanks)a--b).
 The term *native* rose in popularity around 2000 to become the third most common term preceding *species* as of 2010 (Fig. \@ref(fig:blanks)b).
 This may correlate with the growth of studies within the field of invasion biology, which also saw a rise in publications from the late 1990s onward [@simberloff2010].
@@ -235,7 +235,7 @@ The declines perhaps reflect that Lotka-Volterra models, while overly simple, ma
 
 Perhaps nowhere else in ecology did we see the evolution and replacement of terminology as with ecological hypotheses and theories (Fig. \@ref(fig:ecology)e,f).
 We examined the top eight ecological hypotheses and theories using the same fill-in-the-blank algorithmic approach as in Fig. \@ref(fig:blanks).
-We found no dominant hypothesis but a number of changing patterns around the hypotheses largely predicting biodiversity.
+We found no dominant hypothesis but a number of changing patterns around the hypotheses related to predicting biodiversity.
 For example, one of the earliest hypotheses stemming from Darwin's finches was the *competition hypothesis*, which peaked in the 1980s and was replaced by the intermediate *disturbance hypothesis* [@connell1978] (Fig. \@ref(fig:ecology)e).
 Yet, the intermediate *disturbance hypothesis* peaked itself in the early 2000s, perhaps due to later critiques [@fox2013] (Fig. \@ref(fig:ecology)e).
 Population and community ecologists may now favour asking what drives biodiversity. Indeed, metrics of *diversity*, which incorporate both *abundance* and *richness*, have steadily increased in use since 1990 (Fig. \@ref(fig:ecology)d).
@@ -295,21 +295,21 @@ The increased frequency of so many data- and model-centric terms, along with the
 
 ## Genetics
 
-The focus on genetics in ecology- and conservation-related research increased markedly in the last several decades (*genetic diversity* in Fig.\ \@ref(fig:blanks)f, Fig.\ \@ref(fig:methods)e,f, Fig.\ \@ref(fig:methods-all)). *Phylogenetics* remained the most commonly referenced genetics term from 1930 to 2010, and increased in use rapidly after the late 1980s (Fig. \@ref(fig:methods)e).
-By 2010, *phylogenetic* was the fourth most common adjective associated with *analysis* (Fig. \@ref(fig:blanks)l) and the third most common associated with *hypothesis* (Fig. \@ref(fig:ecology)e).
+The focus on genetics in ecology- and conservation-related research increased markedly in the last several decades (Fig.\ \@ref(fig:blanks)f, Fig.\ \@ref(fig:methods)e,f, Fig.\ \@ref(fig:methods-all)). *Phylogenetics* remained the most commonly referenced genetics term from 1930 to 2010, and increased in use rapidly after the late 1980s (Fig. \@ref(fig:methods)e).
+By 2010, *phylogenetic* was the fourth most common adjective associated with *analysis* (Fig. \@ref(fig:blanks)l) and the third most common adjective associated with *hypothesis* (Fig. \@ref(fig:ecology)e).
 The 1980s was when we began to see a strong interest in genetic variation and diversity in the ecological literature, with the terms *genetic variation*, *gene flow*, and *evolutionary biology* all appearing in the top 144 2-grams for the years 1980--1999 (Fig. \@ref(fig:giant-2-1980)) and  *genetic diversity* showing up in the 2000--2010 range (Fig. \@ref(fig:giant-2-2000)).
-In terms of genetics tools, *microsatellites* and *mtDNA* were the most commonly referenced terms as of 2010, but *next-generation sequencing* nearly overtook *microsatellites* and may have done so by now.
+In terms of genetics tools, *microsatellites* and *mtDNA* (mitochondrial DNA) were the most commonly referenced terms as of 2010, but *next-generation sequencing* nearly overtook *microsatellites* and may have done so since 2010.
 With the development of *next-generation sequencing* [@sanger1977], we also saw an increase in sequencing-based approaches to studying genetic diversity, particularly the rise in references to *single nucleotide polymorphisms* (Fig. \@ref(fig:methods)f).
 Since 2010, there has likely been a continued increase in references to *next-generation sequencing* given that it is now widely adopted in both macro- and micro-ecological research of many species and communities---not just model systems [@andrews2016].
 
 ## Social sciences
 
-Over the last few decades, ecologists paid increasing attention to the human dimensions of ecology and biodiversity conservation [@bennett2017] (Fig.
+Over the last few decades, ecologists paid increasing attention to the human dimensions of ecology and conservation [@bennett2017] (Fig.
 \@ref(fig:social), Fig. \@ref(fig:social-all)).
 Since the 1990s, references to market or *community-based management* interventions gained traction---particularly environmental certification programs and payment for ecosystem services schemes such as the Reducing Emissions from Deforestation and Forest Degradation (*REDD*) program (Fig. \@ref(fig:social)a).
 We also observed an increased focus on *human well-being* (Fig. \@ref(fig:social)b), with a spike of references to *human health* in the 1970s and, more recently, an overall growth in references to *poverty*, *food security*, and overall *human well-being* since the 1990s.
 This trend is parallelled by the rise in frequency of the terms *ecosystem service* and *ecosystem function* (Fig. \@ref(fig:blanks)j), which are two terms that explicitly focus on ecological processes in terms of their benefits to humans.
-Given the increased focus on the human dimensions of biodiversity conservation over the last decades [@bennett2017], it makes sense that social science methods such as *interviews* and *questionnaires* would become more widely noted in the literature (Fig. \@ref(fig:social)c).
+Given the increased focus on the human dimensions of conservation over the last decades [@bennett2017], it makes sense that social science methods such as *interviews* and *questionnaires* would become more widely noted in the literature (Fig. \@ref(fig:social)c).
 Ecology is just starting to acknowledge different ways of knowing; however, qualitative methods such as *focus groups*, *ethnography*, or *participant observation* remained scarcely referenced, which supports the assertion that ecology and conservation continued to rely mostly on quantitative approaches [@moon2016] (Fig. \@ref(fig:social)c).
 Parallel to the increased focus on human well-being since the 1970s, we observed an increased frequency of n-grams related to *stakeholders*, *local communities*, and *indigenous people* (Fig. \@ref(fig:social)d).
 Yet, it is clear that key stakeholder groups such as indigenous people are still underrepresented if we take into account how much land is under indigenous management [@garnett2018].
@@ -317,8 +317,8 @@ Yet, it is clear that key stakeholder groups such as indigenous people are still
 # Discussion
 
 The ecological lexicon has expanded and evolved over the last 80 years.
-The most frequently used terms in the 1930s were derived from the breadth of disciplines that inspired early ecologists [@simberloff1980; @egerton1983; @kingsland2005; @ayres2012; @huston2016], and by the 2000s, many were replaced by terms that reflected the emergence of a data-driven scientific field largely focused on applied environmental problems.
-The turnover in ecological terminology demonstrates how ecologists have embraced many newly coined terms such as *biodiversity*, *climate change*, and *meta analysis* that did not exist in the early-decades of the field, and signifies the evolution of ecology into a fully independent field of study.
+The most frequently used terms in the 1930s were derived from the breadth of disciplines that inspired early ecologists [@simberloff1980; @egerton1983; @kingsland2005; @ayres2012; @huston2016], and by the 2000s, many were replaced by terms that reflected the emergence of a data-driven scientific field largely focused on applied environmental issues.
+The turnover in ecological terminology demonstrates how ecologists have embraced many newly coined terms such as *biodiversity*, *climate change*, and *meta-analysis* that did not exist in the early decades of the field, and signifies the evolution of ecology into a fully independent field of study.
 Our results, based on the first-ever full-text analysis of multiple ecology and conservation journals, reinforce the notion of both previous quantitative- [@kim2018; @mccallen2019] and expert-opinion-based studies [@reiners2017] that ecologists are working on increasingly complex and specialized topics, at broader spatial scales [@estes2018], and at higher levels of taxonomic and hierarchical organization [@kim2018].
 
 There has been a notable shift in ecologists' descriptions of analytical techniques, demonstrating the evolution of ecological research into a more quantitative and data-driven field of study (Fig. \@ref(fig:decades), Fig. \@ref(fig:methods)).
@@ -329,8 +329,8 @@ From the perspective of preparing students to publish in the field, our results 
 
 Our approach expands upon prior culturomic studies that focused on shorter periods of time [@mccallen2019] or smaller bodies of text [@kim2018; @mccallen2019] allowing us to put our results in a broader context.
 <!-- Our expanded corpus working with the full-text content of journals and using both algorithmic and hand-curated analyses of trends can put shorterm trends into a broader context. -->
-For example, the term *conservation* was one of the fastest growing terms in the corpus (Fig. \@ref(fig:cons)a), which contrasts with an earlier culturomic analysis [@mccallen2019].
-McCallen et al. [@mccallen2019] found a slight decrease in the relative use of *conservation* in their analysis, while our full-text analysis revealed that *conservation* was one of the fastest growing terms in our corpus (Fig. \@ref(fig:decades)e, Fig. \@ref(fig:cons)a).
+For example, the term *conservation* was one of the fastest growing terms in the corpus (Fig. \@ref(fig:cons)a), which contrasts with an earlier culturomic analysis that found a slight decrease in the relative use of the term [@mccallen2019].
+<!-- McCallen et al. [@mccallen2019] found a slight decrease in the relative use of *conservation* in their analysis, while our full-text analysis revealed that *conservation* was one of the fastest growing terms in our corpus (Fig. \@ref(fig:decades)e, Fig. \@ref(fig:cons)a). -->
 This may be due to higher frequency of use of the term in the introduction or discussion sections of a manuscript, which appear in much-abbreviated forms in abstracts.
 Similarly, McCallen et al. [@mccallen2019] found a significant decline in the use of *competition* over the past four decades.
 Indeed, between 1970--2010, the frequency of *competition* mainly declined in our analysis, yet when analyzed over eight decades, we found that the underlying trend is multi-peaked with an overall positive slope (Fig. \@ref(fig:ecology)c).
@@ -339,10 +339,10 @@ Indeed, between 1970--2010, the frequency of *competition* mainly declined in ou
 There are a number of important caveats to keep in mind when interpreting our results.
 First, our analysis tracks frequency of term use in the ecological literature but such frequency does not necessarily correspond to the importance of related concepts to the field.
 For example, some terms may be frequently mentioned in paper introductions but appear less often as the core topic of research.
-Other terms, such as *conservation*, are linked to journal titles such as "Conservation Biology" and appear in the bibliography section of some papers.
+Other terms, such as *conservation*, are linked to journal titles such as *Conservation Biology* and appear in the bibliography section of some papers.
 Second, the journals included in the corpus are not a random sample across the field of ecology.
-Our corpus does not include some prominent journals that publish ecological research (e.g., "Science" and "Nature"), nor does it include taxonomic-specific journals such as the "American Journal of Botany" or "The Journal of Wildlife Management", which we intentionally excluded to reduce taxonomic bias (see Methods).
-Third, the quality of the corpus improves through time---the data from the earlier years in our analysis are based on much smaller sample sizes than the more recent data (Fig. \@ref(fig:totals-by-journal), \@ref(fig:total-by-year)) and the data from the earlier years is mostly based on Optical Character Recognition (OCR), which is used to turn scanned PDFs into text with some inevitable errors.
+Our corpus does not include some prominent journals that publish ecological research (e.g., *Science* and *Nature*), nor does it include taxonomic-specific journals such as the *American Journal of Botany* or *The Journal of Wildlife Management*, which we intentionally excluded to reduce taxonomic bias (see Methods).
+Third, the quality of the corpus improves through time---the data from the earlier years in our analysis are based on much smaller sample sizes than the more recent data (Fig. \@ref(fig:totals-by-journal), \@ref(fig:total-by-year)), and the data from the earlier years is mostly based on Optical Character Recognition (OCR), which is used to turn scanned PDFs into text with some inevitable errors.
 Despite these unavoidable caveats, we see considerable merit in our full-text analysis of multiple ecological journals in terms of accomplishing a broad overview of the field and contributing to a growing body of knowledge through multiple lines of inference.
 
 Our analyses allow ecologists to reflect on the past, present, and future of their field. 
@@ -381,18 +381,18 @@ All code to conduct our analysis is available at <https://github.com/seananderso
 <!-- all: 295 -->
 
 We worked with the JSTOR data team to extract n-gram data from the full text of their database for a set of journals relevant to ecology and conservation. To select a set of journals, we reviewed all journals from the "Ecology & Evolutionary Biology" and "Biological Sciences" subject groups to evaluate their suitability for the analysis. We eliminated journals from our corpus according to the following rules:
-(1) We removed all journals that were taxonomically specific (e.g., we removed "Annals of Botany") to reduce taxonomic bias in our corpus through time.
+(1) We removed all journals that were taxonomically specific (e.g., we removed *Annals of Botany*) to reduce taxonomic bias in our corpus through time.
 <!-- n = 62 -->
-This step reduced the corpus from approximately one billion words to just over 0.5 billion words, although the patterns in the "hand-curated panels" (Fig. \@ref(fig:ecology)--\@ref(fig:social)) remained largely unchanged.
+This step reduced the corpus from approximately one billion words to just over 0.5 billion words, although the patterns in the "curated panels" (Fig. \@ref(fig:ecology)--\@ref(fig:social)) remained largely unchanged with the inclusion of taxonomically specific journals.
 (2) We removed all journals that were not in English.
 <!-- n = 18 -->
-(3) We removed all journals that were not focussed on ecology or conservation (e.g., we removed journals that were purely biology focused).
+(3) We removed all journals that were not focused on ecology or conservation (e.g., we removed journals that were purely biology focused).
 <!-- n = 98 -->
-(4) We removed journals that appeared in the JSTOR database for less than 10 years unless they were still in the database as of 2010 or continued under a different name.
-This focussed our corpus on long-standing journals and reduce the influence of journals appearing and disappearing from the corpus and thereby influencing trends.
-(5) We removed journals that were region specific.
+(4) We removed journals that appeared in the JSTOR database for less than 10 years unless they were still in the database as of 2010 or continued under a different name (e.g., TODO and TODO).
+<!-- TODO: add example -->
+This focused our corpus on long-standing journals and reduced the influence of journals appearing and disappearing from the corpus and thereby influencing trends.
+(5) To reduce regional biases, we removed journals that were specific with respect to longitude (e.g., *Great Basin Naturalist Memoirs*), but retained journals that were specific with respect to latitude (e.g., *Arctic and Alpine Research*).
 <!-- n = 24 -->
-Specifically, we removed journals that were specific with respect to longitude but retained journals that were latitude specific (e.g., we retained "Arctic and Alpine Research" but not "Great Basin Naturalist Memoirs").
 In total, our corpus included `r n_journals` journals or continuations of the same journal under different names (Table \@ref(tab:included-journals), Fig. \@ref(fig:totals-by-journal)).
 We focused on 1-, 2-, and 3-grams since most common terms we were interested in were three words or less and the computational burden increased substantially with n-gram length.
 
@@ -402,7 +402,7 @@ pnas_excluded_pub_ids <-
   readRDS(here::here("data/generated/pnas_exluded_pub_ids.rds"))
 ```
 
-Our initial analyses revealed a number of necessary data-cleaning steps prior to our final analysis. (1) Our initial corpus was dominated by data from Proceedings of the National Academy of Sciences (PNAS), which also publishes a high volume of papers not relevant to ecology or conservation. Therefore, we excluded all papers (`r length(pnas_excluded_pub_ids)`) from PNAS that did not include one of the 1-grams "ecology" or "ecological". (2) We removed a series of terms from the typesetting system TeX that were inadvertently included from the American Naturalist (e.g., "amsmath" and "documentclass") (Table \@ref(tab:bad-amnat)). (3) We limited our analysis to 1930--2010. Before 1930, there was a considerably more limited set of journals included in the corpus, and after 2010, the number of journals in the JSTOR corpus and the total number of words began to decline as more recent volumes were not yet included in the dataset (Fig. \@ref(fig:total-by-year)). These issues led to presumably spurious trends before 1930 and after 2010.
+Our initial analyses revealed a number of necessary data-cleaning steps prior to our final analysis. (1) Our initial corpus was dominated by data from *Proceedings of the National Academy of Sciences* (*PNAS*), which also publishes a high volume of papers not relevant to ecology or conservation. Therefore, we excluded all papers (`r length(pnas_excluded_pub_ids)`) from *PNAS* that did not include one of the 1-grams *ecology* or *ecological*. (2) We removed a series of terms from the typesetting system TeX that were inadvertently included from the American Naturalist (e.g., "amsmath" and "documentclass") (Table \@ref(tab:bad-amnat)). (3) We limited our analysis to 1930--2010. Before 1930, there was a considerably more limited set of journals included in the corpus, and after 2010, the number of journals in the JSTOR corpus and the total number of words began to decline as more recent volumes were not yet included in the dataset (Fig. \@ref(fig:total-by-year)). These issues led to presumably spurious trends before 1930 and after 2010.
 
 <!-- Our approach underscores the value of data sets such as the JSTOR n-gram data in quantifying trends within a scientific discipline. Similar analyses are likely to become even more fruitful going forward with the increasing popularity of ecological pre-print libraries [REF] and open-access publication, including open-access data and programming [REF].  -->
 
@@ -416,7 +416,7 @@ bad_amnat <- paste(bad_amnat, collapse = ", ")
 
 We conducted a series of data processing steps to determine the most popular 1- and 2-grams in various time periods.
 To speed computation, we began by filtering the full data set down to the top 7000 1- and 2-grams over each respective decade or time window.
-We then removed all n-grams that included numbers, we removed all 1-grams that had three or fewer characters, and we removed 2-grams in which either the first or second term had three or fewer characters.
+We then removed all n-grams that included numbers, all 1-grams that had three or fewer characters, and all 2-grams in which either the first or second term had three or fewer characters
 To focus only on relevant parts of speech, we assigned parts of speech with the TreeTager probabilistic part-of-speech tagger [@schmid1994] via the R [@r2018] package koRpus [@korpus2018].
 For 1-grams, we retained only nouns. For 2-grams, we retained only adjectives and nouns. Using the same TreeTager parsing, we aggregated all remaining n-grams by their lemmas.
 For example, "plant" and "plants" are both derived from the same lemma "plant" and were combined.
@@ -426,7 +426,7 @@ After these filtering steps, we retained the top nine 1- and 2-grams in the time
 We then divided our eight decade time period into four time periods (1920--1959, 1960--1979, 1980--1999, 2000--2010) and pulled the top 144 1- and 2-grams for each (Fig. \@ref(fig:giant-1-1920)--\@ref(fig:giant-2-2000)).
 We chose longer time periods for the earlier years to maintain a reasonable signal-to-noise ratio given the increasing sample size over time.
 
-Using the filtered dataset as described above with the top 800 1- and 2-grams, we determined the n-grams with the most rapid increases and decreases by fitting generalized linear models. We fit models of the form: $y_i \sim \mathrm{QuasiPoisson}(\mu_i),\ $ $\log(\mu_i) = \beta_0 + \beta_1 \mathrm{year_i} + \log(\mathrm{total}_i)$, where $y_i$ refers to the number of occurrences of a given n-gram in year $i$, $\mu_i$ refers to the expected number of occurrences, the $\beta$ terms refer to estimated parameters, "year" refers to a respective year, and "$\mathrm{total}_i$", which acts as an offset term, refers to the total number of 1-grams in year $i$. The QuasiPoisson distribution, fit in R [@r2018], allows for dispersion beyond the Poisson distribution (i.e., variance that scales faster than the mean). We sorted the n-grams by their $\beta_1$ coefficient values in the above model to determine the nine 1- and 2-grams with the most rapid increases and decreases from 1930--1960 and 1980--2010.
+Using the filtered dataset as described above with the top 800 1- and 2-grams, we determined the n-grams with the most rapid increases and decreases by fitting generalized linear models. We fit models of the form: $y_i \sim \mathrm{QuasiPoisson}(\mu_i),\ $ $\log(\mu_i) = \beta_0 + \beta_1 \mathrm{year}_i + \log(\mathrm{total}_i)$, where $y_i$ refers to the number of occurrences of a given n-gram in year $i$, $\mu_i$ refers to the expected number of occurrences, the $\beta$ terms refer to estimated parameters, $\mathrm{year}_i$ refers to a respective year, and "$\mathrm{total}_i$", which acts as an offset term, refers to the total number of 1-grams in year $i$. The QuasiPoisson distribution, fit in R [@r2018], allows for dispersion beyond the Poisson distribution (i.e., variance that scales faster than the mean). We sorted the n-grams by their $\beta_1$ coefficient values in the above model to determine the nine 1- and 2-grams with the most rapid increases and decreases from 1930--1960 and 1980--2010.
 
 When presenting these and all subsequent timeseries, we fit generalized additive models with the R package mgcv [@wood2017] to characterize the general trends and uncertainty about those trends. We fit models of the form $y_i \sim \mathrm{QuasiPoisson}(\mu_i),\ $ $\log(\mu_i) = \beta_0 + s(\mathrm{year_i}) + \log(\mathrm{total}_i)$, where all symbols have the same meaning as in the previous paragraph and the term $s(\mathrm{year_i})$ represents a thin-plate regression spline [@wood2003] smoother over time.
 
@@ -434,7 +434,7 @@ We conducted our fill-in-the-blank analysis (Fig. \@ref(fig:blanks), Fig. \@ref(
 
 ## Curated panels
 
-In addition to the algorithmic analyses described above, we assembled "hand-curated" panels in which we used our knowledge of the field to explore groups of related terms in the corpus (Fig. \@ref(fig:ecology)--\@ref(fig:social)). We developed these term groups through brainstorming sessions and iterative consultation with other postdoctoral fellows and alumni of the David H. Smith Conservation Research Fellowship Program. In many cases, we combined multiple related n-grams under a single umbrella term in the figures. For example, *GLM* and *generalized linear model* (and their plural forms) all appear as *GLM* in Fig. \@ref(fig:methods) and *human health*, *child health*, *childrens health*, *human health*, and *womens health* all appear as *human health* in Fig. \@ref(fig:social). The subcomponents of these umbrella terms can be seen in Fig. \@ref(fig:community-all)--\@ref(fig:social-all).
+In addition to the algorithmic analyses described above, we assembled "hand-curated" panels in which we used our knowledge of the field to explore groups of related terms in the corpus (Fig. \@ref(fig:ecology)--\@ref(fig:social)). We developed these term groups through brainstorming sessions and iterative consultation with other postdoctoral fellows and alumni of the David H. Smith Conservation Research Fellowship Program. In many cases, we combined multiple related n-grams under a single umbrella term in the figures. For example, *GLM* and *generalized linear model* (and their plural forms) all appear as *GLM* in Fig. \@ref(fig:methods) and *human health*, *child health*, *childrens health*, and *womens health* all appear as *human health* in Fig. \@ref(fig:social). The subcomponents of these umbrella terms can be seen in Fig. \@ref(fig:community-all)--\@ref(fig:social-all).
 
 \clearpage
 
