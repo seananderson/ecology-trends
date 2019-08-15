@@ -19,7 +19,7 @@ date: |
   ^4^Department of Biology, University of Michigan-Flint, Flint, MI 48502, USA\
   ^5^Department of Biology, University of Massachusetts Boston, 100 Morrissey Blvd., Boston, MA 02125, USA
   ^6^Duke Univ Marine Lab, 135 Duke Marine Lab Road, Beaufort, NC 28516, USA\
-  ^7^Department of Biology and Environmental Studies, St. Olaf College, Northfield, MN 55057, USA\
+  ^7^Departments of Biology and Environmental Studies, St. Olaf College, Northfield, MN 55057, USA\
   ^8^Department of Biological Sciences, University of Pittsburgh, 4249 Fifth Avenue, Pittsburgh, Pennsylvania 15260, USA\
   ^9^Climate Change Institute, University of Maine, Orono, ME, 04469, USA\
   ^10^Department of Integrative Biology and AgBio Research, Michigan State University, East Lansing, MI 48824, USA\
@@ -324,7 +324,8 @@ Our results, based on the first-ever full-text analysis of multiple ecology and 
 There has been a notable shift in ecologists' descriptions of analytical techniques, demonstrating the evolution of ecological research into a more quantitative and data-driven field of study (Fig. \@ref(fig:decades), Fig. \@ref(fig:methods)).
 In particular, ecologists have adopted many statistical paradigms (e.g., *Bayesian*, *AIC*, and *MCMC*) and genetic analytical techniques (e.g., *phylogenetics*, *Omics*, and *next generation sequencing*) over the past three decades, drawing from other disciplines such as computer science, engineering, and molecular biology.
 The increased use of these terms highlights the importance of advanced training in statistics, genetic techniques, and computer programming.
-In contrast, *natural history* has remained steadily in the lexicon for eight decades  (Fig. \@ref(fig:cons)a), while the loss of natural history from ecological curricula is mourned and debated [@tewksbury2014; @able2016; @barrows2016].
+This shift towards analytical techniques has not appeared to come at a loss to natural history (Fig. \@ref(fig:cons)a)---a loss that has been mourned and debated [@tewksbury2014; @able2016; @barrows2016].
+Instead, our results suggest there is room for both natural history and rigorous quantitative analysis.
 From the perspective of preparing students to publish in the field, our results reinforce the call to refocus ecological statistical education from declining recipe-based approaches (e.g., *ANOVA*s) to probability theory, programming, and simulation-based approaches [@mcelreath2015].
 
 Our approach expands upon prior culturomic studies that focused on shorter periods of time [@mccallen2019] or smaller bodies of text [@kim2018; @mccallen2019] allowing us to put our results in a broader context.
@@ -345,10 +346,11 @@ Our corpus does not include some prominent journals that publish ecological rese
 Third, the quality of the corpus improves through time---the data from the earlier years in our analysis are based on much smaller sample sizes than the more recent data (Fig. \@ref(fig:totals-by-journal), \@ref(fig:total-by-year)), and the data from the earlier years is mostly based on Optical Character Recognition (OCR), which is used to turn scanned PDFs into text with some inevitable errors.
 Despite these unavoidable caveats, we see considerable merit in our full-text analysis of multiple ecological journals in terms of accomplishing a broad overview of the field and contributing to a growing body of knowledge through multiple lines of inference.
 
-Our analyses allow ecologists to reflect on the past, present, and future of their field. 
+Our analyses allow ecologists to reflect on the past, present, and future of their field.
 Within eight decades, the field has evolved from focusing on natural history and observational field studies to a multidisciplinary field that is more applied and quantitative in scope.
  <!-- and that supports a much wider diversity of practitioners -->
 Undoubtedly, the fields of ecology and conservation have and will continue to grow and adopt approaches developed elsewhere, such as analyses of increasingly large datasets and the use of deep learning [@christin2018], which will empower ecologists to answer questions that were previously unanswerable and create niches for more types of ecologists in the future.
+<!-- TODO M.A.H: I think somewhere in here we can make the case for the growth of the field becoming more diverse, including natural history and field work AS WELL AS lab-based genetics or theoretical-based work...-->
 Yet, while quantitative and meta-analysis-style research---this paper included---are valuable [@osenberg1999], if ecology wishes to maintain its natural-history and fundamental-science roots, the field needs to prioritize such a focus through research funding bodies and educational curricula.
 As we see it, elements of ecology today are almost unrecognizable from the field 90 years ago; only time will tell if this rate of evolution will continue, leaving ecologists in 2100 with a similar sentiment.
 
@@ -464,7 +466,7 @@ include_graphics(here("figs/ecology-panels3.pdf"))
 
 \clearpage
 
-(ref:fig-conservation-cap) **Conservation and applied ecology n-grams from 1930--2010.** 
+(ref:fig-conservation-cap) **Conservation and applied ecology n-grams from 1930--2010.**
 Caption is the same as for Fig. \@ref(fig:ecology).
 
 ```{r cons, fig.cap = "(ref:fig-conservation-cap)"}
