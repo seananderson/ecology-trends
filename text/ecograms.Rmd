@@ -2,30 +2,31 @@
 title: "Trends in ecology and conservation over eight decades"
 author:
 - "Sean C. Anderson^1^"
-- "Paul R. Elsen^2^"
-- "Brent B. Hughes^3^"
-- "Rebecca K. Tonietto^4^"
+- "Paul R. Elsen^2,3^"
+- "Brent B. Hughes^4^"
+- "Rebecca K. Tonietto^5^"
 - "Molly C. Bletz^5^"
-- "David A. Gill^6^"
-- "Meredith A. Holgerson^7^"
-- "Sara E. Kuebbing^8^"
-- "Caitlin McDonough MacKenzie^9^"
-- "Mariah H. Meek^10^"
-- "Diogo Veríssimo^11,12,13^"
+- "David A. Gill^7^"
+- "Meredith A. Holgerson^8^"
+- "Sara E. Kuebbing^9^"
+- "Caitlin McDonough MacKenzie^10^"
+- "Mariah H. Meek^11^"
+- "Diogo Veríssimo^12,13,14^"
 date: |
   ^1^Pacific Biological Station, Fisheries and Oceans Canada, Nanaimo, BC, V6T 6N7, Canada\
-  ^2^Department of Forest and Wildlife Ecology, University of Wisconsin-Madison, WI 53706, USA\
-  ^3^Department of Biology, Sonoma State University, Rohnert Park, CA 94928, USA\
-  ^4^Department of Biology, University of Michigan-Flint, Flint, MI 48502, USA\
-  ^5^Department of Biology, University of Massachusetts Boston, 100 Morrissey Blvd., Boston, MA 02125, USA
-  ^6^Duke Univ Marine Lab, 135 Duke Marine Lab Road, Beaufort, NC 28516, USA\
-  ^7^Departments of Biology and Environmental Studies, St. Olaf College, Northfield, MN 55057, USA\
-  ^8^Department of Biological Sciences, University of Pittsburgh, 4249 Fifth Avenue, Pittsburgh, Pennsylvania 15260, USA\
-  ^9^Climate Change Institute, University of Maine, Orono, ME, 04469, USA\
-  ^10^Department of Integrative Biology and AgBio Research, Michigan State University, East Lansing, MI 48824, USA\
-  ^11^Oxford Department of Zoology, University of Oxford, Oxford, United Kingdom\
-  ^12^Oxford Martin School, University of Oxford, Oxford, United Kingdom\
-  ^13^San Diego Zoo Institute for Conservation Research, Escondido, CA, USA\
+  ^2^Department of Environmental Science, Policy, and Management, University of California Berkeley, Berkeley, CA 94720\
+  ^3^Wildlife Conservation Society, Bronx, NY 10460\
+  ^4^Department of Biology, Sonoma State University, Rohnert Park, CA 94928, USA\
+  ^5^Department of Biology, University of Michigan-Flint, Flint, MI 48502, USA\
+  ^6^Department of Biology, University of Massachusetts Boston, 100 Morrissey Blvd., Boston, MA 02125, USA\
+  ^7^Duke University Marine Lab, 135 Duke Marine Lab Road, Beaufort, NC 28516, USA\
+  ^8^Departments of Biology and Environmental Studies, St. Olaf College, Northfield, MN 55057, USA\
+  ^9^Department of Biological Sciences, University of Pittsburgh, 4249 Fifth Avenue, Pittsburgh, Pennsylvania 15260, USA\
+  ^10^Climate Change Institute, University of Maine, Orono, ME, 04469, USA\
+  ^11^Department of Integrative Biology and AgBio Research, Michigan State University, East Lansing, MI 48824, USA\
+  ^12^Oxford Department of Zoology, University of Oxford, Oxford, United Kingdom\
+  ^13^Oxford Martin School, University of Oxford, Oxford, United Kingdom\
+  ^14^San Diego Zoo Institute for Conservation Research, Escondido, CA, USA\
 output:
   bookdown::pdf_document2:
     number_sections: no
@@ -38,7 +39,7 @@ link-citations: yes
 linkcolor: "blue"
 urlcolor: "blue"
 abstract: >
-  The fields of ecology and conservation have evolved rapidly over the last century. Synthesizing larger trends in these fields remains a challenge, yet is critical to bridging subdisciplines, guiding research, and informing educational frameworks. Here, we provide the largest full-text culturomic analysis of ecology and conservation journals, covering eight decades, 52 journals, and half a billion words. Our analysis illuminates the boom and bust of ecological hypotheses and theories; the adoption of statistical, genetic, and social science approaches; and the domination of terms that emerged in recent decades (e.g., climate change, invasive species, ecosystem services, meta-analysis). We track the evolution of ecology from a largely descriptive field focused on natural history and observational studies to a more data-driven, multidisciplinary field focused on applied environmental issues. Overall, our analysis highlights the increasing breadth of the field, illustrating that there is room for more types of ecologists today than ever before.
+  The fields of ecology and conservation have evolved rapidly over the last century. Synthesizing larger trends in these fields remains a challenge, yet is critical to bridging subdisciplines, guiding research, and informing educational frameworks. Here, we provide the largest full-text culturomic analysis of ecology and conservation journals, covering eight decades, 52 journals, and half a billion words. Our analysis illuminates the boom and bust of ecological hypotheses and theories; the adoption of statistical, genetic, and social science approaches; and the domination of terms that emerged in recent decades (e.g., climate change, invasive species, ecosystem services, meta-analysis). We track the evolution of ecology from a largely descriptive field focused on natural history and observational studies to a more data-driven, multidisciplinary field focused on applied environmental issues. Overall, our analysis highlights the increasing breadth of the field, illustrating that there is room for more diversity of ecologists today than ever before.
 ---
 
 <!--
@@ -145,7 +146,7 @@ The fields of ecology and conservation have experienced rapid growth since the d
 Today, hundreds of ecology journals represent subdisciplines spanning in scope from theoretical to applied and in scale from genomes to ecosystems.
 In light of such rapid growth and diversification, synthesizing larger trends in a field can be challenging, yet broad overviews are critical for bridging subdisciplines [@staples2019; @margles2010], guiding new research, and informing funding directions and educational frameworks [@mccallen2019].
 <!-- become "siloed" in their own subdisciplines, thereby forming their own jargon and missing conceptual bridges or opportunities for interdisciplinary collaboration [@staples2019; @margles2010] -->
-<!-- Reviewing the evolution of a field's lexicon can faciliate discussions about deconstructing  colonial language and implicit biases, allowing space for growth into a more equitable and inclusive discipline.  https://www.sciencemag.org/news/2019/04/historians-expose-early-scientists-debt-slave-trade https://github.com/seananderson/ecology-trends/issues/32-->
+<!-- Reviewing the evolution of a field's lexicon can facilitate discussions about deconstructing  colonial language and implicit biases, allowing space for growth into a more equitable and inclusive discipline.  https://www.sciencemag.org/news/2019/04/historians-expose-early-scientists-debt-slave-trade https://github.com/seananderson/ecology-trends/issues/32-->
 <!-- Ecology does not lack reflections on the state of the field [e.g., -->
 <!-- <!-- @barrows2016;  -->
 <!-- <!-- @reiners2017;  -->
@@ -185,12 +186,12 @@ Over the last eighty years, the most commonly used 1- and 2-grams in ecology gen
 \@ref(fig:decades)a--d; Fig. \@ref(fig:declines-supp); Fig. \@ref(fig:giant-1-1920)--\@ref(fig:giant-2-2000)).
 Of the nine 1-grams that were most common in the 1940s, only the top three remained the same in the 2000s: *species*, *plant*, and *area*.
 However, the remaining most-common 1-grams in the 1940s (e.g., *time*, *water*, *number*) and all top-nine 2-grams from that era (e.g., *organic matter*, *soil moisture*) declined in use over time (Fig. \@ref(fig:decades)a--b), whereas many of the most popular 2-grams in the 2000s barely appeared in the corpus until after 1970 (Fig. \@ref(fig:decades)d).
-By far, the 1- and 2-grams with the greatest rise in use over time were *climate* and *climate change* (Fig. \@ref(fig:decades)d--f), as the ecological effects of climate change impacted study systems and overshadowed other drivers [@li2011; @scheffers2016; @staples2019] (Fig. \@ref(fig:decades)e).
+By far, the 1- and 2-grams with the greatest rise in use over time were *climate* and *climate change* (Fig. \@ref(fig:decades)d--f), as the ecological effects of climate change impacted study systems and overshadowed other drivers [@li2011; @scheffers2016; @staples2019].
 To that end, the 1- and 2-grams with the most rapid increases from 1980--2010 reflected a strong trend towards applied ecological research and other associated fields (e.g., *conservation*, *impact*, *biodiversity*, *ecosystem service*, *invasive species*; Fig. \@ref(fig:decades)e--f).
 
 Changes in popular terms between the 1940s and 2000s reflected both shifts in science culture and changing societal needs.
 In the 1940s, popular terms such as *time*, *number*, and *day* (Fig. \@ref(fig:decades)a) referenced descriptive data.
-Popular data-related terms in the modern era included *data*, *effect*, and *model* (Fig. \@ref(fig:decades)c).
+Popular data-related terms in the modern era included *model*, *effect*, and *data* (Fig. \@ref(fig:decades)c).
 This shift likely represented both a replacement of terminology and a transition from a largely descriptive discipline to a more quantitative one [@rios-saldana2018].
 Popular terms in the 1940s included *blue grama* (*Bouteloua gracilis*) and *wheat grass* (genus *Agropyron*) (Fig. \@ref(fig:decades)b), which likely had greater significance during and after the Dust Browl drought experienced in the North American prairies in the 1930s [@mueller1942; @worster2004].
 This focus on agricultural research---in an era that culminated in the formation of the Food and Agriculture Organization of the United Nations [@yates1946]---was supported by other 2-grams from the 1940s, such as *organic matter*, *soil moisture*, and *fresh water* (Fig. \@ref(fig:decades)b).
@@ -308,7 +309,7 @@ Over the last few decades, ecologists paid increasing attention to the human dim
 \@ref(fig:social), Fig. \@ref(fig:social-all)).
 Since the 1990s, references to market or *community-based management* interventions gained traction---particularly environmental certification programs and payment for ecosystem services schemes such as the Reducing Emissions from Deforestation and Forest Degradation (*REDD*) program (Fig. \@ref(fig:social)a).
 We also observed an increased focus on *human well-being* (Fig. \@ref(fig:social)b), with a spike of references to *human health* in the 1970s and, more recently, an overall growth in references to *poverty*, *food security*, and overall *human well-being* since the 1990s.
-This trend is parallelled by the rise in frequency of the terms *ecosystem service* and *ecosystem function* (Fig. \@ref(fig:blanks)j), which are two terms that explicitly focus on ecological processes in terms of their benefits to humans.
+This trend is paralleled by the rise in frequency of the terms *ecosystem service* and *ecosystem function* (Fig. \@ref(fig:blanks)j), which are two terms that explicitly focus on ecological processes in terms of their benefits to humans.
 Given the increased focus on the human dimensions of conservation over the last decades [@bennett2017], it makes sense that social science methods such as *interviews* and *questionnaires* would become more widely noted in the literature (Fig. \@ref(fig:social)c).
 Ecology is just starting to acknowledge different ways of knowing; however, qualitative methods such as *focus groups*, *ethnography*, or *participant observation* remained scarcely referenced, which supports the assertion that ecology and conservation continued to rely mostly on quantitative approaches [@moon2016] (Fig. \@ref(fig:social)c).
 Parallel to the increased focus on human well-being since the 1970s, we observed an increased frequency of n-grams related to *stakeholders*, *local communities*, and *indigenous people* (Fig. \@ref(fig:social)d).
@@ -385,12 +386,12 @@ All code to conduct our analysis is available at <https://github.com/seananderso
 We worked with the JSTOR data team to extract n-gram data from the full text of their database for a set of journals relevant to ecology and conservation. To select a set of journals, we reviewed all journals from the "Ecology & Evolutionary Biology" and "Biological Sciences" subject groups to evaluate their suitability for the analysis. We eliminated journals from our corpus according to the following rules:
 (1) We removed all journals that were taxonomically specific (e.g., we removed *Annals of Botany*) to reduce taxonomic bias in our corpus through time.
 <!-- n = 62 -->
-This step reduced the corpus from approximately one billion words to just over 0.5 billion words, although the patterns in the "curated panels" (Fig. \@ref(fig:ecology)--\@ref(fig:social)) remained largely unchanged with the inclusion of taxonomically specific journals.
+This step reduced the corpus from approximately one billion words to just over 0.5 billion words, although the patterns in the "curated panels" (Fig. \@ref(fig:ecology)--\@ref(fig:social)) remained largely unchanged with the inclusion of taxonomically specific journals (not shown).
 (2) We removed all journals that were not in English.
 <!-- n = 18 -->
 (3) We removed all journals that were not focused on ecology or conservation (e.g., we removed journals that were purely biology focused).
 <!-- n = 98 -->
-(4) We removed journals that appeared in the JSTOR database for less than 10 years unless they were still in the database as of 2010 or continued under a different name (e.g., TODO and TODO).
+(4) We removed journals that appeared in the JSTOR database for less than 10 years unless they were still in the database as of 2010 or continued under a different name.
 <!-- TODO: add example -->
 This focused our corpus on long-standing journals and reduced the influence of journals appearing and disappearing from the corpus and thereby influencing trends.
 (5) To reduce regional biases, we removed journals that were specific with respect to longitude (e.g., *Great Basin Naturalist Memoirs*), but retained journals that were specific with respect to latitude (e.g., *Arctic and Alpine Research*).
@@ -442,7 +443,7 @@ In addition to the algorithmic analyses described above, we assembled "hand-cura
 
 # Figures
 
-(ref:fig-decades-cap) **Top n-grams from the 1940s and 2000s.** (**a--d**) Top nine 1-gram nouns and 2-gram nouns or adjectives from the 1940s and 2000s. Labels refer to "lemmas" or root words. For example, the 1-grams plant and plants are both combined and labelled as "plant". (**e--f**) Most rapidly increasing 1-gram nouns and 2-gram nouns or adjectives from 1980--2010. Light grey lines indicate frequency of the n-gram per 100,000 words. Dark coloured trend lines and associated shaded ribbons represent generalized additive model fits with +/- 1 standard error (68%) confidence intervals (see Methods).
+(ref:fig-decades-cap) **Top n-grams from the 1940s and 2000s.** (**a--d**) Top nine 1-gram nouns and 2-gram nouns or adjectives from the 1940s and 2000s. Labels refer to "lemmas" or root words. For example, the 1-grams "plant" and "plants" are both combined and labelled as "plant". (**e--f**) Most rapidly increasing 1-gram nouns and 2-gram nouns or adjectives from 1980--2010. Light grey lines indicate frequency of the n-gram per 100,000 words. Dark coloured trend lines and associated shaded ribbons represent generalized additive model fits with +/- 1 standard error (68%) confidence intervals (see Methods). N-grams are labeled in the same order as the trend lines and are connected via a thin straight grey line.
 
 ```{r decades, fig.cap = "(ref:fig-decades-cap)", out.width="5.6in", fig.align="center", fig.pos="h"}
 include_graphics(here("figs/decades-and-booms-viridis.pdf"))
@@ -467,7 +468,7 @@ include_graphics(here("figs/ecology-panels3.pdf"))
 \clearpage
 
 (ref:fig-conservation-cap) **Conservation and applied ecology n-grams from 1930--2010.**
-Caption is the same as for Fig. \@ref(fig:ecology).
+Details are otherwise the same as for Fig. \@ref(fig:ecology).
 
 ```{r cons, fig.cap = "(ref:fig-conservation-cap)"}
 include_graphics(here("figs/conservation-human-impacts.pdf"))
@@ -476,7 +477,7 @@ include_graphics(here("figs/conservation-human-impacts.pdf"))
 \clearpage
 
 (ref:fig-methods-cap) **Data analysis, statistical methods, and genetics n-grams from 1930--2010.**
-Caption is the same as for Fig. \@ref(fig:ecology).
+Details are otherwise the same as for Fig. \@ref(fig:ecology).
 *ANOVA*: analysis of variance,
 *GLM*: generalized linear model,
 *AIC*: Akaike information criterion,
@@ -491,7 +492,7 @@ include_graphics(here("figs/methods-models-genetics2.pdf"))
 \clearpage
 
 (ref:fig-social-cap) **Social science n-grams relevant to ecology from 1930--2010.**
-Caption is the same as for Fig. \@ref(fig:ecology).
+Details are otherwise the same as for Fig. \@ref(fig:ecology).
 *REDD*: Reducing Emissions from Deforestation and Forest Degradation.
 
 ```{r social, fig.cap = "(ref:fig-social-cap)"}
