@@ -34,7 +34,7 @@ output:
     template: "article.tex"
     keep_tex: true
 bibliography: "refs.bib"
-csl: "nature.csl"
+csl: "ecology.csl"
 link-citations: yes
 linkcolor: "blue"
 urlcolor: "blue"
@@ -141,10 +141,10 @@ journals$Journal[journals$Journal == "Ã‰coscience"] <- "Écoscience"
 n_journals <- nrow(dplyr::filter(journals, `Taxon Specific` == "N"))
 ```
 
-The fields of ecology and conservation have experienced rapid growth since the discipline-specific journal, *Ecology*, was first published over a century ago [@reiners2017; @kim2018].
+The fields of ecology and conservation have experienced rapid growth since the discipline-specific journal, *Ecology*, was first published over a century ago [e.g., @reiners2017; @kim2018].
 <!-- The field as a whole arose in the late 19th or early 20th century drawing from a broad set of disciplines including geography, geology, evolutionary biology, systematics, physiology, natural history, and natural resource management [@simberloff1980; @egerton1983; @kingsland2005; @ayres2012; @huston2016]. -->
 Today, hundreds of ecology journals represent subdisciplines spanning in scope from theoretical to applied and in scale from genomes to ecosystems.
-In light of such rapid growth and diversification, synthesizing larger trends in a field can be challenging, yet broad overviews are critical for bridging subdisciplines [@staples2019; @margles2010], guiding new research, and informing funding directions and educational frameworks [@mccallen2019].
+In light of such rapid growth and diversification, synthesizing larger trends in a field can be challenging, yet broad overviews are critical for bridging subdisciplines [@margles2010; @staples2019], guiding new research, and informing funding directions and educational frameworks [@mccallen2019].
 <!-- become "siloed" in their own subdisciplines, thereby forming their own jargon and missing conceptual bridges or opportunities for interdisciplinary collaboration [@staples2019; @margles2010] -->
 <!-- Reviewing the evolution of a field's lexicon can facilitate discussions about deconstructing  colonial language and implicit biases, allowing space for growth into a more equitable and inclusive discipline.  https://www.sciencemag.org/news/2019/04/historians-expose-early-scientists-debt-slave-trade https://github.com/seananderson/ecology-trends/issues/32-->
 <!-- Ecology does not lack reflections on the state of the field [e.g., -->
@@ -165,9 +165,7 @@ In light of such rapid growth and diversification, synthesizing larger trends in
 
 The discipline of culturomics---the quantitative analysis of large bodies of text---offers a rich framework with which to track the evolution of a field through time [@michel2011; @ladle2016].
 Specifically, word use in the published literature can serve as a proxy for tracking realized versus perceived importance of fundamental concepts and terms.
-This approach has been applied to smaller subsets of the ecological literature, notably a century of titles and abstracts in the journal *Ecology* [@kim2018], automated content analysis of titles and abstracts in top ecology journals based on impact factor [@mccallen2019], and more specific research questions restricted to certain regions or taxa [e.g., @beale2018, @Correia2018].
-
-<!-- The discipline of culturomics---the quantitative analysis of large bodies of text---offers a rich framework with which to track the evolution of a field through time [@michel2011; @ladle2016]. Specifically, word use in the published literature can serve as a proxy for tracking realized, versus perceived, importance. This approach has been applied to subsets of the ecological literature, notably a century of titles and abstracts in the journal *Ecology* [@kim2018], automated content analysis of titles and abstracts in top ecology journals based on impact factor [@mccallen2019], and more specific research questions restricted to certain regions or taxa [e.g., @beale2018]. -->
+This approach has been applied to smaller subsets of the ecological literature, notably a century of titles and abstracts in the journal *Ecology* [@kim2018], automated content analysis of titles and abstracts in top ecology journals based on impact factor [@mccallen2019], and more specific research questions restricted to certain regions or taxa [e.g., @beale2018].
 
 Here, we build on previous analyses [e.g., @carmel2013; @reiners2017; @courchamp2018; @kim2018; @mccallen2019] with the first full-text analysis of ecology and conservation journals over eight decades encompassing `r n_journals` journals, 131,533 articles, and over half a billion words.
 We analyze the JSTOR full-text corpus from 1930 to 2010---the period of time with the most robust journal coverage in the JSTOR database---for all journals that regularly publish ecological or conservation papers and are not regionally or taxonomically exclusive.
@@ -177,6 +175,70 @@ We standardized n-gram frequency by total words per year published across all in
 We derived our n-gram selection through both algorithmic and hand-curated approaches: (1) drawing on the most frequent and rapidly growing/declining n-grams in various decades and (2) developing logical groupings of terms that fall under key ecology and conservation themes (see Methods).
 
 <!-- Our approach therefore enables data-derived comparisons of trends in ecology and conservation to yield insights into the evolution of key concepts, analytical techniques, and entire subdisciplines in these fields. -->
+
+# Methods
+
+## Data
+
+<!-- all: 295 -->
+
+We worked with the JSTOR data team to extract n-gram data from the full text of their database for a set of journals relevant to ecology and conservation. To select a set of journals, we reviewed all journals from the "Ecology & Evolutionary Biology" and "Biological Sciences" subject groups to evaluate their suitability for the analysis. We eliminated journals from our corpus according to the following rules:
+(1) We removed all journals that were taxonomically specific (e.g., we removed *Annals of Botany*) to reduce taxonomic bias in our corpus through time.
+<!-- n = 62 -->
+This step reduced the corpus from approximately one billion words to just over 0.5 billion words (although the main patterns
+<!-- in the "curated panels" (Fig. \@ref(fig:ecology)--\@ref(fig:social))  -->
+remained largely unchanged with the inclusion of taxonomically specific journals; not shown).
+(2) We removed all journals that were not in English.
+<!-- n = 18 -->
+(3) We removed all journals that were not focused on ecology or conservation (e.g., we removed journals that were purely biology focused).
+<!-- n = 98 -->
+(4) We removed journals that appeared in the JSTOR database for less than 10 years unless they were still in the database as of 2010 or continued under a different name.
+<!-- TODO: add example -->
+This focused our corpus on long-standing journals and reduced the influence of journals appearing and disappearing from the corpus and thereby influencing trends.
+(5) To reduce regional biases, we removed journals that were specific with respect to longitude (e.g., *Great Basin Naturalist Memoirs*), but retained journals that were specific with respect to latitude (e.g., *Arctic and Alpine Research*).
+<!-- n = 24 -->
+In total, our corpus included `r n_journals` journals or continuations of the same journal under different names (Table \@ref(tab:included-journals), Fig. \@ref(fig:totals-by-journal)).
+We focused on 1-, 2-, and 3-grams since most common terms we were interested in were three words or less and the computational burden increased substantially with n-gram length.
+
+```{r}
+# Removed PNAS IDs:
+pnas_excluded_pub_ids <-
+  readRDS(here::here("data/generated/pnas_exluded_pub_ids.rds"))
+```
+
+Our initial analyses revealed a number of necessary data-cleaning steps prior to our final analysis. (1) Our initial corpus was dominated by data from *Proceedings of the National Academy of Sciences* (*PNAS*), which also publishes a high volume of papers not relevant to ecology or conservation. Therefore, we excluded all papers (`r length(pnas_excluded_pub_ids)`) from *PNAS* that did not include one of the 1-grams *ecology* or *ecological*. (2) We removed a series of terms from the typesetting system TeX that were inadvertently included from the *American Naturalist* (e.g., "amsmath" and "documentclass") (Table \@ref(tab:bad-amnat)). (3) We limited our analysis to 1930--2010. Before 1930, there was a considerably more limited set of journals included in the corpus, and after 2010, the number of journals in the JSTOR corpus and the total number of words began to decline as more recent volumes were not yet included in the dataset (Fig. \@ref(fig:total-by-year)). These issues led to presumably spurious trends before 1930 and after 2010.
+
+<!-- Our approach underscores the value of data sets such as the JSTOR n-gram data in quantifying trends within a scientific discipline. Similar analyses are likely to become even more fruitful going forward with the increasing popularity of ecological pre-print libraries [REF] and open-access publication, including open-access data and programming [REF].  -->
+
+```{r}
+bad_amnat <- readr::read_lines(here::here("data/bad-amnat.txt")) # latex code
+bad_amnat <- tolower(sort(bad_amnat))
+bad_amnat <- paste(bad_amnat, collapse = ", ")
+```
+
+## Algorithmic panels
+
+We conducted a series of data processing steps to determine the most popular 1- and 2-grams in various time periods.
+To speed computation, we began by filtering the full data set down to the top 7000 1- and 2-grams over each respective decade or time window.
+We then removed all n-grams that included numbers, all 1-grams that had three or fewer characters, and all 2-grams in which either the first or second term had three or fewer characters
+To focus only on relevant parts of speech, we assigned parts of speech with the TreeTager probabilistic part-of-speech tagger [@schmid1994] via the R [@r2018] package koRpus [@korpus2018].
+For 1-grams, we retained only nouns. For 2-grams, we retained only adjectives and nouns. Using the same TreeTager parsing, we aggregated all remaining n-grams by their lemmas.
+For example, "plant" and "plants" are both derived from the same lemma "plant" and were combined.
+At this stage, we retained the top 800 1- and 2-gram lemmas by the frequency over the entire time span.
+We then excluded a set of n-grams that would primarily be used as affiliations or journal names or were frequent figures of speech unrelated to ecology (Tables \@ref(tab:exclusion-n-grams) and \@ref(tab:exclusion-n-grams-giants)).
+After these filtering steps, we retained the top nine 1- and 2-grams in the time periods 1940--1949 and 2000--2009 for plotting in Fig. \@ref(fig:decades).
+We then divided our eight decade time period into four time periods (1920--1959, 1960--1979, 1980--1999, 2000--2010) and pulled the top 144 1- and 2-grams for each (Fig. \@ref(fig:giant-1-1920)--\@ref(fig:giant-2-2000)).
+We chose longer time periods for the earlier years to maintain a reasonable signal-to-noise ratio given the increasing sample size over time.
+
+Using the filtered dataset as described above with the top 800 1- and 2-grams, we determined the n-grams with the most rapid increases and decreases by fitting generalized linear models. We fit models of the form: $y_i \sim \mathrm{QuasiPoisson}(\mu_i),\ $ $\log(\mu_i) = \beta_0 + \beta_1 \mathrm{year}_i + \log(\mathrm{total}_i)$, where $y_i$ refers to the number of occurrences of a given n-gram in year $i$, $\mu_i$ refers to the expected number of occurrences, the $\beta$ terms refer to estimated parameters, $\mathrm{year}_i$ refers to a respective year, and "$\mathrm{total}_i$", which acts as an offset term, refers to the total number of 1-grams in year $i$. The QuasiPoisson distribution, fit in R [@r2018], allows for dispersion beyond the Poisson distribution (i.e., variance that scales faster than the mean). We sorted the n-grams by their $\beta_1$ coefficient values in the above model to determine the nine 1- and 2-grams with the most rapid increases and decreases from 1930--1960 and 1980--2010.
+
+When presenting these and all subsequent timeseries, we fit generalized additive models with the R package mgcv [@wood2017] to characterize the general trends and uncertainty about those trends. We fit models of the form $y_i \sim \mathrm{QuasiPoisson}(\mu_i),\ $ $\log(\mu_i) = \beta_0 + s(\mathrm{year_i}) + \log(\mathrm{total}_i)$, where all symbols have the same meaning as in the previous paragraph and the term $s(\mathrm{year_i})$ represents a thin-plate regression spline [@wood2003] smoother over time.
+
+We conducted our fill-in-the-blank analysis (Fig. \@ref(fig:blanks), Fig. \@ref(fig:ecology)ef, Fig. \@ref(fig:blanks-supp)) using a similar approach to the top-nine-terms-by-decade approach described above. In contrast, however, we worked with the entire 2-gram dataset. We retained only 2-grams in which the word filling in the blank was at least four characters long. We combined 2-grams if the "blank" words had the same lemma and omitted a number of 2-grams in which the "blank" word rendered a 2-gram that was not ecologically relevant (Table \@ref(tab:bad-blanks)). We also omitted "biological conservation", since it appeared disproportionately as a journal name. We retained the top eight terms according to the total number of occurrences throughout the eight-decade time period.
+
+## Curated panels
+
+In addition to the algorithmic analyses described above, we assembled "hand-curated" panels in which we used our knowledge of the field to explore groups of related terms in the corpus (Fig. \@ref(fig:ecology)--\@ref(fig:social)). We developed these term groups through brainstorming sessions and iterative consultation with other postdoctoral fellows and alumni of the David H. Smith Conservation Research Fellowship Program. In many cases, we combined multiple related n-grams under a single umbrella term in the figures. For example, *GLM* and *generalized linear model* (and their plural forms) all appear as *GLM* in Fig. \@ref(fig:methods) and *human health*, *child health*, *childrens health*, and *womens health* all appear as *human health* in Fig. \@ref(fig:social). The subcomponents of these umbrella terms can be seen in Fig. \@ref(fig:community-all)--\@ref(fig:social-all).
 
 # Results
 
@@ -377,75 +439,13 @@ for their support and helpful discussions.
 The full-text corpus is available through consultation with the JSTOR Data Team (<https://jstor.org)>.
 All code to conduct our analysis is available at <https://github.com/seananderson/ecology-trends> and *insert Zenodo DOI here on publication*.
 
-# Methods
-
-## Data
-
-<!-- all: 295 -->
-
-We worked with the JSTOR data team to extract n-gram data from the full text of their database for a set of journals relevant to ecology and conservation. To select a set of journals, we reviewed all journals from the "Ecology & Evolutionary Biology" and "Biological Sciences" subject groups to evaluate their suitability for the analysis. We eliminated journals from our corpus according to the following rules:
-(1) We removed all journals that were taxonomically specific (e.g., we removed *Annals of Botany*) to reduce taxonomic bias in our corpus through time.
-<!-- n = 62 -->
-This step reduced the corpus from approximately one billion words to just over 0.5 billion words, although the patterns in the "curated panels" (Fig. \@ref(fig:ecology)--\@ref(fig:social)) remained largely unchanged with the inclusion of taxonomically specific journals (not shown).
-(2) We removed all journals that were not in English.
-<!-- n = 18 -->
-(3) We removed all journals that were not focused on ecology or conservation (e.g., we removed journals that were purely biology focused).
-<!-- n = 98 -->
-(4) We removed journals that appeared in the JSTOR database for less than 10 years unless they were still in the database as of 2010 or continued under a different name.
-<!-- TODO: add example -->
-This focused our corpus on long-standing journals and reduced the influence of journals appearing and disappearing from the corpus and thereby influencing trends.
-(5) To reduce regional biases, we removed journals that were specific with respect to longitude (e.g., *Great Basin Naturalist Memoirs*), but retained journals that were specific with respect to latitude (e.g., *Arctic and Alpine Research*).
-<!-- n = 24 -->
-In total, our corpus included `r n_journals` journals or continuations of the same journal under different names (Table \@ref(tab:included-journals), Fig. \@ref(fig:totals-by-journal)).
-We focused on 1-, 2-, and 3-grams since most common terms we were interested in were three words or less and the computational burden increased substantially with n-gram length.
-
-```{r}
-# Removed PNAS IDs:
-pnas_excluded_pub_ids <-
-  readRDS(here::here("data/generated/pnas_exluded_pub_ids.rds"))
-```
-
-Our initial analyses revealed a number of necessary data-cleaning steps prior to our final analysis. (1) Our initial corpus was dominated by data from *Proceedings of the National Academy of Sciences* (*PNAS*), which also publishes a high volume of papers not relevant to ecology or conservation. Therefore, we excluded all papers (`r length(pnas_excluded_pub_ids)`) from *PNAS* that did not include one of the 1-grams *ecology* or *ecological*. (2) We removed a series of terms from the typesetting system TeX that were inadvertently included from the *American Naturalist* (e.g., "amsmath" and "documentclass") (Table \@ref(tab:bad-amnat)). (3) We limited our analysis to 1930--2010. Before 1930, there was a considerably more limited set of journals included in the corpus, and after 2010, the number of journals in the JSTOR corpus and the total number of words began to decline as more recent volumes were not yet included in the dataset (Fig. \@ref(fig:total-by-year)). These issues led to presumably spurious trends before 1930 and after 2010.
-
-<!-- Our approach underscores the value of data sets such as the JSTOR n-gram data in quantifying trends within a scientific discipline. Similar analyses are likely to become even more fruitful going forward with the increasing popularity of ecological pre-print libraries [REF] and open-access publication, including open-access data and programming [REF].  -->
-
-```{r}
-bad_amnat <- readr::read_lines(here::here("data/bad-amnat.txt")) # latex code
-bad_amnat <- tolower(sort(bad_amnat))
-bad_amnat <- paste(bad_amnat, collapse = ", ")
-```
-
-## Algorithmic panels
-
-We conducted a series of data processing steps to determine the most popular 1- and 2-grams in various time periods.
-To speed computation, we began by filtering the full data set down to the top 7000 1- and 2-grams over each respective decade or time window.
-We then removed all n-grams that included numbers, all 1-grams that had three or fewer characters, and all 2-grams in which either the first or second term had three or fewer characters
-To focus only on relevant parts of speech, we assigned parts of speech with the TreeTager probabilistic part-of-speech tagger [@schmid1994] via the R [@r2018] package koRpus [@korpus2018].
-For 1-grams, we retained only nouns. For 2-grams, we retained only adjectives and nouns. Using the same TreeTager parsing, we aggregated all remaining n-grams by their lemmas.
-For example, "plant" and "plants" are both derived from the same lemma "plant" and were combined.
-At this stage, we retained the top 800 1- and 2-gram lemmas by the frequency over the entire time span.
-We then excluded a set of n-grams that would primarily be used as affiliations or journal names or were frequent figures of speech unrelated to ecology (Tables \@ref(tab:exclusion-n-grams) and \@ref(tab:exclusion-n-grams-giants)).
-After these filtering steps, we retained the top nine 1- and 2-grams in the time periods 1940--1949 and 2000--2009 for plotting in Fig. \@ref(fig:decades).
-We then divided our eight decade time period into four time periods (1920--1959, 1960--1979, 1980--1999, 2000--2010) and pulled the top 144 1- and 2-grams for each (Fig. \@ref(fig:giant-1-1920)--\@ref(fig:giant-2-2000)).
-We chose longer time periods for the earlier years to maintain a reasonable signal-to-noise ratio given the increasing sample size over time.
-
-Using the filtered dataset as described above with the top 800 1- and 2-grams, we determined the n-grams with the most rapid increases and decreases by fitting generalized linear models. We fit models of the form: $y_i \sim \mathrm{QuasiPoisson}(\mu_i),\ $ $\log(\mu_i) = \beta_0 + \beta_1 \mathrm{year}_i + \log(\mathrm{total}_i)$, where $y_i$ refers to the number of occurrences of a given n-gram in year $i$, $\mu_i$ refers to the expected number of occurrences, the $\beta$ terms refer to estimated parameters, $\mathrm{year}_i$ refers to a respective year, and "$\mathrm{total}_i$", which acts as an offset term, refers to the total number of 1-grams in year $i$. The QuasiPoisson distribution, fit in R [@r2018], allows for dispersion beyond the Poisson distribution (i.e., variance that scales faster than the mean). We sorted the n-grams by their $\beta_1$ coefficient values in the above model to determine the nine 1- and 2-grams with the most rapid increases and decreases from 1930--1960 and 1980--2010.
-
-When presenting these and all subsequent timeseries, we fit generalized additive models with the R package mgcv [@wood2017] to characterize the general trends and uncertainty about those trends. We fit models of the form $y_i \sim \mathrm{QuasiPoisson}(\mu_i),\ $ $\log(\mu_i) = \beta_0 + s(\mathrm{year_i}) + \log(\mathrm{total}_i)$, where all symbols have the same meaning as in the previous paragraph and the term $s(\mathrm{year_i})$ represents a thin-plate regression spline [@wood2003] smoother over time.
-
-We conducted our fill-in-the-blank analysis (Fig. \@ref(fig:blanks), Fig. \@ref(fig:ecology)ef, Fig. \@ref(fig:blanks-supp)) using a similar approach to the top-nine-terms-by-decade approach described above. In contrast, however, we worked with the entire 2-gram dataset. We retained only 2-grams in which the word filling in the blank was at least four characters long. We combined 2-grams if the "blank" words had the same lemma and omitted a number of 2-grams in which the "blank" word rendered a 2-gram that was not ecologically relevant (Table \@ref(tab:bad-blanks)). We also omitted "biological conservation", since it appeared disproportionately as a journal name. We retained the top eight terms according to the total number of occurrences throughout the eight-decade time period.
-
-## Curated panels
-
-In addition to the algorithmic analyses described above, we assembled "hand-curated" panels in which we used our knowledge of the field to explore groups of related terms in the corpus (Fig. \@ref(fig:ecology)--\@ref(fig:social)). We developed these term groups through brainstorming sessions and iterative consultation with other postdoctoral fellows and alumni of the David H. Smith Conservation Research Fellowship Program. In many cases, we combined multiple related n-grams under a single umbrella term in the figures. For example, *GLM* and *generalized linear model* (and their plural forms) all appear as *GLM* in Fig. \@ref(fig:methods) and *human health*, *child health*, *childrens health*, and *womens health* all appear as *human health* in Fig. \@ref(fig:social). The subcomponents of these umbrella terms can be seen in Fig. \@ref(fig:community-all)--\@ref(fig:social-all).
-
 \clearpage
 
 # Figures
 
 (ref:fig-decades-cap) **Top n-grams from the 1940s and 2000s.** (**a--d**) Top nine 1-gram nouns and 2-gram nouns or adjectives from the 1940s and 2000s. Labels refer to "lemmas" or root words. For example, the 1-grams "plant" and "plants" are both combined and labelled as "plant". (**e--f**) Most rapidly increasing 1-gram nouns and 2-gram nouns or adjectives from 1980--2010. Light grey lines indicate frequency of the n-gram per 100,000 words. Dark coloured trend lines and associated shaded ribbons represent generalized additive model fits with +/- 1 standard error (68%) confidence intervals (see Methods). N-grams are labeled in the same order as the trend lines and are connected via a thin straight grey line.
 
-```{r decades, fig.cap = "(ref:fig-decades-cap)", out.width="5.6in", fig.align="center", fig.pos="h"}
+```{r decades, fig.cap = "(ref:fig-decades-cap)", out.width="5.1in", fig.align="center", fig.pos="h"}
 include_graphics(here("figs/decades-and-booms-viridis.pdf"))
 ```
 

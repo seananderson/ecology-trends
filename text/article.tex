@@ -1,12 +1,24 @@
 % \documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$lang$,$endif$$if(papersize)$$papersize$,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
-\documentclass[11pt,english]{article}
+\documentclass[12pt,english]{article}
 \usepackage{geometry}
 \geometry{verbose, letterpaper, tmargin = 2.54cm, bmargin = 2.54cm,
   lmargin = 2.54cm, rmargin = 2.54cm}
 
 \usepackage{caption}
+\textheight 22.2cm
 
 \usepackage{setspace}
+
+\usepackage{titlesec}
+\titlespacing*{\section}
+{0pt}{1.5ex plus 1ex minus .2ex}{1.0ex plus .2ex}
+\titlespacing*{\subsection}
+{0pt}{1.5ex plus 1ex minus .2ex}{1.0ex plus .2ex}
+
+\usepackage{ragged2e}
+\setlength{\RaggedRightParindent}{\parindent}
+\RaggedRight
+\hyphenpenalty=500
 
 % $if(fontfamily)$
 % \usepackage{$fontfamily$}
@@ -232,9 +244,9 @@ $if(title)$
 \maketitle
 $endif$
 
-\clearpage
+% \clearpage
 
-\begin{spacing}{1.4}
+\begin{spacing}{1.8}
 
 $if(abstract)$
 \begin{abstract}
