@@ -507,6 +507,7 @@ include_graphics(here("figs/social-science-panels3.pdf"))
 \renewcommand{\thetable}{S\arabic{table}}
 \setcounter{figure}{0}
 \setcounter{table}{0}
+\setcounter{page}{1}
 
 # Appendix S1
 
