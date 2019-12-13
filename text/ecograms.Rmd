@@ -42,32 +42,17 @@ abstract: >
   The fields of ecology and conservation have evolved rapidly over the last century. Synthesizing larger trends in these fields remains a challenge, yet is critical to bridging subdisciplines, guiding research, and informing educational frameworks. Here, we provide the largest full-text culturomic analysis of ecology and conservation journals, covering eight decades, 52 journals, and half a billion words. Our analysis illuminates the boom and bust of ecological hypotheses and theories; the adoption of statistical, genetic, and social science approaches; and the domination of terms that emerged in recent decades (e.g., climate change, invasive species, ecosystem services, meta-analysis). We track the evolution of ecology from a largely descriptive field focused on natural history and observational studies to a more data-driven, multidisciplinary field focused on applied environmental issues. Overall, our analysis highlights the increasing breadth of the field, illustrating that there is room for more diversity of ecologists today than ever before.
 ---
 
-<!--
-One or two sentences providing a basic introduction to the field, comprehensible to a scientist in any discipline.
-Two to three sentences of more detailed background, comprehensible to scientists in related disciplines.
-One sentence clearly stating the general problem being addressed by this particular study.
-One sentence summarising the main result (with the words “here we show” or their equivalent).
-Two or three sentences explaining what the main result reveals in direct comparison to what was thought to be the case previously, or how the main result adds to previous knowledge.
-One or two sentences to put the results into a more general context.
--->
+\begin{small}
+Keywords: 
+applied ecology,
+bibliometrics,
+culturomics,
+JSTOR,
+natural history,
+scientometrics
+\end{small}
 
-<!-- Abstract of 150 words -->
-
-<!-- An Article reports an important novel research study of general interest to the
-ecology and evolution community, and often draws on several techniques or
-approaches. The main text (excluding introductory paragraph, Methods section,
-references and figure legends) is limited to 3,500 words. Articles can have up
-to 6 display items (figures and/or tables). The maximum title length is 100
-characters (including spaces). The introductory paragraph is typically 150
-words and is unreferenced; it contains a brief account of the background and
-rationale of the work, followed by a statement of the main conclusions
-introduced by the phrase "Here we show" or some equivalent. An introduction
-(without heading) of up to 500 words of referenced text expands on the
-background of the work (some overlap with the summary is acceptable), and is
-followed by a concise, focused account of the findings (headed 'Results'), and
-one or two short paragraphs of discussion (headed 'Discussion'). -->
-
-<!-- 3865 words as of 2019-08-12 -->
+<!-- Following the Abstract, list between 6–12 key words/phrases. Each key word should be useful as an entry point for a literature search.-->
 
 ```{r setup, echo = FALSE, message = FALSE, warning = FALSE}
 library(knitr)
