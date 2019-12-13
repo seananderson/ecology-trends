@@ -437,11 +437,23 @@ for their support and helpful discussions.
 The full-text corpus is available through consultation with the JSTOR Data Team (<https://jstor.org)>.
 All code to conduct our analysis is available at <https://github.com/seananderson/ecology-trends> and *insert Zenodo DOI here on publication*.
 
+\setlength{\parindent}{-0.25in}
+\setlength{\leftskip}{0.25in}
+\setlength{\parskip}{0pt}
+
+\vspace{6pt}
+
 # References
+
+\vspace{9pt}
 
 <div id="refs"></div>
 
 \clearpage
+
+\setlength{\parindent}{0in}
+\setlength{\leftskip}{0pt}
+\setlength{\parskip}{6pt}
 
 # Figures
 
