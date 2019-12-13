@@ -172,7 +172,7 @@ We analyze the JSTOR full-text corpus from 1930 to 2010---the period of time wit
 We searched the corpus for specific "n-grams", which are sequences of terms separated by a space.
 For example, *biogeography* is a 1-gram and *body size* is a 2-gram (we herein denote n-gram terms in italics).
 We standardized n-gram frequency by total words per year published across all included journals and analyzed trends over time for a selection of n-grams.
-We derived our n-gram selection through both algorithmic and hand-curated approaches: (1) drawing on the most frequent and rapidly growing/declining n-grams in various decades and (2) developing logical groupings of terms that fall under key ecology and conservation themes (see Methods).
+We derived our n-gram selection through both algorithmic and hand-curated approaches: (1) drawing on the most frequent and rapidly growing/declining n-grams in various decades and (2) developing logical groupings of terms that fall under key ecology and conservation themes.
 
 <!-- Our approach therefore enables data-derived comparisons of trends in ecology and conservation to yield insights into the evolution of key concepts, analytical techniques, and entire subdisciplines in these fields. -->
 
