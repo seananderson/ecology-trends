@@ -262,7 +262,7 @@ In terms of modes of species exploitation and resource extraction, *fishing* was
 Historically, *hunting* and *fishing* exchanged positions of dominance in our corpus every decade, showing predator-prey-like dynamics in their frequency over time (Fig. \@ref(fig:cons)e).
 Modes of exploitation of non-animal resources, such as *logging*, *harvesting*, and *mining*, were consistently discussed less in our corpus compared to modes of animal exploitation (Fig. \@ref(fig:cons)e).
 
-The prevention of biodiversity loss is a key goal of conservation ecologists, and the concept of protection has long been a pillar of biodiversity conservation [e.g., @watson2014]. Until roughly 2000, *park* was the most frequently used term related to forms of geographic protection (Fig. \@ref(fig:cons)f).
+The concept of protection has long been a pillar of biodiversity conservation [e.g., @watson2014]. Until roughly 2000, *park* was the most frequently used term related to forms of geographic protection (Fig. \@ref(fig:cons)f).
 References to *protected areas*  rose steadily since 1930 with the growth in *marine protected areas* showing a related pattern, but lagging by several decades (Fig. \@ref(fig:cons)f).
 These patterns of usage approximately mirrored the growth rate of actual protected land and sea area globally [@watson2014].
 Many of the key forms of geographic protection, including *parks*, *reserves*, *protected areas*, and *preserves* predated the frequent usage of the term *conservation* (Fig. \@ref(fig:cons)a, f), although this could be due in part to several of these terms also acting as verbs.
@@ -284,7 +284,7 @@ The increased frequency of so many data- and model-centric terms, along with the
 
 ## Genetics
 
-The focus on genetics in ecology- and conservation-related research increased markedly in the last several decades (Fig.\ \@ref(fig:blanks)f, Fig.\ \@ref(fig:methods)e,f, Fig.\ \@ref(fig:methods-all)). *Phylogenetics* remained the most commonly referenced genetics term from 1930 to 2010, and increased in use rapidly after the late 1980s (Fig. \@ref(fig:methods)e).
+The focus on genetics in ecology-related research increased markedly in the last several decades (Fig.\ \@ref(fig:blanks)f, Fig.\ \@ref(fig:methods)e,f, Fig.\ \@ref(fig:methods-all)). *Phylogenetics* remained the most commonly referenced genetics term from 1930 to 2010, and increased in use rapidly after the late 1980s (Fig. \@ref(fig:methods)e).
 By 2010, *phylogenetic* was the fourth most common adjective associated with *analysis* (Fig. \@ref(fig:blanks)l) and the third most common adjective associated with *hypothesis* (Fig. \@ref(fig:ecology)e).
 The 1980s was when we began to see a strong interest in genetic variation and diversity in the ecological literature, with the terms *genetic variation*, *gene flow*, and *evolutionary biology* all appearing in the top 144 2-grams for the years 1980--1999 (Fig. \@ref(fig:giant-2-1980)) and  *genetic diversity* showing up in the 2000--2010 range (Fig. \@ref(fig:giant-2-2000)).
 In terms of genetics tools, *microsatellites* and *mtDNA* (mitochondrial DNA) were the most commonly referenced terms as of 2010, but *next-generation sequencing* nearly overtook *microsatellites* and may have done so since 2010.
