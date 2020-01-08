@@ -245,9 +245,10 @@ In terms of theories, 2-grams with large historical peaks included the *theory o
 
 Terms related to *conservation* and applied ecology represented some of the fastest growing n-grams in modern ecology (Fig. \@ref(fig:decades)e).
 *Conservation* as a field originated alongside the formation of the Society for Conservation Biology in 1985 [@meine2006], prior to which the term *preservation* was used as frequently (Fig. \@ref(fig:cons)a, Fig. \@ref(fig:conservation-all)).
-Given the prominent focus on biodiversity conservation in the field of ecology, ecologists increasingly studied major threats to biodiversity loss: *habitat loss*, *invasive species*, *pollution*, *overpopulation*, *overexploitation*, and *climate change* (Fig. \@ref(fig:cons)b).
+<!-- Given the prominent focus on biodiversity conservation in the field of ecology, -->
+Ecologists increasingly studied major threats to biodiversity loss: *habitat loss*, *invasive species*, *pollution*, *overpopulation*, *overexploitation*, and *climate change* (Fig. \@ref(fig:cons)b).
 Despite *overexploitation* being considered one of the most prevalent causes of species extinctions [e.g., @ipbes2019], the term itself received relatively little attention in our corpus (Fig. \@ref(fig:cons)b), though frequencies of terms associated with specific modes of exploitation, such as *hunting*, *fishing*, and *logging*, all grew steadily (Fig. \@ref(fig:cons)e).
-Up until the early 1990s, *pollution* was the leading term in the context of threats to biodiversity and its use peaked in the ecological literature in the mid-1970s (Fig. \@ref(fig:cons)b).
+Up until the early 1990s, *pollution* was the leading term in the context of threats to biodiversity and its use peaked in the mid-1970s (Fig. \@ref(fig:cons)b).
 Frequencies of the term *ozone*, typically associated with studies of pollution, displayed a similar trend as *pollution*, but with a lag of approximately 15 years (Fig. \@ref(fig:cons)c) and peaked in frequency around 1985 with the announcement of an ozone hole over the Antarctic continent [@farman1985].
 The term *pollution* was then surpassed by *climate change* and subsequently by *invasive species*, two terms that as of 2010 vastly outweighed all other threats in their frequency of use (Fig. \@ref(fig:cons)b) and two of the top three fastest growing terms in all of ecology (Fig. \@ref(fig:decades)f).
 
@@ -256,12 +257,12 @@ For example, terms related to climate change, such as *ocean acidification*, *ra
 Other concepts showed more complex patterns.
 For example, *sea-level rise* showed a spike in frequency in the mid 1990s, a downturn in frequency by 2000, and then another increase thereafter (Fig. \@ref(fig:cons)c).
 *Fragmentation* rose sharply following the common use of the related term *habitat loss* around 1990, but its use was in decline after about 2000 (Fig. \@ref(fig:cons)d).
-In terms of modes of species exploitation and resource extraction, *fishing* was the leading term in our corpus as of 2010, followed by *hunting* and *logging* (Fig. \@ref(fig:cons)e).
-Historically, *hunting* and *fishing* exchanged positions of dominance in our corpus every decade, showing predator-prey-like dynamics in their frequency over time (Fig. \@ref(fig:cons)e).
-Modes of exploitation of non-animal resources, such as *logging*, *harvesting*, and *mining*, were consistently discussed less in our corpus compared to modes of animal exploitation (Fig. \@ref(fig:cons)e).
+In terms of modes of species exploitation and resource extraction, *fishing* was the leading term as of 2010, followed by *hunting* and *logging* (Fig. \@ref(fig:cons)e).
+Historically, *hunting* and *fishing* exchanged positions of dominance every decade, showing predator-prey-like dynamics in their frequency over time (Fig. \@ref(fig:cons)e).
+Modes of exploitation of non-animal resources, such as *logging*, *harvesting*, and *mining*, were consistently discussed less compared to modes of animal exploitation (Fig. \@ref(fig:cons)e).
 
 The concept of protection has long been a pillar of biodiversity conservation [e.g., @watson2014]. Until roughly 2000, *park* was the most frequently used term related to forms of geographic protection (Fig. \@ref(fig:cons)f).
-References to *protected areas*  rose steadily since 1930 with the growth in *marine protected areas* showing a related pattern, but lagging by several decades (Fig. \@ref(fig:cons)f).
+References to *protected areas* rose steadily since 1930 with the growth in *marine protected areas* showing a related pattern, but lagging by several decades (Fig. \@ref(fig:cons)f).
 These patterns of usage approximately mirrored the growth rate of actual protected land and sea area globally [@watson2014].
 Many of the key forms of geographic protection, including *parks*, *reserves*, *protected areas*, and *preserves* predated the frequent usage of the term *conservation* (Fig. \@ref(fig:cons)a, f), although this could be due in part to several of these terms also acting as verbs.
 
@@ -277,12 +278,12 @@ Such statistical approaches and paradigms have been associated with endless deba
 <!--; @johnson2004-->
 To that end, use of the phrase *null hypothesis* peaked in the 1980s and the phrase *significant difference* peaked around 1990 and declined thereafter (Fig. \@ref(fig:methods)c).
 The associated terms *p-value* and *confidence interval* appeared in approximately equal frequency as of 2010 (Fig. \@ref(fig:methods)c), although both are often referred to by abbreviations missed in our corpus (e.g. "p =" or "CI").
-*Power analysis* remained a rarely used term as of 2010 despite numerous calls for its increased use [e.g., @nakagawa2007; @smith2011d].
+*Power analysis* remained rarely used as of 2010 despite numerous calls for its increased use [e.g., @nakagawa2007; @smith2011d].
 The increased frequency of so many data- and model-centric terms, along with the advent of online publishing, coincided with the meteoric rise of *supplementary material* n-grams since around 2000---the 2-gram itself had the second most rapid increase across all 2-grams from 2000--2010 (Fig. \@ref(fig:decades)f)---and a concomitant decline in *unpublished data* and *personal communication* [@federer2018] (Fig. \@ref(fig:methods)d, Fig. \@ref(fig:methods-all)).
 
 ## Genetics
 
-The focus on genetics in ecology-related research increased markedly in the last several decades (Fig.\ \@ref(fig:blanks)f, Fig.\ \@ref(fig:methods)e,f, Fig.\ \@ref(fig:methods-all)). *Phylogenetics* remained the most commonly referenced genetics term from 1930 to 2010, and increased in use rapidly after the late 1980s (Fig. \@ref(fig:methods)e).
+The focus on genetics in ecology-related research increased markedly in the last several decades (Fig.\ \@ref(fig:blanks)f, Fig.\ \@ref(fig:methods)e,f, Fig.\ \@ref(fig:methods-all)). *Phylogenetics* remained the most referenced genetics term from 1930 to 2010, and increased in use after the late 1980s (Fig. \@ref(fig:methods)e).
 By 2010, *phylogenetic* was the fourth most common adjective associated with *analysis* (Fig. \@ref(fig:blanks)l) and the third most common adjective associated with *hypothesis* (Fig. \@ref(fig:ecology)e).
 The 1980s was when we began to see a strong interest in genetic variation and diversity in the ecological literature, with the terms *genetic variation*, *gene flow*, and *evolutionary biology* all appearing in the top 144 2-grams for the years 1980--1999 (Fig. \@ref(fig:giant-2-1980)) and  *genetic diversity* showing up in the 2000--2010 range (Fig. \@ref(fig:giant-2-2000)).
 In terms of genetics tools, *microsatellites* and *mtDNA* (mitochondrial DNA) were the most commonly referenced terms as of 2010, but *next-generation sequencing* nearly overtook *microsatellites* and may have done so since 2010.
@@ -295,7 +296,7 @@ Over the last few decades, ecologists paid increasing attention to the human dim
 Since the 1990s, references to market or *community-based management* interventions gained traction---particularly environmental certification programs and payment for ecosystem services schemes such as the Reducing Emissions from Deforestation and Forest Degradation (*REDD*) program (Fig. \@ref(fig:social)a).
 We also observed an increased focus on *human well-being* (Fig. \@ref(fig:social)b), with a spike of references to *human health* in the 1970s and, more recently, an overall growth in references to *poverty*, *food security*, and overall *human well-being* since the 1990s.
 This trend is parallelled by the rise in frequency of the terms *ecosystem service* and *ecosystem function* (Fig. \@ref(fig:blanks)j), which are two terms that explicitly focus on ecological processes in terms of their benefits to humans.
-Given the increased focus on the human dimensions of conservation over the last decades [@bennett2017], it makes sense that social science methods such as *interviews* and *questionnaires* would become more widely noted in the literature (Fig. \@ref(fig:social)c).
+Given the increased focus on the human dimensions of conservation over the last decades [@bennett2017], it makes sense that methods such as *interviews* and *questionnaires* would become more widely noted (Fig. \@ref(fig:social)c).
 Ecology is just starting to acknowledge different ways of knowing; however, qualitative methods such as *focus groups*, *ethnography*, or *participant observation* remained scarcely referenced, which supports the assertion that ecology and conservation continued to rely mostly on quantitative approaches [@moon2016, Fig. \@ref(fig:social)c].
 Parallel to the increased focus on human well-being since the 1970s, we observed an increased frequency of n-grams related to *stakeholders*, *local communities*, and *indigenous people* (Fig. \@ref(fig:social)d).
 <!-- Yet, it is clear that key stakeholder groups such as indigenous people are still underrepresented if we take into account how much land is under indigenous management [@garnett2018]. -->
@@ -332,7 +333,7 @@ Despite these unavoidable caveats, we see considerable merit in our full-text an
 # Conclusions
 
 Our analyses allow ecologists to reflect on the past, present, and future of their field.
-Within eight decades, the field has evolved from focusing on natural history and observational field studies to a multidisciplinary field that is more applied and quantitative in scope.
+Within eight decades, the field has evolved from focusing on natural history and observational field studies to a multidisciplinary field more applied and quantitative in scope.
 Undoubtedly, the fields of ecology and conservation have and will continue to grow and adopt approaches developed elsewhere, such as analyses of increasingly large datasets and the use of deep learning [@christin2018], which will empower ecologists to answer questions that were previously unanswerable and create niches for more types of ecologists in the future.
 Yet, while quantitative and meta-analysis-style research---this paper included---are valuable [@osenberg1999], if ecology wishes to maintain its natural-history and fundamental-science roots, the field needs to prioritize such a focus through research funding bodies and educational curricula.
 As we see it, elements of ecology today are almost unrecognizable from the field 90 years ago; only time will tell if this rate of evolution will continue, leaving ecologists in 2100 with a similar sentiment.
