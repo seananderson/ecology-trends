@@ -186,7 +186,7 @@ Over the last eighty years, the most commonly used 1- and 2-grams in ecology shi
 \@ref(fig:decades)a--d; Fig. \@ref(fig:declines-supp); Figs \@ref(fig:giant-1-1920)--\@ref(fig:giant-2-2000)).
 Of the nine 1-grams that were most common in the 1940s, only the top three remained the same in the 2000s: *species*, *plant*, and *area*.
 However, the remaining most-common 1-grams in the 1940s (e.g., *time*, *water*, *number*) and all top-nine 2-grams from that era (e.g., *organic matter*, *soil moisture*) declined in use over time (Fig. \@ref(fig:decades)a--b), whereas many of the most popular 2-grams in the 2000s barely appeared in the corpus until after 1970 (Fig. \@ref(fig:decades)d).
-By far, the 1- and 2-grams with the greatest rise in use over time were *climate* and *climate change* (Fig. \@ref(fig:decades)d--f), as the ecological effects of climate change impacted study systems and overshadowed other drivers [e.g., @li2011; @scheffers2016; @staples2019].
+By far, the 1- and 2-grams with the greatest rise in use over time were *climate* and *climate change* (Fig. \@ref(fig:decades)d--f) [e.g., @li2011; @scheffers2016; @staples2019].
 To that end, the 1- and 2-grams with the most rapid increases from 1980--2010 reflected a strong trend towards applied ecological research and other associated fields (e.g., *conservation*, *impact*, *biodiversity*, *ecosystem service*, *invasive species*; Fig. \@ref(fig:decades)e--f).
 
 Changes in popular terms from the 1940s to the 2000s reflected both shifts in science culture and changing societal needs.
@@ -208,7 +208,7 @@ Conversely, *natural population* was the dominant noun form of *population*, but
 Ecologists wrote about *community structure* and *community composition* more than any other adjective form of *community* and about *plant communities*, within our corpus, over `r plants_next_biggest` times more often than other community forms (Fig. \@ref(fig:blanks)g--h).
 The term *ecosystem* existed as a noun long before it was used as an adjective starting around 1970 (Fig. \@ref(fig:blanks)j--k).
 As a noun, *ecosystem* was most commonly associated with *forest*, *terrestrial*, and *marine*, with the latter seeing an uptick after 2000 (Fig. \@ref(fig:blanks)k).
-As an adjective, *ecosystem service* and *ecosystem function* were the dominant 2-grams (Fig. \@ref(fig:blanks)j), with the former showing a rapid increase after the United Nations' Millennium Ecosystem Assessment championed the concept as a fundamental principle in the early 2000s [@mea2005].
+As an adjective, *ecosystem service* and *ecosystem function* were the dominant 2-grams (Fig. \@ref(fig:blanks)j), with the former showing a rapid increase after the United Nations' Millennium Ecosystem Assessment championed the concept in the early 2000s [@mea2005].
 
 Using the same fill-in-the-blank approach, we examined adjectives associated with conservation, diversity, experiment, and analysis (Fig. \@ref(fig:blanks) c--l).
 *Biodiversity conservation* did not appear until the mid 1980s in our corpus
@@ -258,7 +258,7 @@ Other concepts showed more complex patterns.
 For example, *sea-level rise* showed a spike in frequency in the mid 1990s, a downturn in frequency by 2000, and then another increase thereafter (Fig. \@ref(fig:cons)c).
 *Fragmentation* rose sharply following the common use of the related term *habitat loss* around 1990, but its use was in decline after about 2000 (Fig. \@ref(fig:cons)d).
 In terms of modes of species exploitation and resource extraction, *fishing* was the leading term as of 2010, followed by *hunting* and *logging* (Fig. \@ref(fig:cons)e).
-Historically, *hunting* and *fishing* exchanged positions of dominance every decade, showing predator-prey-like dynamics in their frequency over time (Fig. \@ref(fig:cons)e).
+Historically, *hunting* and *fishing* exchanged positions of dominance every decade (Fig. \@ref(fig:cons)e).
 Modes of exploitation of non-animal resources, such as *logging*, *harvesting*, and *mining*, were consistently discussed less compared to modes of animal exploitation (Fig. \@ref(fig:cons)e).
 
 The concept of protection has long been a pillar of biodiversity conservation [e.g., @watson2014]. Until roughly 2000, *park* was the most frequently used term related to forms of geographic protection (Fig. \@ref(fig:cons)f).
@@ -268,7 +268,7 @@ Many of the key forms of geographic protection, including *parks*, *reserves*, *
 
 ## Statistics and data analysis
 
-Ecology increasingly became a data- and model-centric discipline (Fig. \@ref(fig:decades), Fig. \@ref(fig:methods), Fig. \@ref(fig:methods-all)) over the eight-decade time period. *Regression*, an overarching term encompassing many statistical approaches, saw continued and rapid growth in use since the 1950s, approaching *correlation* by 2005 (Fig. \@ref(fig:methods)a).
+Ecology increasingly became a data- and model-centric discipline (Fig. \@ref(fig:decades), Fig. \@ref(fig:methods), Fig. \@ref(fig:methods-all)). *Regression*, an overarching term encompassing many statistical approaches, saw continued and rapid growth in use since the 1950s, approaching *correlation* by 2005 (Fig. \@ref(fig:methods)a).
 References to *ANOVA* and *t-tests* both peaked around 2000, while mentions of generalized linear models (*GLMs*) steadily increased in frequency, surpassing *t-tests* in `r glm_surpasses_ttest` (Fig. \@ref(fig:methods)a).
 In terms of how such models were fit, *least-squares*, formerly the dominant paradigm, was rapidly surpassed by *Bayesian*, *maximum likelihood*, and *information theoretic* terms around 2000; as of 2010, the term *Bayesian* was used over twice as often as *maximum likelihood* (Fig. \@ref(fig:methods)b).
 The Markov chain Monte Carlo sampling method (*MCMC*) first appears in the corpus in `r mcmc_first_year` [@thompson1994], `r mcmc_first_year - 1970` years after @hastings1970 described the concept.
@@ -306,7 +306,7 @@ Parallel to the increased focus on human well-being since the 1970s, we observed
 The ecological lexicon has expanded and evolved over the last 80 years.
 The most frequently used terms in the 1930s were derived from the breadth of disciplines that inspired early ecologists, and by the 2000s, many were replaced by terms that reflected the emergence of a data-driven scientific field largely focused on applied environmental issues.
 The turnover in ecological terminology demonstrates how ecologists have embraced many newly coined terms such as *biodiversity*, *climate change*, and *meta-analysis*, which did not exist in the early decades of the field, and signifies the evolution of ecology into a fully independent field of study.
-Our results, reinforce the notion of both previous quantitative- [@kim2018; @mccallen2019; @hintzen2019] and expert-opinion-based studies [@reiners2017] that ecologists are working on increasingly complex and specialized topics, at broader spatial scales [@estes2018], and at higher levels of taxonomic and hierarchical organization [@kim2018].
+Our results highlight that ecologists are working on increasingly complex and specialized topics at broader spatial scales [@estes2018] and higher levels of taxonomic and hierarchical organization [@kim2018] and are increasingly including the human dimensions of conservation [@bennett2017].
 
 There has been a shift in ecologists' descriptions of analytical techniques, demonstrating the evolution of ecological research into a more quantitative and data-driven field of study (Fig. \@ref(fig:decades), Fig. \@ref(fig:methods)).
 In particular, ecologists have adopted many statistical paradigms (e.g., *Bayesian*, *AIC*, and *MCMC*) and genetic analytical techniques (e.g., *phylogenetics* and *Omics*) over the past three decades
@@ -331,13 +331,13 @@ Other terms, such as *conservation*, are linked to journal titles such as *Conse
 Second, the journals included in the corpus are not a random sample across the field of ecology.
 Our corpus does not include some prominent journals that publish ecological research (e.g., *Science* and *Nature*), nor does it include taxonomic-specific journals such as the *American Journal of Botany* or *The Journal of Wildlife Management*, which we intentionally excluded to reduce taxonomic bias (see Supporting Information).
 Third, the quality of the corpus improves through time---the data from the earlier years in our analysis are based on much smaller sample sizes than the more recent data (Fig. \@ref(fig:totals-by-journal), \@ref(fig:total-by-year)), and the data from the earlier years is mostly based on Optical Character Recognition (OCR), which turns scanned PDFs into text with some errors.
-Despite these unavoidable caveats, we see considerable merit in our full-text analysis of many ecological journals in terms of accomplishing a broad overview of the field and contributing to a growing body of knowledge through multiple lines of inference.
+<!-- Despite these unavoidable caveats, we see considerable merit in our full-text analysis of many ecological journals in terms of accomplishing a broad overview of the field and contributing to a growing body of knowledge through multiple lines of inference. -->
 
 # Conclusions
 
 Our analyses allow ecologists to reflect on the past, present, and future of their field.
 Within eight decades, the field has evolved from focusing on natural history and observational field studies to a multidisciplinary field more applied and quantitative in scope.
-Undoubtedly, the fields of ecology and conservation have and will continue to grow and adopt approaches developed elsewhere, such as analyses of increasingly large datasets and the use of deep learning [@christin2018], which will empower ecologists to answer questions that were previously unanswerable and create niches for more types of ecologists in the future.
+Undoubtedly, the fields of ecology and conservation have and will continue to grow and adopt approaches developed elsewhere, such as analyses of increasingly large datasets and the use of deep learning [@christin2018], which will empower ecologists to answer questions that were previously unanswerable and create niches for more types of ecologists.
 Yet, while quantitative and meta-analysis-style research---this paper included---are valuable [@osenberg1999], if ecology wishes to maintain its natural-history and fundamental-science roots, the field needs to prioritize such a focus through research funding bodies and educational curricula.
 As we see it, elements of ecology today are almost unrecognizable from the field 90 years ago; only time will tell if this rate of evolution will continue, leaving ecologists in 2100 with a similar sentiment.
 
