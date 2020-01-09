@@ -305,7 +305,7 @@ Parallel to the increased focus on human well-being since the 1970s, we observed
 
 The ecological lexicon has expanded and evolved over the last 80 years.
 The most frequently used terms in the 1930s were derived from the breadth of disciplines that inspired early ecologists, and by the 2000s, many were replaced by terms that reflected the emergence of a data-driven scientific field largely focused on applied environmental issues.
-The turnover in ecological terminology demonstrates how ecologists have embraced many newly coined terms such as *biodiversity*, *climate change*, and *meta-analysis*, which did not exist in the early decades of the field, and signifies the evolution of ecology into a fully independent field of study.
+The turnover in ecological terminology demonstrates how ecologists have embraced many newly coined terms such as *biodiversity*, *climate change*, and *meta-analysis*, which did not exist in the early decades of the field, and signifies the evolution of ecology into a fully independent field.
 Our results highlight that ecologists are working on increasingly complex and specialized topics at broader spatial scales [@estes2018] and higher levels of taxonomic and hierarchical organization [@kim2018] and are increasingly including the human dimensions of conservation [@bennett2017].
 
 There has been a shift in ecologists' descriptions of analytical techniques, demonstrating the evolution of ecological research into a more quantitative and data-driven field of study (Fig. \@ref(fig:decades), Fig. \@ref(fig:methods)).
