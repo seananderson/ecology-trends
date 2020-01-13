@@ -131,19 +131,13 @@ total length should not exceed 100 words. -->
   largest full-text analysis of its kind of scientific journals
 
 * Few common terms from the early 1900s still dominate the literature today;
-  many now-common terms (e.g., climate change, invasive species, ecosystem
-  services) only emerged in recent decades
-OR:
-* The most common terms in the 1930s--1940s paint an almost unrecognizable
-  picture of the field compared to today; nearly all common terms of today have
-  grown substantially over the eight decades
+  many now-common terms only recently emerged
 
-* The field has evolved from focusing on natural history and field studies to
-  become more data-driven and concerned with applied environmental issues at
-  broader spatial scales and increasingly including the human dimensions of
-  conservation
+* The field evolved from focusing on natural history and field studies to
+  become more quantitative, concerned with applied environmental issues at
+  broader spatial scales, and focused on the human dimensions of conservation
 
-* Overall, the field has evolved rapidly and expanded to allow for a broad
+* Ecology and conservation have expanded rapidly allowing for an increased
   diversity of approaches and types of ecologists
 
 ```{r setup, echo = FALSE, message = FALSE, warning = FALSE}
