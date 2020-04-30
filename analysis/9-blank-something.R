@@ -283,7 +283,7 @@ pdf("figs/blanks-viridis5.pdf", width = 7.1, height = 7.0 * 4/3  * gold()*0.97)
 gd_ %>%
   plot_blanks(right_gap = 48, log_y = FALSE,
     bottom_frac_up = 0.04, label_gap = -1.0,
-    show_seg = TRUE)
+    show_seg = TRUE, stop_lab = 0.66)
 dev.off()
 
 pairs <- c(

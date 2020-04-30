@@ -36,7 +36,7 @@ ecogram_panel <- function(x,
   right_gap = 30, xaxes = NULL, stop_lab = 0.77, darken_factor = 1.0,
   label_gap = -1.9, label_cex = 0.85, bottom_frac_up = 0.025, log_y = FALSE,
   ncols = 2, show_seg = TRUE, yfrac_let = 0.08, ymax = NULL,
-  lab_text = "", label_side = c("right", "left"),
+  lab_text = "", label_side = c("right", "left"), cex.axis = 0.85,
   connector_length = 1.25) {
 
   x <- dplyr::filter(x, year >= year_limits[1], year <= year_limits[2])
@@ -125,12 +125,12 @@ ecogram_panel <- function(x,
   max_axis2 <- ifelse(ii %in% seq_len(ncols),
     ylim[2], ylim[2] * stop_lab)
   axis(2, col.ticks = "grey80", col = NA,
-    at = pretty(seq(0, max_axis2, length.out = 200), n = 3), cex.axis = 0.85)
+    at = pretty(seq(0, max_axis2, length.out = 200), n = 3), cex.axis = cex.axis)
 
   if (!is.null(xaxes)) {
     if (ii %in% xaxes) {
       axis(1, col.ticks = "grey80", at = seq(1930, 2010, 20),
-        padj = -0.4, col = NA, cex.axis = 0.85)
+        padj = -0.4, col = NA, cex.axis = cex.axis, gap.axis = 0.01)
     }
   }
 
