@@ -16,9 +16,10 @@ g <- make_handpicked_panel(
   csv_out    = "data/generated/methods-models-genetics-out.csv",
   cache_file = "data/generated/method-models-genetics-grams5.rds",
   fig_file   = "figs/methods-models-genetics2.pdf",
-  fig_height = 6.5 * 3/2 * gold(),
-  fig_width  = 6.5,
-  right_gap  = 75
+  fig_height = 5.0 * 3/2 * gold(),
+  fig_width  = 5.0,
+  right_gap  = 75,
+  connector_length = 2.5
 )
 ggsave("figs/methods-models-genetics-facets.pdf", width = 13, height = 18)
 
@@ -46,9 +47,11 @@ g <- make_handpicked_panel(
   csv_out    = "data/generated/conservation-human-impacts-out.csv",
   cache_file = "data/generated/conservation-human-impacts2.rds",
   fig_file   = "figs/conservation-human-impacts.pdf",
-  fig_height = 6.5 * 3 / 2 * gold(),
-  fig_width  = 6.5,
-  right_gap  = 42
+  fig_height = 5.0 * 3 / 2 * gold(),
+  fig_width  = 5.0,
+  stop_lab = 0.67,
+  right_gap  = 52,
+  connector_length = 1.7
 )
 ggsave("figs/conservation-human-impacts-facets.pdf", width = 13, height = 18)
 
@@ -63,9 +66,9 @@ g <- make_handpicked_panel(
   csv_out    = "data/generated/general-ecology-out.csv",
   cache_file = "data/generated/ecology-panels4.rds",
   fig_file   = "figs/ecology-panels3.pdf",
-  fig_height = 6.5 * gold() * 3 / 2,
-  fig_width  = 6.5,
-  right_gap  = 73
+  fig_height = 5.0 * gold() * 3 / 2,
+  fig_width  = 5.0,
+  right_gap  = 55
 )
 ggsave("figs/community-ecology-facets.pdf", width = 13, height = 11)
 
@@ -75,9 +78,9 @@ g <- make_handpicked_panel(
   csv_out    = "data/generated/social-sciences-out.csv",
   cache_file = "data/generated/social-science-ngrams3.rds",
   fig_file   = "figs/social-science-panels3.pdf",
-  fig_height = 6.5 * 2 / 2 * gold(),
-  fig_width  = 6.5,
-  right_gap  = 81
+  fig_height = 5.0 * 2 / 2 * gold(),
+  fig_width  = 5.0,
+  right_gap  = 70
 )
 ggsave("figs/social-facets.pdf", width = 13, height = 13)
 

@@ -986,182 +986,443 @@ year,panel,gram_canonical,total_words,total
 2009,3: Hypothesis testing,significant difference,26767306,4597
 2010,3: Hypothesis testing,significant difference,23931224,4029
 2011,3: Hypothesis testing,significant difference,24867009,3889
-1920,4: Supporting information,personal communication,630090,1
-1922,4: Supporting information,personal communication,536084,2
-1923,4: Supporting information,personal communication,711435,1
-1924,4: Supporting information,personal communication,684937,2
-1925,4: Supporting information,personal communication,860483,2
-1926,4: Supporting information,personal communication,824677,4
-1927,4: Supporting information,personal communication,797713,1
-1928,4: Supporting information,personal communication,889702,3
-1929,4: Supporting information,personal communication,880254,4
-1930,4: Supporting information,personal communication,940855,6
-1931,4: Supporting information,personal communication,1279796,3
-1932,4: Supporting information,personal communication,1186501,5
-1933,4: Supporting information,personal communication,898679,2
-1934,4: Supporting information,personal communication,1224182,3
-1935,4: Supporting information,personal communication,1180563,7
-1936,4: Supporting information,personal communication,1205270,13
-1937,4: Supporting information,personal communication,1333413,10
-1938,4: Supporting information,personal communication,1096306,9
-1939,4: Supporting information,personal communication,977570,14
-1940,4: Supporting information,personal communication,1030652,8
-1941,4: Supporting information,personal communication,870866,5
-1942,4: Supporting information,personal communication,923110,20
-1943,4: Supporting information,personal communication,781624,8
-1944,4: Supporting information,personal communication,802533,12
-1945,4: Supporting information,personal communication,695500,5
-1946,4: Supporting information,personal communication,906932,14
-1947,4: Supporting information,personal communication,1034692,19
-1948,4: Supporting information,personal communication,906817,14
-1949,4: Supporting information,personal communication,949573,8
-1950,4: Supporting information,personal communication,1257239,14
-1951,4: Supporting information,personal communication,1272147,21
-1952,4: Supporting information,personal communication,1338935,23
-1953,4: Supporting information,personal communication,1246757,40
-1954,4: Supporting information,personal communication,1348685,40
-1955,4: Supporting information,personal communication,1510331,35
-1956,4: Supporting information,personal communication,1486176,58
-1957,4: Supporting information,personal communication,1535449,42
-1958,4: Supporting information,personal communication,1709098,65
-1959,4: Supporting information,personal communication,1586959,64
-1960,4: Supporting information,personal communication,1782508,46
-1961,4: Supporting information,personal communication,1765657,75
-1962,4: Supporting information,personal communication,1753664,99
-1963,4: Supporting information,personal communication,1844840,88
-1964,4: Supporting information,personal communication,2285016,106
-1965,4: Supporting information,personal communication,2366519,95
-1966,4: Supporting information,personal communication,2646845,138
-1967,4: Supporting information,personal communication,2436421,149
-1968,4: Supporting information,personal communication,2817575,134
-1969,4: Supporting information,personal communication,3165729,207
-1970,4: Supporting information,personal communication,3398488,219
-1971,4: Supporting information,personal communication,3876617,274
-1972,4: Supporting information,personal communication,3861897,303
-1973,4: Supporting information,personal communication,3944110,297
-1974,4: Supporting information,personal communication,4327880,387
-1975,4: Supporting information,personal communication,4926792,420
-1976,4: Supporting information,personal communication,4851135,429
-1977,4: Supporting information,personal communication,5986495,482
-1978,4: Supporting information,personal communication,5653233,588
-1979,4: Supporting information,personal communication,5693994,598
-1980,4: Supporting information,personal communication,6331998,647
-1981,4: Supporting information,personal communication,6748054,768
-1982,4: Supporting information,personal communication,6661455,667
-1983,4: Supporting information,personal communication,7131449,731
-1984,4: Supporting information,personal communication,7405435,815
-1985,4: Supporting information,personal communication,7790280,807
-1986,4: Supporting information,personal communication,7205017,771
-1987,4: Supporting information,personal communication,8232279,733
-1988,4: Supporting information,personal communication,9127375,895
-1989,4: Supporting information,personal communication,9187930,840
-1990,4: Supporting information,personal communication,9827250,874
-1991,4: Supporting information,personal communication,10692126,1124
-1992,4: Supporting information,personal communication,11532841,894
-1993,4: Supporting information,personal communication,11863228,997
-1994,4: Supporting information,personal communication,12424547,1031
-1995,4: Supporting information,personal communication,13968243,993
-1996,4: Supporting information,personal communication,15100715,1122
-1997,4: Supporting information,personal communication,15395967,1097
-1998,4: Supporting information,personal communication,16912010,1225
-1999,4: Supporting information,personal communication,16924957,1171
-2000,4: Supporting information,personal communication,18064233,1217
-2001,4: Supporting information,personal communication,19322097,1172
-2002,4: Supporting information,personal communication,18790584,998
-2003,4: Supporting information,personal communication,20408258,1162
-2004,4: Supporting information,personal communication,20858212,1136
-2005,4: Supporting information,personal communication,21777074,1142
-2006,4: Supporting information,personal communication,23460538,1037
-2007,4: Supporting information,personal communication,23407699,887
-2008,4: Supporting information,personal communication,26392520,949
-2009,4: Supporting information,personal communication,26767306,737
-2010,4: Supporting information,personal communication,23931224,630
-2011,4: Supporting information,personal communication,24867009,575
-1920,4: Supporting information,supplementary material,630090,4
-1923,4: Supporting information,supplementary material,711435,5
-1924,4: Supporting information,supplementary material,684937,7
-1925,4: Supporting information,supplementary material,860483,3
-1926,4: Supporting information,supplementary material,824677,1
-1927,4: Supporting information,supplementary material,797713,4
-1928,4: Supporting information,supplementary material,889702,1
-1929,4: Supporting information,supplementary material,880254,9
-1930,4: Supporting information,supplementary material,940855,2
-1931,4: Supporting information,supplementary material,1279796,4
-1932,4: Supporting information,supplementary material,1186501,1
-1934,4: Supporting information,supplementary material,1224182,1
-1936,4: Supporting information,supplementary material,1205270,3
-1937,4: Supporting information,supplementary material,1333413,2
-1939,4: Supporting information,supplementary material,977570,2
-1941,4: Supporting information,supplementary material,870866,4
-1942,4: Supporting information,supplementary material,923110,7
-1943,4: Supporting information,supplementary material,781624,4
-1945,4: Supporting information,supplementary material,695500,1
-1946,4: Supporting information,supplementary material,906932,1
-1947,4: Supporting information,supplementary material,1034692,1
-1948,4: Supporting information,supplementary material,906817,2
-1949,4: Supporting information,supplementary material,949573,5
-1950,4: Supporting information,supplementary material,1257239,8
-1951,4: Supporting information,supplementary material,1272147,4
-1952,4: Supporting information,supplementary material,1338935,2
-1954,4: Supporting information,supplementary material,1348685,4
-1955,4: Supporting information,supplementary material,1510331,2
-1956,4: Supporting information,supplementary material,1486176,4
-1957,4: Supporting information,supplementary material,1535449,3
-1958,4: Supporting information,supplementary material,1709098,5
-1959,4: Supporting information,supplementary material,1586959,10
-1960,4: Supporting information,supplementary material,1782508,4
-1961,4: Supporting information,supplementary material,1765657,2
-1962,4: Supporting information,supplementary material,1753664,4
-1963,4: Supporting information,supplementary material,1844840,9
-1964,4: Supporting information,supplementary material,2285016,1
-1965,4: Supporting information,supplementary material,2366519,1
-1966,4: Supporting information,supplementary material,2646845,3
-1967,4: Supporting information,supplementary material,2436421,4
-1968,4: Supporting information,supplementary material,2817575,5
-1969,4: Supporting information,supplementary material,3165729,1
-1970,4: Supporting information,supplementary material,3398488,5
-1971,4: Supporting information,supplementary material,3876617,4
-1972,4: Supporting information,supplementary material,3861897,8
-1973,4: Supporting information,supplementary material,3944110,11
-1974,4: Supporting information,supplementary material,4327880,8
-1975,4: Supporting information,supplementary material,4926792,6
-1976,4: Supporting information,supplementary material,4851135,6
-1977,4: Supporting information,supplementary material,5986495,29
-1978,4: Supporting information,supplementary material,5653233,12
-1979,4: Supporting information,supplementary material,5693994,19
-1980,4: Supporting information,supplementary material,6331998,32
-1981,4: Supporting information,supplementary material,6748054,12
-1982,4: Supporting information,supplementary material,6661455,12
-1983,4: Supporting information,supplementary material,7131449,35
-1984,4: Supporting information,supplementary material,7405435,26
-1985,4: Supporting information,supplementary material,7790280,15
-1986,4: Supporting information,supplementary material,7205017,14
-1987,4: Supporting information,supplementary material,8232279,20
-1988,4: Supporting information,supplementary material,9127375,22
-1989,4: Supporting information,supplementary material,9187930,54
-1990,4: Supporting information,supplementary material,9827250,45
-1991,4: Supporting information,supplementary material,10692126,118
-1992,4: Supporting information,supplementary material,11532841,84
-1993,4: Supporting information,supplementary material,11863228,113
-1994,4: Supporting information,supplementary material,12424547,130
-1995,4: Supporting information,supplementary material,13968243,270
-1996,4: Supporting information,supplementary material,15100715,277
-1997,4: Supporting information,supplementary material,15395967,399
-1998,4: Supporting information,supplementary material,16912010,178
-1999,4: Supporting information,supplementary material,16924957,132
-2000,4: Supporting information,supplementary material,18064233,352
-2001,4: Supporting information,supplementary material,19322097,391
-2002,4: Supporting information,supplementary material,18790584,342
-2003,4: Supporting information,supplementary material,20408258,579
-2004,4: Supporting information,supplementary material,20858212,638
-2005,4: Supporting information,supplementary material,21777074,1165
-2006,4: Supporting information,supplementary material,23460538,2430
-2007,4: Supporting information,supplementary material,23407699,3407
-2008,4: Supporting information,supplementary material,26392520,5055
-2009,4: Supporting information,supplementary material,26767306,5757
-2010,4: Supporting information,supplementary material,23931224,6015
-2011,4: Supporting information,supplementary material,24867009,7341
-2014,4: Supporting information,supplementary material,10049228,1
+1920,4: Supporting information,"
+supplementary
+material",630090,4
+1923,4: Supporting information,"
+supplementary
+material",711435,5
+1924,4: Supporting information,"
+supplementary
+material",684937,7
+1925,4: Supporting information,"
+supplementary
+material",860483,3
+1926,4: Supporting information,"
+supplementary
+material",824677,1
+1927,4: Supporting information,"
+supplementary
+material",797713,4
+1928,4: Supporting information,"
+supplementary
+material",889702,1
+1929,4: Supporting information,"
+supplementary
+material",880254,9
+1930,4: Supporting information,"
+supplementary
+material",940855,2
+1931,4: Supporting information,"
+supplementary
+material",1279796,4
+1932,4: Supporting information,"
+supplementary
+material",1186501,1
+1934,4: Supporting information,"
+supplementary
+material",1224182,1
+1936,4: Supporting information,"
+supplementary
+material",1205270,3
+1937,4: Supporting information,"
+supplementary
+material",1333413,2
+1939,4: Supporting information,"
+supplementary
+material",977570,2
+1941,4: Supporting information,"
+supplementary
+material",870866,4
+1942,4: Supporting information,"
+supplementary
+material",923110,7
+1943,4: Supporting information,"
+supplementary
+material",781624,4
+1945,4: Supporting information,"
+supplementary
+material",695500,1
+1946,4: Supporting information,"
+supplementary
+material",906932,1
+1947,4: Supporting information,"
+supplementary
+material",1034692,1
+1948,4: Supporting information,"
+supplementary
+material",906817,2
+1949,4: Supporting information,"
+supplementary
+material",949573,5
+1950,4: Supporting information,"
+supplementary
+material",1257239,8
+1951,4: Supporting information,"
+supplementary
+material",1272147,4
+1952,4: Supporting information,"
+supplementary
+material",1338935,2
+1954,4: Supporting information,"
+supplementary
+material",1348685,4
+1955,4: Supporting information,"
+supplementary
+material",1510331,2
+1956,4: Supporting information,"
+supplementary
+material",1486176,4
+1957,4: Supporting information,"
+supplementary
+material",1535449,3
+1958,4: Supporting information,"
+supplementary
+material",1709098,5
+1959,4: Supporting information,"
+supplementary
+material",1586959,10
+1960,4: Supporting information,"
+supplementary
+material",1782508,4
+1961,4: Supporting information,"
+supplementary
+material",1765657,2
+1962,4: Supporting information,"
+supplementary
+material",1753664,4
+1963,4: Supporting information,"
+supplementary
+material",1844840,9
+1964,4: Supporting information,"
+supplementary
+material",2285016,1
+1965,4: Supporting information,"
+supplementary
+material",2366519,1
+1966,4: Supporting information,"
+supplementary
+material",2646845,3
+1967,4: Supporting information,"
+supplementary
+material",2436421,4
+1968,4: Supporting information,"
+supplementary
+material",2817575,5
+1969,4: Supporting information,"
+supplementary
+material",3165729,1
+1970,4: Supporting information,"
+supplementary
+material",3398488,5
+1971,4: Supporting information,"
+supplementary
+material",3876617,4
+1972,4: Supporting information,"
+supplementary
+material",3861897,8
+1973,4: Supporting information,"
+supplementary
+material",3944110,11
+1974,4: Supporting information,"
+supplementary
+material",4327880,8
+1975,4: Supporting information,"
+supplementary
+material",4926792,6
+1976,4: Supporting information,"
+supplementary
+material",4851135,6
+1977,4: Supporting information,"
+supplementary
+material",5986495,29
+1978,4: Supporting information,"
+supplementary
+material",5653233,12
+1979,4: Supporting information,"
+supplementary
+material",5693994,19
+1980,4: Supporting information,"
+supplementary
+material",6331998,32
+1981,4: Supporting information,"
+supplementary
+material",6748054,12
+1982,4: Supporting information,"
+supplementary
+material",6661455,12
+1983,4: Supporting information,"
+supplementary
+material",7131449,35
+1984,4: Supporting information,"
+supplementary
+material",7405435,26
+1985,4: Supporting information,"
+supplementary
+material",7790280,15
+1986,4: Supporting information,"
+supplementary
+material",7205017,14
+1987,4: Supporting information,"
+supplementary
+material",8232279,20
+1988,4: Supporting information,"
+supplementary
+material",9127375,22
+1989,4: Supporting information,"
+supplementary
+material",9187930,54
+1990,4: Supporting information,"
+supplementary
+material",9827250,45
+1991,4: Supporting information,"
+supplementary
+material",10692126,118
+1992,4: Supporting information,"
+supplementary
+material",11532841,84
+1993,4: Supporting information,"
+supplementary
+material",11863228,113
+1994,4: Supporting information,"
+supplementary
+material",12424547,130
+1995,4: Supporting information,"
+supplementary
+material",13968243,270
+1996,4: Supporting information,"
+supplementary
+material",15100715,277
+1997,4: Supporting information,"
+supplementary
+material",15395967,399
+1998,4: Supporting information,"
+supplementary
+material",16912010,178
+1999,4: Supporting information,"
+supplementary
+material",16924957,132
+2000,4: Supporting information,"
+supplementary
+material",18064233,352
+2001,4: Supporting information,"
+supplementary
+material",19322097,391
+2002,4: Supporting information,"
+supplementary
+material",18790584,342
+2003,4: Supporting information,"
+supplementary
+material",20408258,579
+2004,4: Supporting information,"
+supplementary
+material",20858212,638
+2005,4: Supporting information,"
+supplementary
+material",21777074,1165
+2006,4: Supporting information,"
+supplementary
+material",23460538,2430
+2007,4: Supporting information,"
+supplementary
+material",23407699,3407
+2008,4: Supporting information,"
+supplementary
+material",26392520,5055
+2009,4: Supporting information,"
+supplementary
+material",26767306,5757
+2010,4: Supporting information,"
+supplementary
+material",23931224,6015
+2011,4: Supporting information,"
+supplementary
+material",24867009,7341
+2014,4: Supporting information,"
+supplementary
+material",10049228,1
+1920,4: Supporting information,"personal
+communication",630090,1
+1922,4: Supporting information,"personal
+communication",536084,2
+1923,4: Supporting information,"personal
+communication",711435,1
+1924,4: Supporting information,"personal
+communication",684937,2
+1925,4: Supporting information,"personal
+communication",860483,2
+1926,4: Supporting information,"personal
+communication",824677,4
+1927,4: Supporting information,"personal
+communication",797713,1
+1928,4: Supporting information,"personal
+communication",889702,3
+1929,4: Supporting information,"personal
+communication",880254,4
+1930,4: Supporting information,"personal
+communication",940855,6
+1931,4: Supporting information,"personal
+communication",1279796,3
+1932,4: Supporting information,"personal
+communication",1186501,5
+1933,4: Supporting information,"personal
+communication",898679,2
+1934,4: Supporting information,"personal
+communication",1224182,3
+1935,4: Supporting information,"personal
+communication",1180563,7
+1936,4: Supporting information,"personal
+communication",1205270,13
+1937,4: Supporting information,"personal
+communication",1333413,10
+1938,4: Supporting information,"personal
+communication",1096306,9
+1939,4: Supporting information,"personal
+communication",977570,14
+1940,4: Supporting information,"personal
+communication",1030652,8
+1941,4: Supporting information,"personal
+communication",870866,5
+1942,4: Supporting information,"personal
+communication",923110,20
+1943,4: Supporting information,"personal
+communication",781624,8
+1944,4: Supporting information,"personal
+communication",802533,12
+1945,4: Supporting information,"personal
+communication",695500,5
+1946,4: Supporting information,"personal
+communication",906932,14
+1947,4: Supporting information,"personal
+communication",1034692,19
+1948,4: Supporting information,"personal
+communication",906817,14
+1949,4: Supporting information,"personal
+communication",949573,8
+1950,4: Supporting information,"personal
+communication",1257239,14
+1951,4: Supporting information,"personal
+communication",1272147,21
+1952,4: Supporting information,"personal
+communication",1338935,23
+1953,4: Supporting information,"personal
+communication",1246757,40
+1954,4: Supporting information,"personal
+communication",1348685,40
+1955,4: Supporting information,"personal
+communication",1510331,35
+1956,4: Supporting information,"personal
+communication",1486176,58
+1957,4: Supporting information,"personal
+communication",1535449,42
+1958,4: Supporting information,"personal
+communication",1709098,65
+1959,4: Supporting information,"personal
+communication",1586959,64
+1960,4: Supporting information,"personal
+communication",1782508,46
+1961,4: Supporting information,"personal
+communication",1765657,75
+1962,4: Supporting information,"personal
+communication",1753664,99
+1963,4: Supporting information,"personal
+communication",1844840,88
+1964,4: Supporting information,"personal
+communication",2285016,106
+1965,4: Supporting information,"personal
+communication",2366519,95
+1966,4: Supporting information,"personal
+communication",2646845,138
+1967,4: Supporting information,"personal
+communication",2436421,149
+1968,4: Supporting information,"personal
+communication",2817575,134
+1969,4: Supporting information,"personal
+communication",3165729,207
+1970,4: Supporting information,"personal
+communication",3398488,219
+1971,4: Supporting information,"personal
+communication",3876617,274
+1972,4: Supporting information,"personal
+communication",3861897,303
+1973,4: Supporting information,"personal
+communication",3944110,297
+1974,4: Supporting information,"personal
+communication",4327880,387
+1975,4: Supporting information,"personal
+communication",4926792,420
+1976,4: Supporting information,"personal
+communication",4851135,429
+1977,4: Supporting information,"personal
+communication",5986495,482
+1978,4: Supporting information,"personal
+communication",5653233,588
+1979,4: Supporting information,"personal
+communication",5693994,598
+1980,4: Supporting information,"personal
+communication",6331998,647
+1981,4: Supporting information,"personal
+communication",6748054,768
+1982,4: Supporting information,"personal
+communication",6661455,667
+1983,4: Supporting information,"personal
+communication",7131449,731
+1984,4: Supporting information,"personal
+communication",7405435,815
+1985,4: Supporting information,"personal
+communication",7790280,807
+1986,4: Supporting information,"personal
+communication",7205017,771
+1987,4: Supporting information,"personal
+communication",8232279,733
+1988,4: Supporting information,"personal
+communication",9127375,895
+1989,4: Supporting information,"personal
+communication",9187930,840
+1990,4: Supporting information,"personal
+communication",9827250,874
+1991,4: Supporting information,"personal
+communication",10692126,1124
+1992,4: Supporting information,"personal
+communication",11532841,894
+1993,4: Supporting information,"personal
+communication",11863228,997
+1994,4: Supporting information,"personal
+communication",12424547,1031
+1995,4: Supporting information,"personal
+communication",13968243,993
+1996,4: Supporting information,"personal
+communication",15100715,1122
+1997,4: Supporting information,"personal
+communication",15395967,1097
+1998,4: Supporting information,"personal
+communication",16912010,1225
+1999,4: Supporting information,"personal
+communication",16924957,1171
+2000,4: Supporting information,"personal
+communication",18064233,1217
+2001,4: Supporting information,"personal
+communication",19322097,1172
+2002,4: Supporting information,"personal
+communication",18790584,998
+2003,4: Supporting information,"personal
+communication",20408258,1162
+2004,4: Supporting information,"personal
+communication",20858212,1136
+2005,4: Supporting information,"personal
+communication",21777074,1142
+2006,4: Supporting information,"personal
+communication",23460538,1037
+2007,4: Supporting information,"personal
+communication",23407699,887
+2008,4: Supporting information,"personal
+communication",26392520,949
+2009,4: Supporting information,"personal
+communication",26767306,737
+2010,4: Supporting information,"personal
+communication",23931224,630
+2011,4: Supporting information,"personal
+communication",24867009,575
 1921,4: Supporting information,unpublished data,589125,3
 1922,4: Supporting information,unpublished data,536084,7
 1925,4: Supporting information,unpublished data,860483,1
@@ -1667,23 +1928,23 @@ year,panel,gram_canonical,total_words,total
 2009,6: Genetic tools,mtDNA,26767306,1670
 2010,6: Genetic tools,mtDNA,23931224,1785
 2011,6: Genetic tools,mtDNA,24867009,1449
-1990,6: Genetic tools,next generation sequencing,9827250,1
-1993,6: Genetic tools,next generation sequencing,11863228,1
-1999,6: Genetic tools,next generation sequencing,16924957,1
-2001,6: Genetic tools,next generation sequencing,19322097,3
-2002,6: Genetic tools,next generation sequencing,18790584,9
-2003,6: Genetic tools,next generation sequencing,20408258,6
-2004,6: Genetic tools,next generation sequencing,20858212,12
-2005,6: Genetic tools,next generation sequencing,21777074,21
-2006,6: Genetic tools,next generation sequencing,23460538,32
-2007,6: Genetic tools,next generation sequencing,23407699,26
-2008,6: Genetic tools,next generation sequencing,26392520,77
-2009,6: Genetic tools,next generation sequencing,26767306,106
-2010,6: Genetic tools,next generation sequencing,23931224,201
-2011,6: Genetic tools,next generation sequencing,24867009,224
-2012,6: Genetic tools,next generation sequencing,17761987,96
-2013,6: Genetic tools,next generation sequencing,18742838,97
-2014,6: Genetic tools,next generation sequencing,10049228,135
+1990,6: Genetic tools,next generation seq.,9827250,1
+1993,6: Genetic tools,next generation seq.,11863228,1
+1999,6: Genetic tools,next generation seq.,16924957,1
+2001,6: Genetic tools,next generation seq.,19322097,3
+2002,6: Genetic tools,next generation seq.,18790584,9
+2003,6: Genetic tools,next generation seq.,20408258,6
+2004,6: Genetic tools,next generation seq.,20858212,12
+2005,6: Genetic tools,next generation seq.,21777074,21
+2006,6: Genetic tools,next generation seq.,23460538,32
+2007,6: Genetic tools,next generation seq.,23407699,26
+2008,6: Genetic tools,next generation seq.,26392520,77
+2009,6: Genetic tools,next generation seq.,26767306,106
+2010,6: Genetic tools,next generation seq.,23931224,201
+2011,6: Genetic tools,next generation seq.,24867009,224
+2012,6: Genetic tools,next generation seq.,17761987,96
+2013,6: Genetic tools,next generation seq.,18742838,97
+2014,6: Genetic tools,next generation seq.,10049228,135
 1992,6: Genetic tools,q/RT-PCR,11532841,2
 1993,6: Genetic tools,q/RT-PCR,11863228,18
 1994,6: Genetic tools,q/RT-PCR,12424547,3
@@ -1707,68 +1968,144 @@ year,panel,gram_canonical,total_words,total
 2009,6: Genetic tools,RNA-seq,26767306,9
 2010,6: Genetic tools,RNA-seq,23931224,7
 2011,6: Genetic tools,RNA-seq,24867009,41
-2002,6: Genetic tools,sanger sequencing,18790584,1
-2009,6: Genetic tools,sanger sequencing,26767306,6
-2010,6: Genetic tools,sanger sequencing,23931224,5
-2011,6: Genetic tools,sanger sequencing,24867009,8
-1933,6: Genetic tools,single nucleotide polymorphism,898679,1
-1942,6: Genetic tools,single nucleotide polymorphism,923110,7
-1949,6: Genetic tools,single nucleotide polymorphism,949573,1
-1957,6: Genetic tools,single nucleotide polymorphism,1535449,1
-1966,6: Genetic tools,single nucleotide polymorphism,2646845,2
-1967,6: Genetic tools,single nucleotide polymorphism,2436421,1
-1968,6: Genetic tools,single nucleotide polymorphism,2817575,2
-1974,6: Genetic tools,single nucleotide polymorphism,4327880,1
-1976,6: Genetic tools,single nucleotide polymorphism,4851135,2
-1978,6: Genetic tools,single nucleotide polymorphism,5653233,2
-1983,6: Genetic tools,single nucleotide polymorphism,7131449,4
-1984,6: Genetic tools,single nucleotide polymorphism,7405435,34
-1987,6: Genetic tools,single nucleotide polymorphism,8232279,3
-1988,6: Genetic tools,single nucleotide polymorphism,9127375,5
-1989,6: Genetic tools,single nucleotide polymorphism,9187930,13
-1991,6: Genetic tools,single nucleotide polymorphism,10692126,6
-1992,6: Genetic tools,single nucleotide polymorphism,11532841,1
-1994,6: Genetic tools,single nucleotide polymorphism,12424547,48
-1995,6: Genetic tools,single nucleotide polymorphism,13968243,7
-1996,6: Genetic tools,single nucleotide polymorphism,15100715,6
-1997,6: Genetic tools,single nucleotide polymorphism,15395967,6
-1998,6: Genetic tools,single nucleotide polymorphism,16912010,6
-1999,6: Genetic tools,single nucleotide polymorphism,16924957,99
-2000,6: Genetic tools,single nucleotide polymorphism,18064233,46
-2001,6: Genetic tools,single nucleotide polymorphism,19322097,56
-2002,6: Genetic tools,single nucleotide polymorphism,18790584,84
-2003,6: Genetic tools,single nucleotide polymorphism,20408258,101
-2004,6: Genetic tools,single nucleotide polymorphism,20858212,186
-2005,6: Genetic tools,single nucleotide polymorphism,21777074,343
-2006,6: Genetic tools,single nucleotide polymorphism,23460538,77
-2007,6: Genetic tools,single nucleotide polymorphism,23407699,507
-2008,6: Genetic tools,single nucleotide polymorphism,26392520,427
-2009,6: Genetic tools,single nucleotide polymorphism,26767306,463
-2010,6: Genetic tools,single nucleotide polymorphism,23931224,1018
-2011,6: Genetic tools,single nucleotide polymorphism,24867009,713
-2012,6: Genetic tools,single nucleotide polymorphism,17761987,37
-2013,6: Genetic tools,single nucleotide polymorphism,18742838,38
-2014,6: Genetic tools,single nucleotide polymorphism,10049228,19
-1989,6: Genetic tools,whole genome sequencing,9187930,1
-1991,6: Genetic tools,whole genome sequencing,10692126,1
-1993,6: Genetic tools,whole genome sequencing,11863228,2
-1994,6: Genetic tools,whole genome sequencing,12424547,3
-1995,6: Genetic tools,whole genome sequencing,13968243,2
-1996,6: Genetic tools,whole genome sequencing,15100715,2
-1998,6: Genetic tools,whole genome sequencing,16912010,10
-1999,6: Genetic tools,whole genome sequencing,16924957,11
-2000,6: Genetic tools,whole genome sequencing,18064233,11
-2001,6: Genetic tools,whole genome sequencing,19322097,8
-2002,6: Genetic tools,whole genome sequencing,18790584,39
-2003,6: Genetic tools,whole genome sequencing,20408258,21
-2004,6: Genetic tools,whole genome sequencing,20858212,34
-2005,6: Genetic tools,whole genome sequencing,21777074,31
-2006,6: Genetic tools,whole genome sequencing,23460538,51
-2007,6: Genetic tools,whole genome sequencing,23407699,92
-2008,6: Genetic tools,whole genome sequencing,26392520,109
-2009,6: Genetic tools,whole genome sequencing,26767306,100
-2010,6: Genetic tools,whole genome sequencing,23931224,99
-2011,6: Genetic tools,whole genome sequencing,24867009,86
-2012,6: Genetic tools,whole genome sequencing,17761987,50
-2013,6: Genetic tools,whole genome sequencing,18742838,39
-2014,6: Genetic tools,whole genome sequencing,10049228,49
+2002,6: Genetic tools,sanger seq.,18790584,1
+2009,6: Genetic tools,sanger seq.,26767306,6
+2010,6: Genetic tools,sanger seq.,23931224,5
+2011,6: Genetic tools,sanger seq.,24867009,8
+1933,6: Genetic tools,"single nucleotide
+polymorphism
+",898679,1
+1942,6: Genetic tools,"single nucleotide
+polymorphism
+",923110,7
+1949,6: Genetic tools,"single nucleotide
+polymorphism
+",949573,1
+1957,6: Genetic tools,"single nucleotide
+polymorphism
+",1535449,1
+1966,6: Genetic tools,"single nucleotide
+polymorphism
+",2646845,2
+1967,6: Genetic tools,"single nucleotide
+polymorphism
+",2436421,1
+1968,6: Genetic tools,"single nucleotide
+polymorphism
+",2817575,2
+1974,6: Genetic tools,"single nucleotide
+polymorphism
+",4327880,1
+1976,6: Genetic tools,"single nucleotide
+polymorphism
+",4851135,2
+1978,6: Genetic tools,"single nucleotide
+polymorphism
+",5653233,2
+1983,6: Genetic tools,"single nucleotide
+polymorphism
+",7131449,4
+1984,6: Genetic tools,"single nucleotide
+polymorphism
+",7405435,34
+1987,6: Genetic tools,"single nucleotide
+polymorphism
+",8232279,3
+1988,6: Genetic tools,"single nucleotide
+polymorphism
+",9127375,5
+1989,6: Genetic tools,"single nucleotide
+polymorphism
+",9187930,13
+1991,6: Genetic tools,"single nucleotide
+polymorphism
+",10692126,6
+1992,6: Genetic tools,"single nucleotide
+polymorphism
+",11532841,1
+1994,6: Genetic tools,"single nucleotide
+polymorphism
+",12424547,48
+1995,6: Genetic tools,"single nucleotide
+polymorphism
+",13968243,7
+1996,6: Genetic tools,"single nucleotide
+polymorphism
+",15100715,6
+1997,6: Genetic tools,"single nucleotide
+polymorphism
+",15395967,6
+1998,6: Genetic tools,"single nucleotide
+polymorphism
+",16912010,6
+1999,6: Genetic tools,"single nucleotide
+polymorphism
+",16924957,99
+2000,6: Genetic tools,"single nucleotide
+polymorphism
+",18064233,46
+2001,6: Genetic tools,"single nucleotide
+polymorphism
+",19322097,56
+2002,6: Genetic tools,"single nucleotide
+polymorphism
+",18790584,84
+2003,6: Genetic tools,"single nucleotide
+polymorphism
+",20408258,101
+2004,6: Genetic tools,"single nucleotide
+polymorphism
+",20858212,186
+2005,6: Genetic tools,"single nucleotide
+polymorphism
+",21777074,343
+2006,6: Genetic tools,"single nucleotide
+polymorphism
+",23460538,77
+2007,6: Genetic tools,"single nucleotide
+polymorphism
+",23407699,507
+2008,6: Genetic tools,"single nucleotide
+polymorphism
+",26392520,427
+2009,6: Genetic tools,"single nucleotide
+polymorphism
+",26767306,463
+2010,6: Genetic tools,"single nucleotide
+polymorphism
+",23931224,1018
+2011,6: Genetic tools,"single nucleotide
+polymorphism
+",24867009,713
+2012,6: Genetic tools,"single nucleotide
+polymorphism
+",17761987,37
+2013,6: Genetic tools,"single nucleotide
+polymorphism
+",18742838,38
+2014,6: Genetic tools,"single nucleotide
+polymorphism
+",10049228,19
+1989,6: Genetic tools,whole genome seq.,9187930,1
+1991,6: Genetic tools,whole genome seq.,10692126,1
+1993,6: Genetic tools,whole genome seq.,11863228,2
+1994,6: Genetic tools,whole genome seq.,12424547,3
+1995,6: Genetic tools,whole genome seq.,13968243,2
+1996,6: Genetic tools,whole genome seq.,15100715,2
+1998,6: Genetic tools,whole genome seq.,16912010,10
+1999,6: Genetic tools,whole genome seq.,16924957,11
+2000,6: Genetic tools,whole genome seq.,18064233,11
+2001,6: Genetic tools,whole genome seq.,19322097,8
+2002,6: Genetic tools,whole genome seq.,18790584,39
+2003,6: Genetic tools,whole genome seq.,20408258,21
+2004,6: Genetic tools,whole genome seq.,20858212,34
+2005,6: Genetic tools,whole genome seq.,21777074,31
+2006,6: Genetic tools,whole genome seq.,23460538,51
+2007,6: Genetic tools,whole genome seq.,23407699,92
+2008,6: Genetic tools,whole genome seq.,26392520,109
+2009,6: Genetic tools,whole genome seq.,26767306,100
+2010,6: Genetic tools,whole genome seq.,23931224,99
+2011,6: Genetic tools,whole genome seq.,24867009,86
+2012,6: Genetic tools,whole genome seq.,17761987,50
+2013,6: Genetic tools,whole genome seq.,18742838,39
+2014,6: Genetic tools,whole genome seq.,10049228,49

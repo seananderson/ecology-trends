@@ -1,4 +1,70 @@
 year,panel,gram_canonical,total_words,total
+1992,1: Interventions,"
+community-based
+management",11532841,1
+1993,1: Interventions,"
+community-based
+management",11863228,4
+1995,1: Interventions,"
+community-based
+management",13968243,16
+1996,1: Interventions,"
+community-based
+management",15100715,11
+1997,1: Interventions,"
+community-based
+management",15395967,10
+1998,1: Interventions,"
+community-based
+management",16912010,30
+1999,1: Interventions,"
+community-based
+management",16924957,86
+2000,1: Interventions,"
+community-based
+management",18064233,28
+2001,1: Interventions,"
+community-based
+management",19322097,33
+2002,1: Interventions,"
+community-based
+management",18790584,25
+2003,1: Interventions,"
+community-based
+management",20408258,119
+2004,1: Interventions,"
+community-based
+management",20858212,58
+2005,1: Interventions,"
+community-based
+management",21777074,59
+2006,1: Interventions,"
+community-based
+management",23460538,74
+2007,1: Interventions,"
+community-based
+management",23407699,86
+2008,1: Interventions,"
+community-based
+management",26392520,76
+2009,1: Interventions,"
+community-based
+management",26767306,48
+2010,1: Interventions,"
+community-based
+management",23931224,151
+2011,1: Interventions,"
+community-based
+management",24867009,58
+2012,1: Interventions,"
+community-based
+management",17761987,54
+2013,1: Interventions,"
+community-based
+management",18742838,51
+2014,1: Interventions,"
+community-based
+management",10049228,5
 1973,1: Interventions,alternative livelihoods,3944110,1
 1988,1: Interventions,alternative livelihoods,9127375,2
 1990,1: Interventions,alternative livelihoods,9827250,1
@@ -90,28 +156,6 @@ year,panel,gram_canonical,total_words,total
 2009,1: Interventions,certification,26767306,283
 2010,1: Interventions,certification,23931224,355
 2011,1: Interventions,certification,24867009,506
-1992,1: Interventions,community-based management,11532841,1
-1993,1: Interventions,community-based management,11863228,4
-1995,1: Interventions,community-based management,13968243,16
-1996,1: Interventions,community-based management,15100715,11
-1997,1: Interventions,community-based management,15395967,10
-1998,1: Interventions,community-based management,16912010,30
-1999,1: Interventions,community-based management,16924957,86
-2000,1: Interventions,community-based management,18064233,28
-2001,1: Interventions,community-based management,19322097,33
-2002,1: Interventions,community-based management,18790584,25
-2003,1: Interventions,community-based management,20408258,119
-2004,1: Interventions,community-based management,20858212,58
-2005,1: Interventions,community-based management,21777074,59
-2006,1: Interventions,community-based management,23460538,74
-2007,1: Interventions,community-based management,23407699,86
-2008,1: Interventions,community-based management,26392520,76
-2009,1: Interventions,community-based management,26767306,48
-2010,1: Interventions,community-based management,23931224,151
-2011,1: Interventions,community-based management,24867009,58
-2012,1: Interventions,community-based management,17761987,54
-2013,1: Interventions,community-based management,18742838,51
-2014,1: Interventions,community-based management,10049228,5
 1986,1: Interventions,ecotourism,7205017,1
 1988,1: Interventions,ecotourism,9127375,1
 1990,1: Interventions,ecotourism,9827250,1
@@ -350,21 +394,36 @@ year,panel,gram_canonical,total_words,total
 2012,2: Human well-being,human well-being,17761987,159
 2013,2: Human well-being,human well-being,18742838,265
 2014,2: Human well-being,human well-being,10049228,100
-1998,2: Human well-being,human-wildlife conflict,16912010,6
-1999,2: Human well-being,human-wildlife conflict,16924957,10
-2001,2: Human well-being,human-wildlife conflict,19322097,5
-2003,2: Human well-being,human-wildlife conflict,20408258,11
-2004,2: Human well-being,human-wildlife conflict,20858212,16
-2005,2: Human well-being,human-wildlife conflict,21777074,9
-2006,2: Human well-being,human-wildlife conflict,23460538,4
-2007,2: Human well-being,human-wildlife conflict,23407699,17
-2008,2: Human well-being,human-wildlife conflict,26392520,44
-2009,2: Human well-being,human-wildlife conflict,26767306,56
-2010,2: Human well-being,human-wildlife conflict,23931224,20
-2011,2: Human well-being,human-wildlife conflict,24867009,35
-2012,2: Human well-being,human-wildlife conflict,17761987,28
-2013,2: Human well-being,human-wildlife conflict,18742838,23
-2014,2: Human well-being,human-wildlife conflict,10049228,4
+1998,2: Human well-being,"human-wildlife
+conflict",16912010,6
+1999,2: Human well-being,"human-wildlife
+conflict",16924957,10
+2001,2: Human well-being,"human-wildlife
+conflict",19322097,5
+2003,2: Human well-being,"human-wildlife
+conflict",20408258,11
+2004,2: Human well-being,"human-wildlife
+conflict",20858212,16
+2005,2: Human well-being,"human-wildlife
+conflict",21777074,9
+2006,2: Human well-being,"human-wildlife
+conflict",23460538,4
+2007,2: Human well-being,"human-wildlife
+conflict",23407699,17
+2008,2: Human well-being,"human-wildlife
+conflict",26392520,44
+2009,2: Human well-being,"human-wildlife
+conflict",26767306,56
+2010,2: Human well-being,"human-wildlife
+conflict",23931224,20
+2011,2: Human well-being,"human-wildlife
+conflict",24867009,35
+2012,2: Human well-being,"human-wildlife
+conflict",17761987,28
+2013,2: Human well-being,"human-wildlife
+conflict",18742838,23
+2014,2: Human well-being,"human-wildlife
+conflict",10049228,4
 1920,2: Human well-being,poverty,630090,3
 1921,2: Human well-being,poverty,589125,5
 1923,2: Human well-being,poverty,711435,3
@@ -497,25 +556,44 @@ year,panel,gram_canonical,total_words,total
 2009,3: Methods,ethnography,26767306,16
 2010,3: Methods,ethnography,23931224,13
 2011,3: Methods,ethnography,24867009,29
-1993,3: Methods,focus group,11863228,2
-1994,3: Methods,focus group,12424547,9
-1995,3: Methods,focus group,13968243,12
-1996,3: Methods,focus group,15100715,2
-1997,3: Methods,focus group,15395967,4
-1998,3: Methods,focus group,16912010,11
-1999,3: Methods,focus group,16924957,10
-2000,3: Methods,focus group,18064233,45
-2001,3: Methods,focus group,19322097,12
-2002,3: Methods,focus group,18790584,19
-2003,3: Methods,focus group,20408258,11
-2004,3: Methods,focus group,20858212,12
-2005,3: Methods,focus group,21777074,55
-2006,3: Methods,focus group,23460538,25
-2007,3: Methods,focus group,23407699,32
-2008,3: Methods,focus group,26392520,62
-2009,3: Methods,focus group,26767306,21
-2010,3: Methods,focus group,23931224,54
-2011,3: Methods,focus group,24867009,50
+1993,3: Methods,"focus group
+",11863228,2
+1994,3: Methods,"focus group
+",12424547,9
+1995,3: Methods,"focus group
+",13968243,12
+1996,3: Methods,"focus group
+",15100715,2
+1997,3: Methods,"focus group
+",15395967,4
+1998,3: Methods,"focus group
+",16912010,11
+1999,3: Methods,"focus group
+",16924957,10
+2000,3: Methods,"focus group
+",18064233,45
+2001,3: Methods,"focus group
+",19322097,12
+2002,3: Methods,"focus group
+",18790584,19
+2003,3: Methods,"focus group
+",20408258,11
+2004,3: Methods,"focus group
+",20858212,12
+2005,3: Methods,"focus group
+",21777074,55
+2006,3: Methods,"focus group
+",23460538,25
+2007,3: Methods,"focus group
+",23407699,32
+2008,3: Methods,"focus group
+",26392520,62
+2009,3: Methods,"focus group
+",26767306,21
+2010,3: Methods,"focus group
+",23931224,54
+2011,3: Methods,"focus group
+",24867009,50
 1921,3: Methods,interview,589125,1
 1927,3: Methods,interview,797713,1
 1938,3: Methods,interview,1096306,2
@@ -582,36 +660,66 @@ year,panel,gram_canonical,total_words,total
 2009,3: Methods,interview,26767306,565
 2010,3: Methods,interview,23931224,765
 2011,3: Methods,interview,24867009,779
-1966,3: Methods,participant observation,2646845,1
-1974,3: Methods,participant observation,4327880,1
-1977,3: Methods,participant observation,5986495,1
-1978,3: Methods,participant observation,5653233,2
-1981,3: Methods,participant observation,6748054,1
-1982,3: Methods,participant observation,6661455,1
-1983,3: Methods,participant observation,7131449,2
-1986,3: Methods,participant observation,7205017,1
-1988,3: Methods,participant observation,9127375,1
-1989,3: Methods,participant observation,9187930,1
-1990,3: Methods,participant observation,9827250,1
-1991,3: Methods,participant observation,10692126,2
-1994,3: Methods,participant observation,12424547,4
-1995,3: Methods,participant observation,13968243,2
-1996,3: Methods,participant observation,15100715,5
-1997,3: Methods,participant observation,15395967,5
-1998,3: Methods,participant observation,16912010,12
-1999,3: Methods,participant observation,16924957,11
-2000,3: Methods,participant observation,18064233,3
-2001,3: Methods,participant observation,19322097,9
-2002,3: Methods,participant observation,18790584,1
-2003,3: Methods,participant observation,20408258,14
-2004,3: Methods,participant observation,20858212,5
-2005,3: Methods,participant observation,21777074,9
-2006,3: Methods,participant observation,23460538,9
-2007,3: Methods,participant observation,23407699,10
-2008,3: Methods,participant observation,26392520,43
-2009,3: Methods,participant observation,26767306,31
-2010,3: Methods,participant observation,23931224,21
-2011,3: Methods,participant observation,24867009,54
+1966,3: Methods,"participant
+observation",2646845,1
+1974,3: Methods,"participant
+observation",4327880,1
+1977,3: Methods,"participant
+observation",5986495,1
+1978,3: Methods,"participant
+observation",5653233,2
+1981,3: Methods,"participant
+observation",6748054,1
+1982,3: Methods,"participant
+observation",6661455,1
+1983,3: Methods,"participant
+observation",7131449,2
+1986,3: Methods,"participant
+observation",7205017,1
+1988,3: Methods,"participant
+observation",9127375,1
+1989,3: Methods,"participant
+observation",9187930,1
+1990,3: Methods,"participant
+observation",9827250,1
+1991,3: Methods,"participant
+observation",10692126,2
+1994,3: Methods,"participant
+observation",12424547,4
+1995,3: Methods,"participant
+observation",13968243,2
+1996,3: Methods,"participant
+observation",15100715,5
+1997,3: Methods,"participant
+observation",15395967,5
+1998,3: Methods,"participant
+observation",16912010,12
+1999,3: Methods,"participant
+observation",16924957,11
+2000,3: Methods,"participant
+observation",18064233,3
+2001,3: Methods,"participant
+observation",19322097,9
+2002,3: Methods,"participant
+observation",18790584,1
+2003,3: Methods,"participant
+observation",20408258,14
+2004,3: Methods,"participant
+observation",20858212,5
+2005,3: Methods,"participant
+observation",21777074,9
+2006,3: Methods,"participant
+observation",23460538,9
+2007,3: Methods,"participant
+observation",23407699,10
+2008,3: Methods,"participant
+observation",26392520,43
+2009,3: Methods,"participant
+observation",26767306,31
+2010,3: Methods,"participant
+observation",23931224,21
+2011,3: Methods,"participant
+observation",24867009,54
 1923,3: Methods,questionnaire,711435,2
 1927,3: Methods,questionnaire,797713,2
 1928,3: Methods,questionnaire,889702,1

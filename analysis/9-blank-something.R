@@ -199,7 +199,7 @@ gd <- gd %>% filter(panel_lemma != "scale")
 gd <- gd %>% filter(panel_lemma != "hypothesis")
 
 plot_blanks <- function(dat, right_gap = 40,
-  label_cex = 0.85, one_pal = FALSE, ...) {
+  label_cex = 0.85, yfrac_let = 0.08, one_pal = FALSE, ...) {
   dat <- dat %>%
     mutate(gram_canonical = lemma, panel = panel_lemma) %>%
     arrange(panel, gram_canonical, year)
@@ -208,7 +208,7 @@ plot_blanks <- function(dat, right_gap = 40,
   nrows <- ceiling(n/ncols)
   par(mfrow = c(nrows, ncols))
   par(mgp = c(2, 0.3, 0), tcl = -0.15, las = 1, cex = 0.7,
-    col.axis = "grey55", mar = c(0.025, 2.1, 0, 0), oma = c(1.7, 1.1, .5, .5))
+    col.axis = "grey55", mar = c(0.025, 2.1, 0, 0), oma = c(1.7, 0.5, .5, .5))
   ii <<- 1
   xaxes <- seq(n - (ncols - 1), n)
   mutate(dat, total_words = total_words/1e5, total = total) %>%
@@ -218,11 +218,11 @@ plot_blanks <- function(dat, right_gap = 40,
       else
         pal <- pal_func
       ecogram_panel(x, xaxes = xaxes,
-        right_gap = right_gap, label_cex = label_cex, yfrac_let = 0.06, ncols = ncols,
+        right_gap = right_gap, label_cex = label_cex, yfrac_let = yfrac_let, ncols = ncols,
         pal  = pal,
         lab_text = paste(simple_cap(as.character(unique(x$panel))),
           collapse = ""), ...)})
-  mtext("Frequency per 100,000 words", side = 2, outer = TRUE, line = -.4,
+  mtext("Frequency per 100,000 words", side = 2, outer = TRUE, line = -.8,
     col = "grey45", cex = 0.85, las = 0)
 }
 
@@ -279,10 +279,9 @@ gd_$panel_lemma <- forcats::fct_recode(gd_$panel_lemma,
   `____ analysis` = "analysis"
 )
 
-# pdf("figs/blanks-viridis2.pdf", width = 6.5, height = 6.5 * 2 * gold())
-pdf("figs/blanks-viridis5.pdf", width = 9, height = 9 * 4/3  * gold()*1.07)
+pdf("figs/blanks-viridis5.pdf", width = 7.1, height = 7.0 * 4/3  * gold()*0.97)
 gd_ %>%
-  plot_blanks(right_gap = 34, log_y = FALSE,
+  plot_blanks(right_gap = 48, log_y = FALSE,
     bottom_frac_up = 0.04, label_gap = -1.0,
     show_seg = TRUE)
 dev.off()

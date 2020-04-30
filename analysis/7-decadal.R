@@ -136,7 +136,7 @@ pop2_plot <- shape_top_decade(pop2, gram_db = gram_db2, total1 = total1,
 # Plot
 
 plot_decades <- function(dat, right_gap = 30,
-  label_cex = 0.85, nrows = 2, ncols = 2, ...) {
+  label_cex = 0.85, nrows = 2, ncols = 2, yfrac_let = 0.04, ...) {
   dat <- dat %>%
     mutate(gram_canonical = lemma, panel = paste(decade, gram_num)) %>%
     arrange(panel, gram_canonical, year) %>%
@@ -151,7 +151,7 @@ plot_decades <- function(dat, right_gap = 30,
   mutate(dat, total_words = total_words/1e5, total = total) %>%
     plyr::d_ply("panel", function(x) {
       ecogram_panel(x, xaxes = xaxes,
-      right_gap = right_gap, label_cex = label_cex, yfrac_let = 0.04,
+      right_gap = right_gap, label_cex = label_cex, yfrac_let = yfrac_let,
       lab_text = unique(x$panel), ymax = unique(x$ymax), ...)})
   mtext("Frequency per 100,000 words", side = 2, outer = TRUE, line = -0.05,
     col = "grey45", cex = 0.85, las = 0)
@@ -204,14 +204,18 @@ both_dat <- bind_rows(dec_dat, boom_dat) %>%
       "2000s 2-grams increase"
     )))
 
-pdf("figs/decades-and-booms.pdf", width = 6.5,
-  height = 6.5 * gold() * 3/2 * 1.05)
-plot_decades_and_boom(both_dat, right_gap = 50, nrows = 3, ncols = 2)
+both_dat$lemma[both_dat$lemma=="supplementary material"] <- "supplementary\nmaterial"
+
+pdf("figs/decades-and-booms.pdf", width = 5.25,
+  height = 5 * gold() * 3/2 * 0.96)
+par(lheight = 0.6)
+plot_decades_and_boom(both_dat, right_gap = 70, nrows = 3, ncols = 2)
 dev.off()
 
-pdf("figs/decades-and-booms-viridis.pdf", width = 6.5,
-  height = 6.5 * gold() * 3/2 * 1.05)
-plot_decades_and_boom(both_dat, right_gap = 50, nrows = 3, ncols = 2,
+pdf("figs/decades-and-booms-viridis.pdf", width = 5.25,
+  height = 5 * gold() * 3/2 * 0.96)
+par(lheight = 0.6)
+plot_decades_and_boom(both_dat, right_gap = 70, nrows = 3, ncols = 2,
   pal = pal_func)
 dev.off()
 

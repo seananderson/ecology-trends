@@ -418,7 +418,7 @@ All code to conduct our analysis is available at <https://github.com/seananderso
 
 (ref:fig-decades-cap) **Top n-grams from the 1940s and 2000s.** (**a--d**) Top nine 1-gram nouns and 2-gram nouns or adjectives from the 1940s and 2000s. Labels refer to "lemmas" or root words. For example, the 1-grams "plant" and "plants" are both combined and labelled as "plant". (**e--f**) Most rapidly increasing 1-gram nouns and 2-gram nouns or adjectives from 1980--2010. Light grey lines indicate frequency of the n-gram per 100,000 words. Dark coloured trend lines and associated shaded ribbons represent generalized additive model fits with +/- 1 standard error (68%) confidence intervals (see Methods). N-grams are labeled in the same order as the trend lines and are connected via a thin straight grey line.
 
-```{r decades, fig.cap = "(ref:fig-decades-cap)", out.width="5.1in", fig.align="center", fig.pos="h"}
+```{r decades, fig.cap = "(ref:fig-decades-cap)", out.width="4.5in", fig.align="center", fig.pos="h"}
 include_graphics(here("figs/decades-and-booms-viridis.pdf"))
 ```
 
@@ -426,7 +426,7 @@ include_graphics(here("figs/decades-and-booms-viridis.pdf"))
 
 (ref:fig-blanks-cap) **Top fill-in-the-blank 2-gram phrases.** Each panel shows the top eight 2-gram terms where the *blank* in the panel label is filled in by the noun or adjective indicated beside each trend. For example, in panel **a**, "Species ______" with the term "richness" corresponds to "species richness". The top n-grams are defined based on summing the occurrences throughout the entire time period thereby weighting recent years more heavily. The two panels on the left (orange to blue colours) correspond to levels of ecological scale, whereas the rightmost panel (green to blue colours) refers to four selected concepts of interest to ecology and conservation.
 
-```{r blanks, fig.cap = "(ref:fig-blanks-cap)"}
+```{r blanks, fig.cap = "(ref:fig-blanks-cap)", out.width="6.1in", fig.align="center"}
 include_graphics(here("figs/blanks-viridis5.pdf"))
 ```
 
@@ -434,7 +434,7 @@ include_graphics(here("figs/blanks-viridis5.pdf"))
 
 (ref:fig-ecology-cap) **Community ecology and ecological hypothesis and theory n-grams from 1930--2010.** Curated sets of n-grams related to selected themes. Light grey lines indicate frequency of the n-gram per 100,000 words. Dark coloured trend lines and associated shaded ribbons represent generalized additive model fits with +/- 1 standard error (68%) confidence intervals (see Methods). Note that in this and subsequent figures, the n-gram labels sometimes refer to multiple underlying related n-grams. For example, *mutualism* refers to multiple n-grams including *mutualism* and *mutualistic interaction*. Panel **b** is the same as panel **a**, but removes the 1-gram *species* to better visualize the remaining terms. Panels **e** and **f** are based on the same algorithm used in Fig. \@ref(fig:blanks) to find the top eight n-grams for "*blank* hypothesis" and "theory of *blank*" or "*blank* theory".
 
-```{r ecology, fig.cap = "(ref:fig-ecology-cap)"}
+```{r ecology, fig.cap = "(ref:fig-ecology-cap)", out.width="4.5in", fig.align="center"}
 include_graphics(here("figs/ecology-panels3.pdf"))
 ```
 
@@ -443,7 +443,7 @@ include_graphics(here("figs/ecology-panels3.pdf"))
 (ref:fig-conservation-cap) **Conservation and applied ecology n-grams from 1930--2010.**
 Details are otherwise the same as for Fig. \@ref(fig:ecology).
 
-```{r cons, fig.cap = "(ref:fig-conservation-cap)"}
+```{r cons, fig.cap = "(ref:fig-conservation-cap)", out.width="4.5in", fig.align="center"}
 include_graphics(here("figs/conservation-human-impacts.pdf"))
 ```
 
@@ -458,7 +458,7 @@ Details are otherwise the same as for Fig. \@ref(fig:ecology).
 *mtDNA*: mitochondrial DNA,
 *RT-PCR*: reverse transcription polymerase chain reaction.
 
-```{r methods, fig.cap = "(ref:fig-methods-cap)"}
+```{r methods, fig.cap = "(ref:fig-methods-cap)", out.width="4.5in", fig.align="center"}
 include_graphics(here("figs/methods-models-genetics2.pdf"))
 ```
 
@@ -468,7 +468,7 @@ include_graphics(here("figs/methods-models-genetics2.pdf"))
 Details are otherwise the same as for Fig. \@ref(fig:ecology).
 *REDD*: Reducing Emissions from Deforestation and Forest Degradation.
 
-```{r social, fig.cap = "(ref:fig-social-cap)"}
+```{r social, fig.cap = "(ref:fig-social-cap)", out.width="4.5in", fig.align="center"}
 include_graphics(here("figs/social-science-panels3.pdf"))
 ```
 

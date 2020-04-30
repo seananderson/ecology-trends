@@ -1,6 +1,6 @@
 make_handpicked_panel <- function(terms_file, cache_file, fig_file,
-  fig_width = 6, fig_height = 10,
-  right_gap = 64, ncols = 2,
+  fig_width = 6, fig_height = 10, bottom_frac_up = 0.035,
+  right_gap = 64, ncols = 2, connector_length = 1.9,
   overwrite_cache = FALSE, ...) {
 
   d <- read.csv(terms_file, strip.white = TRUE, stringsAsFactors = FALSE)
@@ -58,12 +58,54 @@ make_handpicked_panel <- function(terms_file, cache_file, fig_file,
     dplyr::filter(!is.na(total)) %>%
     unique()
 
-  # d$gram_canonical <- gsub("single nucleotide polymorphisms",
-  #   "\\\nsingle nucleotide\\\npolymorphisms", d$gram_canonical)
+  d$gram_canonical <- gsub("single nucleotide polymorphism",
+    "single nucleotide\\\npolymorphism\\\n", d$gram_canonical)
+  d$gram_canonical <- gsub("supplementary material",
+    "\\\nsupplementary\\\nmaterial", d$gram_canonical)
+  d$gram_canonical <- gsub("supplementary material",
+    "\\\nsupplementary\\\nmaterial", d$gram_canonical)
+  d$gram_canonical <- gsub("personal communication",
+    "personal\\\ncommunication", d$gram_canonical)
+  d$gram_canonical <- gsub(" sequencing",
+    " seq.", d$gram_canonical)
+  d$gram_canonical <- gsub("marine protected area",
+    "marine protected\\\narea", d$gram_canonical)
+  d$gram_canonical <- gsub("harvesting/collecting",
+    "\\\n\\\nharvesting/\\\ncollecting", d$gram_canonical)
+  d$gram_canonical <- gsub("theory of island \\[biogeography\\]",
+    "theory of island ...", d$gram_canonical)
+  d$gram_canonical <- gsub("theory of natural \\[selection\\]",
+    "theory of natural ...", d$gram_canonical)
+  d$gram_canonical <- gsub("community-based management",
+    "\\\ncommunity-based\\\nmanagement", d$gram_canonical)
+  d$gram_canonical <- gsub("human-wildlife conflict",
+    "human-wildlife\\\nconflict", d$gram_canonical)
+  d$gram_canonical <- gsub("participant observation",
+    "participant\\\nobservation", d$gram_canonical)
+  d$gram_canonical <- gsub("focus group",
+    "focus group\\\n", d$gram_canonical)
 
-  grDevices::pdf(fig_file, width = fig_width, height = fig_height)
-  dat <- ecogram_panels(d, right_gap = right_gap, ncols = ncols, ...)
-  grDevices::dev.off()
+  d$panel <- gsub("Consequences to species/landscapes",
+    "Consequences to spp./landscapes", d$panel)
+
+  if (any(grepl("[0-9]+: Hypotheses$", d$panel))) {
+    d$gram_canonical <- gsub(" hypothesis$",
+      " ...", d$gram_canonical)
+  }
+
+  pdf(fig_file, width = fig_width, height = fig_height)
+  par(lheight = 0.65)
+  dat <- ecogram_panels(d, right_gap = right_gap, ncols = ncols,
+    bottom_frac_up = bottom_frac_up, connector_length = connector_length,
+    ...)
+  dev.off()
+
+  dat$gram_canonical <- gsub("([a-zA-Z]+)\\\n", "\\1 ", dat$gram_canonical)
+  dat$gram_canonical <- gsub("^\\\n\\\n", "", dat$gram_canonical)
+  dat$gram_canonical <- gsub("^\\\n", "", dat$gram_canonical)
+  dat$gram_canonical <- gsub("\\\n$", "", dat$gram_canonical)
+  dat$gram_canonical <- gsub("/\\\n", "/", dat$gram_canonical)
+  # print(unique(dat$gram_canonical))
 
   g <- ggplot(dat, aes(year, total / total_words * 100000)) +
     geom_point(size = 1, pch = 21) +

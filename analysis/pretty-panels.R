@@ -36,7 +36,8 @@ ecogram_panel <- function(x,
   right_gap = 30, xaxes = NULL, stop_lab = 0.77, darken_factor = 1.0,
   label_gap = -1.9, label_cex = 0.85, bottom_frac_up = 0.025, log_y = FALSE,
   ncols = 2, show_seg = TRUE, yfrac_let = 0.08, ymax = NULL,
-  lab_text = "", label_side = c("right", "left")) {
+  lab_text = "", label_side = c("right", "left"),
+  connector_length = 1.25) {
 
   x <- dplyr::filter(x, year >= year_limits[1], year <= year_limits[2])
 
@@ -101,7 +102,7 @@ ecogram_panel <- function(x,
 
   lower <- 0
   if (log_y) lower <- 0.1
-  ylim <- c(lower, current_max * 1.15)
+  ylim <- c(lower, current_max * 1.19)
 
   log_arg <- ifelse(log_y, "y", "")
 
@@ -122,14 +123,14 @@ ecogram_panel <- function(x,
     pull(gram_canonical)
 
   max_axis2 <- ifelse(ii %in% seq_len(ncols),
-    current_max, current_max*stop_lab)
+    ylim[2], ylim[2] * stop_lab)
   axis(2, col.ticks = "grey80", col = NA,
-    at = pretty(seq(0, max_axis2, length.out = 200), n = 3))
+    at = pretty(seq(0, max_axis2, length.out = 200), n = 3), cex.axis = 0.85)
 
   if (!is.null(xaxes)) {
     if (ii %in% xaxes) {
       axis(1, col.ticks = "grey80", at = seq(1930, 2010, 20),
-        padj = -0.2, col = NA)
+        padj = -0.4, col = NA, cex.axis = 0.85)
     }
   }
 
@@ -143,15 +144,15 @@ ecogram_panel <- function(x,
     smo <- dplyr::filter(sm, gram_canonical == uniq[i])
     polygon(x = c(smo$year, rev(smo$year)), y = c(smo$ymin, rev(smo$ymax)),
       border = NA, col = paste0(smo$this_col, "35"))
-    lines(smo$year, smo$y, col = smo$this_col, lwd = 2.75)
+    lines(smo$year, smo$y, col = smo$this_col, lwd = 2.5)
   }
 
   lab$y_temp <- lab$y
   lab$y_temp[lab$y_temp < current_max * bottom_frac_up] <-
     current_max * bottom_frac_up
   lab$ynew <- suppressWarnings(TeachingDemos::spread.labs(lab$y_temp,
-    mindiff = 1.2 * strheight('A'),
-    maxiter = 5000, stepsize = 1/500, min = current_max * bottom_frac_up,
+    mindiff = 1.22 * strheight('A'),
+    maxiter = 9000, stepsize = 1/500, min = current_max * bottom_frac_up,
     max = current_max * 1.05))
 
   for (i in seq_along(uniq)) {
@@ -161,24 +162,24 @@ ecogram_panel <- function(x,
       col = this_lab$this_col, cex = label_cex)
   }
   if (show_seg)
-    segments(x0 = year_limits[2], x1 = year_limits[2]+1.2,
+    segments(x0 = year_limits[2], x1 = year_limits[2] + connector_length,
       y0 = lab$y, y1 = lab$ynew,
-      col = "grey75", lwd = 0.65)
+      col = "grey60", lwd = 0.83)
   add_label(xfrac = 0.0, yfrac = yfrac_let, label = letters[[ii]], cex = 1.5,
     font = 2)
 
   u <- par("usr")
-  x <- u[1] + 0.0 * (u[2] - u[1]) + strwidth(letters[[ii]], font = 2, cex = 1.4) +
+  x <- u[1] + 0.0 * (u[2] - u[1]) + strwidth(letters[[ii]], font = 2, cex = 1.2) +
     strwidth("  ")
   y <- u[4] - yfrac_let * (u[4] - u[3])
-  text(x, y, labels = lab_text, pos = 4, col = "grey50", cex = 1.2)
+  text(x, y, labels = lab_text, pos = 4, col = "grey50", cex = 1.1)
   ii <<- ii + 1
 }
 
 ecogram_panels <- function(dat, right_gap = 50, ncols = 2, csv_out = NULL, ...) {
   npanels <- length(unique(dat$panel))
   nrows <- ceiling(npanels / ncols)
-  dat <- dat[!duplicated(dat), ]
+  dat <- dat[!duplicated(dat), , drop = FALSE]
   dat_out <- dat
   dat <- dat %>%
     group_by(year, panel, gram_canonical, total_words) %>%
@@ -190,7 +191,7 @@ ecogram_panels <- function(dat, right_gap = 50, ncols = 2, csv_out = NULL, ...) 
 
   par(mfrow = c(nrows, ncols))
   par(mgp = c(2, 0.3, 0), tcl = -0.15, las = 1, cex = 0.7,
-    col.axis = "grey55", mar = c(0.025, 1.9, 0, 0), oma = c(1.7, 1.1, .5, .5))
+    col.axis = "grey55", mar = c(0.025, 1.9, 0, 0), oma = c(1.7, 0.5, .5, .5))
   ii <<- 1
   xaxes <- seq(npanels - (ncols - 1), npanels)
   mutate(dat, total_words = total_words/1e5, total = total) %>%
@@ -198,7 +199,7 @@ ecogram_panels <- function(dat, right_gap = 50, ncols = 2, csv_out = NULL, ...) 
       ecogram_panel(x, right_gap = right_gap, xaxes = xaxes, ncols = ncols,
       lab_text = as.character(unique(gsub("[0-9]+: ", "", x$panel))),
       ...)})
-  mtext("Frequency per 100,000 words", side = 2, outer = TRUE, line = -0.05,
+  mtext("Frequency per 100,000 words", side = 2, outer = TRUE, line = -0.55,
     col = "grey45", cex = 0.85, las = 0)
   invisible(dat_out)
 }
