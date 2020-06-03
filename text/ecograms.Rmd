@@ -127,18 +127,27 @@ messages of the paper in the clearest language possible. There should be no
 “jargon”, no scientific terminology, and no repetition from the abstract. The
 total length should not exceed 100 words. -->
 
-* We explore trends in ecology and conservation over eight decades through the
-  largest full-text analysis of its kind of scientific journals
+<!-- * We explore trends in ecology and conservation over eight decades through the -->
+<!--   largest full-text analysis of its kind of scientific journals -->
 
-* Few common terms from the early 1900s still dominate the literature today;
-  many now-common terms only recently emerged
+<!-- * Few common terms from the early 1900s still dominate the literature today; -->
+<!--   many now-common terms only recently emerged -->
 
-* The field evolved from focusing on natural history and field studies to
-  become more quantitative, concerned with applied environmental issues at
-  broader spatial scales, and focused on the human dimensions of conservation
+<!-- * The field evolved from focusing on natural history and field studies to -->
+<!--   become more quantitative, concerned with applied environmental issues at -->
+<!--   broader spatial scales, and focused on the human dimensions of conservation -->
 
-* Ecology and conservation have expanded rapidly allowing for an increased
-  diversity of approaches and types of ecologists
+<!-- * Ecology and conservation have expanded rapidly allowing for an increased -->
+<!--   diversity of approaches and types of ecologists -->
+
+* We analyze the full text from a large collection of ecology and conservation scientific journals to assess how the fields changed over the last 90 years
+
+* Some common terms in the early 1900s, such as agriculture and cell biology terms, are rarely discussed today; furthermore, many common terms now, including climate change, phylogenetics, and biodiversity, were only coined in recent decades
+
+* Ecology and conservation have broadened from local field studies to include global issues and increasingly feature advanced statistical modeling
+
+* Conservation science was one of the fastest growing areas, demonstrating the growing importance of the human dimensions of ecology
+
 
 ```{r setup, echo = FALSE, message = FALSE, warning = FALSE}
 library(knitr)
