@@ -29,3 +29,4 @@ data/generated/top-blank.rda
 data/ecology_panels_combined.csv
 text/ecograms.tex
 *.png
+text/Supplemental/*

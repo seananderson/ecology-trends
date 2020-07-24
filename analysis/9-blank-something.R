@@ -59,6 +59,8 @@ blank_grams3 <- ngrams3 %>%
 save(blank_grams3, file = "data/generated/blank_grams3.rda")
 load("data/generated/blank_grams3.rda")
 
+blank_grams3 <- ungroup(blank_grams3)
+
 # in case old cached version with extra:
 blank_grams3 <- blank_grams3 %>%
   filter(
@@ -172,6 +174,8 @@ gram_dat3 <- ngrams3 %>%
 save(gram_dat3, file = "data/generated/top-blank3.rda")
 load("data/generated/top-blank3.rda")
 
+gram_dat3 <- ungroup(gram_dat3)
+
 gram_dat3 <- left_join(gram_dat3, total1, by = "year")
 gram_dat3 <- gram_dat3 %>% mutate(gram = gsub("theory of", "theory-of", gram))
 gram_dat <- bind_rows(gram_dat, gram_dat3)
@@ -208,7 +212,7 @@ plot_blanks <- function(dat, right_gap = 40,
   nrows <- ceiling(n/ncols)
   par(mfrow = c(nrows, ncols))
   par(mgp = c(2, 0.3, 0), tcl = -0.15, las = 1, cex = 0.7,
-    col.axis = "grey55", mar = c(0.025, 2.1, 0, 0), oma = c(1.7, 0.5, .5, .5))
+    col.axis = "grey25", mar = c(0.025, 2.1, 0, 0), oma = c(1.7, 0.5, .5, .5))
   ii <<- 1
   xaxes <- seq(n - (ncols - 1), n)
   mutate(dat, total_words = total_words/1e5, total = total) %>%
@@ -223,7 +227,7 @@ plot_blanks <- function(dat, right_gap = 40,
         lab_text = paste(simple_cap(as.character(unique(x$panel))),
           collapse = ""), ...)})
   mtext("Frequency per 100,000 words", side = 2, outer = TRUE, line = -.8,
-    col = "grey45", cex = 0.85, las = 0)
+    col = "grey25", cex = 0.85, las = 0)
 }
 
 # gd$panel_lemma <- factor(gd$panel_lemma, levels = c(
@@ -343,45 +347,3 @@ plot_blanks(temp, right_gap = 34, log_y = FALSE,
   bottom_frac_up = 0.04, label_gap = -1.0,
   show_seg = TRUE, one_pal = TRUE)
 dev.off()
-
-
-# pdf("figs/blanks2.pdf", width = 6.5, height = 6.5 * 2 * gold())
-# gd %>%
-#   plot_blanks(right_gap = 34, log_y = FALSE,
-#     bottom_frac_up = 0.02, label_gap = -1.0,
-#     show_seg = TRUE)
-# dev.off()
-
-# This is the top 8 *blank* data/ecology/experiment/model lemmas/standardized
-# ngrams from
-# 2000-2010 potted over time where *blank* is a noun or adjective.
-#
-# Look at the peak and then sharp decline of unpublished data, it may be
-# coinciding with the Internet and digital journal processes?
-#
-# Field experiments peaked around 2000.
-#
-# Null models are the most common type of 'model' after around 2000 but
-# are clearly on the decline. I think they've experienced a fair bit of
-# backlash.
-#
-# Simple models used to be king but are dwarfed by other types now and
-# are on the decline.
-#
-# Global models weren't really a thing until the 1990s but are now in the top 8.
-#
-# Landscape ecology was the second last giant of the modern ecologies to
-# develop. Global ecology is the most recent. Functional ecology dwarfs
-# everything... I wonder how much journal names influence this panel.
-#
-# Empirical data caught up to field data in 2011.
-#
-# Will be neat to look at the same plots with the most popular stuff
-# from the 1940s.
-#
-# 'garden' experiments are on the rise... I wonder how much of that is
-# 'common garden'?
-#
-# You can also see the increasing popularity of comparing multiple
-# models with the growth of "full model" and "final model" from 1990ish
-# on.

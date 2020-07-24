@@ -29,14 +29,16 @@ make_handpicked_panel(
   fig_file   = "figs/stats-supp.pdf",
   fig_height = 3.5 * gold(),
   fig_width  = 3.5,
-  right_gap  = 45,
-  ncols      = 1
+  right_gap  = 43,
+  ncols      = 1,
+  label_gap = -0.5,
+  connector_length = 1.5
 )
 make_handpicked_panel(
   terms_file = "data/genetics-supp.csv",
   cache_file = "data/generated/genetics-supp.rds",
   fig_file   = "figs/genetics-supp.pdf",
-  fig_height = 6.5 * gold() * 1 / 2,
+  fig_height = 6.5 * gold() * 1 / 2 + 0.2,
   fig_width  = 6.5,
   right_gap  = 82
 )
@@ -91,7 +93,7 @@ g <- make_handpicked_panel(
   csv_out    = "data/generated/supplemental-out.csv",
   cache_file = "data/generated/supplemental.rds",
   fig_file   = "figs/supplemental-handpicked.pdf",
-  fig_height = 6.5 * 2 / 2 * gold(),
+  fig_height = 6.5 * 2 / 2 * gold() * 1/2 + 0.2,
   fig_width  = 6.5,
   right_gap  = 81
 )

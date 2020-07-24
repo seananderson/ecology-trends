@@ -29,7 +29,7 @@ process_slopes <- function(data, n = 8) {
 }
 
 plot_boom <- function(dat, right_gap = 15,
-  label_cex = 0.85, nrows = 2, ncols = 2, ...) {
+  label_cex = 0.85, nrows = 2, ncols = 2, yfrac_let = 0.06, ...) {
   dat <- dat %>% mutate(gram_canonical = lemma, panel = decade) %>%
     arrange(panel, gram_canonical, year)
   npanels <- length(unique(dat$panel))
@@ -44,7 +44,7 @@ plot_boom <- function(dat, right_gap = 15,
   mutate(dat, total_words = total_words/1e5, total = total) %>%
     plyr::d_ply("panel", function(x) {
       ecogram_panel(x, xaxes = xaxes,
-        right_gap = right_gap, label_cex = label_cex, yfrac_let = 0.06,
+        right_gap = right_gap, label_cex = label_cex, yfrac_let = yfrac_let,
         lab_text = paste(I(unique(x$panel)), collapse = ""),
         bottom_frac_up = 0.02, label_gap = -1.0,
         show_seg = TRUE,
@@ -62,14 +62,14 @@ plot_boom <- function(dat, right_gap = 15,
 
 plot_decades_and_boom <- function(dat, right_gap = 15,
   label_cex = 0.85, nrows = 3, ncols = 2, yfrac_let = 0.07,
-  bottom_frac_up = 0.03, ...) {
+  bottom_frac_up = 0.045, ...) {
   dat <- dat %>% mutate(gram_canonical = lemma, panel = decade) %>%
     arrange(panel, gram_canonical, year)
   npanels <- length(unique(dat$panel))
   n <- length(unique(dat$panel))
   par(mfrow = c(nrows, ncols))
   par(mgp = c(2, 0.3, 0), tcl = -0.15, las = 1, cex = 0.7,
-    col.axis = "grey55", mar = c(0.025, 2.1, 0, 0), oma = c(1.7, 1.2, .5, .5))
+    col.axis = "grey35", mar = c(0.025, 2.1, 0, 0), oma = c(1.7, 1.2, .5, .5))
   ii <<- 1
   xaxes <- seq(npanels - (ncols - 1), npanels)
   mutate(dat, total_words = total_words/1e5, total = total) %>%
@@ -90,5 +90,5 @@ plot_decades_and_boom <- function(dat, right_gap = 15,
       }
     })
   mtext("Frequency per 100,000 words", side = 2, outer = TRUE, line = 0,
-    col = "grey45", cex = 0.85, las = 0)
+    col = "grey35", cex = 0.85, las = 0)
 }

@@ -2,6 +2,16 @@ source("analysis/extract-functions.R")
 source("analysis/booming.R")
 source("analysis/pretty-panels.R")
 
+total1 <- readRDS(here::here("data/generated/total1.rds"))
+g <- total1 %>%
+  filter(year >= 1930, year <= 2010) %>%
+  ggplot(aes(year, total_words / 1e6)) +
+  geom_point() +
+  geom_line() +
+  ggsidekick::theme_sleek() +
+  ylab("Millions of 1-grams") + xlab("Year")
+ggsave("figs/webfigure2.pdf", width = 5.5, height = 0.618 * 5.5)
+
 bad_latex <- read_csv("data/bad-latex.csv", col_types = cols(gram = col_character()))
 excludes1 <- c("of", "in", "to", "and", "the", "from",
   "fig", "table", "figure", "vol", "tion")
@@ -145,7 +155,7 @@ plot_decades <- function(dat, right_gap = 30,
   npanels <- length(unique(dat$panel))
   par(mfrow = c(nrows, ncols))
   par(mgp = c(2, 0.3, 0), tcl = -0.15, las = 1, cex = 0.7,
-    col.axis = "grey55", mar = c(0.025, 2.1, 0, 0), oma = c(1.7, 1.1, .5, .5))
+    col.axis = "grey35", mar = c(0.025, 2.1, 0, 0), oma = c(1.7, 1.1, .5, .5))
   ii <<- 1
   xaxes <- seq(npanels - (ncols - 1), npanels)
   mutate(dat, total_words = total_words/1e5, total = total) %>%
@@ -154,7 +164,7 @@ plot_decades <- function(dat, right_gap = 30,
       right_gap = right_gap, label_cex = label_cex, yfrac_let = yfrac_let,
       lab_text = unique(x$panel), ymax = unique(x$ymax), ...)})
   mtext("Frequency per 100,000 words", side = 2, outer = TRUE, line = -0.05,
-    col = "grey45", cex = 0.85, las = 0)
+    col = "grey35", cex = 0.85, las = 0)
 }
 
 df <- tibble(decade = c("1940s", "1940s", "2000s", "2000s"),
@@ -174,8 +184,10 @@ df <- tibble(decade = c("1940s", "1940s", "2000s", "2000s"),
 pop1 <- readRDS("data/generated/pop1-cleaned.rds")
 pop2 <- readRDS("data/generated/pop2-cleaned.rds")
 pop2 <- filter(pop2, !gram %in% c("ecol appl"))
+pop2 <- filter(pop2, !gram %in% c("chromo somes"))
 pop1 <- filter(pop1, !gram %in% c("author"))
 pop1 <- filter(pop1, !gram %in% c("authors"))
+pop1 <- filter(pop1, !gram %in% c("writer"))
 p1 <- shape_top_decade(pop1, gram_db = gram_db1, total1 = total1, top = 300)
 p2 <- shape_top_decade(pop2, gram_db = gram_db2, total1 = total1, top = 300)
 b1 <- process_slopes(p1)
@@ -224,14 +236,25 @@ boom_only_dat <- filter(bb, lemma != "")
   # mutate(decade = paste(decade, "decrease"))
 
 pdf("figs/booms-viridis.pdf", width = 7,
-  height = 7 * gold() * 1 * 1.3)
+  height = 7 * gold() * 1 * 1.1)
 plot_boom(boom_only_dat, right_gap = 50, nrows = 2, ncols = 2,
   pal = pal_func)
 dev.off()
 
 pdf("figs/booms.pdf", width = 7,
-  height = 7 * gold() * 1 * 1.3)
+  height = 7 * gold() * 1 * 1.1)
 plot_boom(boom_only_dat, right_gap = 50, nrows = 2, ncols = 2)
+dev.off()
+
+pdf("figs/booms-viridis-decline.pdf", width = 7,
+  height = .5 * 7 * gold() * 1 * 1.1)
+plot_boom(boom_only_dat, right_gap = 50, nrows = 1, ncols = 2,
+  pal = pal_func)
+dev.off()
+
+pdf("figs/booms-decline.pdf", width = 7,
+  height = .5 * 7 * gold() * 1 * 1.1)
+plot_boom(filter(boom_only_dat, list_type == "1940"), right_gap = 50, nrows = 1, ncols = 2)
 dev.off()
 
 exclusions_fig1 <- sort(unique(c(excludes1, exclude, exclude3)))
