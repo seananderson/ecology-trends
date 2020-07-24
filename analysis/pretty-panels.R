@@ -167,12 +167,12 @@ ecogram_panel <- function(x,
       col = "grey60", lwd = 0.83)
 
   .letter <- paste0("(", letters[[ii]], ")")
-  add_label(xfrac = 0.0, yfrac = yfrac_let, label = .letter, cex = 1.2,
+  add_label(xfrac = -0.005, yfrac = yfrac_let, label = .letter, cex = 1.2,
     font = 2)
 
   u <- par("usr")
-  x <- u[1] + 0.0 * (u[2] - u[1]) + strwidth(.letter, font = 2, cex = 1.2) +
-    strwidth("  ")
+  x <- u[1] + 0.0 * (u[2] - u[1]) + strwidth(.letter, font = 2, cex = 1.15) +
+    strwidth(" ")
   y <- u[4] - yfrac_let * (u[4] - u[3])
   text(x, y, labels = lab_text, pos = 4, col = "grey35", cex = 1.1)
   ii <<- ii + 1
