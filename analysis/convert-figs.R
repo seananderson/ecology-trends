@@ -13,7 +13,6 @@ f_supp <- c(
   "community-ecology-facets.pdf",
   "conservation-human-impacts-facets.pdf",
   "blanks-extras-2018-08-09.pdf",
-  "genetics-supp.pdf",
   "methods-models-genetics-facets.pdf",
   "social-facets.pdf",
   "booms-decline.pdf",
