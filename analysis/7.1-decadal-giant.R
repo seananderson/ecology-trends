@@ -1,5 +1,6 @@
 source("analysis/extract-functions.R")
 source("analysis/pretty-panels.R")
+source("analysis/frontiers_theme.R")
 
 bad_latex <- read_csv("data/bad-latex.csv", col_types = cols(gram = col_character()))
 excludes <- c("of", "in", "to", "and", "the", "from",
@@ -248,10 +249,10 @@ make_giant_decadal_figure <- function(data_, smoother_data, decade_begin, decade
     smoother_data, by = c("year", "lemma"))
   data_ %>%
     ggplot() +
-    ggsidekick::theme_sleek() +
+    frontiers_theme() +
     geom_rect(
       xmin = decade_begin, xmax = decade_end, ymin = 0, ymax = 3000,
-      colour = "grey85", fill = "grey85") +
+      colour = "grey80", fill = "grey80") +
     geom_line(aes(year, total / total_words * 100000)) +
     geom_ribbon(data = smoother_data, aes(ymin = ymin * 100000,
       ymax = ymax * 100000, x = year),

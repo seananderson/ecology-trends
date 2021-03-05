@@ -1,9 +1,6 @@
 library(tidyverse)
 decisions <- readr::read_csv("data/journal-filtering.csv")
 
-# if (interactive()) View(d)
-# if (interactive()) View(journals)
-
 identifiers <- readr::read_csv("data/terms.csv")
 
 include <- filter(decisions, group_vote == "IN")

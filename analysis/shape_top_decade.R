@@ -1,10 +1,5 @@
 shape_top_decade <- function(data, gram_db, total1, top = 9) {
 
-  # hack:
-  # data <- data %>% group_by(decade) %>%
-  #   top_n(n = top, wt = total) %>%
-  #   ungroup()
-
   keep <- group_by(data, decade, lemma) %>%
     # top_n(n = 1, wt = total) %>%
     summarise(total = sum(total)) %>%
@@ -20,8 +15,6 @@ shape_top_decade <- function(data, gram_db, total1, top = 9) {
     collect(n = Inf) %>%
     left_join(total1, by = "year") %>% # from extract-functions.R
     ungroup()
-  # saveRDS(dat3, file = "data/generated/decade-evolution-dat.rds")
-  # dat3 <- readRDS("data/generated/decade-evolution-dat.rds")
 
   # add back lemma column:
   dat4 <- inner_join(dat3, select(pop3_keep, lemma, gram), by = "gram")

@@ -204,8 +204,6 @@ dd2 <- plyr::ddply(dd, "gram", function(x) {
     slope = coef(mlm)[[2]])
 })
 
-# library(ggrepel)
-
 labs_min <- group_by(dd2, gram) %>%
   summarise(pred = pred[year == min(year)],
     slope = slope[year == min(year)], year = min(year))
@@ -214,11 +212,6 @@ labs_max <- group_by(dd2, gram) %>%
     slope = slope[year == max(year)], year = max(year))
 
 ggplot(dd2, aes(year, pred, group = gram, colour = gram)) +
-  # geom_point(alpha = 0.1, colour = "grey40", cex = 0.5) +
-  # geom_smooth(se = FALSE) +
-  # geom_smooth(colour = "red", method = "gam",
-  #   method.args = list(family = Gamma(link = "log")),
-  #   formula = y ~ s(x), se = FALSE) +
   theme_sleek() +
   geom_line(lwd = 0.8) +
   geom_text_repel(
@@ -241,15 +234,6 @@ ggplot(dd2, aes(year, pred, group = gram, colour = gram)) +
   ylab("log10(Instances per 1000 'ecology')") +
   ggtitle("population_biology") +
   xlim(1925, 2025) +
-  # stat_smooth(span=span, se=F) +
-  # scale_colour_discrete(guide = 'none') +
-  # scale_color_gradient2(
-    # low = scales::muted("blue"),
-    # mid = "grey80",
-    # high = scales::muted("red")) +
-  scale_alpha_continuous(limits = c(-20, -2))
-  # viridis::scale_colour_viridis(discrete = TRUE) +
-  # geom_dl(aes(label = gram), method = list(dl.combine("first.points", "last.points"), cex = 0.8))
 ggsave("figs/population_biology-group2.pdf", width = 15, height = 12)
 
 # ------

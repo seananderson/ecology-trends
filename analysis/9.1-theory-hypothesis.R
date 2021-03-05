@@ -40,8 +40,6 @@ blank_grams <- gram_db2 %>%
       gram %like% "% distribution" |
       gram %like% "% conservation"
   ) %>%
-  # group_by(year, gram) %>%
-  # summarise(total = sum(count)) %>%
   collect(n = Inf)
 
 save(blank_grams, file = "data/generated/blank_grams.rda")
@@ -95,8 +93,6 @@ blank_grams <- mutate(blank_grams, main_term = gram2)
 blank_grams3 <- mutate(blank_grams3, main_term = get_n_term(gram3, 1))
 
 bg <- bind_rows(blank_grams, blank_grams3)
-
-# ignore <- c('the', 'this', 'of', 'an', 'a', 'by', 'on', 'our', 'on')
 
 bg <- mutate(bg, decade = paste0(substr(year, 1, 3), '0'))
 group_by(bg, main_term, decade, gram) %>%
