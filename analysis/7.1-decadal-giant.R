@@ -64,7 +64,7 @@ pop2 <- pop2 %>%
 # ----------
 # Keep just the nouns and adjectives
 tt <- koRpus::treetag(sort(unique(pop1$gram)), lang = "en", format = "obj")
-tt <- select(tt@TT.res, -desc, -stop, -stem) %>%
+tt <- select(tt@tokens, -desc, -stop, -stem) %>%
   rename(gram = token)
 tt <- tt[!duplicated(tt), ]
 pop1 <- left_join(pop1, tt, by = "gram")
@@ -81,13 +81,13 @@ pop2 <- pop2 %>% filter(!(first_word %in% excludes | second_word %in% excludes))
   filter(nchar1 > 3, nchar2 > 3)
 
 tt_1 <- koRpus::treetag(sort(unique(pop2$first_word)), lang = "en", format = "obj")
-tt_1 <- select(tt_1@TT.res, token, wclass, lemma) %>%
+tt_1 <- select(tt_1@tokens, token, wclass, lemma) %>%
   rename(first_word = token, wclass_1 = wclass, lemma_1 = lemma) %>%
   filter(wclass_1 %in% c("adjective", "noun"))
 tt_1 <- tt_1[!duplicated(tt_1), ]
 
 tt_2 <- koRpus::treetag(sort(unique(pop2$second_word)), lang = "en", format = "obj")
-tt_2 <- select(tt_2@TT.res, token, wclass, lemma) %>%
+tt_2 <- select(tt_2@tokens, token, wclass, lemma) %>%
   rename(second_word = token, wclass_2 = wclass, lemma_2 = lemma) %>%
   filter(wclass_2 %in% c("adjective", "noun"))
 tt_2 <- tt_2[!duplicated(tt_2), ]

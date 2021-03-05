@@ -6,7 +6,7 @@
 #' @param pos Position to pass to text()
 #' @param col Colour of text
 #' @param ... Anything extra to pass to text(), e.g. cex, col.
-add_label <- function(xfrac, yfrac, label, pos = 4, col = "grey35", ...) {
+add_label <- function(xfrac, yfrac, label, pos = 4, col = "grey5", ...) {
   u <- par("usr")
   x <- u[1] + xfrac * (u[2] - u[1])
   y <- u[4] - yfrac * (u[4] - u[3])
@@ -115,7 +115,7 @@ ecogram_panel <- function(x,
     axes = FALSE, ann = FALSE, yaxs = "i", xaxs = "i",
     log = log_arg)
 
-  abline(v = seq(1950, 2010, 20), col = "grey92", lwd = 0.8)
+  abline(v = seq(1950, 2010, 20), col = "grey88", lwd = 0.8)
 
   uniq <- group_by(x, gram_canonical) %>%
     summarise(first_year = min(year)) %>%
@@ -124,21 +124,21 @@ ecogram_panel <- function(x,
 
   max_axis2 <- ifelse(ii %in% seq_len(ncols),
     ylim[2], ylim[2] * stop_lab)
-  axis(2, col.ticks = "grey35", col = NA,
+  axis(2, col.ticks = "grey10", col = NA,
     at = pretty(seq(0, max_axis2, length.out = 200), n = 3), cex.axis = cex.axis)
 
   if (!is.null(xaxes)) {
     if (ii %in% xaxes) {
-      axis(1, col.ticks = "grey35", at = seq(1930, 2010, 20),
+      axis(1, col.ticks = "grey10", at = seq(1930, 2010, 20),
         padj = -0.4, col = NA, cex.axis = cex.axis, gap.axis = 0.01)
     }
   }
 
-  box(col = "grey45")
+  box(col = "grey10")
 
   for (i in seq_along(uniq)) {
     raw <- dplyr::filter(x, gram_canonical == uniq[i])
-    lines(raw$year, raw$total/raw$total_words, lwd = .85, col = "grey75")
+    lines(raw$year, raw$total/raw$total_words, lwd = .85, col = "grey70")
   }
   for (i in seq_along(uniq)) {
     smo <- dplyr::filter(sm, gram_canonical == uniq[i])
@@ -164,7 +164,7 @@ ecogram_panel <- function(x,
   if (show_seg)
     segments(x0 = year_limits[2], x1 = year_limits[2] + connector_length,
       y0 = lab$y, y1 = lab$ynew,
-      col = "grey60", lwd = 0.83)
+      col = "grey40", lwd = 0.83)
 
   .letter <- paste0("(", letters[[ii]], ")")
   add_label(xfrac = -0.005, yfrac = yfrac_let, label = .letter, cex = 1.2,
@@ -174,7 +174,7 @@ ecogram_panel <- function(x,
   x <- u[1] + 0.0 * (u[2] - u[1]) + strwidth(.letter, font = 2, cex = 1.15) +
     strwidth(" ")
   y <- u[4] - yfrac_let * (u[4] - u[3])
-  text(x, y, labels = lab_text, pos = 4, col = "grey35", cex = 1.1)
+  text(x, y, labels = lab_text, pos = 4, col = "grey5", cex = 1.1)
   ii <<- ii + 1
 }
 
@@ -193,7 +193,7 @@ ecogram_panels <- function(dat, right_gap = 50, ncols = 2, csv_out = NULL, ...) 
 
   par(mfrow = c(nrows, ncols))
   par(mgp = c(2, 0.3, 0), tcl = -0.15, las = 1, cex = 0.7,
-    col.axis = "grey35", mar = c(0.025, 1.9, 0, 0), oma = c(1.7, 0.5, .5, .5))
+    col.axis = "grey5", mar = c(0.025, 1.9, 0, 0), oma = c(1.7, 0.5, .5, .5))
   ii <<- 1
   xaxes <- seq(npanels - (ncols - 1), npanels)
   mutate(dat, total_words = total_words/1e5, total = total) %>%
@@ -202,6 +202,6 @@ ecogram_panels <- function(dat, right_gap = 50, ncols = 2, csv_out = NULL, ...) 
       lab_text = as.character(unique(gsub("[0-9]+: ", "", x$panel))),
       ...)})
   mtext("Frequency per 100,000 words", side = 2, outer = TRUE, line = -0.55,
-    col = "grey35", cex = 0.85, las = 0)
+    col = "grey5", cex = 0.85, las = 0)
   invisible(dat_out)
 }

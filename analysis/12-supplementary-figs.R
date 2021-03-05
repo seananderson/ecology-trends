@@ -1,6 +1,7 @@
 library(tidyverse)
 library(ggsidekick)
 library(forcats)
+source("analysis/frontiers_theme.R")
 
 pnas_exluded_pub_ids <- readRDS("data/generated/pnas_exluded_pub_ids.rds")
 
@@ -44,7 +45,7 @@ g <- journal_totals %>%
   ggplot(aes(year, total_words/1e6)) +
   geom_line() +
   facet_wrap(~forcats::fct_reorder(journal, -total_journal_words),
-    scales = "fixed") + ggsidekick::theme_sleek() +
+    scales = "fixed") + frontiers_theme() +
   ylab("Total words (millions)") + xlab("Year")
 
 ggsave("figs/journal-totals-by-year.pdf", width = 10, height = 9)

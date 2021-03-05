@@ -1,3 +1,4 @@
+source("analysis/frontiers_theme.R")
 make_handpicked_panel <- function(terms_file, cache_file, fig_file,
   fig_width = 6, fig_height = 10, bottom_frac_up = 0.035,
   right_gap = 64, ncols = 2, connector_length = 1.9,
@@ -86,7 +87,7 @@ make_handpicked_panel <- function(terms_file, cache_file, fig_file,
     "focus group\\\n", d$gram_canonical)
 
   d$panel <- gsub("Consequences to species/landscapes",
-    "Consequences to spp./landscapes", d$panel)
+    "Landscape/spp. consequences", d$panel)
 
   if (any(grepl("[0-9]+: Hypotheses$", d$panel))) {
     d$gram_canonical <- gsub(" hypothesis$",
@@ -112,7 +113,7 @@ make_handpicked_panel <- function(terms_file, cache_file, fig_file,
     geom_line() +
     facet_wrap(~paste(gram_canonical, gram, sep = "\n"),
       scales = "free_y", ncol = 6) +
-    ggsidekick::theme_sleek() +
+    frontiers_theme() +
     ylab("Frequency per 100,000 words") +
     xlab("Year")
   invisible(g)

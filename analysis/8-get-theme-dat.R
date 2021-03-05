@@ -12,7 +12,7 @@ library("koRpus")
 set.kRp.env(TT.cmd =
     "~/Dropbox/bin/treetagger/cmd/tree-tagger-english", lang = "en")
 tt <- treetag(terms, format = "obj")
-tt <- tt@TT.res
+tt <- tt@tokens
 plurals <- unique(filter(tt, tag == "NNS")$token)
 
 x <- unlist(sapply(plurals, function(x) d$term[grepl(x, d$term)]))

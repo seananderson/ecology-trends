@@ -3,6 +3,7 @@ source("analysis/plot-panels.R")
 source("analysis/extract-functions.R")
 source("analysis/pretty-panels.R")
 source("analysis/make-handpicked-panel.R")
+source("analysis/frontiers_theme.R")
 
 pal_func <- function(n) {
   pal <- viridisLite::plasma(n, begin = 0.01, end = 0.81, direction = -1)

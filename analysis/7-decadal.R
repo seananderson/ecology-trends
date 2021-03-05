@@ -1,14 +1,14 @@
 source("analysis/extract-functions.R")
 source("analysis/booming.R")
 source("analysis/pretty-panels.R")
-
+source("analysis/frontiers_theme.R")
 total1 <- readRDS(here::here("data/generated/total1.rds"))
 g <- total1 %>%
   filter(year >= 1930, year <= 2010) %>%
   ggplot(aes(year, total_words / 1e6)) +
   geom_point() +
   geom_line() +
-  ggsidekick::theme_sleek() +
+  frontiers_theme() +
   ylab("Millions of 1-grams") + xlab("Year")
 ggsave("figs/webfigure2.pdf", width = 5.5, height = 0.618 * 5.5)
 
@@ -52,7 +52,7 @@ pop2 <- pop2 %>%
 # ----------
 # Keep just the nouns and adjectives
 tt <- koRpus::treetag(sort(unique(pop1$gram)), lang = "en", format = "obj")
-tt <- select(tt@TT.res, -desc, -stop, -stem) %>%
+tt <- select(tt@tokens, -desc, -stop, -stem) %>%
   rename(gram = token)
 tt <- tt[!duplicated(tt), ]
 pop1 <- left_join(pop1, tt, by = "gram")
@@ -69,13 +69,13 @@ pop2 <- pop2 %>% filter(!(first_word %in% excludes | second_word %in% excludes))
   filter(nchar1 > 3, nchar2 > 3)
 
 tt_1 <- koRpus::treetag(sort(unique(pop2$first_word)), lang = "en", format = "obj")
-tt_1 <- select(tt_1@TT.res, token, wclass, lemma) %>%
+tt_1 <- select(tt_1@tokens, token, wclass, lemma) %>%
   rename(first_word = token, wclass_1 = wclass, lemma_1 = lemma) %>%
   filter(wclass_1 %in% c("adjective", "noun"))
 tt_1 <- tt_1[!duplicated(tt_1), ]
 
 tt_2 <- koRpus::treetag(sort(unique(pop2$second_word)), lang = "en", format = "obj")
-tt_2 <- select(tt_2@TT.res, token, wclass, lemma) %>%
+tt_2 <- select(tt_2@tokens, token, wclass, lemma) %>%
   rename(second_word = token, wclass_2 = wclass, lemma_2 = lemma) %>%
   filter(wclass_2 %in% c("adjective", "noun"))
 tt_2 <- tt_2[!duplicated(tt_2), ]
@@ -155,7 +155,7 @@ plot_decades <- function(dat, right_gap = 30,
   npanels <- length(unique(dat$panel))
   par(mfrow = c(nrows, ncols))
   par(mgp = c(2, 0.3, 0), tcl = -0.15, las = 1, cex = 0.7,
-    col.axis = "grey35", mar = c(0.025, 2.1, 0, 0), oma = c(1.7, 1.1, .5, .5))
+    col.axis = "grey05", mar = c(0.025, 2.1, 0, 0), oma = c(1.7, 1.1, .5, .5))
   ii <<- 1
   xaxes <- seq(npanels - (ncols - 1), npanels)
   mutate(dat, total_words = total_words/1e5, total = total) %>%
@@ -164,7 +164,7 @@ plot_decades <- function(dat, right_gap = 30,
       right_gap = right_gap, label_cex = label_cex, yfrac_let = yfrac_let,
       lab_text = unique(x$panel), ymax = unique(x$ymax), ...)})
   mtext("Frequency per 100,000 words", side = 2, outer = TRUE, line = -0.05,
-    col = "grey35", cex = 0.85, las = 0)
+    col = "grey05", cex = 0.85, las = 0)
 }
 
 df <- tibble(decade = c("1940s", "1940s", "2000s", "2000s"),

@@ -28,14 +28,10 @@ f_supp <- c(
 
 library(future)
 plan(multisession)
-#
+
 furrr::future_map(seq_along(f), function(i) {
   fig <- i
   this_fig.tiff <- paste0("Figure", fig, ".tiff")
-  # command <- paste0(
-  #   "gs -q -dNOPAUSE -r300 -sDEVICE=tiffg4 -sOutputFile=", this_fig.tiff, f[i], " -c quit")
-  # command <- paste0("convert -density 800 -background white -flatten -resize 50% ", f[i], " ", this_fig.tiff)
-  # system(command)
   this_fig.jpg <- gsub("tiff$", "jpg", this_fig.tiff)
   command <- paste0("convert -density 1250 -background white -flatten -quality 99 -resize 50% ", f[i], " ", this_fig.jpg)
   system(command)
@@ -44,21 +40,25 @@ furrr::future_map(seq_along(f), function(i) {
 command <- paste0("convert -density 1250 -background white -flatten -quality 99 -resize 50% ", "decades-and-booms.pdf", " ", "Figure1a.jpg")
 system(command)
 
+purrr::walk(seq_along(f), function(i) {
+  fig <- i
+  this_fig.pdf <- paste0("Figure", fig, ".pdf")
+  command <- paste0("cp ", f[i], " ", this_fig.pdf)
+  system(command)
+})
+
+command <- paste0("cp ", "decades-and-booms.pdf", " ", "Figure1a.pdf")
+system(command)
+
 # furrr::future_map(seq_along(f_supp), function(i) {
 furrr::future_map(seq_along(f_supp[1:8]), function(i) {
   fig <- i
   this_fig.tiff <- paste0("WebFigure", fig, ".tiff")
-  # command <- paste0(
-  #   "gs -q -dNOPAUSE -r300 -sDEVICE=tiffg4 -sOutputFile=", this_fig.tiff, f_supp[i], " -c quit")
-  # command <- paste0("convert -density 800 -background white -flatten -resize 50% ", f_supp[i], " ", this_fig.tiff)
-  # system(command)
   this_fig.jpg <- gsub("tiff$", "jpg", this_fig.tiff)
-  # command <- paste0("convert -density 1500 -background white -flatten -quality 100 -resize 50% ", f_supp[i], " ", this_fig.jpg)
-  # system(command)
-
   this_fig.jpg2 <- gsub("\\.jpg$", "-lowres.jpg", this_fig.jpg)
   command <- paste0("convert -density 1000 -background white -flatten -quality 96 -resize 33% ", f_supp[i], " ", this_fig.jpg2)
   system(command)
 })
 
 plan(sequential)
+setwd("..")

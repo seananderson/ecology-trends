@@ -96,9 +96,6 @@ rm(orig_x, swap)
 assertthat::assert_that(length(unique(x$panel)) < 40)
 assertthat::assert_that(length(unique(x$second_word)) < 40)
 
-# in case the cached data includes words that are no longer used:
-# x <- filter(x, second_word %in% second_words)
-
 x <- filter(x, nchar(first_word) >= 4, !grepl("[0-9]+", first_word))
 
 x_top <- x %>%
@@ -130,7 +127,7 @@ x_top2$lemma[x_top2$lemma == "<unknown>"] <- x_top2$first_word[x_top2$lemma == "
 
 x_top2 <- mutate(x_top2,
   panel_lemma =
-    treetag(gsub(" as first", "", panel), format = "obj")@TT.res$lemma)
+    treetag(gsub(" as first", "", panel), format = "obj")@tokens$lemma)
 x_top2 <- x_top2 %>% mutate(panel_lemma =
     ifelse(grepl(" as first", panel), paste(panel_lemma, "as first"), panel_lemma))
 x_top2 <- x_top2 %>% mutate(panel_lemma = gsub("^specie$", "species", panel_lemma))
@@ -212,7 +209,7 @@ plot_blanks <- function(dat, right_gap = 40,
   nrows <- ceiling(n/ncols)
   par(mfrow = c(nrows, ncols))
   par(mgp = c(2, 0.3, 0), tcl = -0.15, las = 1, cex = 0.7,
-    col.axis = "grey25", mar = c(0.025, 2.1, 0, 0), oma = c(1.7, 0.5, .5, .5))
+    col.axis = "grey5", mar = c(0.025, 2.1, 0, 0), oma = c(1.7, 0.5, .5, .5))
   ii <<- 1
   xaxes <- seq(n - (ncols - 1), n)
   mutate(dat, total_words = total_words/1e5, total = total) %>%
@@ -227,7 +224,7 @@ plot_blanks <- function(dat, right_gap = 40,
         lab_text = paste(simple_cap(as.character(unique(x$panel))),
           collapse = ""), ...)})
   mtext("Frequency per 100,000 words", side = 2, outer = TRUE, line = -.8,
-    col = "grey25", cex = 0.85, las = 0)
+    col = "grey5", cex = 0.85, las = 0)
 }
 
 # gd$panel_lemma <- factor(gd$panel_lemma, levels = c(
@@ -321,13 +318,6 @@ pal_func <- function(n) {
   # RColorBrewer::brewer.pal(n, "Dark2")
 }
 
-# pdf("figs/blanks-paired.pdf", width = 6.5, height = 6.5 * 4/2  * gold())
-# gd2 %>%
-#   plot_blanks(right_gap = 23, log_y = FALSE,
-#     bottom_frac_up = 0.03, label_gap = -1.0,
-#     show_seg = TRUE, pal = pal_func)
-# dev.off()
-
 temp <- gd %>%
   filter(panel_lemma %in% c("theory", "theory-of as first", "niche", "niche as first")) %>%
   mutate(panel_lemma = gsub("theory-of as first", "theory of ____", panel_lemma)) %>%
@@ -340,7 +330,6 @@ temp$panel_lemma <- factor(temp$panel_lemma,
   levels = c(
     # "theory of ____", "____ Theory",
     "niche ____", "____ Niche"))
-
 
 pdf("figs/blanks-extras-2018-08-09.pdf", width = 4, height = 7.5 * gold())
 plot_blanks(temp, right_gap = 34, log_y = FALSE,
