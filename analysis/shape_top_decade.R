@@ -1,7 +1,6 @@
 shape_top_decade <- function(data, gram_db, total1, top = 9) {
 
   keep <- group_by(data, decade, lemma) %>%
-    # top_n(n = 1, wt = total) %>%
     summarise(total = sum(total)) %>%
     group_by(decade) %>%
     top_n(n = top, wt = total) %>%

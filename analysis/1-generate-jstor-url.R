@@ -1,8 +1,6 @@
 library(tidyverse)
 decisions <- readr::read_csv("data/journal-filtering.csv")
 
-identifiers <- readr::read_csv("data/terms.csv")
-
 include <- filter(decisions, group_vote == "IN")
 
 include$journal[include$journal == "Ã‰coscience"] <- "Écoscience"
