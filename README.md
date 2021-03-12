@@ -1,5 +1,7 @@
 ## Code for 'Trends in ecology and conservation over eight decades'
 
+[![DOI](https://zenodo.org/badge/72040433.svg)](https://zenodo.org/badge/latestdoi/72040433)
+
 This repository contains code for the analysis in the paper:
 
 Anderson, S.C., P.R. Elsen, B.B. Hughes, R.K. Tonietto, M.C. Bletz, D.A. Gill, M.A. Holgerson, S.E. Kuebbing, C. McDonough MacKenzie, M.H. Meek, D. Veríssimo. Trends in ecology and conservation over eight decades. In press at Frontiers in Ecology and the Environment. <https://doi.org/10.1002/fee.2320>.
