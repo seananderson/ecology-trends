@@ -32,3 +32,4 @@ text/ecograms.tex
 text/Supplemental/*
 *.csv
 data/zombie-request1.txt
+data/generated/included-journals.txt
