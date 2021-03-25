@@ -24,10 +24,10 @@ order,panel,gram,gram_canonical
  ,Hypothesis testing,null hypothesis,null hypothesis
  ,Hypothesis testing,power analysis,power analysis
  ,Hypothesis testing,power analyses,power analysis
- ,Hypothesis testing,p value,p-value
- ,Hypothesis testing,p values,p-value
- ,Hypothesis testing,pvalue,p-value
- ,Hypothesis testing,pvalues,p-value
+ ,Hypothesis testing,p value,P value
+ ,Hypothesis testing,p values,P value
+ ,Hypothesis testing,pvalue,P value
+ ,Hypothesis testing,pvalues,P value
  ,Hypothesis testing,significant difference,significant difference
  ,Hypothesis testing,significant differences,significant difference
  ,Hypothesis testing,significantly different,significant difference
