@@ -38,7 +38,7 @@ plot_boom <- function(dat, right_gap = 15,
   # nrows <- ceiling(sqrt(n))
   par(mfrow = c(nrows, ncols))
   par(mgp = c(2, 0.3, 0), tcl = -0.15, las = 1, cex = 0.7,
-    col.axis = "grey55", mar = c(0.025, 2.1, 0, 0), oma = c(1.7, 1.1, .5, .5))
+    col.axis = "grey5", mar = c(0.025, 2.1, 0, 0), oma = c(1.7, 1.1, .5, .5))
   ii <<- 1
   xaxes <- seq(npanels - (ncols - 1), npanels)
   mutate(dat, total_words = total_words/1e5, total = total) %>%
@@ -57,7 +57,7 @@ plot_boom <- function(dat, right_gap = 15,
         col = "#00000015", border = NA)
     })
   mtext("Frequency per 100,000 words", side = 2, outer = TRUE, line = -0.05,
-    col = "grey45", cex = 0.85, las = 0)
+    col = "grey5", cex = 0.85, las = 0)
 }
 
 plot_decades_and_boom <- function(dat, right_gap = 15,
